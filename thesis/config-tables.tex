@@ -1,0 +1,72 @@
+% Подключаем нужные пакеты для таблиц и оформления
+\usepackage{booktabs}   % Для красивых горизонтальных линий (\toprule, \midrule, \bottomrule)
+\usepackage{multirow}   % Для объединения ячеек по вертикали
+\usepackage{caption}    % Для \ContinuedFloat и настройки заголовков
+\usepackage{longtable}
+\usepackage{etoolbox}
+
+\DeclareCaptionLabelSeparator{emdash}{\space---\space}  % пробел, длинное тире, пробел
+
+% Настройка заголовков таблиц: слева без абзацного отступа, разделитель — тире (п. 4.6.3)
+\captionsetup[table]{position=t, singlelinecheck=false, justification=raggedright, labelsep=emdash, name=Таблица}
+
+% Переключатель для смены выравнивания заголовков при переносе таблицы (п. 4.6.3)
+\newcommand*\RightCaption{\captionsetup{justification=raggedleft}}
+\newcommand*\LeftCaption{\captionsetup{justification=raggedright}}
+
+% ------------------------
+% Шаблон: Многоуровневый заголовок
+% ------------------------
+\newcommand{\ExampleMultiLevelTable}{%
+\begin{table}[h!]
+\caption{Пример построения таблицы}
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\multirow{2}{*}{\textbf{Заголовок}} & \multicolumn{2}{c|}{\textbf{Заголовок колонки}} & \multirow{2}{*}{\textbf{Заголовок колонки}}\\
+\cline{2-3}
+& \textbf{Подзаголовок} & \textbf{Подзаголовок} & \\
+\hline
+A & B & C & D \\
+\hline
+\end{tabular}
+\end{table}
+}
+
+% Шаблон: «Разбитая» таблица (две части под одним номером)
+% Номер таблицы в строке «Продолжение таблицы N» подставляется автоматически
+\newcommand{\ExampleSplitTable}{%
+  % --- Первая часть ---
+  \begin{table}[h!]
+    \LeftCaption
+    \caption{Пример переноса таблицы}
+    \label{tab:split_example}
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{Заголовок} & \textbf{Заголовок колонки} & \textbf{Заголовок колонки} & \textbf{Заголовок колонки} \\
+    \hline
+    1 & 2 & 3 & 4 \\
+    \hline
+    2 & 3 & 4 & 5 \\
+    \hline
+    \end{tabular}
+  \end{table}
+
+  % --- Продолжение (номер подставляется автоматически через \thetable) ---
+  \begin{table}[h!]
+    \ContinuedFloat
+    \RightCaption
+    \caption*{Продолжение таблицы \thetable}
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{Заголовок} & \textbf{Заголовок колонки} & \textbf{Заголовок колонки} & \textbf{Заголовок колонки} \\
+    \hline
+    3 & 4 & 5 & 6 \\
+    \hline
+    4 & 5 & 6 & 7 \\
+    \hline
+    \end{tabular}
+  \end{table}
+}
