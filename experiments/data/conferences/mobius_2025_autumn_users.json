@@ -1,0 +1,1996 @@
+{
+  "users": [
+    {
+      "id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "profile": "Опытный iOS‑разработчик, работает со Swift и SwiftUI/UIKit, уделяет большое внимание архитектуре, производительности и качеству пользовательского интерфейса; интересуется on-device ML, Privacy‑First AI, spatial computing, server‑driven UI."
+    },
+    {
+      "id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "profile": "Android‑инженер, сфокусирован на системных аспектах: производительности, безопасности и оптимизациях; интересуется защитой приложений, anti‑reverse engineering, камерой/мультимедиа, стабильностью на широком спектре устройств."
+    },
+    {
+      "id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "profile": "Тимлид/архитектор мобильной команды, ориентирован на управляемую сложность: модульность, чёткие границы компонентов, согласованную работу offline/online, инженерные практики и качество процессов разработки."
+    },
+    {
+      "id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "profile": "Инженер по качеству и надёжности мобильного продукта, специализируется на тестировании, наблюдаемости и анализе инцидентов; интересуется crash reporting, метриками, postmortem‑подходами, fuzzing."
+    },
+    {
+      "id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "profile": "Кроссплатформенный разработчик, использует Flutter и/или KMP; интересуется UI‑анимациями, производительностью рендеринга, виджетами, а также сборкой, туллингом и практиками совместного кода."
+    },
+    {
+      "id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "profile": "Инженер по кроссплатформенной интеграции и code sharing, занимается KMP/interop; интересуется Kotlin‑Swift export, Java‑Swift interop и практическими методами уменьшения дублирования кода между платформами."
+    },
+    {
+      "id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "profile": "Специалист на стыке дизайна и разработки, фокусируется на дизайн‑системах и консистентности интерфейса; интересуется BDUI/SDUI, процессами переноса дизайна в код, поддержкой библиотек компонентов."
+    },
+    {
+      "id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "profile": "Продуктовый специалист, ориентирован на пользовательскую ценность и метрики: удержание, активацию, рост; интересуется геймификацией, UX‑компромиссами и оценкой влияния решений на продуктовые показатели."
+    },
+    {
+      "id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "profile": "Инженер/продуктовый специалист по внедрению AI в мобильные приложения и процессы разработки; интересуется LLM‑сценариями, on-device LLM на iOS, приватностью, стоимостью и инженерными ограничениями."
+    },
+    {
+      "id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "profile": "Независимый разработчик, создаёт мобильные приложения с ограниченными ресурсами; фокусируется на скорости поставки, простоте архитектуры, поддерживаемости, безопасности ключей/API и приоритизации работ."
+    }
+  ],
+  "scores": [
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 3.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 0.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "c0566b22-f51c-4540-a0b1-fe07e3725264",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 1.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "b94b9287-d881-49ed-ac9e-4d17365fda16",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 0.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 1.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 3.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 0.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 3.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 0.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 0.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 0.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 0.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 3.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "fc751f64-9588-438a-b566-c7e84efc8d67",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 1.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 0.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "505da2d1-55e7-4d4f-a01e-0767f14122a7",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 3.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "b8e49241-776c-4855-b96e-53e28d53b7c0",
+      "score": 3.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 1.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 3.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 0.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 0.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 0.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "6fb20993-3022-4231-b09d-3896e718770a",
+      "score": 0.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 3.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "97d77aba-7bcd-4c14-a21f-8b369d25321d",
+      "score": 1.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 3.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 3.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "249d054b-0e7f-441c-b2e1-03ca439c1c3b",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 3.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 1.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 3.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "3b37ede6-38e0-404b-92cd-c50297a6c875",
+      "score": 1.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 3.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 3.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "5de14e81-eecc-452a-9408-0cbaebebd670",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 1.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 3.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "5ea8ec5a-1f71-4270-93d7-cd84ec846b4f",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 3.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 2.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "25030506-424b-454c-9eb3-bff4e812532a",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 3.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf",
+      "score": 3.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 3.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "3808bca0-f3cd-42ae-a445-2d51788ed8ec",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "95be6720-2939-4f6b-9b79-05ab2e9a1b9a",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "5eb8b3e9-4b11-48c5-9c08-b701bcc558ce",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 1.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 3.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "8b050486-6205-499a-9ad9-58d87052b51d",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 3.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 0.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 0.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 3.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "4566c47a-fc93-449a-8ac6-39b8124ec889",
+      "score": 3.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 3.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 0.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 1.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 0.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "682e16ec-b0ea-4379-a7f2-e8d96a6ce948",
+      "score": 3.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 3.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "9775c17a-2014-4574-bf26-1b34fc6d01d8",
+      "score": 3.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 1.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 0.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "240dd01a-6a52-4443-b7e7-7a81666bc9cc",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 3.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 3.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "a2863300-2056-4d7c-9252-9c87141a0b4e",
+      "score": 1.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 0.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 2.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 0.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "30966009-8397-4952-bef8-92af96db3494",
+      "score": 0.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 3.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 0.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "920becd0-471f-464f-91a8-5782ae546eb0",
+      "score": 3.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 0.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 3.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 0.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 0.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "656a85a5-2d7d-4980-aa11-b83ad236a054",
+      "score": 3.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 1.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 1.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "3e6a0b14-ee4b-42bd-8000-baa5af997516",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 1.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 0.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 0.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 3.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "6e90aabb-21be-46d2-b253-7076367477fb",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 3.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 3.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 0.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 0.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 0.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 3.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 0.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 0.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "951e6a1b-525e-42e6-91ec-8e26c26baba7",
+      "score": 1.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 0.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 3.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 3.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 0.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "66c68e73-9691-4cde-9a70-4892045d610f",
+      "score": 0.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 0.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 3.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 3.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 0.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 0.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "35374f1f-574b-460e-b925-c8957833af09",
+      "score": 1.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 2.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 2.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 2.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 2.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 2.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "c96a7c5e-4375-4515-9e51-ec213a32d6de",
+      "score": 1.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 1.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 1.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 1.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 2.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "85964cbc-c988-48d5-b890-e60ad500e248",
+      "score": 3.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 1.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 3.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 0.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "f465c4ed-8502-407e-aac9-1679137ac427",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 3.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 1.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 2.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 2.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 0.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "a4f6f840-cd4e-45c0-8ea8-e75162474667",
+      "score": 1.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 0.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 0.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 3.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 0.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 3.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 0.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 3.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 3.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 2.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "998dc816-c977-4186-b016-10bc0bdaa353",
+      "score": 2.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "8886e03e-6c3b-4be9-82fd-0a0dd3d1279e",
+      "score": 1.0
+    },
+    {
+      "user_id": "2fd218b2-7501-4823-89f9-c94e8545ccec",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    },
+    {
+      "user_id": "36656dc0-4fb0-41d9-8122-b41571e825bd",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    },
+    {
+      "user_id": "25eb76a1-4a6a-48ab-8785-105ad2d28e64",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    },
+    {
+      "user_id": "0a140e80-0dd9-46ef-afef-7e0006c0382e",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    },
+    {
+      "user_id": "decd23ea-8dfb-42dd-9faf-f2009eb0bb22",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    },
+    {
+      "user_id": "9871240f-53e7-4893-9f49-7fe3f001750f",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    },
+    {
+      "user_id": "bbbc90b0-6a23-447e-bf72-2cee3eae23b9",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    },
+    {
+      "user_id": "6eedf521-ca16-48cf-be48-e3bc2f5227b5",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    },
+    {
+      "user_id": "16a1c04e-acf2-4c3b-9434-0d9a063cfaa6",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    },
+    {
+      "user_id": "0b2cdcb5-4fae-472b-8dd2-4f9f727cc823",
+      "topic_id": "a80315ce-4636-42cf-bf90-fe072ec47e31",
+      "score": 1.0
+    }
+  ]
+}
