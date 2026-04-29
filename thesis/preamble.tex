@@ -2,6 +2,16 @@
 \usepackage{fontspec}
 \setmainfont{Times New Roman}
 
+% Математические пакеты (\mathbb, \varnothing, \mathcal, окружения align/equation и т.п.)
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Защита от overfull \hbox (длинные слова и термины не вылезают за поля)
+\sloppy
+\emergencystretch=3em
+\hyphenpenalty=50
+\tolerance=2000
+
 % Настройка полей: левое 30 мм, правое 15 мм (допускается 10 мм), верхнее 20 мм, нижнее 20 мм (п. 4.2)
 \usepackage[a4paper,top=20mm,bottom=20mm,left=30mm,right=15mm]{geometry}
 
@@ -30,7 +40,6 @@
 \usepackage{titlesec}
 % Главы: прописными, полужирный, по центру, без точки (п. 4.4.1, 4.4.4)
 \titleformat{\chapter}[hang]{\bfseries\fontsize{16pt}{18pt}\selectfont\centering}{\thechapter}{1em}{\MakeUppercase}
-{\thechapter}{1em}{\MakeUppercase}
 % Разделы: полужирный, с абзацного отступа (п. 4.4.4)
 \titleformat{\section}[hang]{\bfseries\normalsize}{\thesection}{1em}{}
 % Подразделы: обычный шрифт, с абзацного отступа (п. 4.4.4 — полужирный только для разделов)
