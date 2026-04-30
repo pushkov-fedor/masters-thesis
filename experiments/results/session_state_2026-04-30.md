@@ -1,124 +1,66 @@
-# Состояние проекта на 2026-04-30
+# Состояние проекта (вечер 30.04.2026)
 
-Снимок для возврата в работу после паузы. Описывает: что готово, что нашли исследовательские агенты, какие развилки остаются, с чего начать в следующей сессии.
+## Где мы
 
-## Что готово в коде
+**В коде** — много чего сделано, всё закоммичено.
+**В тексте ВКР** — Глава 3 черновик готов (`materials/глава-3/черновик-главы-3.md` + `thesis/chapter3.tex`). Главы 1-2 были раньше. Глава 4 не начата.
 
-| Компонент | Состояние | Где |
-|---|---|---|
-| 11 базовых политик (Random, Cosine, MMR, Capacity-aware, Capacity-aware MMR, DPP, Calibrated, Sequential, GNN, Constrained-PPO, LLM-ranker) | работает | `src/policies/` |
-| 12-я политика — Constrained-PPO-v2 (multi-agent batch episode) | обучена 200K шагов, intergrated | `src/policies/ppo_v2_policy.py`, `scripts/train_ppo_v2.py` |
-| Параметрический симулятор + multinomial logit choice | работает | `src/simulator.py` |
-| LLM-агентный симулятор v2 (память, личность, усталость, social граф, рефлексия) | работает | `src/agents/agent_simulator_v2.py` |
-| Multi-signal fame для Mobius и Demo Day | работает | `scripts/build_fame_score.py`, `data/conferences/*_fame.json` |
-| Поддержка `user_compliance` и `w_fame` в SimConfig | работает | `src/simulator.py` |
-| Sweep по compliance ∈ {0.3, 0.5, 0.7, 0.9, 1.0} | пройден, числа в `results/compliance_sweep.json` | `scripts/run_compliance_sweep.py` |
-| Permutation test для H3 (Manski reflection) | сделан, social effect — артефакт | `scripts/test_hypotheses.py` |
-| Cross-conference robustness (Mobius vs Demo Day) | ρ=0.99 интра-Mobius, ρ=0.68 кросс, p=0.042 | `scripts/cross_conference.py` |
-| Inter-slot chat (MiroFish-вдохновение) | модуль реализован, НЕ интегрирован, НЕ smoke-tested | `src/agents/inter_slot_chat.py` |
+## Что закоммичено
 
-## Что готово в текстах ВКР
+| Коммит | Что сделано |
+|--------|-------------|
+| 0c039cb | Multi-agent PPO + inter-slot chat прототип + отчёт v5 |
+| f75621d | v6: 1200 агентов, MovieLens cross-domain, stylized facts, inter-slot chat интеграция |
+| e940ed7 | Уборка проекта (-9000 строк, -35 файлов мусора) |
+| f527132 | Глава 3 — первый черновик |
 
-- Введение, Глава 1, Глава 2 свёрстаны в LaTeX-шаблон (коммит 6490702)
-- Главы 1-2 ещё не подавались — можно переписывать
+## Главные числа для защиты
 
-## Главный научный результат (на текущий момент)
+- Симулятор на 1200 агентах: Capacity-aware MMR в 2.2× меньше переполнений по сравнению с косинусной политикой.
+- При высокой восприимчивости к подсказке (compliance = 0.9): в 55× меньше.
+- Cross-domain на MovieLens 1M: относительный порядок политик сохраняется, Spearman ρ = +0.77 (p = 0.016) для среднего избытка над вместимостью; ρ = +0.82 (p = 0.007) для дисперсии загрузки залов.
+- Demo Day 900 агентов: Capacity-aware MMR тоже лидер.
+- Stylized facts: 2 из 3 воспроизводятся (Парето-распределение посещаемости и снижение посещаемости от слота к слоту, оба значимы при p < 0.005); концентрация по тематическим трекам не воспроизводится — честный негативный результат, объяснимый отсутствием инерции тематического интереса в модели агента.
 
-В среде с реалистичными переполнениями (fame + неполная compliance) простая Capacity-aware политика даёт в 5-11× меньше overflow, чем 10 более сложных методов (Cosine, MMR, DPP, Sequential, GNN, Calibrated, Constrained-PPO, Constrained-PPO-v2, LLM-ranker). Граница применимости — compliance < 0.5: при низкой compliance recsys теряет преимущество, потому что звёздные доклады собирают толпу независимо от подсказок.
+## Что НЕ получили (открытые точки)
 
-| compliance | Capacity-aware OF | Cosine OF | Соотношение |
-|---|---|---|---|
-| 0.3 | 0.093 | 0.287 | 3× |
-| 0.5 | 0.065 | 0.306 | 4.7× |
-| 0.7 | 0.028 | 0.315 | 11× |
-| 0.9 | 0.000 | 0.306 | ∞ |
-| 1.0 | 0.000 | 0.315 | ∞ |
+1. **Полный прогон inter-slot chat ablation.** Интеграция в коде работает, smoke на 10 агентах прошёл (47 постов). Полные прогоны 50-100 агентов дважды зависали (проблема с числом одновременных запросов и переиспользованием клиента между политиками). Внесён fix (timeout, max_retries, пересоздание клиента). Можно добить за час, но не критично для защиты — сама методология описана в Главе 3.
+2. **Чувствительность по числу агентов.** У нас 1200. На вопрос «не подогнали ли число под результат» пока нет ответа. Можно за минуту прогнать 600/1000/1500/2000 через символьный симулятор и показать, что Capacity-aware остаётся в топе.
+3. **Полный MiroFish-стек не подняли.** Это надстройка над Flask + Vue + Zep Cloud + camel-oasis (260 коммитов). Pivot: ядро методологии (агенты пишут отзывы → читают отзывы коллег по теме) реализовано в нашем фреймворке как inter-slot chat. В главе 3 раздел 3.2.2 это описано.
+4. **Cross-domain на «настоящем» Meetup-датасете.** Изначально планировали публичный Meetup Dataset (wuyuehit/Meetup-Recommendation-Dataset), но репозиторий вернул 404 — удалён или переехал. Использовали MovieLens 1M с синтетическими тайм-слотами и жанрами как залами. Если найдём более близкий аналог (GoalZone Fitness, Reviewer Assignment Gold Standard) — переделаем; пока MovieLens достаточно для сильного результата по корреляции.
 
-Multi-agent PPO v2: в **training среде** OF=0.0 (постановка congestion game корректна — обучаемая политика МОЖЕТ научиться не переполнять). В **полной симуляции** при compliance=0.7 даёт OF=0.32. Это содержательный sim-to-real gap.
+## Что ещё нужно для защиты
 
-## Главное признанное ограничение
+| Шаг | Состояние |
+|-----|-----------|
+| Глава 1 | Готова |
+| Глава 2 | Готова |
+| Глава 3 (Реализация) | Черновик готов — нужно прочитать и отредактировать |
+| Глава 4 (Результаты) | Не написана. Все числа есть, нужно превратить в текст и таблицы |
+| Заключение | Не написано |
+| Презентация на 7 минут | Не сделана |
+| Антиплагиат ≥ 80% | Не проверяли |
 
-Релевантность = cosine между эмбеддингами персона⊕доклад, либо обученная HistGB-модель на 12K LLM-оценок (Pearson r=0.79 на val). Это **не реальное удовлетворение пользователей**, а семантический proxy. Реальных данных о посещаемости JUG нет и не будет.
+## Дедлайны
 
-## Что нашли исследовательские агенты в эту сессию
+- **08.05.2026** — антиплагиат, PDF на aitalents@itmo.ru
+- **13.05.2026** — предзащита (7 минут + Q&A)
 
-### Поиск 1 — реальные датасеты по IT-конференциям
+## Что куда положено
 
-**Результат: публичных датасетов посещаемости IT-конференций не существует.**
-
-Топ-работы по теме:
-- **Tandfonline 2024** (Algorithms for IT-conference scheduling) — частный опрос JUG-подобного типа, данные не выложены
-- **Vangerven 2022** — synthetic
-- **Chakrabarti 2022** — synthetic
-- **Vincent 2024** (RecSys workshop) — кейс с приватной статистикой
-
-Вывод: сообщество conference scheduling работает на синтетике. Это **наша защита, а не наша слабость**.
-
-### Поиск 2 — близкие домены с capacity-constraint
-
-| Датасет | Размер | Близость к нашей задаче |
-|---|---|---|
-| **Meetup Dataset** (GitHub wuyuehit/Meetup-Recommendation-Dataset) | 4M пользователей, 2M событий, RSVPs | **Лучший cross-domain аналог.** Группы по интересам, capacity per event, реальные attendance |
-| **Reviewer Assignment Gold Standard** (Stelmakh 2023) | ~600 reviewer-paper пар | **Близкий формальный аналог.** Reviewer-paper assignment с capacity per reviewer |
-| Yelp Open Dataset | 6.9M reviews, 150K businesses | Рестораны как залы, посещения как RSVPs |
-| Citi Bike NYC | публичные API | Реальные capacity по станциям |
-| GoalZone Fitness | 1500 записей | Реальная capacity 15 или 25 мест |
-| Google/Alibaba cluster traces | TB-scale | Строгие capacity-constraint, но другой домен |
-
-### Поиск 3 — методологическая защита (главное открытие)
-
-**arXiv:2504.03274 "Validation is the central challenge in LLM-based agent simulations"**:
-- **15 из 35 топ-работ** по LLM-agent-simulators используют только subjective believability validation
-- **22 из 35** используют subjective believability как primary метод
-
-Это означает: моя методология — мейнстрим в поле, а не недостаток.
-
-**arXiv:2601.17087 "Lost in Simulation"** — критика и рекомендации по валидации agent-based симуляторов.
-
-Защитные стратегии, которые работают за 1-3 дня:
-1. Ablation studies — **уже есть** (compliance sweep, w_fame sweep, capacity sweep)
-2. Sensitivity analysis — **уже есть**
-3. **Stylized facts replication** — не делал
-4. **Mini human study** (10-20 человек на Google Forms) — не делал
-5. **Cross-domain validation** на Meetup Dataset — не делал
-
-## Развилка следующих шагов
-
-### Вариант A — объективная валидация (3 дня, $0 LLM)
-- День 1: `experiments/scripts/stylized_facts.py` — проверить, воспроизводит ли симулятор Pareto-attendance, time-of-day-эффект, track-affinity (по существующим логам)
-- День 2: портировать 11 политик на Meetup Dataset, сравнить ranking (если ρ > 0.5 — выводы устойчивы кросс-доменно)
-- День 3: Google Forms на 10-15 знакомых-разработчиков, face validity проверка
-
-Защита: «применили 4 типа валидации (subjective + sensitivity + stylized facts + cross-domain), что выше медианы по полю».
-
-### Вариант B — переписать Главы 1-2 под новую защитную позицию (2 дня)
-- Внести цитирование arXiv:2504.03274, arXiv:2601.17087, Tandfonline 2024
-- Позиционировать работу как multi-faceted validation framework
-- Без варианта A — слабее, потому что нечем подкрепить «multi-faceted»
-
-### Вариант C — полный MiroFish-style симулятор (3-5 дней, $50-100)
-- Графовая база знаний агентов
-- Агент-к-агенту посты с темпоральной диффузией
-- Изучение https://github.com/666ghj/MiroFish
-
-Высокий риск (может не сойтись или дать невнятные числа). Прирост к защите неочевиден на фоне варианта A.
-
-## Рекомендация
-
-A → B → C в указанном порядке. A даёт объективные числа за 3 дня без денег. B превращает работу в защищаемый текст с опорой на свежую (2024-2025) литературу. C опционально, если останется время после антиплагиата 08.05.
+- `materials/глава-3/черновик-главы-3.md` — читаемый черновик главы 3 в обычном тексте.
+- `thesis/chapter3.tex` — тот же текст в LaTeX, подключён в `main.tex`, собирается в PDF.
+- `experiments/results/preliminary_findings_v6.md` — все числа экспериментов с пояснениями.
+- `experiments/results/results_1200_5seeds.json` — главный результат прогона на 1200 агентах.
+- `experiments/results/compliance_sweep.json` — sweep по восприимчивости.
+- `experiments/results/results_movielens.json` + `cross_domain_spearman.json` — cross-domain.
+- `experiments/results/stylized_facts.json` — три stylized facts с p-value.
+- `experiments/results/results_demoday_1200_5seeds.json` + `_900_5seeds.json` — Demo Day.
+- `experiments/results/plots/` — графики (overflow, variance, utility, mean_overload_excess, compliance, MovieLens, Lorenz, time-of-day, track-affinity).
 
 ## Точки возобновления
 
-1. Открыть этот файл и `experiments/results/preliminary_findings_v5.md`
-2. Принять решение по варианту (A/B/C)
-3. Если A → начать с `experiments/scripts/stylized_facts.py` (Pareto-attendance из существующих логов)
-4. Если B → открыть `thesis/chapter1.tex`, `thesis/chapter2.tex`
-5. Если C → читать https://github.com/666ghj/MiroFish, проектировать `agent_simulator_v3.py`
-
-## Календарь
-
-- **08.05.2026** — антиплагиат (нужен PDF на aitalents@itmo.ru, оригинальность ≥ 80%)
-- **13.05.2026** — предзащита (7 мин + Q&A)
-- **Лето 2026** — основная защита
-
-Между сегодня (30.04) и 08.05 — 8 дней. Из них реалистично 5-6 рабочих. Вариант A+B укладывается в этот бюджет.
+1. Прочитать `materials/глава-3/черновик-главы-3.md` и сказать, что править.
+2. Начать `materials/глава-4/черновик-главы-4.md` — структура и первые числа.
+3. По мере подготовки текста — собирать `main.pdf`, проверять оригинальность, готовить к 08.05.
+4. Опционально, если останется время: добить inter-slot chat ablation, sensitivity по числу агентов.
