@@ -59,13 +59,14 @@ def aggregate(results, metric):
 def plot_bar(metric_name: str, title: str, ylabel: str, results, fname: str, lower_is_better=True):
     agg = aggregate(results, metric_name)
     fig, ax = plt.subplots(figsize=(9, 5))
-    xs = np.arange(len(POLICY_ORDER))
-    means = [agg[p][0] for p in POLICY_ORDER]
-    stds = [agg[p][1] for p in POLICY_ORDER]
-    colors = [POLICY_COLORS[p] for p in POLICY_ORDER]
+    available = [p for p in POLICY_ORDER if p in agg]
+    xs = np.arange(len(available))
+    means = [agg[p][0] for p in available]
+    stds = [agg[p][1] for p in available]
+    colors = [POLICY_COLORS[p] for p in available]
     bars = ax.bar(xs, means, yerr=stds, capsize=5, color=colors, edgecolor="black", linewidth=0.6)
     ax.set_xticks(xs)
-    ax.set_xticklabels(POLICY_ORDER, rotation=15, ha="right")
+    ax.set_xticklabels(available, rotation=15, ha="right")
     ax.set_ylabel(ylabel)
     ax.set_title(title)
     ax.grid(True, alpha=0.3, axis="y")

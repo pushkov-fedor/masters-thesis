@@ -71,7 +71,8 @@ def text_of(p):
 
 async def main_async(args):
     api_key = load_api_key()
-    client = AsyncOpenAI(api_key=api_key, base_url="https://openrouter.ai/api/v1")
+    # Клиент пересоздаётся в цикле политик — иначе connection pool зависает
+    # после 800+ запросов (наблюдаемый дедлок при concurrency>5).
 
     conf = Conference.load(
         ROOT / "data" / "conferences" / f"{args.conference}.json",
@@ -111,6 +112,10 @@ async def main_async(args):
     policies_to_run = args.policies.split(",")
     print(f"Policies: {policies_to_run}")
 
+    # Создадим один временный клиент только для precompute (если нужен)
+    client = AsyncOpenAI(api_key=api_key, base_url="https://openrouter.ai/api/v1",
+                         timeout=60.0, max_retries=2)
+
     llm_ranker = None
     if "LLM-ranker" in policies_to_run:
         llm_ranker = LLMRankerPolicy(model="openai/gpt-4o-mini", budget_usd=2.0)
@@ -127,6 +132,13 @@ async def main_async(args):
 
     for policy_name, policy_fn in selected_policies.items():
         print(f"\n=== Running policy: {policy_name} ===")
+        # Закрываем старого клиента и создаём свежего, чтобы не залипал connection pool
+        try:
+            await client.close()
+        except Exception:
+            pass
+        client = AsyncOpenAI(api_key=api_key, base_url="https://openrouter.ai/api/v1",
+                             timeout=60.0, max_retries=2)
         # Свежие агенты + свежий граф для каждой политики (чтобы не было утечки)
         agents = []
         for i, p in enumerate(chosen):
