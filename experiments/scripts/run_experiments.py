@@ -12,7 +12,7 @@ import sys
 import time
 from pathlib import Path
 from statistics import mean, stdev
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 import numpy as np
 
@@ -26,29 +26,38 @@ from src.policies.cosine_policy import CosinePolicy  # noqa: E402
 from src.policies.capacity_aware_policy import CapacityAwarePolicy  # noqa: E402
 from src.policies.mmr_policy import MMRPolicy  # noqa: E402
 from src.policies.capacity_aware_mmr_policy import CapacityAwareMMRPolicy  # noqa: E402
+from src.policies.llm_ranker_policy import LLMRankerPolicy  # noqa: E402
 
 
-def load_users() -> List[UserProfile]:
-    with open(ROOT / "data" / "personas" / "personas.json", encoding="utf-8") as f:
+def load_users(personas_name: str = "personas") -> List[UserProfile]:
+    with open(ROOT / "data" / "personas" / f"{personas_name}.json", encoding="utf-8") as f:
         meta = json.load(f)
-    npz = np.load(ROOT / "data" / "personas" / "personas_embeddings.npz", allow_pickle=False)
+    npz = np.load(ROOT / "data" / "personas" / f"{personas_name}_embeddings.npz", allow_pickle=False)
     ids = list(npz["ids"])
     emb = npz["embeddings"]
     by_id = {pid: emb[i] for i, pid in enumerate(ids)}
+
+    def text_of(p):
+        # LLM-персоны: background; fallback-персоны: profile
+        return p.get("background") or p.get("profile") or ""
+
     return [
-        UserProfile(id=p["id"], text=p.get("profile", ""), embedding=by_id[p["id"]])
+        UserProfile(id=p["id"], text=text_of(p), embedding=by_id[p["id"]])
         for p in meta
     ]
 
 
-def make_policies(seed: int):
-    return {
+def make_policies(seed: int, llm_ranker: Optional[LLMRankerPolicy] = None):
+    policies = {
         "Random": RandomPolicy(seed=seed),
         "Cosine": CosinePolicy(),
         "MMR": MMRPolicy(beta=0.7),
         "Capacity-aware": CapacityAwarePolicy(alpha=0.5, hard_threshold=0.95),
         "Capacity-aware MMR": CapacityAwareMMRPolicy(beta=0.6, alpha=0.4, hard_threshold=0.95),
     }
+    if llm_ranker is not None:
+        policies["LLM-ranker"] = llm_ranker
+    return policies
 
 
 def main():
@@ -59,23 +68,33 @@ def main():
     ap.add_argument("--lambda-overflow", type=float, default=2.0)
     ap.add_argument("--p-skip", type=float, default=0.05)
     ap.add_argument("--quick", action="store_true", help="1 сид, 80 пользователей (для smoke)")
+    ap.add_argument("--personas", default="personas", help="имя файла personas в data/personas/ (без .json)")
+    ap.add_argument("--with-llm", action="store_true", help="включить LLM-ranker как 6-ю политику")
+    ap.add_argument("--llm-budget", type=float, default=2.0, help="USD potolok на LLM-ranker")
+    ap.add_argument("--llm-model", default="openai/gpt-4o-mini")
     args = ap.parse_args()
 
     conf = Conference.load(
         ROOT / "data" / "conferences" / "mobius_2025_autumn.json",
         ROOT / "data" / "conferences" / "mobius_2025_autumn_embeddings.npz",
     )
-    users = load_users()
+    users = load_users(args.personas)
     if args.quick:
         users = users[:80]
         args.seeds = [1]
     print(f"Conference: {conf.name}, talks={len(conf.talks)}, halls={len(conf.halls)}, slots={len(conf.slots)}")
     print(f"Users: {len(users)}, seeds: {args.seeds}, K={args.K}, tau={args.tau}")
 
+    llm_ranker = None
+    if args.with_llm:
+        llm_ranker = LLMRankerPolicy(model=args.llm_model, budget_usd=args.llm_budget)
+        print(f"LLM-ranker enabled: model={args.llm_model}, budget=${args.llm_budget}")
+        print(f"  cache size at start: {len(llm_ranker.cache)} entries")
+
     results: List[dict] = []
     t0_all = time.time()
     for seed in args.seeds:
-        policies = make_policies(seed)
+        policies = make_policies(seed, llm_ranker=llm_ranker)
         for pname, pol in policies.items():
             cfg = SimConfig(
                 K=args.K, tau=args.tau, lambda_overflow=args.lambda_overflow,
@@ -147,6 +166,10 @@ def main():
         f.write(summary)
     print(f"WROTE: {summary_path}")
     print(f"\nTOTAL ELAPSED: {time.time() - t0_all:.1f}s")
+    if llm_ranker is not None:
+        s = llm_ranker.stats()
+        llm_ranker._flush()
+        print(f"LLM-ranker: cumulative cost ${s['cumulative_cost_usd']:.4f}, cache size {s['cache_size']}")
     print("\n" + summary)
 
 

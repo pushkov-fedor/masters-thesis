@@ -30,7 +30,12 @@ from openai import OpenAI
 from sentence_transformers import SentenceTransformer
 
 ROOT = Path(__file__).resolve().parents[1]
-PARTY_ENV = ROOT.parent.parent / "party-of-one" / ".env"
+# Сначала пробуем .env проекта masters-degree (свежий ключ),
+# затем fallback в ../party-of-one/.env
+ENV_CANDIDATES = [
+    ROOT.parent / ".env",
+    ROOT.parent.parent / "party-of-one" / ".env",
+]
 LOG_PATH = ROOT / "logs" / "openrouter_usage.jsonl"
 OUT_PATH = ROOT / "data" / "personas" / "personas.json"
 
@@ -77,13 +82,14 @@ USER_PROMPT_TEMPLATE = """Сгенерируй {n} разнообразных п
 
 
 def load_api_key() -> str:
-    if not PARTY_ENV.exists():
-        raise SystemExit(f".env не найден: {PARTY_ENV}")
-    cfg = dotenv_values(PARTY_ENV)
-    key = cfg.get("OPENROUTER_API_KEY")
-    if not key:
-        raise SystemExit("OPENROUTER_API_KEY отсутствует в .env")
-    return key
+    for env in ENV_CANDIDATES:
+        if env.exists():
+            cfg = dotenv_values(env)
+            key = cfg.get("OPENROUTER_API_KEY")
+            if key:
+                print(f"Using key from {env}")
+                return key
+    raise SystemExit(f"OPENROUTER_API_KEY не найден ни в одном из: {ENV_CANDIDATES}")
 
 
 def log_usage(record: dict):

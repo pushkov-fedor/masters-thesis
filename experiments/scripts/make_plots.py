@@ -23,13 +23,14 @@ PLOT_DIR = ROOT / "results" / "plots"
 PLOT_DIR.mkdir(parents=True, exist_ok=True)
 THESIS_FIG_DIR = ROOT.parent / "thesis" / "figures"
 
-POLICY_ORDER = ["Random", "Cosine", "MMR", "Capacity-aware", "Capacity-aware MMR"]
+POLICY_ORDER = ["Random", "Cosine", "MMR", "Capacity-aware", "Capacity-aware MMR", "LLM-ranker"]
 POLICY_COLORS = {
     "Random": "#888888",
     "Cosine": "#1f77b4",
     "MMR": "#9467bd",
     "Capacity-aware": "#2ca02c",
     "Capacity-aware MMR": "#d62728",
+    "LLM-ranker": "#ff7f0e",
 }
 
 
@@ -169,12 +170,15 @@ def main():
         ROOT / "data" / "conferences" / "mobius_2025_autumn.json",
         ROOT / "data" / "conferences" / "mobius_2025_autumn_embeddings.npz",
     )
-    with open(ROOT / "data" / "personas" / "personas.json", encoding="utf-8") as f:
+    personas_name = "personas_x3"  # тот же датасет, что в run_experiments.py
+    with open(ROOT / "data" / "personas" / f"{personas_name}.json", encoding="utf-8") as f:
         meta = json.load(f)
-    npz = np.load(ROOT / "data" / "personas" / "personas_embeddings.npz", allow_pickle=False)
+    npz = np.load(ROOT / "data" / "personas" / f"{personas_name}_embeddings.npz", allow_pickle=False)
     by_id = {pid: npz["embeddings"][i] for i, pid in enumerate(npz["ids"])}
+    def text_of(p):
+        return p.get("background") or p.get("profile") or ""
     users = [
-        UserProfile(id=p["id"], text=p.get("profile", ""), embedding=by_id[p["id"]])
+        UserProfile(id=p["id"], text=text_of(p), embedding=by_id[p["id"]])
         for p in meta
     ]
     sims = make_simulation_for_heatmaps(conf, users)
