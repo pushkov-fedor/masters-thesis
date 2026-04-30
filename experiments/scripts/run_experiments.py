@@ -29,6 +29,10 @@ from src.policies.capacity_aware_mmr_policy import CapacityAwareMMRPolicy  # noq
 from src.policies.llm_ranker_policy import LLMRankerPolicy  # noqa: E402
 from src.policies.llm_ranker_state_aware_policy import LLMRankerStateAwarePolicy  # noqa: E402
 from src.policies.ppo_policy import PPOPolicy  # noqa: E402
+from src.policies.dpp_policy import DPPPolicy  # noqa: E402
+from src.policies.calibrated_policy import CalibratedPolicy  # noqa: E402
+from src.policies.sequential_policy import SequentialPolicy  # noqa: E402
+from src.policies.gnn_policy import GNNPolicy  # noqa: E402
 
 
 def load_users(personas_name: str = "personas") -> List[UserProfile]:
@@ -49,7 +53,8 @@ def load_users(personas_name: str = "personas") -> List[UserProfile]:
     ]
 
 
-def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None, ppo=None):
+def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None, ppo=None,
+                  with_modern=False):
     policies = {
         "Random": RandomPolicy(seed=seed),
         "Cosine": CosinePolicy(),
@@ -57,6 +62,11 @@ def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None, ppo=None):
         "Capacity-aware": CapacityAwarePolicy(alpha=0.5, hard_threshold=0.95),
         "Capacity-aware MMR": CapacityAwareMMRPolicy(beta=0.6, alpha=0.4, hard_threshold=0.95),
     }
+    if with_modern:
+        policies["DPP"] = DPPPolicy(alpha=0.5)
+        policies["Calibrated"] = CalibratedPolicy(lambda_kl=0.5)
+        policies["Sequential"] = SequentialPolicy(history_weight=0.6, history_window=5)
+        policies["GNN"] = GNNPolicy(edge_threshold=0.5, n_layers=2, self_weight=0.5)
     if ppo is not None:
         policies["Constrained-PPO"] = ppo
     if llm_ranker is not None:
@@ -76,6 +86,7 @@ def main():
     ap.add_argument("--quick", action="store_true", help="1 сид, 80 пользователей (для smoke)")
     ap.add_argument("--personas", default="personas", help="имя файла personas в data/personas/ (без .json)")
     ap.add_argument("--with-ppo", action="store_true", help="включить Constrained PPO")
+    ap.add_argument("--with-modern", action="store_true", help="включить DPP, Calibrated, Sequential, GNN")
     ap.add_argument("--with-llm", action="store_true", help="включить LLM-ranker как 6-ю политику")
     ap.add_argument("--with-llm-sa", action="store_true", help="включить state-aware LLM-ranker (7-я)")
     ap.add_argument("--llm-budget", type=float, default=2.0, help="USD potolok на LLM-ranker")
@@ -137,7 +148,8 @@ def main():
     results: List[dict] = []
     t0_all = time.time()
     for seed in args.seeds:
-        policies = make_policies(seed, llm_ranker=llm_ranker, llm_ranker_sa=llm_ranker_sa, ppo=ppo)
+        policies = make_policies(seed, llm_ranker=llm_ranker, llm_ranker_sa=llm_ranker_sa, ppo=ppo,
+                                 with_modern=args.with_modern)
         for pname, pol in policies.items():
             cfg = SimConfig(
                 K=args.K, tau=args.tau, lambda_overflow=args.lambda_overflow,

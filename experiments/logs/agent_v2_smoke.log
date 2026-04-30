@@ -1,0 +1,10 @@
+Conference: Mobius 2025 Autumn, 40 talks, 16 slots
+Subsampled 10 agents from 300
+  precomputed 400 learned-relevance values
+Policies: ['Cosine']
+
+=== Running policy: Cosine ===
+  elapsed: 92s, cost: $0.378, errors: 0, decisions: 160
+  metrics: OF_choice=0.000, skip_rate=0.444
+
+TOTAL: 92s, $0.378
