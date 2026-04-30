@@ -28,6 +28,7 @@ from src.policies.mmr_policy import MMRPolicy  # noqa: E402
 from src.policies.capacity_aware_mmr_policy import CapacityAwareMMRPolicy  # noqa: E402
 from src.policies.llm_ranker_policy import LLMRankerPolicy  # noqa: E402
 from src.policies.llm_ranker_state_aware_policy import LLMRankerStateAwarePolicy  # noqa: E402
+from src.policies.ppo_policy import PPOPolicy  # noqa: E402
 
 
 def load_users(personas_name: str = "personas") -> List[UserProfile]:
@@ -48,7 +49,7 @@ def load_users(personas_name: str = "personas") -> List[UserProfile]:
     ]
 
 
-def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None):
+def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None, ppo=None):
     policies = {
         "Random": RandomPolicy(seed=seed),
         "Cosine": CosinePolicy(),
@@ -56,6 +57,8 @@ def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None):
         "Capacity-aware": CapacityAwarePolicy(alpha=0.5, hard_threshold=0.95),
         "Capacity-aware MMR": CapacityAwareMMRPolicy(beta=0.6, alpha=0.4, hard_threshold=0.95),
     }
+    if ppo is not None:
+        policies["Constrained-PPO"] = ppo
     if llm_ranker is not None:
         policies["LLM-ranker"] = llm_ranker
     if llm_ranker_sa is not None:
@@ -72,6 +75,7 @@ def main():
     ap.add_argument("--p-skip", type=float, default=0.05)
     ap.add_argument("--quick", action="store_true", help="1 сид, 80 пользователей (для smoke)")
     ap.add_argument("--personas", default="personas", help="имя файла personas в data/personas/ (без .json)")
+    ap.add_argument("--with-ppo", action="store_true", help="включить Constrained PPO")
     ap.add_argument("--with-llm", action="store_true", help="включить LLM-ranker как 6-ю политику")
     ap.add_argument("--with-llm-sa", action="store_true", help="включить state-aware LLM-ranker (7-я)")
     ap.add_argument("--llm-budget", type=float, default=2.0, help="USD potolok на LLM-ranker")
@@ -110,6 +114,13 @@ def main():
         relevance_fn.precompute_all(persona_dict, talk_dict)
         print(f"  done in {time.time()-t_pre:.1f}s, cache size: {len(relevance_fn._cache)}")
 
+    ppo = None
+    if args.with_ppo:
+        ppo_path = ROOT / "data" / "models" / "ppo_policy.zip"
+        if ppo_path.exists():
+            ppo = PPOPolicy(ppo_path)
+            print(f"PPO loaded from {ppo_path}")
+
     llm_ranker = None
     llm_ranker_sa = None
     if args.with_llm:
@@ -124,7 +135,7 @@ def main():
     results: List[dict] = []
     t0_all = time.time()
     for seed in args.seeds:
-        policies = make_policies(seed, llm_ranker=llm_ranker, llm_ranker_sa=llm_ranker_sa)
+        policies = make_policies(seed, llm_ranker=llm_ranker, llm_ranker_sa=llm_ranker_sa, ppo=ppo)
         for pname, pol in policies.items():
             cfg = SimConfig(
                 K=args.K, tau=args.tau, lambda_overflow=args.lambda_overflow,

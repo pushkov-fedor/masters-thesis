@@ -1,0 +1,92 @@
+{
+  "config": {
+    "model": "anthropic/claude-haiku-4.5",
+    "n_personas": 3,
+    "n_slots": 2,
+    "policies": [
+      "Cosine",
+      "Capacity-aware"
+    ],
+    "K": 2,
+    "relevance": "learned"
+  },
+  "judgments": [
+    {
+      "winner": "tie",
+      "confidence": 1.0,
+      "reasoning": "Выдачи A и B идентичны — обе содержат одни и те же два доклада (e00c8d6e и 951e6a1b) в одинаковом порядке. Различий в рекомендациях нет.",
+      "cost": 0.002026,
+      "policy_a": "Cosine",
+      "policy_b": "Capacity-aware",
+      "persona_id": "u_027",
+      "slot_id": "slot_11"
+    },
+    {
+      "winner": "tie",
+      "confidence": 1.0,
+      "reasoning": "Выдачи A и B идентичны — обе содержат одни и те же два доклада (e00c8d6e и 951e6a1b). Поскольку рекомендации полностью совпадают, различить их невозможно.",
+      "cost": 0.0020210000000000002,
+      "policy_a": "Cosine",
+      "policy_b": "Capacity-aware",
+      "persona_id": "u_197",
+      "slot_id": "slot_11"
+    },
+    {
+      "winner": "tie",
+      "confidence": 0.95,
+      "reasoning": "Обе выдачи идентичны и содержат одни и те же два доклада. Выдача хорошо соответствует профилю участника (SwiftUI и кастомизация UI), но имеет серьёзные недостатки: отсутствует информация о загрузке залов, нет разнообразия (только мобильные фреймворки, нет Compose), и пропущен потенциально релевантный доклад о Compose. Рекомендация должна была включить доклад про Compose вместо Flutter-доклада для лучшего соответствия интересам участника.",
+      "cost": 0.001927,
+      "policy_a": "Cosine",
+      "policy_b": "Capacity-aware",
+      "persona_id": "u_027",
+      "slot_id": "slot_03"
+    },
+    {
+      "winner": "tie",
+      "confidence": 1.0,
+      "reasoning": "Выдачи A и B идентичны: обе содержат одни и те же два доклада (e00c8d6e и 66c68e73) в одинаковом порядке. Сравнивать нечего.",
+      "cost": 0.002018,
+      "policy_a": "Cosine",
+      "policy_b": "Capacity-aware",
+      "persona_id": "u_232",
+      "slot_id": "slot_11"
+    },
+    {
+      "winner": "tie",
+      "confidence": 0.95,
+      "reasoning": "Обе выдачи идентичны и содержат одни и те же доклады в одинаковом порядке. Выдача A и B полностью совпадают, поэтому сравнивать их невозможно.",
+      "cost": 0.00192,
+      "policy_a": "Cosine",
+      "policy_b": "Capacity-aware",
+      "persona_id": "u_197",
+      "slot_id": "slot_03"
+    },
+    {
+      "winner": "tie",
+      "confidence": 0.95,
+      "reasoning": "Обе выдачи идентичны и содержат одни и те же доклады в одинаковом порядке. Выдача A и B полностью совпадают, поэтому сравнивать их невозможно.",
+      "cost": 0.001915,
+      "policy_a": "Cosine",
+      "policy_b": "Capacity-aware",
+      "persona_id": "u_232",
+      "slot_id": "slot_03"
+    }
+  ],
+  "wins_matrix": [
+    [
+      0.0,
+      2.9250000000000003
+    ],
+    [
+      2.9250000000000003,
+      0.0
+    ]
+  ],
+  "bradley_terry": {
+    "Cosine": 1.0,
+    "Capacity-aware": 1.0
+  },
+  "cost_total": 0.011826999999999999,
+  "errors": 0,
+  "parse_fails": 0
+}

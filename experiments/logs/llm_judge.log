@@ -1,0 +1,16 @@
+Judges: 20 personas × 6 slots
+Policies: ['Random', 'Cosine', 'MMR', 'Capacity-aware', 'Capacity-aware MMR', 'LLM-ranker']
+Pre-running Cosine sim to capture realistic hall states...
+  realistic states captured for 6 slots
+Generating recommendations from each policy...
+Generated 720 recommendations
+Pairs: 15
+Estimated calls: 1800, cost: ~$21.60 (Sonnet)
+  done 100/1800 | cost $0.495 | errors 0 | parse_fails 7 | 18s
+  done 200/1800 | cost $0.985 | errors 0 | parse_fails 11 | 34s
+  done 300/1800 | cost $1.475 | errors 0 | parse_fails 15 | 52s
+  done 400/1800 | cost $1.959 | errors 0 | parse_fails 19 | 71s
+  done 500/1800 | cost $2.448 | errors 0 | parse_fails 27 | 88s
+  done 600/1800 | cost $2.939 | errors 0 | parse_fails 33 | 107s
+  done 700/1800 | cost $3.362 | errors 0 | parse_fails 33 | 119s
+  done 800/1800 | cost $3.814 | errors 0 | parse_fails 35 | 135s
