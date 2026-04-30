@@ -14,3 +14,23 @@ Estimated calls: 1800, cost: ~$21.60 (Sonnet)
   done 600/1800 | cost $2.939 | errors 0 | parse_fails 33 | 107s
   done 700/1800 | cost $3.362 | errors 0 | parse_fails 33 | 119s
   done 800/1800 | cost $3.814 | errors 0 | parse_fails 35 | 135s
+  done 900/1800 | cost $4.276 | errors 0 | parse_fails 41 | 150s
+  done 1000/1800 | cost $4.746 | errors 0 | parse_fails 45 | 167s
+  done 1100/1800 | cost $5.215 | errors 0 | parse_fails 47 | 183s
+  done 1200/1800 | cost $5.677 | errors 0 | parse_fails 51 | 200s
+  done 1300/1800 | cost $6.133 | errors 0 | parse_fails 53 | 217s
+  done 1400/1800 | cost $6.602 | errors 0 | parse_fails 59 | 233s
+  done 1500/1800 | cost $7.048 | errors 0 | parse_fails 61 | 248s
+  done 1600/1800 | cost $7.498 | errors 0 | parse_fails 65 | 264s
+  done 1700/1800 | cost $7.979 | errors 0 | parse_fails 73 | 280s
+  done 1800/1800 | cost $8.460 | errors 0 | parse_fails 83 | 299s
+
+=== Bradley-Terry rating ===
+  LLM-ranker             BT=1.331
+  Capacity-aware MMR     BT=1.083
+  Capacity-aware         BT=1.059
+  MMR                    BT=0.968
+  Cosine                 BT=0.953
+  Random                 BT=0.606
+
+WROTE: /Users/fedor/Study/masters-degree/experiments/results/llm_judge_full.json

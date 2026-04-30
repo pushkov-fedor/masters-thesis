@@ -23,13 +23,14 @@ PLOT_DIR = ROOT / "results" / "plots"
 PLOT_DIR.mkdir(parents=True, exist_ok=True)
 THESIS_FIG_DIR = ROOT.parent / "thesis" / "figures"
 
-POLICY_ORDER = ["Random", "Cosine", "MMR", "Capacity-aware", "Capacity-aware MMR", "LLM-ranker"]
+POLICY_ORDER = ["Random", "Cosine", "MMR", "Capacity-aware", "Capacity-aware MMR", "Constrained-PPO", "LLM-ranker"]
 POLICY_COLORS = {
     "Random": "#888888",
     "Cosine": "#1f77b4",
     "MMR": "#9467bd",
     "Capacity-aware": "#2ca02c",
     "Capacity-aware MMR": "#d62728",
+    "Constrained-PPO": "#17becf",
     "LLM-ranker": "#ff7f0e",
 }
 
@@ -149,9 +150,22 @@ def make_simulation_for_heatmaps(conf, users):
     return {"Cosine": cosine, "Capacity-aware MMR": cmmr}
 
 
+def load_results_from(path):
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def main():
-    results = load_results()
-    print(f"Loaded {len(results['runs'])} run records")
+    import sys
+    if len(sys.argv) > 1:
+        results = load_results_from(sys.argv[1])
+    else:
+        # Default: use the most informative result file
+        path = ROOT / "results" / "results_learned_full.json"
+        if not path.exists():
+            path = ROOT / "results" / "results.json"
+        results = load_results_from(path)
+    print(f"Loaded {len(results['runs'])} run records from {path if 'path' in dir() else 'default'}")
 
     plot_bar("overflow_rate_all", "Overflow rate (все слоты, включая single-talk)",
              "overflow_rate_all", results, "01a_overflow_all.png", lower_is_better=True)
