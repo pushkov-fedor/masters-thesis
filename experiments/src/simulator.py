@@ -142,8 +142,8 @@ class LearnedPreferenceFn:
 
     @staticmethod
     def _hash_emb(emb: np.ndarray) -> int:
-        # Быстрый хэш на основе нескольких компонент эмбеддинга
-        return hash((float(emb[0]), float(emb[10]), float(emb[100]), float(emb[200]), float(emb[300])))
+        # Хэш по полному массиву байтов — нет коллизий
+        return hash(emb.astype(np.float32).tobytes())
 
     def __call__(self, persona_emb: np.ndarray, talk_emb: np.ndarray) -> float:
         ph = self._hash_emb(persona_emb)
@@ -310,6 +310,9 @@ def simulate(
             load_before = utilization(hall_load[(slot.id, chosen_hall.id)], chosen_hall.capacity)
             hall_load[(slot.id, chosen_hall.id)] += 1
             chosen_rel_for_record = relevance_fn(user.embedding, chosen_talk.embedding)
+            # Если у политики есть update_history (Sequential) — записываем фактический выбор
+            if hasattr(policy, "update_history"):
+                policy.update_history(user.id, chosen_id)
             result.steps.append(StepRecord(
                 slot_id=slot.id, user_id=user.id, recommended=recs,
                 chosen=chosen_id,

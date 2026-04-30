@@ -68,64 +68,97 @@ def h2_fatigue_gradient(agent_results_path):
     }
 
 
-def h3_social_contagion(agent_results_path):
-    """Корреляция между долей друзей в зале и собственным выбором."""
+def h3_social_contagion(agent_results_path, n_perm: int = 100):
+    """Корреляция между долей друзей в зале и собственным выбором.
+
+    Чтобы исключить reflection problem (Manski 1993) — общую траекторию активности
+    в популяции (все skip в late slots из-за fatigue), мы делаем permutation test:
+    случайно перетасовываем adjacency между агентами и пересчитываем r.
+    Истинный social effect = (raw_r) - (mean(perm_r)).
+    """
+    import random
     with open(agent_results_path, encoding="utf-8") as f:
         data = json.load(f)
     results = {}
     for policy_name, pd in data["results"].items():
         decisions = pd["decisions"]
         adjacency = pd["social_graph_adjacency"]
-        # Группируем по slot_id, потом для каждого агента смотрим social signal
+        # Группируем по slot_id
         by_slot = defaultdict(list)
         for d in decisions:
             by_slot[d["slot_id"]].append(d)
 
-        # X: доля друзей агента, выбравших ту же hall
-        # Y: 1 если агент пошёл, 0 если skipped
-        x_values = []
-        y_values = []
-        for slot_id, slot_decs in by_slot.items():
-            # Build map agent_idx -> chosen_hall (если talk_id известен — нужно достать hall_id)
-            # decisions содержит talk_id, но для simplicity используем агрегат:
-            # social pressure = доля друзей не-skipped (proxy for «коллеги активны»)
-            decs_by_idx = {d["agent_idx"]: d for d in slot_decs}
-            for agent_idx, d in decs_by_idx.items():
-                friends = adjacency.get(str(agent_idx), [])
-                if not friends:
-                    continue
-                friends_active = sum(1 for f in friends
-                                     if int(f) in decs_by_idx and decs_by_idx[int(f)]["decision"] != "skip")
-                friend_active_share = friends_active / len(friends)
-                self_active = 1.0 if d["decision"] != "skip" else 0.0
-                x_values.append(friend_active_share)
-                y_values.append(self_active)
+        def compute_r(adj_map):
+            x_values, y_values = [], []
+            for slot_id, slot_decs in by_slot.items():
+                decs_by_idx = {d["agent_idx"]: d for d in slot_decs}
+                for agent_idx, d in decs_by_idx.items():
+                    friends = adj_map.get(str(agent_idx), [])
+                    if not friends:
+                        continue
+                    friends_active = sum(1 for f in friends
+                                         if int(f) in decs_by_idx and decs_by_idx[int(f)]["decision"] != "skip")
+                    fa = friends_active / len(friends)
+                    sa = 1.0 if d["decision"] != "skip" else 0.0
+                    x_values.append(fa)
+                    y_values.append(sa)
+            if len(x_values) < 30:
+                return None, None, 0
+            try:
+                r, p = pearsonr(x_values, y_values)
+                return float(r), float(p), len(x_values)
+            except Exception:
+                return None, None, 0
 
-        if len(x_values) < 30:
+        # Raw correlation
+        raw_r, raw_p, n_obs = compute_r(adjacency)
+        if raw_r is None:
             continue
-        try:
-            r, p = pearsonr(x_values, y_values)
-        except Exception:
-            continue
+
+        # Permutation test: перетасовываем adjacency между агентами случайным образом.
+        # Если raw_r объясняется общим трендом (reflection problem), то после перетасовки r не упадёт.
+        rng = random.Random(42)
+        perm_rs = []
+        agent_keys = list(adjacency.keys())
+        adj_lists = list(adjacency.values())
+        for _ in range(n_perm):
+            shuffled_lists = adj_lists[:]
+            rng.shuffle(shuffled_lists)
+            perm_adj = dict(zip(agent_keys, shuffled_lists))
+            pr, _, _ = compute_r(perm_adj)
+            if pr is not None:
+                perm_rs.append(pr)
+
+        perm_mean = float(np.mean(perm_rs)) if perm_rs else 0.0
+        perm_std = float(np.std(perm_rs)) if perm_rs else 0.0
+        adjusted_r = raw_r - perm_mean
+
         results[policy_name] = {
-            "pearson_r": float(r),
-            "p_value": float(p),
-            "n_observations": len(x_values),
+            "raw_pearson_r": raw_r,
+            "raw_p_value": raw_p,
+            "n_observations": n_obs,
+            "permutation_mean_r": perm_mean,
+            "permutation_std_r": perm_std,
+            "adjusted_r_minus_perm_mean": float(adjusted_r),
+            "z_score_vs_perm": float((raw_r - perm_mean) / max(1e-9, perm_std)),
+            "n_permutations": n_perm,
         }
 
     return {
-        "hypothesis": "H3: социальное копирование — коррелирует ли активность друзей с моей",
-        "expected": "Pearson r > 0.1, p < 0.05",
+        "hypothesis": "H3: социальное копирование (с permutation control для reflection problem)",
+        "expected": "raw_r - perm_mean > 0.1 — истинный social effect отдельно от общего тренда",
         "by_policy": results,
-        "verdict": "supported" if any(d["pearson_r"] > 0.1 and d["p_value"] < 0.05
-                                       for d in results.values()) else "not_supported",
+        "verdict": "supported" if any(d["adjusted_r_minus_perm_mean"] > 0.1
+                                       for d in results.values()) else "not_supported_after_permutation",
     }
 
 
 def h5_robustness(*results_paths_with_labels):
-    """Устойчивость ranking политик по overflow_rate_choice между конфигурациями.
+    """Устойчивость ranking политик по overflow_rate_choice.
 
-    Каждый results_path — путь к results_*.json, label — короткое имя конфигурации.
+    Делим на 2 независимых ветви:
+    1. intra-Mobius: устойчивость к relevance signal (cosine vs learned) — sanity check.
+    2. cross-conference: Mobius vs Demo Day — настоящий тест устойчивости.
     """
     all_data = []
     for path, label in results_paths_with_labels:
@@ -133,50 +166,100 @@ def h5_robustness(*results_paths_with_labels):
             continue
         with open(path, encoding="utf-8") as f:
             r = json.load(f)
-        # aggregate per policy
         by_policy = defaultdict(list)
         for run in r["runs"]:
             by_policy[run["policy"]].append(run["metrics"]["overflow_rate_choice"])
         means = {p: mean(vs) for p, vs in by_policy.items()}
         all_data.append((label, means))
 
-    # Spearman correlation между парами конфигураций
-    common_policies = None
-    for _, m in all_data:
-        if common_policies is None:
-            common_policies = set(m.keys())
-        else:
-            common_policies = common_policies & set(m.keys())
-    common_policies = sorted(common_policies) if common_policies else []
+    # Делим на mobius и demo_day группы по префиксу label
+    mobius_configs = [(l, m) for (l, m) in all_data if l.startswith("mobius")]
+    demo_configs = [(l, m) for (l, m) in all_data if l.startswith("demo_day")]
 
-    if len(all_data) < 2 or len(common_policies) < 3:
-        return {
-            "hypothesis": "H5: ранжирование политик устойчиво между конфигурациями",
-            "verdict": "insufficient_data",
-        }
+    def pairwise_rho(configs):
+        """Возвращает (avg_rho, list_of_pairs_with_rho_p)."""
+        common = None
+        for _, m in configs:
+            if common is None:
+                common = set(m.keys())
+            else:
+                common = common & set(m.keys())
+        common = sorted(common) if common else []
+        if len(configs) < 2 or len(common) < 3:
+            return None, [], common
+        pairs = []
+        for i in range(len(configs)):
+            for j in range(i+1, len(configs)):
+                li, di = configs[i]
+                lj, dj = configs[j]
+                xs = [di[p] for p in common]
+                ys = [dj[p] for p in common]
+                rho, p = spearmanr(xs, ys)
+                pairs.append({"pair": f"{li}_vs_{lj}",
+                              "spearman_rho": float(rho),
+                              "p_value": float(p),
+                              "n_policies": len(common)})
+        avg = mean([p["spearman_rho"] for p in pairs])
+        return float(avg), pairs, common
 
-    correlations = {}
-    for i in range(len(all_data)):
-        for j in range(i+1, len(all_data)):
-            li, di = all_data[i]
-            lj, dj = all_data[j]
-            xs = [di[p] for p in common_policies]
-            ys = [dj[p] for p in common_policies]
-            r, p = spearmanr(xs, ys)
-            correlations[f"{li}_vs_{lj}"] = {
-                "spearman_rho": float(r),
-                "p_value": float(p),
-                "n_policies": len(common_policies),
-            }
+    # Intra-Mobius: устойчивость к смене relevance signal
+    intra_avg, intra_pairs, intra_common = pairwise_rho(mobius_configs)
+    # Intra-DemoDay
+    demo_avg, demo_pairs, demo_common = pairwise_rho(demo_configs)
+    # Cross-conference: одна пара (последний mobius vs последний demo)
+    cross_pairs = []
+    cross_common = []
+    if mobius_configs and demo_configs:
+        # Берём наиболее полную mobius-конфигу и любую demo-конфигу
+        mob_label, mob_means = mobius_configs[-1]
+        for d_label, d_means in demo_configs:
+            common = sorted(set(mob_means.keys()) & set(d_means.keys()))
+            if len(common) < 3:
+                continue
+            xs = [mob_means[p] for p in common]
+            ys = [d_means[p] for p in common]
+            rho, p = spearmanr(xs, ys)
+            cross_pairs.append({"pair": f"{mob_label}_vs_{d_label}",
+                                "spearman_rho": float(rho),
+                                "p_value": float(p),
+                                "n_policies": len(common)})
+            cross_common = common
 
-    avg_rho = mean([c["spearman_rho"] for c in correlations.values()])
+    cross_avg = mean([p["spearman_rho"] for p in cross_pairs]) if cross_pairs else None
+
+    # Vердикт: cross-conference — главный показатель.
+    # intra = sanity check, cross = реальный тест.
+    if cross_avg is None:
+        verdict = "insufficient_data"
+    elif cross_avg >= 0.7 and any(p["p_value"] < 0.05 for p in cross_pairs):
+        verdict = "supported"
+    elif cross_avg >= 0.5:
+        verdict = "weak"
+    else:
+        verdict = "not_supported"
+
     return {
-        "hypothesis": "H5: ранжирование политик устойчиво между конфигурациями",
-        "expected": "Spearman ρ ≥ 0.5 между конфигурациями (top-3 устойчивы)",
-        "common_policies": list(common_policies),
-        "pairwise_correlations": correlations,
-        "avg_spearman_rho": float(avg_rho),
-        "verdict": "supported" if avg_rho >= 0.5 else "weak",
+        "hypothesis": "H5: устойчивость ranking политик. Главный тест — cross-conference Mobius vs Demo Day.",
+        "intra_mobius": {
+            "avg_spearman_rho": intra_avg,
+            "n_pairs": len(intra_pairs),
+            "common_policies": intra_common,
+            "interpretation": "sanity check: устойчивость к смене relevance signal внутри одной конференции",
+            "pairs": intra_pairs,
+        },
+        "intra_demo_day": {
+            "avg_spearman_rho": demo_avg,
+            "n_pairs": len(demo_pairs),
+            "pairs": demo_pairs,
+        },
+        "cross_conference": {
+            "avg_spearman_rho": cross_avg,
+            "n_pairs": len(cross_pairs),
+            "common_policies": cross_common,
+            "interpretation": "ГЛАВНЫЙ ТЕСТ: устойчивость к смене конференции (Mobius 40 → Demo Day 210)",
+            "pairs": cross_pairs,
+        },
+        "verdict": verdict,
     }
 
 
@@ -217,10 +300,13 @@ def main():
     print("=" * 60)
     for h, data in findings.items():
         print(f"\n{h}: verdict={data.get('verdict', 'N/A')}")
-        if h == "H5_robustness" and "avg_spearman_rho" in data:
-            print(f"  avg Spearman ρ across configs: {data['avg_spearman_rho']:.3f}")
-            for pair, c in data["pairwise_correlations"].items():
-                print(f"    {pair}: ρ={c['spearman_rho']:+.3f} (p={c['p_value']:.3g})")
+        if h == "H5_robustness" and "cross_conference" in data:
+            cross = data["cross_conference"]
+            intra = data["intra_mobius"]
+            print(f"  intra-Mobius (sanity, к relevance signal): avg ρ={intra['avg_spearman_rho']:.3f} (n_pairs={intra['n_pairs']})")
+            print(f"  ГЛАВНЫЙ ТЕСТ — cross-conference (Mobius vs Demo Day): avg ρ={cross['avg_spearman_rho']:.3f} (n_pairs={cross['n_pairs']}, common={cross['n_pairs'] and cross['pairs'][0]['n_policies']})")
+            for c in cross["pairs"]:
+                print(f"    {c['pair']}: ρ={c['spearman_rho']:+.3f} (p={c['p_value']:.3g}, n={c['n_policies']})")
         elif h == "H2_fatigue" and "by_policy" in data:
             print(f"  expected: {data['expected']}")
             for policy, d in data["by_policy"].items():
@@ -228,7 +314,10 @@ def main():
         elif h == "H3_social" and "by_policy" in data:
             print(f"  expected: {data['expected']}")
             for policy, d in data["by_policy"].items():
-                print(f"    {policy:<22} r={d['pearson_r']:+.3f} (p={d['p_value']:.3g}, n={d['n_observations']})")
+                print(f"    {policy:<22} raw_r={d['raw_pearson_r']:+.3f}, "
+                      f"perm_mean={d['permutation_mean_r']:+.3f}, "
+                      f"adjusted={d['adjusted_r_minus_perm_mean']:+.3f}, "
+                      f"z={d['z_score_vs_perm']:+.2f}")
 
     print(f"\nWROTE: {out}")
 

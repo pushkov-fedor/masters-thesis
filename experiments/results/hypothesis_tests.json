@@ -3,18 +3,18 @@
     "hypothesis": "H2: skip rate монотонно растёт по слоту (fatigue)",
     "expected": "slope > 0, p < 0.05",
     "by_policy": {
-      "Capacity-aware": {
-        "slope": 0.046323529411764694,
-        "intercept": -0.06249999999999983,
-        "pearson_r": 0.6842347288643232,
-        "p_value": 0.0034612822923618435,
-        "n_slots": 16
-      },
       "Cosine": {
         "slope": 0.05079411764705882,
         "intercept": -0.10799999999999998,
         "pearson_r": 0.7149441113727223,
         "p_value": 0.0018531859426503606,
+        "n_slots": 16
+      },
+      "MMR": {
+        "slope": 0.04708823529411765,
+        "intercept": -0.05900000000000005,
+        "pearson_r": 0.6858286026945178,
+        "p_value": 0.0033568181535686497,
         "n_slots": 16
       },
       "LLM-ranker": {
@@ -24,131 +24,154 @@
         "p_value": 0.0030874709485601524,
         "n_slots": 16
       },
-      "MMR": {
-        "slope": 0.04708823529411765,
-        "intercept": -0.05900000000000005,
-        "pearson_r": 0.6858286026945178,
-        "p_value": 0.0033568181535686497,
+      "Capacity-aware": {
+        "slope": 0.046323529411764694,
+        "intercept": -0.06249999999999983,
+        "pearson_r": 0.6842347288643232,
+        "p_value": 0.0034612822923618435,
         "n_slots": 16
       }
     },
     "verdict": "supported"
   },
   "H3_social": {
-    "hypothesis": "H3: социальное копирование — коррелирует ли активность друзей с моей",
-    "expected": "Pearson r > 0.1, p < 0.05",
+    "hypothesis": "H3: социальное копирование (с permutation control для reflection problem)",
+    "expected": "raw_r - perm_mean > 0.1 — истинный social effect отдельно от общего тренда",
     "by_policy": {
       "Cosine": {
-        "pearson_r": 0.6774700556639762,
-        "p_value": 1.4996062013783085e-108,
-        "n_observations": 800
+        "raw_pearson_r": 0.6774700556639762,
+        "raw_p_value": 1.4996062013783085e-108,
+        "n_observations": 800,
+        "permutation_mean_r": 0.6462866496414091,
+        "permutation_std_r": 0.0140986117937268,
+        "adjusted_r_minus_perm_mean": 0.031183406022567084,
+        "z_score_vs_perm": 2.2118068416099086,
+        "n_permutations": 100
       },
       "MMR": {
-        "pearson_r": 0.6902347821287454,
-        "p_value": 3.0486372151873725e-114,
-        "n_observations": 800
+        "raw_pearson_r": 0.6902347821287454,
+        "raw_p_value": 3.0486372151873725e-114,
+        "n_observations": 800,
+        "permutation_mean_r": 0.6040972368341839,
+        "permutation_std_r": 0.01520023698001175,
+        "adjusted_r_minus_perm_mean": 0.08613754529456152,
+        "z_score_vs_perm": 5.666855418624857,
+        "n_permutations": 100
       },
       "Capacity-aware": {
-        "pearson_r": 0.6139324630154465,
-        "p_value": 4.860683021226745e-84,
-        "n_observations": 800
+        "raw_pearson_r": 0.6139324630154465,
+        "raw_p_value": 4.860683021226745e-84,
+        "n_observations": 800,
+        "permutation_mean_r": 0.5973228159743231,
+        "permutation_std_r": 0.017713021849398727,
+        "adjusted_r_minus_perm_mean": 0.016609647041123332,
+        "z_score_vs_perm": 0.9377082680947041,
+        "n_permutations": 100
       },
       "LLM-ranker": {
-        "pearson_r": 0.6361863951910569,
-        "p_value": 5.7068536320564556e-92,
-        "n_observations": 800
+        "raw_pearson_r": 0.6361863951910569,
+        "raw_p_value": 5.7068536320564556e-92,
+        "n_observations": 800,
+        "permutation_mean_r": 0.62565339692487,
+        "permutation_std_r": 0.014807220837416658,
+        "adjusted_r_minus_perm_mean": 0.010532998266186921,
+        "z_score_vs_perm": 0.7113420122411412,
+        "n_permutations": 100
       }
     },
-    "verdict": "supported"
+    "verdict": "not_supported_after_permutation"
   },
   "H5_robustness": {
-    "hypothesis": "H5: ранжирование политик устойчиво между конфигурациями",
-    "expected": "Spearman ρ ≥ 0.5 между конфигурациями (top-3 устойчивы)",
-    "common_policies": [
-      "Capacity-aware",
-      "Capacity-aware MMR",
-      "Cosine",
-      "MMR",
-      "Random"
-    ],
-    "pairwise_correlations": {
-      "mobius_cosine_vs_mobius_learned": {
-        "spearman_rho": 0.9486832980505137,
-        "p_value": 0.013846832988859102,
-        "n_policies": 5
-      },
-      "mobius_cosine_vs_mobius_learned_with_ppo_llm": {
-        "spearman_rho": 0.9486832980505137,
-        "p_value": 0.013846832988859102,
-        "n_policies": 5
-      },
-      "mobius_cosine_vs_mobius_11policies": {
-        "spearman_rho": 0.9486832980505137,
-        "p_value": 0.013846832988859102,
-        "n_policies": 5
-      },
-      "mobius_cosine_vs_demo_day_full": {
-        "spearman_rho": 0.6324555320336759,
-        "p_value": 0.25221549635550466,
-        "n_policies": 5
-      },
-      "mobius_cosine_vs_demo_day_learned": {
-        "spearman_rho": 0.6324555320336759,
-        "p_value": 0.25221549635550466,
-        "n_policies": 5
-      },
-      "mobius_learned_vs_mobius_learned_with_ppo_llm": {
-        "spearman_rho": 0.9999999999999999,
-        "p_value": 1.4042654220543602e-24,
-        "n_policies": 5
-      },
-      "mobius_learned_vs_mobius_11policies": {
-        "spearman_rho": 0.9999999999999999,
-        "p_value": 1.4042654220543602e-24,
-        "n_policies": 5
-      },
-      "mobius_learned_vs_demo_day_full": {
-        "spearman_rho": 0.7,
-        "p_value": 0.1881204043741873,
-        "n_policies": 5
-      },
-      "mobius_learned_vs_demo_day_learned": {
-        "spearman_rho": 0.7,
-        "p_value": 0.1881204043741873,
-        "n_policies": 5
-      },
-      "mobius_learned_with_ppo_llm_vs_mobius_11policies": {
-        "spearman_rho": 0.9999999999999999,
-        "p_value": 1.4042654220543602e-24,
-        "n_policies": 5
-      },
-      "mobius_learned_with_ppo_llm_vs_demo_day_full": {
-        "spearman_rho": 0.7,
-        "p_value": 0.1881204043741873,
-        "n_policies": 5
-      },
-      "mobius_learned_with_ppo_llm_vs_demo_day_learned": {
-        "spearman_rho": 0.7,
-        "p_value": 0.1881204043741873,
-        "n_policies": 5
-      },
-      "mobius_11policies_vs_demo_day_full": {
-        "spearman_rho": 0.7,
-        "p_value": 0.1881204043741873,
-        "n_policies": 5
-      },
-      "mobius_11policies_vs_demo_day_learned": {
-        "spearman_rho": 0.7,
-        "p_value": 0.1881204043741873,
-        "n_policies": 5
-      },
-      "demo_day_full_vs_demo_day_learned": {
-        "spearman_rho": 0.9999999999999999,
-        "p_value": 1.4042654220543602e-24,
-        "n_policies": 5
-      }
+    "hypothesis": "H5: устойчивость ranking политик. Главный тест — cross-conference Mobius vs Demo Day.",
+    "intra_mobius": {
+      "avg_spearman_rho": 0.9855041562276123,
+      "n_pairs": 6,
+      "common_policies": [
+        "Capacity-aware",
+        "Capacity-aware MMR",
+        "Cosine",
+        "LLM-ranker",
+        "MMR",
+        "Random"
+      ],
+      "interpretation": "sanity check: устойчивость к смене relevance signal внутри одной конференции",
+      "pairs": [
+        {
+          "pair": "mobius_cosine_vs_mobius_learned",
+          "spearman_rho": 0.9710083124552246,
+          "p_value": 0.0012485929031976685,
+          "n_policies": 6
+        },
+        {
+          "pair": "mobius_cosine_vs_mobius_learned_with_ppo_llm",
+          "spearman_rho": 0.9710083124552246,
+          "p_value": 0.0012485929031976685,
+          "n_policies": 6
+        },
+        {
+          "pair": "mobius_cosine_vs_mobius_11policies",
+          "spearman_rho": 0.9710083124552246,
+          "p_value": 0.0012485929031976685,
+          "n_policies": 6
+        },
+        {
+          "pair": "mobius_learned_vs_mobius_learned_with_ppo_llm",
+          "spearman_rho": 1.0,
+          "p_value": 0.0,
+          "n_policies": 6
+        },
+        {
+          "pair": "mobius_learned_vs_mobius_11policies",
+          "spearman_rho": 1.0,
+          "p_value": 0.0,
+          "n_policies": 6
+        },
+        {
+          "pair": "mobius_learned_with_ppo_llm_vs_mobius_11policies",
+          "spearman_rho": 1.0,
+          "p_value": 0.0,
+          "n_policies": 6
+        }
+      ]
     },
-    "avg_spearman_rho": 0.8207307305479261,
-    "verdict": "supported"
+    "intra_demo_day": {
+      "avg_spearman_rho": 0.9999999999999999,
+      "n_pairs": 1,
+      "pairs": [
+        {
+          "pair": "demo_day_full_vs_demo_day_learned",
+          "spearman_rho": 0.9999999999999999,
+          "p_value": 1.4042654220543602e-24,
+          "n_policies": 5
+        }
+      ]
+    },
+    "cross_conference": {
+      "avg_spearman_rho": 0.6916666666666667,
+      "n_pairs": 2,
+      "common_policies": [
+        "Capacity-aware",
+        "Capacity-aware MMR",
+        "Cosine",
+        "MMR",
+        "Random"
+      ],
+      "interpretation": "ГЛАВНЫЙ ТЕСТ: устойчивость к смене конференции (Mobius 40 → Demo Day 210)",
+      "pairs": [
+        {
+          "pair": "mobius_11policies_vs_demo_day_full",
+          "spearman_rho": 0.6833333333333333,
+          "p_value": 0.04244227208707231,
+          "n_policies": 9
+        },
+        {
+          "pair": "mobius_11policies_vs_demo_day_learned",
+          "spearman_rho": 0.7,
+          "p_value": 0.1881204043741873,
+          "n_policies": 5
+        }
+      ]
+    },
+    "verdict": "weak"
   }
 }

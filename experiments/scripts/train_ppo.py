@@ -172,6 +172,12 @@ class ConferenceEnv(gym.Env):
             self.beta = max(0.1, self.beta + self.beta_lr * (of_rate - self.target_overflow))
             info["episode_overflow_rate"] = of_rate
             info["beta"] = self.beta
+        else:
+            # Сбросить hall_load для следующего слота — каждый слот независимый,
+            # нагрузка не переносится (это была семантическая ошибка)
+            rng = np.random.default_rng(self.current_slot_idx * 1000 + self.current_persona_idx)
+            self.hall_load = np.zeros(self.n_halls, dtype=np.int32)
+            self._seed_load(rng)
         return self._obs(), float(reward), terminated, truncated, info
 
 

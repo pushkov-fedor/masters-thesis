@@ -1,181 +1,125 @@
-# Предварительные выводы v4 — поднятие технического уровня работы
+# Предварительные выводы v4 — после исправления методологических дефектов
 
-**Дата:** 2026-04-30, дневная сессия (продолжение)
-**Контекст:** после ревью внешним агентом + изучения OASIS/MiroFish/Agent4Rec/PUB/AgentSociety проведена амбициозная апгрейд-сессия по двум осям одновременно:
-- **Ось A (симулятор):** OASIS-style агенты с retrieval-памятью, Big Five личностью, fatigue, social graph и рефлексией
-- **Ось B (рекомендатель):** 4 современные политики — DPP, Calibrated, Sequential, GNN
-- **Доп. ось:** вторая конференция Demo Day ITMO (210 докладов) — cross-conference validation
-- **Научные гипотезы:** статистическая проверка устойчивости главного вывода (H5 supported, ρ=0.82)
+**Дата:** 2026-04-30, апгрейд-сессия + жёсткое техническое ревью + исправления
 
-## Что добавлено в этой сессии относительно v3
+## Что изменилось после ревью
 
-### Recsys-сторона (4 новые политики)
+Внешний технический ревьюер выявил несколько методологических дефектов в v3 версии этого отчёта. **Они исправлены, выводы пересформулированы честно.** Ключевые правки:
 
-| Политика | Источник | Идея |
-|---|---|---|
-| **DPP** | Chen2018 / Kulesza-Taskar | Determinantal point process с greedy MAP — математически принципиальный diversity ranker |
-| **Calibrated** | Steck 2018 | KL-regularized re-ranking по категориям, target = распределение интересов пользователя |
-| **Sequential** | SASRec-стиль (своя реализация) | Динамический эмбеддинг пользователя из истории визитов |
-| **GNN** | GraphSAGE-стиль (numpy) | Message passing на графе доклад-доклад (cosine ≥ 0.5 ИЛИ same category) |
+1. **H3 social contagion** — добавлен permutation test (контроль reflection problem Манского). Raw r=0.65–0.69 объяснился общим трендом fatigue в популяции (perm_mean=0.60–0.65). После корректировки эффект слабый: adjusted r=0.01–0.09.
+2. **H2 fatigue** — переформулирован как валидация консистентности модели, не «эмерджентный эффект» (fatigue прописана в промпте → tautology).
+3. **H5 robustness** — разделён на (а) intra-Mobius sanity check ρ=0.99 и (б) **главный тест cross-conference Mobius vs Demo Day** ρ=0.683, p=0.042 (n=9 политик).
+4. **Capacity sensitivity sweep** на Demo Day (±30%) — выявлен **новый содержательный нюанс**: при scale=0.7 (capacity недостаточна) лидер меняется на MMR.
+5. Технические баги (`_hash_emb` коллизии, PPO carries hall_load, Sequential `update_history` не вызывался) исправлены.
+6. Терминология сглажена: «упрощённая адаптация Park2023» вместо «OASIS-style», «inspired by SASRec» вместо «SASRec-стиль».
 
-### Агент-сторона (OASIS-style)
+## Главный научный результат (после правок)
 
-| Компонент | Источник | LoC | Что даёт |
-|---|---|---|---|
-| Memory с retrieval | Park2023 | 80 | агент находит релевантные воспоминания, а не последние 5 |
-| Big Five personality | PUB-style инференция | 90 | агенты с разной openness/extraversion/etc ведут себя различно |
-| Fatigue | свой | 25 | усталость накапливается, восстанавливается между днями |
-| Social graph | Watts-Strogatz через networkx | 70 | агенты видят, кто из «друзей» куда пошёл |
-| Reflection | Park2023 §3.3 | 60 (внутри agent) | LLM агрегирует наблюдения в high-level insights |
+> **Политика Capacity-aware (rule-based action masking + штраф за загрузку) лидер по overflow_rate_choice среди 11 политик** (Random, Cosine, MMR, Capacity-aware, Capacity-aware MMR, DPP, Calibrated, Sequential, GNN, Constrained-PPO, LLM-ranker) **на двух структурно разных конференциях** (Mobius 40 докладов, Demo Day ITMO 210) при потере утилитарности 2–5%. Лидерство **сохраняется при варьировании ёмкости залов в диапазоне scale ∈ [0.85, 1.30]**, но **нарушается при scale=0.70** (популяция превышает суммарную capacity на >40%) — содержательная граница применимости метода.
 
-Итого новой инфраструктуры: ~700 LoC агентов + ~410 LoC политик = **+1100 LoC**.
-
-### Cross-conference validation
-
-Demo Day ITMO: 210 докладов (vs 40 в Mobius), 7 залов (vs 3), 57 слотов (vs 16), до 7 параллельных докладов в слоте. Структурно сильно отличается от Mobius — это **другой регим congestion-game**.
-
-## Главные численные результаты
-
-### 11 политик на Mobius 2025 Autumn (5 сидов, 900 пользователей, learned relevance)
-
-| Политика | OF_choice ↓ | Utility ↑ | BT-judge ↑ |
-|---|---|---|---|
-| **Capacity-aware** | **0.000** | 0.347 | 1.06 |
-| **Capacity-aware MMR** | 0.022 | 0.347 | 1.08 |
-| **DPP** | 0.222 | **0.351** | n/a |
-| Random | 0.228 | 0.322 | 0.61 |
-| Constrained-PPO | 0.267 | 0.352 | n/a |
-| MMR | 0.278 | 0.354 | 0.97 |
-| Calibrated | 0.283 | 0.344 | n/a |
-| Cosine | 0.306 | 0.356 | 0.95 |
-| Sequential | 0.317 | 0.331 | n/a |
-| LLM-ranker | 0.344 | 0.339 | **1.33** |
-| GNN | 0.361 | 0.332 | n/a |
-
-### 9 политик на Demo Day ITMO 2026 (5 сидов, 900 пользователей, learned relevance с Mobius)
+## Числа на Mobius (11 политик, 5 сидов, 900 пользователей, learned relevance)
 
 | Политика | OF_choice ↓ | Utility ↑ |
 |---|---|---|
-| **Capacity-aware** | **0.456** | 0.330 |
+| Capacity-aware | **0.000** | 0.347 |
+| Capacity-aware MMR | 0.022 | 0.347 |
+| DPP | 0.222 | 0.351 |
+| Random | 0.228 | 0.322 |
+| Constrained-PPO | 0.267 | 0.352 |
+| MMR | 0.278 | 0.354 |
+| Calibrated | 0.283 | 0.344 |
+| Cosine | 0.306 | 0.356 |
+| Sequential | 0.317 | 0.331 |
+| LLM-ranker | 0.344 | 0.339 |
+| GNN | 0.361 | 0.332 |
+
+## Cross-conference (Demo Day ITMO 2026, 9 политик)
+
+| Политика | OF_choice ↓ | Utility ↑ |
+|---|---|---|
+| Capacity-aware | 0.456 | 0.330 |
 | Capacity-aware MMR | 0.535 | 0.326 |
 | MMR | 0.568 | 0.343 |
 | DPP | 0.579 | 0.339 |
-| Cosine | 0.583 | **0.346** |
+| Cosine | 0.583 | 0.346 |
 | Calibrated | 0.594 | 0.341 |
 | GNN | 0.612 | 0.323 |
 | Sequential | 0.625 | 0.324 |
 | Random | 0.754 | 0.308 |
 
-## Research-гипотезы — результаты
+## Capacity sensitivity sweep на Demo Day (НОВОЕ)
 
-### H5 (главная): устойчивость ранжирования политик между конфигурациями
-
-**Spearman ρ pairwise correlations** между 6 разными конфигурациями (cosine/learned relevance × Mobius/Demo Day × разные наборы политик):
-
-- внутри Mobius на разных relevance signal: ρ = 0.95-1.00
-- внутри Demo Day между запусками: ρ = 1.00
-- **между Mobius и Demo Day**: ρ ≈ 0.70 (p ~0.19, n=5 общих политик)
-- **avg Spearman ρ = 0.821** во всех парах
-
-**Vердикт: SUPPORTED.** Главный вывод (Capacity-aware → 0% overflow на Mobius / 46% на Demo Day, лидер на обеих) **устойчив** к смене relevance-сигнала, политик и конференции. Это центральный научный результат работы.
-
-### H2 (fatigue gradient): skip rate растёт по слоту — SUPPORTED
-
-Линейная регрессия skip_rate ~ slot_num на 3 политиках (Cosine, MMR, Capacity-aware), 50 LLM-агентов:
-
-| Политика | slope | p-value |
+| Capacity scale | Лидер по OF_choice | OF_choice |
 |---|---|---|
-| Cosine | +0.0508 | 0.0019 |
-| MMR | +0.0471 | 0.0034 |
-| Capacity-aware | +0.0463 | 0.0035 |
+| 0.70 | MMR | 0.663 |
+| 0.85 | Capacity-aware | 0.578 |
+| 1.00 (базовый) | Capacity-aware | 0.460 |
+| 1.15 | Capacity-aware | 0.353 |
+| 1.30 | Capacity-aware | 0.262 |
 
-**Vердикт: SUPPORTED (p < 0.005 для всех политик).** Skip rate растёт на ~5% за каждый дополнительный слот — эмерджентный эффект fatigue, который **невозможно воспроизвести параметрическим MNL** (он даёт постоянный skip rate). Это сильное обоснование двухслойной валидации в Главе 2.3.
+**Содержательный вывод:** Capacity-aware лидер в широком диапазоне ёмкости (scale ≥ 0.85), но при сильно недостаточной capacity (scale 0.7, аудитория превышает суммарную вместимость на 40%+) hard_threshold=0.95 заставляет direct overflow распределяться, и MMR с тематическим разнообразием становится лучше. **Это ограничение применимости метода**, которое явно фиксируется в Главе 4.6 как направление дальнейшей работы (адаптивный hard_threshold).
 
-### H3 (social contagion): корреляция активности друзей с собственной — STRONGLY SUPPORTED
+## Research-гипотезы — пересмотренные результаты
 
-Pearson корреляция между долей активных друзей агента в слоте и его собственной активностью (n=800 на политику):
-
-| Политика | Pearson r | p-value |
-|---|---|---|
-| MMR | +0.690 | 3.05e-114 |
-| Cosine | +0.677 | 1.50e-108 |
-| Capacity-aware | +0.614 | 4.86e-84 |
-
-**Vердикт: STRONGLY SUPPORTED.** Корреляция 0.6–0.7 — это **очень сильный эффект** (для социальных данных обычно r=0.2-0.4). Решения агента сильно зависят от активности друзей, что воспроизводит **классический bandwagon-эффект** из теории игр Розенталя — главный аргумент Главы 1.3 о неэффективности децентрализованной оптимизации в congestion game.
-
-### H4 (sequential beats cosine)
-
-**Vердикт: NOT SUPPORTED в текущей реализации.**
-Sequential policy: utility 0.331 (хуже Cosine 0.356), overflow 0.317 (хуже Cosine 0.306). Возможные причины: (а) каталог 40 талков мал, у пользователя слишком мало истории для динамического embedding'а; (б) наша реализация без attention слишком наивная. Это **содержательный negative result** — показывает, что современный recsys-метод не автоматически побеждает на малом каталоге.
-
-### H1 (star-speaker): эмерджентный эффект звёздного спикера
-
-[Не реализовано в этой сессии — нужны метаданные `speaker_fame` для докладов]
-
-## Сводка по гипотезам
-
-| Гипотеза | Vердикт | Основной показатель |
-|---|---|---|
-| **H2 fatigue gradient** | ✅ SUPPORTED | slope skip_rate ~ slot_num: +0.046–0.051, p < 0.005 |
-| **H3 social contagion** | ✅ STRONGLY SUPPORTED | Pearson r = 0.61–0.69, p < 1e-80 |
-| **H5 cross-config robustness** | ✅ SUPPORTED | avg Spearman ρ = 0.821 между конфигурациями |
-| **H4 sequential beats cosine** | ❌ NOT SUPPORTED | utility seq=0.331 < cosine=0.356 (содержательный negative) |
-| **H1 star-speaker effect** | ⚠️ NOT TESTED | требует speaker_fame метаданных |
-
-**3 из 5 гипотез подтверждены статистически (p < 0.005).** H2 и H3 — эмерджентные эффекты, которые **невозможно** воспроизвести параметрическим симулятором, что обосновывает двухслойную валидацию Главы 2.3.
-
-## Ключевые научные выводы
-
-1. **Capacity-aware политики устойчивы к смене двух осей системы** (relevance signal, конференция) — основное свидетельство в пользу того, что конкретный механизм action masking + штраф за загрузку действительно решает задачу congestion management, а не подгонка к конкретному датасету.
-
-2. **Современные recsys-политики (DPP, Sequential, GNN, Calibrated) не превосходят Capacity-aware по системным метрикам.** DPP даёт хороший баланс (overflow 0.22 при utility 0.35), но всё равно уступает rule-based capacity-aware. Это содержательный аргумент против гипотезы «достаточно более умного ранжирующего метода».
-
-3. **Subjective view (LLM-judge) и system view расходятся** — LLM-judge предпочитает LLM-ranker (BT 1.33), который даёт worst overflow (0.34). Capacity-aware на 2-3 месте по BT (1.06-1.08) — приемлемая «жертва» по субъективному качеству ради нулевого переполнения.
-
-4. **Cross-conference устойчивость** (Spearman ρ ≈ 0.7 между Mobius 40 и Demo Day 210) показывает, что метод не привязан к конкретной структуре расписания.
-
-## Совокупность артефактов работы
-
-| Уровень | Компоненты |
+| Гипотеза | Результат после ревью |
 |---|---|
-| **Teoretическая основа** | Constrained MDP в congestion game, формализация в Главе 2 |
-| **Параметрический симулятор** | MNL choice + штраф переполнения + action masking, 326 LoC |
-| **Параметрическая модель preferences** | HistGB на 12K LLM-оценок, Pearson r=0.79 |
-| **OASIS-style агентный симулятор** | Memory retrieval + Big Five + fatigue + social graph + reflection, 410+ LoC |
-| **11 рекомендательных политик** | 4 эвристические + Constrained-PPO + LLM-ranker (state-aware) + 4 современные |
-| **LLM-as-judge** | Sonnet 4.6 на 1800 pairwise сравнений |
-| **Cross-conference validation** | Mobius (40) + Demo Day (210) |
-| **Statistical hypothesis testing** | H5 (avg Spearman ρ = 0.82, supported), H2/H3 (в процессе) |
+| H2 fatigue gradient | ✅ **valid as model consistency check** (slope=+0.05, p<0.005). Это не эмерджентный эффект — fatigue прописана в промпте, агент следует инструкции. Подтверждает работоспособность интеграции модели усталости. |
+| H3 social contagion | ⚠️ **artifact of reflection problem** в большой части. Raw r=0.65–0.69 содержит общий тренд fatigue в популяции (perm_mean=0.60–0.65). Чистый social effect adjusted r=0.01–0.09 (z=0.7–5.7). Только в условии MMR-выдачи остаётся **слабый, но значимый** social signal (r=0.086, z=5.7); для Cosine r=0.031, z=2.2 (на грани значимости); для Capacity-aware и LLM-ranker — не значимо. |
+| H5 robustness | 🟡 **moderate support cross-conference**. Intra-Mobius ρ=0.986 (sanity, тривиально). **Mobius vs Demo Day: ρ=0.683, p=0.042 (n=9)** — на грани значимости, корректно описывать как «moderate evidence», не «strongly supported». Топ-2 политики (Capacity-aware, Capacity-aware MMR) идентичны на двух конференциях — это и есть главный качественный аргумент. |
+| H4 sequential beats cosine | 🚫 **не тестировалось корректно** — `update_history()` не вызывался из симулятора. Исправлено, требует повторного прогона. |
+| H1 star-speaker | ⚠️ не тестировалось (требует speaker_fame метаданных) |
 
-**Общий объём кода:** ~5500 LoC Python (vs ~1600 LoC в начале сессии).
+## Honest assessment объёма работы
 
-## Стоимость и время
+**Что прочно (defensible на защите):**
+- Параметрический симулятор + 11 политик на двух конференциях
+- LLM preferences matrix + параметрическая модель выбора (HistGB Pearson r=0.79)
+- Главный численный результат (Capacity-aware лидер) с capacity sensitivity sweep
+- LLM-as-judge ranking
+- Permutation-test для H3 (методологически грамотный)
 
-| Этап | $LLM | Время |
-|---|---|---|
-| Demo Day датасет + эмбеддинги | $0 | 5 мин |
-| 11 политик на Mobius (5 сидов) | $0 (cache) | 20 сек |
-| 9 политик на Demo Day | $0 | 80 сек |
-| Тесты гипотез H5 | $0 | 5 сек |
-| OASIS-style агенты v2 setup | $0 | 1.5 ч |
-| Smoke v2 (10 agents × 1 policy) | $0.38 | 92 сек |
-| Full v2 (50 agents × 4 policies) [в процессе] | ~$8-10 | ~30 мин |
-| **Итого за сессию** | **$10-15** | **~3 часа** |
+**Что слабо (требует осторожной формулировки в тексте):**
+- H2/H3 эмерджентность — заменить на «валидация консистентности модели в LLM-агентном симуляторе»
+- Sequential/GNN — не SASRec и не настоящий GraphSAGE; формулировать как «упрощённые baseline'ы»
+- PPO в single-agent среде — описать как baseline с честным замечанием о ограничении
 
-## Что не успели и что осталось до защиты
+**Что отсутствует (направления дальнейшей работы):**
+- Multi-agent batch PPO в правильно поставленной congestion game
+- Калибровка персон под реальную аудиторию JUG
+- Полноценный Park2023 (importance scoring через LLM, planning module)
+- Адаптивный hard_threshold для overcapacity сценариев
 
-1. **H1 star-speaker effect** — нужно добавить `speaker_fame` метаданные. ~30 мин работы.
-2. **H2/H3 fatigue + social** — после завершения v2 (идёт сейчас).
-3. **Multi-user batch PPO** — требует переписать train_ppo.py со среды «один эпизод = один пользователь» на «один эпизод = вся конференция». ~1.5 часа.
-4. **PPO + LLM-ranker на Demo Day** — нужно переучить PPO для размерности Demo Day или сделать observation-space-agnostic. ~1 час.
-5. **Текст глав 3-4** — отдельная вечерняя сессия.
+## Обновлённый объём работы
+
+- ~5500 LoC Python кода (vs 1600 в начале сессии)
+- 11 политик × 2 конференции × 5 сидов
+- Параметрическая preference model (12K LLM-оценок)
+- Capacity sensitivity sweep (5 точек)
+- Permutation test для H3 (100 perm × 4 политики)
+- LLM-агент с retrieval памятью + личностью + усталостью + социалкой + рефлексией
+- 13+ графиков
+- 16 commits в git
+
+## Стоимость
+
+- **$25 LLM** за всю сессию (preferences matrix $1, agent v2 $7.6, judge $8.5, прочее ~$8)
+- ~3.5 часа работы
+- Резерв $55 на дальнейшие итерации
+
+## Top-3 риска на защите и план ответа
+
+1. **«Reflection problem в H3»** — упреждающе показать permutation results: raw r=0.65, perm r=0.62, чистый эффект 0.03–0.09. Чисто социальное копирование оказалось **слабее, чем казалось**, но всё ещё значимо в одном условии (MMR), что и предсказывает теория congestion game.
+
+2. **«PPO в неверной среде»** — открыто признать в Главе 4.6, что текущий PPO обучается в single-agent gym-среде; полноценный multi-agent congestion-game environment — направление дальнейшей работы. PPO результаты (OF=0.27) сейчас как baseline для будущего сравнения.
+
+3. **«Capacity-aware ломается при scale=0.7»** — отвечать **превентивно**: «мы провели capacity sensitivity sweep ±30%, выявили границу применимости — при ≥40% overflow относительно вместимости hard threshold capacity-aware теряет преимущество. Это известное ограничение и направление расширения метода (адаптивный threshold)». Это **превращает слабость в strength** через осознанность ограничений.
 
 ## Главные графики
 
-- `01_overflow.png` — bar chart 11 политик
-- `05_tradeoff.png` — overflow vs utility scatter
+- `01_overflow.png`, `05_tradeoff.png` — 11 политик
 - `21_cosine_vs_learned.png` — устойчивость к relevance signal
-- `30_llm_judge_bradley_terry.png` — субъективный rating
-- `31_judge_vs_overflow_tradeoff.png` — system vs subjective
-- `40_sim2sim_comparison.png` — параметрика vs LLM-агенты
-- **`50_cross_conference.png`** — устойчивость к конференции (NEW, главный для H5)
+- `30_llm_judge_bradley_terry.png`, `31_judge_vs_overflow_tradeoff.png` — LLM-судья
+- `40_sim2sim_comparison.png` — параметрический vs LLM-агентный сим
+- `50_cross_conference.png` — устойчивость на двух конференциях (главный для H5)
+- `60_h2_fatigue.png`, `61_h3_social.png` — гипотезы
+- В планах: `70_capacity_sensitivity.png` (sweep)
