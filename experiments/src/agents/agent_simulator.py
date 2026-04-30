@@ -105,26 +105,22 @@ async def simulate_agents(
             return idx, decision
 
         # Запускаем всех параллельно для одного слота
-        # ВАЖНО: hall_load обновляется СИНХРОННО в порядке order, поэтому делать
-        # параллельно нельзя без потери эффекта congestion. Делаем партиями по 10.
-        BATCH = 5
-        for i in range(0, len(order), BATCH):
-            batch_idx = order[i : i + BATCH]
-            tasks = [process_agent(idx) for idx in batch_idx]
-            results_batch = await asyncio.gather(*tasks)
-
-            # обновляем hall_load по результатам батча (sequential commit)
-            for idx, dec in results_batch:
-                result.decisions.append({
-                    "agent_id": agents[idx].id,
-                    "slot_id": slot.id,
-                    "decision": dec.decision,
-                    "reason": dec.reason,
-                })
-                result.total_cost += dec.cost
-                if dec.decision != "skip":
-                    talk = conf.talks[dec.decision]
-                    hall_load[(slot.id, talk.hall)] += 1
+        # Все агенты внутри слота видят одинаковую initial hall_load
+        # (batch-режим — соответствует «онлайн рекомендации с задержкой обновления»).
+        # Между слотами hall_load обновляется консистентно.
+        tasks = [process_agent(idx) for idx in order]
+        results_batch = await asyncio.gather(*tasks)
+        for idx, dec in results_batch:
+            result.decisions.append({
+                "agent_id": agents[idx].id,
+                "slot_id": slot.id,
+                "decision": dec.decision,
+                "reason": dec.reason,
+            })
+            result.total_cost += dec.cost
+            if dec.decision != "skip":
+                talk = conf.talks[dec.decision]
+                hall_load[(slot.id, talk.hall)] += 1
 
         result.total_errors += sum(a.errors for a in agents)
 
