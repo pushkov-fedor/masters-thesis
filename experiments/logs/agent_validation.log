@@ -4,3 +4,11 @@ Policies: ['Random', 'Cosine', 'MMR', 'Capacity-aware', 'Capacity-aware MMR', 'L
 Using LEARNED relevance for non-LLM policies
 
 === Running policy: Random ===
+  elapsed: 80s, cost: $1.608, errors: 0, decisions: 800
+  metrics: OF_all=0.000, OF_choice=0.000, var=0.001, skip_rate=0.280
+
+=== Running policy: Cosine ===
+  elapsed: 150s, cost: $1.580, errors: 0, decisions: 800
+  metrics: OF_all=0.000, OF_choice=0.000, var=0.001, skip_rate=0.249
+
+=== Running policy: MMR ===
