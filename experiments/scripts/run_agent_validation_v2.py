@@ -27,6 +27,7 @@ from src.agents.generative_agent_v2 import GenerativeAgentV2  # noqa: E402
 from src.agents.agent_simulator_v2 import simulate_agents_v2  # noqa: E402
 from src.agents.social_graph import SocialGraph  # noqa: E402
 from src.agents.personality import BigFive  # noqa: E402
+from src.agents.inter_slot_chat import InterSlotChatPool  # noqa: E402
 
 from src.policies.random_policy import RandomPolicy  # noqa: E402
 from src.policies.cosine_policy import CosinePolicy  # noqa: E402
@@ -149,6 +150,10 @@ async def main_async(args):
             seed=social_graph_template_seed,
         )
 
+        chat_pool = None
+        if args.with_chat:
+            chat_pool = InterSlotChatPool(client=client, model=args.model)
+
         t0 = time.time()
         sim = await simulate_agents_v2(
             conf=conf,
@@ -160,7 +165,11 @@ async def main_async(args):
             concurrency=args.concurrency,
             seed=args.seed,
             relevance_fn=relevance_fn,
+            chat_pool=chat_pool,
+            chat_sample_fraction=args.chat_sample,
         )
+        chat_cost = chat_pool.cumulative_cost if chat_pool else 0.0
+        chat_posts = len(chat_pool.posts) if chat_pool else 0
         elapsed = time.time() - t0
         cumulative_cost += sim.total_cost
 
@@ -186,6 +195,9 @@ async def main_async(args):
         print(f"  elapsed: {elapsed:.0f}s, cost: ${sim.total_cost:.3f}, "
               f"errors: {sim.total_errors}, decisions: {n_dec}")
         print(f"  metrics: OF_choice={of_choice:.3f}, skip_rate={skip_rate:.3f}")
+        if chat_pool:
+            print(f"  chat: {chat_posts} posts, ${chat_cost:.3f}")
+        cumulative_cost += chat_cost
 
         all_results[policy_name] = {
             "metrics": {
@@ -195,6 +207,8 @@ async def main_async(args):
                 "total_skips": n_skip,
                 "total_cost_usd": sim.total_cost,
                 "total_errors": sim.total_errors,
+                "chat_posts": chat_posts,
+                "chat_cost_usd": chat_cost,
             },
             "decisions": sim.decisions,  # для тестов H1, H3
             "skip_rate_per_slot": sim.skip_rate_per_slot,  # для H2 (fatigue)
@@ -235,6 +249,10 @@ def main():
     p.add_argument("--concurrency", type=int, default=30)
     p.add_argument("--relevance", choices=["cosine", "learned"], default="learned")
     p.add_argument("--suffix", default="default")
+    p.add_argument("--with-chat", action="store_true",
+                   help="Включить inter-slot chat pool (MiroFish-вдохновение)")
+    p.add_argument("--chat-sample", type=float, default=0.3,
+                   help="Доля посетивших, которые пишут пост")
     args = p.parse_args()
     asyncio.run(main_async(args))
 

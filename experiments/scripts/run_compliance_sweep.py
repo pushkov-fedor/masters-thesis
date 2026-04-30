@@ -4,6 +4,7 @@
 Это **прикладная** граница: насколько recsys полезен в зависимости от того,
 насколько пользователи следуют рекомендациям.
 """
+import argparse
 import json
 import sys
 from pathlib import Path
@@ -30,6 +31,14 @@ def text_of(p):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--personas", default="personas_x3")
+    ap.add_argument("--p-skip", type=float, default=0.05)
+    ap.add_argument("--w-fame", type=float, default=0.3)
+    ap.add_argument("--seeds", type=int, nargs="+", default=[1, 2, 3])
+    ap.add_argument("--results-suffix", default="")
+    args = ap.parse_args()
+
     conf = Conference.load(
         ROOT / "data" / "conferences" / "mobius_2025_autumn.json",
         ROOT / "data" / "conferences" / "mobius_2025_autumn_embeddings.npz",
@@ -37,12 +46,13 @@ def main():
     print(f"Conference: {conf.name}")
     print(f"Talks with fame > 0.5: {sum(1 for t in conf.talks.values() if t.fame > 0.5)}")
 
-    with open(ROOT / "data" / "personas" / "personas_x3.json", encoding="utf-8") as f:
+    with open(ROOT / "data" / "personas" / f"{args.personas}.json", encoding="utf-8") as f:
         meta = json.load(f)
-    npz = np.load(ROOT / "data" / "personas" / "personas_x3_embeddings.npz", allow_pickle=False)
+    npz = np.load(ROOT / "data" / "personas" / f"{args.personas}_embeddings.npz", allow_pickle=False)
     by_id = {pid: npz["embeddings"][i] for i, pid in enumerate(npz["ids"])}
     users = [UserProfile(id=p["id"], text=text_of(p), embedding=by_id[p["id"]])
              for p in meta]
+    print(f"Users: {len(users)}, p_skip={args.p_skip}")
 
     relevance_fn = LearnedPreferenceFn(ROOT / "data" / "models" / "preference_model.pkl")
     relevance_fn.precompute_all(
@@ -60,8 +70,8 @@ def main():
     }
 
     compliance_values = [0.3, 0.5, 0.7, 0.9, 1.0]
-    w_fame = 0.3  # включён star-effect
-    seeds = [1, 2, 3]
+    w_fame = args.w_fame  # включён star-effect
+    seeds = args.seeds
 
     all_results = {}
     for compliance in compliance_values:
@@ -71,7 +81,7 @@ def main():
             mse_overflow = []
             mse_utility = []
             for seed in seeds:
-                cfg = SimConfig(K=2, tau=0.3, lambda_overflow=2.0, p_skip_base=0.05,
+                cfg = SimConfig(K=2, tau=0.3, lambda_overflow=2.0, p_skip_base=args.p_skip,
                                 seed=seed, w_fame=w_fame, user_compliance=compliance)
                 pol = pol_factory(seed)
                 sim = simulate(conf, users, pol, cfg, relevance_fn=relevance_fn)

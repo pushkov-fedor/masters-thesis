@@ -66,6 +66,9 @@ USER_TEMPLATE = """Профиль:
 
 Социальный сигнал: {social_signal}
 
+Чат конференции (мнения коллег после прошлых слотов):
+{chat_signal}
+
 Подсказка системы (top-{K}):
 {recommendation}
 
@@ -142,6 +145,7 @@ class GenerativeAgentV2:
         recommendation: list,
         social_signal: str,
         sem: asyncio.Semaphore,
+        chat_signal: str = "(чат конференции пока не используется)",
     ) -> AgentDecision:
         # candidates rendering
         cand_lines = []
@@ -187,6 +191,7 @@ class GenerativeAgentV2:
             slot_time=slot.datetime,
             candidates=candidates_text,
             social_signal=social_signal,
+            chat_signal=chat_signal,
             recommendation=rec_text,
             K=len(recommendation),
         )

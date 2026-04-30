@@ -1,0 +1,1729 @@
+{
+  "name": "MovieLens 1M Cross-Domain",
+  "talks": [
+    {
+      "id": "m1265_0",
+      "title": "Groundhog Day (1993)",
+      "hall": 5,
+      "slot_id": "s01",
+      "category": "Comedy",
+      "abstract": "Comedy/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m1356_0",
+      "title": "Star Trek: First Contact (1996)",
+      "hall": 1,
+      "slot_id": "s01",
+      "category": "Action",
+      "abstract": "Action/Adventure/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m0969_0",
+      "title": "African Queen, The (1951)",
+      "hall": 1,
+      "slot_id": "s01",
+      "category": "Action",
+      "abstract": "Action/Adventure/Romance/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1200_0",
+      "title": "Aliens (1986)",
+      "hall": 1,
+      "slot_id": "s01",
+      "category": "Action",
+      "abstract": "Action/Sci-Fi/Thriller/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m0357_0",
+      "title": "Four Weddings and a Funeral (1994)",
+      "hall": 5,
+      "slot_id": "s01",
+      "category": "Comedy",
+      "abstract": "Comedy/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m0032_0",
+      "title": "Twelve Monkeys (1995)",
+      "hall": 8,
+      "slot_id": "s01",
+      "category": "Drama",
+      "abstract": "Drama/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m0588_0",
+      "title": "Aladdin (1992)",
+      "hall": 3,
+      "slot_id": "s01",
+      "category": "Animation",
+      "abstract": "Animation/Children's/Comedy/Musical",
+      "fame": 0.0
+    },
+    {
+      "id": "m0364_0",
+      "title": "Lion King, The (1994)",
+      "hall": 3,
+      "slot_id": "s01",
+      "category": "Animation",
+      "abstract": "Animation/Children's/Musical",
+      "fame": 0.0
+    },
+    {
+      "id": "m0380_0",
+      "title": "True Lies (1994)",
+      "hall": 1,
+      "slot_id": "s01",
+      "category": "Action",
+      "abstract": "Action/Adventure/Comedy/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m2791_0",
+      "title": "Airplane! (1980)",
+      "hall": 5,
+      "slot_id": "s01",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m3751_0",
+      "title": "Chicken Run (2000)",
+      "hall": 3,
+      "slot_id": "s01",
+      "category": "Animation",
+      "abstract": "Animation/Children's/Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m0377_0",
+      "title": "Speed (1994)",
+      "hall": 1,
+      "slot_id": "s01",
+      "category": "Action",
+      "abstract": "Action/Romance/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m2355_0",
+      "title": "Bug's Life, A (1998)",
+      "hall": 3,
+      "slot_id": "s01",
+      "category": "Animation",
+      "abstract": "Animation/Children's/Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m0001_0",
+      "title": "Toy Story (1995)",
+      "hall": 3,
+      "slot_id": "s01",
+      "category": "Animation",
+      "abstract": "Animation/Children's/Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m0733_0",
+      "title": "Rock, The (1996)",
+      "hall": 1,
+      "slot_id": "s01",
+      "category": "Action",
+      "abstract": "Action/Adventure/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m2762_0",
+      "title": "Sixth Sense, The (1999)",
+      "hall": 16,
+      "slot_id": "s01",
+      "category": "Thriller",
+      "abstract": "Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0608_0",
+      "title": "Fargo (1996)",
+      "hall": 6,
+      "slot_id": "s01",
+      "category": "Crime",
+      "abstract": "Crime/Drama/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m3363_0",
+      "title": "American Graffiti (1973)",
+      "hall": 5,
+      "slot_id": "s01",
+      "category": "Comedy",
+      "abstract": "Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1250_0",
+      "title": "Bridge on the River Kwai, The (1957)",
+      "hall": 8,
+      "slot_id": "s01",
+      "category": "Drama",
+      "abstract": "Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1288_0",
+      "title": "This Is Spinal Tap (1984)",
+      "hall": 5,
+      "slot_id": "s01",
+      "category": "Comedy",
+      "abstract": "Comedy/Drama/Musical",
+      "fame": 0.0
+    },
+    {
+      "id": "m1527_1",
+      "title": "Fifth Element, The (1997)",
+      "hall": 1,
+      "slot_id": "s02",
+      "category": "Action",
+      "abstract": "Action/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m2028_1",
+      "title": "Saving Private Ryan (1998)",
+      "hall": 1,
+      "slot_id": "s02",
+      "category": "Action",
+      "abstract": "Action/Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m2916_1",
+      "title": "Total Recall (1990)",
+      "hall": 1,
+      "slot_id": "s02",
+      "category": "Action",
+      "abstract": "Action/Adventure/Sci-Fi/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0908_1",
+      "title": "North by Northwest (1959)",
+      "hall": 8,
+      "slot_id": "s02",
+      "category": "Drama",
+      "abstract": "Drama/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1210_1",
+      "title": "Star Wars: Episode VI - Return of the Jedi (1983)",
+      "hall": 1,
+      "slot_id": "s02",
+      "category": "Action",
+      "abstract": "Action/Adventure/Romance/Sci-Fi/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1207_1",
+      "title": "To Kill a Mockingbird (1962)",
+      "hall": 8,
+      "slot_id": "s02",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m2700_1",
+      "title": "South Park: Bigger, Longer and Uncut (1999)",
+      "hall": 3,
+      "slot_id": "s02",
+      "category": "Animation",
+      "abstract": "Animation/Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m2997_1",
+      "title": "Being John Malkovich (1999)",
+      "hall": 5,
+      "slot_id": "s02",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m3578_1",
+      "title": "Gladiator (2000)",
+      "hall": 1,
+      "slot_id": "s02",
+      "category": "Action",
+      "abstract": "Action/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1721_1",
+      "title": "Titanic (1997)",
+      "hall": 8,
+      "slot_id": "s02",
+      "category": "Drama",
+      "abstract": "Drama/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m1252_1",
+      "title": "Chinatown (1974)",
+      "hall": 10,
+      "slot_id": "s02",
+      "category": "Film-Noir",
+      "abstract": "Film-Noir/Mystery/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1307_1",
+      "title": "When Harry Met Sally... (1989)",
+      "hall": 5,
+      "slot_id": "s02",
+      "category": "Comedy",
+      "abstract": "Comedy/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m1500_1",
+      "title": "Grosse Pointe Blank (1997)",
+      "hall": 5,
+      "slot_id": "s02",
+      "category": "Comedy",
+      "abstract": "Comedy/Crime",
+      "fame": 0.0
+    },
+    {
+      "id": "m1394_1",
+      "title": "Raising Arizona (1987)",
+      "hall": 5,
+      "slot_id": "s02",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1259_1",
+      "title": "Stand by Me (1986)",
+      "hall": 2,
+      "slot_id": "s02",
+      "category": "Adventure",
+      "abstract": "Adventure/Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m3671_1",
+      "title": "Blazing Saddles (1974)",
+      "hall": 5,
+      "slot_id": "s02",
+      "category": "Comedy",
+      "abstract": "Comedy/Western",
+      "fame": 0.0
+    },
+    {
+      "id": "m1198_1",
+      "title": "Raiders of the Lost Ark (1981)",
+      "hall": 1,
+      "slot_id": "s02",
+      "category": "Action",
+      "abstract": "Action/Adventure",
+      "fame": 0.0
+    },
+    {
+      "id": "m1233_1",
+      "title": "Boat, The (Das Boot) (1981)",
+      "hall": 1,
+      "slot_id": "s02",
+      "category": "Action",
+      "abstract": "Action/Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1196_1",
+      "title": "Star Wars: Episode V - The Empire Strikes Back (1980)",
+      "hall": 1,
+      "slot_id": "s02",
+      "category": "Action",
+      "abstract": "Action/Adventure/Drama/Sci-Fi/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m0034_1",
+      "title": "Babe (1995)",
+      "hall": 4,
+      "slot_id": "s02",
+      "category": "Children's",
+      "abstract": "Children's/Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1230_2",
+      "title": "Annie Hall (1977)",
+      "hall": 5,
+      "slot_id": "s03",
+      "category": "Comedy",
+      "abstract": "Comedy/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m2599_2",
+      "title": "Election (1999)",
+      "hall": 5,
+      "slot_id": "s03",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m3418_2",
+      "title": "Thelma & Louise (1991)",
+      "hall": 1,
+      "slot_id": "s03",
+      "category": "Action",
+      "abstract": "Action/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m0021_2",
+      "title": "Get Shorty (1995)",
+      "hall": 1,
+      "slot_id": "s03",
+      "category": "Action",
+      "abstract": "Action/Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m3176_2",
+      "title": "Talented Mr. Ripley, The (1999)",
+      "hall": 8,
+      "slot_id": "s03",
+      "category": "Drama",
+      "abstract": "Drama/Mystery/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0589_2",
+      "title": "Terminator 2: Judgment Day (1991)",
+      "hall": 1,
+      "slot_id": "s03",
+      "category": "Action",
+      "abstract": "Action/Sci-Fi/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0223_2",
+      "title": "Clerks (1994)",
+      "hall": 5,
+      "slot_id": "s03",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1374_2",
+      "title": "Star Trek: The Wrath of Khan (1982)",
+      "hall": 1,
+      "slot_id": "s03",
+      "category": "Action",
+      "abstract": "Action/Adventure/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m2324_2",
+      "title": "Life Is Beautiful (La Vita è bella) (1997)",
+      "hall": 5,
+      "slot_id": "s03",
+      "category": "Comedy",
+      "abstract": "Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m2858_2",
+      "title": "American Beauty (1999)",
+      "hall": 5,
+      "slot_id": "s03",
+      "category": "Comedy",
+      "abstract": "Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1242_2",
+      "title": "Glory (1989)",
+      "hall": 1,
+      "slot_id": "s03",
+      "category": "Action",
+      "abstract": "Action/Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m0904_2",
+      "title": "Rear Window (1954)",
+      "hall": 13,
+      "slot_id": "s03",
+      "category": "Mystery",
+      "abstract": "Mystery/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1097_2",
+      "title": "E.T. the Extra-Terrestrial (1982)",
+      "hall": 4,
+      "slot_id": "s03",
+      "category": "Children's",
+      "abstract": "Children's/Drama/Fantasy/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m1961_2",
+      "title": "Rain Man (1988)",
+      "hall": 8,
+      "slot_id": "s03",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m3408_2",
+      "title": "Erin Brockovich (2000)",
+      "hall": 8,
+      "slot_id": "s03",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m3421_2",
+      "title": "Animal House (1978)",
+      "hall": 5,
+      "slot_id": "s03",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1294_2",
+      "title": "M*A*S*H (1970)",
+      "hall": 5,
+      "slot_id": "s03",
+      "category": "Comedy",
+      "abstract": "Comedy/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1222_2",
+      "title": "Full Metal Jacket (1987)",
+      "hall": 1,
+      "slot_id": "s03",
+      "category": "Action",
+      "abstract": "Action/Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1517_2",
+      "title": "Austin Powers: International Man of Mystery (1997)",
+      "hall": 5,
+      "slot_id": "s03",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m0858_2",
+      "title": "Godfather, The (1972)",
+      "hall": 1,
+      "slot_id": "s03",
+      "category": "Action",
+      "abstract": "Action/Crime/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m0780_3",
+      "title": "Independence Day (ID4) (1996)",
+      "hall": 1,
+      "slot_id": "s04",
+      "category": "Action",
+      "abstract": "Action/Sci-Fi/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m3361_3",
+      "title": "Bull Durham (1988)",
+      "hall": 5,
+      "slot_id": "s04",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1214_3",
+      "title": "Alien (1979)",
+      "hall": 1,
+      "slot_id": "s04",
+      "category": "Action",
+      "abstract": "Action/Horror/Sci-Fi/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0903_3",
+      "title": "Vertigo (1958)",
+      "hall": 13,
+      "slot_id": "s04",
+      "category": "Mystery",
+      "abstract": "Mystery/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0593_3",
+      "title": "Silence of the Lambs, The (1991)",
+      "hall": 8,
+      "slot_id": "s04",
+      "category": "Drama",
+      "abstract": "Drama/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m2174_3",
+      "title": "Beetlejuice (1988)",
+      "hall": 5,
+      "slot_id": "s04",
+      "category": "Comedy",
+      "abstract": "Comedy/Fantasy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1387_3",
+      "title": "Jaws (1975)",
+      "hall": 1,
+      "slot_id": "s04",
+      "category": "Action",
+      "abstract": "Action/Horror",
+      "fame": 0.0
+    },
+    {
+      "id": "m3160_3",
+      "title": "Magnolia (1999)",
+      "hall": 8,
+      "slot_id": "s04",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m0150_3",
+      "title": "Apollo 13 (1995)",
+      "hall": 8,
+      "slot_id": "s04",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1220_3",
+      "title": "Blues Brothers, The (1980)",
+      "hall": 1,
+      "slot_id": "s04",
+      "category": "Action",
+      "abstract": "Action/Comedy/Musical",
+      "fame": 0.0
+    },
+    {
+      "id": "m1923_3",
+      "title": "There's Something About Mary (1998)",
+      "hall": 5,
+      "slot_id": "s04",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m2406_3",
+      "title": "Romancing the Stone (1984)",
+      "hall": 1,
+      "slot_id": "s04",
+      "category": "Action",
+      "abstract": "Action/Adventure/Comedy/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m1206_3",
+      "title": "Clockwork Orange, A (1971)",
+      "hall": 15,
+      "slot_id": "s04",
+      "category": "Sci-Fi",
+      "abstract": "Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m1291_3",
+      "title": "Indiana Jones and the Last Crusade (1989)",
+      "hall": 1,
+      "slot_id": "s04",
+      "category": "Action",
+      "abstract": "Action/Adventure",
+      "fame": 0.0
+    },
+    {
+      "id": "m1278_3",
+      "title": "Young Frankenstein (1974)",
+      "hall": 5,
+      "slot_id": "s04",
+      "category": "Comedy",
+      "abstract": "Comedy/Horror",
+      "fame": 0.0
+    },
+    {
+      "id": "m1617_3",
+      "title": "L.A. Confidential (1997)",
+      "hall": 6,
+      "slot_id": "s04",
+      "category": "Crime",
+      "abstract": "Crime/Film-Noir/Mystery/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1573_3",
+      "title": "Face/Off (1997)",
+      "hall": 1,
+      "slot_id": "s04",
+      "category": "Action",
+      "abstract": "Action/Sci-Fi/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1784_3",
+      "title": "As Good As It Gets (1997)",
+      "hall": 5,
+      "slot_id": "s04",
+      "category": "Comedy",
+      "abstract": "Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m2194_3",
+      "title": "Untouchables, The (1987)",
+      "hall": 1,
+      "slot_id": "s04",
+      "category": "Action",
+      "abstract": "Action/Crime/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1247_3",
+      "title": "Graduate, The (1967)",
+      "hall": 8,
+      "slot_id": "s04",
+      "category": "Drama",
+      "abstract": "Drama/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m3481_4",
+      "title": "High Fidelity (2000)",
+      "hall": 5,
+      "slot_id": "s05",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m0480_4",
+      "title": "Jurassic Park (1993)",
+      "hall": 1,
+      "slot_id": "s05",
+      "category": "Action",
+      "abstract": "Action/Adventure/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m1079_4",
+      "title": "Fish Called Wanda, A (1988)",
+      "hall": 5,
+      "slot_id": "s05",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1225_4",
+      "title": "Amadeus (1984)",
+      "hall": 8,
+      "slot_id": "s05",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m2959_4",
+      "title": "Fight Club (1999)",
+      "hall": 8,
+      "slot_id": "s05",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m3147_4",
+      "title": "Green Mile, The (1999)",
+      "hall": 8,
+      "slot_id": "s05",
+      "category": "Drama",
+      "abstract": "Drama/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m2797_4",
+      "title": "Big (1988)",
+      "hall": 5,
+      "slot_id": "s05",
+      "category": "Comedy",
+      "abstract": "Comedy/Fantasy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1258_4",
+      "title": "Shining, The (1980)",
+      "hall": 11,
+      "slot_id": "s05",
+      "category": "Horror",
+      "abstract": "Horror",
+      "fame": 0.0
+    },
+    {
+      "id": "m0047_4",
+      "title": "Seven (Se7en) (1995)",
+      "hall": 6,
+      "slot_id": "s05",
+      "category": "Crime",
+      "abstract": "Crime/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1580_4",
+      "title": "Men in Black (1997)",
+      "hall": 1,
+      "slot_id": "s05",
+      "category": "Action",
+      "abstract": "Action/Adventure/Comedy/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m1358_4",
+      "title": "Sling Blade (1996)",
+      "hall": 8,
+      "slot_id": "s05",
+      "category": "Drama",
+      "abstract": "Drama/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1674_4",
+      "title": "Witness (1985)",
+      "hall": 8,
+      "slot_id": "s05",
+      "category": "Drama",
+      "abstract": "Drama/Romance/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0648_4",
+      "title": "Mission: Impossible (1996)",
+      "hall": 1,
+      "slot_id": "s05",
+      "category": "Action",
+      "abstract": "Action/Adventure/Mystery",
+      "fame": 0.0
+    },
+    {
+      "id": "m3793_4",
+      "title": "X-Men (2000)",
+      "hall": 1,
+      "slot_id": "s05",
+      "category": "Action",
+      "abstract": "Action/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m0527_4",
+      "title": "Schindler's List (1993)",
+      "hall": 8,
+      "slot_id": "s05",
+      "category": "Drama",
+      "abstract": "Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1073_4",
+      "title": "Willy Wonka and the Chocolate Factory (1971)",
+      "hall": 2,
+      "slot_id": "s05",
+      "category": "Adventure",
+      "abstract": "Adventure/Children's/Comedy/Fantasy",
+      "fame": 0.0
+    },
+    {
+      "id": "m0457_4",
+      "title": "Fugitive, The (1993)",
+      "hall": 1,
+      "slot_id": "s05",
+      "category": "Action",
+      "abstract": "Action/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m2987_4",
+      "title": "Who Framed Roger Rabbit? (1988)",
+      "hall": 2,
+      "slot_id": "s05",
+      "category": "Adventure",
+      "abstract": "Adventure/Animation/Film-Noir",
+      "fame": 0.0
+    },
+    {
+      "id": "m1208_4",
+      "title": "Apocalypse Now (1979)",
+      "hall": 8,
+      "slot_id": "s05",
+      "category": "Drama",
+      "abstract": "Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1304_4",
+      "title": "Butch Cassidy and the Sundance Kid (1969)",
+      "hall": 1,
+      "slot_id": "s05",
+      "category": "Action",
+      "abstract": "Action/Comedy/Western",
+      "fame": 0.0
+    },
+    {
+      "id": "m3527_5",
+      "title": "Predator (1987)",
+      "hall": 1,
+      "slot_id": "s06",
+      "category": "Action",
+      "abstract": "Action/Sci-Fi/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1036_5",
+      "title": "Die Hard (1988)",
+      "hall": 1,
+      "slot_id": "s06",
+      "category": "Action",
+      "abstract": "Action/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m2396_5",
+      "title": "Shakespeare in Love (1998)",
+      "hall": 5,
+      "slot_id": "s06",
+      "category": "Comedy",
+      "abstract": "Comedy/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m0919_5",
+      "title": "Wizard of Oz, The (1939)",
+      "hall": 2,
+      "slot_id": "s06",
+      "category": "Adventure",
+      "abstract": "Adventure/Children's/Drama/Musical",
+      "fame": 0.0
+    },
+    {
+      "id": "m1094_5",
+      "title": "Crying Game, The (1992)",
+      "hall": 8,
+      "slot_id": "s06",
+      "category": "Drama",
+      "abstract": "Drama/Romance/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m0750_5",
+      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)",
+      "hall": 15,
+      "slot_id": "s06",
+      "category": "Sci-Fi",
+      "abstract": "Sci-Fi/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1219_5",
+      "title": "Psycho (1960)",
+      "hall": 11,
+      "slot_id": "s06",
+      "category": "Horror",
+      "abstract": "Horror/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1641_5",
+      "title": "Full Monty, The (1997)",
+      "hall": 5,
+      "slot_id": "s06",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1213_5",
+      "title": "GoodFellas (1990)",
+      "hall": 6,
+      "slot_id": "s06",
+      "category": "Crime",
+      "abstract": "Crime/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1090_5",
+      "title": "Platoon (1986)",
+      "hall": 8,
+      "slot_id": "s06",
+      "category": "Drama",
+      "abstract": "Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m0590_5",
+      "title": "Dances with Wolves (1990)",
+      "hall": 2,
+      "slot_id": "s06",
+      "category": "Adventure",
+      "abstract": "Adventure/Drama/Western",
+      "fame": 0.0
+    },
+    {
+      "id": "m3471_5",
+      "title": "Close Encounters of the Third Kind (1977)",
+      "hall": 8,
+      "slot_id": "s06",
+      "category": "Drama",
+      "abstract": "Drama/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m0592_5",
+      "title": "Batman (1989)",
+      "hall": 1,
+      "slot_id": "s06",
+      "category": "Action",
+      "abstract": "Action/Adventure/Crime/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m0260_5",
+      "title": "Star Wars: Episode IV - A New Hope (1977)",
+      "hall": 1,
+      "slot_id": "s06",
+      "category": "Action",
+      "abstract": "Action/Adventure/Fantasy/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m1584_5",
+      "title": "Contact (1997)",
+      "hall": 8,
+      "slot_id": "s06",
+      "category": "Drama",
+      "abstract": "Drama/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m1234_5",
+      "title": "Sting, The (1973)",
+      "hall": 5,
+      "slot_id": "s06",
+      "category": "Comedy",
+      "abstract": "Comedy/Crime",
+      "fame": 0.0
+    },
+    {
+      "id": "m2291_5",
+      "title": "Edward Scissorhands (1990)",
+      "hall": 8,
+      "slot_id": "s06",
+      "category": "Drama",
+      "abstract": "Drama/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m1968_5",
+      "title": "Breakfast Club, The (1985)",
+      "hall": 5,
+      "slot_id": "s06",
+      "category": "Comedy",
+      "abstract": "Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m0318_5",
+      "title": "Shawshank Redemption, The (1994)",
+      "hall": 8,
+      "slot_id": "s06",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m2268_5",
+      "title": "Few Good Men, A (1992)",
+      "hall": 6,
+      "slot_id": "s06",
+      "category": "Crime",
+      "abstract": "Crime/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1089_6",
+      "title": "Reservoir Dogs (1992)",
+      "hall": 6,
+      "slot_id": "s07",
+      "category": "Crime",
+      "abstract": "Crime/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0111_6",
+      "title": "Taxi Driver (1976)",
+      "hall": 8,
+      "slot_id": "s07",
+      "category": "Drama",
+      "abstract": "Drama/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m3114_6",
+      "title": "Toy Story 2 (1999)",
+      "hall": 3,
+      "slot_id": "s07",
+      "category": "Animation",
+      "abstract": "Animation/Children's/Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1148_6",
+      "title": "Wrong Trousers, The (1993)",
+      "hall": 3,
+      "slot_id": "s07",
+      "category": "Animation",
+      "abstract": "Animation/Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m1193_6",
+      "title": "One Flew Over the Cuckoo's Nest (1975)",
+      "hall": 8,
+      "slot_id": "s07",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m2628_6",
+      "title": "Star Wars: Episode I - The Phantom Menace (1999)",
+      "hall": 1,
+      "slot_id": "s07",
+      "category": "Action",
+      "abstract": "Action/Adventure/Fantasy/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m2918_6",
+      "title": "Ferris Bueller's Day Off (1986)",
+      "hall": 5,
+      "slot_id": "s07",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m3897_6",
+      "title": "Almost Famous (2000)",
+      "hall": 5,
+      "slot_id": "s07",
+      "category": "Comedy",
+      "abstract": "Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m0356_6",
+      "title": "Forrest Gump (1994)",
+      "hall": 5,
+      "slot_id": "s07",
+      "category": "Comedy",
+      "abstract": "Comedy/Romance/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m0039_6",
+      "title": "Clueless (1995)",
+      "hall": 5,
+      "slot_id": "s07",
+      "category": "Comedy",
+      "abstract": "Comedy/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m1197_6",
+      "title": "Princess Bride, The (1987)",
+      "hall": 1,
+      "slot_id": "s07",
+      "category": "Action",
+      "abstract": "Action/Adventure/Comedy/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m3175_6",
+      "title": "Galaxy Quest (1999)",
+      "hall": 2,
+      "slot_id": "s07",
+      "category": "Adventure",
+      "abstract": "Adventure/Comedy/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m2706_6",
+      "title": "American Pie (1999)",
+      "hall": 5,
+      "slot_id": "s07",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m2716_6",
+      "title": "Ghostbusters (1984)",
+      "hall": 5,
+      "slot_id": "s07",
+      "category": "Comedy",
+      "abstract": "Comedy/Horror",
+      "fame": 0.0
+    },
+    {
+      "id": "m1270_6",
+      "title": "Back to the Future (1985)",
+      "hall": 5,
+      "slot_id": "s07",
+      "category": "Comedy",
+      "abstract": "Comedy/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m1610_6",
+      "title": "Hunt for Red October, The (1990)",
+      "hall": 1,
+      "slot_id": "s07",
+      "category": "Action",
+      "abstract": "Action/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1266_6",
+      "title": "Unforgiven (1992)",
+      "hall": 18,
+      "slot_id": "s07",
+      "category": "Western",
+      "abstract": "Western",
+      "fame": 0.0
+    },
+    {
+      "id": "m0541_6",
+      "title": "Blade Runner (1982)",
+      "hall": 10,
+      "slot_id": "s07",
+      "category": "Film-Noir",
+      "abstract": "Film-Noir/Sci-Fi",
+      "fame": 0.0
+    },
+    {
+      "id": "m0050_6",
+      "title": "Usual Suspects, The (1995)",
+      "hall": 6,
+      "slot_id": "s07",
+      "category": "Crime",
+      "abstract": "Crime/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m2000_6",
+      "title": "Lethal Weapon (1987)",
+      "hall": 1,
+      "slot_id": "s07",
+      "category": "Action",
+      "abstract": "Action/Comedy/Crime/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1221_7",
+      "title": "Godfather: Part II, The (1974)",
+      "hall": 1,
+      "slot_id": "s08",
+      "category": "Action",
+      "abstract": "Action/Crime/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1127_7",
+      "title": "Abyss, The (1989)",
+      "hall": 1,
+      "slot_id": "s08",
+      "category": "Action",
+      "abstract": "Action/Adventure/Sci-Fi/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1704_7",
+      "title": "Good Will Hunting (1997)",
+      "hall": 8,
+      "slot_id": "s08",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m2571_7",
+      "title": "Matrix, The (1999)",
+      "hall": 1,
+      "slot_id": "s08",
+      "category": "Action",
+      "abstract": "Action/Sci-Fi/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0913_7",
+      "title": "Maltese Falcon, The (1941)",
+      "hall": 10,
+      "slot_id": "s08",
+      "category": "Film-Noir",
+      "abstract": "Film-Noir/Mystery",
+      "fame": 0.0
+    },
+    {
+      "id": "m0920_7",
+      "title": "Gone with the Wind (1939)",
+      "hall": 8,
+      "slot_id": "s08",
+      "category": "Drama",
+      "abstract": "Drama/Romance/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1276_7",
+      "title": "Cool Hand Luke (1967)",
+      "hall": 5,
+      "slot_id": "s08",
+      "category": "Comedy",
+      "abstract": "Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m1136_7",
+      "title": "Monty Python and the Holy Grail (1974)",
+      "hall": 5,
+      "slot_id": "s08",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    },
+    {
+      "id": "m2692_7",
+      "title": "Run Lola Run (Lola rennt) (1998)",
+      "hall": 1,
+      "slot_id": "s08",
+      "category": "Action",
+      "abstract": "Action/Crime/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m1240_7",
+      "title": "Terminator, The (1984)",
+      "hall": 1,
+      "slot_id": "s08",
+      "category": "Action",
+      "abstract": "Action/Sci-Fi/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m0296_7",
+      "title": "Pulp Fiction (1994)",
+      "hall": 6,
+      "slot_id": "s08",
+      "category": "Crime",
+      "abstract": "Crime/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m2804_7",
+      "title": "Christmas Story, A (1983)",
+      "hall": 5,
+      "slot_id": "s08",
+      "category": "Comedy",
+      "abstract": "Comedy/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m0924_7",
+      "title": "2001: A Space Odyssey (1968)",
+      "hall": 8,
+      "slot_id": "s08",
+      "category": "Drama",
+      "abstract": "Drama/Mystery/Sci-Fi/Thriller",
+      "fame": 0.0
+    },
+    {
+      "id": "m1393_7",
+      "title": "Jerry Maguire (1996)",
+      "hall": 8,
+      "slot_id": "s08",
+      "category": "Drama",
+      "abstract": "Drama/Romance",
+      "fame": 0.0
+    },
+    {
+      "id": "m3753_7",
+      "title": "Patriot, The (2000)",
+      "hall": 1,
+      "slot_id": "s08",
+      "category": "Action",
+      "abstract": "Action/Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m0110_7",
+      "title": "Braveheart (1995)",
+      "hall": 1,
+      "slot_id": "s08",
+      "category": "Action",
+      "abstract": "Action/Drama/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m1954_7",
+      "title": "Rocky (1976)",
+      "hall": 1,
+      "slot_id": "s08",
+      "category": "Action",
+      "abstract": "Action/Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m0912_7",
+      "title": "Casablanca (1942)",
+      "hall": 8,
+      "slot_id": "s08",
+      "category": "Drama",
+      "abstract": "Drama/Romance/War",
+      "fame": 0.0
+    },
+    {
+      "id": "m0923_7",
+      "title": "Citizen Kane (1941)",
+      "hall": 8,
+      "slot_id": "s08",
+      "category": "Drama",
+      "abstract": "Drama",
+      "fame": 0.0
+    },
+    {
+      "id": "m2395_7",
+      "title": "Rushmore (1998)",
+      "hall": 5,
+      "slot_id": "s08",
+      "category": "Comedy",
+      "abstract": "Comedy",
+      "fame": 0.0
+    }
+  ],
+  "halls": [
+    {
+      "id": 1,
+      "capacity": 60
+    },
+    {
+      "id": 2,
+      "capacity": 60
+    },
+    {
+      "id": 3,
+      "capacity": 60
+    },
+    {
+      "id": 4,
+      "capacity": 60
+    },
+    {
+      "id": 5,
+      "capacity": 60
+    },
+    {
+      "id": 6,
+      "capacity": 60
+    },
+    {
+      "id": 7,
+      "capacity": 60
+    },
+    {
+      "id": 8,
+      "capacity": 60
+    },
+    {
+      "id": 9,
+      "capacity": 60
+    },
+    {
+      "id": 10,
+      "capacity": 60
+    },
+    {
+      "id": 11,
+      "capacity": 60
+    },
+    {
+      "id": 12,
+      "capacity": 60
+    },
+    {
+      "id": 13,
+      "capacity": 60
+    },
+    {
+      "id": 14,
+      "capacity": 60
+    },
+    {
+      "id": 15,
+      "capacity": 60
+    },
+    {
+      "id": 16,
+      "capacity": 60
+    },
+    {
+      "id": 17,
+      "capacity": 60
+    },
+    {
+      "id": 18,
+      "capacity": 60
+    }
+  ],
+  "slots": [
+    {
+      "id": "s01",
+      "datetime": "2026-01-01T10:00:00",
+      "talk_ids": [
+        "m1265_0",
+        "m1356_0",
+        "m0969_0",
+        "m1200_0",
+        "m0357_0",
+        "m0032_0",
+        "m0588_0",
+        "m0364_0",
+        "m0380_0",
+        "m2791_0",
+        "m3751_0",
+        "m0377_0",
+        "m2355_0",
+        "m0001_0",
+        "m0733_0",
+        "m2762_0",
+        "m0608_0",
+        "m3363_0",
+        "m1250_0",
+        "m1288_0"
+      ]
+    },
+    {
+      "id": "s02",
+      "datetime": "2026-01-02T10:00:00",
+      "talk_ids": [
+        "m1527_1",
+        "m2028_1",
+        "m2916_1",
+        "m0908_1",
+        "m1210_1",
+        "m1207_1",
+        "m2700_1",
+        "m2997_1",
+        "m3578_1",
+        "m1721_1",
+        "m1252_1",
+        "m1307_1",
+        "m1500_1",
+        "m1394_1",
+        "m1259_1",
+        "m3671_1",
+        "m1198_1",
+        "m1233_1",
+        "m1196_1",
+        "m0034_1"
+      ]
+    },
+    {
+      "id": "s03",
+      "datetime": "2026-01-03T10:00:00",
+      "talk_ids": [
+        "m1230_2",
+        "m2599_2",
+        "m3418_2",
+        "m0021_2",
+        "m3176_2",
+        "m0589_2",
+        "m0223_2",
+        "m1374_2",
+        "m2324_2",
+        "m2858_2",
+        "m1242_2",
+        "m0904_2",
+        "m1097_2",
+        "m1961_2",
+        "m3408_2",
+        "m3421_2",
+        "m1294_2",
+        "m1222_2",
+        "m1517_2",
+        "m0858_2"
+      ]
+    },
+    {
+      "id": "s04",
+      "datetime": "2026-01-04T10:00:00",
+      "talk_ids": [
+        "m0780_3",
+        "m3361_3",
+        "m1214_3",
+        "m0903_3",
+        "m0593_3",
+        "m2174_3",
+        "m1387_3",
+        "m3160_3",
+        "m0150_3",
+        "m1220_3",
+        "m1923_3",
+        "m2406_3",
+        "m1206_3",
+        "m1291_3",
+        "m1278_3",
+        "m1617_3",
+        "m1573_3",
+        "m1784_3",
+        "m2194_3",
+        "m1247_3"
+      ]
+    },
+    {
+      "id": "s05",
+      "datetime": "2026-01-05T10:00:00",
+      "talk_ids": [
+        "m3481_4",
+        "m0480_4",
+        "m1079_4",
+        "m1225_4",
+        "m2959_4",
+        "m3147_4",
+        "m2797_4",
+        "m1258_4",
+        "m0047_4",
+        "m1580_4",
+        "m1358_4",
+        "m1674_4",
+        "m0648_4",
+        "m3793_4",
+        "m0527_4",
+        "m1073_4",
+        "m0457_4",
+        "m2987_4",
+        "m1208_4",
+        "m1304_4"
+      ]
+    },
+    {
+      "id": "s06",
+      "datetime": "2026-01-06T10:00:00",
+      "talk_ids": [
+        "m3527_5",
+        "m1036_5",
+        "m2396_5",
+        "m0919_5",
+        "m1094_5",
+        "m0750_5",
+        "m1219_5",
+        "m1641_5",
+        "m1213_5",
+        "m1090_5",
+        "m0590_5",
+        "m3471_5",
+        "m0592_5",
+        "m0260_5",
+        "m1584_5",
+        "m1234_5",
+        "m2291_5",
+        "m1968_5",
+        "m0318_5",
+        "m2268_5"
+      ]
+    },
+    {
+      "id": "s07",
+      "datetime": "2026-01-07T10:00:00",
+      "talk_ids": [
+        "m1089_6",
+        "m0111_6",
+        "m3114_6",
+        "m1148_6",
+        "m1193_6",
+        "m2628_6",
+        "m2918_6",
+        "m3897_6",
+        "m0356_6",
+        "m0039_6",
+        "m1197_6",
+        "m3175_6",
+        "m2706_6",
+        "m2716_6",
+        "m1270_6",
+        "m1610_6",
+        "m1266_6",
+        "m0541_6",
+        "m0050_6",
+        "m2000_6"
+      ]
+    },
+    {
+      "id": "s08",
+      "datetime": "2026-01-08T10:00:00",
+      "talk_ids": [
+        "m1221_7",
+        "m1127_7",
+        "m1704_7",
+        "m2571_7",
+        "m0913_7",
+        "m0920_7",
+        "m1276_7",
+        "m1136_7",
+        "m2692_7",
+        "m1240_7",
+        "m0296_7",
+        "m2804_7",
+        "m0924_7",
+        "m1393_7",
+        "m3753_7",
+        "m0110_7",
+        "m1954_7",
+        "m0912_7",
+        "m0923_7",
+        "m2395_7"
+      ]
+    }
+  ]
+}

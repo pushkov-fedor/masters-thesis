@@ -17,6 +17,7 @@ import numpy as np
 
 from .generative_agent_v2 import GenerativeAgentV2
 from .social_graph import SocialGraph
+from .inter_slot_chat import InterSlotChatPool, generate_posts_for_slot
 
 
 @dataclass
@@ -41,6 +42,8 @@ async def simulate_agents_v2(
     concurrency: int = 30,
     seed: int = 42,
     relevance_fn: Optional[Callable] = None,
+    chat_pool: Optional[InterSlotChatPool] = None,
+    chat_sample_fraction: float = 0.3,
 ) -> AgentSimResultV2:
     """Прогон агентов через программу конференции с эмерджентным поведением.
 
@@ -79,6 +82,14 @@ async def simulate_agents_v2(
         slot_query_emb = slot_query_emb / max(1e-9, np.linalg.norm(slot_query_emb))
 
         halls_in_slot = sorted({t.hall for t in candidates})
+
+        # chat_signal для всего слота (одинаковый для всех агентов в слоте)
+        if chat_pool is not None:
+            chat_signal = chat_pool.render_for_prompt(
+                query_emb=slot_query_emb, top_k=3, max_age_slots=4, now=slot_num,
+            )
+        else:
+            chat_signal = "(чат конференции пока не используется)"
 
         # Перемешиваем порядок (детерминированно по seed)
         order = list(range(len(agents)))
@@ -121,6 +132,7 @@ async def simulate_agents_v2(
                 recommendation=recs,
                 social_signal=social_signal,
                 sem=sem,
+                chat_signal=chat_signal,
             )
             return agent_pos, decision
 
@@ -160,6 +172,22 @@ async def simulate_agents_v2(
         slot_decisions = [d for d in result.decisions if d["slot_id"] == slot.id]
         skips = sum(1 for d in slot_decisions if d["decision"] == "skip")
         result.skip_rate_per_slot[slot.id] = skips / max(1, len(slot_decisions))
+
+        # Inter-slot chat: агенты пишут отзывы о посещённых докладах
+        if chat_pool is not None:
+            completed = []
+            for d in slot_decisions:
+                if d["decision"] == "skip" or d["decision"] is None:
+                    continue
+                ag = next((a for a in agents if a.idx == d["agent_idx"]), None)
+                if ag is None:
+                    continue
+                completed.append((ag.id, ag.persona, d["decision"]))
+            if completed:
+                await generate_posts_for_slot(
+                    pool=chat_pool, completed_decisions=completed, conf=conf,
+                    slot_num=slot_num, sem=sem, sample_fraction=chat_sample_fraction,
+                )
 
     # упаковка hall_load_per_slot
     per_slot: Dict[str, Dict[int, int]] = {}

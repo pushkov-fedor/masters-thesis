@@ -1,0 +1,168 @@
+{
+  "fact_1_pareto": {
+    "Cosine": {
+      "top20_share": 0.5268022181146026,
+      "gini": -0.5165896487985213,
+      "ks_stat": 0.425,
+      "ks_p_value": 0.0012708143485281624,
+      "pareto_holds": true
+    },
+    "MMR": {
+      "top20_share": 0.5540796963946869,
+      "gini": -0.5520398481973436,
+      "ks_stat": 0.45,
+      "ks_p_value": 0.0005039436209702519,
+      "pareto_holds": true
+    },
+    "Capacity-aware": {
+      "top20_share": 0.4953271028037383,
+      "gini": -0.47490654205607497,
+      "ks_stat": 0.375,
+      "ks_p_value": 0.006760732303569208,
+      "pareto_holds": false
+    },
+    "LLM-ranker": {
+      "top20_share": 0.492619926199262,
+      "gini": -0.48809963099630993,
+      "ks_stat": 0.375,
+      "ks_p_value": 0.006760732303569208,
+      "pareto_holds": false
+    }
+  },
+  "fact_2_time_of_day": {
+    "Cosine": {
+      "attended_share_per_slot": [
+        0.94,
+        0.68,
+        0.98,
+        0.96,
+        1.0,
+        0.96,
+        0.78,
+        0.32,
+        0.74,
+        0.96,
+        0.94,
+        0.5,
+        0.64,
+        0.4,
+        0.0,
+        0.02
+      ],
+      "slope": -0.05079411764705882,
+      "p_value": 0.0018531859426503573,
+      "r": -0.7149441113727224,
+      "decline_per_10_slots": -0.5079411764705882,
+      "fact_holds": true
+    },
+    "MMR": {
+      "attended_share_per_slot": [
+        0.92,
+        0.64,
+        0.98,
+        0.94,
+        0.98,
+        0.94,
+        0.7,
+        0.26,
+        0.72,
+        1.0,
+        0.9,
+        0.42,
+        0.46,
+        0.56,
+        0.0,
+        0.12
+      ],
+      "slope": -0.04708823529411764,
+      "p_value": 0.003356818153568665,
+      "r": -0.6858286026945176,
+      "decline_per_10_slots": -0.4708823529411764,
+      "fact_holds": true
+    },
+    "Capacity-aware": {
+      "attended_share_per_slot": [
+        0.92,
+        0.58,
+        1.0,
+        0.92,
+        0.98,
+        0.96,
+        0.78,
+        0.36,
+        0.66,
+        0.92,
+        0.94,
+        0.56,
+        0.52,
+        0.56,
+        0.0,
+        0.04
+      ],
+      "slope": -0.04632352941176471,
+      "p_value": 0.0034612822923618383,
+      "r": -0.6842347288643233,
+      "decline_per_10_slots": -0.4632352941176471,
+      "fact_holds": true
+    },
+    "LLM-ranker": {
+      "attended_share_per_slot": [
+        0.92,
+        0.68,
+        1.0,
+        0.96,
+        0.98,
+        0.92,
+        0.62,
+        0.42,
+        0.78,
+        0.96,
+        0.96,
+        0.38,
+        0.66,
+        0.56,
+        0.0,
+        0.04
+      ],
+      "slope": -0.047352941176470584,
+      "p_value": 0.0030874709485601524,
+      "r": -0.6901308555822483,
+      "decline_per_10_slots": -0.47352941176470587,
+      "fact_holds": true
+    }
+  },
+  "fact_3_track_affinity": {
+    "Cosine": {
+      "mean_entropy": 1.5649825186657864,
+      "max_entropy": 2.3978952727983707,
+      "normalized_entropy": 0.6526484022963331,
+      "random_baseline_entropy": 1.4671258495782742,
+      "p_value_lower_than_random": 0.678,
+      "fact_holds": false
+    },
+    "MMR": {
+      "mean_entropy": 1.5740734986729172,
+      "max_entropy": 2.3978952727983707,
+      "normalized_entropy": 0.6564396354290969,
+      "random_baseline_entropy": 1.474268799033068,
+      "p_value_lower_than_random": 0.6621,
+      "fact_holds": false
+    },
+    "Capacity-aware": {
+      "mean_entropy": 1.5513499152302463,
+      "max_entropy": 2.3978952727983707,
+      "normalized_entropy": 0.6469631650842714,
+      "random_baseline_entropy": 1.470819942905398,
+      "p_value_lower_than_random": 0.633,
+      "fact_holds": false
+    },
+    "LLM-ranker": {
+      "mean_entropy": 1.5335094631917705,
+      "max_entropy": 2.3978952727983707,
+      "normalized_entropy": 0.6395231187065763,
+      "random_baseline_entropy": 1.462909847520805,
+      "p_value_lower_than_random": 0.6174,
+      "fact_holds": false
+    }
+  }
+}
