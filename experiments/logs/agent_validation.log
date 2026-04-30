@@ -12,3 +12,19 @@ Using LEARNED relevance for non-LLM policies
   metrics: OF_all=0.000, OF_choice=0.000, var=0.001, skip_rate=0.249
 
 === Running policy: MMR ===
+  elapsed: 86s, cost: $1.583, errors: 0, decisions: 800
+  metrics: OF_all=0.000, OF_choice=0.000, var=0.001, skip_rate=0.231
+
+=== Running policy: Capacity-aware ===
+  elapsed: 71s, cost: $1.580, errors: 0, decisions: 800
+  metrics: OF_all=0.000, OF_choice=0.000, var=0.001, skip_rate=0.234
+
+=== Running policy: Capacity-aware MMR ===
+  elapsed: 418s, cost: $1.573, errors: 0, decisions: 800
+  metrics: OF_all=0.000, OF_choice=0.000, var=0.001, skip_rate=0.239
+
+=== Running policy: LLM-ranker ===
+  elapsed: 223s, cost: $1.578, errors: 0, decisions: 800
+  metrics: OF_all=0.000, OF_choice=0.000, var=0.001, skip_rate=0.236
+
+TOTAL: 1029s, $9.502
