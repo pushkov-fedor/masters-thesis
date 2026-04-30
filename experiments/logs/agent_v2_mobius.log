@@ -16,3 +16,7 @@ Policies: ['Cosine', 'Capacity-aware', 'MMR', 'LLM-ranker']
   metrics: OF_choice=0.000, skip_rate=0.331
 
 === Running policy: LLM-ranker ===
+  elapsed: 505s, cost: $1.894, errors: 0, decisions: 800
+  metrics: OF_choice=0.000, skip_rate=0.323
+
+TOTAL: 2037s, $7.628
