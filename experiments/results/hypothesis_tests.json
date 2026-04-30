@@ -1,0 +1,99 @@
+{
+  "H2_fatigue": {
+    "verdict": "data_missing",
+    "path": "/Users/fedor/Study/masters-degree/experiments/results/agent_validation_v2_mobius_2025_autumn_v2.json"
+  },
+  "H3_social": {
+    "verdict": "data_missing"
+  },
+  "H5_robustness": {
+    "hypothesis": "H5: ранжирование политик устойчиво между конфигурациями",
+    "expected": "Spearman ρ ≥ 0.5 между конфигурациями (top-3 устойчивы)",
+    "common_policies": [
+      "Capacity-aware",
+      "Capacity-aware MMR",
+      "Cosine",
+      "MMR",
+      "Random"
+    ],
+    "pairwise_correlations": {
+      "mobius_cosine_vs_mobius_learned": {
+        "spearman_rho": 0.9486832980505137,
+        "p_value": 0.013846832988859102,
+        "n_policies": 5
+      },
+      "mobius_cosine_vs_mobius_learned_with_ppo_llm": {
+        "spearman_rho": 0.9486832980505137,
+        "p_value": 0.013846832988859102,
+        "n_policies": 5
+      },
+      "mobius_cosine_vs_mobius_11policies": {
+        "spearman_rho": 0.9486832980505137,
+        "p_value": 0.013846832988859102,
+        "n_policies": 5
+      },
+      "mobius_cosine_vs_demo_day_full": {
+        "spearman_rho": 0.6324555320336759,
+        "p_value": 0.25221549635550466,
+        "n_policies": 5
+      },
+      "mobius_cosine_vs_demo_day_learned": {
+        "spearman_rho": 0.6324555320336759,
+        "p_value": 0.25221549635550466,
+        "n_policies": 5
+      },
+      "mobius_learned_vs_mobius_learned_with_ppo_llm": {
+        "spearman_rho": 0.9999999999999999,
+        "p_value": 1.4042654220543602e-24,
+        "n_policies": 5
+      },
+      "mobius_learned_vs_mobius_11policies": {
+        "spearman_rho": 0.9999999999999999,
+        "p_value": 1.4042654220543602e-24,
+        "n_policies": 5
+      },
+      "mobius_learned_vs_demo_day_full": {
+        "spearman_rho": 0.7,
+        "p_value": 0.1881204043741873,
+        "n_policies": 5
+      },
+      "mobius_learned_vs_demo_day_learned": {
+        "spearman_rho": 0.7,
+        "p_value": 0.1881204043741873,
+        "n_policies": 5
+      },
+      "mobius_learned_with_ppo_llm_vs_mobius_11policies": {
+        "spearman_rho": 0.9999999999999999,
+        "p_value": 1.4042654220543602e-24,
+        "n_policies": 5
+      },
+      "mobius_learned_with_ppo_llm_vs_demo_day_full": {
+        "spearman_rho": 0.7,
+        "p_value": 0.1881204043741873,
+        "n_policies": 5
+      },
+      "mobius_learned_with_ppo_llm_vs_demo_day_learned": {
+        "spearman_rho": 0.7,
+        "p_value": 0.1881204043741873,
+        "n_policies": 5
+      },
+      "mobius_11policies_vs_demo_day_full": {
+        "spearman_rho": 0.7,
+        "p_value": 0.1881204043741873,
+        "n_policies": 5
+      },
+      "mobius_11policies_vs_demo_day_learned": {
+        "spearman_rho": 0.7,
+        "p_value": 0.1881204043741873,
+        "n_policies": 5
+      },
+      "demo_day_full_vs_demo_day_learned": {
+        "spearman_rho": 0.9999999999999999,
+        "p_value": 1.4042654220543602e-24,
+        "n_policies": 5
+      }
+    },
+    "avg_spearman_rho": 0.8207307305479261,
+    "verdict": "supported"
+  }
+}

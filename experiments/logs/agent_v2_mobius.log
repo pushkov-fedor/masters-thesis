@@ -1,6 +1,6 @@
 Conference: Mobius 2025 Autumn, 40 talks, 16 slots
-Subsampled 100 agents from 300
-  precomputed 4000 learned-relevance values
-Policies: ['Random', 'Cosine', 'MMR', 'Capacity-aware', 'Capacity-aware MMR', 'LLM-ranker']
+Subsampled 50 agents from 300
+  precomputed 2000 learned-relevance values
+Policies: ['Cosine', 'Capacity-aware', 'MMR', 'LLM-ranker']
 
-=== Running policy: Random ===
+=== Running policy: Cosine ===

@@ -23,13 +23,19 @@ PLOT_DIR = ROOT / "results" / "plots"
 PLOT_DIR.mkdir(parents=True, exist_ok=True)
 THESIS_FIG_DIR = ROOT.parent / "thesis" / "figures"
 
-POLICY_ORDER = ["Random", "Cosine", "MMR", "Capacity-aware", "Capacity-aware MMR", "Constrained-PPO", "LLM-ranker"]
+POLICY_ORDER = ["Random", "Cosine", "MMR", "Capacity-aware", "Capacity-aware MMR",
+                "DPP", "Calibrated", "Sequential", "GNN",
+                "Constrained-PPO", "LLM-ranker"]
 POLICY_COLORS = {
     "Random": "#888888",
     "Cosine": "#1f77b4",
     "MMR": "#9467bd",
     "Capacity-aware": "#2ca02c",
     "Capacity-aware MMR": "#d62728",
+    "DPP": "#bcbd22",
+    "Calibrated": "#8c564b",
+    "Sequential": "#e377c2",
+    "GNN": "#7f7f7f",
     "Constrained-PPO": "#17becf",
     "LLM-ranker": "#ff7f0e",
 }
