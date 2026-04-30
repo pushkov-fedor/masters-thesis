@@ -29,6 +29,7 @@ from src.policies.capacity_aware_mmr_policy import CapacityAwareMMRPolicy  # noq
 from src.policies.llm_ranker_policy import LLMRankerPolicy  # noqa: E402
 from src.policies.llm_ranker_state_aware_policy import LLMRankerStateAwarePolicy  # noqa: E402
 from src.policies.ppo_policy import PPOPolicy  # noqa: E402
+from src.policies.ppo_v2_policy import PPOv2Policy  # noqa: E402
 from src.policies.dpp_policy import DPPPolicy  # noqa: E402
 from src.policies.calibrated_policy import CalibratedPolicy  # noqa: E402
 from src.policies.sequential_policy import SequentialPolicy  # noqa: E402
@@ -68,7 +69,10 @@ def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None, ppo=None,
         policies["Sequential"] = SequentialPolicy(history_weight=0.6, history_window=5)
         policies["GNN"] = GNNPolicy(edge_threshold=0.5, n_layers=2, self_weight=0.5)
     if ppo is not None:
-        policies["Constrained-PPO"] = ppo
+        if isinstance(ppo, PPOv2Policy):
+            policies["Constrained-PPO-v2"] = ppo
+        else:
+            policies["Constrained-PPO"] = ppo
     if llm_ranker is not None:
         policies["LLM-ranker"] = llm_ranker
     if llm_ranker_sa is not None:
@@ -133,10 +137,15 @@ def main():
 
     ppo = None
     if args.with_ppo:
-        ppo_path = ROOT / "data" / "models" / "ppo_policy.zip"
-        if ppo_path.exists():
-            ppo = PPOPolicy(ppo_path)
-            print(f"PPO loaded from {ppo_path}")
+        # Сначала пробуем v2 (multi-agent batch episode), потом fallback на v1
+        ppo_v2_path = ROOT / "data" / "models" / "ppo_v2_policy.zip"
+        ppo_v1_path = ROOT / "data" / "models" / "ppo_policy.zip"
+        if ppo_v2_path.exists():
+            ppo = PPOv2Policy(ppo_v2_path)
+            print(f"PPO v2 (multi-agent) loaded from {ppo_v2_path}")
+        elif ppo_v1_path.exists():
+            ppo = PPOPolicy(ppo_v1_path)
+            print(f"PPO v1 loaded from {ppo_v1_path}")
 
     llm_ranker = None
     llm_ranker_sa = None
