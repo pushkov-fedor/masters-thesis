@@ -28,6 +28,7 @@ class Talk:
     category: str
     abstract: str
     embedding: np.ndarray  # 1D, нормализован
+    fame: float = 0.0  # популярность доклада [0, 1] — для star-speaker effect
 
 
 @dataclass
@@ -51,13 +52,29 @@ class Conference:
     slots: List[Slot]  # упорядоченный список
 
     @classmethod
-    def load(cls, prog_path: Path, emb_path: Path) -> "Conference":
+    def load(cls, prog_path, emb_path, fame_path=None) -> "Conference":
+        prog_path = Path(prog_path)
+        emb_path = Path(emb_path)
         with open(prog_path, encoding="utf-8") as f:
             prog = json.load(f)
         npz = np.load(emb_path, allow_pickle=False)
         emb_ids = list(npz["ids"])
         emb_vec = npz["embeddings"]
         emb_map = {tid: emb_vec[i] for i, tid in enumerate(emb_ids)}
+
+        # Optional fame scores (если файл существует или указан явно)
+        fame_map = {}
+        if fame_path is None:
+            # автоопределение по имени конференции
+            auto = prog_path.with_name(prog_path.stem + "_fame.json")
+            if auto.exists():
+                fame_path = auto
+        if fame_path:
+            fame_path = Path(fame_path)
+        if fame_path and fame_path.exists():
+            with open(fame_path, encoding="utf-8") as f:
+                fame_data = json.load(f)
+            fame_map = fame_data.get("fame", {})
 
         talks = {}
         for t in prog["talks"]:
@@ -69,6 +86,7 @@ class Conference:
                 category=t.get("category", "Other"),
                 abstract=t.get("abstract", ""),
                 embedding=emb_map[t["id"]],
+                fame=float(fame_map.get(t["id"], 0.0)),
             )
 
         halls = {h["id"]: Hall(id=h["id"], capacity=h["capacity"]) for h in prog["halls"]}
@@ -100,6 +118,12 @@ class SimConfig:
     p_skip_base: float = 0.10     # базовая вероятность отказа в каждом слоте
     K: int = 3                    # размер выдачи (top-K рекомендаций)
     seed: int = 0
+    # Star-speaker effect: вес fame в effective utility пользователя
+    w_fame: float = 0.0  # 0 = без fame (старое поведение); 0.3 = умеренный star effect
+    # Compliance: насколько пользователь следует подсказке системы
+    # 1.0 = строго из top-K (старое поведение)
+    # 0.5 = с вероятностью 50% выбирает из ВСЕХ кандидатов слота независимо от подсказки
+    user_compliance: float = 1.0
 
 
 @dataclass
@@ -269,17 +293,28 @@ def simulate(
                 ))
                 continue
 
+            # Compliance: с вероятностью (1 - compliance) пользователь "не слушает" и
+            # рассматривает ВСЕ доклады в слоте, не только top-K от политики.
+            ignore_recommendation = (cfg.user_compliance < 1.0
+                                     and rng.random() > cfg.user_compliance)
+            consider_ids = list(slot.talk_ids) if ignore_recommendation else recs
+
             # формируем utility-вектор для softmax-выбора
             utils = []
-            for tid in recs:
+            for tid in consider_ids:
                 t = conf.talks[tid]
                 rel = relevance_fn(user.embedding, t.embedding)
                 hall = conf.halls[t.hall]
                 load_frac = utilization(hall_load[(slot.id, hall.id)], hall.capacity)
+                # Effective attractiveness = (1-w_fame)*relevance + w_fame*fame
+                # Это создаёт star-speaker effect: даже не-релевантные звёздные доклады тянут пользователя.
+                effective_rel = (1 - cfg.w_fame) * rel + cfg.w_fame * t.fame
                 # Пользователь видит штраф за переполненный зал (косвенный сигнал)
-                u = rel - cfg.lambda_overflow * max(0.0, load_frac - 0.85)
+                u = effective_rel - cfg.lambda_overflow * max(0.0, load_frac - 0.85)
                 utils.append(u)
             utils = np.array(utils, dtype=np.float64)
+            # Используем consider_ids вместо recs дальше
+            recs = consider_ids
 
             # выбор: softmax + альтернатива "отказ" с полезностью log(p_skip / (1-p_skip)) * tau
             # Используем явное скалирование

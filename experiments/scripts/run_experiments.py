@@ -98,6 +98,10 @@ def main():
                     help="Суффикс к имени результатов (например _learned)")
     ap.add_argument("--conference", default="mobius_2025_autumn",
                     help="ID конференции для прогона (mobius_2025_autumn или demo_day_2026)")
+    ap.add_argument("--w-fame", type=float, default=0.0,
+                    help="Вес fame в effective utility пользователя (0 = выкл, 0.3 = star effect)")
+    ap.add_argument("--user-compliance", type=float, default=1.0,
+                    help="Compliance: 1 = строго top-K, 0.5 = 50% игнорирует подсказку")
     args = ap.parse_args()
 
     conf = Conference.load(
@@ -154,6 +158,7 @@ def main():
             cfg = SimConfig(
                 K=args.K, tau=args.tau, lambda_overflow=args.lambda_overflow,
                 p_skip_base=args.p_skip, seed=seed,
+                w_fame=args.w_fame, user_compliance=args.user_compliance,
             )
             t0 = time.time()
             sim = simulate(conf, users, pol, cfg, relevance_fn=relevance_fn)
