@@ -85,11 +85,13 @@ def main():
                     help="Способ вычисления релевантности: cosine (по умолчанию) или learned")
     ap.add_argument("--results-suffix", default="",
                     help="Суффикс к имени результатов (например _learned)")
+    ap.add_argument("--conference", default="mobius_2025_autumn",
+                    help="ID конференции для прогона (mobius_2025_autumn или demo_day_2026)")
     args = ap.parse_args()
 
     conf = Conference.load(
-        ROOT / "data" / "conferences" / "mobius_2025_autumn.json",
-        ROOT / "data" / "conferences" / "mobius_2025_autumn_embeddings.npz",
+        ROOT / "data" / "conferences" / f"{args.conference}.json",
+        ROOT / "data" / "conferences" / f"{args.conference}_embeddings.npz",
     )
     users = load_users(args.personas)
     if args.quick:
