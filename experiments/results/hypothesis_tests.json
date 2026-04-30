@@ -1,10 +1,53 @@
 {
   "H2_fatigue": {
-    "verdict": "data_missing",
-    "path": "/Users/fedor/Study/masters-degree/experiments/results/agent_validation_v2_mobius_2025_autumn_v2.json"
+    "hypothesis": "H2: skip rate монотонно растёт по слоту (fatigue)",
+    "expected": "slope > 0, p < 0.05",
+    "by_policy": {
+      "Capacity-aware": {
+        "slope": 0.046323529411764694,
+        "intercept": -0.06249999999999983,
+        "pearson_r": 0.6842347288643232,
+        "p_value": 0.0034612822923618435,
+        "n_slots": 16
+      },
+      "Cosine": {
+        "slope": 0.05079411764705882,
+        "intercept": -0.10799999999999998,
+        "pearson_r": 0.7149441113727223,
+        "p_value": 0.0018531859426503606,
+        "n_slots": 16
+      },
+      "MMR": {
+        "slope": 0.04708823529411765,
+        "intercept": -0.05900000000000005,
+        "pearson_r": 0.6858286026945178,
+        "p_value": 0.0033568181535686497,
+        "n_slots": 16
+      }
+    },
+    "verdict": "supported"
   },
   "H3_social": {
-    "verdict": "data_missing"
+    "hypothesis": "H3: социальное копирование — коррелирует ли активность друзей с моей",
+    "expected": "Pearson r > 0.1, p < 0.05",
+    "by_policy": {
+      "Cosine": {
+        "pearson_r": 0.6774700556639762,
+        "p_value": 1.4996062013783085e-108,
+        "n_observations": 800
+      },
+      "MMR": {
+        "pearson_r": 0.6902347821287454,
+        "p_value": 3.0486372151873725e-114,
+        "n_observations": 800
+      },
+      "Capacity-aware": {
+        "pearson_r": 0.6139324630154465,
+        "p_value": 4.860683021226745e-84,
+        "n_observations": 800
+      }
+    },
+    "verdict": "supported"
   },
   "H5_robustness": {
     "hypothesis": "H5: ранжирование политик устойчиво между конфигурациями",

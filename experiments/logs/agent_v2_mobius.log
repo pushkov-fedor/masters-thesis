@@ -4,3 +4,15 @@ Subsampled 50 agents from 300
 Policies: ['Cosine', 'Capacity-aware', 'MMR', 'LLM-ranker']
 
 === Running policy: Cosine ===
+  elapsed: 546s, cost: $1.910, errors: 0, decisions: 800
+  metrics: OF_choice=0.000, skip_rate=0.324
+
+=== Running policy: MMR ===
+  elapsed: 489s, cost: $1.907, errors: 0, decisions: 800
+  metrics: OF_choice=0.000, skip_rate=0.341
+
+=== Running policy: Capacity-aware ===
+  elapsed: 497s, cost: $1.916, errors: 0, decisions: 800
+  metrics: OF_choice=0.000, skip_rate=0.331
+
+=== Running policy: LLM-ranker ===
