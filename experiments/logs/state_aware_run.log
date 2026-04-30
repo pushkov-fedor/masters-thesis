@@ -1,0 +1,12 @@
+Conference: Mobius 2025 Autumn, talks=40, halls=3, slots=16
+Users: 200, seeds: [1, 2], K=2, tau=0.3
+LLM-ranker enabled: model=openai/gpt-4o-mini, budget=$2.0
+  cache size at start: 3600 entries
+State-aware LLM-ranker enabled: budget=$1.0
+  cache size at start: 324 entries
+seed=1 Random                 elapsed=  0.0s OF_all=0.000 OF_choice=0.000 var=0.005 util=0.267 gini=0.161
+seed=1 Cosine                 elapsed=  0.0s OF_all=0.000 OF_choice=0.000 var=0.013 util=0.290 gini=0.160
+seed=1 MMR                    elapsed=  0.0s OF_all=0.000 OF_choice=0.000 var=0.011 util=0.289 gini=0.161
+seed=1 Capacity-aware         elapsed=  0.0s OF_all=0.000 OF_choice=0.000 var=0.007 util=0.289 gini=0.192
+seed=1 Capacity-aware MMR     elapsed=  0.1s OF_all=0.000 OF_choice=0.000 var=0.004 util=0.284 gini=0.216
+seed=1 LLM-ranker             elapsed=  0.0s OF_all=0.000 OF_choice=0.000 var=0.008 util=0.273 gini=0.165

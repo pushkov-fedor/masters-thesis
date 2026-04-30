@@ -78,7 +78,7 @@ def plot_bar(metric_name: str, title: str, ylabel: str, results, fname: str, low
 
 def plot_tradeoff(results, fname: str):
     """Scatter: overflow vs utility — нижний правый угол лучший."""
-    overflow_agg = aggregate(results, "overflow_rate")
+    overflow_agg = aggregate(results, "overflow_rate_choice")
     util_agg = aggregate(results, "mean_user_utility")
     fig, ax = plt.subplots(figsize=(8, 6))
     for p in POLICY_ORDER:
@@ -89,7 +89,7 @@ def plot_tradeoff(results, fname: str):
                     capsize=4, linewidth=1.5)
         ax.annotate(p, xy=(ox, uy), xytext=(8, -8), textcoords="offset points",
                     fontsize=10)
-    ax.set_xlabel("Overflow rate (доля переполненных (slot, hall))")
+    ax.set_xlabel("Overflow rate (только слоты с выбором)")
     ax.set_ylabel("Mean user utility (средняя релевантность выбранных докладов)")
     ax.set_title("Trade-off: переполнение vs полезность для пользователя")
     # стрелка к утопии
@@ -153,8 +153,10 @@ def main():
     results = load_results()
     print(f"Loaded {len(results['runs'])} run records")
 
-    plot_bar("overflow_rate", "Доля переполненных (slot, hall) пар",
-             "overflow_rate", results, "01_overflow.png", lower_is_better=True)
+    plot_bar("overflow_rate_all", "Overflow rate (все слоты, включая single-talk)",
+             "overflow_rate_all", results, "01a_overflow_all.png", lower_is_better=True)
+    plot_bar("overflow_rate_choice", "Overflow rate (только слоты с выбором, ≥2 параллельных докладов)",
+             "overflow_rate_choice", results, "01_overflow.png", lower_is_better=True)
     plot_bar("hall_utilization_variance", "Дисперсия загрузки залов внутри слота",
              "variance", results, "02_variance.png", lower_is_better=True)
     plot_bar("mean_user_utility", "Средняя релевантность выбранных докладов",

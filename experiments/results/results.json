@@ -18,9 +18,10 @@
     {
       "policy": "Random",
       "seed": 1,
-      "elapsed_s": 0.1804180145263672,
+      "elapsed_s": 0.1815509796142578,
       "metrics": {
-        "overflow_rate": 0.25,
+        "overflow_rate_all": 0.25,
+        "overflow_rate_choice": 0.16666666666666666,
         "hall_utilization_variance": 0.057946035189384404,
         "mean_user_utility": 0.26916039096459926,
         "hall_load_gini": 0.18622218973121818,
@@ -31,9 +32,10 @@
     {
       "policy": "Cosine",
       "seed": 1,
-      "elapsed_s": 0.16576790809631348,
+      "elapsed_s": 0.16540122032165527,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.13027002952045016,
         "mean_user_utility": 0.29167532984862593,
         "hall_load_gini": 0.21838828374393845,
@@ -44,9 +46,10 @@
     {
       "policy": "MMR",
       "seed": 1,
-      "elapsed_s": 0.2140507698059082,
+      "elapsed_s": 0.21527814865112305,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.1132573415217939,
         "mean_user_utility": 0.28984459849873223,
         "hall_load_gini": 0.21083412530155718,
@@ -57,9 +60,10 @@
     {
       "policy": "Capacity-aware",
       "seed": 1,
-      "elapsed_s": 0.16549110412597656,
+      "elapsed_s": 0.16692399978637695,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.022342865289325605,
         "mean_user_utility": 0.2834417980578534,
         "hall_load_gini": 0.2569875965592027,
@@ -70,9 +74,10 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 1,
-      "elapsed_s": 0.26474809646606445,
+      "elapsed_s": 0.26248693466186523,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.015437223062064333,
         "mean_user_utility": 0.2820242700650447,
         "hall_load_gini": 0.2611301995759924,
@@ -83,9 +88,10 @@
     {
       "policy": "LLM-ranker",
       "seed": 1,
-      "elapsed_s": 0.18131470680236816,
+      "elapsed_s": 0.16281604766845703,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.09734614222726128,
         "mean_user_utility": 0.27598991546407986,
         "hall_load_gini": 0.19811389721470865,
@@ -96,9 +102,10 @@
     {
       "policy": "Random",
       "seed": 2,
-      "elapsed_s": 0.24313807487487793,
+      "elapsed_s": 0.18311190605163574,
       "metrics": {
-        "overflow_rate": 0.275,
+        "overflow_rate_all": 0.275,
+        "overflow_rate_choice": 0.19444444444444445,
         "hall_utilization_variance": 0.05624482422104644,
         "mean_user_utility": 0.268366636258854,
         "hall_load_gini": 0.18833577354807218,
@@ -109,9 +116,10 @@
     {
       "policy": "Cosine",
       "seed": 2,
-      "elapsed_s": 0.19666624069213867,
+      "elapsed_s": 0.15684890747070312,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.13094138704123626,
         "mean_user_utility": 0.29121360336685836,
         "hall_load_gini": 0.213128355295266,
@@ -122,9 +130,10 @@
     {
       "policy": "MMR",
       "seed": 2,
-      "elapsed_s": 0.2661278247833252,
+      "elapsed_s": 0.22713232040405273,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.11363056378600822,
         "mean_user_utility": 0.289439946469922,
         "hall_load_gini": 0.2084431429965837,
@@ -135,9 +144,10 @@
     {
       "policy": "Capacity-aware",
       "seed": 2,
-      "elapsed_s": 0.17846083641052246,
+      "elapsed_s": 0.1663830280303955,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.021637633240950697,
         "mean_user_utility": 0.2835910683791735,
         "hall_load_gini": 0.26422645192776956,
@@ -148,9 +158,10 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 2,
-      "elapsed_s": 0.2515420913696289,
+      "elapsed_s": 0.2530219554901123,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.015331105484168972,
         "mean_user_utility": 0.28249597409769195,
         "hall_load_gini": 0.2667642752562225,
@@ -161,9 +172,10 @@
     {
       "policy": "LLM-ranker",
       "seed": 2,
-      "elapsed_s": 0.169205904006958,
+      "elapsed_s": 0.1699976921081543,
       "metrics": {
-        "overflow_rate": 0.425,
+        "overflow_rate_all": 0.425,
+        "overflow_rate_choice": 0.3611111111111111,
         "hall_utilization_variance": 0.09892532035777274,
         "mean_user_utility": 0.275281732303265,
         "hall_load_gini": 0.1928745729624207,
@@ -174,9 +186,10 @@
     {
       "policy": "Random",
       "seed": 3,
-      "elapsed_s": 0.18253803253173828,
+      "elapsed_s": 0.18262195587158203,
       "metrics": {
-        "overflow_rate": 0.275,
+        "overflow_rate_all": 0.275,
+        "overflow_rate_choice": 0.19444444444444445,
         "hall_utilization_variance": 0.05415947774418411,
         "mean_user_utility": 0.268837343601788,
         "hall_load_gini": 0.19074764306073236,
@@ -187,9 +200,10 @@
     {
       "policy": "Cosine",
       "seed": 3,
-      "elapsed_s": 0.15717625617980957,
+      "elapsed_s": 0.15700578689575195,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.12970860519022423,
         "mean_user_utility": 0.2918263013693569,
         "hall_load_gini": 0.214767716631343,
@@ -200,9 +214,10 @@
     {
       "policy": "MMR",
       "seed": 3,
-      "elapsed_s": 0.22185897827148438,
+      "elapsed_s": 0.22730278968811035,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.11693909028302678,
         "mean_user_utility": 0.2902539491918934,
         "hall_load_gini": 0.20789787814563088,
@@ -213,9 +228,10 @@
     {
       "policy": "Capacity-aware",
       "seed": 3,
-      "elapsed_s": 0.16473817825317383,
+      "elapsed_s": 0.16603326797485352,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.022676849920215,
         "mean_user_utility": 0.28413757732031325,
         "hall_load_gini": 0.2587151940363956,
@@ -226,9 +242,10 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 3,
-      "elapsed_s": 0.25501513481140137,
+      "elapsed_s": 0.2577810287475586,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.014471584824053078,
         "mean_user_utility": 0.28244642743119686,
         "hall_load_gini": 0.26631586640356647,
@@ -239,9 +256,10 @@
     {
       "policy": "LLM-ranker",
       "seed": 3,
-      "elapsed_s": 0.19503474235534668,
+      "elapsed_s": 0.17045307159423828,
       "metrics": {
-        "overflow_rate": 0.5,
+        "overflow_rate_all": 0.5,
+        "overflow_rate_choice": 0.4444444444444444,
         "hall_utilization_variance": 0.09863443180482069,
         "mean_user_utility": 0.27599650117048036,
         "hall_load_gini": 0.19649686959487442,
@@ -252,9 +270,10 @@
     {
       "policy": "Random",
       "seed": 4,
-      "elapsed_s": 0.18407297134399414,
+      "elapsed_s": 0.18333911895751953,
       "metrics": {
-        "overflow_rate": 0.325,
+        "overflow_rate_all": 0.325,
+        "overflow_rate_choice": 0.25,
         "hall_utilization_variance": 0.05751427857562779,
         "mean_user_utility": 0.26892223602338666,
         "hall_load_gini": 0.18849365763396886,
@@ -265,9 +284,10 @@
     {
       "policy": "Cosine",
       "seed": 4,
-      "elapsed_s": 0.15594792366027832,
+      "elapsed_s": 0.156602144241333,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.13050090774334427,
         "mean_user_utility": 0.2917867574164605,
         "hall_load_gini": 0.2180020938329316,
@@ -278,9 +298,10 @@
     {
       "policy": "MMR",
       "seed": 4,
-      "elapsed_s": 0.21171808242797852,
+      "elapsed_s": 0.21675896644592285,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.11827679843789367,
         "mean_user_utility": 0.2903232585573116,
         "hall_load_gini": 0.20962676210649325,
@@ -291,9 +312,10 @@
     {
       "policy": "Capacity-aware",
       "seed": 4,
-      "elapsed_s": 0.17232489585876465,
+      "elapsed_s": 0.17422008514404297,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.02360431351305954,
         "mean_user_utility": 0.284250158920024,
         "hall_load_gini": 0.2577849195335135,
@@ -304,9 +326,10 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 4,
-      "elapsed_s": 0.2526061534881592,
+      "elapsed_s": 0.25173306465148926,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.013201238431174938,
         "mean_user_utility": 0.282016592004123,
         "hall_load_gini": 0.26810800282423974,
@@ -317,9 +340,10 @@
     {
       "policy": "LLM-ranker",
       "seed": 4,
-      "elapsed_s": 0.1582319736480713,
+      "elapsed_s": 0.16235899925231934,
       "metrics": {
-        "overflow_rate": 0.475,
+        "overflow_rate_all": 0.475,
+        "overflow_rate_choice": 0.4166666666666667,
         "hall_utilization_variance": 0.09732652347358696,
         "mean_user_utility": 0.2761803144203926,
         "hall_load_gini": 0.19847588440094466,
@@ -330,9 +354,10 @@
     {
       "policy": "Random",
       "seed": 5,
-      "elapsed_s": 0.1910700798034668,
+      "elapsed_s": 0.1938018798828125,
       "metrics": {
-        "overflow_rate": 0.3,
+        "overflow_rate_all": 0.3,
+        "overflow_rate_choice": 0.2222222222222222,
         "hall_utilization_variance": 0.05745084068195178,
         "mean_user_utility": 0.26907123492383916,
         "hall_load_gini": 0.1890678379697414,
@@ -343,9 +368,10 @@
     {
       "policy": "Cosine",
       "seed": 5,
-      "elapsed_s": 0.16004014015197754,
+      "elapsed_s": 0.16048979759216309,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.130315671579743,
         "mean_user_utility": 0.2918906791276014,
         "hall_load_gini": 0.21713030746705705,
@@ -356,9 +382,10 @@
     {
       "policy": "MMR",
       "seed": 5,
-      "elapsed_s": 0.2135939598083496,
+      "elapsed_s": 0.21700668334960938,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.11330417447719826,
         "mean_user_utility": 0.2900615965485081,
         "hall_load_gini": 0.21171303074670567,
@@ -369,9 +396,10 @@
     {
       "policy": "Capacity-aware",
       "seed": 5,
-      "elapsed_s": 0.17445611953735352,
+      "elapsed_s": 0.18146514892578125,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.023200581842613588,
         "mean_user_utility": 0.28423338843774726,
         "hall_load_gini": 0.2545143972669595,
@@ -382,9 +410,10 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 5,
-      "elapsed_s": 0.24976110458374023,
+      "elapsed_s": 0.2576718330383301,
       "metrics": {
-        "overflow_rate": 0.1,
+        "overflow_rate_all": 0.1,
+        "overflow_rate_choice": 0.0,
         "hall_utilization_variance": 0.0159326776266062,
         "mean_user_utility": 0.28258962587175324,
         "hall_load_gini": 0.25998047828208887,
@@ -395,9 +424,10 @@
     {
       "policy": "LLM-ranker",
       "seed": 5,
-      "elapsed_s": 0.16121602058410645,
+      "elapsed_s": 0.16418218612670898,
       "metrics": {
-        "overflow_rate": 0.45,
+        "overflow_rate_all": 0.45,
+        "overflow_rate_choice": 0.3888888888888889,
         "hall_utilization_variance": 0.09678067514907197,
         "mean_user_utility": 0.2759296297612471,
         "hall_load_gini": 0.19624206930209853,

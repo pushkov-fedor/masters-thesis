@@ -19,14 +19,19 @@ import numpy as np
 from .simulator import Conference, SimResult
 
 
-def overflow_rate(conf: Conference, result: SimResult) -> float:
-    """Доля (slot, hall) пар, где occupied > capacity."""
+def overflow_rate(conf: Conference, result: SimResult, choice_only: bool = False) -> float:
+    """Доля (slot, hall) пар, где occupied > capacity.
+
+    choice_only=True исключает слоты с единственным докладом — там переполнение
+    зависит исключительно от размера аудитории и не отражает качества рекомендации.
+    """
     overfull = 0
     total = 0
     for slot in conf.slots:
         if not slot.talk_ids:
             continue
-        # Только залы, в которых в данном слоте есть доклад
+        if choice_only and len(slot.talk_ids) <= 1:
+            continue
         halls_in_slot = {conf.talks[tid].hall for tid in slot.talk_ids}
         for hid in halls_in_slot:
             cap = conf.halls[hid].capacity
@@ -38,7 +43,11 @@ def overflow_rate(conf: Conference, result: SimResult) -> float:
 
 
 def hall_utilization_variance(conf: Conference, result: SimResult) -> float:
-    """Средняя по слотам дисперсия загрузки (occupied/capacity) залов внутри слота."""
+    """Средняя по слотам дисперсия загрузки (occupied/capacity) залов внутри слота.
+
+    По построению считается только по слотам с ≥2 параллельными докладами
+    (одиночные дают тривиальную дисперсию 0).
+    """
     variances = []
     for slot in conf.slots:
         if not slot.talk_ids:
@@ -112,7 +121,8 @@ def mean_hall_overload_excess(conf: Conference, result: SimResult) -> float:
 
 def compute_all(conf: Conference, result: SimResult) -> dict:
     return {
-        "overflow_rate": overflow_rate(conf, result),
+        "overflow_rate_all": overflow_rate(conf, result, choice_only=False),
+        "overflow_rate_choice": overflow_rate(conf, result, choice_only=True),
         "hall_utilization_variance": hall_utilization_variance(conf, result),
         "mean_user_utility": mean_user_utility(result),
         "hall_load_gini": hall_load_gini(conf, result),

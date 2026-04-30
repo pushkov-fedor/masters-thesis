@@ -27,6 +27,7 @@ from src.policies.capacity_aware_policy import CapacityAwarePolicy  # noqa: E402
 from src.policies.mmr_policy import MMRPolicy  # noqa: E402
 from src.policies.capacity_aware_mmr_policy import CapacityAwareMMRPolicy  # noqa: E402
 from src.policies.llm_ranker_policy import LLMRankerPolicy  # noqa: E402
+from src.policies.llm_ranker_state_aware_policy import LLMRankerStateAwarePolicy  # noqa: E402
 
 
 def load_users(personas_name: str = "personas") -> List[UserProfile]:
@@ -47,7 +48,7 @@ def load_users(personas_name: str = "personas") -> List[UserProfile]:
     ]
 
 
-def make_policies(seed: int, llm_ranker: Optional[LLMRankerPolicy] = None):
+def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None):
     policies = {
         "Random": RandomPolicy(seed=seed),
         "Cosine": CosinePolicy(),
@@ -57,6 +58,8 @@ def make_policies(seed: int, llm_ranker: Optional[LLMRankerPolicy] = None):
     }
     if llm_ranker is not None:
         policies["LLM-ranker"] = llm_ranker
+    if llm_ranker_sa is not None:
+        policies["LLM-ranker (state-aware)"] = llm_ranker_sa
     return policies
 
 
@@ -70,7 +73,9 @@ def main():
     ap.add_argument("--quick", action="store_true", help="1 сид, 80 пользователей (для smoke)")
     ap.add_argument("--personas", default="personas", help="имя файла personas в data/personas/ (без .json)")
     ap.add_argument("--with-llm", action="store_true", help="включить LLM-ranker как 6-ю политику")
+    ap.add_argument("--with-llm-sa", action="store_true", help="включить state-aware LLM-ranker (7-я)")
     ap.add_argument("--llm-budget", type=float, default=2.0, help="USD potolok на LLM-ranker")
+    ap.add_argument("--llm-budget-sa", type=float, default=2.0, help="USD potolok на state-aware")
     ap.add_argument("--llm-model", default="openai/gpt-4o-mini")
     args = ap.parse_args()
 
@@ -86,15 +91,20 @@ def main():
     print(f"Users: {len(users)}, seeds: {args.seeds}, K={args.K}, tau={args.tau}")
 
     llm_ranker = None
+    llm_ranker_sa = None
     if args.with_llm:
         llm_ranker = LLMRankerPolicy(model=args.llm_model, budget_usd=args.llm_budget)
         print(f"LLM-ranker enabled: model={args.llm_model}, budget=${args.llm_budget}")
         print(f"  cache size at start: {len(llm_ranker.cache)} entries")
+    if args.with_llm_sa:
+        llm_ranker_sa = LLMRankerStateAwarePolicy(model=args.llm_model, budget_usd=args.llm_budget_sa)
+        print(f"State-aware LLM-ranker enabled: budget=${args.llm_budget_sa}")
+        print(f"  cache size at start: {len(llm_ranker_sa.cache)} entries")
 
     results: List[dict] = []
     t0_all = time.time()
     for seed in args.seeds:
-        policies = make_policies(seed, llm_ranker=llm_ranker)
+        policies = make_policies(seed, llm_ranker=llm_ranker, llm_ranker_sa=llm_ranker_sa)
         for pname, pol in policies.items():
             cfg = SimConfig(
                 K=args.K, tau=args.tau, lambda_overflow=args.lambda_overflow,
@@ -111,7 +121,8 @@ def main():
                 "metrics": m,
             })
             print(f"seed={seed} {pname:<22} elapsed={elapsed:5.1f}s "
-                  f"overflow={m['overflow_rate']:.3f} var={m['hall_utilization_variance']:.3f} "
+                  f"OF_all={m['overflow_rate_all']:.3f} OF_choice={m['overflow_rate_choice']:.3f} "
+                  f"var={m['hall_utilization_variance']:.3f} "
                   f"util={m['mean_user_utility']:.3f} gini={m['hall_load_gini']:.3f}")
 
     out = {
@@ -138,7 +149,8 @@ def main():
         for k, v in r["metrics"].items():
             d.setdefault(k, []).append(v)
 
-    metrics_order = ["overflow_rate", "hall_utilization_variance", "mean_user_utility",
+    metrics_order = ["overflow_rate_all", "overflow_rate_choice",
+                     "hall_utilization_variance", "mean_user_utility",
                      "hall_load_gini", "skip_rate", "mean_overload_excess"]
 
     lines = ["# Сводная таблица результатов\n"]
@@ -170,6 +182,10 @@ def main():
         s = llm_ranker.stats()
         llm_ranker._flush()
         print(f"LLM-ranker: cumulative cost ${s['cumulative_cost_usd']:.4f}, cache size {s['cache_size']}")
+    if llm_ranker_sa is not None:
+        s = llm_ranker_sa.stats()
+        llm_ranker_sa._flush()
+        print(f"State-aware LLM-ranker: cumulative cost ${s['cumulative_cost_usd']:.4f}, cache size {s['cache_size']}")
     print("\n" + summary)
 
 
