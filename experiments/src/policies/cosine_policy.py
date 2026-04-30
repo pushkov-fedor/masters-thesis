@@ -12,10 +12,14 @@ class CosinePolicy:
 
     def __call__(self, *, user, slot, conf, state):
         K = state["K"]
+        relevance_fn = state.get("relevance_fn", None)
         scored = []
         for tid in slot.talk_ids:
             t = conf.talks[tid]
-            sim = float(np.dot(user.embedding, t.embedding))
+            if relevance_fn is not None:
+                sim = float(relevance_fn(user.embedding, t.embedding))
+            else:
+                sim = float(np.dot(user.embedding, t.embedding))
             scored.append((sim, tid))
         scored.sort(reverse=True)
         return [tid for _, tid in scored[:K]]

@@ -124,6 +124,83 @@ def cosine_relevance(user_emb: np.ndarray, talk_emb: np.ndarray) -> float:
     return float(np.dot(user_emb, talk_emb))
 
 
+class LearnedPreferenceFn:
+    """Обёртка над обученной моделью предпочтений f(persona_emb, talk_emb) → [0, 1].
+
+    Внутри использует sklearn HistGradientBoostingRegressor, обученный на
+    LLM-сгенерированной матрице оценок (см. scripts/train_preference_model.py).
+
+    Кэширует предсказания по hash эмбеддингов для повторного использования.
+    Поддерживает векторный batch_call.
+    """
+
+    def __init__(self, model_path):
+        import pickle
+        with open(model_path, "rb") as f:
+            self.model = pickle.load(f)
+        self._cache = {}  # (persona_hash, talk_hash) -> score
+
+    @staticmethod
+    def _hash_emb(emb: np.ndarray) -> int:
+        # Быстрый хэш на основе нескольких компонент эмбеддинга
+        return hash((float(emb[0]), float(emb[10]), float(emb[100]), float(emb[200]), float(emb[300])))
+
+    def __call__(self, persona_emb: np.ndarray, talk_emb: np.ndarray) -> float:
+        ph = self._hash_emb(persona_emb)
+        th = self._hash_emb(talk_emb)
+        key = (ph, th)
+        if key in self._cache:
+            return self._cache[key]
+        cosine = float(np.dot(persona_emb, talk_emb))
+        feat = np.concatenate([persona_emb, talk_emb, [cosine]]).reshape(1, -1)
+        pred = float(self.model.predict(feat)[0])
+        result = max(0.0, min(1.0, pred))
+        self._cache[key] = result
+        return result
+
+    def batch_call(self, persona_emb: np.ndarray, talk_embs: np.ndarray) -> np.ndarray:
+        """Векторный вариант: один пользователь × M докладов."""
+        cosines = talk_embs @ persona_emb  # (M,)
+        n_talks = talk_embs.shape[0]
+        persona_tile = np.tile(persona_emb, (n_talks, 1))
+        feats = np.concatenate([
+            persona_tile,
+            talk_embs,
+            cosines.reshape(-1, 1),
+        ], axis=1)
+        preds = self.model.predict(feats)
+        return np.clip(preds, 0.0, 1.0)
+
+    def precompute_all(self, personas: dict, talks: dict):
+        """Заполняет кэш предсказаниями для всех (persona, talk) пар.
+
+        Args:
+            personas: {persona_id: persona_emb}
+            talks: {talk_id: talk_emb}
+        """
+        # Build feature matrix for ALL pairs at once
+        persona_ids = list(personas.keys())
+        talk_ids = list(talks.keys())
+        p_arr = np.stack([personas[pid] for pid in persona_ids])
+        t_arr = np.stack([talks[tid] for tid in talk_ids])
+        n_p = len(persona_ids)
+        n_t = len(talk_ids)
+        # Cartesian product
+        p_repeat = np.repeat(p_arr, n_t, axis=0)  # (n_p * n_t, 384)
+        t_tile = np.tile(t_arr, (n_p, 1))  # (n_p * n_t, 384)
+        cosines = (p_repeat * t_tile).sum(axis=1, keepdims=True)  # (n_p * n_t, 1)
+        feats = np.concatenate([p_repeat, t_tile, cosines], axis=1)
+        preds = np.clip(self.model.predict(feats), 0.0, 1.0)
+        # Fill cache
+        idx = 0
+        for pid in persona_ids:
+            for tid in talk_ids:
+                ph = self._hash_emb(personas[pid])
+                th = self._hash_emb(talks[tid])
+                self._cache[(ph, th)] = float(preds[idx])
+                idx += 1
+
+
 def overflow_fraction(occupied: int, capacity: int) -> float:
     """Доля переполнения, [0, +inf). Если ≤ capacity → 0; > capacity → > 0."""
     if occupied <= capacity:
@@ -141,13 +218,19 @@ def simulate(
     users: Sequence[UserProfile],
     policy: Callable,  # signature: (user, slot, conf, state) -> List[talk_id] (length K)
     cfg: SimConfig,
+    relevance_fn: Optional[Callable] = None,  # (user_emb, talk_emb) -> float
 ) -> SimResult:
     """Прогоняет одну симуляцию по конференции для всех пользователей.
 
     state передаётся в политику между вызовами как dict с ключами:
       - hall_load: dict[(slot_id, hall_id) -> int] (пользователи уже вошедшие)
       - slot_id: текущий слот
+
+    relevance_fn — функция вычисления релевантности; по умолчанию cosine.
+    Может быть LearnedPreferenceFn или другая совместимая по интерфейсу.
     """
+    if relevance_fn is None:
+        relevance_fn = cosine_relevance
     rng = np.random.default_rng(cfg.seed)
     # рандомизированный порядок пользователей чтобы порядок прихода не влиял систематически
     user_order = list(users)
@@ -173,6 +256,7 @@ def simulate(
                 "hall_load": dict(hall_load),
                 "slot_id": slot.id,
                 "K": cfg.K,
+                "relevance_fn": relevance_fn,
             }
             recs = policy(user=user, slot=slot, conf=conf, state=state)
             # ограничить K и валидность
@@ -189,7 +273,7 @@ def simulate(
             utils = []
             for tid in recs:
                 t = conf.talks[tid]
-                rel = cosine_relevance(user.embedding, t.embedding)
+                rel = relevance_fn(user.embedding, t.embedding)
                 hall = conf.halls[t.hall]
                 load_frac = utilization(hall_load[(slot.id, hall.id)], hall.capacity)
                 # Пользователь видит штраф за переполненный зал (косвенный сигнал)
@@ -225,10 +309,11 @@ def simulate(
             chosen_hall = conf.halls[chosen_talk.hall]
             load_before = utilization(hall_load[(slot.id, chosen_hall.id)], chosen_hall.capacity)
             hall_load[(slot.id, chosen_hall.id)] += 1
+            chosen_rel_for_record = relevance_fn(user.embedding, chosen_talk.embedding)
             result.steps.append(StepRecord(
                 slot_id=slot.id, user_id=user.id, recommended=recs,
                 chosen=chosen_id,
-                chosen_relevance=float(cosine_relevance(user.embedding, chosen_talk.embedding)),
+                chosen_relevance=chosen_rel_for_record,
                 chosen_hall_load_before=load_before,
             ))
 

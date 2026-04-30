@@ -18,11 +18,15 @@ class CapacityAwarePolicy:
     def __call__(self, *, user, slot, conf, state):
         K = state["K"]
         hall_load = state["hall_load"]
+        relevance_fn = state.get("relevance_fn", None)
         scored = []
         backup = []
         for tid in slot.talk_ids:
             t = conf.talks[tid]
-            sim = float(np.dot(user.embedding, t.embedding))
+            if relevance_fn is not None:
+                sim = float(relevance_fn(user.embedding, t.embedding))
+            else:
+                sim = float(np.dot(user.embedding, t.embedding))
             cap = conf.halls[t.hall].capacity
             occ = hall_load.get((slot.id, t.hall), 0)
             load_frac = occ / max(1.0, cap)

@@ -19,7 +19,7 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from src.simulator import Conference, SimConfig, UserProfile, simulate  # noqa: E402
+from src.simulator import Conference, SimConfig, UserProfile, simulate, LearnedPreferenceFn  # noqa: E402
 from src.metrics import compute_all  # noqa: E402
 from src.policies.random_policy import RandomPolicy  # noqa: E402
 from src.policies.cosine_policy import CosinePolicy  # noqa: E402
@@ -77,6 +77,10 @@ def main():
     ap.add_argument("--llm-budget", type=float, default=2.0, help="USD potolok на LLM-ranker")
     ap.add_argument("--llm-budget-sa", type=float, default=2.0, help="USD potolok на state-aware")
     ap.add_argument("--llm-model", default="openai/gpt-4o-mini")
+    ap.add_argument("--relevance", choices=["cosine", "learned"], default="cosine",
+                    help="Способ вычисления релевантности: cosine (по умолчанию) или learned")
+    ap.add_argument("--results-suffix", default="",
+                    help="Суффикс к имени результатов (например _learned)")
     args = ap.parse_args()
 
     conf = Conference.load(
@@ -89,6 +93,22 @@ def main():
         args.seeds = [1]
     print(f"Conference: {conf.name}, talks={len(conf.talks)}, halls={len(conf.halls)}, slots={len(conf.slots)}")
     print(f"Users: {len(users)}, seeds: {args.seeds}, K={args.K}, tau={args.tau}")
+
+    relevance_fn = None
+    if args.relevance == "learned":
+        model_path = ROOT / "data" / "models" / "preference_model.pkl"
+        if not model_path.exists():
+            raise SystemExit(f"Learned model not found at {model_path}. "
+                             "Run scripts/train_preference_model.py first.")
+        relevance_fn = LearnedPreferenceFn(model_path)
+        print(f"Using LEARNED preference model from {model_path}")
+        # Precompute all (persona, talk) preferences to avoid per-call overhead
+        print("Precomputing learned preferences for all (persona, talk) pairs...")
+        t_pre = time.time()
+        persona_dict = {u.id: u.embedding for u in users}
+        talk_dict = {tid: t.embedding for tid, t in conf.talks.items()}
+        relevance_fn.precompute_all(persona_dict, talk_dict)
+        print(f"  done in {time.time()-t_pre:.1f}s, cache size: {len(relevance_fn._cache)}")
 
     llm_ranker = None
     llm_ranker_sa = None
@@ -111,7 +131,7 @@ def main():
                 p_skip_base=args.p_skip, seed=seed,
             )
             t0 = time.time()
-            sim = simulate(conf, users, pol, cfg)
+            sim = simulate(conf, users, pol, cfg, relevance_fn=relevance_fn)
             elapsed = time.time() - t0
             m = compute_all(conf, sim)
             results.append({
@@ -136,7 +156,7 @@ def main():
         },
         "runs": results,
     }
-    out_path = ROOT / "results" / "results.json"
+    out_path = ROOT / "results" / f"results{args.results_suffix}.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
@@ -173,7 +193,7 @@ def main():
         lines.append("| " + " | ".join(cells) + " |")
 
     summary = "\n".join(lines) + "\n"
-    summary_path = ROOT / "results" / "summary.md"
+    summary_path = ROOT / "results" / f"summary{args.results_suffix}.md"
     with open(summary_path, "w", encoding="utf-8") as f:
         f.write(summary)
     print(f"WROTE: {summary_path}")

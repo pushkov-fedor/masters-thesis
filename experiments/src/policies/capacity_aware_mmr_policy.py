@@ -24,12 +24,16 @@ class CapacityAwareMMRPolicy:
     def __call__(self, *, user, slot, conf, state):
         K = state["K"]
         hall_load = state["hall_load"]
+        relevance_fn = state.get("relevance_fn", None)
         cand_ids = list(slot.talk_ids)
         if len(cand_ids) <= K:
             return cand_ids
 
         cand_emb = np.stack([conf.talks[tid].embedding for tid in cand_ids])
-        rel = cand_emb @ user.embedding
+        if relevance_fn is not None:
+            rel = np.array([float(relevance_fn(user.embedding, e)) for e in cand_emb])
+        else:
+            rel = cand_emb @ user.embedding
         sim_mat = cand_emb @ cand_emb.T
         np.fill_diagonal(sim_mat, -np.inf)
 
