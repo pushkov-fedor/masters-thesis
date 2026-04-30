@@ -25,162 +25,162 @@
   "results": {
     "0.3": {
       "Random": {
-        "overflow_choice_mean": 0.5092592592592593,
+        "overflow_choice_mean": 0.5462962962962963,
         "overflow_choice_std": 0.013094570021973107,
-        "utility_mean": 0.30265057164755127
+        "utility_mean": 0.3194518731989317
       },
       "Cosine": {
-        "overflow_choice_mean": 0.40740740740740744,
+        "overflow_choice_mean": 0.5092592592592593,
         "overflow_choice_std": 0.013094570021973107,
-        "utility_mean": 0.3119151047782912
+        "utility_mean": 0.3288013889201173
       },
       "MMR": {
-        "overflow_choice_mean": 0.40740740740740744,
+        "overflow_choice_mean": 0.48148148148148145,
         "overflow_choice_std": 0.013094570021973107,
-        "utility_mean": 0.31161750890986156
+        "utility_mean": 0.3284542734118741
       },
       "Capacity-aware": {
-        "overflow_choice_mean": 0.3888888888888889,
-        "overflow_choice_std": 0.0,
-        "utility_mean": 0.3078251474749934
+        "overflow_choice_mean": 0.46296296296296297,
+        "overflow_choice_std": 0.013094570021973107,
+        "utility_mean": 0.3242269734842461
       },
       "Capacity-aware MMR": {
-        "overflow_choice_mean": 0.3611111111111111,
-        "overflow_choice_std": 0.022680460581325734,
-        "utility_mean": 0.30818369761361075
+        "overflow_choice_mean": 0.48148148148148145,
+        "overflow_choice_std": 0.013094570021973107,
+        "utility_mean": 0.3248334824330259
       },
       "DPP": {
-        "overflow_choice_mean": 0.4351851851851852,
-        "overflow_choice_std": 0.013094570021973083,
-        "utility_mean": 0.3104352307749567
+        "overflow_choice_mean": 0.48148148148148145,
+        "overflow_choice_std": 0.013094570021973107,
+        "utility_mean": 0.3273601301637937
       }
     },
     "0.5": {
       "Random": {
-        "overflow_choice_mean": 0.49074074074074076,
-        "overflow_choice_std": 0.026189140043946214,
-        "utility_mean": 0.3018293882488913
+        "overflow_choice_mean": 0.5555555555555556,
+        "overflow_choice_std": 0.0,
+        "utility_mean": 0.3185649180087367
       },
       "Cosine": {
-        "overflow_choice_mean": 0.4444444444444444,
-        "overflow_choice_std": 0.02268046058132571,
-        "utility_mean": 0.3175075581298733
+        "overflow_choice_mean": 0.5370370370370371,
+        "overflow_choice_std": 0.026189140043946214,
+        "utility_mean": 0.3345073757071838
       },
       "MMR": {
-        "overflow_choice_mean": 0.39814814814814814,
-        "overflow_choice_std": 0.05237828008789241,
-        "utility_mean": 0.3169700741554808
+        "overflow_choice_mean": 0.5740740740740741,
+        "overflow_choice_std": 0.013094570021973107,
+        "utility_mean": 0.3340387019685717
       },
       "Capacity-aware": {
-        "overflow_choice_mean": 0.32407407407407407,
-        "overflow_choice_std": 0.013094570021973083,
-        "utility_mean": 0.31073137167349774
+        "overflow_choice_mean": 0.39814814814814814,
+        "overflow_choice_std": 0.013094570021973107,
+        "utility_mean": 0.3264426359971329
       },
       "Capacity-aware MMR": {
-        "overflow_choice_mean": 0.3333333333333333,
-        "overflow_choice_std": 0.0,
-        "utility_mean": 0.31155161418117877
+        "overflow_choice_mean": 0.40740740740740744,
+        "overflow_choice_std": 0.013094570021973107,
+        "utility_mean": 0.32817846671513284
       },
       "DPP": {
-        "overflow_choice_mean": 0.37037037037037035,
-        "overflow_choice_std": 0.013094570021973107,
-        "utility_mean": 0.3150441280549299
+        "overflow_choice_mean": 0.5,
+        "overflow_choice_std": 0.022680460581325734,
+        "utility_mean": 0.3320324875439595
       }
     },
     "0.7": {
       "Random": {
-        "overflow_choice_mean": 0.5092592592592593,
-        "overflow_choice_std": 0.013094570021973107,
-        "utility_mean": 0.3011710524394933
+        "overflow_choice_mean": 0.5740740740740741,
+        "overflow_choice_std": 0.026189140043946214,
+        "utility_mean": 0.31790029264602043
       },
       "Cosine": {
-        "overflow_choice_mean": 0.46296296296296297,
-        "overflow_choice_std": 0.026189140043946214,
-        "utility_mean": 0.3235406505042428
+        "overflow_choice_mean": 0.5277777777777778,
+        "overflow_choice_std": 0.0,
+        "utility_mean": 0.3409280472235097
       },
       "MMR": {
-        "overflow_choice_mean": 0.4351851851851852,
-        "overflow_choice_std": 0.013094570021973083,
-        "utility_mean": 0.3227553289290865
+        "overflow_choice_mean": 0.5370370370370371,
+        "overflow_choice_std": 0.03464497580346244,
+        "utility_mean": 0.34002952137854214
       },
       "Capacity-aware": {
-        "overflow_choice_mean": 0.21296296296296297,
-        "overflow_choice_std": 0.013094570021973095,
-        "utility_mean": 0.31365898993931635
+        "overflow_choice_mean": 0.26851851851851855,
+        "overflow_choice_std": 0.013094570021973107,
+        "utility_mean": 0.3284112346883858
       },
       "Capacity-aware MMR": {
-        "overflow_choice_mean": 0.2037037037037037,
-        "overflow_choice_std": 0.013094570021973095,
-        "utility_mean": 0.31531174630857495
+        "overflow_choice_mean": 0.35185185185185186,
+        "overflow_choice_std": 0.026189140043946214,
+        "utility_mean": 0.3316638582387165
       },
       "DPP": {
-        "overflow_choice_mean": 0.3611111111111111,
-        "overflow_choice_std": 0.022680460581325734,
-        "utility_mean": 0.31992399929121335
+        "overflow_choice_mean": 0.46296296296296297,
+        "overflow_choice_std": 0.026189140043946214,
+        "utility_mean": 0.3370467311141953
       }
     },
     "0.9": {
       "Random": {
-        "overflow_choice_mean": 0.5277777777777778,
-        "overflow_choice_std": 0.022680460581325734,
-        "utility_mean": 0.3003633173766915
+        "overflow_choice_mean": 0.5740740740740741,
+        "overflow_choice_std": 0.026189140043946214,
+        "utility_mean": 0.3171598597594216
       },
       "Cosine": {
-        "overflow_choice_mean": 0.49074074074074076,
-        "overflow_choice_std": 0.013094570021973107,
-        "utility_mean": 0.32967586155267137
+        "overflow_choice_mean": 0.5277777777777778,
+        "overflow_choice_std": 0.0,
+        "utility_mean": 0.34792260006703385
       },
       "MMR": {
-        "overflow_choice_mean": 0.45370370370370366,
-        "overflow_choice_std": 0.013094570021973107,
-        "utility_mean": 0.3284242609075425
+        "overflow_choice_mean": 0.5277777777777778,
+        "overflow_choice_std": 0.0,
+        "utility_mean": 0.34642431451589045
       },
       "Capacity-aware": {
         "overflow_choice_mean": 0.009259259259259259,
         "overflow_choice_std": 0.013094570021973102,
-        "utility_mean": 0.31565450673202555
+        "utility_mean": 0.3301101448540308
       },
       "Capacity-aware MMR": {
-        "overflow_choice_mean": 0.17592592592592593,
-        "overflow_choice_std": 0.013094570021973107,
-        "utility_mean": 0.3188395312074721
+        "overflow_choice_mean": 0.2962962962962963,
+        "overflow_choice_std": 0.034644975803462416,
+        "utility_mean": 0.3355911586533335
       },
       "DPP": {
-        "overflow_choice_mean": 0.3425925925925926,
-        "overflow_choice_std": 0.02618914004394619,
-        "utility_mean": 0.32462906326948565
+        "overflow_choice_mean": 0.49074074074074076,
+        "overflow_choice_std": 0.026189140043946214,
+        "utility_mean": 0.34233066585741934
       }
     },
     "1.0": {
       "Random": {
-        "overflow_choice_mean": 0.5092592592592593,
-        "overflow_choice_std": 0.026189140043946214,
-        "utility_mean": 0.2989936108184239
+        "overflow_choice_mean": 0.5925925925925927,
+        "overflow_choice_std": 0.013094570021973107,
+        "utility_mean": 0.31589303444304306
       },
       "Cosine": {
-        "overflow_choice_mean": 0.48148148148148145,
-        "overflow_choice_std": 0.013094570021973107,
-        "utility_mean": 0.3326522273923637
+        "overflow_choice_mean": 0.5277777777777778,
+        "overflow_choice_std": 0.022680460581325734,
+        "utility_mean": 0.35153274798501033
       },
       "MMR": {
-        "overflow_choice_mean": 0.49074074074074076,
-        "overflow_choice_std": 0.03464497580346244,
-        "utility_mean": 0.33125004547651904
+        "overflow_choice_mean": 0.5648148148148149,
+        "overflow_choice_std": 0.026189140043946214,
+        "utility_mean": 0.34980857488647027
       },
       "Capacity-aware": {
         "overflow_choice_mean": 0.0,
         "overflow_choice_std": 0.0,
-        "utility_mean": 0.3167931652246973
+        "utility_mean": 0.33131825595135533
       },
       "Capacity-aware MMR": {
-        "overflow_choice_mean": 0.1574074074074074,
-        "overflow_choice_std": 0.013094570021973095,
-        "utility_mean": 0.3208960671263379
+        "overflow_choice_mean": 0.25,
+        "overflow_choice_std": 0.0,
+        "utility_mean": 0.3378843641870928
       },
       "DPP": {
-        "overflow_choice_mean": 0.42592592592592593,
-        "overflow_choice_std": 0.013094570021973083,
-        "utility_mean": 0.3268822890774135
+        "overflow_choice_mean": 0.5,
+        "overflow_choice_std": 0.0,
+        "utility_mean": 0.34502437026287164
       }
     }
   }

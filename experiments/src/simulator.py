@@ -275,16 +275,22 @@ def simulate(
         if not candidates:
             continue
 
+        # K как параметр среды: K_t = min(K_max, |J_t| - 1) при |J_t| >= 2,
+        # иначе K_t = 1. Это гарантирует, что выдача политики всегда отсекает
+        # хотя бы один кандидат, иначе compliance-механизм вырождается.
+        n_cands = len(slot.talk_ids)
+        effective_K = max(1, min(cfg.K, n_cands - 1)) if n_cands >= 2 else 1
+
         for user in user_order:
             state = {
                 "hall_load": dict(hall_load),
                 "slot_id": slot.id,
-                "K": cfg.K,
+                "K": effective_K,
                 "relevance_fn": relevance_fn,
             }
             recs = policy(user=user, slot=slot, conf=conf, state=state)
             # ограничить K и валидность
-            recs = [r for r in recs if r in slot.talk_ids][: cfg.K]
+            recs = [r for r in recs if r in slot.talk_ids][: effective_K]
             if not recs:
                 # пустая выдача → отказ
                 result.steps.append(StepRecord(
