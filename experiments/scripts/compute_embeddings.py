@@ -1,20 +1,19 @@
-"""Считает эмбеддинги докладов локально через sentence-transformers.
+"""Считает эмбеддинги докладов через intfloat/multilingual-e5-small.
 
-Модель: paraphrase-multilingual-MiniLM-L12-v2 (быстрая, ~120MB, 384-dim).
-Текст для эмбеддинга: title + abstract + category.
+Принимает имя конференции в --conference (например, mobius_2025_autumn,
+demo_day_2026). Тексты эмбеддятся как "passage" (e5-конвенция).
 """
+import argparse
 import json
-import os
+import sys
 from pathlib import Path
 
 import numpy as np
-from sentence_transformers import SentenceTransformer
 
 ROOT = Path(__file__).resolve().parents[1]
-PROG_PATH = ROOT / "data" / "conferences" / "mobius_2025_autumn.json"
-OUT_PATH = ROOT / "data" / "conferences" / "mobius_2025_autumn_embeddings.npz"
+sys.path.insert(0, str(ROOT))
 
-MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+from src.embedder import embed_texts  # noqa: E402
 
 
 def make_text(t):
@@ -27,21 +26,26 @@ def make_text(t):
 
 
 def main():
-    with open(PROG_PATH, encoding="utf-8") as f:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--conference", default="mobius_2025_autumn")
+    args = ap.parse_args()
+
+    prog_path = ROOT / "data" / "conferences" / f"{args.conference}.json"
+    out_path = ROOT / "data" / "conferences" / f"{args.conference}_embeddings.npz"
+
+    with open(prog_path, encoding="utf-8") as f:
         prog = json.load(f)
 
     talks = prog["talks"]
     texts = [make_text(t) for t in talks]
     ids = [t["id"] for t in talks]
 
-    print(f"Loading model {MODEL_NAME}...")
-    model = SentenceTransformer(MODEL_NAME)
-    print(f"Encoding {len(texts)} texts...")
-    emb = model.encode(texts, batch_size=16, show_progress_bar=True, normalize_embeddings=True)
+    print(f"Encoding {len(texts)} talk texts as 'passage'...")
+    emb = embed_texts(texts, kind="passage")
     print(f"Embeddings shape: {emb.shape}")
 
-    np.savez(OUT_PATH, ids=np.array(ids), embeddings=emb.astype(np.float32))
-    print(f"WROTE: {OUT_PATH}")
+    np.savez(out_path, ids=np.array(ids), embeddings=emb)
+    print(f"WROTE: {out_path}")
 
 
 if __name__ == "__main__":

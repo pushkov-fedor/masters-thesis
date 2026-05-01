@@ -5,10 +5,12 @@
 """
 from __future__ import annotations
 
+from .base import BasePolicy
+
 import numpy as np
 
 
-class CapacityAwarePolicy:
+class CapacityAwarePolicy(BasePolicy):
     name = "Capacity-aware"
 
     def __init__(self, alpha: float = 0.5, hard_threshold: float = 0.95):
@@ -27,7 +29,7 @@ class CapacityAwarePolicy:
                 sim = float(relevance_fn(user.embedding, t.embedding))
             else:
                 sim = float(np.dot(user.embedding, t.embedding))
-            cap = conf.halls[t.hall].capacity
+            cap = conf.capacity_at(slot.id, t.hall)
             occ = hall_load.get((slot.id, t.hall), 0)
             load_frac = occ / max(1.0, cap)
             penalty = self.alpha * load_frac

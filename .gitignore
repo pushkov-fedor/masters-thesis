@@ -2,3 +2,27 @@
 .env
 external/
 .claude/
+
+# LLM-ranker cache — пересобирается при необходимости, шумит при коммитах
+experiments/logs/llm_ranker_cache.json
+experiments/logs/llm_ranker_state_aware_cache.json
+experiments/logs/openrouter_usage.jsonl
+experiments/.venv/
+experiments/__pycache__/
+**/__pycache__/
+
+# Транзиентные/промежуточные результаты сессии 02.05
+experiments/results/results_demoday_metric_fix.*
+experiments/results/results_demoday_capfix.*
+experiments/results/results_demoday_with_random_cap.*
+experiments/results/results_refactor_check.*
+experiments/results/results_refactor_modern_check.*
+experiments/results/results_demoday_n100*
+experiments/results/summary_demoday_metric_fix.*
+experiments/results/summary_demoday_capfix.*
+experiments/results/summary_demoday_with_random_cap.*
+experiments/results/summary_refactor_check.*
+experiments/results/summary_refactor_modern_check.*
+experiments/results/summary_demoday_n100*
+experiments/results/results_llm_sa_async_smoke.*
+experiments/results/summary_llm_sa_async_smoke.*

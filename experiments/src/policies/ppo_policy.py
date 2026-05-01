@@ -11,13 +11,15 @@ Lagrangian dual: множитель β обновляется периодиче
 """
 from __future__ import annotations
 
+from .base import BasePolicy
+
 from pathlib import Path
 from typing import Optional
 
 import numpy as np
 
 
-class PPOPolicy:
+class PPOPolicy(BasePolicy):
     """Wrapper над обученной MaskablePPO моделью для использования в run_experiments."""
     name = "Constrained-PPO"
 
@@ -50,7 +52,7 @@ class PPOPolicy:
         halls_sorted = sorted(conf.halls.keys())
         hall_loads = []
         for hid in halls_sorted:
-            cap = conf.halls[hid].capacity
+            cap = conf.capacity_at(slot.id, hid)
             occ = state["hall_load"].get((slot.id, hid), 0)
             hall_loads.append(occ / max(1.0, cap))
 

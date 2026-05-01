@@ -8,9 +8,17 @@
 
 Кэш-ключ: (user_id_base, slot_id, candidates, load_bucket_signature),
 чтобы одинаковые состояния по нагрузке давали одинаковый ответ.
+
+Поддерживается асинхронный путь `acall(...)` — для запуска через
+`simulate_async_slots`, где разные слоты исполняются параллельно с семафором
+на API-вызовы. Внутри слота пользователи остаются последовательными, что
+сохраняет актуальность state для каждого решения.
 """
 from __future__ import annotations
 
+from .base import BasePolicy
+
+import asyncio
 import hashlib
 import json
 import re
@@ -18,7 +26,7 @@ import time
 from pathlib import Path
 from typing import Optional
 
-from openai import OpenAI
+from openai import OpenAI, AsyncOpenAI
 
 # Импортируем helpers из обычного LLM-ranker
 from .llm_ranker_policy import (  # noqa: F401
@@ -71,18 +79,22 @@ def _load_cache() -> dict:
     return {}
 
 
-class LLMRankerStateAwarePolicy:
+class LLMRankerStateAwarePolicy(BasePolicy):
     name = "LLM-ranker (state-aware)"
 
     def __init__(
         self,
         model: str = "openai/gpt-4o-mini",
         budget_usd: float = 3.0,
+        async_concurrency: int = 20,
     ):
         self.model = model
         self.budget_usd = budget_usd
         self.cumulative_cost = 0.0
         self.client = OpenAI(api_key=_load_api_key(), base_url="https://openrouter.ai/api/v1")
+        self.async_client = None  # ленивая инициализация при первом acall
+        self.async_concurrency = async_concurrency
+        self._async_sem = None
         self.cache = _load_cache()
         self._dirty = False
         self._calls_since_save = 0
@@ -143,7 +155,7 @@ class LLMRankerStateAwarePolicy:
         load_buckets = []
         for tid in cand_ids:
             t = conf.talks[tid]
-            cap = conf.halls[t.hall].capacity
+            cap = conf.capacity_at(slot.id, t.hall)
             occ = hall_load.get((slot.id, t.hall), 0)
             lf = occ / max(1.0, cap)
             load_fracs.append(lf)
@@ -239,6 +251,113 @@ class LLMRankerStateAwarePolicy:
             scored.append((score, tid))
         scored.sort(reverse=True)
         return [tid for _, tid in scored[:K]]
+
+    def _ensure_async(self):
+        if self.async_client is None:
+            self.async_client = AsyncOpenAI(
+                api_key=_load_api_key(), base_url="https://openrouter.ai/api/v1",
+            )
+            self._async_sem = asyncio.Semaphore(self.async_concurrency)
+
+    async def acall(self, *, user, slot, conf, state):
+        """Async-версия __call__. Использует AsyncOpenAI и общий семафор на
+        одновременные API-вызовы. Кэш и tqdm — общие с sync-вариантом.
+        """
+        self._ensure_async()
+        K = state["K"]
+        cand_ids = list(slot.talk_ids)
+        if len(cand_ids) <= K:
+            return cand_ids
+
+        hall_load = state["hall_load"]
+        load_fracs = []
+        load_buckets = []
+        for tid in cand_ids:
+            t = conf.talks[tid]
+            cap = conf.capacity_at(slot.id, t.hall)
+            occ = hall_load.get((slot.id, t.hall), 0)
+            lf = occ / max(1.0, cap)
+            load_fracs.append(lf)
+            load_buckets.append(_bucket(lf))
+
+        key = self._cache_key(user.id, slot.id, cand_ids, load_buckets)
+        cached = self.cache.get(key)
+        if cached:
+            self.n_cache_hits += 1
+            return [tid for tid in cached if tid in cand_ids][:K]
+
+        if self.cumulative_cost >= self.budget_usd:
+            return self._fallback_capacity_aware(user, conf, cand_ids, load_fracs, K)
+
+        candidates_text = "\n".join(
+            f"- id={tid}\n  title: {conf.talks[tid].title}\n  category: {conf.talks[tid].category}\n  hall_load: {load_buckets[i]}\n  abstract: {conf.talks[tid].abstract[:300]}"
+            for i, tid in enumerate(cand_ids)
+        )
+        user_msg = USER_TEMPLATE.format(profile=user.text, candidates=candidates_text)
+
+        async with self._async_sem:
+            t0 = time.time()
+            try:
+                resp = await self.async_client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "system", "content": SYSTEM_PROMPT},
+                        {"role": "user", "content": user_msg},
+                    ],
+                    temperature=0.2,
+                    max_tokens=120,
+                    timeout=60,
+                )
+            except Exception as e:
+                _log_usage({"ts": time.time(), "kind": "llm_ranker_sa_async_error", "error": str(e)})
+                return self._fallback_capacity_aware(user, conf, cand_ids, load_fracs, K)
+
+        self.n_api_calls += 1
+        last_latency = time.time() - t0
+        if self._pbar is not None:
+            self._pbar.update(1)
+            self._pbar.set_postfix({
+                "cost": f"${self.cumulative_cost:.2f}",
+                "last": f"{last_latency:.1f}s",
+                "hits": self.n_cache_hits,
+            })
+
+        usage = resp.usage
+        cost = _estimate_cost(
+            self.model,
+            usage.prompt_tokens if usage else 0,
+            usage.completion_tokens if usage else 0,
+        )
+        self.cumulative_cost += cost
+
+        if not resp.choices or resp.choices[0].message is None:
+            return self._fallback_capacity_aware(user, conf, cand_ids, load_fracs, K)
+        msg = resp.choices[0].message.content or ""
+        arr = _parse_array(msg)
+        if not arr:
+            return self._fallback_capacity_aware(user, conf, cand_ids, load_fracs, K)
+
+        valid = [tid for tid in arr if tid in cand_ids]
+        for tid in cand_ids:
+            if tid not in valid:
+                valid.append(tid)
+        result = valid[:K]
+
+        self.cache[key] = valid
+        self._dirty = True
+        self._calls_since_save += 1
+        if self._calls_since_save >= self._save_every:
+            self._flush()
+
+        _log_usage({
+            "ts": time.time(), "kind": "llm_ranker_state_aware_async",
+            "user": user.id, "slot": slot.id,
+            "load_buckets": load_buckets,
+            "prompt_tokens": usage.prompt_tokens if usage else None,
+            "completion_tokens": usage.completion_tokens if usage else None,
+            "cost": cost, "cumulative": self.cumulative_cost,
+        })
+        return result
 
     def stats(self) -> dict:
         return {

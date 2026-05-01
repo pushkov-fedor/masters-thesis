@@ -1,0 +1,21 @@
+{
+  "n_pairs": 500,
+  "model": "openai/gpt-4o-mini",
+  "personas": "personas",
+  "mobius_trained_model_on_demoday": {
+    "pearson": 0.2818846300676298,
+    "spearman": 0.28803165088224053
+  },
+  "cosine_on_demoday": {
+    "pearson": 0.17617419362068176,
+    "spearman": 0.1650741897310299
+  },
+  "llm_score_stats": {
+    "mean": 0.09759999811649323,
+    "std": 0.20038524270057678
+  },
+  "model_pred_stats": {
+    "mean": 0.32339650421207244,
+    "std": 0.13309753470000127
+  }
+}

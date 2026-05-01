@@ -9,10 +9,12 @@
 """
 from __future__ import annotations
 
+from .base import BasePolicy
+
 import numpy as np
 
 
-class GNNPolicy:
+class GNNPolicy(BasePolicy):
     name = "GNN"
 
     def __init__(self, edge_threshold: float = 0.5, n_layers: int = 2,

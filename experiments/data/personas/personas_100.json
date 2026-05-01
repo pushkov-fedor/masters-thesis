@@ -1,0 +1,1674 @@
+[
+  {
+    "id": "u_001",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "SwiftUI",
+      "Performance",
+      "Memory Management"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Более 8 лет в iOS разработке, последние 4 года работает в крупном банке на оптимизацию приложения для 100М+ пользователей. Глубоко разбирается в Swift runtime, работал с Instruments, профилированием памяти. Ищет новые подходы к архитектуре для масштабируемости."
+  },
+  {
+    "id": "u_002",
+    "role": "Android Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "Kotlin",
+      "Compose",
+      "Team Management"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends"
+    ],
+    "background": "Lead Android разработчик в крупной e-commerce компании с опытом 10+ лет. Сейчас фокусируется на миграции с XML на Compose, управляет командой из 6 человек. Интересуется best practices масштабирования мобильных команд и новыми паттернами в Kotlin."
+  },
+  {
+    "id": "u_003",
+    "role": "React Native Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "Cross-platform",
+      "JavaScript",
+      "React Native"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "General"
+    ],
+    "background": "4 года в веб-разработке, последние 2 года переехал в React Native стартап с 15 человеками. Разрабатывает финтех приложение для iOS и Android с одной кодовой базой. Интересуется оптимизацией производительности и тем, как структурировать проект под рост."
+  },
+  {
+    "id": "u_004",
+    "role": "QA Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Testing",
+      "Automation",
+      "Mobile Security"
+    ],
+    "preferred_topics": [
+      "Product Quality",
+      "Infrastructure"
+    ],
+    "background": "5 лет в QA, 3 года специализируется на мобильных приложениях. Работает в компании из 200+ человек, занимается автоматизацией тестирования для iOS и Android. Ищет инструменты и методики для улучшения качества и снижения времени на регрессионное тестирование."
+  },
+  {
+    "id": "u_005",
+    "role": "Flutter Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "Flutter",
+      "Dart",
+      "Cross-platform"
+    ],
+    "preferred_topics": [
+      "General",
+      "Trends"
+    ],
+    "background": "Начинающий Flutter разработчик с 1 годом опыта в небольшом стартапе, где делают приложение для управления проектами. До этого был фронтенд-разработчик на Vue. Хочет углубить знания в Dart, узнать о best practices в Flutter и познакомиться с коммьюнити."
+  },
+  {
+    "id": "u_006",
+    "role": "Product Manager",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "UX/UI",
+      "Product Strategy",
+      "Analytics"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "Trends"
+    ],
+    "background": "Продакт-менеджер в крупной гейм-студии, 6 лет в индустрии. Отвечает за мобильное приложение с 5М активных пользователей. Хочет лучше понимать технические ограничения и возможности для более точного планирования фич и улучшения UX."
+  },
+  {
+    "id": "u_007",
+    "role": "iOS Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "SwiftUI",
+      "UIKit",
+      "Learning"
+    ],
+    "preferred_topics": [
+      "General",
+      "Architecture"
+    ],
+    "background": "Выпускник курса по Swift, 8 месяцев работает в компании из 100 человек на поддержке legacy UIKit приложения. Много учится, хочет перейти на SwiftUI и понять архитектурные паттерны, которые используют в компании. Первый раз на такой конференции."
+  },
+  {
+    "id": "u_008",
+    "role": "Mobile Architect",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "Architecture",
+      "KMP",
+      "Scalability"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Principal мобильный архитектор в финтех корпорации с 15 годами опыта. Ведёт инициативу по переходу на KMP для разделения логики между iOS и Android. Отвечает за technical debt и эволюцию архитектуры для 50+ мобильных разработчиков."
+  },
+  {
+    "id": "u_009",
+    "role": "Android Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Kotlin",
+      "Coroutines",
+      "Performance"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Infrastructure"
+    ],
+    "background": "9 лет в Android разработке, 5 лет на Kotlin. Работает в крупной соцсети, оптимизирует приложение для работы на старых девайсах и медленном интернете. Глубоко знает internals Android runtime, занимается профилированием и оптимизацией памяти."
+  },
+  {
+    "id": "u_010",
+    "role": "UX/UI Designer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Design Systems",
+      "Accessibility",
+      "Mobile UX"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "Trends"
+    ],
+    "background": "Дизайнер с 5 годами опыта, 3 года специализируется на мобильной разработке. Работает в компании 150 человек над мобильным приложением. Сейчас внедряет design system и хочет лучше понимать технические ограничения разработчиков для более реалистичного проектирования."
+  },
+  {
+    "id": "u_011",
+    "role": "DevRel Engineer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "Community",
+      "Developer Experience",
+      "SDK Development"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "General"
+    ],
+    "background": "Developer Relations инженер в стартапе, который разрабатывает SDK для мобильных разработчиков. 4 года в tech, 2 года в DevRel. Занимается документацией, примерами кода, feedback от пользователей. Интересуется тем, какие боли у мобильных разработчиков сейчас."
+  },
+  {
+    "id": "u_012",
+    "role": "KMP Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Kotlin Multiplatform",
+      "Shared Code",
+      "Architecture"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends"
+    ],
+    "background": "Опытный Kotlin разработчик, 7 лет в JVM экосистеме. Последние 2 года активно работает с KMP, миграция приложения на 60% shared code между iOS и Android. Работает в компании из 80 человек, ведёт внутренние mitap по KMP."
+  },
+  {
+    "id": "u_013",
+    "role": "iOS Developer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "SwiftUI",
+      "Networking",
+      "Security"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Infrastructure"
+    ],
+    "background": "5 лет в iOS разработке, работает в крупной финтех компании. Специализируется на работе с API и безопасностью данных. Хочет лучше понимать networking stack в iOS и как оптимизировать запросы для медленного интернета."
+  },
+  {
+    "id": "u_014",
+    "role": "Android Tech Lead",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Kotlin",
+      "Testing",
+      "Mentoring"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Product Quality"
+    ],
+    "background": "Senior разработчик, который недавно стал tech lead. 8 лет в Android, фокусируется на качество кода и тестирование. Управляет командой из 4 разработчиков в компании 120 человек. Ищет способы внедрить best practices и поднять уровень team."
+  },
+  {
+    "id": "u_015",
+    "role": "Mobile Infrastructure Engineer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "CI/CD",
+      "Deployment",
+      "DevOps"
+    ],
+    "preferred_topics": [
+      "Infrastructure",
+      "Under the Hood"
+    ],
+    "background": "Специалист по мобильной инфраструктуре в крупной IT корпорации, 10 лет опыта. Занимается CI/CD для мобильных приложений, автоматизацией build процесса и deployment. Работает с 100+ разработчиками, ищет новые инструменты и подходы к масштабированию pipeline."
+  },
+  {
+    "id": "u_016",
+    "role": "Flutter Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "startup",
+    "interests": [
+      "Flutter",
+      "Cross-platform",
+      "Team Building"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends"
+    ],
+    "background": "CTO в стартапе, который полностью на Flutter. 12 лет в разработке, 3 года с Flutter. Управляет командой из 8 разработчиков, разрабатывает приложение для iOS, Android и Web. Интересуется масштабированием и лучшими практиками в Flutter сообществе."
+  },
+  {
+    "id": "u_017",
+    "role": "Security Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Mobile Security",
+      "Encryption",
+      "Code Obfuscation"
+    ],
+    "preferred_topics": [
+      "Infrastructure",
+      "Under the Hood"
+    ],
+    "background": "Инженер по безопасности в крупной финтех компании, 6 лет в информационной безопасности. Специализируется на мобильной безопасности, занимается penetration testing и защитой от обфускации. Хочет узнать о новых уязвимостях и методах защиты."
+  },
+  {
+    "id": "u_018",
+    "role": "Android Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "Kotlin",
+      "Jetpack",
+      "Learning"
+    ],
+    "preferred_topics": [
+      "General",
+      "Trends"
+    ],
+    "background": "Начинающий разработчик с 1 годом опыта в небольшом стартапе. До этого был Java разработчик, переходит на Android и Kotlin. Активно учится, интересуется современными подходами к разработке, Jetpack Compose и best practices."
+  },
+  {
+    "id": "u_019",
+    "role": "CTO",
+    "experience": "lead/principal",
+    "company_size": "startup",
+    "interests": [
+      "Architecture",
+      "Team Management",
+      "Biohacking"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Biohacking"
+    ],
+    "background": "CTO в healthtech стартапе, 14 лет в IT. Разрабатывает мобильное приложение для здоровья, интегрирует с вносимыми данными. Помимо технических вопросов, интересуется biohacking, оптимизацией развития команды и долгосрочной стратегией."
+  },
+  {
+    "id": "u_020",
+    "role": "QA Automation Lead",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Test Automation",
+      "Mobile Testing",
+      "CI/CD"
+    ],
+    "preferred_topics": [
+      "Product Quality",
+      "Infrastructure"
+    ],
+    "background": "Lead QA автоматизации в крупной компании, 9 лет в тестировании. Управляет командой из 6 QA инженеров, разрабатывает framework для автоматизированного тестирования iOS и Android приложений. Занимается оптимизацией CI/CD pipeline и внедрением новых инструментов."
+  },
+  {
+    "id": "u_021",
+    "role": "iOS senior разработчик",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "SwiftUI",
+      "производительность",
+      "Memory management"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Работает в крупном российском банке, специализируется на оптимизации производительности мобильных приложений. Более 8 лет опыта с iOS, последние 3 года фокусируется на миграции с UIKit на SwiftUI. Интересуется глубокими механизмами работы runtime и архитектурными решениями для масштабируемых приложений."
+  },
+  {
+    "id": "u_022",
+    "role": "Android lead разработчик",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "Kotlin",
+      "Compose",
+      "архитектура",
+      "масштабируемость"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends",
+      "Infrastructure"
+    ],
+    "background": "Тимлид Android-команды в крупной IT-компании с 12+ годами опыта. Ведёт миграцию кодовой базы на Jetpack Compose и руководит архитектурными решениями для 50+ разработчиков. Активно занимается наставничеством и внедрением best practices в команде."
+  },
+  {
+    "id": "u_023",
+    "role": "KMP разработчик",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Kotlin Multiplatform",
+      "кросс-платформа",
+      "кодовая база"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends"
+    ],
+    "background": "Работает в стартапе на стадии Series A, разрабатывает приложение на KMP. 5 лет в мобильной разработке, последние 2 года углублённо изучает KMP как способ унифицировать iOS и Android кодовую базу. Ищет паттерны и решения для общей бизнес-логики."
+  },
+  {
+    "id": "u_024",
+    "role": "Flutter разработчик",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "Flutter",
+      "Dart",
+      "быстрая разработка"
+    ],
+    "preferred_topics": [
+      "General",
+      "UX/UI in Mobile Development",
+      "Trends"
+    ],
+    "background": "Молодой разработчик с 1.5 годами опыта, начал карьеру с Flutter. Работает в небольшом стартапе на MVP проекта. Интересуется тем, как Flutter решает задачи кросс-платформенной разработки и какие ограничения нужно знать при масштабировании."
+  },
+  {
+    "id": "u_025",
+    "role": "React Native разработчик",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "React Native",
+      "JavaScript",
+      "performance"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends",
+      "Under the Hood"
+    ],
+    "background": "4 года в веб-разработке, 3 года в React Native. Работает в компании среднего размера, разрабатывает e-commerce приложение. Постоянно сталкивается с вызовами производительности и ищет лучшие практики оптимизации на JS-based фреймворках."
+  },
+  {
+    "id": "u_026",
+    "role": "QA-engineer мобильных приложений",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "тестирование",
+      "автоматизация",
+      "качество"
+    ],
+    "preferred_topics": [
+      "Product Quality",
+      "Infrastructure",
+      "General"
+    ],
+    "background": "Специалист по QA с 6 годами опыта, 4 из них в мобильной разработке. Работает в крупной компании на нескольких проектах iOS и Android. Внедряет автоматизированное тестирование и ищет новые подходы к обеспечению качества приложений на разных платформах."
+  },
+  {
+    "id": "u_027",
+    "role": "UX/UI дизайнер мобильных приложений",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "дизайн-системы",
+      "юзабилити",
+      "SwiftUI",
+      "Compose"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "Trends"
+    ],
+    "background": "10 лет в UX/UI дизайне, 7 из них в мобильных приложениях. Работает в компании среднего размера, ведёт разработку дизайн-системы. Активно взаимодействует с разработчиками и интересуется техническими возможностями SwiftUI и Compose для реализации дизайнерских идей."
+  },
+  {
+    "id": "u_028",
+    "role": "Backend разработчик для мобильных сервисов",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "API design",
+      "масштабируемость",
+      "микросервисы"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Infrastructure",
+      "Under the Hood"
+    ],
+    "background": "15 лет в бэкенде, специализируется на разработке API для мобильных клиентов. Работает в крупной корпорации, отвечает за архитектуру микросервисной платформы, обслуживающей миллионы пользователей. Ищет способы оптимизации взаимодействия между клиентом и сервером."
+  },
+  {
+    "id": "u_029",
+    "role": "iOS junior разработчик",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "Swift",
+      "UIKit",
+      "изучение основ"
+    ],
+    "preferred_topics": [
+      "General",
+      "Architecture"
+    ],
+    "background": "Первый год работы в iOS разработке после курса. Работает в небольшом стартапе, учится основам Swift и архитектурным паттернам. Хочет понять, как правильно структурировать код с самого начала и какие ошибки молодые разработчики часто допускают."
+  },
+  {
+    "id": "u_030",
+    "role": "Android architect",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "архитектура",
+      "модульность",
+      "Kotlin"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood",
+      "Infrastructure"
+    ],
+    "background": "18+ лет опыта в разработке, 10+ в мобильной. Архитектор Android в крупной корпорации с сотнями разработчиков. Определяет стратегию технологического развития, разрабатывает стандарты и фреймворки для всех Android проектов. Интересуется модульной архитектурой и инструментами для масштабирования."
+  },
+  {
+    "id": "u_031",
+    "role": "DevRel мобильной платформы",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "developer experience",
+      "документация",
+      "коммунити"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "General",
+      "Infrastructure"
+    ],
+    "background": "Работает в компании-разработчике платформы для мобильной разработки. Имеет бэкграунд в разработке (4 года iOS) и 3 года в DevRel. Ищет способы улучшения experience разработчиков, собирает feedback и представляет интересы community внутри компании."
+  },
+  {
+    "id": "u_032",
+    "role": "Product Manager мобильного приложения",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "user research",
+      "метрики",
+      "тренды индустрии"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "UX/UI in Mobile Development",
+      "Product Quality"
+    ],
+    "background": "5 лет в продакте, последние 3 в мобильных приложениях. Работает в компании среднего размера, отвечает за стратегию развития мобильного продукта. Интересуется технической стороной разработки для лучшего понимания возможностей и ограничений платформ."
+  },
+  {
+    "id": "u_033",
+    "role": "iOS разработчик (SwiftUI специалист)",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "SwiftUI",
+      "reactive programming",
+      "Combine"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends",
+      "Under the Hood"
+    ],
+    "background": "8 лет в iOS разработке, 3 года активно работает с SwiftUI и реактивным программированием. Работает в компании среднего размера, ведёт миграцию сложного приложения на SwiftUI. Углублённо изучает реактивные паттерны и ищет оптимальные подходы к архитектуре на основе SwiftUI."
+  },
+  {
+    "id": "u_034",
+    "role": "Security engineer мобильной разработки",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "безопасность",
+      "шифрование",
+      "защита данных"
+    ],
+    "preferred_topics": [
+      "Infrastructure",
+      "Under the Hood",
+      "General"
+    ],
+    "background": "12 лет в информационной безопасности, 5 лет специализируется на мобильной безопасности. Работает в крупной финтех-компании, обеспечивает безопасность приложений для миллионов пользователей. Ищет новые способы защиты данных и интересуется уязвимостями на разных платформах."
+  },
+  {
+    "id": "u_035",
+    "role": "Android middle разработчик",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Kotlin",
+      "Coroutines",
+      "MVVM"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends",
+      "General"
+    ],
+    "background": "5 лет в Android разработке, работает в крупной компании на одном из флагманских приложений. Хорошо знает Kotlin и Coroutines, изучает современные архитектурные паттерны. Хочет вырасти в senior и интересуется сложными архитектурными решениями."
+  },
+  {
+    "id": "u_036",
+    "role": "Data-driven разработчик",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "аналитика",
+      "метрики",
+      "оптимизация"
+    ],
+    "preferred_topics": [
+      "Product Quality",
+      "Trends",
+      "Infrastructure"
+    ],
+    "background": "6 лет в разработке, 4 года на должности разработчика, уделяющего большое внимание аналитике и метрикам. Работает в компании среднего размера, где очень важна оптимизация по ключевым метрикам приложения. Интересуется тем, как правильно собирать и анализировать данные."
+  },
+  {
+    "id": "u_037",
+    "role": "Embedded/Native разработчик",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "native code",
+      "JNI",
+      "производительность"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Infrastructure",
+      "Architecture"
+    ],
+    "background": "14 лет в системном программировании, последние 6 лет разрабатывает native код для мобильных приложений. Работает в крупной компании, отвечает за критичные по производительности части приложения. Глубоко понимает внутреннее устройство ОС и ищет способы максимальной оптимизации."
+  },
+  {
+    "id": "u_038",
+    "role": "CTO мобильного продукта",
+    "experience": "lead/principal",
+    "company_size": "startup",
+    "interests": [
+      "стратегия",
+      "технологический выбор",
+      "масштабирование"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends",
+      "Infrastructure"
+    ],
+    "background": "20+ лет в разработке, последние 10 лет управляет технологическими решениями. Сейчас CTO в растущем стартапе, делает стратегические выборы по используемым технологиям. Ищет информацию о новых подходах и инструментах для оптимального развития продукта."
+  },
+  {
+    "id": "u_039",
+    "role": "Performance engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "производительность",
+      "профилирование",
+      "оптимизация"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Product Quality",
+      "Infrastructure"
+    ],
+    "background": "9 лет в разработке, специализируется на оптимизации производительности мобильных приложений. Работает в крупной компании, проводит профилирование и оптимизацию критичных компонентов. Глубоко разбирается в том, как работают профайлеры и какие метрики действительно важны."
+  },
+  {
+    "id": "u_040",
+    "role": "Biohacker разработчик",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "wearables",
+      "здоровье",
+      "IoT",
+      "биометрия"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "Biohacking",
+      "General"
+    ],
+    "background": "7 лет в разработке, последние 2 года разрабатывает приложения для wearables и здоровья. Работает в молодом стартапе, интегрирует данные с различных биометрических датчиков. Увлекается биохакингом и ищет новые способы использования возможностей смартфонов и носимых устройств."
+  },
+  {
+    "id": "u_041",
+    "role": "iOS разработчик",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "SwiftUI",
+      "UIKit",
+      "анимации"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "Architecture"
+    ],
+    "background": "Работает в финтех-стартапе на ранней стадии, основной стек SwiftUI. Занимается созданием интуитивного UI для мобильного банка, глубоко интересуется пользовательским опытом и микроанимациями. Ищет лучшие практики масштабирования архитектуры при быстром росте компании."
+  },
+  {
+    "id": "u_042",
+    "role": "Android разработчик",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Kotlin",
+      "Compose",
+      "производительность",
+      "многопоточность"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood",
+      "Infrastructure"
+    ],
+    "background": "Senior в крупной соцсети, 8 лет опыта разработки на Android. Специализируется на оптимизации производительности и работе с многопоточностью. Активно мигрирует команду на Compose, интересуется глубокими аспектами runtime и GC."
+  },
+  {
+    "id": "u_043",
+    "role": "QA-инженер",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "автоматизация тестирования",
+      "CI/CD",
+      "качество"
+    ],
+    "preferred_topics": [
+      "Product Quality",
+      "Infrastructure"
+    ],
+    "background": "QA-инженер в медтех компании среднего размера, 5 лет в мобильном тестировании. Построил фреймворк автоматизации для iOS и Android. Сейчас фокусируется на улучшении CI/CD пайплайна и снижении времени на регрессию."
+  },
+  {
+    "id": "u_044",
+    "role": "Flutter разработчик",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "Flutter",
+      "Dart",
+      "кросс-платформа",
+      "UI"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "UX/UI in Mobile Development"
+    ],
+    "background": "Junior разработчик в стартапе доставки, первые 2 года в IT. Выбрал Flutter для быстрого вывода MVP на две платформы. Активно учится, интересуется современными подходами к кросс-платформной разработке и актуальными трендами индустрии."
+  },
+  {
+    "id": "u_045",
+    "role": "Архитектор",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "микросервисы",
+      "масштабируемость",
+      "безопасность",
+      "DevOps"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Infrastructure",
+      "Under the Hood"
+    ],
+    "background": "Principal architect в крупном банке, 15+ лет опыта. Отвечает за архитектуру мобильного бэкенда и API для приложений. Занимается микросервисной архитектурой, нулевым доверием и compliance требованиями. Ищет инновационные подходы к масштабированию."
+  },
+  {
+    "id": "u_046",
+    "role": "iOS разработчик",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Swift",
+      "сетевые запросы",
+      "кэширование",
+      "оффлайн"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Architecture"
+    ],
+    "background": "Senior iOS в SaaS компании, 10 лет с iOS. Основной фокус на надёжной синхронизации данных и работе в условиях плохого интернета. Глубоко разбирается в Foundation, URLSession и построении resilient систем."
+  },
+  {
+    "id": "u_047",
+    "role": "Product Manager",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "UX",
+      "метрики",
+      "user research",
+      "конверсия"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "Trends"
+    ],
+    "background": "PM в крупном маркетплейсе, 6 лет в продакте из них 3 года в мобиле. Работает тесно с дизайном и разработкой, фокусируется на user research и data-driven решениях. Ищет инсайты о том, как лучше тестировать UX гипотезы."
+  },
+  {
+    "id": "u_048",
+    "role": "Android разработчик",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "Kotlin",
+      "чистая архитектура",
+      "тестирование"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Product Quality"
+    ],
+    "background": "Middle Android разработчик в EdTech стартапе, 4 года опыта. Пришёл с Java, активно осваивает Kotlin и современные паттерны. Интересуется чистой архитектурой и unit-тестированием. Хочет расти в сторону technical lead."
+  },
+  {
+    "id": "u_049",
+    "role": "React Native разработчик",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "JavaScript",
+      "производительность",
+      "native modules",
+      "Hermes"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "Under the Hood",
+      "Infrastructure"
+    ],
+    "background": "Senior RN разработчик в крупной e-commerce компании, 7 лет в разработке из них 4 в React Native. Специализируется на оптимизации производительности JS и интеграции нативных модулей. Активно следит за эволюцией RN и JavaScript runtime."
+  },
+  {
+    "id": "u_050",
+    "role": "Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "менторство",
+      "командообразование",
+      "процессы",
+      "Code Review"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "General"
+    ],
+    "background": "Tech Lead мобильной команды в финтех компании, 12 лет опыта. Руководит 5 разработчиками, фокусируется на росте команды и установлении стандартов качества. Интересуется лучшими практиками организации процессов и менторства."
+  },
+  {
+    "id": "u_051",
+    "role": "iOS разработчик",
+    "experience": "junior",
+    "company_size": "large",
+    "interests": [
+      "SwiftUI",
+      "UIKit",
+      "обучение",
+      "инструменты"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "General"
+    ],
+    "background": "Junior iOS разработчик в крупной IT компании, первый год в профессии. Недавно закончил буткэмп, сейчас работает на UIKit, начинает учить SwiftUI. Активно впитывает знания от senior коллег и ищет ресурсы для развития."
+  },
+  {
+    "id": "u_052",
+    "role": "DevRel",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "SDK",
+      "developer experience",
+      "сообщество",
+      "documentation"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "General"
+    ],
+    "background": "Developer Relations в крупной платформе мобильной рекламы, 6 лет в IT. Раньше работал разработчиком, теперь фокусируется на DX и поддержке экосистемы. Ведёт блог о лучших практиках, интересуется трендами и feedback от сообщества."
+  },
+  {
+    "id": "u_053",
+    "role": "Android разработчик",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": [
+      "Kotlin Multiplatform",
+      "архитектура",
+      "инновации"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends",
+      "Under the Hood"
+    ],
+    "background": "Senior Android в быстрорастущем стартапе, 9 лет разработки. Экспериментирует с KMP для шэаринга логики, ищет новые подходы к масштабированию монолитного приложения. Активный контрибьютор в open-source."
+  },
+  {
+    "id": "u_054",
+    "role": "UX/UI дизайнер",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "дизайн-системы",
+      "accessibility",
+      "анимации",
+      "взаимодействие с разработкой"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "Product Quality"
+    ],
+    "background": "UX/UI дизайнер в SaaS компании, 5 лет в UI/UX из них 3 в мобиле. Строит дизайн-систему для масштабирования, фокусируется на accessibility и микровзаимодействиях. Хочет лучше понимать возможности и ограничения платформ."
+  },
+  {
+    "id": "u_055",
+    "role": "iOS разработчик",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "безопасность",
+      "криптография",
+      "сертификаты",
+      "compliance"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Infrastructure",
+      "Product Quality"
+    ],
+    "background": "Senior iOS в банке, 11 лет опыта. Специализируется на безопасности и криптографии, работает с HSM и сложными требованиями compliance. Глубоко разбирается в TLS, сертификатах и защите sensitive данных."
+  },
+  {
+    "id": "u_056",
+    "role": "Backend разработчик для мобилы",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "API design",
+      "GraphQL",
+      "оптимизация",
+      "масштабируемость"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Infrastructure"
+    ],
+    "background": "Backend разработчик, специализирующийся на мобильных API, 6 лет опыта. Работает в крупной соцсети, проектирует эффективные API для мобильных клиентов. Интересуется GraphQL, кэшированием и снижением трафика."
+  },
+  {
+    "id": "u_057",
+    "role": "Android разработчик",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "Kotlin",
+      "Material Design",
+      "UI",
+      "обучение"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "General"
+    ],
+    "background": "Junior Android разработчик в медиа компании, 1.5 года опыта. Выучил Java, теперь активно переходит на Kotlin. Интересуется Material Design и красивым UI. Ищет mentorship и лучшие практики."
+  },
+  {
+    "id": "u_058",
+    "role": "Архитектор",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "микрофронтенд",
+      "модульность",
+      "CI/CD",
+      "DevOps"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Infrastructure",
+      "Trends"
+    ],
+    "background": "Senior архитектор мобильной платформы в крупной корпорации, 13 лет опыта. Работает над модульной архитектурой, микрофронтендом для мобилы и автоматизацией CI/CD. Интересуется новыми инструментами и approach к масштабированию."
+  },
+  {
+    "id": "u_059",
+    "role": "Flutter разработчик",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "Flutter",
+      "Dart",
+      "производительность",
+      "native interop"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "Under the Hood"
+    ],
+    "background": "Middle Flutter разработчик в стартапе финтеха, 3 года в Flutter. Успешно запустил несколько приложений в production, теперь работает над оптимизацией производительности и интеграцией нативных возможностей."
+  },
+  {
+    "id": "u_060",
+    "role": "CTO/VP Engineering",
+    "experience": "lead/principal",
+    "company_size": "startup",
+    "interests": [
+      "стратегия",
+      "масштабирование",
+      "культура",
+      "инновации",
+      "биохакинг"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "General",
+      "Biohacking"
+    ],
+    "background": "CTO в быстрорастущем стартапе, 16+ лет в разработке. Выбирает технологии, строит команду, отвечает за стратегию и качество продукта. Помимо профессиональных интересов увлекается биохакингом и оптимизацией продуктивности."
+  },
+  {
+    "id": "u_061",
+    "role": "iOS Senior разработчик",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "SwiftUI",
+      "производительность",
+      "memory profiling"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Разработчик с 8 годами опыта в крупном финтех-банке. Специализируется на оптимизации производительности iOS-приложений, работает с SwiftUI и современным Swift. Активно исследует новые возможности iOS SDK, занимается менторингом junior-разработчиков. Ищет инновационные подходы к архитектуре сложных финансовых приложений."
+  },
+  {
+    "id": "u_062",
+    "role": "Android Middle разработчик",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "Kotlin",
+      "Jetpack Compose",
+      "async programming"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "Architecture"
+    ],
+    "background": "Разработчик в стартапе социальной сети с 5 годами опыта. Полностью перешёл на Kotlin и осваивает Compose. Параллельно изучает KMP для расширения навыков. Заинтересован в трендах мобильной разработки и хочет понять, как правильно строить архитектуру приложения с нуля."
+  },
+  {
+    "id": "u_063",
+    "role": "KMP Lead разработчик",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "Kotlin Multiplatform",
+      "code sharing",
+      "CI/CD"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Infrastructure"
+    ],
+    "background": "Лидер команды мобильной разработки в медиа-компании, внедряет KMP для унификации кода между iOS и Android. 10+ лет опыта, ранее работал исключительно с нативными стеками. Сейчас фокусируется на автоматизации процессов и оптимизации сборки. Хочет узнать best practices применения KMP на больших проектах."
+  },
+  {
+    "id": "u_064",
+    "role": "Flutter разработчик",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "Flutter",
+      "state management",
+      "performance"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Разработчик в edtech-стартапе, работает с Flutter 3+ года. Специализируется на создании высокопроизводительных UI, использует BLoC и Riverpod. Любит разбираться в низкоуровневых деталях работы фреймворка. Интересуется новыми возможностями Flutter и сравнением с нативными подходами."
+  },
+  {
+    "id": "u_065",
+    "role": "QA Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "автоматизация тестирования",
+      "performance testing",
+      "CI/CD"
+    ],
+    "preferred_topics": [
+      "Product Quality",
+      "Infrastructure"
+    ],
+    "background": "Инженер по качеству в крупной e-commerce компании, 6 лет опыта. Занимается автоматизацией тестирования мобильных приложений (iOS и Android), настраивает Espresso и XCTest. Владеет основами программирования на Kotlin и Swift. Ищет способы интеграции performance-тестирования в CI/CD пайплайн."
+  },
+  {
+    "id": "u_066",
+    "role": "UX/UI Designer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "design systems",
+      "accessibility",
+      "user research"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "Trends"
+    ],
+    "background": "Дизайнер с 9 годами опыта, работает в продакт-компании на SaaS. Специализируется на создании design systems для мобильных приложений, активно применяет SwiftUI и Compose для протипирования. Сильно интересуется accessibility и инклюзивным дизайном. Хочет больше узнать о сотрудничестве дизайнеров и разработчиков при использовании современных UI-фреймворков."
+  },
+  {
+    "id": "u_067",
+    "role": "iOS Junior разработчик",
+    "experience": "junior",
+    "company_size": "large",
+    "interests": [
+      "Swift",
+      "UIKit",
+      "networking"
+    ],
+    "preferred_topics": [
+      "General",
+      "Architecture"
+    ],
+    "background": "Молодой разработчик с 1.5 года опыта в крупной медиа-компании. Работает с UIKit и начинает изучать SwiftUI. Активно учится, регулярно ревьюит чужой код. Ищет фундаментальные знания об архитектуре приложений и networking. Заинтересован в менторстве и росте в профессии."
+  },
+  {
+    "id": "u_068",
+    "role": "Android Architect",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "modular architecture",
+      "security",
+      "performance optimization"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Архитектор мобильной платформы в крупном банке с 12+ годами опыта. Отвечает за архитектуру Android-приложения, используемого миллионами пользователей. Специализируется на модульной архитектуре, безопасности и оптимизации производительности. Активно следит за трендами в Android-разработке и ищет инновационные решения для масштабирования."
+  },
+  {
+    "id": "u_069",
+    "role": "React Native разработчик",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "React Native",
+      "native modules",
+      "bridge optimization"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Разработчик в логистической компании, 5 лет опыта, 3 года работает с React Native. Хорошо владеет JavaScript и понимает основы native разработки. Занимается оптимизацией взаимодействия между JS и native кода. Интересуется вопросами производительности и альтернативными фреймворками."
+  },
+  {
+    "id": "u_070",
+    "role": "Product Manager",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "user analytics",
+      "market trends",
+      "mobile monetization"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "Product Quality"
+    ],
+    "background": "Продакт-менеджер социального приложения с 8 годами опыта. Работает близко с мобильной командой, разбирается в техническом долге и его влиянии на product. Отслеживает мировые тренды в мобильной разработке, изучает новые подходы к монетизации. Хочет лучше понимать технические ограничения и возможности платформ."
+  },
+  {
+    "id": "u_071",
+    "role": "iOS Security Specialist",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "encryption",
+      "secure storage",
+      "reverse engineering prevention"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Architecture"
+    ],
+    "background": "Специалист по безопасности в финтех-компании, 7 лет опыта в iOS разработке с фокусом на security. Разбирается в криптографии, защите от reverse engineering и secure coding practices. Активно следит за уязвимостями iOS и новыми методами защиты. Регулярно проводит security audits приложений."
+  },
+  {
+    "id": "u_072",
+    "role": "DevRel / Developer Advocate",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "community building",
+      "technical content",
+      "SDK development"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "General"
+    ],
+    "background": "Developer Relations специалист в компании, создающей мобильные SDK. 4 года опыта, ранее работал iOS разработчиком. Занимается созданием документации, примеров кода и проведением вебинаров. Активно общается с сообществом разработчиков, собирает feedback. Интересуется лучшими практиками разработки SDK и способами привлечения разработчиков."
+  },
+  {
+    "id": "u_073",
+    "role": "Android Backend Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "backend for mobile",
+      "API design",
+      "real-time sync"
+    ],
+    "preferred_topics": [
+      "Infrastructure",
+      "Architecture"
+    ],
+    "background": "Разработчик бэкенда в стартапе, специализируется на сервисах для мобильных приложений. 5 лет опыта, хорошо понимает мобильные ограничения (батарея, сеть, память). Проектирует API с учётом мобильных клиентов, работает с GraphQL. Хочет лучше разбираться в потребностях фронтенд-команды и оптимизации."
+  },
+  {
+    "id": "u_074",
+    "role": "iOS Тимлид",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "team management",
+      "code review",
+      "mentoring",
+      "SwiftUI"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "General"
+    ],
+    "background": "Тимлид iOS-команды в медиа-стартапе, 9 лет опыта разработки, 3 года в роли лидера. Ответственен за качество кода, архитектуру и развитие команды из 5 человек. Активно внедряет новые практики, проводит code reviews и менторит junior-разработчиков. Интересуется эффективными способами организации работы больших команд."
+  },
+  {
+    "id": "u_075",
+    "role": "QA Automation Engineer",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "test automation",
+      "Appium",
+      "performance testing"
+    ],
+    "preferred_topics": [
+      "Product Quality",
+      "Infrastructure"
+    ],
+    "background": "Инженер по автоматизации тестирования в крупной компании, 6 лет опыта. Пишет автотесты на Java для Android-приложений, использует Appium и Espresso. Настраивает CI/CD пайплайны для мобильного тестирования. Разбирается в performance и load testing. Ищет новые инструменты и подходы для повышения качества."
+  },
+  {
+    "id": "u_076",
+    "role": "Kotlin Multiplatform Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "KMP",
+      "shared code",
+      "coroutines",
+      "performance"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Старший разработчик в компании, специализирующейся на кросс-платформенных решениях. 8 лет опыта, последние 2 года углублённо работает с KMP. Эксперт в Kotlin coroutines и async programming. Активно участвует в OpenSource проектах KMP. Ищет лучшие практики масштабирования KMP-проектов."
+  },
+  {
+    "id": "u_077",
+    "role": "Flutter Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "Flutter",
+      "Dart",
+      "UI development"
+    ],
+    "preferred_topics": [
+      "General",
+      "Trends"
+    ],
+    "background": "Молодой разработчик с 1 годом опыта работает в небольшом стартапе с Flutter. Ранее имел опыт веб-разработки на JavaScript. Активно осваивает Dart и экосистему Flutter. Заинтересован в лучших практиках разработки, архитектуре приложений и возможностях платформы. Ищет менторства и сообщества."
+  },
+  {
+    "id": "u_078",
+    "role": "CTO / Technology Leader",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "tech strategy",
+      "team scaling",
+      "trends",
+      "security"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "Architecture"
+    ],
+    "background": "CTO технологического стартапа с 15+ годами опыта в разработке. Ранее работал iOS-разработчиком, потом перешёл в архитектуру и менеджмент. Отвечает за техническую стратегию компании, выбор стеков и инструментов. Активно следит за трендами индустрии. Ищет инновационные решения для оптимизации разработки."
+  },
+  {
+    "id": "u_079",
+    "role": "iOS Performance Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "profiling",
+      "memory optimization",
+      "battery efficiency"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Infrastructure"
+    ],
+    "background": "Специалист по оптимизации производительности в крупной tech-компании, 10 лет опыта. Профессионально занимается профилированием iOS-приложений, оптимизацией памяти и батареи. Эксперт в использовании Instruments и низкоуровневых подробностей iOS. Активно публикует статьи и выступает на конференциях."
+  },
+  {
+    "id": "u_080",
+    "role": "Android Biohacker",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": [
+      "wearables",
+      "health APIs",
+      "real-time data",
+      "optimization"
+    ],
+    "preferred_topics": [
+      "Biohacking",
+      "Trends"
+    ],
+    "background": "Разработчик в стартапе, создающем приложения для здоровья и фитнеса, 7 лет опыта. Специализируется на интеграции с носимыми устройствами и health-API (Google Fit, Health Connect). Увлечён биохакингом и использованием мобильных технологий для мониторинга здоровья. Активно экспериментирует с новыми сенсорами и data-science подходами."
+  },
+  {
+    "id": "u_081",
+    "role": "iOS senior разработчик",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "SwiftUI",
+      "производительность",
+      "Metal"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Разработчик с 8 годами опыта в крупной финтех-компании. Специализируется на высоконагруженных приложениях с фокусом на оптимизацию памяти и рендеринга. Активно внедряет SwiftUI в legacy-код, интересуется низкоуровневыми аспектами iOS runtime. Наставляет junior-разработчиков команды."
+  },
+  {
+    "id": "u_082",
+    "role": "Android lead разработчик",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "Kotlin Coroutines",
+      "Compose",
+      "архитектура",
+      "масштабирование"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends"
+    ],
+    "background": "Lead-разработчик с 10+ годами опыта в Android. Руководит командой из 12 человек в крупной медиа-корпорации. Пионер внедрения Jetpack Compose в production, активно участвует в архитектурных решениях. Интересуется новыми подходами к state management и модульности."
+  },
+  {
+    "id": "u_083",
+    "role": "KMP разработчик",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "Kotlin Multiplatform",
+      "кроссплатформа",
+      "DevOps"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "Infrastructure"
+    ],
+    "background": "Разработчик со стартапа в сфере логистики, 5 лет опыта. Перешел на KMP год назад для сокращения дублирования кода между iOS и Android. Активно экспериментирует с Expect/Actual, ищет лучшие практики организации мультиплатформных проектов. Любит автоматизацию CI/CD."
+  },
+  {
+    "id": "u_084",
+    "role": "UX/UI дизайнер",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "UX patterns",
+      "accessibility",
+      "design systems",
+      "animation"
+    ],
+    "preferred_topics": [
+      "UX/UI in Mobile Development",
+      "Trends"
+    ],
+    "background": "Senior дизайнер с фоном в продакте, 7 лет в мобильном дизайне. Работает в стартапе на ранней стадии, где отвечает за создание дизайн-системы с нуля. Эксперт в accessibility и inclusive design. Ищет инспирацию в том, как разработчики реализуют её идеи в коде."
+  },
+  {
+    "id": "u_085",
+    "role": "Flutter разработчик",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Flutter",
+      "Dart",
+      "State Management",
+      "web"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "Architecture"
+    ],
+    "background": "Разработчик с 4 годами опыта, переехал в Flutter из React Native. Работает в компании на 60 человек, разрабатывая мобильное приложение для маркетплейса. Интересуется тем, как Flutter конкурирует с нативом, активно следит за Dart ecosystem. Экспериментирует с Flutter Web."
+  },
+  {
+    "id": "u_086",
+    "role": "QA engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "automation testing",
+      "CI/CD",
+      "performance testing",
+      "мобильность"
+    ],
+    "preferred_topics": [
+      "Product Quality",
+      "Infrastructure"
+    ],
+    "background": "QA с 6 годами опыта в крупной e-commerce компании. Специализируется на автоматизации тестирования мобильных приложений. Разбирается в Appium, XCTest, Espresso. Ищет способы оптимизации времени тестирования и интеграции QA в CI/CD pipeline. Недавно начал писать kotlin для автотестов."
+  },
+  {
+    "id": "u_087",
+    "role": "React Native разработчик",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "React Native",
+      "JavaScript",
+      "кроссплатформа",
+      "обучение"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "General"
+    ],
+    "background": "Junior-разработчик со стартапа, 1.5 года опыта. Пришел из веб-разработки, начал писать React Native 8 месяцев назад. Работает над социальным приложением. Ищет ментора и лучших практик кроссплатформной разработки. Интересуется связью между браузерной и мобильной разработкой."
+  },
+  {
+    "id": "u_088",
+    "role": "iOS архитектор",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "VIPER",
+      "Clean Architecture",
+      "DDD",
+      "масштабирование",
+      "patterns"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Under the Hood"
+    ],
+    "background": "Архитектор с 12 годами опыта в банковском секторе. Отвечает за архитектуру мобильного приложения со 100+ разработчиками. Эксперт в построении модульных систем и dependency injection. Активно пишет статьи о паттернах проектирования. Сфокусирован на масштабируемости и maintainability."
+  },
+  {
+    "id": "u_089",
+    "role": "Android QA разработчик",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Android testing",
+      "UI testing",
+      "security testing",
+      "performance"
+    ],
+    "preferred_topics": [
+      "Product Quality",
+      "Under the Hood"
+    ],
+    "background": "QA-разработчик с 5 годами опыта, знает Kotlin на уровне разработчика. Работает в медиа-компании среднего размера. Пишет UI-тесты на Espresso и Unit-тесты для Android. Интересуется security-тестированием и тем, как разработчики пишут тестируемый код."
+  },
+  {
+    "id": "u_090",
+    "role": "Product Manager",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "user research",
+      "metrics",
+      "analytics",
+      "mobile trends"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "UX/UI in Mobile Development"
+    ],
+    "background": "Senior PM с 8 годами опыта в крупной технологической компании. Управляет портфелем мобильных приложений. Тесно работает с разработчиками над product roadmap. Интересуется техническими ограничениями платформ и тем, как они влияют на user experience. Фокусируется на метриках и A/B тестировании."
+  },
+  {
+    "id": "u_091",
+    "role": "Backend разработчик (для мобилок)",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "API design",
+      "performance",
+      "масштабирование",
+      "Go",
+      "Rust"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Infrastructure"
+    ],
+    "background": "Backend-разработчик с 9 годами опыта, последние 4 года фокусируется на API для мобильных приложений. Работает в крупной социальной сети. Интересуется оптимизацией latency и throughput. Экспериментирует с Rust для performance-critical компонентов. Активно изучает возможности gRPC и Protocol Buffers для мобильных клиентов."
+  },
+  {
+    "id": "u_092",
+    "role": "iOS junior разработчик",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "SwiftUI",
+      "UIKit",
+      "основы",
+      "обучение",
+      "карьера"
+    ],
+    "preferred_topics": [
+      "General",
+      "Architecture"
+    ],
+    "background": "Junior-разработчик с 1 годом опыта на iOS. Работает в стартапе финтех-сектора. Знает UIKit, активно учит SwiftUI. Ищет лучшие практики и хочет понять архитектурные решения senior-разработчиков. Энтузиазм к мобильной разработке и желание расти в профессии."
+  },
+  {
+    "id": "u_093",
+    "role": "DevRel / Developer Advocate",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "community",
+      "education",
+      "trends",
+      "public speaking"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "General"
+    ],
+    "background": "DevRel специалист из крупной IT-компании, 6 лет опыта разработки, последние 2 года работает с разработчиками сообщества. Организует meetups и пишет туториалы по мобильному SDK компании. Интересуется тем, что волнует мобильных разработчиков. Ищет инсайты для создания лучшего контента и продукта."
+  },
+  {
+    "id": "u_094",
+    "role": "Android разработчик",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "Kotlin",
+      "performance",
+      "battery optimization",
+      "security"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Infrastructure"
+    ],
+    "background": "Senior разработчик с 10 годами в Android, последние 6 лет в крупной финтех-корпорации. Эксперт в оптимизации батареи и производительности. Активно занимается security-audits приложения. Интересуется новыми возможностями Android API и тем, как они могут улучшить user experience. Ментор для junior-разработчиков."
+  },
+  {
+    "id": "u_095",
+    "role": "Team Lead",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "team management",
+      "architecture",
+      "mentoring",
+      "KMP",
+      "iOS"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends"
+    ],
+    "background": "Team Lead с 8 годами опыта, руководит командой из 7 iOS-разработчиков в медиа-компании. Отвечает за архитектуру и код-ревью. Переходит на KMP для разделения логики с Android-командой. Интересуется лидерством, масштабированием команды и новыми подходами к разработке. Активный менторер."
+  },
+  {
+    "id": "u_096",
+    "role": "Security engineer",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "mobile security",
+      "encryption",
+      "authentication",
+      "reverse engineering"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Product Quality"
+    ],
+    "background": "Security-специалист с фокусом на мобильные приложения, 5 лет опыта. Работает в крупной финансовой корпорации. Проводит security-аудиты, тестирует на уязвимости. Интересуется защитой от reverse engineering и best practices шифрования. Ищет способы удалить security-озабоченности разработчиков в процесс разработки."
+  },
+  {
+    "id": "u_097",
+    "role": "Android разработчик",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "Compose",
+      "Kotlin",
+      "clean code",
+      "архитектура"
+    ],
+    "preferred_topics": [
+      "Architecture",
+      "Trends"
+    ],
+    "background": "Разработчик с 4 годами опыта Android, работает в стартапе на Series A. Переходит на Jetpack Compose, ищет лучшие практики работы с новой UI-фреймворком. Интересуется чистой архитектурой и SOLID принципами. Ведет внутренний блог с заметками о разработке. Хочет поделиться опытом и учиться у других."
+  },
+  {
+    "id": "u_098",
+    "role": "CTO",
+    "experience": "lead/principal",
+    "company_size": "startup",
+    "interests": [
+      "strategy",
+      "product",
+      "tech stack",
+      "team building",
+      "trends"
+    ],
+    "preferred_topics": [
+      "Trends",
+      "Architecture"
+    ],
+    "background": "CTO стартапа в сфере FinTech, 15 лет опыта разработки. Отвечает за выбор технологий и стратегию. Выбирал между нативом и кроссплатформой. Интересуется трендами и новыми подходами. Активно участвует в hiring разработчиков. Ищет инсайты о том, куда движется индустрия."
+  },
+  {
+    "id": "u_099",
+    "role": "iOS разработчик",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "UIKit",
+      "performance",
+      "memory management",
+      "testing",
+      "Objective-C"
+    ],
+    "preferred_topics": [
+      "Under the Hood",
+      "Product Quality"
+    ],
+    "background": "Senior разработчик с 9 годами на iOS, работает в компании среднего размера. Глубокое понимание UIKit и жизненного цикла приложения. Интересуется оптимизацией памяти и производительности. Не спешит переходить на SwiftUI, предпочитает стабильность. Активно пишет unit-тесты и интеграционные тесты."
+  },
+  {
+    "id": "u_100",
+    "role": "Biohacker / Performance enthusiast",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "optimization",
+      "battery",
+      "RAM",
+      "profiling",
+      "health tech"
+    ],
+    "preferred_topics": [
+      "Biohacking",
+      "Under the Hood"
+    ],
+    "background": "Senior разработчик из healthtech-компании, 8 лет опыта. Эксперт в оптимизации батареи и памяти. Интересуется биохакингом и здоровьем. Разрабатывает приложение для фитнеса с экстремально низким потреблением батареи. Активно использует Instruments и профилировщики. Говорит доклады о оптимизации производительности мобильных приложений."
+  }
+]

@@ -1,0 +1,1699 @@
+[
+  {
+    "id": "u_001",
+    "role": "NLP middle-инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "RAG",
+      "LLM-агенты",
+      "production deployment"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Работаю в Яндексе на улучшении поиска с помощью LLM. Специализируюсь на интеграции больших языковых моделей в production-систему поиска. Использую PyTorch и HuggingFace Transformers. Интересуюсь эффективным инферансом и оптимизацией латенси для real-time приложений."
+  },
+  {
+    "id": "u_002",
+    "role": "Computer Vision senior-инженер",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "efficient inference",
+      "model compression",
+      "edge deployment"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Senior CV-инженер в Сбере, разрабатываю системы компьютерного зрения для фрод-детекции. Специалист по оптимизации моделей для мобильных устройств и edge-вычислений. Работаю с ONNX, TensorRT, OpenVINO. Активно применяю quantization и pruning для снижения размера моделей."
+  },
+  {
+    "id": "u_003",
+    "role": "ML-инженер младший специалист",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "deep learning",
+      "computer vision",
+      "learning from scratch"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Generative AI",
+      "EdTech"
+    ],
+    "background": "Недавно закончил магистратуру ИТМО, сейчас работаю в стартапе на классификации изображений для e-commerce. Изучаю основы глубокого обучения на практике, использую PyTorch и OpenCV. Интересуюсь тем, как применять современные подходы CV в реальных задачах e-commerce."
+  },
+  {
+    "id": "u_004",
+    "role": "Data Scientist middle-level",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "A/B testing",
+      "causal inference",
+      "experimentation"
+    ],
+    "preferred_topics": [
+      "A/B testing",
+      "Industrial ML",
+      "Fintech"
+    ],
+    "background": "Работаю в Тинькоффе на экспериментировании и аналитике. Разрабатываю框架для A/B-тестирования финансовых продуктов, работаю с каузальным выводом. Использую Python, SQL, и инструменты статистического анализа. Фокусируюсь на правильном дизайне экспериментов и интерпретации результатов."
+  },
+  {
+    "id": "u_005",
+    "role": "MLOps инженер",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "model deployment",
+      "monitoring",
+      "infrastructure"
+    ],
+    "preferred_topics": [
+      "MLOps",
+      "Industrial ML",
+      "LLM"
+    ],
+    "background": "Специалист по машинному обучению в операционной среде, работаю на стартапе в области EdTech. Занимаюсь деплоем, мониторингом и версионированием моделей. Использую Docker, Kubernetes, DVC. Интересуюсь построением надежных ML-pipeline и автоматизацией процесса разработки моделей."
+  },
+  {
+    "id": "u_006",
+    "role": "LLM Researcher postgrad",
+    "experience": "postgrad",
+    "company_size": "university",
+    "interests": [
+      "model architecture",
+      "training efficiency",
+      "interpretability"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "NLP",
+      "Generative AI"
+    ],
+    "background": "Аспирант ИТМО, занимаюсь исследованиями архитектур трансформеров и эффективного обучения. Работаю с JAX и PyTorch, изучаю способы снижения вычислительных затрат при обучении больших моделей. Интересуюсь механизмами внимания и интерпретируемостью LLM."
+  },
+  {
+    "id": "u_007",
+    "role": "Recsys Engineer senior",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "personalization",
+      "ranking algorithms",
+      "online learning"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "Industrial ML",
+      "A/B testing"
+    ],
+    "background": "Senior рекомендательных систем в VK, разработал несколько production-систем персонализации. Специализируюсь на двухуровневых архитектурах (retrieval + ranking), использую embedding-методы и gradient boosting. Активно работаю с A/B-тестированием для улучшения метрик engagement."
+  },
+  {
+    "id": "u_008",
+    "role": "AI Product Manager",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "product-market fit",
+      "AI strategy",
+      "user research"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents",
+      "EdTech"
+    ],
+    "background": "Product manager в Яндексе, работаю над AI-ассистентом. Отвечаю за стратегию применения LLM в продукте, координирую работу ML-инженеров и дизайнеров. Интересуюсь тем, как правильно интегрировать ИИ в user experience и измерять его влияние на бизнес-метрики."
+  },
+  {
+    "id": "u_009",
+    "role": "NLP Senior Researcher",
+    "experience": "senior",
+    "company_size": "research-lab",
+    "interests": [
+      "multilingual NLP",
+      "low-resource languages",
+      "linguistic structure"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Generative AI"
+    ],
+    "background": "Старший исследователь в лаборатории обработки языков, работаю на многоязычных NLP-задачах. Публикую в топ-конференциях, занимаюсь исследованиями структуры языка и применением трансформеров. Использую PyTorch и специализированные библиотеки для лингвистического анализа."
+  },
+  {
+    "id": "u_010",
+    "role": "ML-инженер junior",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "time series",
+      "forecasting",
+      "neural networks"
+    ],
+    "preferred_topics": [
+      "Time Series",
+      "Industrial ML",
+      "LLM"
+    ],
+    "background": "Молодой специалист в компании, занимающейся прогнозированием спроса для логистики. Работаю с временными рядами, LSTM и трансформерами. Использую PyTorch и TensorFlow. Развиваюсь в области применения глубокого обучения к временным рядам и улучшению точности прогнозов."
+  },
+  {
+    "id": "u_011",
+    "role": "Fintech ML Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "fraud detection",
+      "risk assessment",
+      "regulatory compliance"
+    ],
+    "preferred_topics": [
+      "Fintech",
+      "Industrial ML",
+      "A/B testing"
+    ],
+    "background": "ML-инженер в банковской системе, разрабатываю модели для детекции фрода и оценки кредитного риска. Работаю с классическим ML (XGBoost, LightGBM) и глубоким обучением. Важно соблюдать регуляторные требования и обеспечивать интерпретируемость моделей."
+  },
+  {
+    "id": "u_012",
+    "role": "EdTech AI Specialist",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "adaptive learning",
+      "student modeling",
+      "personalization"
+    ],
+    "preferred_topics": [
+      "EdTech",
+      "LLM",
+      "Recsys"
+    ],
+    "background": "Разрабатываю AI-систему для персональной адаптивной подготовки к экзаменам. Использую рекомендательные системы и LLM для генерации персонализированного контента. Интересуюсь моделированием прогресса студентов и оптимальной последовательностью обучения."
+  },
+  {
+    "id": "u_013",
+    "role": "Autonomous Agents Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "agent frameworks",
+      "tool use",
+      "reasoning"
+    ],
+    "preferred_topics": [
+      "Autonomous agents",
+      "LLM",
+      "NLP"
+    ],
+    "background": "Senior инженер в разработке LLM-агентов в крупной tech-компании. Специализируюсь на фреймворках для создания интеллектуальных агентов (LangChain, AutoGPT). Работаю над улучшением способности агентов использовать инструменты и логировать рассуждения."
+  },
+  {
+    "id": "u_014",
+    "role": "Computer Vision Lead",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "multimodal learning",
+      "vision-language models",
+      "team leadership"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Multimodal",
+      "Generative AI"
+    ],
+    "background": "Lead команды компьютерного зрения в крупной компании. Отвечаю за архитектуру vision-language систем и руководство командой. Работаю с мультимодальными трансформерами, CLIP и диффузионными моделями. Интересуюсь синергией между vision и language."
+  },
+  {
+    "id": "u_015",
+    "role": "RL Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "reinforcement learning",
+      "robotics",
+      "game playing"
+    ],
+    "preferred_topics": [
+      "RL",
+      "Industrial ML",
+      "Autonomous agents"
+    ],
+    "background": "Инженер по обучению с подкреплением в стартапе робототехники. Работаю над обучением агентов для автономных систем, использую PyTorch и OpenAI Gym. Применяю policy gradient методы и actor-critic алгоритмы. Интересуюсь симуляцией и трансфером знаний между задачами."
+  },
+  {
+    "id": "u_016",
+    "role": "Data Science Manager",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "team building",
+      "strategy",
+      "business impact"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "A/B testing",
+      "Fintech"
+    ],
+    "background": "Manager команды data science в крупной финтех-компании. Отвечаю за стратегию применения ML и руководство несколькими командами. Фокусируюсь на бизнес-влиянии проектов и развитии специалистов. Интересуюсь связью ML-инноваций с бизнес-результатами."
+  },
+  {
+    "id": "u_017",
+    "role": "Generative AI Researcher",
+    "experience": "postgrad",
+    "company_size": "research-lab",
+    "interests": [
+      "diffusion models",
+      "VAE",
+      "likelihood estimation"
+    ],
+    "preferred_topics": [
+      "Generative AI",
+      "LLM",
+      "Computer Vision"
+    ],
+    "background": "Аспирант, занимающийся исследованиями генеративных моделей. Работаю с диффузионными моделями и вариационными автокодировщиками. Использую JAX и PyTorch для реализации современных архитектур. Публикую на конференциях, интересуюсь теоретическими основами генеративного моделирования."
+  },
+  {
+    "id": "u_018",
+    "role": "MLOps Lead",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "infrastructure",
+      "automation",
+      "scalability"
+    ],
+    "preferred_topics": [
+      "MLOps",
+      "Industrial ML",
+      "LLM"
+    ],
+    "background": "Senior MLOps инженер в крупной компании, разработал собственную платформу для ML. Отвечаю за инфраструктуру обучения и деплоя моделей, использую Kubernetes, Airflow, MLflow. Интересуюсь автоматизацией ML-пайплайнов и масштабированием систем."
+  },
+  {
+    "id": "u_019",
+    "role": "Consultant ML/AI",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "business transformation",
+      "ML strategy",
+      "advisory"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "LLM",
+      "Fintech"
+    ],
+    "background": "ML-консультант, помогаю компаниям внедрять ИИ-решения. Работаю с клиентами из разных индустрий, помогаю определять стратегию применения ML. Имею опыт в финтехе, ритейле и логистике. Интересуюсь трансформацией бизнеса через AI и управлением ML-проектами."
+  },
+  {
+    "id": "u_020",
+    "role": "Professor AI/ML",
+    "experience": "professor",
+    "company_size": "university",
+    "interests": [
+      "fundamental research",
+      "education",
+      "innovation"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Computer Vision",
+      "NLP"
+    ],
+    "background": "Профессор ИТМО, руководитель лаборатории AI. Занимаюсь фундаментальными исследованиями в области глубокого обучения и преподаванием. Руководствуюсь интересом к теоретическим основам нейронных сетей и их применению. Активно сотрудничаю с индустрией и консультирую стартапы."
+  },
+  {
+    "id": "u_021",
+    "role": "NLP middle-инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "RAG",
+      "LLM-агенты",
+      "production deployment"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Работает в Yandex на задачах обработки естественного языка. Специализируется на RAG-системах и интеграции LLM в production. Использует PyTorch, Transformers, LangChain. Интересуется оптимизацией инференса и масштабированием NLP-моделей."
+  },
+  {
+    "id": "u_022",
+    "role": "Computer Vision senior-разработчик",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "object detection",
+      "adversarial robustness",
+      "efficient models"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Industrial ML",
+      "Generative AI"
+    ],
+    "background": "Senior-разработчик в стартапе компьютерного зрения. Опыт с YOLO, R-CNN, Vision Transformers. Фокусируется на создании robust моделей для production и оптимизации под edge-devices. Публиковал статьи по adversarial attacks."
+  },
+  {
+    "id": "u_023",
+    "role": "Data Scientist (Recsys)",
+    "experience": "junior",
+    "company_size": "large",
+    "interests": [
+      "collaborative filtering",
+      "neural recsys",
+      "A/B testing"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "A/B testing",
+      "Industrial ML"
+    ],
+    "background": "Junior data scientist в X5 Retail Group, работает над рекомендательными системами. Изучает neural collaborative filtering и matrix factorization. Активно занимается A/B-тестированием и анализом метрик. Использует Python, scikit-learn, TensorFlow."
+  },
+  {
+    "id": "u_024",
+    "role": "ML-инженер (MLOps)",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "model deployment",
+      "monitoring",
+      "CI/CD pipelines"
+    ],
+    "preferred_topics": [
+      "MLOps",
+      "Industrial ML",
+      "Time Series"
+    ],
+    "background": "Middle-инженер в Sber, занимается развёртыванием и мониторингом ML-моделей. Опыт с Docker, Kubernetes, Airflow, DVC. Строит CI/CD пайплайны для production-моделей и настраивает систему алертов. Интересуется автоматизацией ML-workflow."
+  },
+  {
+    "id": "u_025",
+    "role": "Аспирант (NLP/LLM)",
+    "experience": "postgrad",
+    "company_size": "university",
+    "interests": [
+      "transfer learning",
+      "few-shot learning",
+      "multilingual models"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Generative AI"
+    ],
+    "background": "Аспирант ИТМО, пишет диссертацию по мультиязычным LLM. Исследует few-shot learning и transfer learning для низкоресурсных языков. Публикуется в топовых конференциях (ACL, EMNLP). Глубокие знания Transformers, HuggingFace, JAX."
+  },
+  {
+    "id": "u_026",
+    "role": "AI Product Manager",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "product-market fit",
+      "metrics",
+      "user research"
+    ],
+    "preferred_topics": [
+      "EdTech",
+      "Autonomous agents",
+      "LLM"
+    ],
+    "background": "Product manager в EdTech-стартапе, разработчик AI-решений для персонального обучения. Занимается определением требований к моделям, метриками успеха и пользовательским исследованием. Понимает ML-ограничения и бизнес-метрики. Интересуется LLM-агентами для образования."
+  },
+  {
+    "id": "u_027",
+    "role": "Senior Research Scientist",
+    "experience": "senior",
+    "company_size": "research-lab",
+    "interests": [
+      "generative models",
+      "diffusion",
+      "image synthesis"
+    ],
+    "preferred_topics": [
+      "Generative AI",
+      "Computer Vision",
+      "Multimodal"
+    ],
+    "background": "Senior-исследователь в лаборатории глубокого обучения. Специализируется на diffusion models и image synthesis. Публикует статьи в ICCV, NeurIPS. Опыт с PyTorch, JAX, CUDA. Интересуется контролируемым генерированием и мультимодальными моделями."
+  },
+  {
+    "id": "u_028",
+    "role": "Fintech ML-инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "fraud detection",
+      "time series forecasting",
+      "risk modeling"
+    ],
+    "preferred_topics": [
+      "Fintech",
+      "Time Series",
+      "Industrial ML"
+    ],
+    "background": "ML-инженер в Tinkoff, разработчик систем обнаружения мошенничества. Работает с временными рядами, строит модели риска и прогнозирует волатильность. Использует LightGBM, CatBoost, XGBoost. Обладает глубокими знаниями финансовых метрик и регуляции."
+  },
+  {
+    "id": "u_029",
+    "role": "RL-инженер",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "multi-agent RL",
+      "reward shaping",
+      "sim-to-real"
+    ],
+    "preferred_topics": [
+      "RL",
+      "Autonomous agents",
+      "Industrial ML"
+    ],
+    "background": "Senior-разработчик в стартапе робототехники, специализируется на reinforcement learning для управления. Опыт с PPO, DQN, A3C. Работает над multi-agent RL и решением проблемы sim-to-real transfer. Использует OpenAI Gym, RLlib, PyTorch."
+  },
+  {
+    "id": "u_030",
+    "role": "Junior Data Scientist",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "feature engineering",
+      "model selection",
+      "EDA"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "A/B testing",
+      "Recsys"
+    ],
+    "background": "Junior data scientist в early-stage стартапе. Занимается обработкой данных, feature engineering и выбором моделей. Использует Python, pandas, scikit-learn. Активно учится и интересуется лучшими практиками ML и статистике в A/B-тестировании."
+  },
+  {
+    "id": "u_031",
+    "role": "Multimodal AI Researcher",
+    "experience": "postgrad",
+    "company_size": "university",
+    "interests": [
+      "vision-language models",
+      "cross-modal retrieval",
+      "CLIP-like architectures"
+    ],
+    "preferred_topics": [
+      "Multimodal",
+      "Computer Vision",
+      "Generative AI"
+    ],
+    "background": "Аспирант ИТМО, исследователь мультимодальных моделей. Работает над vision-language моделями и cross-modal retrieval. Использует PyTorch, CLIP, BLIP. Публикуется в ICLR, CVPR. Интересуется эффективным обучением мультимодальных архитектур."
+  },
+  {
+    "id": "u_032",
+    "role": "LLM-инженер (Inference Optimization)",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "quantization",
+      "pruning",
+      "knowledge distillation",
+      "efficient inference"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "MLOps",
+      "Generative AI"
+    ],
+    "background": "Senior-инженер в VK, специализируется на оптимизации инференса больших языковых моделей. Опыт с quantization, pruning, knowledge distillation. Работает с vLLM, TensorRT, ONNX. Интересуется методами efficient LLM deployment и edge inference."
+  },
+  {
+    "id": "u_033",
+    "role": "EdTech AI-разработчик",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "personalized learning",
+      "knowledge graphs",
+      "adaptive systems"
+    ],
+    "preferred_topics": [
+      "EdTech",
+      "LLM",
+      "Recsys"
+    ],
+    "background": "Middle-разработчик в EdTech-компании, создаёт AI-системы для персонализированного обучения. Интегрирует LLM для генерации контента и адаптивных систем. Использует PyTorch, FastAPI, Redis. Фокусируется на UX и метриках обучения студентов."
+  },
+  {
+    "id": "u_034",
+    "role": "Time Series Forecasting Specialist",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "ARIMA",
+      "Prophet",
+      "neural networks for forecasting",
+      "anomaly detection"
+    ],
+    "preferred_topics": [
+      "Time Series",
+      "Industrial ML",
+      "Fintech"
+    ],
+    "background": "Middle-специалист по временным рядам в крупной энергетической компании. Разработчик систем прогнозирования нагрузок и обнаружения аномалий. Использует ARIMA, Prophet, LSTM, Transformer-based модели. Опыт с production-deployment и real-time inference."
+  },
+  {
+    "id": "u_035",
+    "role": "NLP Consultant",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": [
+      "chatbots",
+      "sentiment analysis",
+      "named entity recognition",
+      "information extraction"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Senior-консультант, основатель собственного NLP-consultancy. Помогает компаниям внедрять NLP-решения. Опыт с Rule-based systems, классическим ML и современными Transformers. Специализируется на production deployment и maintenance NLP-систем."
+  },
+  {
+    "id": "u_036",
+    "role": "Reinforcement Learning Researcher",
+    "experience": "postgrad",
+    "company_size": "research-lab",
+    "interests": [
+      "inverse RL",
+      "imitation learning",
+      "policy gradient methods"
+    ],
+    "preferred_topics": [
+      "RL",
+      "Autonomous agents",
+      "Industrial ML"
+    ],
+    "background": "Аспирант ИТМО, исследователь reinforcement learning. Пишет диссертацию по inverse RL и imitation learning. Публикует в топовых конференциях (NeurIPS, ICML). Глубокие знания теории RL, опыт с OpenAI Gym, Stable Baselines, RLlib."
+  },
+  {
+    "id": "u_037",
+    "role": "Lead Data Scientist",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "model governance",
+      "fairness",
+      "explainability",
+      "MLOps at scale"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps",
+      "A/B testing"
+    ],
+    "background": "Lead data scientist в крупном банке, руководитель команды из 10+ человек. Отвечает за governance ML-моделей, fairness и compliance. Опыт с масштабированием ML-систем и build-vs-buy decisions. Интересуется explainability и regulatory requirements."
+  },
+  {
+    "id": "u_038",
+    "role": "CV ML-инженер (Detection & Tracking)",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "object tracking",
+      "video analysis",
+      "3D vision",
+      "real-time processing"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Industrial ML",
+      "Time Series"
+    ],
+    "background": "Middle-инженер в компании компьютерного зрения для видеоаналитики. Разработчик систем отслеживания объектов и анализа видео. Использует YOLOv8, DeepSORT, 3D-детекторы. Опыт с CUDA, C++, оптимизацией для real-time processing."
+  },
+  {
+    "id": "u_039",
+    "role": "Autonomous Agents Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "agent frameworks",
+      "tool use",
+      "planning",
+      "reasoning"
+    ],
+    "preferred_topics": [
+      "Autonomous agents",
+      "LLM",
+      "NLP"
+    ],
+    "background": "Middle-разработчик LLM-агентов в стартапе, фокусируется на агентских фреймворках и tool-use. Опыт с LangChain, AutoGPT, ReAct. Интегрирует агентов с внешними API и базами данных. Изучает планирование и reasoning в мультиагентных системах."
+  },
+  {
+    "id": "u_040",
+    "role": "Professor (ML/AI)",
+    "experience": "professor",
+    "company_size": "university",
+    "interests": [
+      "theoretical foundations",
+      "novel architectures",
+      "interdisciplinary AI"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Computer Vision",
+      "Generative AI"
+    ],
+    "background": "Профессор ИТМО, руководитель лаборатории машинного обучения. Автор более 100 публикаций в ICML, NeurIPS, ICLR. Интересуется теоретическими основами глубокого обучения и новыми архитектурами. Менторит аспирантов и постдоков."
+  },
+  {
+    "id": "u_041",
+    "role": "NLP middle-инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "RAG",
+      "LLM-агенты",
+      "production deployment"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Работает в Yandex на задачах поиска и ранжирования. Специализируется на трансформер-моделях и их оптимизации для production. Активно применяет RAG для улучшения релевантности результатов. Интересуется агентскими фреймворками и их масштабированием."
+  },
+  {
+    "id": "u_042",
+    "role": "Computer Vision senior-инженер",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "efficient inference",
+      "adversarial robustness",
+      "multimodal models"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Multimodal",
+      "Industrial ML"
+    ],
+    "background": "Senior CV-инженер из Sber, работает над объектной детекцией и семантической сегментацией. Углубляется в эффективный inference на мобильных устройствах и edge-computing. Исследует устойчивость моделей к adversarial примерам и их применение в реальных системах безопасности."
+  },
+  {
+    "id": "u_043",
+    "role": "ML-инженер (Recsys)",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "collaborative filtering",
+      "bandit algorithms",
+      "online learning"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "Industrial ML",
+      "A/B testing"
+    ],
+    "background": "Разработчик рекомендательных систем в VK. Работает с миллиардами взаимодействий пользователей и оптимизирует quality metrics. Применяет многоармовые бандиты для балансировки exploration/exploitation. Активно проводит A/B-тесты и анализирует их статистическую значимость."
+  },
+  {
+    "id": "u_044",
+    "role": "Аспирант (ML Research)",
+    "experience": "postgrad",
+    "company_size": "university",
+    "interests": [
+      "transformers",
+      "model interpretability",
+      "theoretical foundations"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Generative AI"
+    ],
+    "background": "Аспирант факультета информационных технологий и программирования ИТМО, исследует механизмы внимания в трансформерах. Фокусируется на интерпретируемости больших языковых моделей и поиске фундаментальных принципов их работы. Публикуется в top-tier конференциях."
+  },
+  {
+    "id": "u_045",
+    "role": "MLOps Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "model deployment",
+      "monitoring",
+      "experiment tracking"
+    ],
+    "preferred_topics": [
+      "MLOps",
+      "Industrial ML"
+    ],
+    "background": "ML-инженер в fintech-стартапе, отвечает за весь пайплайн от training до production. Использует Kubernetes, Airflow, MLflow для управления экспериментами и моделями. Строит системы мониторинга качества и drift-detection для моделей в production."
+  },
+  {
+    "id": "u_046",
+    "role": "EdTech AI Product Manager",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "personalized learning",
+      "LLM for education",
+      "adaptive systems"
+    ],
+    "preferred_topics": [
+      "EdTech",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Product Manager в EdTech-стартапе, создает AI-powered платформу для персонализированного обучения. Интегрирует LLM для генерации контента и адаптивных систем обучения. Работает над метриками вовлечённости и эффективности обучения студентов."
+  },
+  {
+    "id": "u_047",
+    "role": "Fintech ML-специалист",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "fraud detection",
+      "credit scoring",
+      "time series forecasting"
+    ],
+    "preferred_topics": [
+      "Fintech",
+      "Time Series",
+      "Industrial ML"
+    ],
+    "background": "Senior Data Scientist в крупном финтех-банке, занимается детекцией фрода и скоринговыми моделями. Работает с временными рядами для прогнозирования курсов и волатильности. Применяет gradient boosting и нейросети для критичных по надежности систем."
+  },
+  {
+    "id": "u_048",
+    "role": "Reinforcement Learning researcher",
+    "experience": "senior",
+    "company_size": "research-lab",
+    "interests": [
+      "policy optimization",
+      "multi-agent systems",
+      "reward modeling"
+    ],
+    "preferred_topics": [
+      "RL",
+      "Autonomous agents",
+      "Industrial ML"
+    ],
+    "background": "Research Scientist в лаборатории ИИ, специализируется на RL и многоагентных системах. Исследует проблемы reward modeling и alignment в контексте больших моделей. Публикует работы по policy optimization и применению RL в реальных задачах."
+  },
+  {
+    "id": "u_049",
+    "role": "Generative AI инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "diffusion models",
+      "image generation",
+      "fine-tuning"
+    ],
+    "preferred_topics": [
+      "Generative AI",
+      "Computer Vision",
+      "Multimodal"
+    ],
+    "background": "ML-инженер в Tinkoff, работает над генеративными моделями для создания контента. Специализируется на diffusion models и их оптимизации. Активно использует LoRA и другие методы efficient fine-tuning для адаптации моделей к специфичным задачам."
+  },
+  {
+    "id": "u_050",
+    "role": "Time Series ML-инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "forecasting",
+      "anomaly detection",
+      "multivariate analysis"
+    ],
+    "preferred_topics": [
+      "Time Series",
+      "Industrial ML",
+      "Fintech"
+    ],
+    "background": "Data Scientist в энергетической компании (X5 Group), работает над прогнозированием спроса и аномалией в цепи поставок. Применяет LSTM, Transformer-based модели и классические методы ARIMA. Занимается feature engineering для временных рядов и интеграцией моделей в системы planning."
+  },
+  {
+    "id": "u_051",
+    "role": "Junior NLP-инженер",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "transformers",
+      "tokenization",
+      "language models"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM"
+    ],
+    "background": "Недавно закончил магистратуру ИТМО, присоединился к NLP-команде в стартапе. Учится работать с Hugging Face transformers и основами LLM. Интересуется различными подходами к токенизации и её влиянием на качество моделей."
+  },
+  {
+    "id": "u_052",
+    "role": "Multimodal ML researcher",
+    "experience": "postgrad",
+    "company_size": "university",
+    "interests": [
+      "vision-language models",
+      "cross-modal learning",
+      "contrastive learning"
+    ],
+    "preferred_topics": [
+      "Multimodal",
+      "Computer Vision",
+      "Generative AI"
+    ],
+    "background": "Аспирант ИТМО, исследует мультимодальные модели на пересечении зрения и языка. Работает над улучшением cross-modal alignment и контрастивным обучением. Интересуется применением vision-language моделей для понимания сложных сцен."
+  },
+  {
+    "id": "u_053",
+    "role": "ML-консультант",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "architecture design",
+      "team building",
+      "strategic ML planning"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Principal ML Consultant с 10+ годами опыта, помогает компаниям построить ML-инфраструктуру с нуля. Специализируется на выборе правильного стека технологий и организации ML-процессов. Работал с десятками проектов в разных индустриях."
+  },
+  {
+    "id": "u_054",
+    "role": "Computer Vision тимлид",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "team leadership",
+      "model optimization",
+      "real-time systems"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Industrial ML"
+    ],
+    "background": "Team Lead CV-подразделения в крупной tech-компании, руководит командой из 8 инженеров. Отвечает за архитектуру систем компьютерного зрения и их performance. Занимается менеджментом и развитием сотрудников, одновременно остаясь hands-on в критичных проектах."
+  },
+  {
+    "id": "u_055",
+    "role": "LangChain разработчик",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "agent frameworks",
+      "prompt engineering",
+      "tool integration"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents",
+      "NLP"
+    ],
+    "background": "ML-инженер в startup, создает LLM-приложения с использованием LangChain и LlamaIndex. Специализируется на разработке intelligent agents с интеграцией внешних инструментов. Активно экспериментирует с prompt engineering и методами retrieval augmentation."
+  },
+  {
+    "id": "u_056",
+    "role": "Classical ML специалист",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "gradient boosting",
+      "feature engineering",
+      "interpretability"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "Fintech"
+    ],
+    "background": "Senior Data Scientist с фокусом на gradient boosting (XGBoost, CatBoost, LightGBM). Работает в банковском секторе на задачах, где интерпретируемость критична. Глубоко разбирается в feature engineering и гиперпараметрической оптимизации."
+  },
+  {
+    "id": "u_057",
+    "role": "A/B Testing специалист",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "statistical design",
+      "causal inference",
+      "experiment platform"
+    ],
+    "preferred_topics": [
+      "A/B testing",
+      "Industrial ML"
+    ],
+    "background": "Data Scientist в крупной tech-компании, отвечает за A/B-тестирование ML-моделей и фич. Углубляется в статистическое проектирование экспериментов и методы causal inference. Разрабатывает внутреннюю платформу для управления экспериментами."
+  },
+  {
+    "id": "u_058",
+    "role": "JAX/ML researcher",
+    "experience": "postgrad",
+    "company_size": "research-lab",
+    "interests": [
+      "automatic differentiation",
+      "functional programming",
+      "research frameworks"
+    ],
+    "preferred_topics": [
+      "Generative AI",
+      "RL"
+    ],
+    "background": "Аспирант, исследует использование JAX для научных вычислений в ML. Интересуется functional programming paradigm в контексте ML и автоматическим дифференцированием. Работает над оптимизацией computationally-intensive моделей."
+  },
+  {
+    "id": "u_059",
+    "role": "Industrial ML инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "production systems",
+      "data pipelines",
+      "model serving"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "ML-инженер в Sber, работает над production ML-системами, которые обслуживают миллионы пользователей. Занимается построением data pipelines, feature stores и систем serving. Фокусируется на надежности и масштабируемости систем."
+  },
+  {
+    "id": "u_060",
+    "role": "Professor (AI/ML)",
+    "experience": "professor",
+    "company_size": "university",
+    "interests": [
+      "research mentorship",
+      "curriculum development",
+      "emerging technologies"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "Computer Vision",
+      "RL"
+    ],
+    "background": "Профессор факультета информационных технологий ИТМО, руководит лабораторией ИИ и менторит аспирантов. Активно занимается исследованиями в области NLP и компьютерного зрения. Разрабатывает образовательные программы по современным направлениям ML."
+  },
+  {
+    "id": "u_061",
+    "role": "NLP middle-инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "RAG",
+      "LLM-агенты",
+      "production deployment"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Работаю в Яндексе на stack-е PyTorch и Transformers, занимаюсь разработкой RAG-систем для поиска. Сейчас решаю задачу оптимизации латентности в production, интересует как масштабировать LLM-агенты для реальных приложений и best practices в deployment."
+  },
+  {
+    "id": "u_062",
+    "role": "Computer Vision senior-инженер",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "efficient inference",
+      "model compression",
+      "real-time detection"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Senior CV-инженер из X5 с опытом в retail analytics и real-time object detection. Специализируюсь на оптимизации моделей для edge-devices и мобильных платформ. Ищу инновационные подходы к сжатию моделей без потери качества."
+  },
+  {
+    "id": "u_063",
+    "role": "ML-исследователь (аспирант)",
+    "experience": "postgrad",
+    "company_size": "university",
+    "interests": [
+      "adversarial robustness",
+      "interpretability",
+      "theoretical foundations"
+    ],
+    "preferred_topics": [
+      "Generative AI",
+      "LLM",
+      "Multimodal"
+    ],
+    "background": "Аспирант ИТМО, занимаюсь исследованием robustness multimodal моделей. Работаю с трансформерами и генеративными подходами, интересует как сделать LLM более интерпретируемыми и устойчивыми к adversarial примерам."
+  },
+  {
+    "id": "u_064",
+    "role": "Recsys middle-инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "ranking algorithms",
+      "cold-start",
+      "online learning"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "A/B testing",
+      "Industrial ML"
+    ],
+    "background": "ML-инженер в Tinkoff, занимаюсь рекомендательными системами для финтеха. Опыт с LightGBM и классическим ML, решаю задачи cold-start и онлайн-обучения. Интересуют современные подходы к ranking и как комбинировать traditional methods с deep learning."
+  },
+  {
+    "id": "u_065",
+    "role": "Финтех data scientist",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "time series forecasting",
+      "anomaly detection",
+      "risk modeling"
+    ],
+    "preferred_topics": [
+      "Fintech",
+      "Time Series",
+      "Industrial ML"
+    ],
+    "background": "Data scientist в fintech-стартапе, работаю с временными рядами для предсказания волатильности и fraud detection. Использую XGBoost, Prophet и классические статистические методы. Ищу примеры применения deep learning для time series в production."
+  },
+  {
+    "id": "u_066",
+    "role": "MLOps lead-инженер",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "model serving",
+      "monitoring",
+      "experiment tracking"
+    ],
+    "preferred_topics": [
+      "MLOps",
+      "Industrial ML",
+      "LLM"
+    ],
+    "background": "Lead инженер MLOps в VK, отвечаю за инфраструктуру для training и serving моделей. Опыт с Kubernetes, Airflow, MLflow. Интересует как организовать efficient deployment LLM-моделей в production и best practices в monitoring."
+  },
+  {
+    "id": "u_067",
+    "role": "EdTech AI разработчик",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "personalization",
+      "adaptive learning",
+      "LLM for education"
+    ],
+    "preferred_topics": [
+      "EdTech",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Junior разработчик в edu-стартапе, работаю над AI-тьютором на базе LLM. Используем LangChain и OpenAI API. Ищу вдохновение в примерах персонализированного обучения и автономных агентов для образовательных задач."
+  },
+  {
+    "id": "u_068",
+    "role": "NLP research scientist",
+    "experience": "senior",
+    "company_size": "research-lab",
+    "interests": [
+      "few-shot learning",
+      "prompt engineering",
+      "multilingual models"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Generative AI"
+    ],
+    "background": "Research scientist в лаборатории, занимаюсь исследованием few-shot learning и prompt engineering для multilingual LLM. Работаю с HuggingFace Transformers и JAX. Интересует как улучшить efficiency и quality LLM для низкоресурсных языков."
+  },
+  {
+    "id": "u_069",
+    "role": "AI product manager",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "product strategy",
+      "user research",
+      "metrics"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents",
+      "EdTech"
+    ],
+    "background": "Product manager в крупной tech-компании, отвечаю за AI-features в mobile app. Сотрудничаю с ML-командой для запуска LLM-features. Интересуют метрики успеха и user research для AI-продуктов, примеры успешных implementations."
+  },
+  {
+    "id": "u_070",
+    "role": "Computer Vision junior-инженер",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "image segmentation",
+      "object detection",
+      "augmentation"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Generative AI",
+      "Industrial ML"
+    ],
+    "background": "Junior CV-инженер, начинаю карьеру с работой над image segmentation для медицинского AI стартапа. Использую PyTorch и OpenCV, знаю основы data augmentation. Ищу примеры production-ready CV систем и modern architectures."
+  },
+  {
+    "id": "u_071",
+    "role": "RL инженер-исследователь",
+    "experience": "postgrad",
+    "company_size": "university",
+    "interests": [
+      "policy optimization",
+      "multi-agent systems",
+      "sim2real"
+    ],
+    "preferred_topics": [
+      "RL",
+      "Autonomous agents",
+      "Industrial ML"
+    ],
+    "background": "Аспирант ИТМО, специализируюсь на reinforcement learning и многоагентных системах. Работаю с PyTorch и Ray RLLib, исследую transfer learning в RL. Интересует как применять RL в реальных production-сценариях."
+  },
+  {
+    "id": "u_072",
+    "role": "Multimodal ML engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "vision-language models",
+      "cross-modal retrieval",
+      "CLIP variants"
+    ],
+    "preferred_topics": [
+      "Multimodal",
+      "Computer Vision",
+      "Generative AI"
+    ],
+    "background": "ML-инженер в крупной компании, работаю с multimodal моделями типа CLIP и DALL-E. Использую PyTorch и HuggingFace. Текущий проект - разработка efficient vision-language model для мобильных устройств."
+  },
+  {
+    "id": "u_073",
+    "role": "A/B testing data scientist",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "statistical testing",
+      "experiment design",
+      "causal inference"
+    ],
+    "preferred_topics": [
+      "A/B testing",
+      "Industrial ML",
+      "Fintech"
+    ],
+    "background": "Data scientist в Sber, специализируюсь на A/B тестировании и экспериментальном дизайне. Использую Python, статистику и causal inference. Интересует как оптимизировать эксперименты с ML-моделями в production."
+  },
+  {
+    "id": "u_074",
+    "role": "Autonomous agents architect",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "agent frameworks",
+      "tool use",
+      "reasoning chains"
+    ],
+    "preferred_topics": [
+      "Autonomous agents",
+      "LLM",
+      "NLP"
+    ],
+    "background": "Senior инженер в AI-стартапе, проектирую архитектуру LLM-агентов на LangChain и ReAct. Работаю над интеграцией инструментов и улучшением reasoning. Ищу best practices в design агентов для complex workflows."
+  },
+  {
+    "id": "u_075",
+    "role": "Generative AI researcher",
+    "experience": "senior",
+    "company_size": "research-lab",
+    "interests": [
+      "diffusion models",
+      "VAE",
+      "neural rendering"
+    ],
+    "preferred_topics": [
+      "Generative AI",
+      "Multimodal",
+      "Computer Vision"
+    ],
+    "background": "Research scientist, занимаюсь исследованием diffusion models и generative методов. Опыт с JAX и PyTorch, публикуюсь в top conferences. Интересует как применять генеративные модели для practical applications."
+  },
+  {
+    "id": "u_076",
+    "role": "Time series ML engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "forecasting",
+      "anomaly detection",
+      "LSTM/Transformer"
+    ],
+    "preferred_topics": [
+      "Time Series",
+      "Industrial ML",
+      "Fintech"
+    ],
+    "background": "ML-инженер, работаю над time series прогнозированием для utilities. Использую LSTM, Transformer-based модели и classical approaches. Решаю задачи с нерегулярными данными и долгосрочными зависимостями."
+  },
+  {
+    "id": "u_077",
+    "role": "LLM inference engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "quantization",
+      "pruning",
+      "batching strategies"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "MLOps",
+      "Industrial ML"
+    ],
+    "background": "ML-инженер специализирующийся на efficient LLM inference. Работаю с ONNX, TensorRT и quantization techniques. Текущая задача - оптимизировать latency и throughput для large language models в production."
+  },
+  {
+    "id": "u_078",
+    "role": "Recsys research scientist",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "neural collaborative filtering",
+      "context-aware ranking",
+      "diversity"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "Generative AI",
+      "Industrial ML"
+    ],
+    "background": "Research scientist в e-commerce компании, занимаюсь разработкой next-gen recommender systems. Опыт с deep learning для ranking, работаю над diversity и serendipity в рекомендациях. Ищу вдохновение в modern approaches."
+  },
+  {
+    "id": "u_079",
+    "role": "NLP junior engineer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "text classification",
+      "named entity recognition",
+      "fine-tuning"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "EdTech"
+    ],
+    "background": "Junior NLP-инженер в стартапе, работаю над text classification и NER для русского языка. Использую HuggingFace Transformers и PyTorch. Ищу примеры fine-tuning моделей и лучшие практики в NLP."
+  },
+  {
+    "id": "u_080",
+    "role": "ML consultant / architect",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "system design",
+      "ML strategy",
+      "tech leadership"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps",
+      "LLM"
+    ],
+    "background": "ML consultant с 10+ годами опыта, помогаю компаниям масштабировать ML-инфраструктуру. Работал с PyTorch, TensorFlow, разными доменами. Интересует как построить sustainable ML-systems и развивать ML-talent."
+  },
+  {
+    "id": "u_081",
+    "role": "NLP middle-инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "RAG",
+      "semantic search",
+      "production deployment"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Работает в Yandex на задачах поиска и ранжирования. Специализируется на применении трансформеров для семантического поиска и RAG-систем. Активно использует PyTorch и HuggingFace Transformers. Интересуется оптимизацией инференса больших моделей для production-среды."
+  },
+  {
+    "id": "u_082",
+    "role": "Computer Vision senior-инженер",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "adversarial robustness",
+      "efficient inference",
+      "edge deployment"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Разрабатывает системы компьютерного зрения в Sber для retail-аналитики. Опыт в quantization и pruning моделей для запуска на edge-девайсах. Работает с PyTorch и ONNX, фокусируется на балансе между точностью и скоростью инференса."
+  },
+  {
+    "id": "u_083",
+    "role": "ML-инженер (Recsys)",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "collaborative filtering",
+      "online learning",
+      "A/B testing"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "A/B testing",
+      "Industrial ML"
+    ],
+    "background": "Работает в VK на рекомендательных системах для социальной сети. Имеет опыт с факторизационными машинами и deep learning-подходами. Активно проводит A/B-тесты и анализирует метрики engagement. Интересуется online learning и real-time adaptation рекомендаций."
+  },
+  {
+    "id": "u_084",
+    "role": "Аспирант (ML research)",
+    "experience": "postgrad",
+    "company_size": "university",
+    "interests": [
+      "LLM fine-tuning",
+      "parameter-efficient methods",
+      "theoretical foundations"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Generative AI",
+      "NLP"
+    ],
+    "background": "Аспирант ИТМО, исследует методы efficient fine-tuning для больших языковых моделей. Публикуется в топ-конференциях (NeurIPS, ICML). Специализируется на LoRA, prefix-tuning и других parameter-efficient techniques. Использует JAX и PyTorch."
+  },
+  {
+    "id": "u_085",
+    "role": "Data Scientist (Fintech)",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "fraud detection",
+      "time series forecasting",
+      "interpretability"
+    ],
+    "preferred_topics": [
+      "Fintech",
+      "Time Series",
+      "Industrial ML"
+    ],
+    "background": "Работает в финтех-стартапе на детектировании мошенничества и прогнозировании временных рядов. Использует gradient boosting (XGBoost, LightGBM) и RNN для анализа последовательностей платежей. Критически относится к интерпретируемости моделей в regulated-индустрии."
+  },
+  {
+    "id": "u_086",
+    "role": "MLOps инженер",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "model deployment",
+      "monitoring",
+      "infrastructure"
+    ],
+    "preferred_topics": [
+      "MLOps",
+      "Industrial ML"
+    ],
+    "background": "Обслуживает ML-инфраструктуру в крупной e-commerce компании (X5 Retail). Занимается containerization, orchestration, версионированием моделей и мониторингом метрик в production. Опыт с Kubernetes, Docker, DVC, MLflow. Решает задачи масштабирования и reliability."
+  },
+  {
+    "id": "u_087",
+    "role": "LLM-инженер (agent systems)",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "LLM-агенты",
+      "tool use",
+      "reasoning"
+    ],
+    "preferred_topics": [
+      "Autonomous agents",
+      "LLM",
+      "NLP"
+    ],
+    "background": "Разрабатывает autonomous agents на базе LLM в Tinkoff для автоматизации бизнес-процессов. Опыт с LangChain, ReAct и custom agent frameworks. Фокусируется на надежности агентов, обработке ошибок и интеграции с внешними системами. Экспериментирует с multi-agent orchestration."
+  },
+  {
+    "id": "u_088",
+    "role": "EdTech ML-специалист",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "personalization",
+      "knowledge graphs",
+      "learning analytics"
+    ],
+    "preferred_topics": [
+      "EdTech",
+      "Recsys",
+      "NLP"
+    ],
+    "background": "Строит рекомендательные системы для EdTech-платформы. Разрабатывает персонализированные траектории обучения на основе знаний студентов. Использует graph neural networks и collaborative filtering. Интересуется применением LLM для генерации адаптивного контента."
+  },
+  {
+    "id": "u_089",
+    "role": "Senior Data Scientist",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "causal inference",
+      "experimental design",
+      "statistical rigor"
+    ],
+    "preferred_topics": [
+      "A/B testing",
+      "Industrial ML",
+      "Fintech"
+    ],
+    "background": "Работает в крупном ритейле на задачах экспериментального дизайна и causal inference. Имеет PhD в статистике. Проектирует и анализирует A/B-тесты, применяет методы причинного вывода. Наставляет junior-специалистов и развивает культуру экспериментирования в компании."
+  },
+  {
+    "id": "u_090",
+    "role": "Computer Vision researcher",
+    "experience": "postgrad",
+    "company_size": "research-lab",
+    "interests": [
+      "3D reconstruction",
+      "multimodal learning",
+      "self-supervised learning"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "Multimodal",
+      "Generative AI"
+    ],
+    "background": "Аспирант лаборатории компьютерного зрения ИТМО. Исследует методы self-supervised learning для 3D-задач. Публикует работы о multimodal representation learning. Использует PyTorch и работает с трансформер-архитектурами для vision-задач."
+  },
+  {
+    "id": "u_091",
+    "role": "AI Product Manager",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "product-market fit",
+      "user research",
+      "ML roadmap"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents",
+      "EdTech"
+    ],
+    "background": "Управляет AI-продуктом в крупной IT-компании. Координирует работу ML-инженеров, data scientists и product-дизайнеров. Фокусируется на выявлении real user needs и метриках успеха. Интересуется трендами в LLM-приложениях и их коммерциализацией."
+  },
+  {
+    "id": "u_092",
+    "role": "Generative AI инженер",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "diffusion models",
+      "image generation",
+      "fine-tuning"
+    ],
+    "preferred_topics": [
+      "Generative AI",
+      "Computer Vision",
+      "Industrial ML"
+    ],
+    "background": "Разрабатывает приложения на базе diffusion-моделей для контент-генерации. Работает с Stable Diffusion, ControlNet. Оптимизирует модели для faster inference. Экспериментирует с fine-tuning для specific domains и LoRA-адаптацией."
+  },
+  {
+    "id": "u_093",
+    "role": "Reinforcement Learning инженер",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": [
+      "policy optimization",
+      "simulation",
+      "real-world RL"
+    ],
+    "preferred_topics": [
+      "RL",
+      "Autonomous agents",
+      "Industrial ML"
+    ],
+    "background": "Работает в стартапе, разрабатывающем RL-решения для robotics. Использует PPO, SAC и другие policy gradient-методы. Имеет опыт с симуляциями (MuJoCo, Gazebo). Интересуется применением RL в реальных системах и sim-to-real transfer."
+  },
+  {
+    "id": "u_094",
+    "role": "Time Series ML инженер",
+    "experience": "junior",
+    "company_size": "large",
+    "interests": [
+      "forecasting",
+      "anomaly detection",
+      "LSTM/Transformer"
+    ],
+    "preferred_topics": [
+      "Time Series",
+      "Industrial ML",
+      "Fintech"
+    ],
+    "background": "Начинающий ML-инженер в компании с фокусом на energy/utilities. Разрабатывает модели для прогнозирования нагрузки и детектирования аномалий. Использует TensorFlow и PyTorch. Изучает Transformer-архитектуры для временных рядов и экспериментирует с ensemble-методами."
+  },
+  {
+    "id": "u_095",
+    "role": "NLP консультант",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "domain adaptation",
+      "low-resource NLP",
+      "linguistic analysis"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "Industrial ML"
+    ],
+    "background": "Консультирует компании по внедрению NLP-решений. Специализируется на адаптации моделей для конкретных доменов и языков. Имеет опыт в обработке русского языка и других non-English задач. Часто работает с small datasets и low-resource scenarios."
+  },
+  {
+    "id": "u_096",
+    "role": "Multimodal ML researcher",
+    "experience": "postgrad",
+    "company_size": "university",
+    "interests": [
+      "vision-language models",
+      "cross-modal retrieval",
+      "foundation models"
+    ],
+    "preferred_topics": [
+      "Multimodal",
+      "LLM",
+      "Computer Vision"
+    ],
+    "background": "Аспирант, исследующий vision-language модели и их приложения. Работает с CLIP, BLIP и другими архитектурами. Публикуется в топ-конференциях. Интересуется alignment между модальностями и zero-shot generalization."
+  },
+  {
+    "id": "u_097",
+    "role": "Recsys Tимлид",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "system design",
+      "team leadership",
+      "business impact"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "A/B testing",
+      "Industrial ML"
+    ],
+    "background": "Возглавляет команду ML-инженеров на рекомендательных системах в крупной компании. Ответственен за архитектуру, scalability и business metrics. Опыт в управлении крупными проектами, mentoring и стратегическом планировании. Фокусируется на долгосрочной ценности."
+  },
+  {
+    "id": "u_098",
+    "role": "LLM fine-tuning специалист",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "instruction tuning",
+      "RLHF",
+      "model alignment"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Generative AI",
+      "NLP"
+    ],
+    "background": "Специализируется на fine-tuning и адаптации LLM под конкретные задачи. Имеет опыт с RLHF, DPO и другими методами alignment. Работает с открытыми моделями (Llama, Mistral). Оптимизирует процесс обучения для снижения costs."
+  },
+  {
+    "id": "u_099",
+    "role": "Industrial ML инженер",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "model governance",
+      "compliance",
+      "production stability"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps",
+      "A/B testing"
+    ],
+    "background": "Разрабатывает ML-решения для regulated-индустрии с высокими требованиями к надежности. Фокусируется на reproducibility, auditability и compliance. Имеет опыт с model governance, versioning и risk management. Работает в тесной координации с business и compliance-командами."
+  },
+  {
+    "id": "u_100",
+    "role": "Junior Data Scientist",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": [
+      "classical ML",
+      "feature engineering",
+      "data analysis"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "Recsys",
+      "A/B testing"
+    ],
+    "background": "Недавний выпускник магистратуры ИТМО, работает в ML-стартапе. Фокусируется на exploratory data analysis, feature engineering и классических ML-алгоритмов. Использует scikit-learn, pandas и SQL. Активно учится у более опытных коллег и готовится к более сложным задачам."
+  }
+]

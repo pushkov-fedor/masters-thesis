@@ -1,18 +1,20 @@
-"""Стадия 3: обучение параметрической модели выбора f(persona_emb, talk_emb) -> preference.
+"""Стадия 3: обучение модели интереса f(persona_emb, talk_emb) -> preference.
 
-Признаки: persona_emb (384) ⊕ talk_emb (384) ⊕ cosine + |diff|. Итого 769 dim.
-Цель: preference ∈ [0, 1] из preferences_matrix.json (12000 пар, gpt-4o-mini ground truth).
-Модель: sklearn HistGradientBoostingRegressor (без libomp, нативно).
+По умолчанию обучает Mobius-модель из preferences_matrix.json. Через CLI
+параметризован для Demo Day и других конференций.
 
-Сохраняем:
-- data/models/preference_model.pkl — обученная модель
-- results/preference_model_metrics.json — Spearman ρ, Pearson r, MSE на val
-- results/preference_calibration.png — scatter prediction vs target на val
+Группировка train/val/test по persona_id (group split) — никакого leakage.
+
+Сохраняет:
+- data/models/<model_out>.pkl — обученная модель
+- results/preference_model_metrics_<conference>.json — метрики
 """
 from __future__ import annotations
 
+import argparse
 import json
 import pickle
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -21,16 +23,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from scipy.stats import pearsonr, spearmanr
 from sklearn.ensemble import HistGradientBoostingRegressor
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import GroupShuffleSplit, train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 ROOT = Path(__file__).resolve().parents[1]
-PREF_PATH = ROOT / "data" / "preferences_matrix.json"
-PERSONAS_NPZ = ROOT / "data" / "personas" / "personas_embeddings.npz"
-TALKS_NPZ = ROOT / "data" / "conferences" / "mobius_2025_autumn_embeddings.npz"
-MODEL_OUT = ROOT / "data" / "models" / "preference_model.pkl"
-METRICS_OUT = ROOT / "results" / "preference_model_metrics.json"
-PLOT_OUT = ROOT / "results" / "plots" / "20_preference_calibration.png"
 
 
 def build_features(persona_emb, talk_emb):
@@ -46,19 +42,40 @@ def build_features(persona_emb, talk_emb):
 
 
 def main():
-    with open(PREF_PATH, encoding="utf-8") as f:
-        prefs = json.load(f)
-    print(f"Loaded {len(prefs)} preference pairs")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--prefs", default="preferences_matrix",
+                    help="имя файла в data/ без .json (preferences_matrix или preferences_matrix_demoday)")
+    ap.add_argument("--personas-npz", default="personas",
+                    help="имя файла в data/personas/ без _embeddings.npz")
+    ap.add_argument("--talks-conference", default="mobius_2025_autumn",
+                    help="имя конференции для talks_embeddings.npz")
+    ap.add_argument("--out", default="preference_model",
+                    help="имя выходной модели в data/models/ без .pkl")
+    args = ap.parse_args()
 
-    p_npz = np.load(PERSONAS_NPZ, allow_pickle=False)
-    t_npz = np.load(TALKS_NPZ, allow_pickle=False)
+    pref_path = ROOT / "data" / f"{args.prefs}.json"
+    personas_npz = ROOT / "data" / "personas" / f"{args.personas_npz}_embeddings.npz"
+    talks_npz = ROOT / "data" / "conferences" / f"{args.talks_conference}_embeddings.npz"
+    model_out = ROOT / "data" / "models" / f"{args.out}.pkl"
+    metrics_out = ROOT / "results" / f"preference_model_metrics_{args.out}.json"
+    plot_out = ROOT / "results" / "plots" / f"20_preference_calibration_{args.out}.png"
+
+    with open(pref_path, encoding="utf-8") as f:
+        prefs = json.load(f)
+    print(f"Loaded {len(prefs)} preference pairs from {pref_path}")
+    print(f"Personas: {personas_npz}")
+    print(f"Talks: {talks_npz}")
+    print(f"Output: {model_out}")
+
+    p_npz = np.load(personas_npz, allow_pickle=False)
+    t_npz = np.load(talks_npz, allow_pickle=False)
     p_emb = {pid: p_npz["embeddings"][i] for i, pid in enumerate(p_npz["ids"])}
     t_emb = {tid: t_npz["embeddings"][i] for i, tid in enumerate(t_npz["ids"])}
 
     X = []
     y = []
     cosines = []
-    keys = []
+    persona_ids = []
     for r in prefs:
         pid, tid = r["persona_id"], r["talk_id"]
         if pid not in p_emb or tid not in t_emb:
@@ -66,20 +83,40 @@ def main():
         X.append(build_features(p_emb[pid], t_emb[tid]))
         y.append(r["score"])
         cosines.append(float(np.dot(p_emb[pid], t_emb[tid])))
-        keys.append((pid, tid))
+        persona_ids.append(pid)
 
     X = np.array(X, dtype=np.float32)
     y = np.array(y, dtype=np.float32)
     cosines = np.array(cosines, dtype=np.float32)
+    persona_ids = np.array(persona_ids)
     print(f"Feature matrix: {X.shape}, target: {y.shape}")
     print(f"Target stats: mean={y.mean():.3f}, std={y.std():.3f}, "
           f"min={y.min():.3f}, max={y.max():.3f}")
+    n_unique_personas = len(np.unique(persona_ids))
+    print(f"Unique personas: {n_unique_personas}")
 
-    # Разделяем по парам (8000/2000/2000 примерно)
+    # Group split по persona_id: персоны не пересекаются между train/val/test.
+    # Это устраняет leakage — модель тестируется на не виденных персонах,
+    # а не на новых парах виденных персон с другими докладами.
     indices = np.arange(len(X))
-    train_idx, test_idx = train_test_split(indices, test_size=0.2, random_state=42)
-    train_idx, val_idx = train_test_split(train_idx, test_size=0.125, random_state=42)
-    print(f"Splits: train={len(train_idx)}, val={len(val_idx)}, test={len(test_idx)}")
+    gss_test = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
+    train_full_idx, test_idx = next(gss_test.split(indices, groups=persona_ids))
+    gss_val = GroupShuffleSplit(n_splits=1, test_size=0.125, random_state=42)
+    train_idx, val_idx = next(gss_val.split(
+        indices[train_full_idx], groups=persona_ids[train_full_idx]
+    ))
+    train_idx = train_full_idx[train_idx]
+    val_idx = train_full_idx[val_idx]
+    print(f"Group splits (by persona_id): train={len(train_idx)} ({len(np.unique(persona_ids[train_idx]))} personas), "
+          f"val={len(val_idx)} ({len(np.unique(persona_ids[val_idx]))} personas), "
+          f"test={len(test_idx)} ({len(np.unique(persona_ids[test_idx]))} personas)")
+    # Sanity check: пересечений быть не должно
+    train_set = set(persona_ids[train_idx])
+    val_set = set(persona_ids[val_idx])
+    test_set = set(persona_ids[test_idx])
+    assert not (train_set & test_set), "leak: train ∩ test"
+    assert not (train_set & val_set), "leak: train ∩ val"
+    assert not (val_set & test_set), "leak: val ∩ test"
 
     print("\nTraining HistGradientBoostingRegressor...")
     model = HistGradientBoostingRegressor(
@@ -130,13 +167,14 @@ def main():
         print(f"          MSE={mse:.4f}, MAE={mae:.4f}")
         print(f"  Baseline cosine — Pearson r={baseline_pearson:.4f}, Spearman ρ={baseline_spearman:.4f}")
 
-    METRICS_OUT.write_text(json.dumps(metrics, ensure_ascii=False, indent=2))
-    print(f"\nWROTE: {METRICS_OUT}")
+    metrics_out.parent.mkdir(parents=True, exist_ok=True)
+    metrics_out.write_text(json.dumps(metrics, ensure_ascii=False, indent=2))
+    print(f"\nWROTE: {metrics_out}")
 
-    MODEL_OUT.parent.mkdir(parents=True, exist_ok=True)
-    with open(MODEL_OUT, "wb") as f:
+    model_out.parent.mkdir(parents=True, exist_ok=True)
+    with open(model_out, "wb") as f:
         pickle.dump(model, f)
-    print(f"WROTE: {MODEL_OUT} ({MODEL_OUT.stat().st_size // 1024}KB)")
+    print(f"WROTE: {model_out} ({model_out.stat().st_size // 1024}KB)")
 
     # Plot calibration
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
@@ -159,9 +197,10 @@ def main():
     ax.grid(alpha=0.3)
 
     fig.tight_layout()
-    fig.savefig(PLOT_OUT, dpi=150)
+    plot_out.parent.mkdir(parents=True, exist_ok=True)
+    fig.savefig(plot_out, dpi=150)
     plt.close(fig)
-    print(f"WROTE: {PLOT_OUT}")
+    print(f"WROTE: {plot_out}")
 
 
 if __name__ == "__main__":

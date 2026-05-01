@@ -34,7 +34,7 @@ def overflow_rate(conf: Conference, result: SimResult, choice_only: bool = False
             continue
         halls_in_slot = {conf.talks[tid].hall for tid in slot.talk_ids}
         for hid in halls_in_slot:
-            cap = conf.halls[hid].capacity
+            cap = conf.capacity_at(slot.id, hid)
             occ = result.hall_load_per_slot.get(slot.id, {}).get(hid, 0)
             total += 1
             if occ > cap:
@@ -57,7 +57,7 @@ def hall_utilization_variance(conf: Conference, result: SimResult) -> float:
             continue
         loads = []
         for hid in halls_in_slot:
-            cap = conf.halls[hid].capacity
+            cap = conf.capacity_at(slot.id, hid)
             occ = result.hall_load_per_slot.get(slot.id, {}).get(hid, 0)
             loads.append(occ / max(1.0, cap))
         variances.append(float(np.var(loads)))
@@ -103,15 +103,23 @@ def hall_load_gini(conf: Conference, result: SimResult) -> float:
 
 
 def mean_hall_overload_excess(conf: Conference, result: SimResult) -> float:
-    """Среднее по слотам максимальное превышение вместимости (occupied-capacity)/capacity, ≥0."""
+    """Среднее по слотам максимальное превышение вместимости (occupied-capacity)/capacity, ≥0.
+
+    Слоты с одним залом исключаются: в них у политики нет выбора, переполнение
+    определяется отношением численности аудитории к вместимости основного зала
+    и одинаково для всех политик. Такая фильтрация согласована с overflow_rate
+    (choice_only=True) и hall_utilization_variance.
+    """
     excesses = []
     for slot in conf.slots:
         if not slot.talk_ids:
             continue
         halls_in_slot = {conf.talks[tid].hall for tid in slot.talk_ids}
+        if len(halls_in_slot) < 2:
+            continue
         max_excess = 0.0
         for hid in halls_in_slot:
-            cap = conf.halls[hid].capacity
+            cap = conf.capacity_at(slot.id, hid)
             occ = result.hall_load_per_slot.get(slot.id, {}).get(hid, 0)
             if occ > cap:
                 max_excess = max(max_excess, (occ - cap) / max(1.0, cap))

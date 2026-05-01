@@ -6,10 +6,12 @@ MMR(j | S) = β · rel(p_i, j) - (1-β) · max_{l ∈ S} cos(e_j, e_l)
 """
 from __future__ import annotations
 
+from .base import BasePolicy
+
 import numpy as np
 
 
-class MMRPolicy:
+class MMRPolicy(BasePolicy):
     name = "MMR"
 
     def __init__(self, beta: float = 0.7):

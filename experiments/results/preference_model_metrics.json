@@ -1,29 +1,29 @@
 {
   "train": {
     "n": 8399,
-    "pearson_r": 0.9444083742966243,
-    "spearman_r": 0.8108781227358293,
-    "mse": 0.00763356233486471,
-    "mae": 0.05832277629970293,
-    "baseline_cosine_pearson": 0.3182637095451355,
-    "baseline_cosine_spearman": 0.28313561085340644
+    "pearson_r": 0.9469036388734802,
+    "spearman_r": 0.8115772598738542,
+    "mse": 0.00739355529488753,
+    "mae": 0.057701398276640066,
+    "baseline_cosine_pearson": 0.20818069577217102,
+    "baseline_cosine_spearman": 0.20373225730930367
   },
   "val": {
     "n": 1200,
-    "pearson_r": 0.7893437103231626,
-    "spearman_r": 0.7355835480160441,
-    "mse": 0.023394342269706454,
-    "mae": 0.10726501450644302,
-    "baseline_cosine_pearson": 0.316010057926178,
-    "baseline_cosine_spearman": 0.30040170980771325
+    "pearson_r": 0.7215406849117904,
+    "spearman_r": 0.6784885006925134,
+    "mse": 0.031395477347739904,
+    "mae": 0.125667686264244,
+    "baseline_cosine_pearson": 0.12966905534267426,
+    "baseline_cosine_spearman": 0.12500033712448472
   },
   "test": {
     "n": 2400,
-    "pearson_r": 0.7931776785249705,
-    "spearman_r": 0.7293421405255082,
-    "mse": 0.022703245809206903,
-    "mae": 0.10505362735312417,
-    "baseline_cosine_pearson": 0.35959964990615845,
-    "baseline_cosine_spearman": 0.31964019229309276
+    "pearson_r": 0.7336141130683134,
+    "spearman_r": 0.6936484721810696,
+    "mse": 0.02809935240715704,
+    "mae": 0.11994889219860719,
+    "baseline_cosine_pearson": 0.19886109232902527,
+    "baseline_cosine_spearman": 0.19977891408835413
   }
 }

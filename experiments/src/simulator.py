@@ -11,10 +11,11 @@
 """
 from __future__ import annotations
 
+import asyncio
 import json
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Callable, Dict, List, Optional, Sequence
+from typing import Awaitable, Callable, Dict, List, Optional, Sequence
 
 import numpy as np
 
@@ -42,6 +43,7 @@ class Slot:
     id: str
     datetime: str
     talk_ids: List[str]
+    hall_capacities: Optional[Dict[int, int]] = None  # per-slot override; None → fallback на Hall.capacity
 
 
 @dataclass
@@ -50,6 +52,21 @@ class Conference:
     talks: Dict[str, Talk]
     halls: Dict[int, Hall]
     slots: List[Slot]  # упорядоченный список
+
+    def __post_init__(self):
+        self._slot_by_id = {s.id: s for s in self.slots}
+
+    def capacity_at(self, slot_id: str, hall_id: int) -> int:
+        """Вместимость зала в конкретном слоте.
+
+        Если у слота задано переопределение `hall_capacities` (контролируемая
+        постановка эксперимента, см. Demo Day), используется оно; иначе —
+        глобальная вместимость Hall.capacity (Mobius, ITC, Meetup).
+        """
+        s = self._slot_by_id.get(slot_id)
+        if s is not None and s.hall_capacities and hall_id in s.hall_capacities:
+            return int(s.hall_capacities[hall_id])
+        return int(self.halls[hall_id].capacity)
 
     @classmethod
     def load(cls, prog_path, emb_path, fame_path=None) -> "Conference":
@@ -96,7 +113,15 @@ class Conference:
             slot_index.setdefault(t.slot_id, []).append(tid)
 
         slots = [
-            Slot(id=s["id"], datetime=s["datetime"], talk_ids=slot_index.get(s["id"], []))
+            Slot(
+                id=s["id"],
+                datetime=s["datetime"],
+                talk_ids=slot_index.get(s["id"], []),
+                hall_capacities=(
+                    {int(k): int(v) for k, v in s["hall_capacities"].items()}
+                    if s.get("hall_capacities") else None
+                ),
+            )
             for s in prog["slots"]
         ]
 
@@ -252,180 +277,219 @@ def utilization(occupied: int, capacity: int) -> float:
 def simulate(
     conf: Conference,
     users: Sequence[UserProfile],
-    policy: Callable,  # signature: (user, slot, conf, state) -> List[talk_id] (length K)
+    policy,
     cfg: SimConfig,
-    relevance_fn: Optional[Callable] = None,  # (user_emb, talk_emb) -> float
+    relevance_fn: Optional[Callable] = None,
 ) -> SimResult:
-    """Прогоняет одну симуляцию по конференции для всех пользователей.
+    """Sync-обёртка над `simulate_async` для совместимости с прежним кодом.
 
-    state передаётся в политику между вызовами как dict с ключами:
-      - hall_load: dict[(slot_id, hall_id) -> int] (пользователи уже вошедшие)
-      - slot_id: текущий слот
-
-    relevance_fn — функция вычисления релевантности; по умолчанию cosine.
-    Может быть LearnedPreferenceFn или другая совместимая по интерфейсу.
+    Использует `asyncio.run` — нельзя вызывать из уже активного event loop
+    (из юпитера, например). В таком случае использовать `simulate_async` напрямую.
     """
-    if relevance_fn is None:
-        relevance_fn = cosine_relevance
-    rng = np.random.default_rng(cfg.seed)
-    # рандомизированный порядок пользователей чтобы порядок прихода не влиял систематически
-    user_order = list(users)
-    rng.shuffle(user_order)
+    return asyncio.run(simulate_async(conf, users, policy, cfg, relevance_fn))
 
-    # Initialize hall load per slot
-    hall_load: Dict[tuple, int] = {}
-    for s in conf.slots:
-        for h in conf.halls.values():
-            hall_load[(s.id, h.id)] = 0
 
-    result = SimResult()
+async def _process_one_slot(
+    conf: Conference,
+    slot: Slot,
+    slot_idx: int,
+    user_order: List[UserProfile],
+    policy,
+    cfg: SimConfig,
+    relevance_fn: Callable,
+    parallel_safe: bool,
+):
+    """Обрабатывает один слот: пользователи внутри строго последовательно.
 
-    for slot in conf.slots:
-        if not slot.talk_ids:
+    Возвращает (slot_id, steps_list, local_load_dict).
+
+    parallel_safe=True (несколько слотов параллельно) → отключается update_history,
+    т.к. история политики при параллельных слотах перепутается.
+    """
+    slot_rng = np.random.default_rng(cfg.seed * 1_000_003 + slot_idx)
+    local_load: Dict[int, int] = {h.id: 0 for h in conf.halls.values()}
+    slot_steps: List[StepRecord] = []
+
+    if not slot.talk_ids:
+        return slot.id, slot_steps, local_load
+
+    n_cands = len(slot.talk_ids)
+    effective_K = max(1, min(cfg.K, n_cands - 1)) if n_cands >= 2 else 1
+
+    for user in user_order:
+        state = {
+            "hall_load": {(slot.id, hid): occ for hid, occ in local_load.items()},
+            "slot_id": slot.id,
+            "K": effective_K,
+            "relevance_fn": relevance_fn,
+        }
+        recs = await policy.acall(user=user, slot=slot, conf=conf, state=state)
+        recs = [r for r in recs if r in slot.talk_ids][:effective_K]
+        if not recs:
+            slot_steps.append(StepRecord(
+                slot_id=slot.id, user_id=user.id, recommended=[],
+                chosen=None, chosen_relevance=0.0, chosen_hall_load_before=0.0,
+            ))
             continue
-        candidates = [conf.talks[tid] for tid in slot.talk_ids]
-        if not candidates:
-            continue
 
-        # K как параметр среды: K_t = min(K_max, |J_t| - 1) при |J_t| >= 2,
-        # иначе K_t = 1. Это гарантирует, что выдача политики всегда отсекает
-        # хотя бы один кандидат, иначе compliance-механизм вырождается.
-        n_cands = len(slot.talk_ids)
-        effective_K = max(1, min(cfg.K, n_cands - 1)) if n_cands >= 2 else 1
-
-        for user in user_order:
-            state = {
-                "hall_load": dict(hall_load),
-                "slot_id": slot.id,
-                "K": effective_K,
-                "relevance_fn": relevance_fn,
-            }
-            recs = policy(user=user, slot=slot, conf=conf, state=state)
-            # ограничить K и валидность
-            recs = [r for r in recs if r in slot.talk_ids][: effective_K]
-            if not recs:
-                # пустая выдача → отказ
-                result.steps.append(StepRecord(
-                    slot_id=slot.id, user_id=user.id, recommended=[],
-                    chosen=None, chosen_relevance=0.0, chosen_hall_load_before=0.0,
-                ))
-                continue
-
-            # Compliance:
-            # — calibrated mode (use_calibrated_compliance=True): сэмплируем тип
-            #   поведения из распределения {compliant, star-chaser, curious} с
-            #   долями α_*, откалиброванными на реальных Meetup RSVPs.
-            # — legacy mode: бинарный switch по user_compliance ∈ [0, 1].
-            consider_ids = recs
-            forced_choice_id: Optional[str] = None
-            if cfg.use_calibrated_compliance:
-                roll = rng.random()
-                if roll < cfg.alpha_compliant:
-                    # compliant: идёт по top-K (consider_ids = recs, как было)
-                    consider_ids = recs
-                elif roll < cfg.alpha_compliant + cfg.alpha_starchaser:
-                    # star-chaser: argmax по fame в слоте, игнорируя выдачу.
-                    # Если все fame=0, fallback к argmax по релевантности
-                    # (тогда поведение совпадает с compliant в смысле выбора).
-                    fame_scores = [(tid, conf.talks[tid].fame) for tid in slot.talk_ids]
-                    max_fame = max(s for _, s in fame_scores)
-                    if max_fame > 0:
-                        forced_choice_id = max(fame_scores, key=lambda x: x[1])[0]
-                    else:
-                        # без информации о fame — пользуем argmax cosine как fallback
-                        forced_choice_id = max(
-                            slot.talk_ids,
-                            key=lambda tid: relevance_fn(user.embedding,
-                                                        conf.talks[tid].embedding),
-                        )
+        consider_ids = recs
+        forced_choice_id: Optional[str] = None
+        if cfg.use_calibrated_compliance:
+            roll = slot_rng.random()
+            if roll < cfg.alpha_compliant:
+                consider_ids = recs
+            elif roll < cfg.alpha_compliant + cfg.alpha_starchaser:
+                fame_scores = [(tid, conf.talks[tid].fame) for tid in slot.talk_ids]
+                max_fame = max(s for _, s in fame_scores)
+                if max_fame > 0:
+                    forced_choice_id = max(fame_scores, key=lambda x: x[1])[0]
                 else:
-                    # curious: softmax по effective_utility (cosine + fame)
-                    # по ВСЕМ кандидатам слота, игнорируя политику.
-                    consider_ids = list(slot.talk_ids)
+                    forced_choice_id = max(
+                        slot.talk_ids,
+                        key=lambda tid: relevance_fn(user.embedding,
+                                                    conf.talks[tid].embedding),
+                    )
             else:
-                ignore_recommendation = (cfg.user_compliance < 1.0
-                                         and rng.random() > cfg.user_compliance)
-                consider_ids = list(slot.talk_ids) if ignore_recommendation else recs
+                consider_ids = list(slot.talk_ids)
+        else:
+            ignore_recommendation = (cfg.user_compliance < 1.0
+                                     and slot_rng.random() > cfg.user_compliance)
+            consider_ids = list(slot.talk_ids) if ignore_recommendation else recs
 
-            # Star-chaser short-circuit: уходит на forced_choice_id без softmax,
-            # тем самым реалистично моделируя «звезда переполняет зал».
-            if forced_choice_id is not None:
-                chosen_id = forced_choice_id
-                chosen_talk = conf.talks[chosen_id]
-                chosen_hall = conf.halls[chosen_talk.hall]
-                load_before = utilization(hall_load[(slot.id, chosen_hall.id)],
-                                          chosen_hall.capacity)
-                hall_load[(slot.id, chosen_hall.id)] += 1
-                chosen_rel_for_record = relevance_fn(user.embedding, chosen_talk.embedding)
-                if hasattr(policy, "update_history"):
-                    policy.update_history(user.id, chosen_id)
-                result.steps.append(StepRecord(
-                    slot_id=slot.id, user_id=user.id, recommended=recs,
-                    chosen=chosen_id,
-                    chosen_relevance=chosen_rel_for_record,
-                    chosen_hall_load_before=load_before,
-                ))
-                continue
-
-            # формируем utility-вектор для softmax-выбора
-            utils = []
-            for tid in consider_ids:
-                t = conf.talks[tid]
-                rel = relevance_fn(user.embedding, t.embedding)
-                hall = conf.halls[t.hall]
-                load_frac = utilization(hall_load[(slot.id, hall.id)], hall.capacity)
-                # Effective attractiveness = (1-w_fame)*relevance + w_fame*fame
-                # Это создаёт star-speaker effect: даже не-релевантные звёздные доклады тянут пользователя.
-                effective_rel = (1 - cfg.w_fame) * rel + cfg.w_fame * t.fame
-                # Пользователь видит штраф за переполненный зал (косвенный сигнал)
-                u = effective_rel - cfg.lambda_overflow * max(0.0, load_frac - 0.85)
-                utils.append(u)
-            utils = np.array(utils, dtype=np.float64)
-            # Используем consider_ids вместо recs дальше
-            recs = consider_ids
-
-            # выбор: softmax + альтернатива "отказ" с полезностью log(p_skip / (1-p_skip)) * tau
-            # Используем явное скалирование
-            # P(j) ∝ exp(u_j / tau); P(skip) — отдельная альтернатива с фиксированной базовой вероятностью
-            scaled = utils / max(cfg.tau, 1e-6)
-            scaled = scaled - scaled.max()  # стабильность
-            exps = np.exp(scaled)
-            sum_exp = exps.sum()
-            # отдельная вероятность отказа: p_skip_base + поправка от среднего штрафа
-            p_skip = cfg.p_skip_base
-            # нормализуем: рекомендации делят (1 - p_skip) пропорционально exps
-            probs_recs = (1.0 - p_skip) * (exps / sum_exp)
-            probs = np.concatenate([probs_recs, [p_skip]])
-            probs = probs / probs.sum()
-
-            choice_idx = rng.choice(len(probs), p=probs)
-            if choice_idx == len(probs) - 1:
-                # отказ
-                result.steps.append(StepRecord(
-                    slot_id=slot.id, user_id=user.id, recommended=recs,
-                    chosen=None, chosen_relevance=0.0, chosen_hall_load_before=0.0,
-                ))
-                continue
-
-            chosen_id = recs[choice_idx]
+        if forced_choice_id is not None:
+            chosen_id = forced_choice_id
             chosen_talk = conf.talks[chosen_id]
             chosen_hall = conf.halls[chosen_talk.hall]
-            load_before = utilization(hall_load[(slot.id, chosen_hall.id)], chosen_hall.capacity)
-            hall_load[(slot.id, chosen_hall.id)] += 1
+            load_before = utilization(local_load[chosen_hall.id],
+                                      conf.capacity_at(slot.id, chosen_hall.id))
+            local_load[chosen_hall.id] += 1
             chosen_rel_for_record = relevance_fn(user.embedding, chosen_talk.embedding)
-            # Если у политики есть update_history (Sequential) — записываем фактический выбор
-            if hasattr(policy, "update_history"):
+            if not parallel_safe and hasattr(policy, "update_history"):
                 policy.update_history(user.id, chosen_id)
-            result.steps.append(StepRecord(
+            slot_steps.append(StepRecord(
                 slot_id=slot.id, user_id=user.id, recommended=recs,
                 chosen=chosen_id,
                 chosen_relevance=chosen_rel_for_record,
                 chosen_hall_load_before=load_before,
             ))
+            continue
 
-    # упаковка hall_load_per_slot
-    per_slot: Dict[str, Dict[int, int]] = {}
-    for (sid, hid), n in hall_load.items():
-        per_slot.setdefault(sid, {})[hid] = n
-    result.hall_load_per_slot = per_slot
+        utils = []
+        for tid in consider_ids:
+            t = conf.talks[tid]
+            rel = relevance_fn(user.embedding, t.embedding)
+            hall = conf.halls[t.hall]
+            load_frac = utilization(local_load[hall.id],
+                                    conf.capacity_at(slot.id, hall.id))
+            effective_rel = (1 - cfg.w_fame) * rel + cfg.w_fame * t.fame
+            u = effective_rel - cfg.lambda_overflow * max(0.0, load_frac - 0.85)
+            utils.append(u)
+        utils = np.array(utils, dtype=np.float64)
+        recs = consider_ids
+
+        scaled = utils / max(cfg.tau, 1e-6)
+        scaled = scaled - scaled.max()
+        exps = np.exp(scaled)
+        sum_exp = exps.sum()
+        p_skip = cfg.p_skip_base
+        probs_recs = (1.0 - p_skip) * (exps / sum_exp)
+        probs = np.concatenate([probs_recs, [p_skip]])
+        probs = probs / probs.sum()
+
+        choice_idx = slot_rng.choice(len(probs), p=probs)
+        if choice_idx == len(probs) - 1:
+            slot_steps.append(StepRecord(
+                slot_id=slot.id, user_id=user.id, recommended=recs,
+                chosen=None, chosen_relevance=0.0, chosen_hall_load_before=0.0,
+            ))
+            continue
+
+        chosen_id = recs[choice_idx]
+        chosen_talk = conf.talks[chosen_id]
+        chosen_hall = conf.halls[chosen_talk.hall]
+        load_before = utilization(local_load[chosen_hall.id],
+                                  conf.capacity_at(slot.id, chosen_hall.id))
+        local_load[chosen_hall.id] += 1
+        chosen_rel_for_record = relevance_fn(user.embedding, chosen_talk.embedding)
+        if not parallel_safe and hasattr(policy, "update_history"):
+            policy.update_history(user.id, chosen_id)
+        slot_steps.append(StepRecord(
+            slot_id=slot.id, user_id=user.id, recommended=recs,
+            chosen=chosen_id,
+            chosen_relevance=chosen_rel_for_record,
+            chosen_hall_load_before=load_before,
+        ))
+
+    return slot.id, slot_steps, local_load
+
+
+async def simulate_async(
+    conf: Conference,
+    users: Sequence[UserProfile],
+    policy,
+    cfg: SimConfig,
+    relevance_fn: Optional[Callable] = None,
+    slot_concurrency: int = 1,
+) -> SimResult:
+    """Единый async-симулятор.
+
+    slot_concurrency:
+      = 1 — слоты обрабатываются последовательно (поведение совпадает с прежней
+            sync-версией). Поддерживает update_history (Sequential).
+      > 1 — слоты обрабатываются параллельно с семафором (полезно для LLM-политик
+            с сетевой латентностью). Внутри слота пользователи остаются
+            последовательными → state-awareness сохранена. update_history НЕ
+            вызывается, чтобы история не перепутывалась между параллельными слотами.
+
+    Любая политика, наследующая `BasePolicy`, работает через свой `acall`. Для
+    локальных политик `acall` тривиально оборачивает `__call__`.
+    """
+    if relevance_fn is None:
+        relevance_fn = cosine_relevance
+
+    rng_global = np.random.default_rng(cfg.seed)
+    user_order = list(users)
+    rng_global.shuffle(user_order)
+
+    parallel_safe = slot_concurrency > 1
+    if slot_concurrency <= 1:
+        # Последовательная обработка слотов — детерминистично, поддерживает update_history.
+        per_slot_results = []
+        for i, slot in enumerate(conf.slots):
+            res = await _process_one_slot(
+                conf, slot, i, user_order, policy, cfg, relevance_fn,
+                parallel_safe=False,
+            )
+            per_slot_results.append(res)
+    else:
+        sem = asyncio.Semaphore(slot_concurrency)
+
+        async def gated(slot_idx, slot):
+            async with sem:
+                return await _process_one_slot(
+                    conf, slot, slot_idx, user_order, policy, cfg, relevance_fn,
+                    parallel_safe=True,
+                )
+
+        tasks = [gated(i, slot) for i, slot in enumerate(conf.slots)]
+        per_slot_results = await asyncio.gather(*tasks)
+
+    result = SimResult()
+    for sid, steps, load in per_slot_results:
+        result.steps.extend(steps)
+        result.hall_load_per_slot[sid] = load
     return result
+
+
+# Backward-compatible alias
+async def simulate_async_slots(
+    conf: Conference,
+    users: Sequence[UserProfile],
+    policy,
+    cfg: SimConfig,
+    relevance_fn: Optional[Callable] = None,
+    concurrency: int = 10,
+) -> SimResult:
+    """Совместимостный псевдоним: вызывает `simulate_async` со slot_concurrency."""
+    return await simulate_async(conf, users, policy, cfg, relevance_fn,
+                                 slot_concurrency=concurrency)

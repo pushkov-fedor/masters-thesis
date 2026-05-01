@@ -8,10 +8,12 @@
 """
 from __future__ import annotations
 
+from .base import BasePolicy
+
 import numpy as np
 
 
-class DPPPolicy:
+class DPPPolicy(BasePolicy):
     name = "DPP"
 
     def __init__(self, alpha: float = 0.5):

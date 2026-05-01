@@ -10,10 +10,12 @@
 """
 from __future__ import annotations
 
+from .base import BasePolicy
+
 import numpy as np
 
 
-class CapacityAwareMMRPolicy:
+class CapacityAwareMMRPolicy(BasePolicy):
     name = "Capacity-aware MMR"
 
     def __init__(self, beta: float = 0.6, alpha: float = 0.4, hard_threshold: float = 0.95):
@@ -39,7 +41,7 @@ class CapacityAwareMMRPolicy:
 
         load_frac = np.array([
             hall_load.get((slot.id, conf.talks[tid].hall), 0)
-            / max(1.0, conf.halls[conf.talks[tid].hall].capacity)
+            / max(1.0, conf.capacity_at(slot.id, conf.talks[tid].hall))
             for tid in cand_ids
         ])
         # жёсткий фильтр

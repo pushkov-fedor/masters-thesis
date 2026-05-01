@@ -1,10 +1,12 @@
 """Cosine policy: top-K по косинусной близости профиля и эмбеддинга доклада, без учёта вместимости."""
 from __future__ import annotations
 
+from .base import BasePolicy
+
 import numpy as np
 
 
-class CosinePolicy:
+class CosinePolicy(BasePolicy):
     name = "Cosine"
 
     def __init__(self, **_):

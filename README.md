@@ -64,26 +64,36 @@ masters-degree/
 
 ## Главные числа
 
-Актуальные на 01.05.2026 после правки $K_t = \min(K_{\max}, |J_t| - 1)$, $K_{\max} = 3$:
+Актуальные на 02.05.2026 после большого методологического рефакторинга (e5-эмбеддер, Demo Day-персоны, controlled-вместимости, group split в обучении модели интереса):
 
-- На симуляторе с 1200 участниками Mobius **Capacity-aware устраняет overflow_choice до 0,000** (vs 0,533 у Cosine); Capacity-aware MMR в 22× меньше hall_utilization_variance.
-- При высокой восприимчивости участников к подсказке (compliance = 0,9): в 59× меньше переполнений (0,009 vs 0,528).
-- Cross-domain перенос на 4 реальных датасета (Meetup RSVP, ITC-2019 ×2, ITC-2007 ×2): относительный порядок политик статистически значимо переносится по mean_overload_excess (Spearman ρ от +0,55 до +0,87 при p < 0,05 на 4 из 5 наборов); Capacity-aware MMR — лидер по hall variance на всех 5 наборах.
+- **Demo Day, N=100, calibrated compliance, learned релевантность:**
+  - Cosine: $\text{OF}_{\text{choice}} = 0,495$, utility = $0,423$ — обычная рекомендалка **хуже Random** ($\text{OF} = 0,330$) по системным метрикам в 1,5×.
+  - Capacity-aware: $\text{OF}_{\text{choice}} = 0,211$ (в 2,3× меньше Cosine), utility = $0,406$ (потеря 4% против Cosine).
+  - Capacity-aware MMR: лидер по `hall_var = 0,046` и `excess = 0,238`.
+  - PPO (переобучен под Demo Day, 7 залов, 500k шагов): между Cosine и capacity-aware.
+- **Random + capacity** (контрольная политика): даёт $\text{OF}_{\text{choice}} = 0,241$ vs $0,211$ у Capacity-aware → recsys-часть вносит 13% снижения переполнений сверх голого capacity-фильтра.
+- Cross-domain перенос на 4 реальных датасета (Meetup RSVP, ITC-2019 ×2, ITC-2007 ×2): относительный порядок политик статистически значимо переносится по mean_overload_excess (Spearman ρ от +0,55 до +0,87 при p < 0,05 на 4 из 5 наборов).
 - B1: внешняя валидация параметрической модели отклика на реальных Meetup-RSVPs — accuracy@1 = 0,778 (vs 0,437 random), Spearman ρ = +0,84 (p < 10⁻⁵⁰).
 - B5: калибровка трёхтипной модели compliance — compliant 71,7% / star-chaser 21,3% / curious 7,0%.
-- Demo Day 900 агентов: Capacity-aware лидер по OF_choice; Capacity-aware MMR лидер по mean_overload_excess (1,44× меньше Cosine) и по hall_var (на два порядка ниже).
 - Stylized facts: 2 из 3 воспроизводятся при p < 0,01 (Парето + спад посещаемости); track-affinity не воспроизводится.
-- Обученная модель оценки интереса: Pearson 0,79 на тесте против 0,36 у голого косинуса.
+- **Обученная модель интереса** (group split по persona_id, без leakage):
+  - Mobius: Pearson **0,73** на тесте против **0,20** у cosine (с e5-эмбеддингами).
+  - Demo Day: Pearson **0,60** против **0,27** у cosine; обучена на 10 000 LLM-оценённых пар.
 
-Сводный документ: `experiments/results/preliminary_findings_v7.md`.
+Сводный документ: `experiments/results/preliminary_findings_v7.md` (устаревший, требует переписи под новый пайплайн).
 
 ## Принятые методологические решения
 
-- **K — параметр среды:** $K_t = \min(K_{\max}, |J_t| - 1)$, $K_{\max} = 3$. На Mobius даёт $K_t = 2$. Все прогоны переснятые 01.05 после правки.
-- **Cross-domain валидация на 4 реальных датасетах** — Meetup RSVP, ITC-2019, ITC-2007 (вместо MovieLens, где capacity искусственный).
-- **Калиброванная модель compliance** — трёхтипная (compliant/star-chaser/curious), доли откалиброваны на реальных Meetup-RSVPs.
-- **Inter-slot chat** — прототип, не активирован в основных прогонах.
-- **PPO** — обучилась, но проиграла обеим Capacity-aware политикам. Честный научный результат, объяснён в подразделе 3.4.4 Главы 3.
+- **K — параметр среды:** $K_t = \min(K_{\max}, |J_t| - 1)$, $K_{\max} = 3$.
+- **Эмбеддер:** `intfloat/multilingual-e5-small` с query/passage префиксами (был `paraphrase-multilingual-MiniLM-L12-v2`).
+- **Group split по persona_id** в обучении модели интереса (был случайный split с leakage).
+- **Demo Day-персоны:** 280 свежих NLP/AI/EdTech-профилей (`personas_demoday.json`); раньше использовались Mobius-персоны (мобильная разработка).
+- **Demo Day-вместимости:** controlled experiment cap = ceil(N / halls_in_slot); раньше «по фото залов ИТМО».
+- **Метрика `mean_overload_excess`:** только слоты с ≥2 залами (исключён keynote-вклад).
+- **Cross-domain валидация на 4 реальных датасетах** — Meetup RSVP, ITC-2019, ITC-2007.
+- **Калиброванная compliance** в основных прогонах (трёх-типная: compliant 71,7% / star-chaser 21,3% / curious 7,0%).
+- **Single-async симулятор:** `simulate_async(slot_concurrency)` — параллельные слоты для LLM-политик, последовательные для остальных. `BasePolicy` ABC с дефолтным `acall`.
+- **PPO под Demo Day** обучен отдельно (7 залов, 500k шагов, target_overflow = 0,05); Mobius-PPO остался как референс.
 
 ## Дедлайны
 
@@ -100,7 +110,8 @@ masters-degree/
 
 ## Точки входа для возобновления работы
 
-1. Прочитать `experiments/results/session_state_2026-05-01.md` — актуальное состояние.
+1. Прочитать `MEMORY.md` (auto-memory) — актуальный контекст.
 2. Прочитать `materials/глава-3/черновик-главы-3.md` — финальная Глава 3.
 3. Прочитать `materials/планы-доработки.md` — открытые вопросы и принятые решения.
-4. Спросить пользователя, начинать ли Главу 4 или продолжать вычитку Главы 3.
+4. Прочитать `experiments/results/summary_demoday_final.md` — последние числа.
+5. Спросить пользователя, что делать дальше — переписывать тексты Глав 3-4 или ещё какие-то прогоны.

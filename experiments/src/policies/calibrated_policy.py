@@ -6,12 +6,14 @@ Re-ranking поверх Cosine с минимизацией KL-дивергенц
 """
 from __future__ import annotations
 
+from .base import BasePolicy
+
 from collections import Counter
 
 import numpy as np
 
 
-class CalibratedPolicy:
+class CalibratedPolicy(BasePolicy):
     name = "Calibrated"
 
     def __init__(self, lambda_kl: float = 0.5):

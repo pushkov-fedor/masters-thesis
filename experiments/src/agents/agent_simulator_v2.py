@@ -109,7 +109,7 @@ async def simulate_agents_v2(
             # current hall_load для каждого зала
             hall_load_fractions = {}
             for hid in halls_in_slot:
-                cap = conf.halls[hid].capacity
+                cap = conf.capacity_at(slot.id, hid)
                 occ = hall_load[(slot.id, hid)]
                 hall_load_fractions[hid] = occ / max(1.0, cap)
 

@@ -210,15 +210,17 @@ def main():
             json.dump(all_personas, f, ensure_ascii=False, indent=2)
 
     print(f"\nDONE: {len(all_personas)} personas, total cost ${cumulative_cost:.4f}")
-    # Эмбеддинги профилей
+    # Эмбеддинги профилей через единый embedder (e5-small, kind=query)
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT))
+    from src.embedder import embed_texts
     print("Computing embeddings...")
-    model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
     texts = [p["background"] for p in all_personas]
-    emb = model.encode(texts, batch_size=16, show_progress_bar=True, normalize_embeddings=True)
+    emb = embed_texts(texts, kind="query")
     np.savez(
         ROOT / "data" / "personas" / "personas_embeddings.npz",
         ids=np.array([p["id"] for p in all_personas]),
-        embeddings=emb.astype(np.float32),
+        embeddings=emb,
     )
     print(f"Embeddings: {emb.shape} -> personas_embeddings.npz")
 

@@ -3,8 +3,10 @@ from __future__ import annotations
 
 import numpy as np
 
+from .base import BasePolicy
 
-class RandomPolicy:
+
+class RandomPolicy(BasePolicy):
     name = "Random"
 
     def __init__(self, seed: int = 0):

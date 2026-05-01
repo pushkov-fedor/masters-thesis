@@ -22,6 +22,7 @@ sys.path.insert(0, str(ROOT))
 from src.simulator import Conference, SimConfig, UserProfile, simulate, LearnedPreferenceFn  # noqa: E402
 from src.metrics import compute_all  # noqa: E402
 from src.policies.random_policy import RandomPolicy  # noqa: E402
+from src.policies.random_capacity_aware_policy import RandomCapacityAwarePolicy  # noqa: E402
 from src.policies.cosine_policy import CosinePolicy  # noqa: E402
 from src.policies.capacity_aware_policy import CapacityAwarePolicy  # noqa: E402
 from src.policies.mmr_policy import MMRPolicy  # noqa: E402
@@ -65,6 +66,7 @@ def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None, ppo=None,
         return policies
     policies = {
         "Random": RandomPolicy(seed=seed),
+        "Random + capacity": RandomCapacityAwarePolicy(hard_threshold=0.95, seed=seed),
         "Cosine": CosinePolicy(),
         "MMR": MMRPolicy(beta=0.7),
         "Capacity-aware": CapacityAwarePolicy(alpha=0.5, hard_threshold=0.95),
@@ -97,6 +99,8 @@ def main():
     ap.add_argument("--quick", action="store_true", help="1 сид, 80 пользователей (для smoke)")
     ap.add_argument("--personas", default="personas", help="имя файла personas в data/personas/ (без .json)")
     ap.add_argument("--with-ppo", action="store_true", help="включить Constrained PPO")
+    ap.add_argument("--ppo-model", default=None,
+                    help="имя файла модели в data/models/ (без .zip). По умолчанию: ppo_v2_policy")
     ap.add_argument("--with-modern", action="store_true", help="включить DPP, Calibrated, Sequential, GNN")
     ap.add_argument("--with-llm", action="store_true", help="включить LLM-ranker как 6-ю политику")
     ap.add_argument("--with-llm-sa", action="store_true", help="включить state-aware LLM-ranker (7-я)")
@@ -136,7 +140,11 @@ def main():
 
     relevance_fn = None
     if args.relevance == "learned":
-        model_path = ROOT / "data" / "models" / "preference_model.pkl"
+        # Автоматический выбор модели по конференции
+        if args.conference == "demo_day_2026":
+            model_path = ROOT / "data" / "models" / "preference_model_demoday.pkl"
+        else:
+            model_path = ROOT / "data" / "models" / "preference_model.pkl"
         if not model_path.exists():
             raise SystemExit(f"Learned model not found at {model_path}. "
                              "Run scripts/train_preference_model.py first.")
@@ -152,15 +160,21 @@ def main():
 
     ppo = None
     if args.with_ppo:
-        # Сначала пробуем v2 (multi-agent batch episode), потом fallback на v1
-        ppo_v2_path = ROOT / "data" / "models" / "ppo_v2_policy.zip"
-        ppo_v1_path = ROOT / "data" / "models" / "ppo_policy.zip"
-        if ppo_v2_path.exists():
-            ppo = PPOv2Policy(ppo_v2_path)
-            print(f"PPO v2 (multi-agent) loaded from {ppo_v2_path}")
-        elif ppo_v1_path.exists():
-            ppo = PPOPolicy(ppo_v1_path)
-            print(f"PPO v1 loaded from {ppo_v1_path}")
+        if args.ppo_model:
+            ppo_path = ROOT / "data" / "models" / f"{args.ppo_model}.zip"
+            if not ppo_path.exists():
+                raise SystemExit(f"PPO model not found at {ppo_path}")
+            ppo = PPOv2Policy(ppo_path)
+            print(f"PPO loaded from {ppo_path}")
+        else:
+            ppo_v2_path = ROOT / "data" / "models" / "ppo_v2_policy.zip"
+            ppo_v1_path = ROOT / "data" / "models" / "ppo_policy.zip"
+            if ppo_v2_path.exists():
+                ppo = PPOv2Policy(ppo_v2_path)
+                print(f"PPO v2 (multi-agent) loaded from {ppo_v2_path}")
+            elif ppo_v1_path.exists():
+                ppo = PPOPolicy(ppo_v1_path)
+                print(f"PPO v1 loaded from {ppo_v1_path}")
 
     llm_ranker = None
     llm_ranker_sa = None

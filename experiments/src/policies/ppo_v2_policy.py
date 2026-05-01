@@ -6,12 +6,14 @@
 """
 from __future__ import annotations
 
+from .base import BasePolicy
+
 from pathlib import Path
 
 import numpy as np
 
 
-class PPOv2Policy:
+class PPOv2Policy(BasePolicy):
     name = "Constrained-PPO-v2"
 
     def __init__(self, model_path):
@@ -49,7 +51,7 @@ class PPOv2Policy:
 
         hall_loads = []
         for hid in self.halls_sorted:
-            cap = conf.halls[hid].capacity
+            cap = conf.capacity_at(slot.id, hid)
             occ = state["hall_load"].get((slot.id, hid), 0)
             hall_loads.append(occ / max(1.0, cap))
 
