@@ -114,6 +114,13 @@ def main():
                     help="Вес fame в effective utility пользователя (0 = выкл, 0.3 = star effect)")
     ap.add_argument("--user-compliance", type=float, default=1.0,
                     help="Compliance: 1 = строго top-K, 0.5 = 50% игнорирует подсказку")
+    ap.add_argument("--calibrated-compliance", action="store_true",
+                    help="Использовать калиброванную трёхтипную модель compliance "
+                         "(compliant 71.7% / star-chaser 21.3% / curious 7.0%, "
+                         "числа из scripts/calibrate_compliance_meetup.py)")
+    ap.add_argument("--alpha-compliant", type=float, default=0.717)
+    ap.add_argument("--alpha-starchaser", type=float, default=0.213)
+    ap.add_argument("--alpha-curious", type=float, default=0.070)
     args = ap.parse_args()
 
     conf = Conference.load(
@@ -183,6 +190,10 @@ def main():
                 K=args.K, tau=args.tau, lambda_overflow=args.lambda_overflow,
                 p_skip_base=args.p_skip, seed=seed,
                 w_fame=args.w_fame, user_compliance=args.user_compliance,
+                use_calibrated_compliance=args.calibrated_compliance,
+                alpha_compliant=args.alpha_compliant,
+                alpha_starchaser=args.alpha_starchaser,
+                alpha_curious=args.alpha_curious,
             )
             t0 = time.time()
             sim = simulate(conf, users, pol, cfg, relevance_fn=relevance_fn)

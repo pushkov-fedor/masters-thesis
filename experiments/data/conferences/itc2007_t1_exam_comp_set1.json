@@ -1,0 +1,6361 @@
+{
+  "name": "ITC-2007 Track 1 exam_comp_set1",
+  "talks": [
+    {
+      "id": "ex0102",
+      "title": "exam 102 dur=180",
+      "hall": 1,
+      "slot_id": "p000",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0166",
+      "title": "exam 166 dur=150",
+      "hall": 1,
+      "slot_id": "p001",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0436",
+      "title": "exam 436 dur=120",
+      "hall": 1,
+      "slot_id": "p002",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0442",
+      "title": "exam 442 dur=135",
+      "hall": 1,
+      "slot_id": "p003",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0130",
+      "title": "exam 130 dur=180",
+      "hall": 1,
+      "slot_id": "p004",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0000",
+      "title": "exam 0 dur=195",
+      "hall": 1,
+      "slot_id": "p005",
+      "category": "d195",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0031",
+      "title": "exam 31 dur=180",
+      "hall": 1,
+      "slot_id": "p006",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0197",
+      "title": "exam 197 dur=90",
+      "hall": 1,
+      "slot_id": "p007",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0446",
+      "title": "exam 446 dur=120",
+      "hall": 1,
+      "slot_id": "p008",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0568",
+      "title": "exam 568 dur=180",
+      "hall": 1,
+      "slot_id": "p009",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0005",
+      "title": "exam 5 dur=135",
+      "hall": 1,
+      "slot_id": "p010",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0441",
+      "title": "exam 441 dur=120",
+      "hall": 1,
+      "slot_id": "p011",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0346",
+      "title": "exam 346 dur=190",
+      "hall": 1,
+      "slot_id": "p012",
+      "category": "d190",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0507",
+      "title": "exam 507 dur=180",
+      "hall": 1,
+      "slot_id": "p013",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0528",
+      "title": "exam 528 dur=180",
+      "hall": 1,
+      "slot_id": "p014",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0422",
+      "title": "exam 422 dur=180",
+      "hall": 1,
+      "slot_id": "p015",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0479",
+      "title": "exam 479 dur=180",
+      "hall": 1,
+      "slot_id": "p016",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0424",
+      "title": "exam 424 dur=180",
+      "hall": 1,
+      "slot_id": "p017",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0004",
+      "title": "exam 4 dur=135",
+      "hall": 1,
+      "slot_id": "p018",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0003",
+      "title": "exam 3 dur=135",
+      "hall": 1,
+      "slot_id": "p019",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0425",
+      "title": "exam 425 dur=180",
+      "hall": 1,
+      "slot_id": "p020",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0553",
+      "title": "exam 553 dur=180",
+      "hall": 1,
+      "slot_id": "p021",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0129",
+      "title": "exam 129 dur=180",
+      "hall": 3,
+      "slot_id": "p000",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0168",
+      "title": "exam 168 dur=150",
+      "hall": 3,
+      "slot_id": "p001",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0242",
+      "title": "exam 242 dur=180",
+      "hall": 3,
+      "slot_id": "p002",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0532",
+      "title": "exam 532 dur=120",
+      "hall": 3,
+      "slot_id": "p003",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0283",
+      "title": "exam 283 dur=180",
+      "hall": 3,
+      "slot_id": "p004",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0373",
+      "title": "exam 373 dur=180",
+      "hall": 3,
+      "slot_id": "p005",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0440",
+      "title": "exam 440 dur=120",
+      "hall": 3,
+      "slot_id": "p006",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0530",
+      "title": "exam 530 dur=120",
+      "hall": 3,
+      "slot_id": "p007",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0243",
+      "title": "exam 243 dur=180",
+      "hall": 3,
+      "slot_id": "p008",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0085",
+      "title": "exam 85 dur=180",
+      "hall": 3,
+      "slot_id": "p009",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0053",
+      "title": "exam 53 dur=180",
+      "hall": 3,
+      "slot_id": "p010",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0086",
+      "title": "exam 86 dur=180",
+      "hall": 3,
+      "slot_id": "p011",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0572",
+      "title": "exam 572 dur=180",
+      "hall": 3,
+      "slot_id": "p012",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0534",
+      "title": "exam 534 dur=120",
+      "hall": 3,
+      "slot_id": "p013",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0347",
+      "title": "exam 347 dur=180",
+      "hall": 3,
+      "slot_id": "p014",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0531",
+      "title": "exam 531 dur=120",
+      "hall": 3,
+      "slot_id": "p015",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0533",
+      "title": "exam 533 dur=120",
+      "hall": 7,
+      "slot_id": "p000",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0535",
+      "title": "exam 535 dur=120",
+      "hall": 7,
+      "slot_id": "p001",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0200",
+      "title": "exam 200 dur=175",
+      "hall": 7,
+      "slot_id": "p002",
+      "category": "d175",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0302",
+      "title": "exam 302 dur=180",
+      "hall": 7,
+      "slot_id": "p003",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0002",
+      "title": "exam 2 dur=120",
+      "hall": 7,
+      "slot_id": "p004",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0350",
+      "title": "exam 350 dur=190",
+      "hall": 7,
+      "slot_id": "p005",
+      "category": "d190",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0354",
+      "title": "exam 354 dur=130",
+      "hall": 7,
+      "slot_id": "p006",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0169",
+      "title": "exam 169 dur=150",
+      "hall": 7,
+      "slot_id": "p007",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0444",
+      "title": "exam 444 dur=120",
+      "hall": 7,
+      "slot_id": "p008",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0008",
+      "title": "exam 8 dur=135",
+      "hall": 7,
+      "slot_id": "p009",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0020",
+      "title": "exam 20 dur=180",
+      "hall": 2,
+      "slot_id": "p000",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0174",
+      "title": "exam 174 dur=180",
+      "hall": 2,
+      "slot_id": "p001",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0244",
+      "title": "exam 244 dur=120",
+      "hall": 2,
+      "slot_id": "p002",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0019",
+      "title": "exam 19 dur=180",
+      "hall": 2,
+      "slot_id": "p003",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0170",
+      "title": "exam 170 dur=150",
+      "hall": 2,
+      "slot_id": "p004",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0390",
+      "title": "exam 390 dur=120",
+      "hall": 2,
+      "slot_id": "p005",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0430",
+      "title": "exam 430 dur=180",
+      "hall": 2,
+      "slot_id": "p006",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0172",
+      "title": "exam 172 dur=180",
+      "hall": 2,
+      "slot_id": "p007",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0505",
+      "title": "exam 505 dur=180",
+      "hall": 2,
+      "slot_id": "p008",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0007",
+      "title": "exam 7 dur=135",
+      "hall": 2,
+      "slot_id": "p009",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0348",
+      "title": "exam 348 dur=130",
+      "hall": 2,
+      "slot_id": "p010",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0349",
+      "title": "exam 349 dur=130",
+      "hall": 7,
+      "slot_id": "p010",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0355",
+      "title": "exam 355 dur=130",
+      "hall": 2,
+      "slot_id": "p011",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0155",
+      "title": "exam 155 dur=180",
+      "hall": 7,
+      "slot_id": "p011",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0389",
+      "title": "exam 389 dur=120",
+      "hall": 2,
+      "slot_id": "p012",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0428",
+      "title": "exam 428 dur=90",
+      "hall": 7,
+      "slot_id": "p012",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0171",
+      "title": "exam 171 dur=180",
+      "hall": 2,
+      "slot_id": "p013",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0198",
+      "title": "exam 198 dur=90",
+      "hall": 7,
+      "slot_id": "p013",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0391",
+      "title": "exam 391 dur=120",
+      "hall": 2,
+      "slot_id": "p014",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0437",
+      "title": "exam 437 dur=135",
+      "hall": 7,
+      "slot_id": "p014",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0298",
+      "title": "exam 298 dur=180",
+      "hall": 2,
+      "slot_id": "p015",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0514",
+      "title": "exam 514 dur=180",
+      "hall": 7,
+      "slot_id": "p015",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0467",
+      "title": "exam 467 dur=150",
+      "hall": 2,
+      "slot_id": "p016",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0280",
+      "title": "exam 280 dur=180",
+      "hall": 3,
+      "slot_id": "p016",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0543",
+      "title": "exam 543 dur=120",
+      "hall": 7,
+      "slot_id": "p016",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0010",
+      "title": "exam 10 dur=135",
+      "hall": 2,
+      "slot_id": "p017",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0434",
+      "title": "exam 434 dur=180",
+      "hall": 3,
+      "slot_id": "p017",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0055",
+      "title": "exam 55 dur=180",
+      "hall": 7,
+      "slot_id": "p017",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0541",
+      "title": "exam 541 dur=120",
+      "hall": 2,
+      "slot_id": "p018",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0374",
+      "title": "exam 374 dur=180",
+      "hall": 3,
+      "slot_id": "p018",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0470",
+      "title": "exam 470 dur=180",
+      "hall": 7,
+      "slot_id": "p018",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0353",
+      "title": "exam 353 dur=190",
+      "hall": 2,
+      "slot_id": "p019",
+      "category": "d190",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0454",
+      "title": "exam 454 dur=120",
+      "hall": 3,
+      "slot_id": "p019",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0466",
+      "title": "exam 466 dur=180",
+      "hall": 7,
+      "slot_id": "p019",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0282",
+      "title": "exam 282 dur=180",
+      "hall": 2,
+      "slot_id": "p020",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0054",
+      "title": "exam 54 dur=180",
+      "hall": 3,
+      "slot_id": "p020",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0299",
+      "title": "exam 299 dur=180",
+      "hall": 7,
+      "slot_id": "p020",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0509",
+      "title": "exam 509 dur=180",
+      "hall": 2,
+      "slot_id": "p021",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0376",
+      "title": "exam 376 dur=180",
+      "hall": 3,
+      "slot_id": "p021",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0544",
+      "title": "exam 544 dur=120",
+      "hall": 5,
+      "slot_id": "p000",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0426",
+      "title": "exam 426 dur=90",
+      "hall": 5,
+      "slot_id": "p001",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0036",
+      "title": "exam 36 dur=120",
+      "hall": 5,
+      "slot_id": "p002",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0360",
+      "title": "exam 360 dur=130",
+      "hall": 5,
+      "slot_id": "p003",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0365",
+      "title": "exam 365 dur=130",
+      "hall": 5,
+      "slot_id": "p004",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0468",
+      "title": "exam 468 dur=180",
+      "hall": 5,
+      "slot_id": "p005",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0529",
+      "title": "exam 529 dur=180",
+      "hall": 5,
+      "slot_id": "p006",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0015",
+      "title": "exam 15 dur=135",
+      "hall": 5,
+      "slot_id": "p007",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0281",
+      "title": "exam 281 dur=180",
+      "hall": 5,
+      "slot_id": "p008",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0380",
+      "title": "exam 380 dur=180",
+      "hall": 5,
+      "slot_id": "p009",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0429",
+      "title": "exam 429 dur=180",
+      "hall": 5,
+      "slot_id": "p010",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0433",
+      "title": "exam 433 dur=90",
+      "hall": 5,
+      "slot_id": "p011",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0362",
+      "title": "exam 362 dur=130",
+      "hall": 5,
+      "slot_id": "p012",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0138",
+      "title": "exam 138 dur=120",
+      "hall": 5,
+      "slot_id": "p013",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0017",
+      "title": "exam 17 dur=135",
+      "hall": 5,
+      "slot_id": "p014",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0139",
+      "title": "exam 139 dur=120",
+      "hall": 5,
+      "slot_id": "p015",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0140",
+      "title": "exam 140 dur=135",
+      "hall": 5,
+      "slot_id": "p016",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0506",
+      "title": "exam 506 dur=180",
+      "hall": 5,
+      "slot_id": "p017",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0035",
+      "title": "exam 35 dur=120",
+      "hall": 5,
+      "slot_id": "p018",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0103",
+      "title": "exam 103 dur=210",
+      "hall": 5,
+      "slot_id": "p019",
+      "category": "d210",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0173",
+      "title": "exam 173 dur=180",
+      "hall": 5,
+      "slot_id": "p020",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0247",
+      "title": "exam 247 dur=120",
+      "hall": 5,
+      "slot_id": "p021",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0248",
+      "title": "exam 248 dur=120",
+      "hall": 7,
+      "slot_id": "p021",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0381",
+      "title": "exam 381 dur=180",
+      "hall": 1,
+      "slot_id": "p022",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0001",
+      "title": "exam 1 dur=135",
+      "hall": 2,
+      "slot_id": "p022",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0009",
+      "title": "exam 9 dur=135",
+      "hall": 6,
+      "slot_id": "p000",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0250",
+      "title": "exam 250 dur=120",
+      "hall": 6,
+      "slot_id": "p001",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0262",
+      "title": "exam 262 dur=120",
+      "hall": 6,
+      "slot_id": "p002",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0447",
+      "title": "exam 447 dur=120",
+      "hall": 6,
+      "slot_id": "p003",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0011",
+      "title": "exam 11 dur=135",
+      "hall": 6,
+      "slot_id": "p004",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0057",
+      "title": "exam 57 dur=180",
+      "hall": 6,
+      "slot_id": "p005",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0423",
+      "title": "exam 423 dur=90",
+      "hall": 6,
+      "slot_id": "p006",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0096",
+      "title": "exam 96 dur=180",
+      "hall": 6,
+      "slot_id": "p007",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0136",
+      "title": "exam 136 dur=180",
+      "hall": 6,
+      "slot_id": "p008",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0263",
+      "title": "exam 263 dur=120",
+      "hall": 6,
+      "slot_id": "p009",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0051",
+      "title": "exam 51 dur=120",
+      "hall": 6,
+      "slot_id": "p010",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0060",
+      "title": "exam 60 dur=180",
+      "hall": 6,
+      "slot_id": "p011",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0061",
+      "title": "exam 61 dur=180",
+      "hall": 6,
+      "slot_id": "p012",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0290",
+      "title": "exam 290 dur=180",
+      "hall": 6,
+      "slot_id": "p013",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0484",
+      "title": "exam 484 dur=180",
+      "hall": 6,
+      "slot_id": "p014",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0359",
+      "title": "exam 359 dur=190",
+      "hall": 6,
+      "slot_id": "p015",
+      "category": "d190",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0245",
+      "title": "exam 245 dur=120",
+      "hall": 4,
+      "slot_id": "p000",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0251",
+      "title": "exam 251 dur=120",
+      "hall": 4,
+      "slot_id": "p001",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0285",
+      "title": "exam 285 dur=180",
+      "hall": 4,
+      "slot_id": "p002",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0379",
+      "title": "exam 379 dur=180",
+      "hall": 4,
+      "slot_id": "p003",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0427",
+      "title": "exam 427 dur=120",
+      "hall": 4,
+      "slot_id": "p004",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0496",
+      "title": "exam 496 dur=180",
+      "hall": 4,
+      "slot_id": "p005",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0201",
+      "title": "exam 201 dur=175",
+      "hall": 4,
+      "slot_id": "p006",
+      "category": "d175",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0435",
+      "title": "exam 435 dur=180",
+      "hall": 4,
+      "slot_id": "p007",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0445",
+      "title": "exam 445 dur=150",
+      "hall": 4,
+      "slot_id": "p008",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0474",
+      "title": "exam 474 dur=180",
+      "hall": 4,
+      "slot_id": "p009",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0046",
+      "title": "exam 46 dur=180",
+      "hall": 4,
+      "slot_id": "p010",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0107",
+      "title": "exam 107 dur=180",
+      "hall": 4,
+      "slot_id": "p011",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0486",
+      "title": "exam 486 dur=180",
+      "hall": 4,
+      "slot_id": "p012",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0487",
+      "title": "exam 487 dur=180",
+      "hall": 4,
+      "slot_id": "p013",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0013",
+      "title": "exam 13 dur=120",
+      "hall": 4,
+      "slot_id": "p014",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0453",
+      "title": "exam 453 dur=150",
+      "hall": 4,
+      "slot_id": "p015",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0512",
+      "title": "exam 512 dur=180",
+      "hall": 4,
+      "slot_id": "p016",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0041",
+      "title": "exam 41 dur=120",
+      "hall": 6,
+      "slot_id": "p016",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0127",
+      "title": "exam 127 dur=180",
+      "hall": 4,
+      "slot_id": "p017",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0128",
+      "title": "exam 128 dur=180",
+      "hall": 6,
+      "slot_id": "p017",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0266",
+      "title": "exam 266 dur=120",
+      "hall": 4,
+      "slot_id": "p018",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0352",
+      "title": "exam 352 dur=190",
+      "hall": 6,
+      "slot_id": "p018",
+      "category": "d190",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0569",
+      "title": "exam 569 dur=180",
+      "hall": 4,
+      "slot_id": "p019",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0602",
+      "title": "exam 602 dur=180",
+      "hall": 6,
+      "slot_id": "p019",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0016",
+      "title": "exam 16 dur=135",
+      "hall": 4,
+      "slot_id": "p020",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0363",
+      "title": "exam 363 dur=130",
+      "hall": 6,
+      "slot_id": "p020",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0387",
+      "title": "exam 387 dur=180",
+      "hall": 4,
+      "slot_id": "p021",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0084",
+      "title": "exam 84 dur=180",
+      "hall": 6,
+      "slot_id": "p021",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0087",
+      "title": "exam 87 dur=180",
+      "hall": 3,
+      "slot_id": "p022",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0264",
+      "title": "exam 264 dur=120",
+      "hall": 4,
+      "slot_id": "p022",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0393",
+      "title": "exam 393 dur=120",
+      "hall": 5,
+      "slot_id": "p022",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0483",
+      "title": "exam 483 dur=180",
+      "hall": 6,
+      "slot_id": "p022",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0510",
+      "title": "exam 510 dur=180",
+      "hall": 7,
+      "slot_id": "p022",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0048",
+      "title": "exam 48 dur=120",
+      "hall": 1,
+      "slot_id": "p023",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0014",
+      "title": "exam 14 dur=135",
+      "hall": 2,
+      "slot_id": "p023",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0366",
+      "title": "exam 366 dur=190",
+      "hall": 3,
+      "slot_id": "p023",
+      "category": "d190",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0383",
+      "title": "exam 383 dur=180",
+      "hall": 4,
+      "slot_id": "p023",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0284",
+      "title": "exam 284 dur=180",
+      "hall": 5,
+      "slot_id": "p023",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0477",
+      "title": "exam 477 dur=180",
+      "hall": 6,
+      "slot_id": "p023",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0377",
+      "title": "exam 377 dur=180",
+      "hall": 7,
+      "slot_id": "p023",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0401",
+      "title": "exam 401 dur=120",
+      "hall": 1,
+      "slot_id": "p024",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0402",
+      "title": "exam 402 dur=120",
+      "hall": 2,
+      "slot_id": "p024",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0438",
+      "title": "exam 438 dur=135",
+      "hall": 3,
+      "slot_id": "p024",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0089",
+      "title": "exam 89 dur=120",
+      "hall": 4,
+      "slot_id": "p024",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0151",
+      "title": "exam 151 dur=120",
+      "hall": 5,
+      "slot_id": "p024",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0209",
+      "title": "exam 209 dur=180",
+      "hall": 6,
+      "slot_id": "p024",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0260",
+      "title": "exam 260 dur=120",
+      "hall": 7,
+      "slot_id": "p024",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0392",
+      "title": "exam 392 dur=120",
+      "hall": 1,
+      "slot_id": "p025",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0073",
+      "title": "exam 73 dur=180",
+      "hall": 2,
+      "slot_id": "p025",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0167",
+      "title": "exam 167 dur=150",
+      "hall": 3,
+      "slot_id": "p025",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0229",
+      "title": "exam 229 dur=120",
+      "hall": 4,
+      "slot_id": "p025",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0297",
+      "title": "exam 297 dur=180",
+      "hall": 5,
+      "slot_id": "p025",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0091",
+      "title": "exam 91 dur=120",
+      "hall": 6,
+      "slot_id": "p025",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0135",
+      "title": "exam 135 dur=135",
+      "hall": 7,
+      "slot_id": "p025",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0304",
+      "title": "exam 304 dur=180",
+      "hall": 1,
+      "slot_id": "p026",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0357",
+      "title": "exam 357 dur=190",
+      "hall": 2,
+      "slot_id": "p026",
+      "category": "d190",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0012",
+      "title": "exam 12 dur=135",
+      "hall": 3,
+      "slot_id": "p026",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0132",
+      "title": "exam 132 dur=120",
+      "hall": 4,
+      "slot_id": "p026",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0439",
+      "title": "exam 439 dur=120",
+      "hall": 5,
+      "slot_id": "p026",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0497",
+      "title": "exam 497 dur=180",
+      "hall": 6,
+      "slot_id": "p026",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0210",
+      "title": "exam 210 dur=180",
+      "hall": 7,
+      "slot_id": "p026",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0482",
+      "title": "exam 482 dur=180",
+      "hall": 1,
+      "slot_id": "p027",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0490",
+      "title": "exam 490 dur=180",
+      "hall": 2,
+      "slot_id": "p027",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0518",
+      "title": "exam 518 dur=180",
+      "hall": 3,
+      "slot_id": "p027",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0154",
+      "title": "exam 154 dur=120",
+      "hall": 4,
+      "slot_id": "p027",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0287",
+      "title": "exam 287 dur=180",
+      "hall": 5,
+      "slot_id": "p027",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0473",
+      "title": "exam 473 dur=180",
+      "hall": 6,
+      "slot_id": "p027",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0500",
+      "title": "exam 500 dur=180",
+      "hall": 7,
+      "slot_id": "p027",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0202",
+      "title": "exam 202 dur=140",
+      "hall": 1,
+      "slot_id": "p028",
+      "category": "d140",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0212",
+      "title": "exam 212 dur=180",
+      "hall": 2,
+      "slot_id": "p028",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0397",
+      "title": "exam 397 dur=120",
+      "hall": 3,
+      "slot_id": "p028",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0006",
+      "title": "exam 6 dur=135",
+      "hall": 4,
+      "slot_id": "p028",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0133",
+      "title": "exam 133 dur=120",
+      "hall": 5,
+      "slot_id": "p028",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0370",
+      "title": "exam 370 dur=130",
+      "hall": 6,
+      "slot_id": "p028",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0399",
+      "title": "exam 399 dur=120",
+      "hall": 7,
+      "slot_id": "p028",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0542",
+      "title": "exam 542 dur=120",
+      "hall": 1,
+      "slot_id": "p029",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0595",
+      "title": "exam 595 dur=180",
+      "hall": 2,
+      "slot_id": "p029",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0047",
+      "title": "exam 47 dur=180",
+      "hall": 3,
+      "slot_id": "p029",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0213",
+      "title": "exam 213 dur=180",
+      "hall": 4,
+      "slot_id": "p029",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0400",
+      "title": "exam 400 dur=120",
+      "hall": 5,
+      "slot_id": "p029",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0521",
+      "title": "exam 521 dur=180",
+      "hall": 6,
+      "slot_id": "p029",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0056",
+      "title": "exam 56 dur=180",
+      "hall": 7,
+      "slot_id": "p029",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0059",
+      "title": "exam 59 dur=180",
+      "hall": 1,
+      "slot_id": "p030",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0113",
+      "title": "exam 113 dur=90",
+      "hall": 2,
+      "slot_id": "p030",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0204",
+      "title": "exam 204 dur=120",
+      "hall": 3,
+      "slot_id": "p030",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0206",
+      "title": "exam 206 dur=120",
+      "hall": 4,
+      "slot_id": "p030",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0246",
+      "title": "exam 246 dur=120",
+      "hall": 5,
+      "slot_id": "p030",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0475",
+      "title": "exam 475 dur=180",
+      "hall": 6,
+      "slot_id": "p030",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0485",
+      "title": "exam 485 dur=180",
+      "hall": 7,
+      "slot_id": "p030",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0494",
+      "title": "exam 494 dur=180",
+      "hall": 1,
+      "slot_id": "p031",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0580",
+      "title": "exam 580 dur=120",
+      "hall": 2,
+      "slot_id": "p031",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0075",
+      "title": "exam 75 dur=100",
+      "hall": 3,
+      "slot_id": "p031",
+      "category": "d100",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0076",
+      "title": "exam 76 dur=150",
+      "hall": 4,
+      "slot_id": "p031",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0090",
+      "title": "exam 90 dur=120",
+      "hall": 5,
+      "slot_id": "p031",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0150",
+      "title": "exam 150 dur=120",
+      "hall": 6,
+      "slot_id": "p031",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0211",
+      "title": "exam 211 dur=180",
+      "hall": 7,
+      "slot_id": "p031",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0384",
+      "title": "exam 384 dur=35",
+      "hall": 1,
+      "slot_id": "p032",
+      "category": "d35",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0398",
+      "title": "exam 398 dur=120",
+      "hall": 2,
+      "slot_id": "p032",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0443",
+      "title": "exam 443 dur=135",
+      "hall": 3,
+      "slot_id": "p032",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0495",
+      "title": "exam 495 dur=180",
+      "hall": 4,
+      "slot_id": "p032",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0586",
+      "title": "exam 586 dur=120",
+      "hall": 5,
+      "slot_id": "p032",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0131",
+      "title": "exam 131 dur=180",
+      "hall": 6,
+      "slot_id": "p032",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0432",
+      "title": "exam 432 dur=90",
+      "hall": 7,
+      "slot_id": "p032",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0471",
+      "title": "exam 471 dur=180",
+      "hall": 1,
+      "slot_id": "p033",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0576",
+      "title": "exam 576 dur=120",
+      "hall": 2,
+      "slot_id": "p033",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0064",
+      "title": "exam 64 dur=180",
+      "hall": 3,
+      "slot_id": "p033",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0092",
+      "title": "exam 92 dur=120",
+      "hall": 4,
+      "slot_id": "p033",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0112",
+      "title": "exam 112 dur=180",
+      "hall": 5,
+      "slot_id": "p033",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0145",
+      "title": "exam 145 dur=120",
+      "hall": 6,
+      "slot_id": "p033",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0265",
+      "title": "exam 265 dur=120",
+      "hall": 7,
+      "slot_id": "p033",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0508",
+      "title": "exam 508 dur=180",
+      "hall": 1,
+      "slot_id": "p034",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0549",
+      "title": "exam 549 dur=120",
+      "hall": 2,
+      "slot_id": "p034",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0105",
+      "title": "exam 105 dur=195",
+      "hall": 3,
+      "slot_id": "p034",
+      "category": "d195",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0216",
+      "title": "exam 216 dur=180",
+      "hall": 4,
+      "slot_id": "p034",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0394",
+      "title": "exam 394 dur=180",
+      "hall": 5,
+      "slot_id": "p034",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0491",
+      "title": "exam 491 dur=135",
+      "hall": 6,
+      "slot_id": "p034",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0152",
+      "title": "exam 152 dur=120",
+      "hall": 7,
+      "slot_id": "p034",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0254",
+      "title": "exam 254 dur=120",
+      "hall": 1,
+      "slot_id": "p035",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0040",
+      "title": "exam 40 dur=120",
+      "hall": 2,
+      "slot_id": "p035",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0069",
+      "title": "exam 69 dur=180",
+      "hall": 3,
+      "slot_id": "p035",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0143",
+      "title": "exam 143 dur=60",
+      "hall": 4,
+      "slot_id": "p035",
+      "category": "d60",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0144",
+      "title": "exam 144 dur=120",
+      "hall": 5,
+      "slot_id": "p035",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0164",
+      "title": "exam 164 dur=180",
+      "hall": 6,
+      "slot_id": "p035",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0165",
+      "title": "exam 165 dur=180",
+      "hall": 7,
+      "slot_id": "p035",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0181",
+      "title": "exam 181 dur=180",
+      "hall": 1,
+      "slot_id": "p036",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0214",
+      "title": "exam 214 dur=180",
+      "hall": 2,
+      "slot_id": "p036",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0333",
+      "title": "exam 333 dur=120",
+      "hall": 3,
+      "slot_id": "p036",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0382",
+      "title": "exam 382 dur=180",
+      "hall": 4,
+      "slot_id": "p036",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0449",
+      "title": "exam 449 dur=120",
+      "hall": 5,
+      "slot_id": "p036",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0556",
+      "title": "exam 556 dur=180",
+      "hall": 6,
+      "slot_id": "p036",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0146",
+      "title": "exam 146 dur=120",
+      "hall": 7,
+      "slot_id": "p036",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0180",
+      "title": "exam 180 dur=180",
+      "hall": 1,
+      "slot_id": "p037",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0252",
+      "title": "exam 252 dur=120",
+      "hall": 2,
+      "slot_id": "p037",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0259",
+      "title": "exam 259 dur=120",
+      "hall": 3,
+      "slot_id": "p037",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0295",
+      "title": "exam 295 dur=180",
+      "hall": 4,
+      "slot_id": "p037",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0448",
+      "title": "exam 448 dur=120",
+      "hall": 5,
+      "slot_id": "p037",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0469",
+      "title": "exam 469 dur=180",
+      "hall": 6,
+      "slot_id": "p037",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0488",
+      "title": "exam 488 dur=180",
+      "hall": 7,
+      "slot_id": "p037",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0489",
+      "title": "exam 489 dur=180",
+      "hall": 1,
+      "slot_id": "p038",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0502",
+      "title": "exam 502 dur=120",
+      "hall": 2,
+      "slot_id": "p038",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0052",
+      "title": "exam 52 dur=120",
+      "hall": 3,
+      "slot_id": "p038",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0115",
+      "title": "exam 115 dur=90",
+      "hall": 4,
+      "slot_id": "p038",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0116",
+      "title": "exam 116 dur=90",
+      "hall": 5,
+      "slot_id": "p038",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0236",
+      "title": "exam 236 dur=180",
+      "hall": 6,
+      "slot_id": "p038",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0501",
+      "title": "exam 501 dur=180",
+      "hall": 7,
+      "slot_id": "p038",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0072",
+      "title": "exam 72 dur=180",
+      "hall": 1,
+      "slot_id": "p039",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0371",
+      "title": "exam 371 dur=130",
+      "hall": 2,
+      "slot_id": "p039",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0395",
+      "title": "exam 395 dur=120",
+      "hall": 3,
+      "slot_id": "p039",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0417",
+      "title": "exam 417 dur=180",
+      "hall": 4,
+      "slot_id": "p039",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0418",
+      "title": "exam 418 dur=180",
+      "hall": 5,
+      "slot_id": "p039",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0074",
+      "title": "exam 74 dur=180",
+      "hall": 6,
+      "slot_id": "p039",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0088",
+      "title": "exam 88 dur=120",
+      "hall": 7,
+      "slot_id": "p039",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0364",
+      "title": "exam 364 dur=130",
+      "hall": 1,
+      "slot_id": "p040",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0122",
+      "title": "exam 122 dur=180",
+      "hall": 2,
+      "slot_id": "p040",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0148",
+      "title": "exam 148 dur=120",
+      "hall": 3,
+      "slot_id": "p040",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0303",
+      "title": "exam 303 dur=180",
+      "hall": 4,
+      "slot_id": "p040",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0511",
+      "title": "exam 511 dur=180",
+      "hall": 5,
+      "slot_id": "p040",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0592",
+      "title": "exam 592 dur=180",
+      "hall": 6,
+      "slot_id": "p040",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0114",
+      "title": "exam 114 dur=90",
+      "hall": 7,
+      "slot_id": "p040",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0153",
+      "title": "exam 153 dur=120",
+      "hall": 1,
+      "slot_id": "p041",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0396",
+      "title": "exam 396 dur=120",
+      "hall": 2,
+      "slot_id": "p041",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0555",
+      "title": "exam 555 dur=180",
+      "hall": 3,
+      "slot_id": "p041",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0141",
+      "title": "exam 141 dur=135",
+      "hall": 4,
+      "slot_id": "p041",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0207",
+      "title": "exam 207 dur=180",
+      "hall": 5,
+      "slot_id": "p041",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0221",
+      "title": "exam 221 dur=120",
+      "hall": 6,
+      "slot_id": "p041",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0565",
+      "title": "exam 565 dur=180",
+      "hall": 7,
+      "slot_id": "p041",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0050",
+      "title": "exam 50 dur=120",
+      "hall": 1,
+      "slot_id": "p042",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0058",
+      "title": "exam 58 dur=180",
+      "hall": 2,
+      "slot_id": "p042",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0062",
+      "title": "exam 62 dur=180",
+      "hall": 3,
+      "slot_id": "p042",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0367",
+      "title": "exam 367 dur=190",
+      "hall": 4,
+      "slot_id": "p042",
+      "category": "d190",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0456",
+      "title": "exam 456 dur=120",
+      "hall": 5,
+      "slot_id": "p042",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0547",
+      "title": "exam 547 dur=120",
+      "hall": 6,
+      "slot_id": "p042",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0562",
+      "title": "exam 562 dur=180",
+      "hall": 7,
+      "slot_id": "p042",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0077",
+      "title": "exam 77 dur=150",
+      "hall": 1,
+      "slot_id": "p043",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0182",
+      "title": "exam 182 dur=180",
+      "hall": 2,
+      "slot_id": "p043",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0268",
+      "title": "exam 268 dur=120",
+      "hall": 3,
+      "slot_id": "p043",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0431",
+      "title": "exam 431 dur=120",
+      "hall": 4,
+      "slot_id": "p043",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0520",
+      "title": "exam 520 dur=180",
+      "hall": 5,
+      "slot_id": "p043",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0065",
+      "title": "exam 65 dur=180",
+      "hall": 6,
+      "slot_id": "p043",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0018",
+      "title": "exam 18 dur=135",
+      "hall": 7,
+      "slot_id": "p043",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0063",
+      "title": "exam 63 dur=180",
+      "hall": 1,
+      "slot_id": "p044",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0067",
+      "title": "exam 67 dur=180",
+      "hall": 2,
+      "slot_id": "p044",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0134",
+      "title": "exam 134 dur=180",
+      "hall": 3,
+      "slot_id": "p044",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0540",
+      "title": "exam 540 dur=120",
+      "hall": 4,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0577",
+      "title": "exam 577 dur=120",
+      "hall": 5,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0071",
+      "title": "exam 71 dur=180",
+      "hall": 6,
+      "slot_id": "p044",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0220",
+      "title": "exam 220 dur=120",
+      "hall": 7,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0411",
+      "title": "exam 411 dur=120",
+      "hall": 1,
+      "slot_id": "p045",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0451",
+      "title": "exam 451 dur=150",
+      "hall": 2,
+      "slot_id": "p045",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0472",
+      "title": "exam 472 dur=180",
+      "hall": 3,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0584",
+      "title": "exam 584 dur=180",
+      "hall": 4,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0024",
+      "title": "exam 24 dur=120",
+      "hall": 5,
+      "slot_id": "p045",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0305",
+      "title": "exam 305 dur=180",
+      "hall": 6,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0458",
+      "title": "exam 458 dur=180",
+      "hall": 7,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0460",
+      "title": "exam 460 dur=90",
+      "hall": 1,
+      "slot_id": "p046",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0583",
+      "title": "exam 583 dur=180",
+      "hall": 2,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0587",
+      "title": "exam 587 dur=120",
+      "hall": 3,
+      "slot_id": "p046",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0042",
+      "title": "exam 42 dur=120",
+      "hall": 4,
+      "slot_id": "p046",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0149",
+      "title": "exam 149 dur=120",
+      "hall": 5,
+      "slot_id": "p046",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0450",
+      "title": "exam 450 dur=180",
+      "hall": 6,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0455",
+      "title": "exam 455 dur=120",
+      "hall": 7,
+      "slot_id": "p046",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0525",
+      "title": "exam 525 dur=180",
+      "hall": 1,
+      "slot_id": "p047",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0527",
+      "title": "exam 527 dur=180",
+      "hall": 2,
+      "slot_id": "p047",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0596",
+      "title": "exam 596 dur=120",
+      "hall": 3,
+      "slot_id": "p047",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0124",
+      "title": "exam 124 dur=180",
+      "hall": 4,
+      "slot_id": "p047",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0137",
+      "title": "exam 137 dur=180",
+      "hall": 5,
+      "slot_id": "p047",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0192",
+      "title": "exam 192 dur=130",
+      "hall": 6,
+      "slot_id": "p047",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0258",
+      "title": "exam 258 dur=120",
+      "hall": 7,
+      "slot_id": "p047",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0358",
+      "title": "exam 358 dur=130",
+      "hall": 1,
+      "slot_id": "p048",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0385",
+      "title": "exam 385 dur=45",
+      "hall": 2,
+      "slot_id": "p048",
+      "category": "d45",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0388",
+      "title": "exam 388 dur=180",
+      "hall": 3,
+      "slot_id": "p048",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0410",
+      "title": "exam 410 dur=120",
+      "hall": 4,
+      "slot_id": "p048",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0523",
+      "title": "exam 523 dur=180",
+      "hall": 5,
+      "slot_id": "p048",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0554",
+      "title": "exam 554 dur=180",
+      "hall": 6,
+      "slot_id": "p048",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0570",
+      "title": "exam 570 dur=180",
+      "hall": 7,
+      "slot_id": "p048",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0121",
+      "title": "exam 121 dur=90",
+      "hall": 1,
+      "slot_id": "p049",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0177",
+      "title": "exam 177 dur=120",
+      "hall": 2,
+      "slot_id": "p049",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0194",
+      "title": "exam 194 dur=90",
+      "hall": 3,
+      "slot_id": "p049",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0253",
+      "title": "exam 253 dur=120",
+      "hall": 4,
+      "slot_id": "p049",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0286",
+      "title": "exam 286 dur=180",
+      "hall": 5,
+      "slot_id": "p049",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0288",
+      "title": "exam 288 dur=180",
+      "hall": 6,
+      "slot_id": "p049",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0289",
+      "title": "exam 289 dur=180",
+      "hall": 7,
+      "slot_id": "p049",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0407",
+      "title": "exam 407 dur=120",
+      "hall": 1,
+      "slot_id": "p050",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0517",
+      "title": "exam 517 dur=180",
+      "hall": 2,
+      "slot_id": "p050",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0522",
+      "title": "exam 522 dur=180",
+      "hall": 3,
+      "slot_id": "p050",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0162",
+      "title": "exam 162 dur=180",
+      "hall": 4,
+      "slot_id": "p050",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0184",
+      "title": "exam 184 dur=90",
+      "hall": 5,
+      "slot_id": "p050",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0375",
+      "title": "exam 375 dur=180",
+      "hall": 6,
+      "slot_id": "p050",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0538",
+      "title": "exam 538 dur=120",
+      "hall": 7,
+      "slot_id": "p050",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0591",
+      "title": "exam 591 dur=180",
+      "hall": 1,
+      "slot_id": "p051",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0117",
+      "title": "exam 117 dur=90",
+      "hall": 2,
+      "slot_id": "p051",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0409",
+      "title": "exam 409 dur=120",
+      "hall": 3,
+      "slot_id": "p051",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0415",
+      "title": "exam 415 dur=120",
+      "hall": 4,
+      "slot_id": "p051",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0548",
+      "title": "exam 548 dur=120",
+      "hall": 5,
+      "slot_id": "p051",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0564",
+      "title": "exam 564 dur=120",
+      "hall": 6,
+      "slot_id": "p051",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0199",
+      "title": "exam 199 dur=90",
+      "hall": 7,
+      "slot_id": "p051",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0515",
+      "title": "exam 515 dur=180",
+      "hall": 1,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0023",
+      "title": "exam 23 dur=180",
+      "hall": 2,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0027",
+      "title": "exam 27 dur=180",
+      "hall": 3,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0032",
+      "title": "exam 32 dur=180",
+      "hall": 4,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0033",
+      "title": "exam 33 dur=180",
+      "hall": 5,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0183",
+      "title": "exam 183 dur=180",
+      "hall": 6,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0481",
+      "title": "exam 481 dur=180",
+      "hall": 7,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0550",
+      "title": "exam 550 dur=120",
+      "hall": 1,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0552",
+      "title": "exam 552 dur=120",
+      "hall": 2,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0021",
+      "title": "exam 21 dur=180",
+      "hall": 3,
+      "slot_id": "p053",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0109",
+      "title": "exam 109 dur=120",
+      "hall": 4,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0156",
+      "title": "exam 156 dur=180",
+      "hall": 5,
+      "slot_id": "p053",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0369",
+      "title": "exam 369 dur=130",
+      "hall": 6,
+      "slot_id": "p053",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0408",
+      "title": "exam 408 dur=120",
+      "hall": 7,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0412",
+      "title": "exam 412 dur=120",
+      "hall": 3,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0536",
+      "title": "exam 536 dur=120",
+      "hall": 4,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0560",
+      "title": "exam 560 dur=120",
+      "hall": 5,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0573",
+      "title": "exam 573 dur=120",
+      "hall": 6,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0066",
+      "title": "exam 66 dur=180",
+      "hall": 7,
+      "slot_id": "p053",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0478",
+      "title": "exam 478 dur=180",
+      "hall": 2,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0524",
+      "title": "exam 524 dur=180",
+      "hall": 3,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0537",
+      "title": "exam 537 dur=120",
+      "hall": 4,
+      "slot_id": "p052",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0567",
+      "title": "exam 567 dur=120",
+      "hall": 5,
+      "slot_id": "p052",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0571",
+      "title": "exam 571 dur=180",
+      "hall": 6,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0597",
+      "title": "exam 597 dur=180",
+      "hall": 7,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0025",
+      "title": "exam 25 dur=120",
+      "hall": 1,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0026",
+      "title": "exam 26 dur=120",
+      "hall": 2,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0185",
+      "title": "exam 185 dur=90",
+      "hall": 7,
+      "slot_id": "p051",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0239",
+      "title": "exam 239 dur=120",
+      "hall": 1,
+      "slot_id": "p052",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0256",
+      "title": "exam 256 dur=120",
+      "hall": 2,
+      "slot_id": "p051",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0261",
+      "title": "exam 261 dur=120",
+      "hall": 3,
+      "slot_id": "p051",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0404",
+      "title": "exam 404 dur=120",
+      "hall": 4,
+      "slot_id": "p051",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0476",
+      "title": "exam 476 dur=180",
+      "hall": 5,
+      "slot_id": "p051",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0588",
+      "title": "exam 588 dur=120",
+      "hall": 6,
+      "slot_id": "p051",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0022",
+      "title": "exam 22 dur=180",
+      "hall": 4,
+      "slot_id": "p050",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0111",
+      "title": "exam 111 dur=180",
+      "hall": 5,
+      "slot_id": "p050",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0257",
+      "title": "exam 257 dur=120",
+      "hall": 6,
+      "slot_id": "p050",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0267",
+      "title": "exam 267 dur=120",
+      "hall": 7,
+      "slot_id": "p050",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0274",
+      "title": "exam 274 dur=180",
+      "hall": 1,
+      "slot_id": "p051",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0294",
+      "title": "exam 294 dur=180",
+      "hall": 1,
+      "slot_id": "p049",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0157",
+      "title": "exam 157 dur=180",
+      "hall": 2,
+      "slot_id": "p049",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0158",
+      "title": "exam 158 dur=180",
+      "hall": 3,
+      "slot_id": "p049",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0238",
+      "title": "exam 238 dur=120",
+      "hall": 4,
+      "slot_id": "p049",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0296",
+      "title": "exam 296 dur=180",
+      "hall": 5,
+      "slot_id": "p049",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0459",
+      "title": "exam 459 dur=180",
+      "hall": 6,
+      "slot_id": "p049",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0464",
+      "title": "exam 464 dur=90",
+      "hall": 7,
+      "slot_id": "p049",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0557",
+      "title": "exam 557 dur=120",
+      "hall": 1,
+      "slot_id": "p050",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0574",
+      "title": "exam 574 dur=120",
+      "hall": 2,
+      "slot_id": "p050",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0578",
+      "title": "exam 578 dur=180",
+      "hall": 3,
+      "slot_id": "p050",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0189",
+      "title": "exam 189 dur=90",
+      "hall": 4,
+      "slot_id": "p047",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0193",
+      "title": "exam 193 dur=90",
+      "hall": 5,
+      "slot_id": "p047",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0195",
+      "title": "exam 195 dur=180",
+      "hall": 6,
+      "slot_id": "p047",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0215",
+      "title": "exam 215 dur=90",
+      "hall": 7,
+      "slot_id": "p047",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0457",
+      "title": "exam 457 dur=120",
+      "hall": 1,
+      "slot_id": "p048",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0598",
+      "title": "exam 598 dur=180",
+      "hall": 2,
+      "slot_id": "p048",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0604",
+      "title": "exam 604 dur=120",
+      "hall": 3,
+      "slot_id": "p048",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0043",
+      "title": "exam 43 dur=60",
+      "hall": 4,
+      "slot_id": "p048",
+      "category": "d60",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0044",
+      "title": "exam 44 dur=60",
+      "hall": 5,
+      "slot_id": "p048",
+      "category": "d60",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0045",
+      "title": "exam 45 dur=120",
+      "hall": 6,
+      "slot_id": "p048",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0159",
+      "title": "exam 159 dur=180",
+      "hall": 7,
+      "slot_id": "p048",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0179",
+      "title": "exam 179 dur=180",
+      "hall": 4,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0226",
+      "title": "exam 226 dur=120",
+      "hall": 5,
+      "slot_id": "p046",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0526",
+      "title": "exam 526 dur=180",
+      "hall": 6,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0068",
+      "title": "exam 68 dur=180",
+      "hall": 7,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0106",
+      "title": "exam 106 dur=120",
+      "hall": 1,
+      "slot_id": "p047",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0235",
+      "title": "exam 235 dur=180",
+      "hall": 2,
+      "slot_id": "p047",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0292",
+      "title": "exam 292 dur=180",
+      "hall": 3,
+      "slot_id": "p047",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0545",
+      "title": "exam 545 dur=120",
+      "hall": 5,
+      "slot_id": "p045",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0601",
+      "title": "exam 601 dur=180",
+      "hall": 6,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0125",
+      "title": "exam 125 dur=180",
+      "hall": 7,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0142",
+      "title": "exam 142 dur=180",
+      "hall": 1,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0191",
+      "title": "exam 191 dur=180",
+      "hall": 2,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0218",
+      "title": "exam 218 dur=120",
+      "hall": 3,
+      "slot_id": "p046",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0222",
+      "title": "exam 222 dur=120",
+      "hall": 6,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0356",
+      "title": "exam 356 dur=180",
+      "hall": 7,
+      "slot_id": "p044",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0372",
+      "title": "exam 372 dur=130",
+      "hall": 1,
+      "slot_id": "p045",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0499",
+      "title": "exam 499 dur=180",
+      "hall": 2,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0163",
+      "title": "exam 163 dur=180",
+      "hall": 3,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0176",
+      "title": "exam 176 dur=120",
+      "hall": 4,
+      "slot_id": "p045",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0217",
+      "title": "exam 217 dur=120",
+      "hall": 7,
+      "slot_id": "p043",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0234",
+      "title": "exam 234 dur=120",
+      "hall": 1,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0255",
+      "title": "exam 255 dur=180",
+      "hall": 2,
+      "slot_id": "p044",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0278",
+      "title": "exam 278 dur=120",
+      "hall": 3,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0342",
+      "title": "exam 342 dur=180",
+      "hall": 4,
+      "slot_id": "p044",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0405",
+      "title": "exam 405 dur=120",
+      "hall": 5,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0406",
+      "title": "exam 406 dur=120",
+      "hall": 6,
+      "slot_id": "p043",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0504",
+      "title": "exam 504 dur=180",
+      "hall": 1,
+      "slot_id": "p043",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0539",
+      "title": "exam 539 dur=120",
+      "hall": 2,
+      "slot_id": "p043",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0546",
+      "title": "exam 546 dur=120",
+      "hall": 3,
+      "slot_id": "p043",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0147",
+      "title": "exam 147 dur=120",
+      "hall": 4,
+      "slot_id": "p043",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0175",
+      "title": "exam 175 dur=90",
+      "hall": 5,
+      "slot_id": "p043",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0186",
+      "title": "exam 186 dur=90",
+      "hall": 1,
+      "slot_id": "p042",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0187",
+      "title": "exam 187 dur=90",
+      "hall": 2,
+      "slot_id": "p042",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0224",
+      "title": "exam 224 dur=120",
+      "hall": 3,
+      "slot_id": "p042",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0228",
+      "title": "exam 228 dur=120",
+      "hall": 4,
+      "slot_id": "p042",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0368",
+      "title": "exam 368 dur=130",
+      "hall": 5,
+      "slot_id": "p042",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0498",
+      "title": "exam 498 dur=120",
+      "hall": 6,
+      "slot_id": "p042",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0049",
+      "title": "exam 49 dur=120",
+      "hall": 7,
+      "slot_id": "p042",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0097",
+      "title": "exam 97 dur=120",
+      "hall": 4,
+      "slot_id": "p041",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0188",
+      "title": "exam 188 dur=90",
+      "hall": 5,
+      "slot_id": "p041",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0196",
+      "title": "exam 196 dur=180",
+      "hall": 6,
+      "slot_id": "p041",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0271",
+      "title": "exam 271 dur=120",
+      "hall": 7,
+      "slot_id": "p041",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0327",
+      "title": "exam 327 dur=180",
+      "hall": 7,
+      "slot_id": "p040",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0328",
+      "title": "exam 328 dur=180",
+      "hall": 1,
+      "slot_id": "p041",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0465",
+      "title": "exam 465 dur=180",
+      "hall": 2,
+      "slot_id": "p041",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0038",
+      "title": "exam 38 dur=120",
+      "hall": 3,
+      "slot_id": "p041",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0039",
+      "title": "exam 39 dur=120",
+      "hall": 2,
+      "slot_id": "p040",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0161",
+      "title": "exam 161 dur=120",
+      "hall": 3,
+      "slot_id": "p040",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0208",
+      "title": "exam 208 dur=180",
+      "hall": 4,
+      "slot_id": "p040",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0230",
+      "title": "exam 230 dur=120",
+      "hall": 5,
+      "slot_id": "p040",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0273",
+      "title": "exam 273 dur=180",
+      "hall": 6,
+      "slot_id": "p040",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0329",
+      "title": "exam 329 dur=180",
+      "hall": 6,
+      "slot_id": "p039",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0330",
+      "title": "exam 330 dur=180",
+      "hall": 7,
+      "slot_id": "p039",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0386",
+      "title": "exam 386 dur=180",
+      "hall": 1,
+      "slot_id": "p040",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0463",
+      "title": "exam 463 dur=90",
+      "hall": 1,
+      "slot_id": "p039",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0563",
+      "title": "exam 563 dur=180",
+      "hall": 2,
+      "slot_id": "p039",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0566",
+      "title": "exam 566 dur=180",
+      "hall": 3,
+      "slot_id": "p039",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0585",
+      "title": "exam 585 dur=120",
+      "hall": 4,
+      "slot_id": "p039",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0600",
+      "title": "exam 600 dur=120",
+      "hall": 5,
+      "slot_id": "p039",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0030",
+      "title": "exam 30 dur=120",
+      "hall": 3,
+      "slot_id": "p038",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0070",
+      "title": "exam 70 dur=180",
+      "hall": 4,
+      "slot_id": "p038",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0101",
+      "title": "exam 101 dur=120",
+      "hall": 5,
+      "slot_id": "p038",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0104",
+      "title": "exam 104 dur=180",
+      "hall": 6,
+      "slot_id": "p038",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0110",
+      "title": "exam 110 dur=180",
+      "hall": 7,
+      "slot_id": "p038",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0223",
+      "title": "exam 223 dur=120",
+      "hall": 7,
+      "slot_id": "p036",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0269",
+      "title": "exam 269 dur=120",
+      "hall": 1,
+      "slot_id": "p037",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0321",
+      "title": "exam 321 dur=180",
+      "hall": 2,
+      "slot_id": "p037",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0322",
+      "title": "exam 322 dur=180",
+      "hall": 3,
+      "slot_id": "p037",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0403",
+      "title": "exam 403 dur=120",
+      "hall": 4,
+      "slot_id": "p037",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0414",
+      "title": "exam 414 dur=90",
+      "hall": 5,
+      "slot_id": "p037",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0599",
+      "title": "exam 599 dur=180",
+      "hall": 6,
+      "slot_id": "p037",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0120",
+      "title": "exam 120 dur=180",
+      "hall": 7,
+      "slot_id": "p037",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0123",
+      "title": "exam 123 dur=180",
+      "hall": 1,
+      "slot_id": "p038",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0219",
+      "title": "exam 219 dur=120",
+      "hall": 2,
+      "slot_id": "p038",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0237",
+      "title": "exam 237 dur=120",
+      "hall": 2,
+      "slot_id": "p035",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0300",
+      "title": "exam 300 dur=180",
+      "hall": 3,
+      "slot_id": "p035",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0312",
+      "title": "exam 312 dur=180",
+      "hall": 4,
+      "slot_id": "p035",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0313",
+      "title": "exam 313 dur=180",
+      "hall": 5,
+      "slot_id": "p035",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0325",
+      "title": "exam 325 dur=180",
+      "hall": 6,
+      "slot_id": "p035",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0326",
+      "title": "exam 326 dur=180",
+      "hall": 7,
+      "slot_id": "p035",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0331",
+      "title": "exam 331 dur=180",
+      "hall": 1,
+      "slot_id": "p036",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0332",
+      "title": "exam 332 dur=180",
+      "hall": 2,
+      "slot_id": "p036",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0339",
+      "title": "exam 339 dur=120",
+      "hall": 3,
+      "slot_id": "p036",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0575",
+      "title": "exam 575 dur=180",
+      "hall": 4,
+      "slot_id": "p036",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0589",
+      "title": "exam 589 dur=120",
+      "hall": 5,
+      "slot_id": "p036",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0593",
+      "title": "exam 593 dur=120",
+      "hall": 6,
+      "slot_id": "p036",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0100",
+      "title": "exam 100 dur=120",
+      "hall": 7,
+      "slot_id": "p034",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0119",
+      "title": "exam 119 dur=180",
+      "hall": 1,
+      "slot_id": "p035",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0160",
+      "title": "exam 160 dur=180",
+      "hall": 3,
+      "slot_id": "p034",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0227",
+      "title": "exam 227 dur=120",
+      "hall": 4,
+      "slot_id": "p034",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0233",
+      "title": "exam 233 dur=120",
+      "hall": 5,
+      "slot_id": "p034",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0416",
+      "title": "exam 416 dur=120",
+      "hall": 6,
+      "slot_id": "p034",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0452",
+      "title": "exam 452 dur=120",
+      "hall": 3,
+      "slot_id": "p033",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0462",
+      "title": "exam 462 dur=90",
+      "hall": 4,
+      "slot_id": "p033",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0516",
+      "title": "exam 516 dur=180",
+      "hall": 5,
+      "slot_id": "p033",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0126",
+      "title": "exam 126 dur=90",
+      "hall": 6,
+      "slot_id": "p033",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0270",
+      "title": "exam 270 dur=120",
+      "hall": 7,
+      "slot_id": "p033",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0317",
+      "title": "exam 317 dur=180",
+      "hall": 1,
+      "slot_id": "p034",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0318",
+      "title": "exam 318 dur=180",
+      "hall": 2,
+      "slot_id": "p034",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0351",
+      "title": "exam 351 dur=130",
+      "hall": 6,
+      "slot_id": "p032",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0461",
+      "title": "exam 461 dur=180",
+      "hall": 7,
+      "slot_id": "p032",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0513",
+      "title": "exam 513 dur=180",
+      "hall": 1,
+      "slot_id": "p033",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0581",
+      "title": "exam 581 dur=180",
+      "hall": 2,
+      "slot_id": "p033",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0590",
+      "title": "exam 590 dur=120",
+      "hall": 3,
+      "slot_id": "p031",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0275",
+      "title": "exam 275 dur=120",
+      "hall": 4,
+      "slot_id": "p031",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0293",
+      "title": "exam 293 dur=180",
+      "hall": 5,
+      "slot_id": "p031",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0310",
+      "title": "exam 310 dur=180",
+      "hall": 6,
+      "slot_id": "p031",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0311",
+      "title": "exam 311 dur=180",
+      "hall": 7,
+      "slot_id": "p031",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0319",
+      "title": "exam 319 dur=180",
+      "hall": 1,
+      "slot_id": "p032",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0320",
+      "title": "exam 320 dur=180",
+      "hall": 2,
+      "slot_id": "p032",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0340",
+      "title": "exam 340 dur=120",
+      "hall": 3,
+      "slot_id": "p032",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0493",
+      "title": "exam 493 dur=180",
+      "hall": 4,
+      "slot_id": "p032",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0093",
+      "title": "exam 93 dur=180",
+      "hall": 5,
+      "slot_id": "p032",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0098",
+      "title": "exam 98 dur=120",
+      "hall": 1,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0277",
+      "title": "exam 277 dur=120",
+      "hall": 2,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0308",
+      "title": "exam 308 dur=180",
+      "hall": 7,
+      "slot_id": "p053",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0309",
+      "title": "exam 309 dur=180",
+      "hall": 7,
+      "slot_id": "p029",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0315",
+      "title": "exam 315 dur=180",
+      "hall": 1,
+      "slot_id": "p030",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0316",
+      "title": "exam 316 dur=180",
+      "hall": 2,
+      "slot_id": "p030",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0323",
+      "title": "exam 323 dur=180",
+      "hall": 3,
+      "slot_id": "p030",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0324",
+      "title": "exam 324 dur=180",
+      "hall": 4,
+      "slot_id": "p030",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0334",
+      "title": "exam 334 dur=120",
+      "hall": 5,
+      "slot_id": "p030",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0413",
+      "title": "exam 413 dur=90",
+      "hall": 6,
+      "slot_id": "p030",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0559",
+      "title": "exam 559 dur=120",
+      "hall": 7,
+      "slot_id": "p030",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0579",
+      "title": "exam 579 dur=120",
+      "hall": 1,
+      "slot_id": "p031",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0028",
+      "title": "exam 28 dur=120",
+      "hall": 2,
+      "slot_id": "p031",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0080",
+      "title": "exam 80 dur=100",
+      "hall": 3,
+      "slot_id": "p045",
+      "category": "d100",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0108",
+      "title": "exam 108 dur=120",
+      "hall": 4,
+      "slot_id": "p045",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0241",
+      "title": "exam 241 dur=120",
+      "hall": 7,
+      "slot_id": "p045",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0301",
+      "title": "exam 301 dur=180",
+      "hall": 1,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0306",
+      "title": "exam 306 dur=180",
+      "hall": 2,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0307",
+      "title": "exam 307 dur=180",
+      "hall": 3,
+      "slot_id": "p046",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0503",
+      "title": "exam 503 dur=150",
+      "hall": 7,
+      "slot_id": "p046",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0551",
+      "title": "exam 551 dur=120",
+      "hall": 1,
+      "slot_id": "p047",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0603",
+      "title": "exam 603 dur=180",
+      "hall": 2,
+      "slot_id": "p047",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0606",
+      "title": "exam 606 dur=180",
+      "hall": 3,
+      "slot_id": "p047",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0095",
+      "title": "exam 95 dur=120",
+      "hall": 4,
+      "slot_id": "p048",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0099",
+      "title": "exam 99 dur=180",
+      "hall": 5,
+      "slot_id": "p048",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0231",
+      "title": "exam 231 dur=120",
+      "hall": 6,
+      "slot_id": "p048",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0232",
+      "title": "exam 232 dur=120",
+      "hall": 7,
+      "slot_id": "p048",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0249",
+      "title": "exam 249 dur=120",
+      "hall": 7,
+      "slot_id": "p051",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0276",
+      "title": "exam 276 dur=120",
+      "hall": 1,
+      "slot_id": "p052",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0279",
+      "title": "exam 279 dur=180",
+      "hall": 2,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0336",
+      "title": "exam 336 dur=120",
+      "hall": 3,
+      "slot_id": "p052",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0344",
+      "title": "exam 344 dur=120",
+      "hall": 4,
+      "slot_id": "p052",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0378",
+      "title": "exam 378 dur=180",
+      "hall": 5,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0480",
+      "title": "exam 480 dur=180",
+      "hall": 6,
+      "slot_id": "p052",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0492",
+      "title": "exam 492 dur=135",
+      "hall": 7,
+      "slot_id": "p052",
+      "category": "d135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0558",
+      "title": "exam 558 dur=180",
+      "hall": 3,
+      "slot_id": "p053",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0594",
+      "title": "exam 594 dur=120",
+      "hall": 4,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0034",
+      "title": "exam 34 dur=120",
+      "hall": 5,
+      "slot_id": "p053",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0118",
+      "title": "exam 118 dur=180",
+      "hall": 6,
+      "slot_id": "p053",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0190",
+      "title": "exam 190 dur=90",
+      "hall": 3,
+      "slot_id": "p029",
+      "category": "d90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0203",
+      "title": "exam 203 dur=180",
+      "hall": 4,
+      "slot_id": "p029",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0205",
+      "title": "exam 205 dur=120",
+      "hall": 5,
+      "slot_id": "p029",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0272",
+      "title": "exam 272 dur=120",
+      "hall": 6,
+      "slot_id": "p029",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0314",
+      "title": "exam 314 dur=180",
+      "hall": 7,
+      "slot_id": "p043",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0338",
+      "title": "exam 338 dur=120",
+      "hall": 1,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0343",
+      "title": "exam 343 dur=120",
+      "hall": 2,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0361",
+      "title": "exam 361 dur=130",
+      "hall": 3,
+      "slot_id": "p044",
+      "category": "d130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0419",
+      "title": "exam 419 dur=180",
+      "hall": 4,
+      "slot_id": "p044",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0420",
+      "title": "exam 420 dur=180",
+      "hall": 5,
+      "slot_id": "p044",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0519",
+      "title": "exam 519 dur=120",
+      "hall": 6,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0561",
+      "title": "exam 561 dur=120",
+      "hall": 7,
+      "slot_id": "p044",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0582",
+      "title": "exam 582 dur=180",
+      "hall": 1,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0605",
+      "title": "exam 605 dur=120",
+      "hall": 2,
+      "slot_id": "p045",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0094",
+      "title": "exam 94 dur=180",
+      "hall": 5,
+      "slot_id": "p045",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0240",
+      "title": "exam 240 dur=120",
+      "hall": 6,
+      "slot_id": "p045",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0335",
+      "title": "exam 335 dur=120",
+      "hall": 4,
+      "slot_id": "p046",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0345",
+      "title": "exam 345 dur=120",
+      "hall": 5,
+      "slot_id": "p046",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0225",
+      "title": "exam 225 dur=120",
+      "hall": 6,
+      "slot_id": "p046",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0337",
+      "title": "exam 337 dur=120",
+      "hall": 4,
+      "slot_id": "p047",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0029",
+      "title": "exam 29 dur=120",
+      "hall": 5,
+      "slot_id": "p047",
+      "category": "d120",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0078",
+      "title": "exam 78 dur=150",
+      "hall": 6,
+      "slot_id": "p047",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0079",
+      "title": "exam 79 dur=150",
+      "hall": 7,
+      "slot_id": "p047",
+      "category": "d150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ex0291",
+      "title": "exam 291 dur=180",
+      "hall": 1,
+      "slot_id": "p048",
+      "category": "d180",
+      "abstract": "",
+      "fame": 0.0
+    }
+  ],
+  "halls": [
+    {
+      "id": 1,
+      "capacity": 260
+    },
+    {
+      "id": 2,
+      "capacity": 100
+    },
+    {
+      "id": 3,
+      "capacity": 129
+    },
+    {
+      "id": 4,
+      "capacity": 60
+    },
+    {
+      "id": 5,
+      "capacity": 77
+    },
+    {
+      "id": 6,
+      "capacity": 65
+    },
+    {
+      "id": 7,
+      "capacity": 111
+    }
+  ],
+  "slots": [
+    {
+      "id": "p000",
+      "datetime": "15:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0102",
+        "ex0129",
+        "ex0533",
+        "ex0020",
+        "ex0544",
+        "ex0009",
+        "ex0245"
+      ]
+    },
+    {
+      "id": "p001",
+      "datetime": "15:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0166",
+        "ex0168",
+        "ex0535",
+        "ex0174",
+        "ex0426",
+        "ex0250",
+        "ex0251"
+      ]
+    },
+    {
+      "id": "p002",
+      "datetime": "18:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0436",
+        "ex0242",
+        "ex0200",
+        "ex0244",
+        "ex0036",
+        "ex0262",
+        "ex0285"
+      ]
+    },
+    {
+      "id": "p003",
+      "datetime": "18:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0442",
+        "ex0532",
+        "ex0302",
+        "ex0019",
+        "ex0360",
+        "ex0447",
+        "ex0379"
+      ]
+    },
+    {
+      "id": "p004",
+      "datetime": "19:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0130",
+        "ex0283",
+        "ex0002",
+        "ex0170",
+        "ex0365",
+        "ex0011",
+        "ex0427"
+      ]
+    },
+    {
+      "id": "p005",
+      "datetime": "19:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0000",
+        "ex0373",
+        "ex0350",
+        "ex0390",
+        "ex0468",
+        "ex0057",
+        "ex0496"
+      ]
+    },
+    {
+      "id": "p006",
+      "datetime": "20:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0031",
+        "ex0440",
+        "ex0354",
+        "ex0430",
+        "ex0529",
+        "ex0423",
+        "ex0201"
+      ]
+    },
+    {
+      "id": "p007",
+      "datetime": "20:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0197",
+        "ex0530",
+        "ex0169",
+        "ex0172",
+        "ex0015",
+        "ex0096",
+        "ex0435"
+      ]
+    },
+    {
+      "id": "p008",
+      "datetime": "21:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0446",
+        "ex0243",
+        "ex0444",
+        "ex0505",
+        "ex0281",
+        "ex0136",
+        "ex0445"
+      ]
+    },
+    {
+      "id": "p009",
+      "datetime": "21:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0568",
+        "ex0085",
+        "ex0008",
+        "ex0007",
+        "ex0380",
+        "ex0263",
+        "ex0474"
+      ]
+    },
+    {
+      "id": "p010",
+      "datetime": "22:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0005",
+        "ex0053",
+        "ex0348",
+        "ex0349",
+        "ex0429",
+        "ex0051",
+        "ex0046"
+      ]
+    },
+    {
+      "id": "p011",
+      "datetime": "22:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0441",
+        "ex0086",
+        "ex0355",
+        "ex0155",
+        "ex0433",
+        "ex0060",
+        "ex0107"
+      ]
+    },
+    {
+      "id": "p012",
+      "datetime": "25:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0346",
+        "ex0572",
+        "ex0389",
+        "ex0428",
+        "ex0362",
+        "ex0061",
+        "ex0486"
+      ]
+    },
+    {
+      "id": "p013",
+      "datetime": "25:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0507",
+        "ex0534",
+        "ex0171",
+        "ex0198",
+        "ex0138",
+        "ex0290",
+        "ex0487"
+      ]
+    },
+    {
+      "id": "p014",
+      "datetime": "26:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0528",
+        "ex0347",
+        "ex0391",
+        "ex0437",
+        "ex0017",
+        "ex0484",
+        "ex0013"
+      ]
+    },
+    {
+      "id": "p015",
+      "datetime": "26:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0422",
+        "ex0531",
+        "ex0298",
+        "ex0514",
+        "ex0139",
+        "ex0359",
+        "ex0453"
+      ]
+    },
+    {
+      "id": "p016",
+      "datetime": "27:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0479",
+        "ex0467",
+        "ex0280",
+        "ex0543",
+        "ex0140",
+        "ex0512",
+        "ex0041"
+      ]
+    },
+    {
+      "id": "p017",
+      "datetime": "27:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0424",
+        "ex0010",
+        "ex0434",
+        "ex0055",
+        "ex0506",
+        "ex0127",
+        "ex0128"
+      ]
+    },
+    {
+      "id": "p018",
+      "datetime": "28:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0004",
+        "ex0541",
+        "ex0374",
+        "ex0470",
+        "ex0035",
+        "ex0266",
+        "ex0352"
+      ]
+    },
+    {
+      "id": "p019",
+      "datetime": "28:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0003",
+        "ex0353",
+        "ex0454",
+        "ex0466",
+        "ex0103",
+        "ex0569",
+        "ex0602"
+      ]
+    },
+    {
+      "id": "p020",
+      "datetime": "29:04:2005T09:30:00",
+      "talk_ids": [
+        "ex0425",
+        "ex0282",
+        "ex0054",
+        "ex0299",
+        "ex0173",
+        "ex0016",
+        "ex0363"
+      ]
+    },
+    {
+      "id": "p021",
+      "datetime": "29:04:2005T14:00:00",
+      "talk_ids": [
+        "ex0553",
+        "ex0509",
+        "ex0376",
+        "ex0247",
+        "ex0248",
+        "ex0387",
+        "ex0084"
+      ]
+    },
+    {
+      "id": "p022",
+      "datetime": "02:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0381",
+        "ex0001",
+        "ex0087",
+        "ex0264",
+        "ex0393",
+        "ex0483",
+        "ex0510"
+      ]
+    },
+    {
+      "id": "p023",
+      "datetime": "03:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0048",
+        "ex0014",
+        "ex0366",
+        "ex0383",
+        "ex0284",
+        "ex0477",
+        "ex0377"
+      ]
+    },
+    {
+      "id": "p024",
+      "datetime": "03:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0401",
+        "ex0402",
+        "ex0438",
+        "ex0089",
+        "ex0151",
+        "ex0209",
+        "ex0260"
+      ]
+    },
+    {
+      "id": "p025",
+      "datetime": "04:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0392",
+        "ex0073",
+        "ex0167",
+        "ex0229",
+        "ex0297",
+        "ex0091",
+        "ex0135"
+      ]
+    },
+    {
+      "id": "p026",
+      "datetime": "04:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0304",
+        "ex0357",
+        "ex0012",
+        "ex0132",
+        "ex0439",
+        "ex0497",
+        "ex0210"
+      ]
+    },
+    {
+      "id": "p027",
+      "datetime": "05:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0482",
+        "ex0490",
+        "ex0518",
+        "ex0154",
+        "ex0287",
+        "ex0473",
+        "ex0500"
+      ]
+    },
+    {
+      "id": "p028",
+      "datetime": "05:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0202",
+        "ex0212",
+        "ex0397",
+        "ex0006",
+        "ex0133",
+        "ex0370",
+        "ex0399"
+      ]
+    },
+    {
+      "id": "p029",
+      "datetime": "06:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0542",
+        "ex0595",
+        "ex0047",
+        "ex0213",
+        "ex0400",
+        "ex0521",
+        "ex0056",
+        "ex0309",
+        "ex0190",
+        "ex0203",
+        "ex0205",
+        "ex0272"
+      ]
+    },
+    {
+      "id": "p030",
+      "datetime": "06:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0059",
+        "ex0113",
+        "ex0204",
+        "ex0206",
+        "ex0246",
+        "ex0475",
+        "ex0485",
+        "ex0315",
+        "ex0316",
+        "ex0323",
+        "ex0324",
+        "ex0334",
+        "ex0413",
+        "ex0559"
+      ]
+    },
+    {
+      "id": "p031",
+      "datetime": "09:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0494",
+        "ex0580",
+        "ex0075",
+        "ex0076",
+        "ex0090",
+        "ex0150",
+        "ex0211",
+        "ex0590",
+        "ex0275",
+        "ex0293",
+        "ex0310",
+        "ex0311",
+        "ex0579",
+        "ex0028"
+      ]
+    },
+    {
+      "id": "p032",
+      "datetime": "09:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0384",
+        "ex0398",
+        "ex0443",
+        "ex0495",
+        "ex0586",
+        "ex0131",
+        "ex0432",
+        "ex0351",
+        "ex0461",
+        "ex0319",
+        "ex0320",
+        "ex0340",
+        "ex0493",
+        "ex0093"
+      ]
+    },
+    {
+      "id": "p033",
+      "datetime": "10:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0471",
+        "ex0576",
+        "ex0064",
+        "ex0092",
+        "ex0112",
+        "ex0145",
+        "ex0265",
+        "ex0452",
+        "ex0462",
+        "ex0516",
+        "ex0126",
+        "ex0270",
+        "ex0513",
+        "ex0581"
+      ]
+    },
+    {
+      "id": "p034",
+      "datetime": "10:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0508",
+        "ex0549",
+        "ex0105",
+        "ex0216",
+        "ex0394",
+        "ex0491",
+        "ex0152",
+        "ex0100",
+        "ex0160",
+        "ex0227",
+        "ex0233",
+        "ex0416",
+        "ex0317",
+        "ex0318"
+      ]
+    },
+    {
+      "id": "p035",
+      "datetime": "11:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0254",
+        "ex0040",
+        "ex0069",
+        "ex0143",
+        "ex0144",
+        "ex0164",
+        "ex0165",
+        "ex0237",
+        "ex0300",
+        "ex0312",
+        "ex0313",
+        "ex0325",
+        "ex0326",
+        "ex0119"
+      ]
+    },
+    {
+      "id": "p036",
+      "datetime": "11:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0181",
+        "ex0214",
+        "ex0333",
+        "ex0382",
+        "ex0449",
+        "ex0556",
+        "ex0146",
+        "ex0223",
+        "ex0331",
+        "ex0332",
+        "ex0339",
+        "ex0575",
+        "ex0589",
+        "ex0593"
+      ]
+    },
+    {
+      "id": "p037",
+      "datetime": "12:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0180",
+        "ex0252",
+        "ex0259",
+        "ex0295",
+        "ex0448",
+        "ex0469",
+        "ex0488",
+        "ex0269",
+        "ex0321",
+        "ex0322",
+        "ex0403",
+        "ex0414",
+        "ex0599",
+        "ex0120"
+      ]
+    },
+    {
+      "id": "p038",
+      "datetime": "12:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0489",
+        "ex0502",
+        "ex0052",
+        "ex0115",
+        "ex0116",
+        "ex0236",
+        "ex0501",
+        "ex0030",
+        "ex0070",
+        "ex0101",
+        "ex0104",
+        "ex0110",
+        "ex0123",
+        "ex0219"
+      ]
+    },
+    {
+      "id": "p039",
+      "datetime": "13:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0072",
+        "ex0371",
+        "ex0395",
+        "ex0417",
+        "ex0418",
+        "ex0074",
+        "ex0088",
+        "ex0329",
+        "ex0330",
+        "ex0463",
+        "ex0563",
+        "ex0566",
+        "ex0585",
+        "ex0600"
+      ]
+    },
+    {
+      "id": "p040",
+      "datetime": "13:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0364",
+        "ex0122",
+        "ex0148",
+        "ex0303",
+        "ex0511",
+        "ex0592",
+        "ex0114",
+        "ex0327",
+        "ex0039",
+        "ex0161",
+        "ex0208",
+        "ex0230",
+        "ex0273",
+        "ex0386"
+      ]
+    },
+    {
+      "id": "p041",
+      "datetime": "14:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0153",
+        "ex0396",
+        "ex0555",
+        "ex0141",
+        "ex0207",
+        "ex0221",
+        "ex0565",
+        "ex0097",
+        "ex0188",
+        "ex0196",
+        "ex0271",
+        "ex0328",
+        "ex0465",
+        "ex0038"
+      ]
+    },
+    {
+      "id": "p042",
+      "datetime": "16:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0050",
+        "ex0058",
+        "ex0062",
+        "ex0367",
+        "ex0456",
+        "ex0547",
+        "ex0562",
+        "ex0186",
+        "ex0187",
+        "ex0224",
+        "ex0228",
+        "ex0368",
+        "ex0498",
+        "ex0049"
+      ]
+    },
+    {
+      "id": "p043",
+      "datetime": "16:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0077",
+        "ex0182",
+        "ex0268",
+        "ex0431",
+        "ex0520",
+        "ex0065",
+        "ex0018",
+        "ex0217",
+        "ex0406",
+        "ex0504",
+        "ex0539",
+        "ex0546",
+        "ex0147",
+        "ex0175",
+        "ex0314"
+      ]
+    },
+    {
+      "id": "p044",
+      "datetime": "17:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0063",
+        "ex0067",
+        "ex0134",
+        "ex0540",
+        "ex0577",
+        "ex0071",
+        "ex0220",
+        "ex0222",
+        "ex0356",
+        "ex0234",
+        "ex0255",
+        "ex0278",
+        "ex0342",
+        "ex0405",
+        "ex0338",
+        "ex0343",
+        "ex0361",
+        "ex0419",
+        "ex0420",
+        "ex0519",
+        "ex0561"
+      ]
+    },
+    {
+      "id": "p045",
+      "datetime": "17:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0411",
+        "ex0451",
+        "ex0472",
+        "ex0584",
+        "ex0024",
+        "ex0305",
+        "ex0458",
+        "ex0545",
+        "ex0601",
+        "ex0125",
+        "ex0372",
+        "ex0499",
+        "ex0163",
+        "ex0176",
+        "ex0080",
+        "ex0108",
+        "ex0241",
+        "ex0582",
+        "ex0605",
+        "ex0094",
+        "ex0240"
+      ]
+    },
+    {
+      "id": "p046",
+      "datetime": "18:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0460",
+        "ex0583",
+        "ex0587",
+        "ex0042",
+        "ex0149",
+        "ex0450",
+        "ex0455",
+        "ex0179",
+        "ex0226",
+        "ex0526",
+        "ex0068",
+        "ex0142",
+        "ex0191",
+        "ex0218",
+        "ex0301",
+        "ex0306",
+        "ex0307",
+        "ex0503",
+        "ex0335",
+        "ex0345",
+        "ex0225"
+      ]
+    },
+    {
+      "id": "p047",
+      "datetime": "18:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0525",
+        "ex0527",
+        "ex0596",
+        "ex0124",
+        "ex0137",
+        "ex0192",
+        "ex0258",
+        "ex0189",
+        "ex0193",
+        "ex0195",
+        "ex0215",
+        "ex0106",
+        "ex0235",
+        "ex0292",
+        "ex0551",
+        "ex0603",
+        "ex0606",
+        "ex0337",
+        "ex0029",
+        "ex0078",
+        "ex0079"
+      ]
+    },
+    {
+      "id": "p048",
+      "datetime": "19:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0358",
+        "ex0385",
+        "ex0388",
+        "ex0410",
+        "ex0523",
+        "ex0554",
+        "ex0570",
+        "ex0457",
+        "ex0598",
+        "ex0604",
+        "ex0043",
+        "ex0044",
+        "ex0045",
+        "ex0159",
+        "ex0095",
+        "ex0099",
+        "ex0231",
+        "ex0232",
+        "ex0291"
+      ]
+    },
+    {
+      "id": "p049",
+      "datetime": "19:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0121",
+        "ex0177",
+        "ex0194",
+        "ex0253",
+        "ex0286",
+        "ex0288",
+        "ex0289",
+        "ex0294",
+        "ex0157",
+        "ex0158",
+        "ex0238",
+        "ex0296",
+        "ex0459",
+        "ex0464"
+      ]
+    },
+    {
+      "id": "p050",
+      "datetime": "20:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0407",
+        "ex0517",
+        "ex0522",
+        "ex0162",
+        "ex0184",
+        "ex0375",
+        "ex0538",
+        "ex0022",
+        "ex0111",
+        "ex0257",
+        "ex0267",
+        "ex0557",
+        "ex0574",
+        "ex0578"
+      ]
+    },
+    {
+      "id": "p051",
+      "datetime": "20:05:2005T14:00:00",
+      "talk_ids": [
+        "ex0591",
+        "ex0117",
+        "ex0409",
+        "ex0415",
+        "ex0548",
+        "ex0564",
+        "ex0199",
+        "ex0185",
+        "ex0256",
+        "ex0261",
+        "ex0404",
+        "ex0476",
+        "ex0588",
+        "ex0274",
+        "ex0249"
+      ]
+    },
+    {
+      "id": "p052",
+      "datetime": "21:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0515",
+        "ex0023",
+        "ex0027",
+        "ex0032",
+        "ex0033",
+        "ex0183",
+        "ex0481",
+        "ex0478",
+        "ex0524",
+        "ex0537",
+        "ex0567",
+        "ex0571",
+        "ex0597",
+        "ex0239",
+        "ex0276",
+        "ex0279",
+        "ex0336",
+        "ex0344",
+        "ex0378",
+        "ex0480",
+        "ex0492"
+      ]
+    },
+    {
+      "id": "p053",
+      "datetime": "23:05:2005T09:30:00",
+      "talk_ids": [
+        "ex0550",
+        "ex0552",
+        "ex0021",
+        "ex0109",
+        "ex0156",
+        "ex0369",
+        "ex0408",
+        "ex0412",
+        "ex0536",
+        "ex0560",
+        "ex0573",
+        "ex0066",
+        "ex0025",
+        "ex0026",
+        "ex0098",
+        "ex0277",
+        "ex0308",
+        "ex0558",
+        "ex0594",
+        "ex0034",
+        "ex0118"
+      ]
+    }
+  ]
+}

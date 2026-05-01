@@ -1,0 +1,26 @@
+{
+  "n_slots_evaluated": 166,
+  "n_slots_with_tie": 95,
+  "n_pairs_total": 3647,
+  "n_pairs_tie": 1989,
+  "n_pairs_decided": 1658,
+  "counts": {
+    "starchaser_only": 353,
+    "tie_match": 1661,
+    "curious": 116,
+    "tie_other": 328,
+    "compliant_only": 1189
+  },
+  "alpha_decided": {
+    "A_compliant": 0.7171290711700844,
+    "C_starchaser": 0.21290711700844392,
+    "B_curious": 0.06996381182147166
+  },
+  "alpha_all": {
+    "A_compliant": 0.553742802303263,
+    "C_starchaser": 0.32451329860159034,
+    "B_curious": 0.1217438990951467
+  },
+  "avg_slot_size": 2.2280701754385963,
+  "random_baseline": 0.4488188976377953
+}

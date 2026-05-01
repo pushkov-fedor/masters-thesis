@@ -1,0 +1,649 @@
+{
+  "config": {
+    "K": 2,
+    "tau": 0.3,
+    "lambda_overflow": 2.0,
+    "p_skip_base": 0.05,
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "n_users": 1000,
+    "conference": "ITC-2019 mary-fal18 (cross-domain)"
+  },
+  "runs": [
+    {
+      "policy": "Random",
+      "seed": 1,
+      "elapsed_s": 0.11379599571228027,
+      "metrics": {
+        "overflow_rate_all": 0.5853658536585366,
+        "overflow_rate_choice": 0.5853658536585366,
+        "hall_utilization_variance": 4.2516017983900225,
+        "mean_user_utility": 0.009111158988305501,
+        "hall_load_gini": 0.7253833515881709,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 10.650476190476189
+      }
+    },
+    {
+      "policy": "Cosine",
+      "seed": 1,
+      "elapsed_s": 0.3031959533691406,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 177.13310115768857,
+        "mean_user_utility": 0.1246647766147341,
+        "hall_load_gini": 0.8653477546549836,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 22.39785714285714
+      }
+    },
+    {
+      "policy": "MMR",
+      "seed": 1,
+      "elapsed_s": 0.7300212383270264,
+      "metrics": {
+        "overflow_rate_all": 0.2926829268292683,
+        "overflow_rate_choice": 0.2926829268292683,
+        "hall_utilization_variance": 35.67800022483386,
+        "mean_user_utility": 0.12591585599524635,
+        "hall_load_gini": 0.8326396495071193,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 16.376904761904765
+      }
+    },
+    {
+      "policy": "Capacity-aware",
+      "seed": 1,
+      "elapsed_s": 0.4105839729309082,
+      "metrics": {
+        "overflow_rate_all": 0.3048780487804878,
+        "overflow_rate_choice": 0.3048780487804878,
+        "hall_utilization_variance": 154.04987830320945,
+        "mean_user_utility": 0.08753740443076406,
+        "hall_load_gini": 0.7037855969331873,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 18.486904761904764
+      }
+    },
+    {
+      "policy": "Capacity-aware MMR",
+      "seed": 1,
+      "elapsed_s": 0.8287601470947266,
+      "metrics": {
+        "overflow_rate_all": 0.6463414634146342,
+        "overflow_rate_choice": 0.6463414634146342,
+        "hall_utilization_variance": 0.003842270694837697,
+        "mean_user_utility": 0.07883714925817081,
+        "hall_load_gini": 0.5840087623220153,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 7.576666666666666
+      }
+    },
+    {
+      "policy": "DPP",
+      "seed": 1,
+      "elapsed_s": 1.2743158340454102,
+      "metrics": {
+        "overflow_rate_all": 0.2926829268292683,
+        "overflow_rate_choice": 0.2926829268292683,
+        "hall_utilization_variance": 35.68384924253784,
+        "mean_user_utility": 0.12390274948307446,
+        "hall_load_gini": 0.8328929353778751,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 16.37404761904762
+      }
+    },
+    {
+      "policy": "Calibrated",
+      "seed": 1,
+      "elapsed_s": 3.7605412006378174,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 176.9417605375236,
+        "mean_user_utility": 0.1113770274094173,
+        "hall_load_gini": 0.8434556407447974,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 21.83285714285714
+      }
+    },
+    {
+      "policy": "Sequential",
+      "seed": 1,
+      "elapsed_s": 0.40978384017944336,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 163.9725966603341,
+        "mean_user_utility": 0.12403987708262035,
+        "hall_load_gini": 0.8785117743702081,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 20.978809523809524
+      }
+    },
+    {
+      "policy": "GNN",
+      "seed": 1,
+      "elapsed_s": 0.2994980812072754,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 177.13310115768857,
+        "mean_user_utility": 0.1246647766147341,
+        "hall_load_gini": 0.8653477546549836,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 22.39785714285714
+      }
+    },
+    {
+      "policy": "Random",
+      "seed": 2,
+      "elapsed_s": 0.11462283134460449,
+      "metrics": {
+        "overflow_rate_all": 0.5853658536585366,
+        "overflow_rate_choice": 0.5853658536585366,
+        "hall_utilization_variance": 3.8577815284599746,
+        "mean_user_utility": 0.009965833838496889,
+        "hall_load_gini": 0.7287501194196886,
+        "skip_rate": 0.04842857142857143,
+        "mean_overload_excess": 10.784047619047618
+      }
+    },
+    {
+      "policy": "Cosine",
+      "seed": 2,
+      "elapsed_s": 0.3132967948913574,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 177.30384665444177,
+        "mean_user_utility": 0.12508808732032775,
+        "hall_load_gini": 0.8646770209223295,
+        "skip_rate": 0.04842857142857143,
+        "mean_overload_excess": 22.428571428571434
+      }
+    },
+    {
+      "policy": "MMR",
+      "seed": 2,
+      "elapsed_s": 0.7308993339538574,
+      "metrics": {
+        "overflow_rate_all": 0.2926829268292683,
+        "overflow_rate_choice": 0.2926829268292683,
+        "hall_utilization_variance": 36.192381558030355,
+        "mean_user_utility": 0.12541169216377396,
+        "hall_load_gini": 0.8334573023433556,
+        "skip_rate": 0.04842857142857143,
+        "mean_overload_excess": 16.436666666666667
+      }
+    },
+    {
+      "policy": "Capacity-aware",
+      "seed": 2,
+      "elapsed_s": 0.39756226539611816,
+      "metrics": {
+        "overflow_rate_all": 0.3048780487804878,
+        "overflow_rate_choice": 0.3048780487804878,
+        "hall_utilization_variance": 154.1641106830164,
+        "mean_user_utility": 0.08762604169334684,
+        "hall_load_gini": 0.7047774699403585,
+        "skip_rate": 0.04842857142857143,
+        "mean_overload_excess": 18.518333333333338
+      }
+    },
+    {
+      "policy": "Capacity-aware MMR",
+      "seed": 2,
+      "elapsed_s": 0.8095870018005371,
+      "metrics": {
+        "overflow_rate_all": 0.6463414634146342,
+        "overflow_rate_choice": 0.6463414634146342,
+        "hall_utilization_variance": 0.004531919813594325,
+        "mean_user_utility": 0.07780354633927346,
+        "hall_load_gini": 0.5841772324657778,
+        "skip_rate": 0.04842857142857143,
+        "mean_overload_excess": 7.596904761904762
+      }
+    },
+    {
+      "policy": "DPP",
+      "seed": 2,
+      "elapsed_s": 1.2615690231323242,
+      "metrics": {
+        "overflow_rate_all": 0.2926829268292683,
+        "overflow_rate_choice": 0.2926829268292683,
+        "hall_utilization_variance": 36.23650551143238,
+        "mean_user_utility": 0.12342336704475539,
+        "hall_load_gini": 0.8334436543789494,
+        "skip_rate": 0.04842857142857143,
+        "mean_overload_excess": 16.455714285714286
+      }
+    },
+    {
+      "policy": "Calibrated",
+      "seed": 2,
+      "elapsed_s": 3.794532060623169,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 177.19789419987356,
+        "mean_user_utility": 0.10979067984223366,
+        "hall_load_gini": 0.8432224208759265,
+        "skip_rate": 0.04842857142857143,
+        "mean_overload_excess": 21.90642857142857
+      }
+    },
+    {
+      "policy": "Sequential",
+      "seed": 2,
+      "elapsed_s": 0.419950008392334,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 163.99157103263875,
+        "mean_user_utility": 0.12412210767609733,
+        "hall_load_gini": 0.8780588500225192,
+        "skip_rate": 0.04842857142857143,
+        "mean_overload_excess": 20.999999999999996
+      }
+    },
+    {
+      "policy": "GNN",
+      "seed": 2,
+      "elapsed_s": 0.29817795753479004,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 177.30384665444177,
+        "mean_user_utility": 0.12508808732032775,
+        "hall_load_gini": 0.8646770209223295,
+        "skip_rate": 0.04842857142857143,
+        "mean_overload_excess": 22.428571428571434
+      }
+    },
+    {
+      "policy": "Random",
+      "seed": 3,
+      "elapsed_s": 0.11683297157287598,
+      "metrics": {
+        "overflow_rate_all": 0.5609756097560976,
+        "overflow_rate_choice": 0.5609756097560976,
+        "hall_utilization_variance": 3.79862702599945,
+        "mean_user_utility": 0.009723355008023125,
+        "hall_load_gini": 0.7274712486308872,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 10.693571428571428
+      }
+    },
+    {
+      "policy": "Cosine",
+      "seed": 3,
+      "elapsed_s": 0.31162428855895996,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 174.7531910309468,
+        "mean_user_utility": 0.12535109797120095,
+        "hall_load_gini": 0.8650670865279299,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 22.319285714285712
+      }
+    },
+    {
+      "policy": "MMR",
+      "seed": 3,
+      "elapsed_s": 0.727963924407959,
+      "metrics": {
+        "overflow_rate_all": 0.2926829268292683,
+        "overflow_rate_choice": 0.2926829268292683,
+        "hall_utilization_variance": 35.70036823788529,
+        "mean_user_utility": 0.126082710900477,
+        "hall_load_gini": 0.8335569550930996,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 16.391190476190477
+      }
+    },
+    {
+      "policy": "Capacity-aware",
+      "seed": 3,
+      "elapsed_s": 0.39805006980895996,
+      "metrics": {
+        "overflow_rate_all": 0.3048780487804878,
+        "overflow_rate_choice": 0.3048780487804878,
+        "hall_utilization_variance": 151.84945350738494,
+        "mean_user_utility": 0.08653998051370894,
+        "hall_load_gini": 0.7051136363636363,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 18.443571428571428
+      }
+    },
+    {
+      "policy": "Capacity-aware MMR",
+      "seed": 3,
+      "elapsed_s": 0.820728063583374,
+      "metrics": {
+        "overflow_rate_all": 0.6463414634146342,
+        "overflow_rate_choice": 0.6463414634146342,
+        "hall_utilization_variance": 0.0028945614570728673,
+        "mean_user_utility": 0.07672399921502386,
+        "hall_load_gini": 0.5833173603504929,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 7.529523809523809
+      }
+    },
+    {
+      "policy": "DPP",
+      "seed": 3,
+      "elapsed_s": 1.2905900478363037,
+      "metrics": {
+        "overflow_rate_all": 0.2926829268292683,
+        "overflow_rate_choice": 0.2926829268292683,
+        "hall_utilization_variance": 35.70169801128893,
+        "mean_user_utility": 0.12428537691916738,
+        "hall_load_gini": 0.8337349397590362,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 16.388333333333332
+      }
+    },
+    {
+      "policy": "Calibrated",
+      "seed": 3,
+      "elapsed_s": 3.7787277698516846,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 174.7522172278114,
+        "mean_user_utility": 0.11157621699145862,
+        "hall_load_gini": 0.8428874589266155,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 21.807619047619045
+      }
+    },
+    {
+      "policy": "Sequential",
+      "seed": 3,
+      "elapsed_s": 0.41521191596984863,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 161.53188150713729,
+        "mean_user_utility": 0.12438178792170115,
+        "hall_load_gini": 0.878237951807229,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 20.89428571428571
+      }
+    },
+    {
+      "policy": "GNN",
+      "seed": 3,
+      "elapsed_s": 0.3031439781188965,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 174.7531910309468,
+        "mean_user_utility": 0.12535109797120095,
+        "hall_load_gini": 0.8650670865279299,
+        "skip_rate": 0.05142857142857143,
+        "mean_overload_excess": 22.319285714285712
+      }
+    },
+    {
+      "policy": "Random",
+      "seed": 4,
+      "elapsed_s": 0.11655879020690918,
+      "metrics": {
+        "overflow_rate_all": 0.5975609756097561,
+        "overflow_rate_choice": 0.5975609756097561,
+        "hall_utilization_variance": 4.360977163343251,
+        "mean_user_utility": 0.01009481652719634,
+        "hall_load_gini": 0.721920898531247,
+        "skip_rate": 0.053,
+        "mean_overload_excess": 10.686666666666667
+      }
+    },
+    {
+      "policy": "Cosine",
+      "seed": 4,
+      "elapsed_s": 0.30966687202453613,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 178.407389878241,
+        "mean_user_utility": 0.1237107735659395,
+        "hall_load_gini": 0.8649494644742798,
+        "skip_rate": 0.053,
+        "mean_overload_excess": 22.386190476190475
+      }
+    },
+    {
+      "policy": "MMR",
+      "seed": 4,
+      "elapsed_s": 0.7291772365570068,
+      "metrics": {
+        "overflow_rate_all": 0.3048780487804878,
+        "overflow_rate_choice": 0.3048780487804878,
+        "hall_utilization_variance": 35.54880095454688,
+        "mean_user_utility": 0.1240383542733533,
+        "hall_load_gini": 0.8336476089907979,
+        "skip_rate": 0.053,
+        "mean_overload_excess": 16.349999999999998
+      }
+    },
+    {
+      "policy": "Capacity-aware",
+      "seed": 4,
+      "elapsed_s": 0.40853404998779297,
+      "metrics": {
+        "overflow_rate_all": 0.3170731707317073,
+        "overflow_rate_choice": 0.3170731707317073,
+        "hall_utilization_variance": 156.55876945070108,
+        "mean_user_utility": 0.08762797044004712,
+        "hall_load_gini": 0.7072539393025138,
+        "skip_rate": 0.053,
+        "mean_overload_excess": 18.545238095238094
+      }
+    },
+    {
+      "policy": "Capacity-aware MMR",
+      "seed": 4,
+      "elapsed_s": 0.8137741088867188,
+      "metrics": {
+        "overflow_rate_all": 0.6463414634146342,
+        "overflow_rate_choice": 0.6463414634146342,
+        "hall_utilization_variance": 0.004395535656727962,
+        "mean_user_utility": 0.07969873650584902,
+        "hall_load_gini": 0.5861263868127649,
+        "skip_rate": 0.053,
+        "mean_overload_excess": 7.607142857142857
+      }
+    },
+    {
+      "policy": "DPP",
+      "seed": 4,
+      "elapsed_s": 1.3034019470214844,
+      "metrics": {
+        "overflow_rate_all": 0.3048780487804878,
+        "overflow_rate_choice": 0.3048780487804878,
+        "hall_utilization_variance": 35.549590538054346,
+        "mean_user_utility": 0.12238277443391936,
+        "hall_load_gini": 0.8336407520673624,
+        "skip_rate": 0.053,
+        "mean_overload_excess": 16.34714285714286
+      }
+    },
+    {
+      "policy": "Calibrated",
+      "seed": 4,
+      "elapsed_s": 3.8335700035095215,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 178.38124652790614,
+        "mean_user_utility": 0.10947213421123368,
+        "hall_load_gini": 0.8428975987054129,
+        "skip_rate": 0.053,
+        "mean_overload_excess": 21.878095238095234
+      }
+    },
+    {
+      "policy": "Sequential",
+      "seed": 4,
+      "elapsed_s": 0.4274330139160156,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 165.52722285884062,
+        "mean_user_utility": 0.123146171522992,
+        "hall_load_gini": 0.8781901836284096,
+        "skip_rate": 0.053,
+        "mean_overload_excess": 20.982619047619046
+      }
+    },
+    {
+      "policy": "GNN",
+      "seed": 4,
+      "elapsed_s": 0.3041808605194092,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 178.407389878241,
+        "mean_user_utility": 0.1237107735659395,
+        "hall_load_gini": 0.8649494644742798,
+        "skip_rate": 0.053,
+        "mean_overload_excess": 22.386190476190475
+      }
+    },
+    {
+      "policy": "Random",
+      "seed": 5,
+      "elapsed_s": 0.14367294311523438,
+      "metrics": {
+        "overflow_rate_all": 0.573170731707317,
+        "overflow_rate_choice": 0.573170731707317,
+        "hall_utilization_variance": 3.7223451524888924,
+        "mean_user_utility": 0.00947191908955574,
+        "hall_load_gini": 0.727530328217951,
+        "skip_rate": 0.054714285714285715,
+        "mean_overload_excess": 10.701666666666668
+      }
+    },
+    {
+      "policy": "Cosine",
+      "seed": 5,
+      "elapsed_s": 0.3089599609375,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 175.9743520110541,
+        "mean_user_utility": 0.12349575295192855,
+        "hall_load_gini": 0.86524035885529,
+        "skip_rate": 0.054714285714285715,
+        "mean_overload_excess": 22.339523809523808
+      }
+    },
+    {
+      "policy": "MMR",
+      "seed": 5,
+      "elapsed_s": 0.7700028419494629,
+      "metrics": {
+        "overflow_rate_all": 0.2926829268292683,
+        "overflow_rate_choice": 0.2926829268292683,
+        "hall_utilization_variance": 35.617340281067285,
+        "mean_user_utility": 0.12397351538709232,
+        "hall_load_gini": 0.8341771195405773,
+        "skip_rate": 0.054714285714285715,
+        "mean_overload_excess": 16.390714285714285
+      }
+    },
+    {
+      "policy": "Capacity-aware",
+      "seed": 5,
+      "elapsed_s": 0.4112870693206787,
+      "metrics": {
+        "overflow_rate_all": 0.3170731707317073,
+        "overflow_rate_choice": 0.3170731707317073,
+        "hall_utilization_variance": 153.4471580059398,
+        "mean_user_utility": 0.08770645752549172,
+        "hall_load_gini": 0.7045042383942187,
+        "skip_rate": 0.054714285714285715,
+        "mean_overload_excess": 18.40642857142857
+      }
+    },
+    {
+      "policy": "Capacity-aware MMR",
+      "seed": 5,
+      "elapsed_s": 0.871553897857666,
+      "metrics": {
+        "overflow_rate_all": 0.6463414634146342,
+        "overflow_rate_choice": 0.6463414634146342,
+        "hall_utilization_variance": 0.002327866104618624,
+        "mean_user_utility": 0.07936645477584431,
+        "hall_load_gini": 0.5845308915053512,
+        "skip_rate": 0.054714285714285715,
+        "mean_overload_excess": 7.5442857142857145
+      }
+    },
+    {
+      "policy": "DPP",
+      "seed": 5,
+      "elapsed_s": 1.3288450241088867,
+      "metrics": {
+        "overflow_rate_all": 0.2926829268292683,
+        "overflow_rate_choice": 0.2926829268292683,
+        "hall_utilization_variance": 35.62392080362912,
+        "mean_user_utility": 0.12180453369872911,
+        "hall_load_gini": 0.834376330938217,
+        "skip_rate": 0.054714285714285715,
+        "mean_overload_excess": 16.387857142857143
+      }
+    },
+    {
+      "policy": "Calibrated",
+      "seed": 5,
+      "elapsed_s": 3.8002500534057617,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 175.4271254979042,
+        "mean_user_utility": 0.11043676253727504,
+        "hall_load_gini": 0.8433751906246996,
+        "skip_rate": 0.054714285714285715,
+        "mean_overload_excess": 21.79642857142857
+      }
+    },
+    {
+      "policy": "Sequential",
+      "seed": 5,
+      "elapsed_s": 0.4270157814025879,
+      "metrics": {
+        "overflow_rate_all": 0.2804878048780488,
+        "overflow_rate_choice": 0.2804878048780488,
+        "hall_utilization_variance": 162.5423135655251,
+        "mean_user_utility": 0.12321107978480203,
+        "hall_load_gini": 0.8784157885336668,
+        "skip_rate": 0.054714285714285715,
+        "mean_overload_excess": 20.899285714285714
+      }
+    },
+    {
+      "policy": "GNN",
+      "seed": 5,
+      "elapsed_s": 0.3038499355316162,
+      "metrics": {
+        "overflow_rate_all": 0.2682926829268293,
+        "overflow_rate_choice": 0.2682926829268293,
+        "hall_utilization_variance": 175.9743520110541,
+        "mean_user_utility": 0.12349575295192855,
+        "hall_load_gini": 0.86524035885529,
+        "skip_rate": 0.054714285714285715,
+        "mean_overload_excess": 22.339523809523808
+      }
+    }
+  ]
+}

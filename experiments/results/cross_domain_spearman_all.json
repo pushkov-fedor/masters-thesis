@@ -1,0 +1,181 @@
+{
+  "datasets": [
+    "MovieLens 1M",
+    "Meetup RSVP",
+    "ITC-2019 mary-fal18",
+    "ITC-2019 bet-spr18",
+    "ITC-2007 T1 set1",
+    "ITC-2007 T2 c1"
+  ],
+  "metrics": [
+    "mean_overload_excess",
+    "hall_utilization_variance",
+    "hall_load_gini",
+    "overflow_rate_choice",
+    "mean_user_utility"
+  ],
+  "table": {
+    "MovieLens 1M": {
+      "mean_overload_excess": {
+        "rho": 0.8499999999999999,
+        "p": 0.0037047773275858125,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.9,
+        "p": 0.0009430623223403288,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": -0.33333333333333337,
+        "p": 0.38071318167686347,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": -0.29411764705882354,
+        "p": 0.44235740429608333,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.5166666666666667,
+        "p": 0.15439012098622507,
+        "n": 9
+      }
+    },
+    "Meetup RSVP": {
+      "mean_overload_excess": {
+        "rho": 0.5499999999999999,
+        "p": 0.12497678418833194,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.5,
+        "p": 0.1704706607870538,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": -0.13333333333333333,
+        "p": 0.7323675052362973,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": -0.108787563138244,
+        "p": 0.7805538526280621,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.7999999999999999,
+        "p": 0.009627924725379839,
+        "n": 9
+      }
+    },
+    "ITC-2019 mary-fal18": {
+      "mean_overload_excess": {
+        "rho": 0.6861984751796929,
+        "p": 0.04124246780258139,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.6778302010921357,
+        "p": 0.04480926269300503,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": -0.6025157343041205,
+        "p": 0.085953357540588,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": -0.2966208211055375,
+        "p": 0.4382985014628485,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.5188329934285483,
+        "p": 0.15236740186901976,
+        "n": 9
+      }
+    },
+    "ITC-2019 bet-spr18": {
+      "mean_overload_excess": {
+        "rho": 0.7531446678801508,
+        "p": 0.019141958595405715,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.6276205565667923,
+        "p": 0.07036502278970762,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": -0.6025157343041205,
+        "p": 0.085953357540588,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": -0.0717305963335256,
+        "p": 0.8544967385564819,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.45769286494404704,
+        "p": 0.21541170296009043,
+        "n": 9
+      }
+    },
+    "ITC-2007 T1 set1": {
+      "mean_overload_excess": {
+        "rho": 0.8666666666666667,
+        "p": 0.002495398285990204,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.8499999999999999,
+        "p": 0.0037047773275858125,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": 0.7,
+        "p": 0.03576957497026173,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": 0.16736548175114463,
+        "p": 0.6669046355985242,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.18333333333333335,
+        "p": 0.6368198117628943,
+        "n": 9
+      }
+    },
+    "ITC-2007 T2 c1": {
+      "mean_overload_excess": {
+        "rho": 0.41666666666666663,
+        "p": 0.26458604674749636,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.5,
+        "p": 0.1704706607870538,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": 0.3666666666666667,
+        "p": 0.3317398014330152,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": 0.05857791861290061,
+        "p": 0.8810067501468762,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.75,
+        "p": 0.01994212613199253,
+        "n": 9
+      }
+    }
+  }
+}

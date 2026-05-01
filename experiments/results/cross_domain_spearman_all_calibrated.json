@@ -1,0 +1,181 @@
+{
+  "datasets": [
+    "Mobius (calibrated)",
+    "Meetup RSVP",
+    "ITC-2019 mary-fal18",
+    "ITC-2019 bet-spr18",
+    "ITC-2007 T1 set1",
+    "ITC-2007 T2 c1"
+  ],
+  "metrics": [
+    "mean_overload_excess",
+    "hall_utilization_variance",
+    "hall_load_gini",
+    "overflow_rate_choice",
+    "mean_user_utility"
+  ],
+  "table": {
+    "Mobius (calibrated)": {
+      "mean_overload_excess": {
+        "rho": 1.0,
+        "p": 0.0,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 1.0,
+        "p": 0.0,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": 1.0,
+        "p": 0.0,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": 1.0,
+        "p": 0.0,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 1.0,
+        "p": 0.0,
+        "n": 9
+      }
+    },
+    "Meetup RSVP": {
+      "mean_overload_excess": {
+        "rho": 0.7666666666666667,
+        "p": 0.01594401657897403,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.5499999999999999,
+        "p": 0.12497678418833194,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": 0.0,
+        "p": 1.0,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": -0.7698812160552653,
+        "p": 0.015240184856772946,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.7666666666666667,
+        "p": 0.01594401657897403,
+        "n": 9
+      }
+    },
+    "ITC-2019 mary-fal18": {
+      "mean_overload_excess": {
+        "rho": 0.7113032974423646,
+        "p": 0.03165655703330228,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.5523060897787773,
+        "p": 0.12307662993423867,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": -0.15062893357603013,
+        "p": 0.6988841292948215,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": -0.5063336211778278,
+        "p": 0.16425157263121856,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.9539832459815244,
+        "p": 6.578871303553376e-05,
+        "n": 9
+      }
+    },
+    "ITC-2019 bet-spr18": {
+      "mean_overload_excess": {
+        "rho": 0.4435185266405332,
+        "p": 0.23178406529937415,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.5857791861290061,
+        "p": 0.09743391135780582,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": -0.08368274087557231,
+        "p": 0.8305146353314998,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": -0.8739495798319328,
+        "p": 0.0020653021010465277,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.9372466978064098,
+        "p": 0.0001916313422657425,
+        "n": 9
+      }
+    },
+    "ITC-2007 T1 set1": {
+      "mean_overload_excess": {
+        "rho": 0.65,
+        "p": 0.058073058017148654,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.75,
+        "p": 0.01994212613199253,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": 0.049999999999999996,
+        "p": 0.8983528043506303,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": -0.7394957983193278,
+        "p": 0.022774884348749,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.6,
+        "p": 0.08762282904140249,
+        "n": 9
+      }
+    },
+    "ITC-2007 T2 c1": {
+      "mean_overload_excess": {
+        "rho": 0.5,
+        "p": 0.1704706607870538,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.43333333333333335,
+        "p": 0.24395243588005172,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": -0.03333333333333333,
+        "p": 0.9321567355405039,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": -0.652725378829464,
+        "p": 0.056676692165527655,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.5166666666666667,
+        "p": 0.15439012098622507,
+        "n": 9
+      }
+    }
+  }
+}

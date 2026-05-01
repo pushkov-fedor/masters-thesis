@@ -1,0 +1,6227 @@
+{
+  "name": "ITC-2019 mary-fal18 (cross-domain)",
+  "talks": [
+    {
+      "id": "c1_cls1",
+      "title": "course 1 class 1",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c1",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c1_cls2",
+      "title": "course 1 class 2",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c1",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c1_cls3",
+      "title": "course 1 class 3",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c1",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c1_cls4",
+      "title": "course 1 class 4",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c1",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c3_cls6",
+      "title": "course 3 class 6",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c3",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c3_cls7",
+      "title": "course 3 class 7",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c3",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c3_cls8",
+      "title": "course 3 class 8",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c3",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c3_cls9",
+      "title": "course 3 class 9",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c3",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c7_cls13",
+      "title": "course 7 class 13",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c7",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c8_cls14",
+      "title": "course 8 class 14",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c8",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c11_cls17",
+      "title": "course 11 class 17",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c11",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c13_cls19",
+      "title": "course 13 class 19",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c13",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c14_cls20",
+      "title": "course 14 class 20",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c14",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c15_cls21",
+      "title": "course 15 class 21",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c15",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c16_cls22",
+      "title": "course 16 class 22",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c16",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c17_cls23",
+      "title": "course 17 class 23",
+      "hall": 3,
+      "slot_id": "w00d0s0096",
+      "category": "c17",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c18_cls24",
+      "title": "course 18 class 24",
+      "hall": 6,
+      "slot_id": "w00d0s0096",
+      "category": "c18",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c18_cls25",
+      "title": "course 18 class 25",
+      "hall": 6,
+      "slot_id": "w00d0s0096",
+      "category": "c18",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c19_cls29",
+      "title": "course 19 class 29",
+      "hall": 6,
+      "slot_id": "w00d0s0096",
+      "category": "c19",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c21_cls31",
+      "title": "course 21 class 31",
+      "hall": 6,
+      "slot_id": "w00d0s0096",
+      "category": "c21",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c49_cls105",
+      "title": "course 49 class 105",
+      "hall": 49,
+      "slot_id": "w00d0s0096",
+      "category": "c49",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c61_cls151",
+      "title": "course 61 class 151",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c61",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c61_cls152",
+      "title": "course 61 class 152",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c61",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c61_cls153",
+      "title": "course 61 class 153",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c61",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c61_cls154",
+      "title": "course 61 class 154",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c61",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c61_cls155",
+      "title": "course 61 class 155",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c61",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c61_cls156",
+      "title": "course 61 class 156",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c61",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c61_cls157",
+      "title": "course 61 class 157",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c61",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c63_cls171",
+      "title": "course 63 class 171",
+      "hall": 64,
+      "slot_id": "w00d0s0096",
+      "category": "c63",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c67_cls177",
+      "title": "course 67 class 177",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c67",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c69_cls180",
+      "title": "course 69 class 180",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c69",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c69_cls181",
+      "title": "course 69 class 181",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c69",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c69_cls184",
+      "title": "course 69 class 184",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c69",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c69_cls186",
+      "title": "course 69 class 186",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c69",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c71_cls198",
+      "title": "course 71 class 198",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c71",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c72_cls199",
+      "title": "course 72 class 199",
+      "hall": 65,
+      "slot_id": "w00d0s0096",
+      "category": "c72",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c73_cls201",
+      "title": "course 73 class 201",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c73",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c74_cls202",
+      "title": "course 74 class 202",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c74",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c74_cls203",
+      "title": "course 74 class 203",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c74",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c74_cls204",
+      "title": "course 74 class 204",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c74",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c74_cls205",
+      "title": "course 74 class 205",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c74",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c76_cls214",
+      "title": "course 76 class 214",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c76",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c78_cls217",
+      "title": "course 78 class 217",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c78",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c80_cls219",
+      "title": "course 80 class 219",
+      "hall": 12,
+      "slot_id": "w00d0s0096",
+      "category": "c80",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c80_cls220",
+      "title": "course 80 class 220",
+      "hall": 12,
+      "slot_id": "w00d0s0096",
+      "category": "c80",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c80_cls221",
+      "title": "course 80 class 221",
+      "hall": 12,
+      "slot_id": "w00d0s0096",
+      "category": "c80",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c81_cls222",
+      "title": "course 81 class 222",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c81",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c82_cls223",
+      "title": "course 82 class 223",
+      "hall": 69,
+      "slot_id": "w00d0s0096",
+      "category": "c82",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c83_cls226",
+      "title": "course 83 class 226",
+      "hall": 64,
+      "slot_id": "w00d0s0096",
+      "category": "c83",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c84_cls227",
+      "title": "course 84 class 227",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c84",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c84_cls228",
+      "title": "course 84 class 228",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c84",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c84_cls229",
+      "title": "course 84 class 229",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c84",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c84_cls230",
+      "title": "course 84 class 230",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c84",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c85_cls231",
+      "title": "course 85 class 231",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c85",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c85_cls232",
+      "title": "course 85 class 232",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c85",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c87_cls234",
+      "title": "course 87 class 234",
+      "hall": 32,
+      "slot_id": "w00d0s0096",
+      "category": "c87",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c87_cls235",
+      "title": "course 87 class 235",
+      "hall": 32,
+      "slot_id": "w00d0s0096",
+      "category": "c87",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c88_cls236",
+      "title": "course 88 class 236",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c88",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c89_cls237",
+      "title": "course 89 class 237",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c89",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c97_cls245",
+      "title": "course 97 class 245",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c97",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c97_cls246",
+      "title": "course 97 class 246",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c97",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c97_cls247",
+      "title": "course 97 class 247",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c97",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c97_cls248",
+      "title": "course 97 class 248",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c97",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c97_cls249",
+      "title": "course 97 class 249",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c97",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c97_cls250",
+      "title": "course 97 class 250",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c97",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c97_cls251",
+      "title": "course 97 class 251",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c97",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c97_cls252",
+      "title": "course 97 class 252",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c97",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c98_cls253",
+      "title": "course 98 class 253",
+      "hall": 67,
+      "slot_id": "w00d0s0096",
+      "category": "c98",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c98_cls262",
+      "title": "course 98 class 262",
+      "hall": 71,
+      "slot_id": "w00d0s0096",
+      "category": "c98",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c99_cls263",
+      "title": "course 99 class 263",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c99",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c99_cls264",
+      "title": "course 99 class 264",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c99",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c99_cls265",
+      "title": "course 99 class 265",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c99",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c99_cls266",
+      "title": "course 99 class 266",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c99",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c101_cls268",
+      "title": "course 101 class 268",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c101",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c101_cls269",
+      "title": "course 101 class 269",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c101",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c101_cls270",
+      "title": "course 101 class 270",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c101",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c101_cls271",
+      "title": "course 101 class 271",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c101",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c103_cls277",
+      "title": "course 103 class 277",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c103",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c103_cls278",
+      "title": "course 103 class 278",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c103",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c105_cls282",
+      "title": "course 105 class 282",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c105",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c108_cls285",
+      "title": "course 108 class 285",
+      "hall": 12,
+      "slot_id": "w00d0s0096",
+      "category": "c108",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c114_cls291",
+      "title": "course 114 class 291",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c114",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c115_cls292",
+      "title": "course 115 class 292",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c115",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c116_cls293",
+      "title": "course 116 class 293",
+      "hall": 42,
+      "slot_id": "w00d0s0096",
+      "category": "c116",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c117_cls294",
+      "title": "course 117 class 294",
+      "hall": 56,
+      "slot_id": "w00d0s0096",
+      "category": "c117",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c118_cls295",
+      "title": "course 118 class 295",
+      "hall": 56,
+      "slot_id": "w00d0s0096",
+      "category": "c118",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c119_cls296",
+      "title": "course 119 class 296",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c119",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c122_cls299",
+      "title": "course 122 class 299",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c122",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c123_cls300",
+      "title": "course 123 class 300",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c123",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c132_cls310",
+      "title": "course 132 class 310",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c132",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c134_cls312",
+      "title": "course 134 class 312",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c134",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c137_cls315",
+      "title": "course 137 class 315",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c137",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c138_cls316",
+      "title": "course 138 class 316",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c138",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c140_cls319",
+      "title": "course 140 class 319",
+      "hall": 32,
+      "slot_id": "w00d0s0096",
+      "category": "c140",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c145_cls324",
+      "title": "course 145 class 324",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c145",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c146_cls325",
+      "title": "course 146 class 325",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c146",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c147_cls326",
+      "title": "course 147 class 326",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c147",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c147_cls328",
+      "title": "course 147 class 328",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c147",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c148_cls331",
+      "title": "course 148 class 331",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c148",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c148_cls332",
+      "title": "course 148 class 332",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c148",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c148_cls333",
+      "title": "course 148 class 333",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c148",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c177_cls369",
+      "title": "course 177 class 369",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c177",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c178_cls370",
+      "title": "course 178 class 370",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c178",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c180_cls372",
+      "title": "course 180 class 372",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c180",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c191_cls383",
+      "title": "course 191 class 383",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c191",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls404",
+      "title": "course 212 class 404",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls405",
+      "title": "course 212 class 405",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls406",
+      "title": "course 212 class 406",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls407",
+      "title": "course 212 class 407",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls408",
+      "title": "course 212 class 408",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls409",
+      "title": "course 212 class 409",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls410",
+      "title": "course 212 class 410",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls411",
+      "title": "course 212 class 411",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls412",
+      "title": "course 212 class 412",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls413",
+      "title": "course 212 class 413",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls414",
+      "title": "course 212 class 414",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls415",
+      "title": "course 212 class 415",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls416",
+      "title": "course 212 class 416",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls417",
+      "title": "course 212 class 417",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls418",
+      "title": "course 212 class 418",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls419",
+      "title": "course 212 class 419",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls420",
+      "title": "course 212 class 420",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls421",
+      "title": "course 212 class 421",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls422",
+      "title": "course 212 class 422",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls423",
+      "title": "course 212 class 423",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c212_cls424",
+      "title": "course 212 class 424",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c212",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls426",
+      "title": "course 214 class 426",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls427",
+      "title": "course 214 class 427",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls428",
+      "title": "course 214 class 428",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls429",
+      "title": "course 214 class 429",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls430",
+      "title": "course 214 class 430",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls431",
+      "title": "course 214 class 431",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls432",
+      "title": "course 214 class 432",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls433",
+      "title": "course 214 class 433",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls434",
+      "title": "course 214 class 434",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c214_cls435",
+      "title": "course 214 class 435",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c214",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c215_cls436",
+      "title": "course 215 class 436",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c215",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c216_cls437",
+      "title": "course 216 class 437",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c216",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c217_cls439",
+      "title": "course 217 class 439",
+      "hall": 34,
+      "slot_id": "w00d0s0096",
+      "category": "c217",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c218_cls440",
+      "title": "course 218 class 440",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c218",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c219_cls441",
+      "title": "course 219 class 441",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c219",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c220_cls442",
+      "title": "course 220 class 442",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c220",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c221_cls443",
+      "title": "course 221 class 443",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c221",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c222_cls444",
+      "title": "course 222 class 444",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c222",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c223_cls445",
+      "title": "course 223 class 445",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c223",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c227_cls449",
+      "title": "course 227 class 449",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c227",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c228_cls450",
+      "title": "course 228 class 450",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c228",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c229_cls451",
+      "title": "course 229 class 451",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c229",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c230_cls452",
+      "title": "course 230 class 452",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c230",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c231_cls453",
+      "title": "course 231 class 453",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c231",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c232_cls454",
+      "title": "course 232 class 454",
+      "hall": 76,
+      "slot_id": "w00d0s0096",
+      "category": "c232",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c233_cls455",
+      "title": "course 233 class 455",
+      "hall": 76,
+      "slot_id": "w00d0s0096",
+      "category": "c233",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c233_cls456",
+      "title": "course 233 class 456",
+      "hall": 76,
+      "slot_id": "w00d0s0096",
+      "category": "c233",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c234_cls457",
+      "title": "course 234 class 457",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c234",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c235_cls458",
+      "title": "course 235 class 458",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c235",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c236_cls459",
+      "title": "course 236 class 459",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c236",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c237_cls460",
+      "title": "course 237 class 460",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c237",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c237_cls461",
+      "title": "course 237 class 461",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c237",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c238_cls462",
+      "title": "course 238 class 462",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c238",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c240_cls464",
+      "title": "course 240 class 464",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c240",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c240_cls465",
+      "title": "course 240 class 465",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c240",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c240_cls466",
+      "title": "course 240 class 466",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c240",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c242_cls468",
+      "title": "course 242 class 468",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c242",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c243_cls469",
+      "title": "course 243 class 469",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c243",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c244_cls470",
+      "title": "course 244 class 470",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c244",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c247_cls473",
+      "title": "course 247 class 473",
+      "hall": 75,
+      "slot_id": "w00d0s0096",
+      "category": "c247",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c248_cls474",
+      "title": "course 248 class 474",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c248",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c249_cls475",
+      "title": "course 249 class 475",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c249",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c253_cls481",
+      "title": "course 253 class 481",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c253",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c255_cls483",
+      "title": "course 255 class 483",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c255",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c260_cls489",
+      "title": "course 260 class 489",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c260",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c261_cls490",
+      "title": "course 261 class 490",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c261",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c262_cls491",
+      "title": "course 262 class 491",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c262",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c264_cls493",
+      "title": "course 264 class 493",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c264",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c265_cls494",
+      "title": "course 265 class 494",
+      "hall": 34,
+      "slot_id": "w00d0s0096",
+      "category": "c265",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c267_cls496",
+      "title": "course 267 class 496",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c267",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c268_cls497",
+      "title": "course 268 class 497",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c268",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c270_cls499",
+      "title": "course 270 class 499",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c270",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c270_cls500",
+      "title": "course 270 class 500",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c270",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c270_cls501",
+      "title": "course 270 class 501",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c270",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c270_cls502",
+      "title": "course 270 class 502",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c270",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c270_cls503",
+      "title": "course 270 class 503",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c270",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c271_cls504",
+      "title": "course 271 class 504",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c271",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c273_cls506",
+      "title": "course 273 class 506",
+      "hall": 78,
+      "slot_id": "w00d0s0096",
+      "category": "c273",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c274_cls507",
+      "title": "course 274 class 507",
+      "hall": 78,
+      "slot_id": "w00d0s0096",
+      "category": "c274",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c275_cls508",
+      "title": "course 275 class 508",
+      "hall": 78,
+      "slot_id": "w00d0s0096",
+      "category": "c275",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c276_cls509",
+      "title": "course 276 class 509",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c276",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c277_cls510",
+      "title": "course 277 class 510",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c277",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c278_cls511",
+      "title": "course 278 class 511",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c278",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c279_cls512",
+      "title": "course 279 class 512",
+      "hall": 78,
+      "slot_id": "w00d0s0096",
+      "category": "c279",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c280_cls513",
+      "title": "course 280 class 513",
+      "hall": 78,
+      "slot_id": "w00d0s0096",
+      "category": "c280",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c281_cls514",
+      "title": "course 281 class 514",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c281",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c282_cls515",
+      "title": "course 282 class 515",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c282",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c283_cls516",
+      "title": "course 283 class 516",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c283",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c284_cls517",
+      "title": "course 284 class 517",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c284",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c285_cls518",
+      "title": "course 285 class 518",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c285",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c286_cls519",
+      "title": "course 286 class 519",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c286",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c287_cls520",
+      "title": "course 287 class 520",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c287",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls521",
+      "title": "course 288 class 521",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls522",
+      "title": "course 288 class 522",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls523",
+      "title": "course 288 class 523",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls524",
+      "title": "course 288 class 524",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls525",
+      "title": "course 288 class 525",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls526",
+      "title": "course 288 class 526",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls527",
+      "title": "course 288 class 527",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls528",
+      "title": "course 288 class 528",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls529",
+      "title": "course 288 class 529",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c288_cls530",
+      "title": "course 288 class 530",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c288",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c296_cls538",
+      "title": "course 296 class 538",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c296",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c298_cls540",
+      "title": "course 298 class 540",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c298",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c298_cls541",
+      "title": "course 298 class 541",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c298",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c300_cls543",
+      "title": "course 300 class 543",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c300",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c302_cls545",
+      "title": "course 302 class 545",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c302",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c302_cls546",
+      "title": "course 302 class 546",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c302",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c303_cls547",
+      "title": "course 303 class 547",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c303",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c303_cls548",
+      "title": "course 303 class 548",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c303",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c312_cls557",
+      "title": "course 312 class 557",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c312",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c313_cls558",
+      "title": "course 313 class 558",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c313",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c314_cls559",
+      "title": "course 314 class 559",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c314",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c314_cls560",
+      "title": "course 314 class 560",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c314",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c314_cls561",
+      "title": "course 314 class 561",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c314",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c315_cls562",
+      "title": "course 315 class 562",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c315",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c315_cls563",
+      "title": "course 315 class 563",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c315",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c316_cls564",
+      "title": "course 316 class 564",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c316",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c317_cls565",
+      "title": "course 317 class 565",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c317",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c317_cls566",
+      "title": "course 317 class 566",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c317",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c317_cls567",
+      "title": "course 317 class 567",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c317",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c317_cls568",
+      "title": "course 317 class 568",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c317",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c318_cls569",
+      "title": "course 318 class 569",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c318",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c318_cls570",
+      "title": "course 318 class 570",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c318",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c318_cls571",
+      "title": "course 318 class 571",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c318",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c318_cls572",
+      "title": "course 318 class 572",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c318",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c319_cls573",
+      "title": "course 319 class 573",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c319",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c319_cls574",
+      "title": "course 319 class 574",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c319",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c319_cls575",
+      "title": "course 319 class 575",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c319",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c319_cls576",
+      "title": "course 319 class 576",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c319",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c319_cls577",
+      "title": "course 319 class 577",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c319",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c320_cls578",
+      "title": "course 320 class 578",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c320",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c320_cls579",
+      "title": "course 320 class 579",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c320",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c321_cls580",
+      "title": "course 321 class 580",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c321",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c321_cls581",
+      "title": "course 321 class 581",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c321",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c322_cls582",
+      "title": "course 322 class 582",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c322",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c323_cls583",
+      "title": "course 323 class 583",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c323",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c324_cls584",
+      "title": "course 324 class 584",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c324",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c325_cls585",
+      "title": "course 325 class 585",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c325",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c326_cls586",
+      "title": "course 326 class 586",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c326",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c327_cls587",
+      "title": "course 327 class 587",
+      "hall": 38,
+      "slot_id": "w00d0s0096",
+      "category": "c327",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c328_cls588",
+      "title": "course 328 class 588",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c328",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c329_cls589",
+      "title": "course 329 class 589",
+      "hall": 3,
+      "slot_id": "w00d0s0096",
+      "category": "c329",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c330_cls590",
+      "title": "course 330 class 590",
+      "hall": 33,
+      "slot_id": "w00d0s0096",
+      "category": "c330",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c331_cls591",
+      "title": "course 331 class 591",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c331",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c331_cls592",
+      "title": "course 331 class 592",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c331",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c331_cls593",
+      "title": "course 331 class 593",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c331",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c333_cls595",
+      "title": "course 333 class 595",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c333",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c334_cls596",
+      "title": "course 334 class 596",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c334",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c339_cls601",
+      "title": "course 339 class 601",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c339",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c339_cls602",
+      "title": "course 339 class 602",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c339",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c339_cls603",
+      "title": "course 339 class 603",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c339",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c341_cls605",
+      "title": "course 341 class 605",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c341",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c342_cls606",
+      "title": "course 342 class 606",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c342",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c343_cls607",
+      "title": "course 343 class 607",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c343",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c347_cls611",
+      "title": "course 347 class 611",
+      "hall": 80,
+      "slot_id": "w00d0s0096",
+      "category": "c347",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c353_cls617",
+      "title": "course 353 class 617",
+      "hall": 81,
+      "slot_id": "w00d0s0096",
+      "category": "c353",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c354_cls618",
+      "title": "course 354 class 618",
+      "hall": 72,
+      "slot_id": "w00d0s0096",
+      "category": "c354",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c356_cls620",
+      "title": "course 356 class 620",
+      "hall": 72,
+      "slot_id": "w00d0s0096",
+      "category": "c356",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c357_cls621",
+      "title": "course 357 class 621",
+      "hall": 72,
+      "slot_id": "w00d0s0096",
+      "category": "c357",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c357_cls622",
+      "title": "course 357 class 622",
+      "hall": 72,
+      "slot_id": "w00d0s0096",
+      "category": "c357",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c358_cls623",
+      "title": "course 358 class 623",
+      "hall": 80,
+      "slot_id": "w00d0s0096",
+      "category": "c358",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c359_cls624",
+      "title": "course 359 class 624",
+      "hall": 75,
+      "slot_id": "w00d0s0096",
+      "category": "c359",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c360_cls625",
+      "title": "course 360 class 625",
+      "hall": 75,
+      "slot_id": "w00d0s0096",
+      "category": "c360",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c361_cls626",
+      "title": "course 361 class 626",
+      "hall": 72,
+      "slot_id": "w00d0s0096",
+      "category": "c361",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c362_cls627",
+      "title": "course 362 class 627",
+      "hall": 75,
+      "slot_id": "w00d0s0096",
+      "category": "c362",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c363_cls628",
+      "title": "course 363 class 628",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c363",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c367_cls632",
+      "title": "course 367 class 632",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c367",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c370_cls637",
+      "title": "course 370 class 637",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c370",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c370_cls638",
+      "title": "course 370 class 638",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c370",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c373_cls642",
+      "title": "course 373 class 642",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c373",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c381_cls664",
+      "title": "course 381 class 664",
+      "hall": 15,
+      "slot_id": "w00d0s0096",
+      "category": "c381",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c381_cls665",
+      "title": "course 381 class 665",
+      "hall": 15,
+      "slot_id": "w00d0s0096",
+      "category": "c381",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c386_cls674",
+      "title": "course 386 class 674",
+      "hall": 15,
+      "slot_id": "w00d0s0096",
+      "category": "c386",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c386_cls675",
+      "title": "course 386 class 675",
+      "hall": 15,
+      "slot_id": "w00d0s0096",
+      "category": "c386",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c386_cls676",
+      "title": "course 386 class 676",
+      "hall": 15,
+      "slot_id": "w00d0s0096",
+      "category": "c386",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c386_cls677",
+      "title": "course 386 class 677",
+      "hall": 15,
+      "slot_id": "w00d0s0096",
+      "category": "c386",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c386_cls678",
+      "title": "course 386 class 678",
+      "hall": 15,
+      "slot_id": "w00d0s0096",
+      "category": "c386",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c401_cls732",
+      "title": "course 401 class 732",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c401",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c403_cls744",
+      "title": "course 403 class 744",
+      "hall": 3,
+      "slot_id": "w00d0s0096",
+      "category": "c403",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c405_cls752",
+      "title": "course 405 class 752",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c405",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c405_cls753",
+      "title": "course 405 class 753",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c405",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c406_cls754",
+      "title": "course 406 class 754",
+      "hall": 15,
+      "slot_id": "w00d0s0096",
+      "category": "c406",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c421_cls793",
+      "title": "course 421 class 793",
+      "hall": 18,
+      "slot_id": "w00d0s0096",
+      "category": "c421",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c426_cls800",
+      "title": "course 426 class 800",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c426",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c427_cls801",
+      "title": "course 427 class 801",
+      "hall": 12,
+      "slot_id": "w00d0s0096",
+      "category": "c427",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c433_cls809",
+      "title": "course 433 class 809",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c433",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c436_cls812",
+      "title": "course 436 class 812",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c436",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c436_cls813",
+      "title": "course 436 class 813",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c436",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c440_cls817",
+      "title": "course 440 class 817",
+      "hall": 19,
+      "slot_id": "w00d0s0096",
+      "category": "c440",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c451_cls831",
+      "title": "course 451 class 831",
+      "hall": 77,
+      "slot_id": "w00d0s0096",
+      "category": "c451",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c454_cls834",
+      "title": "course 454 class 834",
+      "hall": 68,
+      "slot_id": "w00d0s0096",
+      "category": "c454",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c465_cls847",
+      "title": "course 465 class 847",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c465",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c466_cls852",
+      "title": "course 466 class 852",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c466",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c466_cls853",
+      "title": "course 466 class 853",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c466",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c466_cls854",
+      "title": "course 466 class 854",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c466",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c466_cls855",
+      "title": "course 466 class 855",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c466",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c469_cls858",
+      "title": "course 469 class 858",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c469",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c469_cls862",
+      "title": "course 469 class 862",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c469",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c471_cls864",
+      "title": "course 471 class 864",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c471",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c472_cls865",
+      "title": "course 472 class 865",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c472",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c473_cls866",
+      "title": "course 473 class 866",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c473",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c473_cls867",
+      "title": "course 473 class 867",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c473",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c475_cls870",
+      "title": "course 475 class 870",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c475",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c479_cls875",
+      "title": "course 479 class 875",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c479",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c487_cls883",
+      "title": "course 487 class 883",
+      "hall": 74,
+      "slot_id": "w00d0s0096",
+      "category": "c487",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c488_cls884",
+      "title": "course 488 class 884",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c488",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c489_cls885",
+      "title": "course 489 class 885",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c489",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c501_cls897",
+      "title": "course 501 class 897",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c501",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c501_cls898",
+      "title": "course 501 class 898",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c501",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c502_cls899",
+      "title": "course 502 class 899",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c502",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c503_cls900",
+      "title": "course 503 class 900",
+      "hall": 34,
+      "slot_id": "w00d0s0096",
+      "category": "c503",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c504_cls901",
+      "title": "course 504 class 901",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c504",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c505_cls902",
+      "title": "course 505 class 902",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c505",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c506_cls904",
+      "title": "course 506 class 904",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c506",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c506_cls905",
+      "title": "course 506 class 905",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c506",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c506_cls906",
+      "title": "course 506 class 906",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c506",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c507_cls907",
+      "title": "course 507 class 907",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c507",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c509_cls909",
+      "title": "course 509 class 909",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c509",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c510_cls910",
+      "title": "course 510 class 910",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c510",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c512_cls912",
+      "title": "course 512 class 912",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c512",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c513_cls913",
+      "title": "course 513 class 913",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c513",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c514_cls914",
+      "title": "course 514 class 914",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c514",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c514_cls915",
+      "title": "course 514 class 915",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c514",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c514_cls916",
+      "title": "course 514 class 916",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c514",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c516_cls919",
+      "title": "course 516 class 919",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c516",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c516_cls920",
+      "title": "course 516 class 920",
+      "hall": 31,
+      "slot_id": "w00d0s0096",
+      "category": "c516",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c520_cls927",
+      "title": "course 520 class 927",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c520",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c520_cls928",
+      "title": "course 520 class 928",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c520",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c522_cls930",
+      "title": "course 522 class 930",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c522",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c523_cls931",
+      "title": "course 523 class 931",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c523",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c524_cls932",
+      "title": "course 524 class 932",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c524",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c524_cls933",
+      "title": "course 524 class 933",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c524",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c524_cls934",
+      "title": "course 524 class 934",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c524",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c525_cls935",
+      "title": "course 525 class 935",
+      "hall": 12,
+      "slot_id": "w00d0s0096",
+      "category": "c525",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c530_cls940",
+      "title": "course 530 class 940",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c530",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c531_cls941",
+      "title": "course 531 class 941",
+      "hall": 32,
+      "slot_id": "w00d0s0096",
+      "category": "c531",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c532_cls942",
+      "title": "course 532 class 942",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c532",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c533_cls943",
+      "title": "course 533 class 943",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c533",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c533_cls944",
+      "title": "course 533 class 944",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c533",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c534_cls945",
+      "title": "course 534 class 945",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c534",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c535_cls946",
+      "title": "course 535 class 946",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c535",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c536_cls947",
+      "title": "course 536 class 947",
+      "hall": 33,
+      "slot_id": "w00d0s0096",
+      "category": "c536",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c538_cls949",
+      "title": "course 538 class 949",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c538",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c539_cls950",
+      "title": "course 539 class 950",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c539",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c540_cls951",
+      "title": "course 540 class 951",
+      "hall": 1,
+      "slot_id": "w00d0s0096",
+      "category": "c540",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c2_cls5",
+      "title": "course 2 class 5",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c2",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c5_cls11",
+      "title": "course 5 class 11",
+      "hall": 31,
+      "slot_id": "w00d0s0204",
+      "category": "c5",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c6_cls12",
+      "title": "course 6 class 12",
+      "hall": 31,
+      "slot_id": "w00d0s0204",
+      "category": "c6",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c9_cls15",
+      "title": "course 9 class 15",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c9",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c12_cls18",
+      "title": "course 12 class 18",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c12",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c22_cls32",
+      "title": "course 22 class 32",
+      "hall": 56,
+      "slot_id": "w00d0s0204",
+      "category": "c22",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c41_cls96",
+      "title": "course 41 class 96",
+      "hall": 43,
+      "slot_id": "w00d0s0204",
+      "category": "c41",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c42_cls97",
+      "title": "course 42 class 97",
+      "hall": 51,
+      "slot_id": "w00d0s0204",
+      "category": "c42",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c70_cls188",
+      "title": "course 70 class 188",
+      "hall": 65,
+      "slot_id": "w00d0s0204",
+      "category": "c70",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c86_cls233",
+      "title": "course 86 class 233",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c86",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c90_cls238",
+      "title": "course 90 class 238",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c90",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c91_cls239",
+      "title": "course 91 class 239",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c91",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c94_cls242",
+      "title": "course 94 class 242",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c94",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c98_cls256",
+      "title": "course 98 class 256",
+      "hall": 67,
+      "slot_id": "w00d0s0204",
+      "category": "c98",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c124_cls301",
+      "title": "course 124 class 301",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c124",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c125_cls302",
+      "title": "course 125 class 302",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c125",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c126_cls303",
+      "title": "course 126 class 303",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c126",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c128_cls306",
+      "title": "course 128 class 306",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c128",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c135_cls313",
+      "title": "course 135 class 313",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c135",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c139_cls317",
+      "title": "course 139 class 317",
+      "hall": 31,
+      "slot_id": "w00d0s0204",
+      "category": "c139",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c139_cls318",
+      "title": "course 139 class 318",
+      "hall": 31,
+      "slot_id": "w00d0s0204",
+      "category": "c139",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c141_cls320",
+      "title": "course 141 class 320",
+      "hall": 32,
+      "slot_id": "w00d0s0204",
+      "category": "c141",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c142_cls321",
+      "title": "course 142 class 321",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c142",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c143_cls322",
+      "title": "course 143 class 322",
+      "hall": 31,
+      "slot_id": "w00d0s0204",
+      "category": "c143",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c144_cls323",
+      "title": "course 144 class 323",
+      "hall": 38,
+      "slot_id": "w00d0s0204",
+      "category": "c144",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c171_cls359",
+      "title": "course 171 class 359",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c171",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c176_cls368",
+      "title": "course 176 class 368",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c176",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c188_cls380",
+      "title": "course 188 class 380",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c188",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c189_cls381",
+      "title": "course 189 class 381",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c189",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c190_cls382",
+      "title": "course 190 class 382",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c190",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c202_cls394",
+      "title": "course 202 class 394",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c202",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c203_cls395",
+      "title": "course 203 class 395",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c203",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c204_cls396",
+      "title": "course 204 class 396",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c204",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c207_cls399",
+      "title": "course 207 class 399",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c207",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c208_cls400",
+      "title": "course 208 class 400",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c208",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c209_cls401",
+      "title": "course 209 class 401",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c209",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c210_cls402",
+      "title": "course 210 class 402",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c210",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c245_cls471",
+      "title": "course 245 class 471",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c245",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c259_cls488",
+      "title": "course 259 class 488",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c259",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c266_cls495",
+      "title": "course 266 class 495",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c266",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c291_cls533",
+      "title": "course 291 class 533",
+      "hall": 79,
+      "slot_id": "w00d0s0204",
+      "category": "c291",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c295_cls537",
+      "title": "course 295 class 537",
+      "hall": 79,
+      "slot_id": "w00d0s0204",
+      "category": "c295",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c301_cls544",
+      "title": "course 301 class 544",
+      "hall": 31,
+      "slot_id": "w00d0s0204",
+      "category": "c301",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c305_cls550",
+      "title": "course 305 class 550",
+      "hall": 31,
+      "slot_id": "w00d0s0204",
+      "category": "c305",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c336_cls598",
+      "title": "course 336 class 598",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c336",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c340_cls604",
+      "title": "course 340 class 604",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c340",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c376_cls647",
+      "title": "course 376 class 647",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c376",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c376_cls648",
+      "title": "course 376 class 648",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c376",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c394_cls708",
+      "title": "course 394 class 708",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c394",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c394_cls709",
+      "title": "course 394 class 709",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c394",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c396_cls718",
+      "title": "course 396 class 718",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c396",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c396_cls719",
+      "title": "course 396 class 719",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c396",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c410_cls767",
+      "title": "course 410 class 767",
+      "hall": 12,
+      "slot_id": "w00d0s0204",
+      "category": "c410",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c412_cls776",
+      "title": "course 412 class 776",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c412",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c415_cls781",
+      "title": "course 415 class 781",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c415",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c416_cls783",
+      "title": "course 416 class 783",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c416",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c458_cls840",
+      "title": "course 458 class 840",
+      "hall": 68,
+      "slot_id": "w00d0s0204",
+      "category": "c458",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c474_cls869",
+      "title": "course 474 class 869",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c474",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c484_cls880",
+      "title": "course 484 class 880",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c484",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c490_cls886",
+      "title": "course 490 class 886",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c490",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c491_cls887",
+      "title": "course 491 class 887",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c491",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c492_cls888",
+      "title": "course 492 class 888",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c492",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c493_cls889",
+      "title": "course 493 class 889",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c493",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c494_cls890",
+      "title": "course 494 class 890",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c494",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c495_cls891",
+      "title": "course 495 class 891",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c495",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c496_cls892",
+      "title": "course 496 class 892",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c496",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c497_cls893",
+      "title": "course 497 class 893",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c497",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c498_cls894",
+      "title": "course 498 class 894",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c498",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c499_cls895",
+      "title": "course 499 class 895",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c499",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c500_cls896",
+      "title": "course 500 class 896",
+      "hall": 68,
+      "slot_id": "w00d0s0204",
+      "category": "c500",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c515_cls917",
+      "title": "course 515 class 917",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c515",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c517_cls922",
+      "title": "course 517 class 922",
+      "hall": 31,
+      "slot_id": "w00d0s0204",
+      "category": "c517",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c519_cls926",
+      "title": "course 519 class 926",
+      "hall": 74,
+      "slot_id": "w00d0s0204",
+      "category": "c519",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c521_cls929",
+      "title": "course 521 class 929",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c521",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c528_cls938",
+      "title": "course 528 class 938",
+      "hall": 12,
+      "slot_id": "w00d0s0204",
+      "category": "c528",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c537_cls948",
+      "title": "course 537 class 948",
+      "hall": 1,
+      "slot_id": "w00d0s0204",
+      "category": "c537",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c23_cls33",
+      "title": "course 23 class 33",
+      "hall": 6,
+      "slot_id": "w00d0s0114",
+      "category": "c23",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c25_cls51",
+      "title": "course 25 class 51",
+      "hall": 49,
+      "slot_id": "w00d0s0114",
+      "category": "c25",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c25_cls52",
+      "title": "course 25 class 52",
+      "hall": 49,
+      "slot_id": "w00d0s0114",
+      "category": "c25",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c25_cls53",
+      "title": "course 25 class 53",
+      "hall": 49,
+      "slot_id": "w00d0s0114",
+      "category": "c25",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c27_cls56",
+      "title": "course 27 class 56",
+      "hall": 49,
+      "slot_id": "w00d0s0114",
+      "category": "c27",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c28_cls57",
+      "title": "course 28 class 57",
+      "hall": 49,
+      "slot_id": "w00d0s0114",
+      "category": "c28",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c28_cls58",
+      "title": "course 28 class 58",
+      "hall": 49,
+      "slot_id": "w00d0s0114",
+      "category": "c28",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c29_cls60",
+      "title": "course 29 class 60",
+      "hall": 49,
+      "slot_id": "w00d0s0114",
+      "category": "c29",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c30_cls61",
+      "title": "course 30 class 61",
+      "hall": 49,
+      "slot_id": "w00d0s0114",
+      "category": "c30",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c30_cls62",
+      "title": "course 30 class 62",
+      "hall": 49,
+      "slot_id": "w00d0s0114",
+      "category": "c30",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c33_cls82",
+      "title": "course 33 class 82",
+      "hall": 51,
+      "slot_id": "w00d0s0114",
+      "category": "c33",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c33_cls83",
+      "title": "course 33 class 83",
+      "hall": 51,
+      "slot_id": "w00d0s0114",
+      "category": "c33",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c34_cls84",
+      "title": "course 34 class 84",
+      "hall": 51,
+      "slot_id": "w00d0s0114",
+      "category": "c34",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c34_cls85",
+      "title": "course 34 class 85",
+      "hall": 51,
+      "slot_id": "w00d0s0114",
+      "category": "c34",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c36_cls88",
+      "title": "course 36 class 88",
+      "hall": 51,
+      "slot_id": "w00d0s0114",
+      "category": "c36",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c36_cls89",
+      "title": "course 36 class 89",
+      "hall": 51,
+      "slot_id": "w00d0s0114",
+      "category": "c36",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c38_cls92",
+      "title": "course 38 class 92",
+      "hall": 51,
+      "slot_id": "w00d0s0114",
+      "category": "c38",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c38_cls93",
+      "title": "course 38 class 93",
+      "hall": 51,
+      "slot_id": "w00d0s0114",
+      "category": "c38",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c40_cls95",
+      "title": "course 40 class 95",
+      "hall": 51,
+      "slot_id": "w00d0s0114",
+      "category": "c40",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c50_cls106",
+      "title": "course 50 class 106",
+      "hall": 46,
+      "slot_id": "w00d0s0114",
+      "category": "c50",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c50_cls107",
+      "title": "course 50 class 107",
+      "hall": 46,
+      "slot_id": "w00d0s0114",
+      "category": "c50",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c50_cls108",
+      "title": "course 50 class 108",
+      "hall": 46,
+      "slot_id": "w00d0s0114",
+      "category": "c50",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c50_cls109",
+      "title": "course 50 class 109",
+      "hall": 46,
+      "slot_id": "w00d0s0114",
+      "category": "c50",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c53_cls134",
+      "title": "course 53 class 134",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c53",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c53_cls135",
+      "title": "course 53 class 135",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c53",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c53_cls136",
+      "title": "course 53 class 136",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c53",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c54_cls140",
+      "title": "course 54 class 140",
+      "hall": 43,
+      "slot_id": "w00d0s0114",
+      "category": "c54",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c55_cls141",
+      "title": "course 55 class 141",
+      "hall": 44,
+      "slot_id": "w00d0s0114",
+      "category": "c55",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c56_cls142",
+      "title": "course 56 class 142",
+      "hall": 45,
+      "slot_id": "w00d0s0114",
+      "category": "c56",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c56_cls143",
+      "title": "course 56 class 143",
+      "hall": 45,
+      "slot_id": "w00d0s0114",
+      "category": "c56",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c57_cls144",
+      "title": "course 57 class 144",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c57",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c57_cls145",
+      "title": "course 57 class 145",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c57",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c57_cls146",
+      "title": "course 57 class 146",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c57",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c82_cls224",
+      "title": "course 82 class 224",
+      "hall": 69,
+      "slot_id": "w00d0s0114",
+      "category": "c82",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c121_cls298",
+      "title": "course 121 class 298",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c121",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c217_cls438",
+      "title": "course 217 class 438",
+      "hall": 34,
+      "slot_id": "w00d0s0114",
+      "category": "c217",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c224_cls446",
+      "title": "course 224 class 446",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c224",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c225_cls447",
+      "title": "course 225 class 447",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c225",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c311_cls556",
+      "title": "course 311 class 556",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c311",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c383_cls669",
+      "title": "course 383 class 669",
+      "hall": 85,
+      "slot_id": "w00d0s0114",
+      "category": "c383",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c383_cls670",
+      "title": "course 383 class 670",
+      "hall": 85,
+      "slot_id": "w00d0s0114",
+      "category": "c383",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c388_cls681",
+      "title": "course 388 class 681",
+      "hall": 85,
+      "slot_id": "w00d0s0114",
+      "category": "c388",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c388_cls682",
+      "title": "course 388 class 682",
+      "hall": 85,
+      "slot_id": "w00d0s0114",
+      "category": "c388",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c388_cls683",
+      "title": "course 388 class 683",
+      "hall": 85,
+      "slot_id": "w00d0s0114",
+      "category": "c388",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c388_cls684",
+      "title": "course 388 class 684",
+      "hall": 85,
+      "slot_id": "w00d0s0114",
+      "category": "c388",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c388_cls685",
+      "title": "course 388 class 685",
+      "hall": 85,
+      "slot_id": "w00d0s0114",
+      "category": "c388",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c402_cls736",
+      "title": "course 402 class 736",
+      "hall": 85,
+      "slot_id": "w00d0s0114",
+      "category": "c402",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c422_cls794",
+      "title": "course 422 class 794",
+      "hall": 91,
+      "slot_id": "w00d0s0114",
+      "category": "c422",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c428_cls802",
+      "title": "course 428 class 802",
+      "hall": 88,
+      "slot_id": "w00d0s0114",
+      "category": "c428",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c429_cls804",
+      "title": "course 429 class 804",
+      "hall": 90,
+      "slot_id": "w00d0s0114",
+      "category": "c429",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c432_cls808",
+      "title": "course 432 class 808",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c432",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c434_cls810",
+      "title": "course 434 class 810",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c434",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c435_cls811",
+      "title": "course 435 class 811",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c435",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c441_cls818",
+      "title": "course 441 class 818",
+      "hall": 76,
+      "slot_id": "w00d0s0114",
+      "category": "c441",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c454_cls835",
+      "title": "course 454 class 835",
+      "hall": 68,
+      "slot_id": "w00d0s0114",
+      "category": "c454",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c468_cls857",
+      "title": "course 468 class 857",
+      "hall": 34,
+      "slot_id": "w00d0s0114",
+      "category": "c468",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c475_cls871",
+      "title": "course 475 class 871",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c475",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c478_cls874",
+      "title": "course 478 class 874",
+      "hall": 74,
+      "slot_id": "w00d0s0114",
+      "category": "c478",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c480_cls876",
+      "title": "course 480 class 876",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c480",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c481_cls877",
+      "title": "course 481 class 877",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c481",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c482_cls878",
+      "title": "course 482 class 878",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c482",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c485_cls881",
+      "title": "course 485 class 881",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c485",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c508_cls908",
+      "title": "course 508 class 908",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c508",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c511_cls911",
+      "title": "course 511 class 911",
+      "hall": 1,
+      "slot_id": "w00d0s0114",
+      "category": "c511",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c516_cls918",
+      "title": "course 516 class 918",
+      "hall": 31,
+      "slot_id": "w00d0s0114",
+      "category": "c516",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c516_cls921",
+      "title": "course 516 class 921",
+      "hall": 31,
+      "slot_id": "w00d0s0114",
+      "category": "c516",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c518_cls924",
+      "title": "course 518 class 924",
+      "hall": 74,
+      "slot_id": "w00d0s0114",
+      "category": "c518",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c518_cls925",
+      "title": "course 518 class 925",
+      "hall": 74,
+      "slot_id": "w00d0s0114",
+      "category": "c518",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c527_cls937",
+      "title": "course 527 class 937",
+      "hall": 12,
+      "slot_id": "w00d0s0114",
+      "category": "c527",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls34",
+      "title": "course 24 class 34",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls35",
+      "title": "course 24 class 35",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls36",
+      "title": "course 24 class 36",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls37",
+      "title": "course 24 class 37",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls38",
+      "title": "course 24 class 38",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls39",
+      "title": "course 24 class 39",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls40",
+      "title": "course 24 class 40",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls41",
+      "title": "course 24 class 41",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls42",
+      "title": "course 24 class 42",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls43",
+      "title": "course 24 class 43",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls44",
+      "title": "course 24 class 44",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls45",
+      "title": "course 24 class 45",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls46",
+      "title": "course 24 class 46",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls47",
+      "title": "course 24 class 47",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls48",
+      "title": "course 24 class 48",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls49",
+      "title": "course 24 class 49",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c24_cls50",
+      "title": "course 24 class 50",
+      "hall": 49,
+      "slot_id": "w00d5s0108",
+      "category": "c24",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls64",
+      "title": "course 32 class 64",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls65",
+      "title": "course 32 class 65",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls66",
+      "title": "course 32 class 66",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls67",
+      "title": "course 32 class 67",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls68",
+      "title": "course 32 class 68",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls69",
+      "title": "course 32 class 69",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls70",
+      "title": "course 32 class 70",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls71",
+      "title": "course 32 class 71",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls72",
+      "title": "course 32 class 72",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls73",
+      "title": "course 32 class 73",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls74",
+      "title": "course 32 class 74",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls75",
+      "title": "course 32 class 75",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls76",
+      "title": "course 32 class 76",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls77",
+      "title": "course 32 class 77",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls78",
+      "title": "course 32 class 78",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls79",
+      "title": "course 32 class 79",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls80",
+      "title": "course 32 class 80",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c32_cls81",
+      "title": "course 32 class 81",
+      "hall": 51,
+      "slot_id": "w00d5s0108",
+      "category": "c32",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c20_cls30",
+      "title": "course 20 class 30",
+      "hall": 31,
+      "slot_id": "w00d4s0096",
+      "category": "c20",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls112",
+      "title": "course 52 class 112",
+      "hall": 46,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls113",
+      "title": "course 52 class 113",
+      "hall": 46,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls114",
+      "title": "course 52 class 114",
+      "hall": 46,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls115",
+      "title": "course 52 class 115",
+      "hall": 46,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls116",
+      "title": "course 52 class 116",
+      "hall": 46,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls117",
+      "title": "course 52 class 117",
+      "hall": 48,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls118",
+      "title": "course 52 class 118",
+      "hall": 48,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls119",
+      "title": "course 52 class 119",
+      "hall": 43,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls120",
+      "title": "course 52 class 120",
+      "hall": 43,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls121",
+      "title": "course 52 class 121",
+      "hall": 43,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls122",
+      "title": "course 52 class 122",
+      "hall": 44,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls123",
+      "title": "course 52 class 123",
+      "hall": 44,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls124",
+      "title": "course 52 class 124",
+      "hall": 45,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls125",
+      "title": "course 52 class 125",
+      "hall": 45,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls126",
+      "title": "course 52 class 126",
+      "hall": 48,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls127",
+      "title": "course 52 class 127",
+      "hall": 48,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls128",
+      "title": "course 52 class 128",
+      "hall": 48,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls129",
+      "title": "course 52 class 129",
+      "hall": 47,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls130",
+      "title": "course 52 class 130",
+      "hall": 47,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls131",
+      "title": "course 52 class 131",
+      "hall": 47,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls132",
+      "title": "course 52 class 132",
+      "hall": 47,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c52_cls133",
+      "title": "course 52 class 133",
+      "hall": 47,
+      "slot_id": "w00d4s0096",
+      "category": "c52",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c70_cls195",
+      "title": "course 70 class 195",
+      "hall": 65,
+      "slot_id": "w00d4s0096",
+      "category": "c70",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c102_cls276",
+      "title": "course 102 class 276",
+      "hall": 67,
+      "slot_id": "w00d4s0096",
+      "category": "c102",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c133_cls311",
+      "title": "course 133 class 311",
+      "hall": 1,
+      "slot_id": "w00d4s0096",
+      "category": "c133",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c206_cls398",
+      "title": "course 206 class 398",
+      "hall": 38,
+      "slot_id": "w00d4s0096",
+      "category": "c206",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c256_cls484",
+      "title": "course 256 class 484",
+      "hall": 1,
+      "slot_id": "w00d4s0096",
+      "category": "c256",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c368_cls633",
+      "title": "course 368 class 633",
+      "hall": 1,
+      "slot_id": "w00d4s0096",
+      "category": "c368",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c368_cls634",
+      "title": "course 368 class 634",
+      "hall": 1,
+      "slot_id": "w00d4s0096",
+      "category": "c368",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c368_cls635",
+      "title": "course 368 class 635",
+      "hall": 1,
+      "slot_id": "w00d4s0096",
+      "category": "c368",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c375_cls645",
+      "title": "course 375 class 645",
+      "hall": 87,
+      "slot_id": "w00d4s0096",
+      "category": "c375",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c4_cls10",
+      "title": "course 4 class 10",
+      "hall": 31,
+      "slot_id": "w08d0s0204",
+      "category": "c4",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c60_cls150",
+      "title": "course 60 class 150",
+      "hall": 57,
+      "slot_id": "w08d0s0204",
+      "category": "c60",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c93_cls241",
+      "title": "course 93 class 241",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c93",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c95_cls243",
+      "title": "course 95 class 243",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c95",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c96_cls244",
+      "title": "course 96 class 244",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c96",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c127_cls304",
+      "title": "course 127 class 304",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c127",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c127_cls305",
+      "title": "course 127 class 305",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c127",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c129_cls307",
+      "title": "course 129 class 307",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c129",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c130_cls308",
+      "title": "course 130 class 308",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c130",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c136_cls314",
+      "title": "course 136 class 314",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c136",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c150_cls335",
+      "title": "course 150 class 335",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c150",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c201_cls393",
+      "title": "course 201 class 393",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c201",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c213_cls425",
+      "title": "course 213 class 425",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c213",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c239_cls463",
+      "title": "course 239 class 463",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c239",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c241_cls467",
+      "title": "course 241 class 467",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c241",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c289_cls531",
+      "title": "course 289 class 531",
+      "hall": 31,
+      "slot_id": "w08d0s0204",
+      "category": "c289",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c293_cls535",
+      "title": "course 293 class 535",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c293",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c297_cls539",
+      "title": "course 297 class 539",
+      "hall": 31,
+      "slot_id": "w08d0s0204",
+      "category": "c297",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c299_cls542",
+      "title": "course 299 class 542",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c299",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c306_cls551",
+      "title": "course 306 class 551",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c306",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c307_cls552",
+      "title": "course 307 class 552",
+      "hall": 31,
+      "slot_id": "w08d0s0204",
+      "category": "c307",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c308_cls553",
+      "title": "course 308 class 553",
+      "hall": 31,
+      "slot_id": "w08d0s0204",
+      "category": "c308",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c309_cls554",
+      "title": "course 309 class 554",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c309",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c332_cls594",
+      "title": "course 332 class 594",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c332",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c335_cls597",
+      "title": "course 335 class 597",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c335",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c338_cls600",
+      "title": "course 338 class 600",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c338",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c344_cls608",
+      "title": "course 344 class 608",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c344",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c437_cls814",
+      "title": "course 437 class 814",
+      "hall": 58,
+      "slot_id": "w08d0s0204",
+      "category": "c437",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c467_cls856",
+      "title": "course 467 class 856",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c467",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c470_cls863",
+      "title": "course 470 class 863",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c470",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c476_cls872",
+      "title": "course 476 class 872",
+      "hall": 1,
+      "slot_id": "w08d0s0204",
+      "category": "c476",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c68_cls178",
+      "title": "course 68 class 178",
+      "hall": 64,
+      "slot_id": "w00d1s0096",
+      "category": "c68",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c98_cls257",
+      "title": "course 98 class 257",
+      "hall": 67,
+      "slot_id": "w00d1s0096",
+      "category": "c98",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c194_cls386",
+      "title": "course 194 class 386",
+      "hall": 1,
+      "slot_id": "w00d1s0096",
+      "category": "c194",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c196_cls388",
+      "title": "course 196 class 388",
+      "hall": 1,
+      "slot_id": "w00d1s0096",
+      "category": "c196",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "c198_cls390",
+      "title": "course 198 class 390",
+      "hall": 1,
+      "slot_id": "w00d1s0096",
+      "category": "c198",
+      "abstract": "",
+      "fame": 0.0
+    }
+  ],
+  "halls": [
+    {
+      "id": 1,
+      "capacity": 50
+    },
+    {
+      "id": 3,
+      "capacity": 66
+    },
+    {
+      "id": 6,
+      "capacity": 42
+    },
+    {
+      "id": 12,
+      "capacity": 93
+    },
+    {
+      "id": 15,
+      "capacity": 40
+    },
+    {
+      "id": 18,
+      "capacity": 48
+    },
+    {
+      "id": 19,
+      "capacity": 56
+    },
+    {
+      "id": 31,
+      "capacity": 24
+    },
+    {
+      "id": 32,
+      "capacity": 30
+    },
+    {
+      "id": 33,
+      "capacity": 48
+    },
+    {
+      "id": 34,
+      "capacity": 20
+    },
+    {
+      "id": 38,
+      "capacity": 30
+    },
+    {
+      "id": 42,
+      "capacity": 20
+    },
+    {
+      "id": 43,
+      "capacity": 15
+    },
+    {
+      "id": 44,
+      "capacity": 15
+    },
+    {
+      "id": 45,
+      "capacity": 15
+    },
+    {
+      "id": 46,
+      "capacity": 15
+    },
+    {
+      "id": 47,
+      "capacity": 15
+    },
+    {
+      "id": 48,
+      "capacity": 15
+    },
+    {
+      "id": 49,
+      "capacity": 15
+    },
+    {
+      "id": 51,
+      "capacity": 15
+    },
+    {
+      "id": 56,
+      "capacity": 17
+    },
+    {
+      "id": 57,
+      "capacity": 10
+    },
+    {
+      "id": 58,
+      "capacity": 27
+    },
+    {
+      "id": 64,
+      "capacity": 24
+    },
+    {
+      "id": 65,
+      "capacity": 20
+    },
+    {
+      "id": 67,
+      "capacity": 20
+    },
+    {
+      "id": 68,
+      "capacity": 24
+    },
+    {
+      "id": 69,
+      "capacity": 24
+    },
+    {
+      "id": 71,
+      "capacity": 14
+    },
+    {
+      "id": 72,
+      "capacity": 35
+    },
+    {
+      "id": 74,
+      "capacity": 20
+    },
+    {
+      "id": 75,
+      "capacity": 28
+    },
+    {
+      "id": 76,
+      "capacity": 40
+    },
+    {
+      "id": 77,
+      "capacity": 50
+    },
+    {
+      "id": 78,
+      "capacity": 100
+    },
+    {
+      "id": 79,
+      "capacity": 20
+    },
+    {
+      "id": 80,
+      "capacity": 15
+    },
+    {
+      "id": 81,
+      "capacity": 8
+    },
+    {
+      "id": 85,
+      "capacity": 24
+    },
+    {
+      "id": 87,
+      "capacity": 16
+    },
+    {
+      "id": 88,
+      "capacity": 20
+    },
+    {
+      "id": 90,
+      "capacity": 30
+    },
+    {
+      "id": 91,
+      "capacity": 20
+    }
+  ],
+  "slots": [
+    {
+      "id": "w00d0s0096",
+      "datetime": "2018-09-01T08:00:00",
+      "talk_ids": [
+        "c1_cls1",
+        "c1_cls2",
+        "c1_cls3",
+        "c1_cls4",
+        "c3_cls6",
+        "c3_cls7",
+        "c3_cls8",
+        "c3_cls9",
+        "c7_cls13",
+        "c8_cls14",
+        "c11_cls17",
+        "c13_cls19",
+        "c14_cls20",
+        "c15_cls21",
+        "c16_cls22",
+        "c17_cls23",
+        "c18_cls24",
+        "c18_cls25",
+        "c19_cls29",
+        "c21_cls31",
+        "c49_cls105",
+        "c61_cls151",
+        "c61_cls152",
+        "c61_cls153",
+        "c61_cls154",
+        "c61_cls155",
+        "c61_cls156",
+        "c61_cls157",
+        "c63_cls171",
+        "c67_cls177",
+        "c69_cls180",
+        "c69_cls181",
+        "c69_cls184",
+        "c69_cls186",
+        "c71_cls198",
+        "c72_cls199",
+        "c73_cls201",
+        "c74_cls202",
+        "c74_cls203",
+        "c74_cls204",
+        "c74_cls205",
+        "c76_cls214",
+        "c78_cls217",
+        "c80_cls219",
+        "c80_cls220",
+        "c80_cls221",
+        "c81_cls222",
+        "c82_cls223",
+        "c83_cls226",
+        "c84_cls227",
+        "c84_cls228",
+        "c84_cls229",
+        "c84_cls230",
+        "c85_cls231",
+        "c85_cls232",
+        "c87_cls234",
+        "c87_cls235",
+        "c88_cls236",
+        "c89_cls237",
+        "c97_cls245",
+        "c97_cls246",
+        "c97_cls247",
+        "c97_cls248",
+        "c97_cls249",
+        "c97_cls250",
+        "c97_cls251",
+        "c97_cls252",
+        "c98_cls253",
+        "c98_cls262",
+        "c99_cls263",
+        "c99_cls264",
+        "c99_cls265",
+        "c99_cls266",
+        "c101_cls268",
+        "c101_cls269",
+        "c101_cls270",
+        "c101_cls271",
+        "c103_cls277",
+        "c103_cls278",
+        "c105_cls282",
+        "c108_cls285",
+        "c114_cls291",
+        "c115_cls292",
+        "c116_cls293",
+        "c117_cls294",
+        "c118_cls295",
+        "c119_cls296",
+        "c122_cls299",
+        "c123_cls300",
+        "c132_cls310",
+        "c134_cls312",
+        "c137_cls315",
+        "c138_cls316",
+        "c140_cls319",
+        "c145_cls324",
+        "c146_cls325",
+        "c147_cls326",
+        "c147_cls328",
+        "c148_cls331",
+        "c148_cls332",
+        "c148_cls333",
+        "c177_cls369",
+        "c178_cls370",
+        "c180_cls372",
+        "c191_cls383",
+        "c212_cls404",
+        "c212_cls405",
+        "c212_cls406",
+        "c212_cls407",
+        "c212_cls408",
+        "c212_cls409",
+        "c212_cls410",
+        "c212_cls411",
+        "c212_cls412",
+        "c212_cls413",
+        "c212_cls414",
+        "c212_cls415",
+        "c212_cls416",
+        "c212_cls417",
+        "c212_cls418",
+        "c212_cls419",
+        "c212_cls420",
+        "c212_cls421",
+        "c212_cls422",
+        "c212_cls423",
+        "c212_cls424",
+        "c214_cls426",
+        "c214_cls427",
+        "c214_cls428",
+        "c214_cls429",
+        "c214_cls430",
+        "c214_cls431",
+        "c214_cls432",
+        "c214_cls433",
+        "c214_cls434",
+        "c214_cls435",
+        "c215_cls436",
+        "c216_cls437",
+        "c217_cls439",
+        "c218_cls440",
+        "c219_cls441",
+        "c220_cls442",
+        "c221_cls443",
+        "c222_cls444",
+        "c223_cls445",
+        "c227_cls449",
+        "c228_cls450",
+        "c229_cls451",
+        "c230_cls452",
+        "c231_cls453",
+        "c232_cls454",
+        "c233_cls455",
+        "c233_cls456",
+        "c234_cls457",
+        "c235_cls458",
+        "c236_cls459",
+        "c237_cls460",
+        "c237_cls461",
+        "c238_cls462",
+        "c240_cls464",
+        "c240_cls465",
+        "c240_cls466",
+        "c242_cls468",
+        "c243_cls469",
+        "c244_cls470",
+        "c247_cls473",
+        "c248_cls474",
+        "c249_cls475",
+        "c253_cls481",
+        "c255_cls483",
+        "c260_cls489",
+        "c261_cls490",
+        "c262_cls491",
+        "c264_cls493",
+        "c265_cls494",
+        "c267_cls496",
+        "c268_cls497",
+        "c270_cls499",
+        "c270_cls500",
+        "c270_cls501",
+        "c270_cls502",
+        "c270_cls503",
+        "c271_cls504",
+        "c273_cls506",
+        "c274_cls507",
+        "c275_cls508",
+        "c276_cls509",
+        "c277_cls510",
+        "c278_cls511",
+        "c279_cls512",
+        "c280_cls513",
+        "c281_cls514",
+        "c282_cls515",
+        "c283_cls516",
+        "c284_cls517",
+        "c285_cls518",
+        "c286_cls519",
+        "c287_cls520",
+        "c288_cls521",
+        "c288_cls522",
+        "c288_cls523",
+        "c288_cls524",
+        "c288_cls525",
+        "c288_cls526",
+        "c288_cls527",
+        "c288_cls528",
+        "c288_cls529",
+        "c288_cls530",
+        "c296_cls538",
+        "c298_cls540",
+        "c298_cls541",
+        "c300_cls543",
+        "c302_cls545",
+        "c302_cls546",
+        "c303_cls547",
+        "c303_cls548",
+        "c312_cls557",
+        "c313_cls558",
+        "c314_cls559",
+        "c314_cls560",
+        "c314_cls561",
+        "c315_cls562",
+        "c315_cls563",
+        "c316_cls564",
+        "c317_cls565",
+        "c317_cls566",
+        "c317_cls567",
+        "c317_cls568",
+        "c318_cls569",
+        "c318_cls570",
+        "c318_cls571",
+        "c318_cls572",
+        "c319_cls573",
+        "c319_cls574",
+        "c319_cls575",
+        "c319_cls576",
+        "c319_cls577",
+        "c320_cls578",
+        "c320_cls579",
+        "c321_cls580",
+        "c321_cls581",
+        "c322_cls582",
+        "c323_cls583",
+        "c324_cls584",
+        "c325_cls585",
+        "c326_cls586",
+        "c327_cls587",
+        "c328_cls588",
+        "c329_cls589",
+        "c330_cls590",
+        "c331_cls591",
+        "c331_cls592",
+        "c331_cls593",
+        "c333_cls595",
+        "c334_cls596",
+        "c339_cls601",
+        "c339_cls602",
+        "c339_cls603",
+        "c341_cls605",
+        "c342_cls606",
+        "c343_cls607",
+        "c347_cls611",
+        "c353_cls617",
+        "c354_cls618",
+        "c356_cls620",
+        "c357_cls621",
+        "c357_cls622",
+        "c358_cls623",
+        "c359_cls624",
+        "c360_cls625",
+        "c361_cls626",
+        "c362_cls627",
+        "c363_cls628",
+        "c367_cls632",
+        "c370_cls637",
+        "c370_cls638",
+        "c373_cls642",
+        "c381_cls664",
+        "c381_cls665",
+        "c386_cls674",
+        "c386_cls675",
+        "c386_cls676",
+        "c386_cls677",
+        "c386_cls678",
+        "c401_cls732",
+        "c403_cls744",
+        "c405_cls752",
+        "c405_cls753",
+        "c406_cls754",
+        "c421_cls793",
+        "c426_cls800",
+        "c427_cls801",
+        "c433_cls809",
+        "c436_cls812",
+        "c436_cls813",
+        "c440_cls817",
+        "c451_cls831",
+        "c454_cls834",
+        "c465_cls847",
+        "c466_cls852",
+        "c466_cls853",
+        "c466_cls854",
+        "c466_cls855",
+        "c469_cls858",
+        "c469_cls862",
+        "c471_cls864",
+        "c472_cls865",
+        "c473_cls866",
+        "c473_cls867",
+        "c475_cls870",
+        "c479_cls875",
+        "c487_cls883",
+        "c488_cls884",
+        "c489_cls885",
+        "c501_cls897",
+        "c501_cls898",
+        "c502_cls899",
+        "c503_cls900",
+        "c504_cls901",
+        "c505_cls902",
+        "c506_cls904",
+        "c506_cls905",
+        "c506_cls906",
+        "c507_cls907",
+        "c509_cls909",
+        "c510_cls910",
+        "c512_cls912",
+        "c513_cls913",
+        "c514_cls914",
+        "c514_cls915",
+        "c514_cls916",
+        "c516_cls919",
+        "c516_cls920",
+        "c520_cls927",
+        "c520_cls928",
+        "c522_cls930",
+        "c523_cls931",
+        "c524_cls932",
+        "c524_cls933",
+        "c524_cls934",
+        "c525_cls935",
+        "c530_cls940",
+        "c531_cls941",
+        "c532_cls942",
+        "c533_cls943",
+        "c533_cls944",
+        "c534_cls945",
+        "c535_cls946",
+        "c536_cls947",
+        "c538_cls949",
+        "c539_cls950",
+        "c540_cls951"
+      ]
+    },
+    {
+      "id": "w00d0s0204",
+      "datetime": "2018-09-01T08:00:00",
+      "talk_ids": [
+        "c2_cls5",
+        "c5_cls11",
+        "c6_cls12",
+        "c9_cls15",
+        "c12_cls18",
+        "c22_cls32",
+        "c41_cls96",
+        "c42_cls97",
+        "c70_cls188",
+        "c86_cls233",
+        "c90_cls238",
+        "c91_cls239",
+        "c94_cls242",
+        "c98_cls256",
+        "c124_cls301",
+        "c125_cls302",
+        "c126_cls303",
+        "c128_cls306",
+        "c135_cls313",
+        "c139_cls317",
+        "c139_cls318",
+        "c141_cls320",
+        "c142_cls321",
+        "c143_cls322",
+        "c144_cls323",
+        "c171_cls359",
+        "c176_cls368",
+        "c188_cls380",
+        "c189_cls381",
+        "c190_cls382",
+        "c202_cls394",
+        "c203_cls395",
+        "c204_cls396",
+        "c207_cls399",
+        "c208_cls400",
+        "c209_cls401",
+        "c210_cls402",
+        "c245_cls471",
+        "c259_cls488",
+        "c266_cls495",
+        "c291_cls533",
+        "c295_cls537",
+        "c301_cls544",
+        "c305_cls550",
+        "c336_cls598",
+        "c340_cls604",
+        "c376_cls647",
+        "c376_cls648",
+        "c394_cls708",
+        "c394_cls709",
+        "c396_cls718",
+        "c396_cls719",
+        "c410_cls767",
+        "c412_cls776",
+        "c415_cls781",
+        "c416_cls783",
+        "c458_cls840",
+        "c474_cls869",
+        "c484_cls880",
+        "c490_cls886",
+        "c491_cls887",
+        "c492_cls888",
+        "c493_cls889",
+        "c494_cls890",
+        "c495_cls891",
+        "c496_cls892",
+        "c497_cls893",
+        "c498_cls894",
+        "c499_cls895",
+        "c500_cls896",
+        "c515_cls917",
+        "c517_cls922",
+        "c519_cls926",
+        "c521_cls929",
+        "c528_cls938",
+        "c537_cls948"
+      ]
+    },
+    {
+      "id": "w00d0s0114",
+      "datetime": "2018-09-01T08:00:00",
+      "talk_ids": [
+        "c23_cls33",
+        "c25_cls51",
+        "c25_cls52",
+        "c25_cls53",
+        "c27_cls56",
+        "c28_cls57",
+        "c28_cls58",
+        "c29_cls60",
+        "c30_cls61",
+        "c30_cls62",
+        "c33_cls82",
+        "c33_cls83",
+        "c34_cls84",
+        "c34_cls85",
+        "c36_cls88",
+        "c36_cls89",
+        "c38_cls92",
+        "c38_cls93",
+        "c40_cls95",
+        "c50_cls106",
+        "c50_cls107",
+        "c50_cls108",
+        "c50_cls109",
+        "c53_cls134",
+        "c53_cls135",
+        "c53_cls136",
+        "c54_cls140",
+        "c55_cls141",
+        "c56_cls142",
+        "c56_cls143",
+        "c57_cls144",
+        "c57_cls145",
+        "c57_cls146",
+        "c82_cls224",
+        "c121_cls298",
+        "c217_cls438",
+        "c224_cls446",
+        "c225_cls447",
+        "c311_cls556",
+        "c383_cls669",
+        "c383_cls670",
+        "c388_cls681",
+        "c388_cls682",
+        "c388_cls683",
+        "c388_cls684",
+        "c388_cls685",
+        "c402_cls736",
+        "c422_cls794",
+        "c428_cls802",
+        "c429_cls804",
+        "c432_cls808",
+        "c434_cls810",
+        "c435_cls811",
+        "c441_cls818",
+        "c454_cls835",
+        "c468_cls857",
+        "c475_cls871",
+        "c478_cls874",
+        "c480_cls876",
+        "c481_cls877",
+        "c482_cls878",
+        "c485_cls881",
+        "c508_cls908",
+        "c511_cls911",
+        "c516_cls918",
+        "c516_cls921",
+        "c518_cls924",
+        "c518_cls925",
+        "c527_cls937"
+      ]
+    },
+    {
+      "id": "w00d5s0108",
+      "datetime": "2018-09-01T08:00:00",
+      "talk_ids": [
+        "c24_cls34",
+        "c24_cls35",
+        "c24_cls36",
+        "c24_cls37",
+        "c24_cls38",
+        "c24_cls39",
+        "c24_cls40",
+        "c24_cls41",
+        "c24_cls42",
+        "c24_cls43",
+        "c24_cls44",
+        "c24_cls45",
+        "c24_cls46",
+        "c24_cls47",
+        "c24_cls48",
+        "c24_cls49",
+        "c24_cls50",
+        "c32_cls64",
+        "c32_cls65",
+        "c32_cls66",
+        "c32_cls67",
+        "c32_cls68",
+        "c32_cls69",
+        "c32_cls70",
+        "c32_cls71",
+        "c32_cls72",
+        "c32_cls73",
+        "c32_cls74",
+        "c32_cls75",
+        "c32_cls76",
+        "c32_cls77",
+        "c32_cls78",
+        "c32_cls79",
+        "c32_cls80",
+        "c32_cls81"
+      ]
+    },
+    {
+      "id": "w00d4s0096",
+      "datetime": "2018-09-01T08:00:00",
+      "talk_ids": [
+        "c20_cls30",
+        "c52_cls112",
+        "c52_cls113",
+        "c52_cls114",
+        "c52_cls115",
+        "c52_cls116",
+        "c52_cls117",
+        "c52_cls118",
+        "c52_cls119",
+        "c52_cls120",
+        "c52_cls121",
+        "c52_cls122",
+        "c52_cls123",
+        "c52_cls124",
+        "c52_cls125",
+        "c52_cls126",
+        "c52_cls127",
+        "c52_cls128",
+        "c52_cls129",
+        "c52_cls130",
+        "c52_cls131",
+        "c52_cls132",
+        "c52_cls133",
+        "c70_cls195",
+        "c102_cls276",
+        "c133_cls311",
+        "c206_cls398",
+        "c256_cls484",
+        "c368_cls633",
+        "c368_cls634",
+        "c368_cls635",
+        "c375_cls645"
+      ]
+    },
+    {
+      "id": "w08d0s0204",
+      "datetime": "2018-09-09T08:00:00",
+      "talk_ids": [
+        "c4_cls10",
+        "c60_cls150",
+        "c93_cls241",
+        "c95_cls243",
+        "c96_cls244",
+        "c127_cls304",
+        "c127_cls305",
+        "c129_cls307",
+        "c130_cls308",
+        "c136_cls314",
+        "c150_cls335",
+        "c201_cls393",
+        "c213_cls425",
+        "c239_cls463",
+        "c241_cls467",
+        "c289_cls531",
+        "c293_cls535",
+        "c297_cls539",
+        "c299_cls542",
+        "c306_cls551",
+        "c307_cls552",
+        "c308_cls553",
+        "c309_cls554",
+        "c332_cls594",
+        "c335_cls597",
+        "c338_cls600",
+        "c344_cls608",
+        "c437_cls814",
+        "c467_cls856",
+        "c470_cls863",
+        "c476_cls872"
+      ]
+    },
+    {
+      "id": "w00d1s0096",
+      "datetime": "2018-09-01T08:00:00",
+      "talk_ids": [
+        "c68_cls178",
+        "c98_cls257",
+        "c194_cls386",
+        "c196_cls388",
+        "c198_cls390"
+      ]
+    }
+  ]
+}

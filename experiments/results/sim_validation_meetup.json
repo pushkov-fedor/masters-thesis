@@ -1,0 +1,13 @@
+{
+  "tau": 0.3,
+  "lambda_overflow": 2.0,
+  "p_skip": 0.05,
+  "n_user_slot_pairs": 3647,
+  "accuracy_at_1": 0.7781738415135728,
+  "js_mean": 0.06280350179369126,
+  "js_median": 0.03101006016097979,
+  "n_slots_evaluated": 166,
+  "spearman_count_rho": 0.8442569449604069,
+  "spearman_count_p": 5.428053758104804e-102,
+  "random_baseline": 0.43682021753039024
+}

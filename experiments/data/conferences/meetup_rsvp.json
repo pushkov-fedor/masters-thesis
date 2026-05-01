@@ -1,0 +1,5745 @@
+{
+  "name": "Meetup RSVP NL (cross-domain)",
+  "talks": [
+    {
+      "id": "eAndroid-Developers-Camp-Amsterdam_1315987200000_67474",
+      "title": "Appsterdam@PICNIC",
+      "hall": 55,
+      "slot_id": "2011-09-14T08",
+      "category": "Android-Developers-Camp-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1315987200000_68280",
+      "title": "Appsterdam at PICNIC - Hackathon!",
+      "hall": 172,
+      "slot_id": "2011-09-14T08",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1315987200000_67093",
+      "title": "Meet The Makers",
+      "hall": 2,
+      "slot_id": "2011-09-14T08",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1316073600000_67474",
+      "title": "Appsterdam at PICNIC - Hackathon!",
+      "hall": 55,
+      "slot_id": "2011-09-15T08",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1316073600000_67093",
+      "title": "Meet The Makers",
+      "hall": 2,
+      "slot_id": "2011-09-15T08",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1320429600000_68587",
+      "title": "Amsterdam Film Week + ticket raffle",
+      "hall": 195,
+      "slot_id": "2011-11-04T18",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1320429600000_67340",
+      "title": "Appsterdam Launch Party 2.0 Overwinter Meeten en Drinken, sponsored by Microsoft",
+      "hall": 37,
+      "slot_id": "2011-11-04T18",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDigital-Museum-Network-Amsterdam_1323435600000_67870",
+      "title": "Virtual Museum Network Amsterdam Meetup",
+      "hall": 118,
+      "slot_id": "2011-12-09T13",
+      "category": "Digital-Museum-Network-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDigital-Museum-Network-Amsterdam_1323435600000_67870_1",
+      "title": "Virtual Museum Network Amsterdam Meetup",
+      "hall": 118,
+      "slot_id": "2011-12-09T13",
+      "category": "Digital-Museum-Network-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1332579600000_67701",
+      "title": "Appsterdam Guru Session: Tools for Android Game Development",
+      "hall": 94,
+      "slot_id": "2012-03-24T09",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edutch-aug_1332579600000_67701",
+      "title": "Tools for Android Game Development",
+      "hall": 94,
+      "slot_id": "2012-03-24T09",
+      "category": "dutch-aug",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1334597400000_68669",
+      "title": "Appsterdam at Waag Open Space hosted by Appril",
+      "hall": 205,
+      "slot_id": "2012-04-16T17",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppril_1334597400000_68423",
+      "title": "App Marketing, Communication & PR",
+      "hall": 187,
+      "slot_id": "2012-04-16T17",
+      "category": "Appril",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ecode-food-bar_1334761200000_68134",
+      "title": "Pet project party",
+      "hall": 149,
+      "slot_id": "2012-04-18T15",
+      "category": "code-food-bar",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppril_1334763000000_68592",
+      "title": "Social Media Club Amsterdam: \"De locatie maakt de app!\"",
+      "hall": 196,
+      "slot_id": "2012-04-18T15",
+      "category": "Appril",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppril_1335276000000_67249",
+      "title": "Workshop ‘Android voor beginners’ (VOL)",
+      "hall": 19,
+      "slot_id": "2012-04-24T14",
+      "category": "Appril",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edutch-aug_1335276000000_68184",
+      "title": "Android Workshop for Beginners",
+      "hall": 160,
+      "slot_id": "2012-04-24T14",
+      "category": "dutch-aug",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppril_1335373200000_68592",
+      "title": "Augmented Reality Apps",
+      "hall": 196,
+      "slot_id": "2012-04-25T17",
+      "category": "Appril",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppril_1335375000000_67427",
+      "title": "App Merknamen en Merkenrecht (GAAT HELAAS NIET DOOR)",
+      "hall": 49,
+      "slot_id": "2012-04-25T17",
+      "category": "Appril",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "esoftware-architecture-pressure-cooker-meetup_1339686000000_68099",
+      "title": "3-2-1 Bang!",
+      "hall": 144,
+      "slot_id": "2012-06-14T15",
+      "category": "software-architecture-pressure-cooker-me",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNetherlands-Hadoop-User-Group_1339686900000_67947",
+      "title": "Hadoop experiences at eBuddy and Enterprise ready Hadoop at Greenplum",
+      "hall": 130,
+      "slot_id": "2012-06-14T15",
+      "category": "Netherlands-Hadoop-User-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-UX-Cocktail-Hours_1340294400000_67888",
+      "title": "Information Overload at Valsplat",
+      "hall": 121,
+      "slot_id": "2012-06-21T16",
+      "category": "Amsterdam-UX-Cocktail-Hours",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edutchmug_1340294400000_67513",
+      "title": "First brainstorm to plan objectives for MongoDB User Group in the Netherlands",
+      "hall": 60,
+      "slot_id": "2012-06-21T16",
+      "category": "dutchmug",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDigital-Museum-Network-Amsterdam_1340366400000_67870",
+      "title": "Virtual Museum Network Amsterdam Meetup",
+      "hall": 118,
+      "slot_id": "2012-06-22T12",
+      "category": "Digital-Museum-Network-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDigital-Museum-Network-Amsterdam_1340366400000_67870_1",
+      "title": "Virtual Museum Network Amsterdam Meetup",
+      "hall": 118,
+      "slot_id": "2012-06-22T12",
+      "category": "Digital-Museum-Network-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "egraphdb-netherlands_1352392200000_68099",
+      "title": "Graph Database Case Studies",
+      "hall": 144,
+      "slot_id": "2012-11-08T16",
+      "category": "graphdb-netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNetherlands-Hadoop-User-Group_1352390400000_67833",
+      "title": "Prototyping using the Hadoop stack",
+      "hall": 111,
+      "slot_id": "2012-11-08T16",
+      "category": "Netherlands-Hadoop-User-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-rb_1353434400000_67648",
+      "title": "Ruby Hack Night at TRUE",
+      "hall": 85,
+      "slot_id": "2012-11-20T18",
+      "category": "Amsterdam-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1353434400000_68172",
+      "title": "Evernote maandelijkse meetup",
+      "hall": 158,
+      "slot_id": "2012-11-20T18",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1354206600000_68056",
+      "title": "Guru Session: Programming for beginners",
+      "hall": 140,
+      "slot_id": "2012-11-29T16",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ecode-food-bar_1354204800000_67338",
+      "title": "AngularJS Fiddle Festival - Jasmine's secrets",
+      "hall": 36,
+      "slot_id": "2012-11-29T16",
+      "category": "code-food-bar",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1354885200000_68172",
+      "title": "Easycratie meetup met Erwin Witteveen",
+      "hall": 158,
+      "slot_id": "2012-12-07T13",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDigital-Museum-Network-Amsterdam_1354885200000_67870",
+      "title": "Virtual Museum Network Amsterdam Meetup",
+      "hall": 118,
+      "slot_id": "2012-12-07T13",
+      "category": "Digital-Museum-Network-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "efp-ams_1358272800000_67393",
+      "title": "Second Meetup",
+      "hall": 45,
+      "slot_id": "2013-01-15T18",
+      "category": "fp-ams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-rb_1358272800000_67683",
+      "title": "New Years Bubbles",
+      "hall": 89,
+      "slot_id": "2013-01-15T18",
+      "category": "Amsterdam-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1363888800000_68158",
+      "title": "Monthly Meeting - March/2013",
+      "hall": 154,
+      "slot_id": "2013-03-21T18",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eThe-Gamification-Meetup-Group_1363888800000_67925",
+      "title": "Early Spring Edition",
+      "hall": 126,
+      "slot_id": "2013-03-21T18",
+      "category": "The-Gamification-Meetup-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1366458300000_67711",
+      "title": "The Waag and Waag Society Fablab",
+      "hall": 95,
+      "slot_id": "2013-04-20T11",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1366455600000_68803",
+      "title": "Appsterdam Bike Tour",
+      "hall": 223,
+      "slot_id": "2013-04-20T11",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-rb_1369155600000_67422",
+      "title": "Ruby Hack Night at Elmar Reizen",
+      "hall": 48,
+      "slot_id": "2013-05-21T17",
+      "category": "Amsterdam-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMagento-user-Group-Amsterdam_1369155600000_68086",
+      "title": "Discussing Magento migration and upgrading Magento",
+      "hall": 142,
+      "slot_id": "2013-05-21T17",
+      "category": "Magento-user-Group-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1369157400000_68172",
+      "title": "Evernote  Meetup - deze keer thema:  Evernote voor het MKB en ZZP-ers",
+      "hall": 158,
+      "slot_id": "2013-05-21T17",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNetherlands-Hadoop-User-Group_1369238400000_67790",
+      "title": "Hadoop provisioning and Data Science + company launch event",
+      "hall": 105,
+      "slot_id": "2013-05-22T16",
+      "category": "Netherlands-Hadoop-User-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "enosql-nl_1369238400000_67413",
+      "title": "Hadoop provisioning and Data Science + company launch event",
+      "hall": 47,
+      "slot_id": "2013-05-22T16",
+      "category": "nosql-nl",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eChi-Cafe_1371661200000_68241",
+      "title": "Chi Café: user experience and real architecture",
+      "hall": 166,
+      "slot_id": "2013-06-19T17",
+      "category": "Chi-Cafe",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "esensemakersams_1371661200000_67728",
+      "title": "Let's DO a new IoT/electronics project for this year",
+      "hall": 98,
+      "slot_id": "2013-06-19T17",
+      "category": "sensemakersams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAWS-Amsterdam_1372091400000_67293",
+      "title": "The story of 10 ES clusters on AWS",
+      "hall": 28,
+      "slot_id": "2013-06-24T16",
+      "category": "AWS-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eElastic-NL_1372091400000_67293",
+      "title": "9apps and the story of 10 ES clusters",
+      "hall": 28,
+      "slot_id": "2013-06-24T16",
+      "category": "Elastic-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edutch-aug_1372345200000_68745",
+      "title": "Better builds",
+      "hall": 216,
+      "slot_id": "2013-06-27T15",
+      "category": "dutch-aug",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eapachemeetup-nl_1372347000000_68430",
+      "title": "Access your data",
+      "hall": 188,
+      "slot_id": "2013-06-27T15",
+      "category": "apachemeetup-nl",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eUX-for-dummies_1376582400000_68167",
+      "title": "Exploring the Art of Persuasion",
+      "hall": 157,
+      "slot_id": "2013-08-15T16",
+      "category": "UX-for-dummies",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eUXGames_1376582400000_68167",
+      "title": "Explore the Art of Persuasion",
+      "hall": 157,
+      "slot_id": "2013-08-15T16",
+      "category": "UXGames",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1376586000000_67448",
+      "title": "Monthly Meeting - August/2013",
+      "hall": 51,
+      "slot_id": "2013-08-15T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1376586000000_67580",
+      "title": "Scala Academy",
+      "hall": 69,
+      "slot_id": "2013-08-15T17",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eHippo-Meetup_1378222200000_67720",
+      "title": "Software testing and quality",
+      "hall": 96,
+      "slot_id": "2013-09-03T15",
+      "category": "Hippo-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePush2Press-Amsterdam_1378220400000_67927",
+      "title": "Build your own app",
+      "hall": 127,
+      "slot_id": "2013-09-03T15",
+      "category": "Push2Press-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eTitaniumNL_1378315800000_67927",
+      "title": "BYOI: Bring Your Own Issue",
+      "hall": 127,
+      "slot_id": "2013-09-04T17",
+      "category": "TitaniumNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSymfony-User-Group-NL_1378314000000_67322",
+      "title": "Symfony User Group Meetup - 4 september 2013",
+      "hall": 34,
+      "slot_id": "2013-09-04T17",
+      "category": "Symfony-User-Group-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eJavaScript-MVC-Meetup-Amsterdam_1378314000000_67293",
+      "title": "JS MVC Meetup #3",
+      "hall": 28,
+      "slot_id": "2013-09-04T17",
+      "category": "JavaScript-MVC-Meetup-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1378314000000_67626",
+      "title": "Monthly Meeting",
+      "hall": 77,
+      "slot_id": "2013-09-04T17",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eagileholland_1378828800000_68041",
+      "title": "Be The First To Experience Jurgen Appelo's New Presentation",
+      "hall": 139,
+      "slot_id": "2013-09-10T16",
+      "category": "agileholland",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Riak_1378830600000_68179",
+      "title": "Zombie Apocalypse Part 1!",
+      "hall": 159,
+      "slot_id": "2013-09-10T16",
+      "category": "Amsterdam-Riak",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eapachemeetup-nl_1379431800000_68430",
+      "title": "Data Accessibility: Trends in Security",
+      "hall": 188,
+      "slot_id": "2013-09-17T15",
+      "category": "apachemeetup-nl",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePush2Press-Amsterdam_1379430000000_67927",
+      "title": "Build your own app",
+      "hall": 127,
+      "slot_id": "2013-09-17T15",
+      "category": "Push2Press-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1379439000000_68172",
+      "title": "Verbeter je 'elevator pitch' en/of de achterflap van je boek",
+      "hall": 158,
+      "slot_id": "2013-09-17T17",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-rb_1379437200000_67526",
+      "title": "Talks & Drinks",
+      "hall": 64,
+      "slot_id": "2013-09-17T17",
+      "category": "Amsterdam-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNetherlands-Cassandra-Users_1380213000000_67863",
+      "title": "BlueConic : The GX Software's experience with Cassandra",
+      "hall": 116,
+      "slot_id": "2013-09-26T16",
+      "category": "Netherlands-Cassandra-Users",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1380211200000_68179",
+      "title": "Talks & Drinks",
+      "hall": 159,
+      "slot_id": "2013-09-26T16",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNetherlands-Hadoop-User-Group_1380211200000_68142",
+      "title": "Hadoop at Spotify and Sanoma Media",
+      "hall": 151,
+      "slot_id": "2013-09-26T16",
+      "category": "Netherlands-Hadoop-User-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSweetlakePHP_1380214800000_67802",
+      "title": "NomadPHP pizza meetup",
+      "hall": 107,
+      "slot_id": "2013-09-26T17",
+      "category": "SweetlakePHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMagento-user-Group-Amsterdam_1380214800000_68039",
+      "title": "Beheers je Magento backoffice",
+      "hall": 138,
+      "slot_id": "2013-09-26T17",
+      "category": "Magento-user-Group-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1380733200000_67863",
+      "title": "Monthly Meeting",
+      "hall": 116,
+      "slot_id": "2013-10-02T17",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1380735000000_68779",
+      "title": "KIJK Live! (2e try-out)",
+      "hall": 220,
+      "slot_id": "2013-10-02T17",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eocamsterdam_1381334400000_67374",
+      "title": "Launchdesk eWeek drinks: join fellow entrepreneurs and creatives @ Bovendebalie",
+      "hall": 42,
+      "slot_id": "2013-10-09T16",
+      "category": "ocamsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eagileholland_1381334400000_68160",
+      "title": "Complexity, Governance and the Agile Team",
+      "hall": 155,
+      "slot_id": "2013-10-09T16",
+      "category": "agileholland",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMagento-user-Group-Amsterdam_1381424400000_68039",
+      "title": "SEO Mobile (Magento SEO workshop presentatie)",
+      "hall": 138,
+      "slot_id": "2013-10-10T17",
+      "category": "Magento-user-Group-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Riak_1381424400000_67393",
+      "title": "Zombie Apocalypse Part 2",
+      "hall": 45,
+      "slot_id": "2013-10-10T17",
+      "category": "Amsterdam-Riak",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1382029200000_68158",
+      "title": "Monthly Meeting - October/2013 (with PHPBenelux)",
+      "hall": 154,
+      "slot_id": "2013-10-17T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ephpbenelux_1382029200000_68780",
+      "title": "October Meeting with AmsterdamPHP",
+      "hall": 221,
+      "slot_id": "2013-10-17T17",
+      "category": "phpbenelux",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-rb_1384884000000_68521",
+      "title": "Ruby Hack Night at Publitas.com (Round 2)",
+      "hall": 192,
+      "slot_id": "2013-11-19T18",
+      "category": "Amsterdam-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1384885800000_68172",
+      "title": "test",
+      "hall": 158,
+      "slot_id": "2013-11-19T18",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Python-Meetup-Group_1386176400000_67629",
+      "title": "Talks & Drinks at Byte #3",
+      "hall": 78,
+      "slot_id": "2013-12-04T17",
+      "category": "Amsterdam-Python-Meetup-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1386176400000_68002",
+      "title": "Monthly Meeting",
+      "hall": 133,
+      "slot_id": "2013-12-04T17",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMagento-user-Group-Amsterdam_1387476000000_68039",
+      "title": "Develop using GIT with Magento",
+      "hall": 138,
+      "slot_id": "2013-12-19T18",
+      "category": "Magento-user-Group-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1387476000000_68200",
+      "title": "Monthly Meeting - December/2013",
+      "hall": 162,
+      "slot_id": "2013-12-19T18",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-rb_1390327200000_67865",
+      "title": "Talks & Drinks",
+      "hall": 117,
+      "slot_id": "2014-01-21T18",
+      "category": "Amsterdam-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1390329000000_68779",
+      "title": "KIJK Live! #5",
+      "hall": 220,
+      "slot_id": "2014-01-21T18",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eUtrecht-rb_1391450400000_68793",
+      "title": "Talks and drinks!",
+      "hall": 222,
+      "slot_id": "2014-02-03T18",
+      "category": "Utrecht-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1391450400000_67293",
+      "title": "Talks & Drinks",
+      "hall": 28,
+      "slot_id": "2014-02-03T18",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-UX-Cocktail-Hours_1391709600000_68012",
+      "title": "Celebrate UX in the city",
+      "hall": 134,
+      "slot_id": "2014-02-06T18",
+      "category": "Amsterdam-UX-Cocktail-Hours",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eChi-Cafe_1391711400000_67636",
+      "title": "Chi Café: “UX in the City”",
+      "hall": 80,
+      "slot_id": "2014-02-06T18",
+      "category": "Chi-Cafe",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eLean-UX-Amsterdam_1391709600000_67295",
+      "title": "Second Lean UX meetup - Interaction 14 edition",
+      "hall": 29,
+      "slot_id": "2014-02-06T18",
+      "category": "Lean-UX-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eBehavior-Design-AMS_1391713200000_67295",
+      "title": "Behavior Design AMS Meetup 3 (the IxDA edition)",
+      "hall": 29,
+      "slot_id": "2014-02-06T19",
+      "category": "Behavior-Design-AMS",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1391713200000_67817",
+      "title": "Meet the Makers: Game Changers",
+      "hall": 109,
+      "slot_id": "2014-02-06T19",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1394042400000_68199",
+      "title": "Monthly Meeting",
+      "hall": 161,
+      "slot_id": "2014-03-05T18",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eTitaniumNL_1394044200000_67927",
+      "title": "Titanium &/= Native",
+      "hall": 127,
+      "slot_id": "2014-03-05T18",
+      "category": "TitaniumNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eJavaScript-MVC-Meetup-Amsterdam_1394042400000_67642",
+      "title": "JS MVC Meetup #7",
+      "hall": 82,
+      "slot_id": "2014-03-05T18",
+      "category": "JavaScript-MVC-Meetup-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eOSGeoNL_1394647200000_68309",
+      "title": "OpenTopo Workshop",
+      "hall": 175,
+      "slot_id": "2014-03-12T18",
+      "category": "OSGeoNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "efp-ams_1394647200000_67972",
+      "title": "Learn You a Haskell",
+      "hall": 131,
+      "slot_id": "2014-03-12T18",
+      "category": "fp-ams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1395217800000_67817",
+      "title": "KPMG Drop-in Dr. Session",
+      "hall": 109,
+      "slot_id": "2014-03-19T08",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCloud-Foundry-User-Group-The-Netherlands_1395216000000_67689",
+      "title": "One Day Deep Dive - Cloud Foundry",
+      "hall": 92,
+      "slot_id": "2014-03-19T08",
+      "category": "Cloud-Foundry-User-Group-The-Netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAKQA-TECH-insight-Amsterdam_1395336600000_67087",
+      "title": "AKQA TECH.insight Amsterdam",
+      "hall": 1,
+      "slot_id": "2014-03-20T17",
+      "category": "AKQA-TECH-insight-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1395336600000_67698",
+      "title": "Scala Academy",
+      "hall": 93,
+      "slot_id": "2014-03-20T17",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "efp-ams_1395856800000_67972",
+      "title": "Learn You a Haskell",
+      "hall": 131,
+      "slot_id": "2014-03-26T18",
+      "category": "fp-ams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eTypeCrit-Amsterdam_1395856800000_67883",
+      "title": "TypeCrit, & Lara Captan talks about designing Arabic typefaces",
+      "hall": 120,
+      "slot_id": "2014-03-26T18",
+      "category": "TypeCrit-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "egolang-amsterdam_1396542600000_68121",
+      "title": "Hear from Go in the field and learn to code it",
+      "hall": 146,
+      "slot_id": "2014-04-03T16",
+      "category": "golang-amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eElastic-NL_1396542600000_67582",
+      "title": "Elasticsearch 1.0  & Marvel",
+      "hall": 70,
+      "slot_id": "2014-04-03T16",
+      "category": "Elastic-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "efp-ams_1397581200000_67812",
+      "title": "Verified Vector Clocks: An Unexpected Journey",
+      "hall": 108,
+      "slot_id": "2014-04-15T17",
+      "category": "fp-ams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1397583000000_68779",
+      "title": "KIJK Live! #8",
+      "hall": 220,
+      "slot_id": "2014-04-15T17",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1397754000000_67422",
+      "title": "Scala Hack Night",
+      "hall": 48,
+      "slot_id": "2014-04-17T17",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1397754000000_68642",
+      "title": "Monthly Meeting - April/2014",
+      "hall": 202,
+      "slot_id": "2014-04-17T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eOpenstack-Amsterdam_1397808000000_67406",
+      "title": "OpenStack Workshop 2014 by Fairbanks",
+      "hall": 46,
+      "slot_id": "2014-04-18T08",
+      "category": "Openstack-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eOpenstack-Netherlands_1397808000000_67406",
+      "title": "OpenStack Workshop 2014",
+      "hall": 46,
+      "slot_id": "2014-04-18T08",
+      "category": "Openstack-Netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eBehavior-Design-AMS_1398360600000_67295",
+      "title": "Behavior Design AMS with Nir Eyal, Kars Alfrink and Dariu Gavrila",
+      "hall": 29,
+      "slot_id": "2014-04-24T17",
+      "category": "Behavior-Design-AMS",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMagento-user-Group-Amsterdam_1398358800000_68039",
+      "title": "Magento hosting, wat heb ik nou écht nodig? (+ Meet Magento)",
+      "hall": 138,
+      "slot_id": "2014-04-24T17",
+      "category": "Magento-user-Group-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDocker-Randstad_1398358800000_67277",
+      "title": "April Meetup!",
+      "hall": 23,
+      "slot_id": "2014-04-24T17",
+      "category": "Docker-Randstad",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMobile-Marketing-Nederland_1398873600000_68721",
+      "title": "Official Appril Closing Party: Kings & Queens of mobile",
+      "hall": 210,
+      "slot_id": "2014-04-30T16",
+      "category": "Mobile-Marketing-Nederland",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eData-Science-Amsterdam_1398875400000_67473",
+      "title": "Massive parallel processing using Python, Linked open energy data",
+      "hall": 54,
+      "slot_id": "2014-04-30T16",
+      "category": "Data-Science-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eLean-UX-Amsterdam_1398963600000_67295",
+      "title": "Lean UX Amsterdam - Bookclub Edition",
+      "hall": 29,
+      "slot_id": "2014-05-01T17",
+      "category": "Lean-UX-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eFoundationDB-Amsterdam-Meetup-Group_1398963600000_67299",
+      "title": "Drinks & Demos",
+      "hall": 30,
+      "slot_id": "2014-05-01T17",
+      "category": "FoundationDB-Amsterdam-Meetup-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1400175000000_68779",
+      "title": "KIJK Live! #9",
+      "hall": 220,
+      "slot_id": "2014-05-15T17",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1400173200000_68158",
+      "title": "Monthly Meeting - May/2014",
+      "hall": 154,
+      "slot_id": "2014-05-15T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMagento-user-Group-Amsterdam_1401210000000_68039",
+      "title": "Review and ratings, hoe belangrijk is een goede beoordeling en hoe krijg ik ze?",
+      "hall": 138,
+      "slot_id": "2014-05-27T17",
+      "category": "Magento-user-Group-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1401210000000_68108",
+      "title": "Open Wetlab Safety Training",
+      "hall": 145,
+      "slot_id": "2014-05-27T17",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eFAT-Federation-of-Agile-Testers_1401724800000_68387",
+      "title": "Join Matt Heusser on Complete Testing",
+      "hall": 183,
+      "slot_id": "2014-06-02T16",
+      "category": "FAT-Federation-of-Agile-Testers",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1401724800000_67682",
+      "title": "Apple keynote party @ The App Academy",
+      "hall": 88,
+      "slot_id": "2014-06-02T16",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1401901200000_68463",
+      "title": "Monthly Meeting",
+      "hall": 189,
+      "slot_id": "2014-06-04T17",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eTitaniumNL_1401901200000_67927",
+      "title": "iOS 8 / JSDuck / TiNy CLI",
+      "hall": 127,
+      "slot_id": "2014-06-04T17",
+      "category": "TitaniumNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eagileholland_1402416000000_67219",
+      "title": "Intrinsic Coaching",
+      "hall": 15,
+      "slot_id": "2014-06-10T16",
+      "category": "agileholland",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eUtrecht-JavaScript-Meetup_1402417800000_67604",
+      "title": "Utrecht JS Meetup #2",
+      "hall": 73,
+      "slot_id": "2014-06-10T16",
+      "category": "Utrecht-JavaScript-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eonlineoptimizers_1402594200000_67160",
+      "title": "MeasureBowling Europe #3 - Have fun & meet awesome people - Utrecht (NL)",
+      "hall": 11,
+      "slot_id": "2014-06-12T17",
+      "category": "onlineoptimizers",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eTechnologia-Incognita_1402592400000_67151",
+      "title": "TAILS workshop",
+      "hall": 10,
+      "slot_id": "2014-06-12T17",
+      "category": "Technologia-Incognita",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-Mobile-NET-Developers-Group_1403184600000_67386",
+      "title": "Meetup: Xamarin comes to The Netherlands!",
+      "hall": 44,
+      "slot_id": "2014-06-19T13",
+      "category": "Dutch-Mobile-NET-Developers-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eBehavior-Design-AMS_1403184600000_68332",
+      "title": "Behavior Design 5 behavior design and e-coaching",
+      "hall": 176,
+      "slot_id": "2014-06-19T13",
+      "category": "Behavior-Design-AMS",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eonlineoptimizers_1403614800000_67291",
+      "title": "Digital Data Tips Tuesday #2 - A/B-testing - Amsterdam",
+      "hall": 27,
+      "slot_id": "2014-06-24T13",
+      "category": "onlineoptimizers",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDigital-Museum-Network-Amsterdam_1403616600000_68391",
+      "title": "Virtual Museum Field Trip - hosted by NEMO",
+      "hall": 184,
+      "slot_id": "2014-06-24T13",
+      "category": "Digital-Museum-Network-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsnode_1404234000000_68763",
+      "title": "Node.js on the Road: Amsterdam",
+      "hall": 219,
+      "slot_id": "2014-07-01T17",
+      "category": "amsnode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eLean-UX-Amsterdam_1404234000000_67295",
+      "title": "Lean UX Amsterdam - Lean Beer",
+      "hall": 29,
+      "slot_id": "2014-07-01T17",
+      "category": "Lean-UX-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1404315000000_67747",
+      "title": "Guru Session, StartupWeekend Edition! Hands-on with Google Cloud Platform",
+      "hall": 102,
+      "slot_id": "2014-07-02T15",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "enl-gug_1404315000000_67265",
+      "title": "Grails : Ontwerpen en ontwikkelen van RESTful Api's",
+      "hall": 21,
+      "slot_id": "2014-07-02T15",
+      "category": "nl-gug",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1406217600000_68108",
+      "title": "DIYBio & Ethereum",
+      "hall": 145,
+      "slot_id": "2014-07-24T16",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1406219400000_67576",
+      "title": "Scala Days 2014 review",
+      "hall": 67,
+      "slot_id": "2014-07-24T16",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1410879600000_67790",
+      "title": "CocoaHeads @ Xebia on the 16th!!",
+      "hall": 105,
+      "slot_id": "2014-09-16T15",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1410879600000_68108",
+      "title": "Open Wetlab = Open",
+      "hall": 145,
+      "slot_id": "2014-09-16T15",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eUtrecht-JavaScript-Meetup_1410885000000_67145",
+      "title": "Utrecht JS Meetup #3",
+      "hall": 9,
+      "slot_id": "2014-09-16T16",
+      "category": "Utrecht-JavaScript-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMobile-Testing_1410883200000_67879",
+      "title": "Automated Mobile Testing with real Android devices",
+      "hall": 119,
+      "slot_id": "2014-09-16T16",
+      "category": "Mobile-Testing",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eORCLAPEX-NL_1411056000000_67639",
+      "title": "Pizza night",
+      "hall": 81,
+      "slot_id": "2014-09-18T16",
+      "category": "ORCLAPEX-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDataMission-Data-and-Digital-Technology-for-Humanity_1411056900000_68284",
+      "title": "Launch event!",
+      "hall": 174,
+      "slot_id": "2014-09-18T16",
+      "category": "DataMission-Data-and-Digital-Technology-",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1411059600000_68592",
+      "title": "Most responsible app award contest.",
+      "hall": 196,
+      "slot_id": "2014-09-18T17",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eThe-Amsterdam-Applied-Machine-Learning-Meetup-Group_1411059600000_68763",
+      "title": "Last minute meetup: Bayesian Ranker Comparison",
+      "hall": 219,
+      "slot_id": "2014-09-18T17",
+      "category": "The-Amsterdam-Applied-Machine-Learning-M",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1411059600000_68673",
+      "title": "Monthly Meeting - September/2014",
+      "hall": 207,
+      "slot_id": "2014-09-18T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamst-R-dam_1411405200000_67739",
+      "title": "Mokken Scale Analysis, Markov Models and Topic Models",
+      "hall": 100,
+      "slot_id": "2014-09-22T17",
+      "category": "amst-R-dam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eElastic-NL_1411405200000_68079",
+      "title": "Scaling an ELK stack @ bol.com",
+      "hall": 141,
+      "slot_id": "2014-09-22T17",
+      "category": "Elastic-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eagileholland_1412091000000_67521",
+      "title": "GetKanban Game",
+      "hall": 62,
+      "slot_id": "2014-09-30T15",
+      "category": "agileholland",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1412089200000_68108",
+      "title": "Open Wetlab = Open",
+      "hall": 145,
+      "slot_id": "2014-09-30T15",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDomCode_1412096400000_67737",
+      "title": "Monthly Meeting - September 2014",
+      "hall": 99,
+      "slot_id": "2014-09-30T17",
+      "category": "DomCode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMicroservices-Amsterdam_1412096400000_68154",
+      "title": "Microservices introduction and experience report",
+      "hall": 153,
+      "slot_id": "2014-09-30T17",
+      "category": "Microservices-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eFull-Stack-Development_1412096400000_68154",
+      "title": "Microservices",
+      "hall": 153,
+      "slot_id": "2014-09-30T17",
+      "category": "Full-Stack-Development",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1412170200000_67817",
+      "title": "KPMG Drop-in Dr. Session",
+      "hall": 109,
+      "slot_id": "2014-10-01T13",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Innovative-startups_1412170200000_67477",
+      "title": "Building a business drop-in Session",
+      "hall": 56,
+      "slot_id": "2014-10-01T13",
+      "category": "Amsterdam-Innovative-startups",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1412694000000_68108",
+      "title": "Open Wetlab = Open",
+      "hall": 145,
+      "slot_id": "2014-10-07T15",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eagileholland_1412695800000_67521",
+      "title": "The Real Agile Testing Quadrants with Michael Bolton",
+      "hall": 62,
+      "slot_id": "2014-10-07T15",
+      "category": "agileholland",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSymfony-User-Group-NL_1413478800000_67454",
+      "title": "Symfony User Group Meetup - 16th of October 2014",
+      "hall": 52,
+      "slot_id": "2014-10-16T17",
+      "category": "Symfony-User-Group-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "efp-ams_1413478800000_67293",
+      "title": "JavaScript as a Compilation Target",
+      "hall": 28,
+      "slot_id": "2014-10-16T17",
+      "category": "fp-ams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1413478800000_68641",
+      "title": "Monthly Meeting - October/2014",
+      "hall": 201,
+      "slot_id": "2014-10-16T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eStartupAmsterdam_1413999000000_68339",
+      "title": "Movie Night and Business talks",
+      "hall": 179,
+      "slot_id": "2014-10-22T17",
+      "category": "StartupAmsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1413997200000_67318",
+      "title": "CocoaHeads @ Touchwonders",
+      "hall": 33,
+      "slot_id": "2014-10-22T17",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eLinux-Amsterdam_1414519200000_67227",
+      "title": "Meet & Movies",
+      "hall": 17,
+      "slot_id": "2014-10-28T18",
+      "category": "Linux-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDomCode_1414519200000_67843",
+      "title": "Monthly Meeting - October 2014",
+      "hall": 113,
+      "slot_id": "2014-10-28T18",
+      "category": "DomCode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1415116800000_68108",
+      "title": "Open Wetlab = Open",
+      "hall": 145,
+      "slot_id": "2014-11-04T16",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eagileholland_1415119500000_68160",
+      "title": "Coding from Examples - a Dojo",
+      "hall": 155,
+      "slot_id": "2014-11-04T16",
+      "category": "agileholland",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eFAT-Federation-of-Agile-Testers_1415119500000_68160",
+      "title": "Coding from Examples - a Dojo",
+      "hall": 155,
+      "slot_id": "2014-11-04T16",
+      "category": "FAT-Federation-of-Agile-Testers",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1415124000000_68742",
+      "title": "Amsterdam UX eWeek edition",
+      "hall": 214,
+      "slot_id": "2014-11-04T18",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eBehavior-Design-AMS_1415124000000_68332",
+      "title": "Behavior Design de e-week editie (over geld, health & licht)",
+      "hall": 176,
+      "slot_id": "2014-11-04T18",
+      "category": "Behavior-Design-AMS",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eWordPress-Meetup-Utrecht_1415293200000_68088",
+      "title": "WordPress Meetup Utrecht november 2014",
+      "hall": 143,
+      "slot_id": "2014-11-06T17",
+      "category": "WordPress-Meetup-Utrecht",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNetherlands-Cassandra-Users_1415295000000_68672",
+      "title": "Cassandra drivers architecture and tools & C* libraries for Java developers",
+      "hall": 206,
+      "slot_id": "2014-11-06T17",
+      "category": "Netherlands-Cassandra-Users",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edutch-aug_1415437200000_67852",
+      "title": "GDG DevFest The Netherlands 2014",
+      "hall": 114,
+      "slot_id": "2014-11-08T09",
+      "category": "dutch-aug",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "egolang-amsterdam_1415437200000_67852",
+      "title": "Join the GDG DevFest NL 2014",
+      "hall": 114,
+      "slot_id": "2014-11-08T09",
+      "category": "golang-amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "enl-gug_1416328200000_67095",
+      "title": "Mr. Haki's Gradle Sushi-sessie",
+      "hall": 4,
+      "slot_id": "2014-11-18T16",
+      "category": "nl-gug",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1416326400000_68108",
+      "title": "Open Wetlab = Open",
+      "hall": 145,
+      "slot_id": "2014-11-18T16",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1416417300000_68763",
+      "title": "CocoaHeads @ Rockstart",
+      "hall": 219,
+      "slot_id": "2014-11-19T17",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1416418200000_67643",
+      "title": "UX Book Club: \"UX for Lean Startups\" with Laura Klein",
+      "hall": 83,
+      "slot_id": "2014-11-19T17",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMaptime-AMS_1416418200000_68734",
+      "title": "Maptime AMS #1",
+      "hall": 212,
+      "slot_id": "2014-11-19T17",
+      "category": "Maptime-AMS",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Spark_1416850200000_68142",
+      "title": "What's new with Apache Spark? An evening with Paco Nathan",
+      "hall": 151,
+      "slot_id": "2014-11-24T17",
+      "category": "Amsterdam-Spark",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNetherlands-Cassandra-Users_1416850200000_67560",
+      "title": "SOLR and Cassandra",
+      "hall": 65,
+      "slot_id": "2014-11-24T17",
+      "category": "Netherlands-Cassandra-Users",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMakerSpaceLeiden_1416855600000_67905",
+      "title": "Inloop 3D-ontwerp met openscad, 3D-printen en LaserCutten",
+      "hall": 123,
+      "slot_id": "2014-11-24T19",
+      "category": "MakerSpaceLeiden",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1416855600000_67817",
+      "title": "Monthly Speaker Training Meeting",
+      "hall": 109,
+      "slot_id": "2014-11-24T19",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDomCode_1416938400000_68031",
+      "title": "Monthly Meeting - November 2014",
+      "hall": 137,
+      "slot_id": "2014-11-25T18",
+      "category": "DomCode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1416940200000_68698",
+      "title": "PB R'DAM: Wearables + The Smart World",
+      "hall": 209,
+      "slot_id": "2014-11-25T18",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDataMission-Data-and-Digital-Technology-for-Humanity_1417107600000_68667",
+      "title": "Discuss Open Data with Chris Davis and Cordaid!",
+      "hall": 204,
+      "slot_id": "2014-11-27T17",
+      "category": "DataMission-Data-and-Digital-Technology-",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eEPiServer-Developers-in-The-Netherlands_1417107600000_67655",
+      "title": "EPiServer Developers meetup",
+      "hall": 86,
+      "slot_id": "2014-11-27T17",
+      "category": "EPiServer-Developers-in-The-Netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1417541400000_67317",
+      "title": "Scala eXchange Special",
+      "hall": 32,
+      "slot_id": "2014-12-02T17",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ebrabant-scala_1417541400000_68154",
+      "title": "Amsterdam.scala: Scala eXchange Special",
+      "hall": 153,
+      "slot_id": "2014-12-02T17",
+      "category": "brabant-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eStartupAmsterdam_1417631400000_68339",
+      "title": "Movie Night and Business talks",
+      "hall": 179,
+      "slot_id": "2014-12-03T18",
+      "category": "StartupAmsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1417629600000_68629",
+      "title": "Storytelling in UX by Lilha Willems",
+      "hall": 199,
+      "slot_id": "2014-12-03T18",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eJavaScript-MVC-Meetup-Amsterdam_1417629600000_68131",
+      "title": "JS MVC Meetup #12",
+      "hall": 148,
+      "slot_id": "2014-12-03T18",
+      "category": "JavaScript-MVC-Meetup-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ebrabant-scala_1418230800000_68730",
+      "title": "DuSE: Reactive Streams & Akka HTTP: Connect to the World",
+      "hall": 211,
+      "slot_id": "2014-12-10T17",
+      "category": "brabant-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eThe-Amsterdam-Clojure-Meetup-Group_1418232600000_67422",
+      "title": "The Amsterdam Clojure Meetup and Elmar Reizen present: A Clojure Dojo",
+      "hall": 48,
+      "slot_id": "2014-12-10T17",
+      "category": "The-Amsterdam-Clojure-Meetup-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1418230800000_68730",
+      "title": "DuSE: Reactive Streams & Akka HTTP: Connect to the World",
+      "hall": 211,
+      "slot_id": "2014-12-10T17",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "egraphdb-netherlands_1418749200000_68475",
+      "title": "Building a Graph Database Prototype",
+      "hall": 190,
+      "slot_id": "2014-12-16T17",
+      "category": "graphdb-netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eFull-Stack-Development_1418751000000_67293",
+      "title": "Scrum(ban)",
+      "hall": 28,
+      "slot_id": "2014-12-16T17",
+      "category": "Full-Stack-Development",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eStartupAmsterdam_1418841000000_68339",
+      "title": "Movie Night and Business talks",
+      "hall": 179,
+      "slot_id": "2014-12-17T18",
+      "category": "StartupAmsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-rb_1418839200000_67253",
+      "title": "Talks & Drinks",
+      "hall": 20,
+      "slot_id": "2014-12-17T18",
+      "category": "Amsterdam-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eTitaniumNL_1420653600000_67927",
+      "title": "iBeacon Platform Overview",
+      "hall": 127,
+      "slot_id": "2015-01-07T18",
+      "category": "TitaniumNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1420653600000_67934",
+      "title": "UI in an Agile Process by  Janne Jul Jensen",
+      "hall": 128,
+      "slot_id": "2015-01-07T18",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNLHTML5_1421341200000_67655",
+      "title": "HTML5 - the spec, with Bruce Lawson and Robin Berjon",
+      "hall": 86,
+      "slot_id": "2015-01-15T17",
+      "category": "NLHTML5",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eUtrecht-JavaScript-Meetup_1421343000000_68376",
+      "title": "Utrecht JS Meetup #5",
+      "hall": 182,
+      "slot_id": "2015-01-15T17",
+      "category": "Utrecht-JavaScript-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMySQL-User-Group-NL_1421343000000_67934",
+      "title": "MySQL UG Meetup at Booking.com",
+      "hall": 128,
+      "slot_id": "2015-01-15T17",
+      "category": "MySQL-User-Group-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eThe-Amsterdam-Applied-Machine-Learning-Meetup-Group_1421341200000_67934",
+      "title": "Topic Modelling in Travel",
+      "hall": 128,
+      "slot_id": "2015-01-15T17",
+      "category": "The-Amsterdam-Applied-Machine-Learning-M",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1421343000000_67772",
+      "title": "Talks & Drinks",
+      "hall": 104,
+      "slot_id": "2015-01-15T17",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1421773200000_67577",
+      "title": "CocoaHeadsNL January Meetup",
+      "hall": 68,
+      "slot_id": "2015-01-20T17",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eFood-tech-Amsterdam_1421773200000_68226",
+      "title": "Get together, meet & talk food+tech",
+      "hall": 165,
+      "slot_id": "2015-01-20T17",
+      "category": "Food-tech-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1421863200000_67603",
+      "title": "UX Book Club: \"Evil by Design\" by Chris Nodder",
+      "hall": 72,
+      "slot_id": "2015-01-21T18",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eRailsGirls-NL_1421863200000_68376",
+      "title": "Coding kata",
+      "hall": 182,
+      "slot_id": "2015-01-21T18",
+      "category": "RailsGirls-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eStartupAmsterdam_1422469800000_68339",
+      "title": "Movie Night and Business talks",
+      "hall": 179,
+      "slot_id": "2015-01-28T18",
+      "category": "StartupAmsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eRust-Amsterdam_1422468000000_68164",
+      "title": "First meetup, talks and drinks!",
+      "hall": 156,
+      "slot_id": "2015-01-28T18",
+      "category": "Rust-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-Legal-Tech-Meetup_1422468000000_67172",
+      "title": "First Dutch Legal Tech Meetup",
+      "hall": 12,
+      "slot_id": "2015-01-28T18",
+      "category": "Dutch-Legal-Tech-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAnsible-Benelux_1423072800000_67119",
+      "title": "Ansible Benelux Meetup",
+      "hall": 6,
+      "slot_id": "2015-02-04T18",
+      "category": "Ansible-Benelux",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eTitaniumNL_1423072800000_67927",
+      "title": "Build Native Windows apps with Titanium",
+      "hall": 127,
+      "slot_id": "2015-02-04T18",
+      "category": "TitaniumNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1423072800000_67520",
+      "title": "Making a difference for people on the move by Jasper van Hemert",
+      "hall": 61,
+      "slot_id": "2015-02-04T18",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eagileholland_1423587600000_67493",
+      "title": "Governmental Agility with spir-it",
+      "hall": 59,
+      "slot_id": "2015-02-10T17",
+      "category": "agileholland",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eITGilde-Cooperatie-Amsterdam-Unix-Linux-Meetups_1423587600000_68135",
+      "title": "RHCSA & RHCE Evening course spring 2015",
+      "hall": 150,
+      "slot_id": "2015-02-10T17",
+      "category": "ITGilde-Cooperatie-Amsterdam-Unix-Linux-",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "efp-ams_1423591200000_68142",
+      "title": "Functional Programming in Swift",
+      "hall": 151,
+      "slot_id": "2015-02-10T18",
+      "category": "fp-ams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eEdTech-Amsterdam_1423591200000_67825",
+      "title": "Data in education, a double-edged sword. Personalisation or (AND) privacy. Part1",
+      "hall": 110,
+      "slot_id": "2015-02-10T18",
+      "category": "EdTech-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-AngularJS-group_1423760400000_67576",
+      "title": "chilly-fudge-marshmallow-hot-chocolate $timeout",
+      "hall": 67,
+      "slot_id": "2015-02-12T17",
+      "category": "Dutch-AngularJS-group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eReact-Amsterdam_1423762200000_68540",
+      "title": "First meetup",
+      "hall": 194,
+      "slot_id": "2015-02-12T17",
+      "category": "React-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMaptime-AMS_1424280600000_68734",
+      "title": "Maptime #4: Geopolitics & Borders (and D3.js)",
+      "hall": 212,
+      "slot_id": "2015-02-18T17",
+      "category": "Maptime-AMS",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1424278800000_68164",
+      "title": "CocoaHeads Februari meetup",
+      "hall": 156,
+      "slot_id": "2015-02-18T17",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppsterdam_1424718000000_67817",
+      "title": "Monthly Speaker Training Meeting",
+      "hall": 109,
+      "slot_id": "2015-02-23T19",
+      "category": "Appsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMakerSpaceLeiden_1424718000000_67905",
+      "title": "3D-printen, LaserCutting and openscad.. inloop",
+      "hall": 123,
+      "slot_id": "2015-02-23T19",
+      "category": "MakerSpaceLeiden",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDomCode_1424800800000_67743",
+      "title": "Monthly Meeting - February 2015",
+      "hall": 101,
+      "slot_id": "2015-02-24T18",
+      "category": "DomCode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsnode_1424800800000_68419",
+      "title": "The Amsterdam Node Meetup February",
+      "hall": 186,
+      "slot_id": "2015-02-24T18",
+      "category": "amsnode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1425492000000_68012",
+      "title": "The secret to color design by Igor Asselbergs",
+      "hall": 134,
+      "slot_id": "2015-03-04T18",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "epapers-we-love-amsterdam_1425492000000_68142",
+      "title": "Time, Clocks, and the Ordering of Events in a Distributed System",
+      "hall": 151,
+      "slot_id": "2015-03-04T18",
+      "category": "papers-we-love-amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eRockstart-Amsterdam_1425657600000_68739",
+      "title": "Learn about Building & running a company in the US - Silicon Valley vs. New York",
+      "hall": 213,
+      "slot_id": "2015-03-06T16",
+      "category": "Rockstart-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSiliconDrinkabout020_1425659400000_67369",
+      "title": "Silicon Drinkabout #6: meet the press",
+      "hall": 41,
+      "slot_id": "2015-03-06T16",
+      "category": "SiliconDrinkabout020",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAgilegroup_1426005000000_67720",
+      "title": "Storymapping, the storymapping game and how PMs struggle and succeed with agile",
+      "hall": 96,
+      "slot_id": "2015-03-10T16",
+      "category": "Agilegroup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1426003200000_68108",
+      "title": "Open Wetlab: OpenBCI & DropBot",
+      "hall": 145,
+      "slot_id": "2015-03-10T16",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "egraphdb-netherlands_1426181400000_68475",
+      "title": "Briefing on Neo4j 2.2 with Dr. Jim Webber, Chief Scientist at Neo Technology",
+      "hall": 190,
+      "slot_id": "2015-03-12T17",
+      "category": "graphdb-netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eUtrecht-JavaScript-Meetup_1426181400000_67758",
+      "title": "Utrecht JS Meetup #6",
+      "hall": 103,
+      "slot_id": "2015-03-12T17",
+      "category": "Utrecht-JavaScript-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMaptime-AMS_1426699800000_68734",
+      "title": "Maptime AMS #5: A Millennium of Amsterdam & Physical Data Visualization with OSM",
+      "hall": 212,
+      "slot_id": "2015-03-18T17",
+      "category": "Maptime-AMS",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1426698000000_67934",
+      "title": "March meetup @ Booking.com",
+      "hall": 128,
+      "slot_id": "2015-03-18T17",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eFood-tech-Amsterdam_1426698000000_68226",
+      "title": "2nd Food+tech meetup",
+      "hall": 165,
+      "slot_id": "2015-03-18T17",
+      "category": "Food-tech-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDesigner-Developer-Dribbble-Hangout-Amsterdam_1426784400000_68419",
+      "title": "Designer & Developer Dribbble Hangout Amsterdam",
+      "hall": 186,
+      "slot_id": "2015-03-19T17",
+      "category": "Designer-Developer-Dribbble-Hangout-Amst",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDataMission-Data-and-Digital-Technology-for-Humanity_1426784400000_67711",
+      "title": "Let's get serious about doing good with data!",
+      "hall": 95,
+      "slot_id": "2015-03-19T17",
+      "category": "DataMission-Data-and-Digital-Technology-",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDocker-Randstad_1426788000000_68743",
+      "title": "Docker, storage & microservices open workshop",
+      "hall": 215,
+      "slot_id": "2015-03-19T18",
+      "category": "Docker-Randstad",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1426788000000_68682",
+      "title": "Monthly Meeting - March/2015",
+      "hall": 208,
+      "slot_id": "2015-03-19T18",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eContinuous-Delivery-Amsterdam_1427216400000_67907",
+      "title": "Continuous Delivery on AWS for Enterprise SaaS by inSided",
+      "hall": 124,
+      "slot_id": "2015-03-24T17",
+      "category": "Continuous-Delivery-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAWS-Amsterdam_1427216400000_67907",
+      "title": "Continuous Delivery on AWS for Enterprise SaaS by inSided",
+      "hall": 124,
+      "slot_id": "2015-03-24T17",
+      "category": "AWS-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Python-Meetup-Group_1427216400000_67629",
+      "title": "Python, Pints and Pizzas",
+      "hall": 78,
+      "slot_id": "2015-03-24T17",
+      "category": "Amsterdam-Python-Meetup-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-Legal-Tech-Meetup_1427391000000_67611",
+      "title": "Dutch Legal Tech Meetup",
+      "hall": 74,
+      "slot_id": "2015-03-26T17",
+      "category": "Dutch-Legal-Tech-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCoding-with-Craftsmen_1427389200000_67245",
+      "title": "Coding In The Dark",
+      "hall": 18,
+      "slot_id": "2015-03-26T17",
+      "category": "Coding-with-Craftsmen",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMicroservices-Amsterdam_1427396400000_67669",
+      "title": "Microservices: When Modern Practices meet DDD",
+      "hall": 87,
+      "slot_id": "2015-03-26T19",
+      "category": "Microservices-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDocker-Randstad_1427396400000_67669",
+      "title": "Joint March meetup with Microservices Amsterdam meetup group",
+      "hall": 87,
+      "slot_id": "2015-03-26T19",
+      "category": "Docker-Randstad",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eInfi-Developers-Meetup_1427821200000_68253",
+      "title": "Infi meets DomCode (see description!)",
+      "hall": 169,
+      "slot_id": "2015-03-31T17",
+      "category": "Infi-Developers-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDomCode_1427821200000_67624",
+      "title": "Monthly Meeting - March 2015",
+      "hall": 75,
+      "slot_id": "2015-03-31T17",
+      "category": "DomCode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eTitaniumNL_1427907600000_67917",
+      "title": "Newbee Edition: Kickstart your Appcelerator projects",
+      "hall": 125,
+      "slot_id": "2015-04-01T17",
+      "category": "TitaniumNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1427907600000_68763",
+      "title": "The UX of doing UX work: essential soft skills for collaboration by Liang Hiah",
+      "hall": 219,
+      "slot_id": "2015-04-01T17",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eRust-Amsterdam_1427907600000_67299",
+      "title": "Hacknight!",
+      "hall": 30,
+      "slot_id": "2015-04-01T17",
+      "category": "Rust-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAnsible-Benelux_1427907600000_67583",
+      "title": "Let's declare the galaxy using Ansible",
+      "hall": 71,
+      "slot_id": "2015-04-01T17",
+      "category": "Ansible-Benelux",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1429203600000_67879",
+      "title": "Talks & Drinks",
+      "hall": 119,
+      "slot_id": "2015-04-16T17",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDocker-Randstad_1429203600000_67295",
+      "title": "April meetup - Docker Networking",
+      "hall": 29,
+      "slot_id": "2015-04-16T17",
+      "category": "Docker-Randstad",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1429203600000_67472",
+      "title": "Monthly Meeting - April/2015",
+      "hall": 53,
+      "slot_id": "2015-04-16T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edutch-aug_1429281000000_68147",
+      "title": "Bluetooth Low Energy and UriBeacons",
+      "hall": 152,
+      "slot_id": "2015-04-17T14",
+      "category": "dutch-aug",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edutch-aug_1429281000000_68147_1",
+      "title": "Android Beginners Workshop",
+      "hall": 152,
+      "slot_id": "2015-04-17T14",
+      "category": "dutch-aug",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Python-Meetup-Group_1429633800000_67283",
+      "title": "PWAWID - Python Web Application, Web and Interaction Design",
+      "hall": 25,
+      "slot_id": "2015-04-21T16",
+      "category": "Amsterdam-Python-Meetup-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDevOpsAmsterdam_1429632900000_67355",
+      "title": "DevOps monthly meetup Appril",
+      "hall": 39,
+      "slot_id": "2015-04-21T16",
+      "category": "DevOpsAmsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eEPiServer-Developers-in-The-Netherlands_1429632000000_68283",
+      "title": "EPiServer Developers bij DigitasLBi",
+      "hall": 173,
+      "slot_id": "2015-04-21T16",
+      "category": "EPiServer-Developers-in-The-Netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1429632000000_68336",
+      "title": "April meetup @ Blendle",
+      "hall": 178,
+      "slot_id": "2015-04-21T16",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSiliconDrinkabout020_1429723800000_68633",
+      "title": "Silicon Drinkabout - #TNW15 pre-pre-party, on a boat :-) BRING YOUR OWN DRINKS",
+      "hall": 200,
+      "slot_id": "2015-04-22T17",
+      "category": "SiliconDrinkabout020",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-API-Community_1429722000000_68518",
+      "title": "Join us in the first Dutch Meetup for APIs",
+      "hall": 191,
+      "slot_id": "2015-04-22T17",
+      "category": "Dutch-API-Community",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsnode_1429808400000_68131",
+      "title": "Amsterdam Node Meetup April",
+      "hall": 148,
+      "slot_id": "2015-04-23T17",
+      "category": "amsnode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1429810200000_68758",
+      "title": "KIJK Live! #13 in Utrecht!",
+      "hall": 217,
+      "slot_id": "2015-04-23T17",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDomCode_1430240400000_67684",
+      "title": "Monthly Meeting - April 2015",
+      "hall": 90,
+      "slot_id": "2015-04-28T17",
+      "category": "DomCode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-rb_1430240400000_67865",
+      "title": "Talks & Drinks",
+      "hall": 117,
+      "slot_id": "2015-04-28T17",
+      "category": "Amsterdam-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eWATCH-Society_1430290800000_67368",
+      "title": "Wearables@Work!",
+      "hall": 40,
+      "slot_id": "2015-04-29T07",
+      "category": "WATCH-Society",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppril_1430292600000_67142",
+      "title": "Build a multi-device App in a day",
+      "hall": 8,
+      "slot_id": "2015-04-29T07",
+      "category": "Appril",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1430326800000_67632",
+      "title": "Extra meetup with Daniel Steinberg",
+      "hall": 79,
+      "slot_id": "2015-04-29T17",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1430326800000_67172",
+      "title": "Geeky Night Out",
+      "hall": 12,
+      "slot_id": "2015-04-29T17",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eTitaniumNL_1430931600000_67917",
+      "title": "Appcelerator Platform 4.0",
+      "hall": 125,
+      "slot_id": "2015-05-06T17",
+      "category": "TitaniumNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1430931600000_68164",
+      "title": "Eye tracking revolution by Robin Brouns and Elvira Arslanova",
+      "hall": 156,
+      "slot_id": "2015-05-06T17",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "egolang-amsterdam_1431018000000_68121",
+      "title": "Golang Meetup May 2015",
+      "hall": 146,
+      "slot_id": "2015-05-07T17",
+      "category": "golang-amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1431018000000_68363",
+      "title": "Talks & Drinks",
+      "hall": 181,
+      "slot_id": "2015-05-07T17",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDocker-Randstad_1431018000000_68023",
+      "title": "1000 members + belated Docker 2nd birthday",
+      "hall": 136,
+      "slot_id": "2015-05-07T17",
+      "category": "Docker-Randstad",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "efp-ams_1431018000000_67726",
+      "title": "Elm Workshop",
+      "hall": 97,
+      "slot_id": "2015-05-07T17",
+      "category": "fp-ams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePHPAmersfoort_1431450000000_68014",
+      "title": "PHPAmersfoort May 2015 Meetup",
+      "hall": 135,
+      "slot_id": "2015-05-12T17",
+      "category": "PHPAmersfoort",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "epapers-we-love-amsterdam_1431450000000_67812",
+      "title": "Spanner: Google's Globally-Distributed Database",
+      "hall": 108,
+      "slot_id": "2015-05-12T17",
+      "category": "papers-we-love-amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eRust-Amsterdam_1431709200000_67934",
+      "title": "Launch party with talks!",
+      "hall": 128,
+      "slot_id": "2015-05-15T17",
+      "category": "Rust-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSoftware-Circus_1431709200000_68612",
+      "title": "Four principles of organisations that are 'winning' and IoT in the home",
+      "hall": 197,
+      "slot_id": "2015-05-15T17",
+      "category": "Software-Circus",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMicroservices-Amsterdam_1431966600000_67576",
+      "title": "'The Principles of Microservices' with Sam Newman",
+      "hall": 67,
+      "slot_id": "2015-05-18T16",
+      "category": "Microservices-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eInfi-Developers-Meetup_1431964800000_68253",
+      "title": "Infi meets Devnology - (signup via external website!)",
+      "hall": 169,
+      "slot_id": "2015-05-18T16",
+      "category": "Infi-Developers-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eUtrecht-JavaScript-Meetup_1432053000000_68265",
+      "title": "Utrecht JS Meetup #7 (one year!!!)",
+      "hall": 170,
+      "slot_id": "2015-05-19T16",
+      "category": "Utrecht-JavaScript-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eEmber-js-Amsterdam_1432053000000_68341",
+      "title": "Ember.js Meetup #7",
+      "hall": 180,
+      "slot_id": "2015-05-19T16",
+      "category": "Ember-js-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMaptime-AMS_1432139400000_68734",
+      "title": "Maptime Amsterdam #7: Mapping the Nieuwmarkt",
+      "hall": 212,
+      "slot_id": "2015-05-20T16",
+      "category": "Maptime-AMS",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1432137600000_68247",
+      "title": "May meetup @ Backbase",
+      "hall": 167,
+      "slot_id": "2015-05-20T16",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eWordPress-Amsterdam_1432139400000_68221",
+      "title": "WordPress Peer Group Workshop",
+      "hall": 164,
+      "slot_id": "2015-05-20T16",
+      "category": "WordPress-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNetherlands-Cassandra-Users_1432137600000_67349",
+      "title": "A night of Cassandra and Spark at ING",
+      "hall": 38,
+      "slot_id": "2015-05-20T16",
+      "category": "Netherlands-Cassandra-Users",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "efp-ams_1432141200000_67726",
+      "title": "Elm Workshop",
+      "hall": 97,
+      "slot_id": "2015-05-20T17",
+      "category": "fp-ams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamUX_1432141200000_67603",
+      "title": "UX Book Club: \"The UX Team of One\" by Leah Buley",
+      "hall": 72,
+      "slot_id": "2015-05-20T17",
+      "category": "AmsterdamUX",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eLeanStartupNL_1432220400000_67482",
+      "title": "Show and Tell @ Utrecht Inc",
+      "hall": 58,
+      "slot_id": "2015-05-21T15",
+      "category": "LeanStartupNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePostgreSQL-User-Group-NL_1432222200000_67860",
+      "title": "Kickoff meeting you simply can't miss!",
+      "hall": 115,
+      "slot_id": "2015-05-21T15",
+      "category": "PostgreSQL-User-Group-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1432225800000_67422",
+      "title": "Scala Academy",
+      "hall": 48,
+      "slot_id": "2015-05-21T16",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAngularJS-Amsterdam-Meetup_1432225800000_67645",
+      "title": "Angularjs Amsterdam Meetup #2",
+      "hall": 84,
+      "slot_id": "2015-05-21T16",
+      "category": "AngularJS-Amsterdam-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-Legal-Tech-Meetup_1432659600000_67611",
+      "title": "Dutch Legal Tech Meetup #3",
+      "hall": 74,
+      "slot_id": "2015-05-26T17",
+      "category": "Dutch-Legal-Tech-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDomCode_1432659600000_67482",
+      "title": "Monthly Meeting - May 2015",
+      "hall": 58,
+      "slot_id": "2015-05-26T17",
+      "category": "DomCode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1433433600000_67306",
+      "title": "Talks & Drinks - Scala Days Special with Josh Suereth!",
+      "hall": 31,
+      "slot_id": "2015-06-04T16",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ebrabant-scala_1433433600000_68622",
+      "title": "Talks & Drinks - Scala Days Special with Josh Suereth!",
+      "hall": 198,
+      "slot_id": "2015-06-04T16",
+      "category": "brabant-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eRotterdam-UX-Cocktail-Hours_1433782800000_68335",
+      "title": "UX Cocktail Hour Rotterdam #16: Empathy in design",
+      "hall": 177,
+      "slot_id": "2015-06-08T17",
+      "category": "Rotterdam-UX-Cocktail-Hours",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1433782800000_67835",
+      "title": "WWDC keynote",
+      "hall": 112,
+      "slot_id": "2015-06-08T17",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eMySQL-User-Group-NL_1434040200000_67934",
+      "title": "MySQL Meetup with Percona Engineers",
+      "hall": 128,
+      "slot_id": "2015-06-11T16",
+      "category": "MySQL-User-Group-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1434040200000_68730",
+      "title": "Talks & Drinks - Scala Days Special",
+      "hall": 211,
+      "slot_id": "2015-06-11T16",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNLHTML5_1434643200000_67655",
+      "title": "Building differently, with Miriam Tocino and Paul Verbeek",
+      "hall": 86,
+      "slot_id": "2015-06-18T16",
+      "category": "NLHTML5",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eOpenstack-Netherlands_1434645000000_67625",
+      "title": "Openstack & Ceph, hosted by Byte",
+      "hall": 76,
+      "slot_id": "2015-06-18T16",
+      "category": "Openstack-Netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eOpenstack-Amsterdam_1434645000000_67625",
+      "title": "Openstack & Ceph, hosted by Byte",
+      "hall": 76,
+      "slot_id": "2015-06-18T16",
+      "category": "Openstack-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eBehavior-Design-AMS_1434646800000_67295",
+      "title": "Behavior Design 9 Smart Cities",
+      "hall": 29,
+      "slot_id": "2015-06-18T17",
+      "category": "Behavior-Design-AMS",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1434646800000_68158",
+      "title": "Monthly Meeting - June/2015",
+      "hall": 154,
+      "slot_id": "2015-06-18T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAppril_1435078800000_68539",
+      "title": "Smart City Hackathon, hosted bij Appsterdam & appril",
+      "hall": 193,
+      "slot_id": "2015-06-23T17",
+      "category": "Appril",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "esilverstripe-netherlands_1435078800000_67288",
+      "title": "SilverStripe Amsterdam June - Co-operative Multitasking with Generators + more",
+      "hall": 26,
+      "slot_id": "2015-06-23T17",
+      "category": "silverstripe-netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAngularJS-Amsterdam-Meetup_1435249800000_67199",
+      "title": "AngularJS Amsterdam Meetup #3",
+      "hall": 13,
+      "slot_id": "2015-06-25T16",
+      "category": "AngularJS-Amsterdam-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eContinuous-Delivery-Amsterdam_1435248000000_68401",
+      "title": "Continuous Delivery Meetup - Mayfly",
+      "hall": 185,
+      "slot_id": "2015-06-25T16",
+      "category": "Continuous-Delivery-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eWordPress-Amsterdam_1435683600000_68221",
+      "title": "WordPress Peer Group Workshop",
+      "hall": 164,
+      "slot_id": "2015-06-30T17",
+      "category": "WordPress-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDomCode_1435683600000_67381",
+      "title": "Monthly Meeting - June 2015",
+      "hall": 43,
+      "slot_id": "2015-06-30T17",
+      "category": "DomCode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1436284800000_68108",
+      "title": "Open Wetlab: OpenBCI & DropBot",
+      "hall": 145,
+      "slot_id": "2015-07-07T16",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eInfi-Developers-Meetup_1436286600000_68253",
+      "title": "Coding Dojo: Event Sourcing",
+      "hall": 169,
+      "slot_id": "2015-07-07T16",
+      "category": "Infi-Developers-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-AngularJS-group_1436461200000_67897",
+      "title": "Testing your tests",
+      "hall": 122,
+      "slot_id": "2015-07-09T17",
+      "category": "Dutch-AngularJS-group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDocker-Randstad_1436461200000_68265",
+      "title": "July meetup with crate.io and more!",
+      "hall": 170,
+      "slot_id": "2015-07-09T17",
+      "category": "Docker-Randstad",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "egraphdb-netherlands_1437062400000_68475",
+      "title": "Graph Café: intro & lightning talks",
+      "hall": 190,
+      "slot_id": "2015-07-16T16",
+      "category": "graphdb-netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Python-Meetup-Group_1437062400000_67629",
+      "title": "Python BBQ meetup",
+      "hall": 78,
+      "slot_id": "2015-07-16T16",
+      "category": "Amsterdam-Python-Meetup-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamsterdam-scala_1437064200000_67698",
+      "title": "Scala Academy - Workshop Scala for comprehensions",
+      "hall": 93,
+      "slot_id": "2015-07-16T16",
+      "category": "amsterdam-scala",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eScala-Utrecht_1437667200000_67306",
+      "title": "Let's learn more about functional programming in Scala",
+      "hall": 31,
+      "slot_id": "2015-07-23T16",
+      "category": "Scala-Utrecht",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNLHTML5_1437667200000_68664",
+      "title": "VisualReview and Dragons, with Sannie Kwakman and Wilfred Nas",
+      "hall": 203,
+      "slot_id": "2015-07-23T16",
+      "category": "NLHTML5",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePHPAmersfoort_1439312400000_68014",
+      "title": "PHPAmersfoort August 2015 - 2nd anniversary Meetup",
+      "hall": 135,
+      "slot_id": "2015-08-11T17",
+      "category": "PHPAmersfoort",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Elixir_1439312400000_68221",
+      "title": "Elixir Workshop",
+      "hall": 164,
+      "slot_id": "2015-08-11T17",
+      "category": "Amsterdam-Elixir",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edev-070_1439913600000_67563",
+      "title": "Introduction into Apache Spark",
+      "hall": 66,
+      "slot_id": "2015-08-18T16",
+      "category": "dev-070",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1439913600000_68108",
+      "title": "Open Wetlab: OpenBCI & DropBot",
+      "hall": 145,
+      "slot_id": "2015-08-18T16",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1440090000000_67282",
+      "title": "Monthly Meeting - August/2015: The Mega Meetup",
+      "hall": 24,
+      "slot_id": "2015-08-20T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDocker-Randstad_1440090000000_67322",
+      "title": "August meetup - Sysdig, Docker in online advertising and more...",
+      "hall": 34,
+      "slot_id": "2015-08-20T17",
+      "category": "Docker-Randstad",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Java-Development-with-MetaFactory_1440518400000_67094",
+      "title": "Knowledge sessions ‘Software Development Automation with MetaFactory’",
+      "hall": 3,
+      "slot_id": "2015-08-25T16",
+      "category": "Amsterdam-Java-Development-with-MetaFact",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1440518400000_68108",
+      "title": "Open Wetlab: OpenBCI & DropBot",
+      "hall": 145,
+      "slot_id": "2015-08-25T16",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePermanentBeta_1440522000000_68760",
+      "title": "Permanent Beta Haarlem meets Martijn Aslander (life hacker)",
+      "hall": 218,
+      "slot_id": "2015-08-25T17",
+      "category": "PermanentBeta",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDomCode_1440522000000_67794",
+      "title": "Monthly Meeting - August 2015",
+      "hall": 106,
+      "slot_id": "2015-08-25T17",
+      "category": "DomCode",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "egolang-amsterdam_1440692100000_68807",
+      "title": "Golang meetup August 2015 @ Bol.com (Utrecht)",
+      "hall": 224,
+      "slot_id": "2015-08-27T16",
+      "category": "golang-amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eITGilde-Cooperatie-Amsterdam-Unix-Linux-Meetups_1440691200000_68135",
+      "title": "Ansible Uitleg en Workshop/Demonstratie",
+      "hall": 150,
+      "slot_id": "2015-08-27T16",
+      "category": "ITGilde-Cooperatie-Amsterdam-Unix-Linux-",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1441123200000_68108",
+      "title": "Open Wetlab: OpenBCI & DropBot",
+      "hall": 145,
+      "slot_id": "2015-09-01T16",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAgile-Coaching-Amsterdam_1441123200000_67944",
+      "title": "Lean Coffee",
+      "hall": 129,
+      "slot_id": "2015-09-01T16",
+      "category": "Agile-Coaching-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAWS-Amsterdam_1441123200000_67907",
+      "title": "The Realities of Security in the Cloud – Live Cyber Hack Demo",
+      "hall": 124,
+      "slot_id": "2015-09-01T16",
+      "category": "AWS-Amsterdam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ePolderPHP_1441126800000_67106",
+      "title": "First edition: How Symfony Changed My Life, by Matthias Noback",
+      "hall": 5,
+      "slot_id": "2015-09-01T17",
+      "category": "PolderPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eUtrecht-rb_1441126800000_68809",
+      "title": "Talks & Drinks",
+      "hall": 225,
+      "slot_id": "2015-09-01T17",
+      "category": "Utrecht-rb",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eScala-Utrecht_1441297800000_67481",
+      "title": "FP study group get together #1",
+      "hall": 57,
+      "slot_id": "2015-09-03T16",
+      "category": "Scala-Utrecht",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "etextkernel-talks_1441297800000_68209",
+      "title": "Resiliency in Elasticsearch",
+      "hall": 163,
+      "slot_id": "2015-09-03T16",
+      "category": "textkernel-talks",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-Puppet-User-Group_1441296000000_67625",
+      "title": "Special guest: Martin Etmajer",
+      "hall": 76,
+      "slot_id": "2015-09-03T16",
+      "category": "Dutch-Puppet-User-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSoftware-Circus_1441782000000_68612",
+      "title": "Workshop - Programmable CoDe Pipeline in Jenkins",
+      "hall": 197,
+      "slot_id": "2015-09-09T07",
+      "category": "Software-Circus",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSoftware-Circus_1441782000000_68612_1",
+      "title": "Workshop - A Clown's Guide to Docker",
+      "hall": 197,
+      "slot_id": "2015-09-09T07",
+      "category": "Software-Circus",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSoftware-Circus_1441800000000_68612",
+      "title": "Workshop - Using Prometheus for metrics, monitoring & alerting for microservices",
+      "hall": 197,
+      "slot_id": "2015-09-09T12",
+      "category": "Software-Circus",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSoftware-Circus_1441800000000_68612_1",
+      "title": "Workshop - Continuous Delivery with Docker on Mesos",
+      "hall": 197,
+      "slot_id": "2015-09-09T12",
+      "category": "Software-Circus",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAgilegroup_1442415600000_67524",
+      "title": "Agile with more than a team; how do we do that?",
+      "hall": 63,
+      "slot_id": "2015-09-16T15",
+      "category": "Agilegroup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "esensemakersams_1442415600000_68266",
+      "title": "Internet-of-Things, Arduino and talks",
+      "hall": 171,
+      "slot_id": "2015-09-16T15",
+      "category": "sensemakersams",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eNLHTML5_1442419200000_67293",
+      "title": "NLHTML5 presents: Polymer Summit side-event at Q42!",
+      "hall": 28,
+      "slot_id": "2015-09-16T16",
+      "category": "NLHTML5",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eCocoaHeadsNL_1442421000000_68122",
+      "title": "September @ Highstreet",
+      "hall": 147,
+      "slot_id": "2015-09-16T16",
+      "category": "CocoaHeadsNL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eOpenstack-Netherlands_1442473200000_67685",
+      "title": "OpenStack Benelux Conference 2015",
+      "hall": 91,
+      "slot_id": "2015-09-17T07",
+      "category": "Openstack-Netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Startup-Boot-Businesses-Meetup_1442474100000_68248",
+      "title": "Startup boot Coffee talk about subsidies",
+      "hall": 168,
+      "slot_id": "2015-09-17T07",
+      "category": "Amsterdam-Startup-Boot-Businesses-Meetup",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdamPHP_1442509200000_67224",
+      "title": "Monthly Meeting - September/2015",
+      "hall": 16,
+      "slot_id": "2015-09-17T17",
+      "category": "AmsterdamPHP",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDocker-Randstad_1442509200000_67217",
+      "title": "Docker Randstad hits Haarlem!",
+      "hall": 14,
+      "slot_id": "2015-09-17T17",
+      "category": "Docker-Randstad",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eDutch-DIY-Bio_1442937600000_68108",
+      "title": "Open Wetlab: OpenBCI & DropBot",
+      "hall": 145,
+      "slot_id": "2015-09-22T16",
+      "category": "Dutch-DIY-Bio",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edevops-engineers_1442937600000_68099",
+      "title": "Refactoring a monolith to Microservices",
+      "hall": 144,
+      "slot_id": "2015-09-22T16",
+      "category": "devops-engineers",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eIoT-NL_1443024000000_67125",
+      "title": "3rd IoTNL Meet-up",
+      "hall": 7,
+      "slot_id": "2015-09-23T16",
+      "category": "IoT-NL",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "egraphdb-netherlands_1443024000000_68475",
+      "title": "Latest and greatest on Graph Databases",
+      "hall": 190,
+      "slot_id": "2015-09-23T16",
+      "category": "graphdb-netherlands",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Python-Meetup-Group_1443110400000_67325",
+      "title": "\"Big\" Python meetup",
+      "hall": 35,
+      "slot_id": "2015-09-24T16",
+      "category": "Amsterdam-Python-Meetup-Group",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eSoftware-Testing-Nederland_1443112200000_67446",
+      "title": "Software Testing Nederland Meetup #4",
+      "hall": 50,
+      "slot_id": "2015-09-24T16",
+      "category": "Software-Testing-Nederland",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Java-Development-with-MetaFactory_1443542400000_67094",
+      "title": "Knowledge sessions ‘Software Development Automation with MetaFactory’",
+      "hall": 3,
+      "slot_id": "2015-09-29T16",
+      "category": "Amsterdam-Java-Development-with-MetaFact",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eamst-R-dam_1443544200000_67999",
+      "title": "Multistate Models, R and IBM",
+      "hall": 132,
+      "slot_id": "2015-09-29T16",
+      "category": "amst-R-dam",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edev-070_1445880600000_67563",
+      "title": "Introduction into Scala programming",
+      "hall": 66,
+      "slot_id": "2015-10-26T17",
+      "category": "dev-070",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edev-070_1445880600000_67563_1",
+      "title": "Using Xamarin with Windows Azure",
+      "hall": 66,
+      "slot_id": "2015-10-26T17",
+      "category": "dev-070",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edev-070_1445880600000_67563_2",
+      "title": "What's new and cool in Java 8",
+      "hall": 66,
+      "slot_id": "2015-10-26T17",
+      "category": "dev-070",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edev-070_1445880600000_67563_3",
+      "title": "JBehave part 1",
+      "hall": 66,
+      "slot_id": "2015-10-26T17",
+      "category": "dev-070",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edev-070_1445886000000_67563",
+      "title": "Webapps with Microsoft Azure Mobile Service",
+      "hall": 66,
+      "slot_id": "2015-10-26T19",
+      "category": "dev-070",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edev-070_1445886000000_67563_1",
+      "title": "JBehave Part 2",
+      "hall": 66,
+      "slot_id": "2015-10-26T19",
+      "category": "dev-070",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edev-070_1445886000000_67563_2",
+      "title": "Ethical Hacking 101",
+      "hall": 66,
+      "slot_id": "2015-10-26T19",
+      "category": "dev-070",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "edev-070_1445886000000_67563_3",
+      "title": "Create a twitterbot with Scala and Akka",
+      "hall": 66,
+      "slot_id": "2015-10-26T19",
+      "category": "dev-070",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Spark_1445965200000_67274",
+      "title": "Placeholder: Pre-Spark-Summit meetup",
+      "hall": 22,
+      "slot_id": "2015-10-27T17",
+      "category": "Amsterdam-Spark",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "eAmsterdam-Java-Development-with-MetaFactory_1445965200000_67094",
+      "title": "Knowledge sessions ‘Software Development Automation with MetaFactory’",
+      "hall": 3,
+      "slot_id": "2015-10-27T17",
+      "category": "Amsterdam-Java-Development-with-MetaFact",
+      "abstract": "",
+      "fame": 0.0
+    }
+  ],
+  "halls": [
+    {
+      "id": 183,
+      "capacity": 35
+    },
+    {
+      "id": 88,
+      "capacity": 25
+    },
+    {
+      "id": 151,
+      "capacity": 70
+    },
+    {
+      "id": 110,
+      "capacity": 40
+    },
+    {
+      "id": 119,
+      "capacity": 80
+    },
+    {
+      "id": 29,
+      "capacity": 129
+    },
+    {
+      "id": 53,
+      "capacity": 60
+    },
+    {
+      "id": 4,
+      "capacity": 40
+    },
+    {
+      "id": 145,
+      "capacity": 20
+    },
+    {
+      "id": 158,
+      "capacity": 80
+    },
+    {
+      "id": 118,
+      "capacity": 25
+    },
+    {
+      "id": 85,
+      "capacity": 40
+    },
+    {
+      "id": 135,
+      "capacity": 30
+    },
+    {
+      "id": 108,
+      "capacity": 55
+    },
+    {
+      "id": 81,
+      "capacity": 20
+    },
+    {
+      "id": 174,
+      "capacity": 50
+    },
+    {
+      "id": 44,
+      "capacity": 70
+    },
+    {
+      "id": 176,
+      "capacity": 80
+    },
+    {
+      "id": 138,
+      "capacity": 30
+    },
+    {
+      "id": 131,
+      "capacity": 21
+    },
+    {
+      "id": 120,
+      "capacity": 12
+    },
+    {
+      "id": 166,
+      "capacity": 50
+    },
+    {
+      "id": 98,
+      "capacity": 40
+    },
+    {
+      "id": 220,
+      "capacity": 90
+    },
+    {
+      "id": 154,
+      "capacity": 80
+    },
+    {
+      "id": 86,
+      "capacity": 60
+    },
+    {
+      "id": 182,
+      "capacity": 25
+    },
+    {
+      "id": 128,
+      "capacity": 140
+    },
+    {
+      "id": 104,
+      "capacity": 75
+    },
+    {
+      "id": 211,
+      "capacity": 60
+    },
+    {
+      "id": 48,
+      "capacity": 35
+    },
+    {
+      "id": 25,
+      "capacity": 70
+    },
+    {
+      "id": 39,
+      "capacity": 40
+    },
+    {
+      "id": 173,
+      "capacity": 35
+    },
+    {
+      "id": 178,
+      "capacity": 55
+    },
+    {
+      "id": 42,
+      "capacity": 110
+    },
+    {
+      "id": 155,
+      "capacity": 42
+    },
+    {
+      "id": 144,
+      "capacity": 50
+    },
+    {
+      "id": 130,
+      "capacity": 35
+    },
+    {
+      "id": 105,
+      "capacity": 44
+    },
+    {
+      "id": 197,
+      "capacity": 25
+    },
+    {
+      "id": 212,
+      "capacity": 40
+    },
+    {
+      "id": 167,
+      "capacity": 50
+    },
+    {
+      "id": 164,
+      "capacity": 35
+    },
+    {
+      "id": 38,
+      "capacity": 150
+    },
+    {
+      "id": 190,
+      "capacity": 75
+    },
+    {
+      "id": 78,
+      "capacity": 60
+    },
+    {
+      "id": 93,
+      "capacity": 40
+    },
+    {
+      "id": 161,
+      "capacity": 60
+    },
+    {
+      "id": 127,
+      "capacity": 40
+    },
+    {
+      "id": 82,
+      "capacity": 75
+    },
+    {
+      "id": 107,
+      "capacity": 20
+    },
+    {
+      "id": 9,
+      "capacity": 30
+    },
+    {
+      "id": 210,
+      "capacity": 100
+    },
+    {
+      "id": 54,
+      "capacity": 55
+    },
+    {
+      "id": 125,
+      "capacity": 70
+    },
+    {
+      "id": 156,
+      "capacity": 80
+    },
+    {
+      "id": 67,
+      "capacity": 72
+    },
+    {
+      "id": 146,
+      "capacity": 50
+    },
+    {
+      "id": 181,
+      "capacity": 45
+    },
+    {
+      "id": 136,
+      "capacity": 100
+    },
+    {
+      "id": 97,
+      "capacity": 13
+    },
+    {
+      "id": 100,
+      "capacity": 59
+    },
+    {
+      "id": 141,
+      "capacity": 165
+    },
+    {
+      "id": 34,
+      "capacity": 100
+    },
+    {
+      "id": 28,
+      "capacity": 65
+    },
+    {
+      "id": 77,
+      "capacity": 60
+    },
+    {
+      "id": 6,
+      "capacity": 25
+    },
+    {
+      "id": 61,
+      "capacity": 70
+    },
+    {
+      "id": 55,
+      "capacity": 200
+    },
+    {
+      "id": 172,
+      "capacity": 45
+    },
+    {
+      "id": 2,
+      "capacity": 50
+    },
+    {
+      "id": 15,
+      "capacity": 50
+    },
+    {
+      "id": 73,
+      "capacity": 30
+    },
+    {
+      "id": 148,
+      "capacity": 100
+    },
+    {
+      "id": 217,
+      "capacity": 91
+    },
+    {
+      "id": 109,
+      "capacity": 40
+    },
+    {
+      "id": 123,
+      "capacity": 20
+    },
+    {
+      "id": 31,
+      "capacity": 80
+    },
+    {
+      "id": 203,
+      "capacity": 50
+    },
+    {
+      "id": 219,
+      "capacity": 100
+    },
+    {
+      "id": 83,
+      "capacity": 40
+    },
+    {
+      "id": 66,
+      "capacity": 26
+    },
+    {
+      "id": 46,
+      "capacity": 20
+    },
+    {
+      "id": 114,
+      "capacity": 30
+    },
+    {
+      "id": 175,
+      "capacity": 18
+    },
+    {
+      "id": 72,
+      "capacity": 40
+    },
+    {
+      "id": 79,
+      "capacity": 120
+    },
+    {
+      "id": 12,
+      "capacity": 50
+    },
+    {
+      "id": 198,
+      "capacity": 1
+    },
+    {
+      "id": 179,
+      "capacity": 45
+    },
+    {
+      "id": 199,
+      "capacity": 80
+    },
+    {
+      "id": 133,
+      "capacity": 80
+    },
+    {
+      "id": 170,
+      "capacity": 400
+    },
+    {
+      "id": 180,
+      "capacity": 50
+    },
+    {
+      "id": 65,
+      "capacity": 80
+    },
+    {
+      "id": 192,
+      "capacity": 60
+    },
+    {
+      "id": 117,
+      "capacity": 60
+    },
+    {
+      "id": 99,
+      "capacity": 45
+    },
+    {
+      "id": 153,
+      "capacity": 40
+    },
+    {
+      "id": 94,
+      "capacity": 18
+    },
+    {
+      "id": 189,
+      "capacity": 70
+    },
+    {
+      "id": 43,
+      "capacity": 75
+    },
+    {
+      "id": 11,
+      "capacity": 69
+    },
+    {
+      "id": 10,
+      "capacity": 15
+    },
+    {
+      "id": 96,
+      "capacity": 55
+    },
+    {
+      "id": 129,
+      "capacity": 13
+    },
+    {
+      "id": 124,
+      "capacity": 80
+    },
+    {
+      "id": 45,
+      "capacity": 60
+    },
+    {
+      "id": 76,
+      "capacity": 50
+    },
+    {
+      "id": 169,
+      "capacity": 25
+    },
+    {
+      "id": 147,
+      "capacity": 50
+    },
+    {
+      "id": 137,
+      "capacity": 46
+    },
+    {
+      "id": 209,
+      "capacity": 30
+    },
+    {
+      "id": 200,
+      "capacity": 25
+    },
+    {
+      "id": 191,
+      "capacity": 75
+    },
+    {
+      "id": 27,
+      "capacity": 111
+    },
+    {
+      "id": 184,
+      "capacity": 30
+    },
+    {
+      "id": 92,
+      "capacity": 1
+    },
+    {
+      "id": 134,
+      "capacity": 80
+    },
+    {
+      "id": 80,
+      "capacity": 30
+    },
+    {
+      "id": 95,
+      "capacity": 57
+    },
+    {
+      "id": 223,
+      "capacity": 10
+    },
+    {
+      "id": 30,
+      "capacity": 50
+    },
+    {
+      "id": 71,
+      "capacity": 75
+    },
+    {
+      "id": 70,
+      "capacity": 80
+    },
+    {
+      "id": 3,
+      "capacity": 8
+    },
+    {
+      "id": 132,
+      "capacity": 60
+    },
+    {
+      "id": 64,
+      "capacity": 55
+    },
+    {
+      "id": 121,
+      "capacity": 45
+    },
+    {
+      "id": 60,
+      "capacity": 20
+    },
+    {
+      "id": 224,
+      "capacity": 100
+    },
+    {
+      "id": 150,
+      "capacity": 20
+    },
+    {
+      "id": 177,
+      "capacity": 71
+    },
+    {
+      "id": 112,
+      "capacity": 66
+    },
+    {
+      "id": 103,
+      "capacity": 32
+    },
+    {
+      "id": 152,
+      "capacity": 25
+    },
+    {
+      "id": 149,
+      "capacity": 20
+    },
+    {
+      "id": 196,
+      "capacity": 70
+    },
+    {
+      "id": 221,
+      "capacity": 1
+    },
+    {
+      "id": 59,
+      "capacity": 70
+    },
+    {
+      "id": 52,
+      "capacity": 65
+    },
+    {
+      "id": 201,
+      "capacity": 60
+    },
+    {
+      "id": 13,
+      "capacity": 130
+    },
+    {
+      "id": 185,
+      "capacity": 91
+    },
+    {
+      "id": 47,
+      "capacity": 31
+    },
+    {
+      "id": 74,
+      "capacity": 90
+    },
+    {
+      "id": 18,
+      "capacity": 30
+    },
+    {
+      "id": 33,
+      "capacity": 40
+    },
+    {
+      "id": 193,
+      "capacity": 200
+    },
+    {
+      "id": 26,
+      "capacity": 20
+    },
+    {
+      "id": 84,
+      "capacity": 150
+    },
+    {
+      "id": 207,
+      "capacity": 60
+    },
+    {
+      "id": 23,
+      "capacity": 70
+    },
+    {
+      "id": 87,
+      "capacity": 55
+    },
+    {
+      "id": 22,
+      "capacity": 150
+    },
+    {
+      "id": 188,
+      "capacity": 24
+    },
+    {
+      "id": 89,
+      "capacity": 100
+    },
+    {
+      "id": 58,
+      "capacity": 85
+    },
+    {
+      "id": 1,
+      "capacity": 9
+    },
+    {
+      "id": 75,
+      "capacity": 75
+    },
+    {
+      "id": 216,
+      "capacity": 50
+    },
+    {
+      "id": 7,
+      "capacity": 70
+    },
+    {
+      "id": 165,
+      "capacity": 40
+    },
+    {
+      "id": 143,
+      "capacity": 32
+    },
+    {
+      "id": 206,
+      "capacity": 40
+    },
+    {
+      "id": 16,
+      "capacity": 100
+    },
+    {
+      "id": 14,
+      "capacity": 50
+    },
+    {
+      "id": 90,
+      "capacity": 100
+    },
+    {
+      "id": 102,
+      "capacity": 27
+    },
+    {
+      "id": 21,
+      "capacity": 30
+    },
+    {
+      "id": 19,
+      "capacity": 1
+    },
+    {
+      "id": 160,
+      "capacity": 30
+    },
+    {
+      "id": 62,
+      "capacity": 50
+    },
+    {
+      "id": 5,
+      "capacity": 40
+    },
+    {
+      "id": 225,
+      "capacity": 40
+    },
+    {
+      "id": 20,
+      "capacity": 75
+    },
+    {
+      "id": 63,
+      "capacity": 40
+    },
+    {
+      "id": 171,
+      "capacity": 150
+    },
+    {
+      "id": 213,
+      "capacity": 20
+    },
+    {
+      "id": 41,
+      "capacity": 100
+    },
+    {
+      "id": 126,
+      "capacity": 30
+    },
+    {
+      "id": 49,
+      "capacity": 30
+    },
+    {
+      "id": 204,
+      "capacity": 100
+    },
+    {
+      "id": 215,
+      "capacity": 20
+    },
+    {
+      "id": 208,
+      "capacity": 100
+    },
+    {
+      "id": 40,
+      "capacity": 150
+    },
+    {
+      "id": 8,
+      "capacity": 1
+    },
+    {
+      "id": 57,
+      "capacity": 30
+    },
+    {
+      "id": 163,
+      "capacity": 80
+    },
+    {
+      "id": 32,
+      "capacity": 70
+    },
+    {
+      "id": 186,
+      "capacity": 150
+    },
+    {
+      "id": 202,
+      "capacity": 80
+    },
+    {
+      "id": 56,
+      "capacity": 15
+    },
+    {
+      "id": 24,
+      "capacity": 100
+    },
+    {
+      "id": 222,
+      "capacity": 50
+    },
+    {
+      "id": 115,
+      "capacity": 75
+    },
+    {
+      "id": 140,
+      "capacity": 20
+    },
+    {
+      "id": 36,
+      "capacity": 11
+    },
+    {
+      "id": 111,
+      "capacity": 50
+    },
+    {
+      "id": 218,
+      "capacity": 75
+    },
+    {
+      "id": 106,
+      "capacity": 70
+    },
+    {
+      "id": 51,
+      "capacity": 60
+    },
+    {
+      "id": 69,
+      "capacity": 24
+    },
+    {
+      "id": 68,
+      "capacity": 50
+    },
+    {
+      "id": 35,
+      "capacity": 150
+    },
+    {
+      "id": 50,
+      "capacity": 50
+    },
+    {
+      "id": 205,
+      "capacity": 30
+    },
+    {
+      "id": 187,
+      "capacity": 40
+    },
+    {
+      "id": 162,
+      "capacity": 60
+    },
+    {
+      "id": 142,
+      "capacity": 6
+    },
+    {
+      "id": 116,
+      "capacity": 60
+    },
+    {
+      "id": 17,
+      "capacity": 40
+    },
+    {
+      "id": 113,
+      "capacity": 40
+    },
+    {
+      "id": 195,
+      "capacity": 16
+    },
+    {
+      "id": 37,
+      "capacity": 130
+    },
+    {
+      "id": 157,
+      "capacity": 30
+    },
+    {
+      "id": 159,
+      "capacity": 60
+    },
+    {
+      "id": 91,
+      "capacity": 1
+    },
+    {
+      "id": 168,
+      "capacity": 40
+    },
+    {
+      "id": 139,
+      "capacity": 60
+    },
+    {
+      "id": 101,
+      "capacity": 80
+    },
+    {
+      "id": 194,
+      "capacity": 80
+    },
+    {
+      "id": 214,
+      "capacity": 65
+    },
+    {
+      "id": 122,
+      "capacity": 50
+    }
+  ],
+  "slots": [
+    {
+      "id": "2011-09-14T08",
+      "datetime": "2011-09-14T08:00:00Z",
+      "talk_ids": [
+        "eAndroid-Developers-Camp-Amsterdam_1315987200000_67474",
+        "eAppsterdam_1315987200000_68280",
+        "eAppsterdam_1315987200000_67093"
+      ]
+    },
+    {
+      "id": "2011-09-15T08",
+      "datetime": "2011-09-15T08:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1316073600000_67474",
+        "eAppsterdam_1316073600000_67093"
+      ]
+    },
+    {
+      "id": "2011-11-04T18",
+      "datetime": "2011-11-04T18:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1320429600000_68587",
+        "eAppsterdam_1320429600000_67340"
+      ]
+    },
+    {
+      "id": "2011-12-09T13",
+      "datetime": "2011-12-09T13:00:00Z",
+      "talk_ids": [
+        "eDigital-Museum-Network-Amsterdam_1323435600000_67870",
+        "eDigital-Museum-Network-Amsterdam_1323435600000_67870_1"
+      ]
+    },
+    {
+      "id": "2012-03-24T09",
+      "datetime": "2012-03-24T09:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1332579600000_67701",
+        "edutch-aug_1332579600000_67701"
+      ]
+    },
+    {
+      "id": "2012-04-16T17",
+      "datetime": "2012-04-16T17:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1334597400000_68669",
+        "eAppril_1334597400000_68423"
+      ]
+    },
+    {
+      "id": "2012-04-18T15",
+      "datetime": "2012-04-18T15:00:00Z",
+      "talk_ids": [
+        "ecode-food-bar_1334761200000_68134",
+        "eAppril_1334763000000_68592"
+      ]
+    },
+    {
+      "id": "2012-04-24T14",
+      "datetime": "2012-04-24T14:00:00Z",
+      "talk_ids": [
+        "eAppril_1335276000000_67249",
+        "edutch-aug_1335276000000_68184"
+      ]
+    },
+    {
+      "id": "2012-04-25T17",
+      "datetime": "2012-04-25T17:00:00Z",
+      "talk_ids": [
+        "eAppril_1335373200000_68592",
+        "eAppril_1335375000000_67427"
+      ]
+    },
+    {
+      "id": "2012-06-14T15",
+      "datetime": "2012-06-14T15:00:00Z",
+      "talk_ids": [
+        "esoftware-architecture-pressure-cooker-meetup_1339686000000_68099",
+        "eNetherlands-Hadoop-User-Group_1339686900000_67947"
+      ]
+    },
+    {
+      "id": "2012-06-21T16",
+      "datetime": "2012-06-21T16:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-UX-Cocktail-Hours_1340294400000_67888",
+        "edutchmug_1340294400000_67513"
+      ]
+    },
+    {
+      "id": "2012-06-22T12",
+      "datetime": "2012-06-22T12:00:00Z",
+      "talk_ids": [
+        "eDigital-Museum-Network-Amsterdam_1340366400000_67870",
+        "eDigital-Museum-Network-Amsterdam_1340366400000_67870_1"
+      ]
+    },
+    {
+      "id": "2012-11-08T16",
+      "datetime": "2012-11-08T16:00:00Z",
+      "talk_ids": [
+        "egraphdb-netherlands_1352392200000_68099",
+        "eNetherlands-Hadoop-User-Group_1352390400000_67833"
+      ]
+    },
+    {
+      "id": "2012-11-20T18",
+      "datetime": "2012-11-20T18:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-rb_1353434400000_67648",
+        "ePermanentBeta_1353434400000_68172"
+      ]
+    },
+    {
+      "id": "2012-11-29T16",
+      "datetime": "2012-11-29T16:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1354206600000_68056",
+        "ecode-food-bar_1354204800000_67338"
+      ]
+    },
+    {
+      "id": "2012-12-07T13",
+      "datetime": "2012-12-07T13:00:00Z",
+      "talk_ids": [
+        "ePermanentBeta_1354885200000_68172",
+        "eDigital-Museum-Network-Amsterdam_1354885200000_67870"
+      ]
+    },
+    {
+      "id": "2013-01-15T18",
+      "datetime": "2013-01-15T18:00:00Z",
+      "talk_ids": [
+        "efp-ams_1358272800000_67393",
+        "eAmsterdam-rb_1358272800000_67683"
+      ]
+    },
+    {
+      "id": "2013-03-21T18",
+      "datetime": "2013-03-21T18:00:00Z",
+      "talk_ids": [
+        "eAmsterdamPHP_1363888800000_68158",
+        "eThe-Gamification-Meetup-Group_1363888800000_67925"
+      ]
+    },
+    {
+      "id": "2013-04-20T11",
+      "datetime": "2013-04-20T11:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1366458300000_67711",
+        "eAppsterdam_1366455600000_68803"
+      ]
+    },
+    {
+      "id": "2013-05-21T17",
+      "datetime": "2013-05-21T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-rb_1369155600000_67422",
+        "eMagento-user-Group-Amsterdam_1369155600000_68086",
+        "ePermanentBeta_1369157400000_68172"
+      ]
+    },
+    {
+      "id": "2013-05-22T16",
+      "datetime": "2013-05-22T16:00:00Z",
+      "talk_ids": [
+        "eNetherlands-Hadoop-User-Group_1369238400000_67790",
+        "enosql-nl_1369238400000_67413"
+      ]
+    },
+    {
+      "id": "2013-06-19T17",
+      "datetime": "2013-06-19T17:00:00Z",
+      "talk_ids": [
+        "eChi-Cafe_1371661200000_68241",
+        "esensemakersams_1371661200000_67728"
+      ]
+    },
+    {
+      "id": "2013-06-24T16",
+      "datetime": "2013-06-24T16:00:00Z",
+      "talk_ids": [
+        "eAWS-Amsterdam_1372091400000_67293",
+        "eElastic-NL_1372091400000_67293"
+      ]
+    },
+    {
+      "id": "2013-06-27T15",
+      "datetime": "2013-06-27T15:00:00Z",
+      "talk_ids": [
+        "edutch-aug_1372345200000_68745",
+        "eapachemeetup-nl_1372347000000_68430"
+      ]
+    },
+    {
+      "id": "2013-08-15T16",
+      "datetime": "2013-08-15T16:00:00Z",
+      "talk_ids": [
+        "eUX-for-dummies_1376582400000_68167",
+        "eUXGames_1376582400000_68167"
+      ]
+    },
+    {
+      "id": "2013-08-15T17",
+      "datetime": "2013-08-15T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdamPHP_1376586000000_67448",
+        "eamsterdam-scala_1376586000000_67580"
+      ]
+    },
+    {
+      "id": "2013-09-03T15",
+      "datetime": "2013-09-03T15:00:00Z",
+      "talk_ids": [
+        "eHippo-Meetup_1378222200000_67720",
+        "ePush2Press-Amsterdam_1378220400000_67927"
+      ]
+    },
+    {
+      "id": "2013-09-04T17",
+      "datetime": "2013-09-04T17:00:00Z",
+      "talk_ids": [
+        "eTitaniumNL_1378315800000_67927",
+        "eSymfony-User-Group-NL_1378314000000_67322",
+        "eJavaScript-MVC-Meetup-Amsterdam_1378314000000_67293",
+        "eAmsterdamUX_1378314000000_67626"
+      ]
+    },
+    {
+      "id": "2013-09-10T16",
+      "datetime": "2013-09-10T16:00:00Z",
+      "talk_ids": [
+        "eagileholland_1378828800000_68041",
+        "eAmsterdam-Riak_1378830600000_68179"
+      ]
+    },
+    {
+      "id": "2013-09-17T15",
+      "datetime": "2013-09-17T15:00:00Z",
+      "talk_ids": [
+        "eapachemeetup-nl_1379431800000_68430",
+        "ePush2Press-Amsterdam_1379430000000_67927"
+      ]
+    },
+    {
+      "id": "2013-09-17T17",
+      "datetime": "2013-09-17T17:00:00Z",
+      "talk_ids": [
+        "ePermanentBeta_1379439000000_68172",
+        "eAmsterdam-rb_1379437200000_67526"
+      ]
+    },
+    {
+      "id": "2013-09-26T16",
+      "datetime": "2013-09-26T16:00:00Z",
+      "talk_ids": [
+        "eNetherlands-Cassandra-Users_1380213000000_67863",
+        "eamsterdam-scala_1380211200000_68179",
+        "eNetherlands-Hadoop-User-Group_1380211200000_68142"
+      ]
+    },
+    {
+      "id": "2013-09-26T17",
+      "datetime": "2013-09-26T17:00:00Z",
+      "talk_ids": [
+        "eSweetlakePHP_1380214800000_67802",
+        "eMagento-user-Group-Amsterdam_1380214800000_68039"
+      ]
+    },
+    {
+      "id": "2013-10-02T17",
+      "datetime": "2013-10-02T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdamUX_1380733200000_67863",
+        "ePermanentBeta_1380735000000_68779"
+      ]
+    },
+    {
+      "id": "2013-10-09T16",
+      "datetime": "2013-10-09T16:00:00Z",
+      "talk_ids": [
+        "eocamsterdam_1381334400000_67374",
+        "eagileholland_1381334400000_68160"
+      ]
+    },
+    {
+      "id": "2013-10-10T17",
+      "datetime": "2013-10-10T17:00:00Z",
+      "talk_ids": [
+        "eMagento-user-Group-Amsterdam_1381424400000_68039",
+        "eAmsterdam-Riak_1381424400000_67393"
+      ]
+    },
+    {
+      "id": "2013-10-17T17",
+      "datetime": "2013-10-17T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdamPHP_1382029200000_68158",
+        "ephpbenelux_1382029200000_68780"
+      ]
+    },
+    {
+      "id": "2013-11-19T18",
+      "datetime": "2013-11-19T18:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-rb_1384884000000_68521",
+        "ePermanentBeta_1384885800000_68172"
+      ]
+    },
+    {
+      "id": "2013-12-04T17",
+      "datetime": "2013-12-04T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-Python-Meetup-Group_1386176400000_67629",
+        "eAmsterdamUX_1386176400000_68002"
+      ]
+    },
+    {
+      "id": "2013-12-19T18",
+      "datetime": "2013-12-19T18:00:00Z",
+      "talk_ids": [
+        "eMagento-user-Group-Amsterdam_1387476000000_68039",
+        "eAmsterdamPHP_1387476000000_68200"
+      ]
+    },
+    {
+      "id": "2014-01-21T18",
+      "datetime": "2014-01-21T18:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-rb_1390327200000_67865",
+        "ePermanentBeta_1390329000000_68779"
+      ]
+    },
+    {
+      "id": "2014-02-03T18",
+      "datetime": "2014-02-03T18:00:00Z",
+      "talk_ids": [
+        "eUtrecht-rb_1391450400000_68793",
+        "eamsterdam-scala_1391450400000_67293"
+      ]
+    },
+    {
+      "id": "2014-02-06T18",
+      "datetime": "2014-02-06T18:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-UX-Cocktail-Hours_1391709600000_68012",
+        "eChi-Cafe_1391711400000_67636",
+        "eLean-UX-Amsterdam_1391709600000_67295"
+      ]
+    },
+    {
+      "id": "2014-02-06T19",
+      "datetime": "2014-02-06T19:00:00Z",
+      "talk_ids": [
+        "eBehavior-Design-AMS_1391713200000_67295",
+        "eAppsterdam_1391713200000_67817"
+      ]
+    },
+    {
+      "id": "2014-03-05T18",
+      "datetime": "2014-03-05T18:00:00Z",
+      "talk_ids": [
+        "eAmsterdamUX_1394042400000_68199",
+        "eTitaniumNL_1394044200000_67927",
+        "eJavaScript-MVC-Meetup-Amsterdam_1394042400000_67642"
+      ]
+    },
+    {
+      "id": "2014-03-12T18",
+      "datetime": "2014-03-12T18:00:00Z",
+      "talk_ids": [
+        "eOSGeoNL_1394647200000_68309",
+        "efp-ams_1394647200000_67972"
+      ]
+    },
+    {
+      "id": "2014-03-19T08",
+      "datetime": "2014-03-19T08:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1395217800000_67817",
+        "eCloud-Foundry-User-Group-The-Netherlands_1395216000000_67689"
+      ]
+    },
+    {
+      "id": "2014-03-20T17",
+      "datetime": "2014-03-20T17:00:00Z",
+      "talk_ids": [
+        "eAKQA-TECH-insight-Amsterdam_1395336600000_67087",
+        "eamsterdam-scala_1395336600000_67698"
+      ]
+    },
+    {
+      "id": "2014-03-26T18",
+      "datetime": "2014-03-26T18:00:00Z",
+      "talk_ids": [
+        "efp-ams_1395856800000_67972",
+        "eTypeCrit-Amsterdam_1395856800000_67883"
+      ]
+    },
+    {
+      "id": "2014-04-03T16",
+      "datetime": "2014-04-03T16:00:00Z",
+      "talk_ids": [
+        "egolang-amsterdam_1396542600000_68121",
+        "eElastic-NL_1396542600000_67582"
+      ]
+    },
+    {
+      "id": "2014-04-15T17",
+      "datetime": "2014-04-15T17:00:00Z",
+      "talk_ids": [
+        "efp-ams_1397581200000_67812",
+        "ePermanentBeta_1397583000000_68779"
+      ]
+    },
+    {
+      "id": "2014-04-17T17",
+      "datetime": "2014-04-17T17:00:00Z",
+      "talk_ids": [
+        "eamsterdam-scala_1397754000000_67422",
+        "eAmsterdamPHP_1397754000000_68642"
+      ]
+    },
+    {
+      "id": "2014-04-18T08",
+      "datetime": "2014-04-18T08:00:00Z",
+      "talk_ids": [
+        "eOpenstack-Amsterdam_1397808000000_67406",
+        "eOpenstack-Netherlands_1397808000000_67406"
+      ]
+    },
+    {
+      "id": "2014-04-24T17",
+      "datetime": "2014-04-24T17:00:00Z",
+      "talk_ids": [
+        "eBehavior-Design-AMS_1398360600000_67295",
+        "eMagento-user-Group-Amsterdam_1398358800000_68039",
+        "eDocker-Randstad_1398358800000_67277"
+      ]
+    },
+    {
+      "id": "2014-04-30T16",
+      "datetime": "2014-04-30T16:00:00Z",
+      "talk_ids": [
+        "eMobile-Marketing-Nederland_1398873600000_68721",
+        "eData-Science-Amsterdam_1398875400000_67473"
+      ]
+    },
+    {
+      "id": "2014-05-01T17",
+      "datetime": "2014-05-01T17:00:00Z",
+      "talk_ids": [
+        "eLean-UX-Amsterdam_1398963600000_67295",
+        "eFoundationDB-Amsterdam-Meetup-Group_1398963600000_67299"
+      ]
+    },
+    {
+      "id": "2014-05-15T17",
+      "datetime": "2014-05-15T17:00:00Z",
+      "talk_ids": [
+        "ePermanentBeta_1400175000000_68779",
+        "eAmsterdamPHP_1400173200000_68158"
+      ]
+    },
+    {
+      "id": "2014-05-27T17",
+      "datetime": "2014-05-27T17:00:00Z",
+      "talk_ids": [
+        "eMagento-user-Group-Amsterdam_1401210000000_68039",
+        "eDutch-DIY-Bio_1401210000000_68108"
+      ]
+    },
+    {
+      "id": "2014-06-02T16",
+      "datetime": "2014-06-02T16:00:00Z",
+      "talk_ids": [
+        "eFAT-Federation-of-Agile-Testers_1401724800000_68387",
+        "eCocoaHeadsNL_1401724800000_67682"
+      ]
+    },
+    {
+      "id": "2014-06-04T17",
+      "datetime": "2014-06-04T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdamUX_1401901200000_68463",
+        "eTitaniumNL_1401901200000_67927"
+      ]
+    },
+    {
+      "id": "2014-06-10T16",
+      "datetime": "2014-06-10T16:00:00Z",
+      "talk_ids": [
+        "eagileholland_1402416000000_67219",
+        "eUtrecht-JavaScript-Meetup_1402417800000_67604"
+      ]
+    },
+    {
+      "id": "2014-06-12T17",
+      "datetime": "2014-06-12T17:00:00Z",
+      "talk_ids": [
+        "eonlineoptimizers_1402594200000_67160",
+        "eTechnologia-Incognita_1402592400000_67151"
+      ]
+    },
+    {
+      "id": "2014-06-19T13",
+      "datetime": "2014-06-19T13:00:00Z",
+      "talk_ids": [
+        "eDutch-Mobile-NET-Developers-Group_1403184600000_67386",
+        "eBehavior-Design-AMS_1403184600000_68332"
+      ]
+    },
+    {
+      "id": "2014-06-24T13",
+      "datetime": "2014-06-24T13:00:00Z",
+      "talk_ids": [
+        "eonlineoptimizers_1403614800000_67291",
+        "eDigital-Museum-Network-Amsterdam_1403616600000_68391"
+      ]
+    },
+    {
+      "id": "2014-07-01T17",
+      "datetime": "2014-07-01T17:00:00Z",
+      "talk_ids": [
+        "eamsnode_1404234000000_68763",
+        "eLean-UX-Amsterdam_1404234000000_67295"
+      ]
+    },
+    {
+      "id": "2014-07-02T15",
+      "datetime": "2014-07-02T15:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1404315000000_67747",
+        "enl-gug_1404315000000_67265"
+      ]
+    },
+    {
+      "id": "2014-07-24T16",
+      "datetime": "2014-07-24T16:00:00Z",
+      "talk_ids": [
+        "eDutch-DIY-Bio_1406217600000_68108",
+        "eamsterdam-scala_1406219400000_67576"
+      ]
+    },
+    {
+      "id": "2014-09-16T15",
+      "datetime": "2014-09-16T15:00:00Z",
+      "talk_ids": [
+        "eCocoaHeadsNL_1410879600000_67790",
+        "eDutch-DIY-Bio_1410879600000_68108"
+      ]
+    },
+    {
+      "id": "2014-09-16T16",
+      "datetime": "2014-09-16T16:00:00Z",
+      "talk_ids": [
+        "eUtrecht-JavaScript-Meetup_1410885000000_67145",
+        "eMobile-Testing_1410883200000_67879"
+      ]
+    },
+    {
+      "id": "2014-09-18T16",
+      "datetime": "2014-09-18T16:00:00Z",
+      "talk_ids": [
+        "eORCLAPEX-NL_1411056000000_67639",
+        "eDataMission-Data-and-Digital-Technology-for-Humanity_1411056900000_68284"
+      ]
+    },
+    {
+      "id": "2014-09-18T17",
+      "datetime": "2014-09-18T17:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1411059600000_68592",
+        "eThe-Amsterdam-Applied-Machine-Learning-Meetup-Group_1411059600000_68763",
+        "eAmsterdamPHP_1411059600000_68673"
+      ]
+    },
+    {
+      "id": "2014-09-22T17",
+      "datetime": "2014-09-22T17:00:00Z",
+      "talk_ids": [
+        "eamst-R-dam_1411405200000_67739",
+        "eElastic-NL_1411405200000_68079"
+      ]
+    },
+    {
+      "id": "2014-09-30T15",
+      "datetime": "2014-09-30T15:00:00Z",
+      "talk_ids": [
+        "eagileholland_1412091000000_67521",
+        "eDutch-DIY-Bio_1412089200000_68108"
+      ]
+    },
+    {
+      "id": "2014-09-30T17",
+      "datetime": "2014-09-30T17:00:00Z",
+      "talk_ids": [
+        "eDomCode_1412096400000_67737",
+        "eMicroservices-Amsterdam_1412096400000_68154",
+        "eFull-Stack-Development_1412096400000_68154"
+      ]
+    },
+    {
+      "id": "2014-10-01T13",
+      "datetime": "2014-10-01T13:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1412170200000_67817",
+        "eAmsterdam-Innovative-startups_1412170200000_67477"
+      ]
+    },
+    {
+      "id": "2014-10-07T15",
+      "datetime": "2014-10-07T15:00:00Z",
+      "talk_ids": [
+        "eDutch-DIY-Bio_1412694000000_68108",
+        "eagileholland_1412695800000_67521"
+      ]
+    },
+    {
+      "id": "2014-10-16T17",
+      "datetime": "2014-10-16T17:00:00Z",
+      "talk_ids": [
+        "eSymfony-User-Group-NL_1413478800000_67454",
+        "efp-ams_1413478800000_67293",
+        "eAmsterdamPHP_1413478800000_68641"
+      ]
+    },
+    {
+      "id": "2014-10-22T17",
+      "datetime": "2014-10-22T17:00:00Z",
+      "talk_ids": [
+        "eStartupAmsterdam_1413999000000_68339",
+        "eCocoaHeadsNL_1413997200000_67318"
+      ]
+    },
+    {
+      "id": "2014-10-28T18",
+      "datetime": "2014-10-28T18:00:00Z",
+      "talk_ids": [
+        "eLinux-Amsterdam_1414519200000_67227",
+        "eDomCode_1414519200000_67843"
+      ]
+    },
+    {
+      "id": "2014-11-04T16",
+      "datetime": "2014-11-04T16:00:00Z",
+      "talk_ids": [
+        "eDutch-DIY-Bio_1415116800000_68108",
+        "eagileholland_1415119500000_68160",
+        "eFAT-Federation-of-Agile-Testers_1415119500000_68160"
+      ]
+    },
+    {
+      "id": "2014-11-04T18",
+      "datetime": "2014-11-04T18:00:00Z",
+      "talk_ids": [
+        "eAmsterdamUX_1415124000000_68742",
+        "eBehavior-Design-AMS_1415124000000_68332"
+      ]
+    },
+    {
+      "id": "2014-11-06T17",
+      "datetime": "2014-11-06T17:00:00Z",
+      "talk_ids": [
+        "eWordPress-Meetup-Utrecht_1415293200000_68088",
+        "eNetherlands-Cassandra-Users_1415295000000_68672"
+      ]
+    },
+    {
+      "id": "2014-11-08T09",
+      "datetime": "2014-11-08T09:00:00Z",
+      "talk_ids": [
+        "edutch-aug_1415437200000_67852",
+        "egolang-amsterdam_1415437200000_67852"
+      ]
+    },
+    {
+      "id": "2014-11-18T16",
+      "datetime": "2014-11-18T16:00:00Z",
+      "talk_ids": [
+        "enl-gug_1416328200000_67095",
+        "eDutch-DIY-Bio_1416326400000_68108"
+      ]
+    },
+    {
+      "id": "2014-11-19T17",
+      "datetime": "2014-11-19T17:00:00Z",
+      "talk_ids": [
+        "eCocoaHeadsNL_1416417300000_68763",
+        "eAmsterdamUX_1416418200000_67643",
+        "eMaptime-AMS_1416418200000_68734"
+      ]
+    },
+    {
+      "id": "2014-11-24T17",
+      "datetime": "2014-11-24T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-Spark_1416850200000_68142",
+        "eNetherlands-Cassandra-Users_1416850200000_67560"
+      ]
+    },
+    {
+      "id": "2014-11-24T19",
+      "datetime": "2014-11-24T19:00:00Z",
+      "talk_ids": [
+        "eMakerSpaceLeiden_1416855600000_67905",
+        "eAppsterdam_1416855600000_67817"
+      ]
+    },
+    {
+      "id": "2014-11-25T18",
+      "datetime": "2014-11-25T18:00:00Z",
+      "talk_ids": [
+        "eDomCode_1416938400000_68031",
+        "ePermanentBeta_1416940200000_68698"
+      ]
+    },
+    {
+      "id": "2014-11-27T17",
+      "datetime": "2014-11-27T17:00:00Z",
+      "talk_ids": [
+        "eDataMission-Data-and-Digital-Technology-for-Humanity_1417107600000_68667",
+        "eEPiServer-Developers-in-The-Netherlands_1417107600000_67655"
+      ]
+    },
+    {
+      "id": "2014-12-02T17",
+      "datetime": "2014-12-02T17:00:00Z",
+      "talk_ids": [
+        "eamsterdam-scala_1417541400000_67317",
+        "ebrabant-scala_1417541400000_68154"
+      ]
+    },
+    {
+      "id": "2014-12-03T18",
+      "datetime": "2014-12-03T18:00:00Z",
+      "talk_ids": [
+        "eStartupAmsterdam_1417631400000_68339",
+        "eAmsterdamUX_1417629600000_68629",
+        "eJavaScript-MVC-Meetup-Amsterdam_1417629600000_68131"
+      ]
+    },
+    {
+      "id": "2014-12-10T17",
+      "datetime": "2014-12-10T17:00:00Z",
+      "talk_ids": [
+        "ebrabant-scala_1418230800000_68730",
+        "eThe-Amsterdam-Clojure-Meetup-Group_1418232600000_67422",
+        "eamsterdam-scala_1418230800000_68730"
+      ]
+    },
+    {
+      "id": "2014-12-16T17",
+      "datetime": "2014-12-16T17:00:00Z",
+      "talk_ids": [
+        "egraphdb-netherlands_1418749200000_68475",
+        "eFull-Stack-Development_1418751000000_67293"
+      ]
+    },
+    {
+      "id": "2014-12-17T18",
+      "datetime": "2014-12-17T18:00:00Z",
+      "talk_ids": [
+        "eStartupAmsterdam_1418841000000_68339",
+        "eAmsterdam-rb_1418839200000_67253"
+      ]
+    },
+    {
+      "id": "2015-01-07T18",
+      "datetime": "2015-01-07T18:00:00Z",
+      "talk_ids": [
+        "eTitaniumNL_1420653600000_67927",
+        "eAmsterdamUX_1420653600000_67934"
+      ]
+    },
+    {
+      "id": "2015-01-15T17",
+      "datetime": "2015-01-15T17:00:00Z",
+      "talk_ids": [
+        "eNLHTML5_1421341200000_67655",
+        "eUtrecht-JavaScript-Meetup_1421343000000_68376",
+        "eMySQL-User-Group-NL_1421343000000_67934",
+        "eThe-Amsterdam-Applied-Machine-Learning-Meetup-Group_1421341200000_67934",
+        "eamsterdam-scala_1421343000000_67772"
+      ]
+    },
+    {
+      "id": "2015-01-20T17",
+      "datetime": "2015-01-20T17:00:00Z",
+      "talk_ids": [
+        "eCocoaHeadsNL_1421773200000_67577",
+        "eFood-tech-Amsterdam_1421773200000_68226"
+      ]
+    },
+    {
+      "id": "2015-01-21T18",
+      "datetime": "2015-01-21T18:00:00Z",
+      "talk_ids": [
+        "eAmsterdamUX_1421863200000_67603",
+        "eRailsGirls-NL_1421863200000_68376"
+      ]
+    },
+    {
+      "id": "2015-01-28T18",
+      "datetime": "2015-01-28T18:00:00Z",
+      "talk_ids": [
+        "eStartupAmsterdam_1422469800000_68339",
+        "eRust-Amsterdam_1422468000000_68164",
+        "eDutch-Legal-Tech-Meetup_1422468000000_67172"
+      ]
+    },
+    {
+      "id": "2015-02-04T18",
+      "datetime": "2015-02-04T18:00:00Z",
+      "talk_ids": [
+        "eAnsible-Benelux_1423072800000_67119",
+        "eTitaniumNL_1423072800000_67927",
+        "eAmsterdamUX_1423072800000_67520"
+      ]
+    },
+    {
+      "id": "2015-02-10T17",
+      "datetime": "2015-02-10T17:00:00Z",
+      "talk_ids": [
+        "eagileholland_1423587600000_67493",
+        "eITGilde-Cooperatie-Amsterdam-Unix-Linux-Meetups_1423587600000_68135"
+      ]
+    },
+    {
+      "id": "2015-02-10T18",
+      "datetime": "2015-02-10T18:00:00Z",
+      "talk_ids": [
+        "efp-ams_1423591200000_68142",
+        "eEdTech-Amsterdam_1423591200000_67825"
+      ]
+    },
+    {
+      "id": "2015-02-12T17",
+      "datetime": "2015-02-12T17:00:00Z",
+      "talk_ids": [
+        "eDutch-AngularJS-group_1423760400000_67576",
+        "eReact-Amsterdam_1423762200000_68540"
+      ]
+    },
+    {
+      "id": "2015-02-18T17",
+      "datetime": "2015-02-18T17:00:00Z",
+      "talk_ids": [
+        "eMaptime-AMS_1424280600000_68734",
+        "eCocoaHeadsNL_1424278800000_68164"
+      ]
+    },
+    {
+      "id": "2015-02-23T19",
+      "datetime": "2015-02-23T19:00:00Z",
+      "talk_ids": [
+        "eAppsterdam_1424718000000_67817",
+        "eMakerSpaceLeiden_1424718000000_67905"
+      ]
+    },
+    {
+      "id": "2015-02-24T18",
+      "datetime": "2015-02-24T18:00:00Z",
+      "talk_ids": [
+        "eDomCode_1424800800000_67743",
+        "eamsnode_1424800800000_68419"
+      ]
+    },
+    {
+      "id": "2015-03-04T18",
+      "datetime": "2015-03-04T18:00:00Z",
+      "talk_ids": [
+        "eAmsterdamUX_1425492000000_68012",
+        "epapers-we-love-amsterdam_1425492000000_68142"
+      ]
+    },
+    {
+      "id": "2015-03-06T16",
+      "datetime": "2015-03-06T16:00:00Z",
+      "talk_ids": [
+        "eRockstart-Amsterdam_1425657600000_68739",
+        "eSiliconDrinkabout020_1425659400000_67369"
+      ]
+    },
+    {
+      "id": "2015-03-10T16",
+      "datetime": "2015-03-10T16:00:00Z",
+      "talk_ids": [
+        "eAgilegroup_1426005000000_67720",
+        "eDutch-DIY-Bio_1426003200000_68108"
+      ]
+    },
+    {
+      "id": "2015-03-12T17",
+      "datetime": "2015-03-12T17:00:00Z",
+      "talk_ids": [
+        "egraphdb-netherlands_1426181400000_68475",
+        "eUtrecht-JavaScript-Meetup_1426181400000_67758"
+      ]
+    },
+    {
+      "id": "2015-03-18T17",
+      "datetime": "2015-03-18T17:00:00Z",
+      "talk_ids": [
+        "eMaptime-AMS_1426699800000_68734",
+        "eCocoaHeadsNL_1426698000000_67934",
+        "eFood-tech-Amsterdam_1426698000000_68226"
+      ]
+    },
+    {
+      "id": "2015-03-19T17",
+      "datetime": "2015-03-19T17:00:00Z",
+      "talk_ids": [
+        "eDesigner-Developer-Dribbble-Hangout-Amsterdam_1426784400000_68419",
+        "eDataMission-Data-and-Digital-Technology-for-Humanity_1426784400000_67711"
+      ]
+    },
+    {
+      "id": "2015-03-19T18",
+      "datetime": "2015-03-19T18:00:00Z",
+      "talk_ids": [
+        "eDocker-Randstad_1426788000000_68743",
+        "eAmsterdamPHP_1426788000000_68682"
+      ]
+    },
+    {
+      "id": "2015-03-24T17",
+      "datetime": "2015-03-24T17:00:00Z",
+      "talk_ids": [
+        "eContinuous-Delivery-Amsterdam_1427216400000_67907",
+        "eAWS-Amsterdam_1427216400000_67907",
+        "eAmsterdam-Python-Meetup-Group_1427216400000_67629"
+      ]
+    },
+    {
+      "id": "2015-03-26T17",
+      "datetime": "2015-03-26T17:00:00Z",
+      "talk_ids": [
+        "eDutch-Legal-Tech-Meetup_1427391000000_67611",
+        "eCoding-with-Craftsmen_1427389200000_67245"
+      ]
+    },
+    {
+      "id": "2015-03-26T19",
+      "datetime": "2015-03-26T19:00:00Z",
+      "talk_ids": [
+        "eMicroservices-Amsterdam_1427396400000_67669",
+        "eDocker-Randstad_1427396400000_67669"
+      ]
+    },
+    {
+      "id": "2015-03-31T17",
+      "datetime": "2015-03-31T17:00:00Z",
+      "talk_ids": [
+        "eInfi-Developers-Meetup_1427821200000_68253",
+        "eDomCode_1427821200000_67624"
+      ]
+    },
+    {
+      "id": "2015-04-01T17",
+      "datetime": "2015-04-01T17:00:00Z",
+      "talk_ids": [
+        "eTitaniumNL_1427907600000_67917",
+        "eAmsterdamUX_1427907600000_68763",
+        "eRust-Amsterdam_1427907600000_67299",
+        "eAnsible-Benelux_1427907600000_67583"
+      ]
+    },
+    {
+      "id": "2015-04-16T17",
+      "datetime": "2015-04-16T17:00:00Z",
+      "talk_ids": [
+        "eamsterdam-scala_1429203600000_67879",
+        "eDocker-Randstad_1429203600000_67295",
+        "eAmsterdamPHP_1429203600000_67472"
+      ]
+    },
+    {
+      "id": "2015-04-17T14",
+      "datetime": "2015-04-17T14:00:00Z",
+      "talk_ids": [
+        "edutch-aug_1429281000000_68147",
+        "edutch-aug_1429281000000_68147_1"
+      ]
+    },
+    {
+      "id": "2015-04-21T16",
+      "datetime": "2015-04-21T16:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-Python-Meetup-Group_1429633800000_67283",
+        "eDevOpsAmsterdam_1429632900000_67355",
+        "eEPiServer-Developers-in-The-Netherlands_1429632000000_68283",
+        "eCocoaHeadsNL_1429632000000_68336"
+      ]
+    },
+    {
+      "id": "2015-04-22T17",
+      "datetime": "2015-04-22T17:00:00Z",
+      "talk_ids": [
+        "eSiliconDrinkabout020_1429723800000_68633",
+        "eDutch-API-Community_1429722000000_68518"
+      ]
+    },
+    {
+      "id": "2015-04-23T17",
+      "datetime": "2015-04-23T17:00:00Z",
+      "talk_ids": [
+        "eamsnode_1429808400000_68131",
+        "ePermanentBeta_1429810200000_68758"
+      ]
+    },
+    {
+      "id": "2015-04-28T17",
+      "datetime": "2015-04-28T17:00:00Z",
+      "talk_ids": [
+        "eDomCode_1430240400000_67684",
+        "eAmsterdam-rb_1430240400000_67865"
+      ]
+    },
+    {
+      "id": "2015-04-29T07",
+      "datetime": "2015-04-29T07:00:00Z",
+      "talk_ids": [
+        "eWATCH-Society_1430290800000_67368",
+        "eAppril_1430292600000_67142"
+      ]
+    },
+    {
+      "id": "2015-04-29T17",
+      "datetime": "2015-04-29T17:00:00Z",
+      "talk_ids": [
+        "eCocoaHeadsNL_1430326800000_67632",
+        "ePermanentBeta_1430326800000_67172"
+      ]
+    },
+    {
+      "id": "2015-05-06T17",
+      "datetime": "2015-05-06T17:00:00Z",
+      "talk_ids": [
+        "eTitaniumNL_1430931600000_67917",
+        "eAmsterdamUX_1430931600000_68164"
+      ]
+    },
+    {
+      "id": "2015-05-07T17",
+      "datetime": "2015-05-07T17:00:00Z",
+      "talk_ids": [
+        "egolang-amsterdam_1431018000000_68121",
+        "eamsterdam-scala_1431018000000_68363",
+        "eDocker-Randstad_1431018000000_68023",
+        "efp-ams_1431018000000_67726"
+      ]
+    },
+    {
+      "id": "2015-05-12T17",
+      "datetime": "2015-05-12T17:00:00Z",
+      "talk_ids": [
+        "ePHPAmersfoort_1431450000000_68014",
+        "epapers-we-love-amsterdam_1431450000000_67812"
+      ]
+    },
+    {
+      "id": "2015-05-15T17",
+      "datetime": "2015-05-15T17:00:00Z",
+      "talk_ids": [
+        "eRust-Amsterdam_1431709200000_67934",
+        "eSoftware-Circus_1431709200000_68612"
+      ]
+    },
+    {
+      "id": "2015-05-18T16",
+      "datetime": "2015-05-18T16:00:00Z",
+      "talk_ids": [
+        "eMicroservices-Amsterdam_1431966600000_67576",
+        "eInfi-Developers-Meetup_1431964800000_68253"
+      ]
+    },
+    {
+      "id": "2015-05-19T16",
+      "datetime": "2015-05-19T16:00:00Z",
+      "talk_ids": [
+        "eUtrecht-JavaScript-Meetup_1432053000000_68265",
+        "eEmber-js-Amsterdam_1432053000000_68341"
+      ]
+    },
+    {
+      "id": "2015-05-20T16",
+      "datetime": "2015-05-20T16:00:00Z",
+      "talk_ids": [
+        "eMaptime-AMS_1432139400000_68734",
+        "eCocoaHeadsNL_1432137600000_68247",
+        "eWordPress-Amsterdam_1432139400000_68221",
+        "eNetherlands-Cassandra-Users_1432137600000_67349"
+      ]
+    },
+    {
+      "id": "2015-05-20T17",
+      "datetime": "2015-05-20T17:00:00Z",
+      "talk_ids": [
+        "efp-ams_1432141200000_67726",
+        "eAmsterdamUX_1432141200000_67603"
+      ]
+    },
+    {
+      "id": "2015-05-21T15",
+      "datetime": "2015-05-21T15:00:00Z",
+      "talk_ids": [
+        "eLeanStartupNL_1432220400000_67482",
+        "ePostgreSQL-User-Group-NL_1432222200000_67860"
+      ]
+    },
+    {
+      "id": "2015-05-21T16",
+      "datetime": "2015-05-21T16:00:00Z",
+      "talk_ids": [
+        "eamsterdam-scala_1432225800000_67422",
+        "eAngularJS-Amsterdam-Meetup_1432225800000_67645"
+      ]
+    },
+    {
+      "id": "2015-05-26T17",
+      "datetime": "2015-05-26T17:00:00Z",
+      "talk_ids": [
+        "eDutch-Legal-Tech-Meetup_1432659600000_67611",
+        "eDomCode_1432659600000_67482"
+      ]
+    },
+    {
+      "id": "2015-06-04T16",
+      "datetime": "2015-06-04T16:00:00Z",
+      "talk_ids": [
+        "eamsterdam-scala_1433433600000_67306",
+        "ebrabant-scala_1433433600000_68622"
+      ]
+    },
+    {
+      "id": "2015-06-08T17",
+      "datetime": "2015-06-08T17:00:00Z",
+      "talk_ids": [
+        "eRotterdam-UX-Cocktail-Hours_1433782800000_68335",
+        "eCocoaHeadsNL_1433782800000_67835"
+      ]
+    },
+    {
+      "id": "2015-06-11T16",
+      "datetime": "2015-06-11T16:00:00Z",
+      "talk_ids": [
+        "eMySQL-User-Group-NL_1434040200000_67934",
+        "eamsterdam-scala_1434040200000_68730"
+      ]
+    },
+    {
+      "id": "2015-06-18T16",
+      "datetime": "2015-06-18T16:00:00Z",
+      "talk_ids": [
+        "eNLHTML5_1434643200000_67655",
+        "eOpenstack-Netherlands_1434645000000_67625",
+        "eOpenstack-Amsterdam_1434645000000_67625"
+      ]
+    },
+    {
+      "id": "2015-06-18T17",
+      "datetime": "2015-06-18T17:00:00Z",
+      "talk_ids": [
+        "eBehavior-Design-AMS_1434646800000_67295",
+        "eAmsterdamPHP_1434646800000_68158"
+      ]
+    },
+    {
+      "id": "2015-06-23T17",
+      "datetime": "2015-06-23T17:00:00Z",
+      "talk_ids": [
+        "eAppril_1435078800000_68539",
+        "esilverstripe-netherlands_1435078800000_67288"
+      ]
+    },
+    {
+      "id": "2015-06-25T16",
+      "datetime": "2015-06-25T16:00:00Z",
+      "talk_ids": [
+        "eAngularJS-Amsterdam-Meetup_1435249800000_67199",
+        "eContinuous-Delivery-Amsterdam_1435248000000_68401"
+      ]
+    },
+    {
+      "id": "2015-06-30T17",
+      "datetime": "2015-06-30T17:00:00Z",
+      "talk_ids": [
+        "eWordPress-Amsterdam_1435683600000_68221",
+        "eDomCode_1435683600000_67381"
+      ]
+    },
+    {
+      "id": "2015-07-07T16",
+      "datetime": "2015-07-07T16:00:00Z",
+      "talk_ids": [
+        "eDutch-DIY-Bio_1436284800000_68108",
+        "eInfi-Developers-Meetup_1436286600000_68253"
+      ]
+    },
+    {
+      "id": "2015-07-09T17",
+      "datetime": "2015-07-09T17:00:00Z",
+      "talk_ids": [
+        "eDutch-AngularJS-group_1436461200000_67897",
+        "eDocker-Randstad_1436461200000_68265"
+      ]
+    },
+    {
+      "id": "2015-07-16T16",
+      "datetime": "2015-07-16T16:00:00Z",
+      "talk_ids": [
+        "egraphdb-netherlands_1437062400000_68475",
+        "eAmsterdam-Python-Meetup-Group_1437062400000_67629",
+        "eamsterdam-scala_1437064200000_67698"
+      ]
+    },
+    {
+      "id": "2015-07-23T16",
+      "datetime": "2015-07-23T16:00:00Z",
+      "talk_ids": [
+        "eScala-Utrecht_1437667200000_67306",
+        "eNLHTML5_1437667200000_68664"
+      ]
+    },
+    {
+      "id": "2015-08-11T17",
+      "datetime": "2015-08-11T17:00:00Z",
+      "talk_ids": [
+        "ePHPAmersfoort_1439312400000_68014",
+        "eAmsterdam-Elixir_1439312400000_68221"
+      ]
+    },
+    {
+      "id": "2015-08-18T16",
+      "datetime": "2015-08-18T16:00:00Z",
+      "talk_ids": [
+        "edev-070_1439913600000_67563",
+        "eDutch-DIY-Bio_1439913600000_68108"
+      ]
+    },
+    {
+      "id": "2015-08-20T17",
+      "datetime": "2015-08-20T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdamPHP_1440090000000_67282",
+        "eDocker-Randstad_1440090000000_67322"
+      ]
+    },
+    {
+      "id": "2015-08-25T16",
+      "datetime": "2015-08-25T16:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-Java-Development-with-MetaFactory_1440518400000_67094",
+        "eDutch-DIY-Bio_1440518400000_68108"
+      ]
+    },
+    {
+      "id": "2015-08-25T17",
+      "datetime": "2015-08-25T17:00:00Z",
+      "talk_ids": [
+        "ePermanentBeta_1440522000000_68760",
+        "eDomCode_1440522000000_67794"
+      ]
+    },
+    {
+      "id": "2015-08-27T16",
+      "datetime": "2015-08-27T16:00:00Z",
+      "talk_ids": [
+        "egolang-amsterdam_1440692100000_68807",
+        "eITGilde-Cooperatie-Amsterdam-Unix-Linux-Meetups_1440691200000_68135"
+      ]
+    },
+    {
+      "id": "2015-09-01T16",
+      "datetime": "2015-09-01T16:00:00Z",
+      "talk_ids": [
+        "eDutch-DIY-Bio_1441123200000_68108",
+        "eAgile-Coaching-Amsterdam_1441123200000_67944",
+        "eAWS-Amsterdam_1441123200000_67907"
+      ]
+    },
+    {
+      "id": "2015-09-01T17",
+      "datetime": "2015-09-01T17:00:00Z",
+      "talk_ids": [
+        "ePolderPHP_1441126800000_67106",
+        "eUtrecht-rb_1441126800000_68809"
+      ]
+    },
+    {
+      "id": "2015-09-03T16",
+      "datetime": "2015-09-03T16:00:00Z",
+      "talk_ids": [
+        "eScala-Utrecht_1441297800000_67481",
+        "etextkernel-talks_1441297800000_68209",
+        "eDutch-Puppet-User-Group_1441296000000_67625"
+      ]
+    },
+    {
+      "id": "2015-09-09T07",
+      "datetime": "2015-09-09T07:00:00Z",
+      "talk_ids": [
+        "eSoftware-Circus_1441782000000_68612",
+        "eSoftware-Circus_1441782000000_68612_1"
+      ]
+    },
+    {
+      "id": "2015-09-09T12",
+      "datetime": "2015-09-09T12:00:00Z",
+      "talk_ids": [
+        "eSoftware-Circus_1441800000000_68612",
+        "eSoftware-Circus_1441800000000_68612_1"
+      ]
+    },
+    {
+      "id": "2015-09-16T15",
+      "datetime": "2015-09-16T15:00:00Z",
+      "talk_ids": [
+        "eAgilegroup_1442415600000_67524",
+        "esensemakersams_1442415600000_68266"
+      ]
+    },
+    {
+      "id": "2015-09-16T16",
+      "datetime": "2015-09-16T16:00:00Z",
+      "talk_ids": [
+        "eNLHTML5_1442419200000_67293",
+        "eCocoaHeadsNL_1442421000000_68122"
+      ]
+    },
+    {
+      "id": "2015-09-17T07",
+      "datetime": "2015-09-17T07:00:00Z",
+      "talk_ids": [
+        "eOpenstack-Netherlands_1442473200000_67685",
+        "eAmsterdam-Startup-Boot-Businesses-Meetup_1442474100000_68248"
+      ]
+    },
+    {
+      "id": "2015-09-17T17",
+      "datetime": "2015-09-17T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdamPHP_1442509200000_67224",
+        "eDocker-Randstad_1442509200000_67217"
+      ]
+    },
+    {
+      "id": "2015-09-22T16",
+      "datetime": "2015-09-22T16:00:00Z",
+      "talk_ids": [
+        "eDutch-DIY-Bio_1442937600000_68108",
+        "edevops-engineers_1442937600000_68099"
+      ]
+    },
+    {
+      "id": "2015-09-23T16",
+      "datetime": "2015-09-23T16:00:00Z",
+      "talk_ids": [
+        "eIoT-NL_1443024000000_67125",
+        "egraphdb-netherlands_1443024000000_68475"
+      ]
+    },
+    {
+      "id": "2015-09-24T16",
+      "datetime": "2015-09-24T16:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-Python-Meetup-Group_1443110400000_67325",
+        "eSoftware-Testing-Nederland_1443112200000_67446"
+      ]
+    },
+    {
+      "id": "2015-09-29T16",
+      "datetime": "2015-09-29T16:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-Java-Development-with-MetaFactory_1443542400000_67094",
+        "eamst-R-dam_1443544200000_67999"
+      ]
+    },
+    {
+      "id": "2015-10-26T17",
+      "datetime": "2015-10-26T17:00:00Z",
+      "talk_ids": [
+        "edev-070_1445880600000_67563",
+        "edev-070_1445880600000_67563_1",
+        "edev-070_1445880600000_67563_2",
+        "edev-070_1445880600000_67563_3"
+      ]
+    },
+    {
+      "id": "2015-10-26T19",
+      "datetime": "2015-10-26T19:00:00Z",
+      "talk_ids": [
+        "edev-070_1445886000000_67563",
+        "edev-070_1445886000000_67563_1",
+        "edev-070_1445886000000_67563_2",
+        "edev-070_1445886000000_67563_3"
+      ]
+    },
+    {
+      "id": "2015-10-27T17",
+      "datetime": "2015-10-27T17:00:00Z",
+      "talk_ids": [
+        "eAmsterdam-Spark_1445965200000_67274",
+        "eAmsterdam-Java-Development-with-MetaFactory_1445965200000_67094"
+      ]
+    }
+  ]
+}

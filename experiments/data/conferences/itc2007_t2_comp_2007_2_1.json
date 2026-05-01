@@ -1,0 +1,4301 @@
+{
+  "name": "ITC-2007 Track 2 comp-2007-2-1",
+  "talks": [
+    {
+      "id": "ev005",
+      "title": "event 5",
+      "hall": 6,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev009",
+      "title": "event 9",
+      "hall": 8,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev013",
+      "title": "event 13",
+      "hall": 1,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev025",
+      "title": "event 25",
+      "hall": 1,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev027",
+      "title": "event 27",
+      "hall": 2,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev042",
+      "title": "event 42",
+      "hall": 3,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev004",
+      "title": "event 4",
+      "hall": 3,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev006",
+      "title": "event 6",
+      "hall": 8,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev012",
+      "title": "event 12",
+      "hall": 4,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev014",
+      "title": "event 14",
+      "hall": 8,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev015",
+      "title": "event 15",
+      "hall": 1,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev019",
+      "title": "event 19",
+      "hall": 4,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev022",
+      "title": "event 22",
+      "hall": 6,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev029",
+      "title": "event 29",
+      "hall": 7,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev030",
+      "title": "event 30",
+      "hall": 7,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev031",
+      "title": "event 31",
+      "hall": 5,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev032",
+      "title": "event 32",
+      "hall": 5,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev034",
+      "title": "event 34",
+      "hall": 8,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev036",
+      "title": "event 36",
+      "hall": 3,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev037",
+      "title": "event 37",
+      "hall": 7,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev045",
+      "title": "event 45",
+      "hall": 8,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev046",
+      "title": "event 46",
+      "hall": 6,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev050",
+      "title": "event 50",
+      "hall": 3,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev051",
+      "title": "event 51",
+      "hall": 9,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev052",
+      "title": "event 52",
+      "hall": 6,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev061",
+      "title": "event 61",
+      "hall": 6,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev066",
+      "title": "event 66",
+      "hall": 4,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev069",
+      "title": "event 69",
+      "hall": 5,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev070",
+      "title": "event 70",
+      "hall": 5,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev073",
+      "title": "event 73",
+      "hall": 5,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev074",
+      "title": "event 74",
+      "hall": 7,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev075",
+      "title": "event 75",
+      "hall": 1,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev076",
+      "title": "event 76",
+      "hall": 4,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev083",
+      "title": "event 83",
+      "hall": 10,
+      "slot_id": "s00",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev086",
+      "title": "event 86",
+      "hall": 2,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev088",
+      "title": "event 88",
+      "hall": 2,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev089",
+      "title": "event 89",
+      "hall": 5,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev091",
+      "title": "event 91",
+      "hall": 9,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev092",
+      "title": "event 92",
+      "hall": 8,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev093",
+      "title": "event 93",
+      "hall": 7,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev096",
+      "title": "event 96",
+      "hall": 5,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev100",
+      "title": "event 100",
+      "hall": 5,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev106",
+      "title": "event 106",
+      "hall": 10,
+      "slot_id": "s01",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev108",
+      "title": "event 108",
+      "hall": 1,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev110",
+      "title": "event 110",
+      "hall": 8,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev112",
+      "title": "event 112",
+      "hall": 3,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev113",
+      "title": "event 113",
+      "hall": 2,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev118",
+      "title": "event 118",
+      "hall": 5,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev120",
+      "title": "event 120",
+      "hall": 7,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev121",
+      "title": "event 121",
+      "hall": 2,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev124",
+      "title": "event 124",
+      "hall": 6,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev126",
+      "title": "event 126",
+      "hall": 1,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev131",
+      "title": "event 131",
+      "hall": 1,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev134",
+      "title": "event 134",
+      "hall": 9,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev135",
+      "title": "event 135",
+      "hall": 10,
+      "slot_id": "s02",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev137",
+      "title": "event 137",
+      "hall": 6,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev139",
+      "title": "event 139",
+      "hall": 3,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev143",
+      "title": "event 143",
+      "hall": 10,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev144",
+      "title": "event 144",
+      "hall": 8,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev147",
+      "title": "event 147",
+      "hall": 9,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev151",
+      "title": "event 151",
+      "hall": 5,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev161",
+      "title": "event 161",
+      "hall": 7,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev163",
+      "title": "event 163",
+      "hall": 7,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev164",
+      "title": "event 164",
+      "hall": 8,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev165",
+      "title": "event 165",
+      "hall": 6,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev169",
+      "title": "event 169",
+      "hall": 9,
+      "slot_id": "s03",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev170",
+      "title": "event 170",
+      "hall": 7,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev177",
+      "title": "event 177",
+      "hall": 4,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev181",
+      "title": "event 181",
+      "hall": 6,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev190",
+      "title": "event 190",
+      "hall": 6,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev195",
+      "title": "event 195",
+      "hall": 6,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev197",
+      "title": "event 197",
+      "hall": 2,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev209",
+      "title": "event 209",
+      "hall": 1,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev214",
+      "title": "event 214",
+      "hall": 8,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev216",
+      "title": "event 216",
+      "hall": 10,
+      "slot_id": "s04",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev217",
+      "title": "event 217",
+      "hall": 3,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev221",
+      "title": "event 221",
+      "hall": 8,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev225",
+      "title": "event 225",
+      "hall": 10,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev227",
+      "title": "event 227",
+      "hall": 3,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev228",
+      "title": "event 228",
+      "hall": 3,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev229",
+      "title": "event 229",
+      "hall": 4,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev231",
+      "title": "event 231",
+      "hall": 3,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev238",
+      "title": "event 238",
+      "hall": 2,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev239",
+      "title": "event 239",
+      "hall": 6,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev240",
+      "title": "event 240",
+      "hall": 9,
+      "slot_id": "s05",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev242",
+      "title": "event 242",
+      "hall": 1,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev251",
+      "title": "event 251",
+      "hall": 1,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev255",
+      "title": "event 255",
+      "hall": 4,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev257",
+      "title": "event 257",
+      "hall": 2,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev260",
+      "title": "event 260",
+      "hall": 4,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev274",
+      "title": "event 274",
+      "hall": 4,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev280",
+      "title": "event 280",
+      "hall": 6,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev284",
+      "title": "event 284",
+      "hall": 5,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev287",
+      "title": "event 287",
+      "hall": 6,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev289",
+      "title": "event 289",
+      "hall": 5,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev302",
+      "title": "event 302",
+      "hall": 9,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev304",
+      "title": "event 304",
+      "hall": 10,
+      "slot_id": "s08",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev313",
+      "title": "event 313",
+      "hall": 7,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev315",
+      "title": "event 315",
+      "hall": 6,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev321",
+      "title": "event 321",
+      "hall": 3,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev322",
+      "title": "event 322",
+      "hall": 7,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev324",
+      "title": "event 324",
+      "hall": 4,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev337",
+      "title": "event 337",
+      "hall": 5,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev338",
+      "title": "event 338",
+      "hall": 1,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev339",
+      "title": "event 339",
+      "hall": 2,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev340",
+      "title": "event 340",
+      "hall": 4,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev341",
+      "title": "event 341",
+      "hall": 8,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev342",
+      "title": "event 342",
+      "hall": 9,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev343",
+      "title": "event 343",
+      "hall": 5,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev345",
+      "title": "event 345",
+      "hall": 8,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev349",
+      "title": "event 349",
+      "hall": 5,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev352",
+      "title": "event 352",
+      "hall": 7,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev355",
+      "title": "event 355",
+      "hall": 9,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev358",
+      "title": "event 358",
+      "hall": 2,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev360",
+      "title": "event 360",
+      "hall": 2,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev366",
+      "title": "event 366",
+      "hall": 10,
+      "slot_id": "s06",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev367",
+      "title": "event 367",
+      "hall": 2,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev375",
+      "title": "event 375",
+      "hall": 2,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev381",
+      "title": "event 381",
+      "hall": 7,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev383",
+      "title": "event 383",
+      "hall": 10,
+      "slot_id": "s09",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev390",
+      "title": "event 390",
+      "hall": 1,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev000",
+      "title": "event 0",
+      "hall": 3,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev020",
+      "title": "event 20",
+      "hall": 1,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev040",
+      "title": "event 40",
+      "hall": 6,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev048",
+      "title": "event 48",
+      "hall": 8,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev058",
+      "title": "event 58",
+      "hall": 8,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev059",
+      "title": "event 59",
+      "hall": 4,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev062",
+      "title": "event 62",
+      "hall": 3,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev063",
+      "title": "event 63",
+      "hall": 8,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev097",
+      "title": "event 97",
+      "hall": 8,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev104",
+      "title": "event 104",
+      "hall": 4,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev107",
+      "title": "event 107",
+      "hall": 10,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev111",
+      "title": "event 111",
+      "hall": 1,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev115",
+      "title": "event 115",
+      "hall": 9,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev125",
+      "title": "event 125",
+      "hall": 6,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev128",
+      "title": "event 128",
+      "hall": 1,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev130",
+      "title": "event 130",
+      "hall": 8,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev153",
+      "title": "event 153",
+      "hall": 8,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev157",
+      "title": "event 157",
+      "hall": 9,
+      "slot_id": "s07",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev162",
+      "title": "event 162",
+      "hall": 4,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev179",
+      "title": "event 179",
+      "hall": 10,
+      "slot_id": "s10",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev180",
+      "title": "event 180",
+      "hall": 6,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev185",
+      "title": "event 185",
+      "hall": 7,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev207",
+      "title": "event 207",
+      "hall": 9,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev218",
+      "title": "event 218",
+      "hall": 5,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev222",
+      "title": "event 222",
+      "hall": 2,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev252",
+      "title": "event 252",
+      "hall": 4,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev253",
+      "title": "event 253",
+      "hall": 7,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev254",
+      "title": "event 254",
+      "hall": 7,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev258",
+      "title": "event 258",
+      "hall": 7,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev259",
+      "title": "event 259",
+      "hall": 10,
+      "slot_id": "s11",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev263",
+      "title": "event 263",
+      "hall": 1,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev264",
+      "title": "event 264",
+      "hall": 6,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev269",
+      "title": "event 269",
+      "hall": 8,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev278",
+      "title": "event 278",
+      "hall": 9,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev279",
+      "title": "event 279",
+      "hall": 3,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev281",
+      "title": "event 281",
+      "hall": 1,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev288",
+      "title": "event 288",
+      "hall": 10,
+      "slot_id": "s12",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev291",
+      "title": "event 291",
+      "hall": 9,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev296",
+      "title": "event 296",
+      "hall": 1,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev297",
+      "title": "event 297",
+      "hall": 5,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev303",
+      "title": "event 303",
+      "hall": 3,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev310",
+      "title": "event 310",
+      "hall": 3,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev311",
+      "title": "event 311",
+      "hall": 5,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev323",
+      "title": "event 323",
+      "hall": 2,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev331",
+      "title": "event 331",
+      "hall": 5,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev332",
+      "title": "event 332",
+      "hall": 9,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev336",
+      "title": "event 336",
+      "hall": 3,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev351",
+      "title": "event 351",
+      "hall": 1,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev357",
+      "title": "event 357",
+      "hall": 8,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev361",
+      "title": "event 361",
+      "hall": 4,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev362",
+      "title": "event 362",
+      "hall": 10,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev364",
+      "title": "event 364",
+      "hall": 9,
+      "slot_id": "s13",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev379",
+      "title": "event 379",
+      "hall": 1,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev382",
+      "title": "event 382",
+      "hall": 2,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev392",
+      "title": "event 392",
+      "hall": 10,
+      "slot_id": "s14",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev396",
+      "title": "event 396",
+      "hall": 2,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev399",
+      "title": "event 399",
+      "hall": 4,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev053",
+      "title": "event 53",
+      "hall": 2,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev079",
+      "title": "event 79",
+      "hall": 5,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev080",
+      "title": "event 80",
+      "hall": 8,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev095",
+      "title": "event 95",
+      "hall": 4,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev109",
+      "title": "event 109",
+      "hall": 8,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev114",
+      "title": "event 114",
+      "hall": 5,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev145",
+      "title": "event 145",
+      "hall": 1,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev150",
+      "title": "event 150",
+      "hall": 6,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev193",
+      "title": "event 193",
+      "hall": 7,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev202",
+      "title": "event 202",
+      "hall": 3,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev211",
+      "title": "event 211",
+      "hall": 9,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev256",
+      "title": "event 256",
+      "hall": 7,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev267",
+      "title": "event 267",
+      "hall": 7,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev272",
+      "title": "event 272",
+      "hall": 1,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev276",
+      "title": "event 276",
+      "hall": 5,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev277",
+      "title": "event 277",
+      "hall": 8,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev294",
+      "title": "event 294",
+      "hall": 1,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev306",
+      "title": "event 306",
+      "hall": 4,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev307",
+      "title": "event 307",
+      "hall": 7,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev335",
+      "title": "event 335",
+      "hall": 6,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev347",
+      "title": "event 347",
+      "hall": 10,
+      "slot_id": "s15",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev350",
+      "title": "event 350",
+      "hall": 8,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev359",
+      "title": "event 359",
+      "hall": 6,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev371",
+      "title": "event 371",
+      "hall": 10,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev373",
+      "title": "event 373",
+      "hall": 10,
+      "slot_id": "s17",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev387",
+      "title": "event 387",
+      "hall": 2,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev391",
+      "title": "event 391",
+      "hall": 4,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev397",
+      "title": "event 397",
+      "hall": 2,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev099",
+      "title": "event 99",
+      "hall": 6,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev117",
+      "title": "event 117",
+      "hall": 6,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev122",
+      "title": "event 122",
+      "hall": 5,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev141",
+      "title": "event 141",
+      "hall": 2,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev154",
+      "title": "event 154",
+      "hall": 3,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev188",
+      "title": "event 188",
+      "hall": 6,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev196",
+      "title": "event 196",
+      "hall": 8,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev219",
+      "title": "event 219",
+      "hall": 5,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev248",
+      "title": "event 248",
+      "hall": 4,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev309",
+      "title": "event 309",
+      "hall": 3,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev320",
+      "title": "event 320",
+      "hall": 9,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev328",
+      "title": "event 328",
+      "hall": 3,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev368",
+      "title": "event 368",
+      "hall": 9,
+      "slot_id": "s16",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev001",
+      "title": "event 1",
+      "hall": 2,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev007",
+      "title": "event 7",
+      "hall": 9,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev047",
+      "title": "event 47",
+      "hall": 4,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev067",
+      "title": "event 67",
+      "hall": 10,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev087",
+      "title": "event 87",
+      "hall": 3,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev105",
+      "title": "event 105",
+      "hall": 10,
+      "slot_id": "s20",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev187",
+      "title": "event 187",
+      "hall": 8,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev201",
+      "title": "event 201",
+      "hall": 5,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev249",
+      "title": "event 249",
+      "hall": 3,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev265",
+      "title": "event 265",
+      "hall": 8,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev273",
+      "title": "event 273",
+      "hall": 6,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev305",
+      "title": "event 305",
+      "hall": 7,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev318",
+      "title": "event 318",
+      "hall": 5,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev365",
+      "title": "event 365",
+      "hall": 2,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev385",
+      "title": "event 385",
+      "hall": 7,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev018",
+      "title": "event 18",
+      "hall": 10,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev021",
+      "title": "event 21",
+      "hall": 7,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev119",
+      "title": "event 119",
+      "hall": 2,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev146",
+      "title": "event 146",
+      "hall": 1,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev155",
+      "title": "event 155",
+      "hall": 6,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev173",
+      "title": "event 173",
+      "hall": 7,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev200",
+      "title": "event 200",
+      "hall": 1,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev356",
+      "title": "event 356",
+      "hall": 8,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev008",
+      "title": "event 8",
+      "hall": 10,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev011",
+      "title": "event 11",
+      "hall": 5,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev024",
+      "title": "event 24",
+      "hall": 3,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev041",
+      "title": "event 41",
+      "hall": 10,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev054",
+      "title": "event 54",
+      "hall": 5,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev056",
+      "title": "event 56",
+      "hall": 9,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev057",
+      "title": "event 57",
+      "hall": 4,
+      "slot_id": "s18",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev077",
+      "title": "event 77",
+      "hall": 7,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev081",
+      "title": "event 81",
+      "hall": 9,
+      "slot_id": "s19",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev116",
+      "title": "event 116",
+      "hall": 3,
+      "slot_id": "s21",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev127",
+      "title": "event 127",
+      "hall": 7,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev142",
+      "title": "event 142",
+      "hall": 9,
+      "slot_id": "s22",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev152",
+      "title": "event 152",
+      "hall": 2,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev186",
+      "title": "event 186",
+      "hall": 10,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev189",
+      "title": "event 189",
+      "hall": 1,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev203",
+      "title": "event 203",
+      "hall": 9,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev205",
+      "title": "event 205",
+      "hall": 10,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev224",
+      "title": "event 224",
+      "hall": 10,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev243",
+      "title": "event 243",
+      "hall": 4,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev245",
+      "title": "event 245",
+      "hall": 3,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev247",
+      "title": "event 247",
+      "hall": 2,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev250",
+      "title": "event 250",
+      "hall": 5,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev266",
+      "title": "event 266",
+      "hall": 7,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev298",
+      "title": "event 298",
+      "hall": 10,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev312",
+      "title": "event 312",
+      "hall": 9,
+      "slot_id": "s23",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev316",
+      "title": "event 316",
+      "hall": 9,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev346",
+      "title": "event 346",
+      "hall": 10,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev353",
+      "title": "event 353",
+      "hall": 8,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev374",
+      "title": "event 374",
+      "hall": 9,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev376",
+      "title": "event 376",
+      "hall": 7,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev377",
+      "title": "event 377",
+      "hall": 1,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev038",
+      "title": "event 38",
+      "hall": 4,
+      "slot_id": "s24",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev039",
+      "title": "event 39",
+      "hall": 6,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev072",
+      "title": "event 72",
+      "hall": 1,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev078",
+      "title": "event 78",
+      "hall": 4,
+      "slot_id": "s26",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev101",
+      "title": "event 101",
+      "hall": 2,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev102",
+      "title": "event 102",
+      "hall": 10,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev123",
+      "title": "event 123",
+      "hall": 6,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev140",
+      "title": "event 140",
+      "hall": 7,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev158",
+      "title": "event 158",
+      "hall": 6,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev168",
+      "title": "event 168",
+      "hall": 1,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev192",
+      "title": "event 192",
+      "hall": 1,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev206",
+      "title": "event 206",
+      "hall": 9,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev213",
+      "title": "event 213",
+      "hall": 2,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev270",
+      "title": "event 270",
+      "hall": 2,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev275",
+      "title": "event 275",
+      "hall": 7,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev292",
+      "title": "event 292",
+      "hall": 8,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev333",
+      "title": "event 333",
+      "hall": 3,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev354",
+      "title": "event 354",
+      "hall": 4,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev388",
+      "title": "event 388",
+      "hall": 4,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev389",
+      "title": "event 389",
+      "hall": 1,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev003",
+      "title": "event 3",
+      "hall": 5,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev098",
+      "title": "event 98",
+      "hall": 3,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev129",
+      "title": "event 129",
+      "hall": 3,
+      "slot_id": "s25",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev199",
+      "title": "event 199",
+      "hall": 3,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev212",
+      "title": "event 212",
+      "hall": 8,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev301",
+      "title": "event 301",
+      "hall": 4,
+      "slot_id": "s27",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev330",
+      "title": "event 330",
+      "hall": 9,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev395",
+      "title": "event 395",
+      "hall": 2,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev002",
+      "title": "event 2",
+      "hall": 2,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev016",
+      "title": "event 16",
+      "hall": 1,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev023",
+      "title": "event 23",
+      "hall": 9,
+      "slot_id": "s28",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev035",
+      "title": "event 35",
+      "hall": 10,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev065",
+      "title": "event 65",
+      "hall": 1,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev082",
+      "title": "event 82",
+      "hall": 4,
+      "slot_id": "s29",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev204",
+      "title": "event 204",
+      "hall": 1,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev226",
+      "title": "event 226",
+      "hall": 3,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev232",
+      "title": "event 232",
+      "hall": 10,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev363",
+      "title": "event 363",
+      "hall": 2,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev398",
+      "title": "event 398",
+      "hall": 4,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev064",
+      "title": "event 64",
+      "hall": 5,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev159",
+      "title": "event 159",
+      "hall": 5,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev176",
+      "title": "event 176",
+      "hall": 2,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev208",
+      "title": "event 208",
+      "hall": 1,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev233",
+      "title": "event 233",
+      "hall": 6,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev271",
+      "title": "event 271",
+      "hall": 3,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev285",
+      "title": "event 285",
+      "hall": 4,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev308",
+      "title": "event 308",
+      "hall": 9,
+      "slot_id": "s30",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev380",
+      "title": "event 380",
+      "hall": 5,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev085",
+      "title": "event 85",
+      "hall": 7,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev166",
+      "title": "event 166",
+      "hall": 6,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev182",
+      "title": "event 182",
+      "hall": 7,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev293",
+      "title": "event 293",
+      "hall": 8,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev055",
+      "title": "event 55",
+      "hall": 2,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev103",
+      "title": "event 103",
+      "hall": 3,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev133",
+      "title": "event 133",
+      "hall": 6,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev136",
+      "title": "event 136",
+      "hall": 8,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev234",
+      "title": "event 234",
+      "hall": 6,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev314",
+      "title": "event 314",
+      "hall": 9,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev319",
+      "title": "event 319",
+      "hall": 1,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev329",
+      "title": "event 329",
+      "hall": 3,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev370",
+      "title": "event 370",
+      "hall": 10,
+      "slot_id": "s31",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev171",
+      "title": "event 171",
+      "hall": 8,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev175",
+      "title": "event 175",
+      "hall": 4,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev183",
+      "title": "event 183",
+      "hall": 7,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev194",
+      "title": "event 194",
+      "hall": 2,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev262",
+      "title": "event 262",
+      "hall": 7,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev372",
+      "title": "event 372",
+      "hall": 7,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev378",
+      "title": "event 378",
+      "hall": 9,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev393",
+      "title": "event 393",
+      "hall": 10,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev044",
+      "title": "event 44",
+      "hall": 9,
+      "slot_id": "s32",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev071",
+      "title": "event 71",
+      "hall": 6,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev132",
+      "title": "event 132",
+      "hall": 5,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev223",
+      "title": "event 223",
+      "hall": 5,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev386",
+      "title": "event 386",
+      "hall": 10,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev060",
+      "title": "event 60",
+      "hall": 3,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev090",
+      "title": "event 90",
+      "hall": 5,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev283",
+      "title": "event 283",
+      "hall": 7,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev300",
+      "title": "event 300",
+      "hall": 4,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev327",
+      "title": "event 327",
+      "hall": 8,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev334",
+      "title": "event 334",
+      "hall": 3,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev174",
+      "title": "event 174",
+      "hall": 2,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev236",
+      "title": "event 236",
+      "hall": 4,
+      "slot_id": "s33",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev326",
+      "title": "event 326",
+      "hall": 9,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev384",
+      "title": "event 384",
+      "hall": 4,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev049",
+      "title": "event 49",
+      "hall": 6,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev017",
+      "title": "event 17",
+      "hall": 10,
+      "slot_id": "s35",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev148",
+      "title": "event 148",
+      "hall": 8,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev149",
+      "title": "event 149",
+      "hall": 1,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev156",
+      "title": "event 156",
+      "hall": 8,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev172",
+      "title": "event 172",
+      "hall": 5,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev235",
+      "title": "event 235",
+      "hall": 2,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev043",
+      "title": "event 43",
+      "hall": 5,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev138",
+      "title": "event 138",
+      "hall": 9,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev178",
+      "title": "event 178",
+      "hall": 3,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev268",
+      "title": "event 268",
+      "hall": 10,
+      "slot_id": "s34",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev290",
+      "title": "event 290",
+      "hall": 5,
+      "slot_id": "s38",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev010",
+      "title": "event 10",
+      "hall": 2,
+      "slot_id": "s38",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev028",
+      "title": "event 28",
+      "hall": 6,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev241",
+      "title": "event 241",
+      "hall": 1,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev230",
+      "title": "event 230",
+      "hall": 3,
+      "slot_id": "s38",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev237",
+      "title": "event 237",
+      "hall": 6,
+      "slot_id": "s39",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev246",
+      "title": "event 246",
+      "hall": 4,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev261",
+      "title": "event 261",
+      "hall": 4,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev348",
+      "title": "event 348",
+      "hall": 7,
+      "slot_id": "s38",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev033",
+      "title": "event 33",
+      "hall": 6,
+      "slot_id": "s40",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev068",
+      "title": "event 68",
+      "hall": 8,
+      "slot_id": "s38",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev244",
+      "title": "event 244",
+      "hall": 1,
+      "slot_id": "s38",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev215",
+      "title": "event 215",
+      "hall": 9,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev191",
+      "title": "event 191",
+      "hall": 7,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev344",
+      "title": "event 344",
+      "hall": 2,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev394",
+      "title": "event 394",
+      "hall": 3,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev160",
+      "title": "event 160",
+      "hall": 10,
+      "slot_id": "s36",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev325",
+      "title": "event 325",
+      "hall": 6,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev184",
+      "title": "event 184",
+      "hall": 6,
+      "slot_id": "s41",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev210",
+      "title": "event 210",
+      "hall": 2,
+      "slot_id": "s40",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev220",
+      "title": "event 220",
+      "hall": 9,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev282",
+      "title": "event 282",
+      "hall": 10,
+      "slot_id": "s37",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev026",
+      "title": "event 26",
+      "hall": 3,
+      "slot_id": "s41",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev198",
+      "title": "event 198",
+      "hall": 6,
+      "slot_id": "s38",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev317",
+      "title": "event 317",
+      "hall": 5,
+      "slot_id": "s41",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev084",
+      "title": "event 84",
+      "hall": 5,
+      "slot_id": "s39",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev167",
+      "title": "event 167",
+      "hall": 7,
+      "slot_id": "s40",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev369",
+      "title": "event 369",
+      "hall": 4,
+      "slot_id": "s38",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev295",
+      "title": "event 295",
+      "hall": 1,
+      "slot_id": "s40",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev286",
+      "title": "event 286",
+      "hall": 4,
+      "slot_id": "s40",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev299",
+      "title": "event 299",
+      "hall": 1,
+      "slot_id": "s39",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    },
+    {
+      "id": "ev094",
+      "title": "event 94",
+      "hall": 1,
+      "slot_id": "s41",
+      "category": "ev",
+      "abstract": "",
+      "fame": 0.0
+    }
+  ],
+  "halls": [
+    {
+      "id": 1,
+      "capacity": 35
+    },
+    {
+      "id": 2,
+      "capacity": 37
+    },
+    {
+      "id": 3,
+      "capacity": 42
+    },
+    {
+      "id": 4,
+      "capacity": 34
+    },
+    {
+      "id": 5,
+      "capacity": 40
+    },
+    {
+      "id": 6,
+      "capacity": 40
+    },
+    {
+      "id": 7,
+      "capacity": 42
+    },
+    {
+      "id": 8,
+      "capacity": 41
+    },
+    {
+      "id": 9,
+      "capacity": 34
+    },
+    {
+      "id": 10,
+      "capacity": 32
+    }
+  ],
+  "slots": [
+    {
+      "id": "s00",
+      "datetime": "2007-09-01T08:00:00",
+      "talk_ids": [
+        "ev005",
+        "ev013",
+        "ev027",
+        "ev042",
+        "ev006",
+        "ev012",
+        "ev029",
+        "ev032",
+        "ev051",
+        "ev083"
+      ]
+    },
+    {
+      "id": "s01",
+      "datetime": "2007-09-02T08:00:00",
+      "talk_ids": [
+        "ev025",
+        "ev004",
+        "ev019",
+        "ev022",
+        "ev031",
+        "ev034",
+        "ev037",
+        "ev086",
+        "ev091",
+        "ev106"
+      ]
+    },
+    {
+      "id": "s02",
+      "datetime": "2007-09-03T08:00:00",
+      "talk_ids": [
+        "ev009",
+        "ev015",
+        "ev036",
+        "ev046",
+        "ev066",
+        "ev069",
+        "ev074",
+        "ev088",
+        "ev134",
+        "ev135"
+      ]
+    },
+    {
+      "id": "s03",
+      "datetime": "2007-09-04T08:00:00",
+      "talk_ids": [
+        "ev014",
+        "ev073",
+        "ev075",
+        "ev076",
+        "ev093",
+        "ev113",
+        "ev139",
+        "ev143",
+        "ev165",
+        "ev169"
+      ]
+    },
+    {
+      "id": "s04",
+      "datetime": "2007-09-05T08:00:00",
+      "talk_ids": [
+        "ev030",
+        "ev050",
+        "ev052",
+        "ev070",
+        "ev092",
+        "ev108",
+        "ev121",
+        "ev147",
+        "ev177",
+        "ev216"
+      ]
+    },
+    {
+      "id": "s05",
+      "datetime": "2007-09-06T08:00:00",
+      "talk_ids": [
+        "ev045",
+        "ev061",
+        "ev096",
+        "ev131",
+        "ev161",
+        "ev197",
+        "ev217",
+        "ev225",
+        "ev229",
+        "ev240"
+      ]
+    },
+    {
+      "id": "s06",
+      "datetime": "2007-09-07T08:00:00",
+      "talk_ids": [
+        "ev100",
+        "ev112",
+        "ev126",
+        "ev137",
+        "ev163",
+        "ev164",
+        "ev238",
+        "ev255",
+        "ev342",
+        "ev366"
+      ]
+    },
+    {
+      "id": "s07",
+      "datetime": "2007-09-08T08:00:00",
+      "talk_ids": [
+        "ev118",
+        "ev195",
+        "ev214",
+        "ev227",
+        "ev242",
+        "ev274",
+        "ev375",
+        "ev381",
+        "ev107",
+        "ev157"
+      ]
+    },
+    {
+      "id": "s08",
+      "datetime": "2007-09-09T08:00:00",
+      "talk_ids": [
+        "ev089",
+        "ev110",
+        "ev120",
+        "ev124",
+        "ev209",
+        "ev228",
+        "ev257",
+        "ev260",
+        "ev302",
+        "ev304"
+      ]
+    },
+    {
+      "id": "s09",
+      "datetime": "2007-09-10T08:00:00",
+      "talk_ids": [
+        "ev170",
+        "ev289",
+        "ev315",
+        "ev321",
+        "ev338",
+        "ev339",
+        "ev340",
+        "ev345",
+        "ev355",
+        "ev383"
+      ]
+    },
+    {
+      "id": "s10",
+      "datetime": "2007-09-11T08:00:00",
+      "talk_ids": [
+        "ev151",
+        "ev181",
+        "ev231",
+        "ev251",
+        "ev324",
+        "ev352",
+        "ev360",
+        "ev097",
+        "ev115",
+        "ev179"
+      ]
+    },
+    {
+      "id": "s11",
+      "datetime": "2007-09-12T08:00:00",
+      "talk_ids": [
+        "ev190",
+        "ev284",
+        "ev322",
+        "ev341",
+        "ev367",
+        "ev390",
+        "ev000",
+        "ev104",
+        "ev207",
+        "ev259"
+      ]
+    },
+    {
+      "id": "s12",
+      "datetime": "2007-09-13T08:00:00",
+      "talk_ids": [
+        "ev144",
+        "ev280",
+        "ev313",
+        "ev337",
+        "ev020",
+        "ev059",
+        "ev222",
+        "ev278",
+        "ev279",
+        "ev288"
+      ]
+    },
+    {
+      "id": "s13",
+      "datetime": "2007-09-14T08:00:00",
+      "talk_ids": [
+        "ev239",
+        "ev349",
+        "ev358",
+        "ev058",
+        "ev062",
+        "ev111",
+        "ev185",
+        "ev252",
+        "ev362",
+        "ev364"
+      ]
+    },
+    {
+      "id": "s14",
+      "datetime": "2007-09-15T08:00:00",
+      "talk_ids": [
+        "ev343",
+        "ev063",
+        "ev125",
+        "ev128",
+        "ev162",
+        "ev253",
+        "ev291",
+        "ev303",
+        "ev382",
+        "ev392"
+      ]
+    },
+    {
+      "id": "s15",
+      "datetime": "2007-09-16T08:00:00",
+      "talk_ids": [
+        "ev221",
+        "ev287",
+        "ev254",
+        "ev281",
+        "ev297",
+        "ev332",
+        "ev361",
+        "ev396",
+        "ev202",
+        "ev347"
+      ]
+    },
+    {
+      "id": "s16",
+      "datetime": "2007-09-17T08:00:00",
+      "talk_ids": [
+        "ev130",
+        "ev180",
+        "ev296",
+        "ev310",
+        "ev311",
+        "ev323",
+        "ev399",
+        "ev256",
+        "ev371",
+        "ev368"
+      ]
+    },
+    {
+      "id": "s17",
+      "datetime": "2007-09-18T08:00:00",
+      "talk_ids": [
+        "ev040",
+        "ev048",
+        "ev218",
+        "ev258",
+        "ev263",
+        "ev336",
+        "ev053",
+        "ev095",
+        "ev211",
+        "ev373"
+      ]
+    },
+    {
+      "id": "s18",
+      "datetime": "2007-09-19T08:00:00",
+      "talk_ids": [
+        "ev153",
+        "ev351",
+        "ev079",
+        "ev150",
+        "ev193",
+        "ev387",
+        "ev328",
+        "ev007",
+        "ev008",
+        "ev057"
+      ]
+    },
+    {
+      "id": "s19",
+      "datetime": "2007-09-20T08:00:00",
+      "talk_ids": [
+        "ev264",
+        "ev357",
+        "ev267",
+        "ev272",
+        "ev276",
+        "ev397",
+        "ev154",
+        "ev047",
+        "ev067",
+        "ev081"
+      ]
+    },
+    {
+      "id": "s20",
+      "datetime": "2007-09-21T08:00:00",
+      "talk_ids": [
+        "ev269",
+        "ev379",
+        "ev114",
+        "ev306",
+        "ev307",
+        "ev099",
+        "ev141",
+        "ev309",
+        "ev320",
+        "ev105"
+      ]
+    },
+    {
+      "id": "s21",
+      "datetime": "2007-09-22T08:00:00",
+      "talk_ids": [
+        "ev331",
+        "ev145",
+        "ev335",
+        "ev350",
+        "ev248",
+        "ev001",
+        "ev305",
+        "ev041",
+        "ev056",
+        "ev116"
+      ]
+    },
+    {
+      "id": "s22",
+      "datetime": "2007-09-23T08:00:00",
+      "talk_ids": [
+        "ev080",
+        "ev294",
+        "ev359",
+        "ev391",
+        "ev318",
+        "ev365",
+        "ev385",
+        "ev018",
+        "ev024",
+        "ev142"
+      ]
+    },
+    {
+      "id": "s23",
+      "datetime": "2007-09-24T08:00:00",
+      "talk_ids": [
+        "ev117",
+        "ev122",
+        "ev196",
+        "ev249",
+        "ev021",
+        "ev146",
+        "ev152",
+        "ev205",
+        "ev243",
+        "ev312"
+      ]
+    },
+    {
+      "id": "s24",
+      "datetime": "2007-09-25T08:00:00",
+      "talk_ids": [
+        "ev109",
+        "ev087",
+        "ev273",
+        "ev200",
+        "ev077",
+        "ev203",
+        "ev224",
+        "ev247",
+        "ev250",
+        "ev038"
+      ]
+    },
+    {
+      "id": "s25",
+      "datetime": "2007-09-26T08:00:00",
+      "talk_ids": [
+        "ev277",
+        "ev188",
+        "ev219",
+        "ev127",
+        "ev298",
+        "ev316",
+        "ev377",
+        "ev101",
+        "ev354",
+        "ev129"
+      ]
+    },
+    {
+      "id": "s26",
+      "datetime": "2007-09-27T08:00:00",
+      "talk_ids": [
+        "ev187",
+        "ev201",
+        "ev119",
+        "ev155",
+        "ev173",
+        "ev186",
+        "ev189",
+        "ev245",
+        "ev374",
+        "ev078"
+      ]
+    },
+    {
+      "id": "s27",
+      "datetime": "2007-09-28T08:00:00",
+      "talk_ids": [
+        "ev265",
+        "ev011",
+        "ev266",
+        "ev346",
+        "ev123",
+        "ev168",
+        "ev206",
+        "ev270",
+        "ev098",
+        "ev301"
+      ]
+    },
+    {
+      "id": "s28",
+      "datetime": "2007-09-29T08:00:00",
+      "talk_ids": [
+        "ev356",
+        "ev376",
+        "ev039",
+        "ev072",
+        "ev102",
+        "ev213",
+        "ev388",
+        "ev003",
+        "ev199",
+        "ev023"
+      ]
+    },
+    {
+      "id": "s29",
+      "datetime": "2007-09-30T08:00:00",
+      "talk_ids": [
+        "ev054",
+        "ev158",
+        "ev275",
+        "ev333",
+        "ev389",
+        "ev212",
+        "ev330",
+        "ev002",
+        "ev035",
+        "ev082"
+      ]
+    },
+    {
+      "id": "s30",
+      "datetime": "2007-09-01T08:00:00",
+      "talk_ids": [
+        "ev140",
+        "ev292",
+        "ev395",
+        "ev016",
+        "ev226",
+        "ev232",
+        "ev398",
+        "ev064",
+        "ev233",
+        "ev308"
+      ]
+    },
+    {
+      "id": "s31",
+      "datetime": "2007-09-02T08:00:00",
+      "talk_ids": [
+        "ev353",
+        "ev204",
+        "ev363",
+        "ev271",
+        "ev285",
+        "ev380",
+        "ev085",
+        "ev133",
+        "ev314",
+        "ev370"
+      ]
+    },
+    {
+      "id": "s32",
+      "datetime": "2007-09-03T08:00:00",
+      "talk_ids": [
+        "ev192",
+        "ev159",
+        "ev166",
+        "ev055",
+        "ev329",
+        "ev171",
+        "ev175",
+        "ev262",
+        "ev393",
+        "ev044"
+      ]
+    },
+    {
+      "id": "s33",
+      "datetime": "2007-09-04T08:00:00",
+      "talk_ids": [
+        "ev136",
+        "ev234",
+        "ev319",
+        "ev183",
+        "ev194",
+        "ev378",
+        "ev132",
+        "ev386",
+        "ev060",
+        "ev236"
+      ]
+    },
+    {
+      "id": "s34",
+      "datetime": "2007-09-05T08:00:00",
+      "talk_ids": [
+        "ev176",
+        "ev208",
+        "ev182",
+        "ev223",
+        "ev300",
+        "ev334",
+        "ev049",
+        "ev156",
+        "ev138",
+        "ev268"
+      ]
+    },
+    {
+      "id": "s35",
+      "datetime": "2007-09-06T08:00:00",
+      "talk_ids": [
+        "ev065",
+        "ev293",
+        "ev103",
+        "ev372",
+        "ev071",
+        "ev090",
+        "ev174",
+        "ev326",
+        "ev384",
+        "ev017"
+      ]
+    },
+    {
+      "id": "s36",
+      "datetime": "2007-09-07T08:00:00",
+      "talk_ids": [
+        "ev283",
+        "ev327",
+        "ev149",
+        "ev172",
+        "ev235",
+        "ev178",
+        "ev028",
+        "ev246",
+        "ev215",
+        "ev160"
+      ]
+    },
+    {
+      "id": "s37",
+      "datetime": "2007-09-08T08:00:00",
+      "talk_ids": [
+        "ev148",
+        "ev043",
+        "ev241",
+        "ev261",
+        "ev191",
+        "ev344",
+        "ev394",
+        "ev325",
+        "ev220",
+        "ev282"
+      ]
+    },
+    {
+      "id": "s38",
+      "datetime": "2007-09-09T08:00:00",
+      "talk_ids": [
+        "ev290",
+        "ev010",
+        "ev230",
+        "ev348",
+        "ev068",
+        "ev244",
+        "ev198",
+        "ev369"
+      ]
+    },
+    {
+      "id": "s39",
+      "datetime": "2007-09-10T08:00:00",
+      "talk_ids": [
+        "ev237",
+        "ev084",
+        "ev299"
+      ]
+    },
+    {
+      "id": "s40",
+      "datetime": "2007-09-11T08:00:00",
+      "talk_ids": [
+        "ev033",
+        "ev210",
+        "ev167",
+        "ev295",
+        "ev286"
+      ]
+    },
+    {
+      "id": "s41",
+      "datetime": "2007-09-12T08:00:00",
+      "talk_ids": [
+        "ev184",
+        "ev026",
+        "ev317",
+        "ev094"
+      ]
+    }
+  ]
+}

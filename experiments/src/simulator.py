@@ -120,10 +120,22 @@ class SimConfig:
     seed: int = 0
     # Star-speaker effect: вес fame в effective utility пользователя
     w_fame: float = 0.0  # 0 = без fame (старое поведение); 0.3 = умеренный star effect
-    # Compliance: насколько пользователь следует подсказке системы
+    # Compliance: насколько пользователь следует подсказке системы (legacy mode).
     # 1.0 = строго из top-K (старое поведение)
     # 0.5 = с вероятностью 50% выбирает из ВСЕХ кандидатов слота независимо от подсказки
     user_compliance: float = 1.0
+    # Калиброванная трёхтипная модель compliance (B/C/A).
+    # Доли получены из калибровки на Meetup RSVPs (scripts/calibrate_compliance_meetup.py):
+    #   compliant 71.7% / star-chaser 21.3% / curious 7.0% (на non-tie слотах);
+    #   55.4% / 32.5% / 12.2% (на всех парах с tie 50/50).
+    # Если use_calibrated_compliance=True, перекрывает поле user_compliance:
+    #   compliant пользователь идёт по top-K от политики (как user_compliance=1.0),
+    #   star-chaser игнорирует политику и идёт на argmax по fame в слоте,
+    #   curious игнорирует политику и выбирает softmax по effective_utility.
+    use_calibrated_compliance: bool = False
+    alpha_compliant: float = 0.717
+    alpha_starchaser: float = 0.213
+    alpha_curious: float = 0.070
 
 
 @dataclass
@@ -299,11 +311,61 @@ def simulate(
                 ))
                 continue
 
-            # Compliance: с вероятностью (1 - compliance) пользователь "не слушает" и
-            # рассматривает ВСЕ доклады в слоте, не только top-K от политики.
-            ignore_recommendation = (cfg.user_compliance < 1.0
-                                     and rng.random() > cfg.user_compliance)
-            consider_ids = list(slot.talk_ids) if ignore_recommendation else recs
+            # Compliance:
+            # — calibrated mode (use_calibrated_compliance=True): сэмплируем тип
+            #   поведения из распределения {compliant, star-chaser, curious} с
+            #   долями α_*, откалиброванными на реальных Meetup RSVPs.
+            # — legacy mode: бинарный switch по user_compliance ∈ [0, 1].
+            consider_ids = recs
+            forced_choice_id: Optional[str] = None
+            if cfg.use_calibrated_compliance:
+                roll = rng.random()
+                if roll < cfg.alpha_compliant:
+                    # compliant: идёт по top-K (consider_ids = recs, как было)
+                    consider_ids = recs
+                elif roll < cfg.alpha_compliant + cfg.alpha_starchaser:
+                    # star-chaser: argmax по fame в слоте, игнорируя выдачу.
+                    # Если все fame=0, fallback к argmax по релевантности
+                    # (тогда поведение совпадает с compliant в смысле выбора).
+                    fame_scores = [(tid, conf.talks[tid].fame) for tid in slot.talk_ids]
+                    max_fame = max(s for _, s in fame_scores)
+                    if max_fame > 0:
+                        forced_choice_id = max(fame_scores, key=lambda x: x[1])[0]
+                    else:
+                        # без информации о fame — пользуем argmax cosine как fallback
+                        forced_choice_id = max(
+                            slot.talk_ids,
+                            key=lambda tid: relevance_fn(user.embedding,
+                                                        conf.talks[tid].embedding),
+                        )
+                else:
+                    # curious: softmax по effective_utility (cosine + fame)
+                    # по ВСЕМ кандидатам слота, игнорируя политику.
+                    consider_ids = list(slot.talk_ids)
+            else:
+                ignore_recommendation = (cfg.user_compliance < 1.0
+                                         and rng.random() > cfg.user_compliance)
+                consider_ids = list(slot.talk_ids) if ignore_recommendation else recs
+
+            # Star-chaser short-circuit: уходит на forced_choice_id без softmax,
+            # тем самым реалистично моделируя «звезда переполняет зал».
+            if forced_choice_id is not None:
+                chosen_id = forced_choice_id
+                chosen_talk = conf.talks[chosen_id]
+                chosen_hall = conf.halls[chosen_talk.hall]
+                load_before = utilization(hall_load[(slot.id, chosen_hall.id)],
+                                          chosen_hall.capacity)
+                hall_load[(slot.id, chosen_hall.id)] += 1
+                chosen_rel_for_record = relevance_fn(user.embedding, chosen_talk.embedding)
+                if hasattr(policy, "update_history"):
+                    policy.update_history(user.id, chosen_id)
+                result.steps.append(StepRecord(
+                    slot_id=slot.id, user_id=user.id, recommended=recs,
+                    chosen=chosen_id,
+                    chosen_relevance=chosen_rel_for_record,
+                    chosen_hall_load_before=load_before,
+                ))
+                continue
 
             # формируем utility-вектор для softmax-выбора
             utils = []
