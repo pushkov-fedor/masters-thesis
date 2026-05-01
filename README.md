@@ -46,7 +46,7 @@ masters-degree/
 - `experiments/results/session_state_2026-05-01.md` — **актуальный снимок состояния**: что сделано, что осталось, дедлайны. Открывать первым при возобновлении работы.
 - `materials/планы-доработки.md` — открытые методологические вопросы и направления улучшений.
 - `materials/research-симуляторы-датасеты.md` — отчёт ресёрча по симуляторам коллег и публичным датасетам с capacity (получен 30.04.2026).
-- `experiments/results/preliminary_findings_v6.md` — главные числа экспериментов с пояснениями.
+- `experiments/results/preliminary_findings_v7.md` — главные числа экспериментов с пояснениями.
 - `materials/Путь к ВКР — Встреча *.md` — заметки по встречам с научным руководителем.
 - `materials/Переписка с научруком (Марк) — 2026-04.md` — переписка.
 
@@ -60,7 +60,7 @@ masters-degree/
 - `experiments/results/plots/` — графики для главы 4.
 - `experiments/data/conferences/` — программы конференций Mobius, Demo Day.
 - `experiments/data/personas/` — синтетические профили участников.
-- `experiments/data/external/movielens/` — публичный датасет (не в гите).
+- `experiments/data/external/deep_search_2026_05/` — скачанные cross-domain датасеты (Meetup RSVP, ITC-2007, ITC-2019), не в гите.
 
 ## Главные числа
 
@@ -68,7 +68,9 @@ masters-degree/
 
 - На симуляторе с 1200 участниками Mobius **Capacity-aware устраняет overflow_choice до 0,000** (vs 0,533 у Cosine); Capacity-aware MMR в 22× меньше hall_utilization_variance.
 - При высокой восприимчивости участников к подсказке (compliance = 0,9): в 59× меньше переполнений (0,009 vs 0,528).
-- Sensitivity на MovieLens 1M: относительный порядок политик переносится, Spearman ρ = +0,85 (p = 0,004) для mean_overload_excess; ρ = +0,90 (p < 0,001) для hall_utilization_variance.
+- Cross-domain перенос на 4 реальных датасета (Meetup RSVP, ITC-2019 ×2, ITC-2007 ×2): относительный порядок политик статистически значимо переносится по mean_overload_excess (Spearman ρ от +0,55 до +0,87 при p < 0,05 на 4 из 5 наборов); Capacity-aware MMR — лидер по hall variance на всех 5 наборах.
+- B1: внешняя валидация параметрической модели отклика на реальных Meetup-RSVPs — accuracy@1 = 0,778 (vs 0,437 random), Spearman ρ = +0,84 (p < 10⁻⁵⁰).
+- B5: калибровка трёхтипной модели compliance — compliant 71,7% / star-chaser 21,3% / curious 7,0%.
 - Demo Day 900 агентов: Capacity-aware лидер по OF_choice; Capacity-aware MMR лидер по mean_overload_excess (1,44× меньше Cosine) и по hall_var (на два порядка ниже).
 - Stylized facts: 2 из 3 воспроизводятся при p < 0,01 (Парето + спад посещаемости); track-affinity не воспроизводится.
 - Обученная модель оценки интереса: Pearson 0,79 на тесте против 0,36 у голого косинуса.
@@ -78,7 +80,8 @@ masters-degree/
 ## Принятые методологические решения
 
 - **K — параметр среды:** $K_t = \min(K_{\max}, |J_t| - 1)$, $K_{\max} = 3$. На Mobius даёт $K_t = 2$. Все прогоны переснятые 01.05 после правки.
-- **MovieLens** — sensitivity на иной популяции, не cross-domain в строгом смысле.
+- **Cross-domain валидация на 4 реальных датасетах** — Meetup RSVP, ITC-2019, ITC-2007 (вместо MovieLens, где capacity искусственный).
+- **Калиброванная модель compliance** — трёхтипная (compliant/star-chaser/curious), доли откалиброваны на реальных Meetup-RSVPs.
 - **Inter-slot chat** — прототип, не активирован в основных прогонах.
 - **PPO** — обучилась, но проиграла обеим Capacity-aware политикам. Честный научный результат, объяснён в подразделе 3.4.4 Главы 3.
 
