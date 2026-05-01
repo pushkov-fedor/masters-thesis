@@ -55,7 +55,14 @@ def load_users(personas_name: str = "personas") -> List[UserProfile]:
 
 
 def make_policies(seed: int, llm_ranker=None, llm_ranker_sa=None, ppo=None,
-                  with_modern=False):
+                  with_modern=False, llm_only=False):
+    if llm_only:
+        policies = {}
+        if llm_ranker is not None:
+            policies["LLM-ranker"] = llm_ranker
+        if llm_ranker_sa is not None:
+            policies["LLM-ranker (state-aware)"] = llm_ranker_sa
+        return policies
     policies = {
         "Random": RandomPolicy(seed=seed),
         "Cosine": CosinePolicy(),
@@ -93,6 +100,7 @@ def main():
     ap.add_argument("--with-modern", action="store_true", help="включить DPP, Calibrated, Sequential, GNN")
     ap.add_argument("--with-llm", action="store_true", help="включить LLM-ranker как 6-ю политику")
     ap.add_argument("--with-llm-sa", action="store_true", help="включить state-aware LLM-ranker (7-я)")
+    ap.add_argument("--llm-only", action="store_true", help="прогнать ТОЛЬКО LLM-ranker(s), без эвристик и PPO")
     ap.add_argument("--llm-budget", type=float, default=2.0, help="USD potolok на LLM-ranker")
     ap.add_argument("--llm-budget-sa", type=float, default=2.0, help="USD potolok на state-aware")
     ap.add_argument("--llm-model", default="openai/gpt-4o-mini")
@@ -160,9 +168,16 @@ def main():
 
     results: List[dict] = []
     t0_all = time.time()
+    # Для LLM-ranker'ов прикидываем total = n_users × n_slots (уникальные кэш-ключи).
+    # На последующих сидах ключи попадают в кэш в памяти — pbar их не считает.
+    n_active_slots = sum(1 for s in conf.slots if s.talk_ids)
+    if llm_ranker is not None:
+        llm_ranker.set_progress_total(len(users) * n_active_slots, desc="LLM-ranker")
+    if llm_ranker_sa is not None:
+        llm_ranker_sa.set_progress_total(len(users) * n_active_slots, desc="LLM-ranker-SA")
     for seed in args.seeds:
         policies = make_policies(seed, llm_ranker=llm_ranker, llm_ranker_sa=llm_ranker_sa, ppo=ppo,
-                                 with_modern=args.with_modern)
+                                 with_modern=args.with_modern, llm_only=args.llm_only)
         for pname, pol in policies.items():
             cfg = SimConfig(
                 K=args.K, tau=args.tau, lambda_overflow=args.lambda_overflow,

@@ -18,7 +18,7 @@
     {
       "policy": "Random",
       "seed": 1,
-      "elapsed_s": 0.3088078498840332,
+      "elapsed_s": 0.3817329406738281,
       "metrics": {
         "overflow_rate_all": 0.65,
         "overflow_rate_choice": 0.6111111111111112,
@@ -32,7 +32,7 @@
     {
       "policy": "Cosine",
       "seed": 1,
-      "elapsed_s": 0.31798577308654785,
+      "elapsed_s": 0.3798673152923584,
       "metrics": {
         "overflow_rate_all": 0.6,
         "overflow_rate_choice": 0.5555555555555556,
@@ -46,7 +46,7 @@
     {
       "policy": "MMR",
       "seed": 1,
-      "elapsed_s": 0.46480584144592285,
+      "elapsed_s": 0.4471092224121094,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -60,7 +60,7 @@
     {
       "policy": "Capacity-aware",
       "seed": 1,
-      "elapsed_s": 0.3512299060821533,
+      "elapsed_s": 0.3874380588531494,
       "metrics": {
         "overflow_rate_all": 0.1,
         "overflow_rate_choice": 0.0,
@@ -74,7 +74,7 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 1,
-      "elapsed_s": 0.4507601261138916,
+      "elapsed_s": 0.4892728328704834,
       "metrics": {
         "overflow_rate_all": 0.325,
         "overflow_rate_choice": 0.25,
@@ -88,7 +88,7 @@
     {
       "policy": "DPP",
       "seed": 1,
-      "elapsed_s": 0.5351929664611816,
+      "elapsed_s": 0.5674431324005127,
       "metrics": {
         "overflow_rate_all": 0.55,
         "overflow_rate_choice": 0.5,
@@ -102,7 +102,7 @@
     {
       "policy": "Calibrated",
       "seed": 1,
-      "elapsed_s": 1.2355518341064453,
+      "elapsed_s": 1.2883069515228271,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -116,7 +116,7 @@
     {
       "policy": "Sequential",
       "seed": 1,
-      "elapsed_s": 0.4785189628601074,
+      "elapsed_s": 0.48671936988830566,
       "metrics": {
         "overflow_rate_all": 0.6,
         "overflow_rate_choice": 0.5555555555555556,
@@ -130,7 +130,7 @@
     {
       "policy": "GNN",
       "seed": 1,
-      "elapsed_s": 0.28068995475769043,
+      "elapsed_s": 0.3062708377838135,
       "metrics": {
         "overflow_rate_all": 0.65,
         "overflow_rate_choice": 0.6111111111111112,
@@ -142,23 +142,9 @@
       }
     },
     {
-      "policy": "Constrained-PPO-v2",
-      "seed": 1,
-      "elapsed_s": 1.7550599575042725,
-      "metrics": {
-        "overflow_rate_all": 0.55,
-        "overflow_rate_choice": 0.5,
-        "hall_utilization_variance": 0.041816804232804226,
-        "mean_user_utility": 0.3368553058596883,
-        "hall_load_gini": 0.29330701465803993,
-        "skip_rate": 0.050104166666666665,
-        "mean_overload_excess": 0.3445297619047619
-      }
-    },
-    {
       "policy": "Random",
       "seed": 2,
-      "elapsed_s": 0.31110405921936035,
+      "elapsed_s": 0.3174619674682617,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -172,7 +158,7 @@
     {
       "policy": "Cosine",
       "seed": 2,
-      "elapsed_s": 0.31980061531066895,
+      "elapsed_s": 0.35204362869262695,
       "metrics": {
         "overflow_rate_all": 0.55,
         "overflow_rate_choice": 0.5,
@@ -186,7 +172,7 @@
     {
       "policy": "MMR",
       "seed": 2,
-      "elapsed_s": 0.46305203437805176,
+      "elapsed_s": 0.42272067070007324,
       "metrics": {
         "overflow_rate_all": 0.575,
         "overflow_rate_choice": 0.5277777777777778,
@@ -200,7 +186,7 @@
     {
       "policy": "Capacity-aware",
       "seed": 2,
-      "elapsed_s": 0.3303520679473877,
+      "elapsed_s": 0.33463311195373535,
       "metrics": {
         "overflow_rate_all": 0.1,
         "overflow_rate_choice": 0.0,
@@ -214,7 +200,7 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 2,
-      "elapsed_s": 0.44805192947387695,
+      "elapsed_s": 0.5087840557098389,
       "metrics": {
         "overflow_rate_all": 0.325,
         "overflow_rate_choice": 0.25,
@@ -228,7 +214,7 @@
     {
       "policy": "DPP",
       "seed": 2,
-      "elapsed_s": 0.5511441230773926,
+      "elapsed_s": 0.5219252109527588,
       "metrics": {
         "overflow_rate_all": 0.55,
         "overflow_rate_choice": 0.5,
@@ -242,7 +228,7 @@
     {
       "policy": "Calibrated",
       "seed": 2,
-      "elapsed_s": 1.216398000717163,
+      "elapsed_s": 1.3146519660949707,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -256,7 +242,7 @@
     {
       "policy": "Sequential",
       "seed": 2,
-      "elapsed_s": 0.48395609855651855,
+      "elapsed_s": 0.5006008148193359,
       "metrics": {
         "overflow_rate_all": 0.575,
         "overflow_rate_choice": 0.5277777777777778,
@@ -270,7 +256,7 @@
     {
       "policy": "GNN",
       "seed": 2,
-      "elapsed_s": 0.28295111656188965,
+      "elapsed_s": 0.3285188674926758,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -282,23 +268,9 @@
       }
     },
     {
-      "policy": "Constrained-PPO-v2",
-      "seed": 2,
-      "elapsed_s": 1.7531251907348633,
-      "metrics": {
-        "overflow_rate_all": 0.55,
-        "overflow_rate_choice": 0.5,
-        "hall_utilization_variance": 0.0466257878978752,
-        "mean_user_utility": 0.33640010147577926,
-        "hall_load_gini": 0.2953123284663519,
-        "skip_rate": 0.051145833333333335,
-        "mean_overload_excess": 0.3500267857142857
-      }
-    },
-    {
       "policy": "Random",
       "seed": 3,
-      "elapsed_s": 0.3093299865722656,
+      "elapsed_s": 0.3185150623321533,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -312,7 +284,7 @@
     {
       "policy": "Cosine",
       "seed": 3,
-      "elapsed_s": 0.32167720794677734,
+      "elapsed_s": 0.33104896545410156,
       "metrics": {
         "overflow_rate_all": 0.575,
         "overflow_rate_choice": 0.5277777777777778,
@@ -326,7 +298,7 @@
     {
       "policy": "MMR",
       "seed": 3,
-      "elapsed_s": 0.46665406227111816,
+      "elapsed_s": 0.4639270305633545,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -340,7 +312,7 @@
     {
       "policy": "Capacity-aware",
       "seed": 3,
-      "elapsed_s": 0.32446932792663574,
+      "elapsed_s": 0.34607577323913574,
       "metrics": {
         "overflow_rate_all": 0.1,
         "overflow_rate_choice": 0.0,
@@ -354,7 +326,7 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 3,
-      "elapsed_s": 0.4508378505706787,
+      "elapsed_s": 0.5608539581298828,
       "metrics": {
         "overflow_rate_all": 0.325,
         "overflow_rate_choice": 0.25,
@@ -368,7 +340,7 @@
     {
       "policy": "DPP",
       "seed": 3,
-      "elapsed_s": 0.48076701164245605,
+      "elapsed_s": 0.5081031322479248,
       "metrics": {
         "overflow_rate_all": 0.55,
         "overflow_rate_choice": 0.5,
@@ -382,7 +354,7 @@
     {
       "policy": "Calibrated",
       "seed": 3,
-      "elapsed_s": 1.281968116760254,
+      "elapsed_s": 1.2804999351501465,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -396,7 +368,7 @@
     {
       "policy": "Sequential",
       "seed": 3,
-      "elapsed_s": 0.482511043548584,
+      "elapsed_s": 0.5366461277008057,
       "metrics": {
         "overflow_rate_all": 0.6,
         "overflow_rate_choice": 0.5555555555555556,
@@ -410,7 +382,7 @@
     {
       "policy": "GNN",
       "seed": 3,
-      "elapsed_s": 0.2876570224761963,
+      "elapsed_s": 0.3009037971496582,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -422,23 +394,9 @@
       }
     },
     {
-      "policy": "Constrained-PPO-v2",
-      "seed": 3,
-      "elapsed_s": 1.7471280097961426,
-      "metrics": {
-        "overflow_rate_all": 0.55,
-        "overflow_rate_choice": 0.5,
-        "hall_utilization_variance": 0.0444833384143781,
-        "mean_user_utility": 0.3373088799840569,
-        "hall_load_gini": 0.29231050228310496,
-        "skip_rate": 0.049479166666666664,
-        "mean_overload_excess": 0.35228869047619044
-      }
-    },
-    {
       "policy": "Random",
       "seed": 4,
-      "elapsed_s": 0.3143138885498047,
+      "elapsed_s": 0.3443126678466797,
       "metrics": {
         "overflow_rate_all": 0.65,
         "overflow_rate_choice": 0.6111111111111112,
@@ -452,7 +410,7 @@
     {
       "policy": "Cosine",
       "seed": 4,
-      "elapsed_s": 0.3572349548339844,
+      "elapsed_s": 0.3425288200378418,
       "metrics": {
         "overflow_rate_all": 0.575,
         "overflow_rate_choice": 0.5277777777777778,
@@ -466,7 +424,7 @@
     {
       "policy": "MMR",
       "seed": 4,
-      "elapsed_s": 0.5110299587249756,
+      "elapsed_s": 0.4350588321685791,
       "metrics": {
         "overflow_rate_all": 0.6,
         "overflow_rate_choice": 0.5555555555555556,
@@ -480,7 +438,7 @@
     {
       "policy": "Capacity-aware",
       "seed": 4,
-      "elapsed_s": 0.39037609100341797,
+      "elapsed_s": 0.363616943359375,
       "metrics": {
         "overflow_rate_all": 0.1,
         "overflow_rate_choice": 0.0,
@@ -494,7 +452,7 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 4,
-      "elapsed_s": 0.5619969367980957,
+      "elapsed_s": 0.4662289619445801,
       "metrics": {
         "overflow_rate_all": 0.375,
         "overflow_rate_choice": 0.3055555555555556,
@@ -508,7 +466,7 @@
     {
       "policy": "DPP",
       "seed": 4,
-      "elapsed_s": 0.6244871616363525,
+      "elapsed_s": 0.5184180736541748,
       "metrics": {
         "overflow_rate_all": 0.575,
         "overflow_rate_choice": 0.5277777777777778,
@@ -522,7 +480,7 @@
     {
       "policy": "Calibrated",
       "seed": 4,
-      "elapsed_s": 1.3533649444580078,
+      "elapsed_s": 1.337611198425293,
       "metrics": {
         "overflow_rate_all": 0.65,
         "overflow_rate_choice": 0.6111111111111112,
@@ -536,7 +494,7 @@
     {
       "policy": "Sequential",
       "seed": 4,
-      "elapsed_s": 0.4951059818267822,
+      "elapsed_s": 0.5102078914642334,
       "metrics": {
         "overflow_rate_all": 0.6,
         "overflow_rate_choice": 0.5555555555555556,
@@ -550,7 +508,7 @@
     {
       "policy": "GNN",
       "seed": 4,
-      "elapsed_s": 0.2886981964111328,
+      "elapsed_s": 0.2943840026855469,
       "metrics": {
         "overflow_rate_all": 0.625,
         "overflow_rate_choice": 0.5833333333333334,
@@ -562,23 +520,9 @@
       }
     },
     {
-      "policy": "Constrained-PPO-v2",
-      "seed": 4,
-      "elapsed_s": 1.8536310195922852,
-      "metrics": {
-        "overflow_rate_all": 0.55,
-        "overflow_rate_choice": 0.5,
-        "hall_utilization_variance": 0.04323597350298144,
-        "mean_user_utility": 0.3359693035897232,
-        "hall_load_gini": 0.293406392694064,
-        "skip_rate": 0.049479166666666664,
-        "mean_overload_excess": 0.3499851190476191
-      }
-    },
-    {
       "policy": "Random",
       "seed": 5,
-      "elapsed_s": 0.3303201198577881,
+      "elapsed_s": 0.31230902671813965,
       "metrics": {
         "overflow_rate_all": 0.675,
         "overflow_rate_choice": 0.6388888888888888,
@@ -592,7 +536,7 @@
     {
       "policy": "Cosine",
       "seed": 5,
-      "elapsed_s": 0.3359088897705078,
+      "elapsed_s": 0.34535694122314453,
       "metrics": {
         "overflow_rate_all": 0.6,
         "overflow_rate_choice": 0.5555555555555556,
@@ -606,7 +550,7 @@
     {
       "policy": "MMR",
       "seed": 5,
-      "elapsed_s": 0.4241211414337158,
+      "elapsed_s": 0.41418910026550293,
       "metrics": {
         "overflow_rate_all": 0.6,
         "overflow_rate_choice": 0.5555555555555556,
@@ -620,7 +564,7 @@
     {
       "policy": "Capacity-aware",
       "seed": 5,
-      "elapsed_s": 0.3933281898498535,
+      "elapsed_s": 0.35411691665649414,
       "metrics": {
         "overflow_rate_all": 0.1,
         "overflow_rate_choice": 0.0,
@@ -634,7 +578,7 @@
     {
       "policy": "Capacity-aware MMR",
       "seed": 5,
-      "elapsed_s": 0.4659841060638428,
+      "elapsed_s": 0.47243809700012207,
       "metrics": {
         "overflow_rate_all": 0.35,
         "overflow_rate_choice": 0.2777777777777778,
@@ -648,7 +592,7 @@
     {
       "policy": "DPP",
       "seed": 5,
-      "elapsed_s": 0.500579833984375,
+      "elapsed_s": 0.4977588653564453,
       "metrics": {
         "overflow_rate_all": 0.575,
         "overflow_rate_choice": 0.5277777777777778,
@@ -662,7 +606,7 @@
     {
       "policy": "Calibrated",
       "seed": 5,
-      "elapsed_s": 1.3033552169799805,
+      "elapsed_s": 1.328597068786621,
       "metrics": {
         "overflow_rate_all": 0.65,
         "overflow_rate_choice": 0.6111111111111112,
@@ -676,7 +620,7 @@
     {
       "policy": "Sequential",
       "seed": 5,
-      "elapsed_s": 0.49417901039123535,
+      "elapsed_s": 0.5048928260803223,
       "metrics": {
         "overflow_rate_all": 0.575,
         "overflow_rate_choice": 0.5277777777777778,
@@ -690,7 +634,7 @@
     {
       "policy": "GNN",
       "seed": 5,
-      "elapsed_s": 0.2875990867614746,
+      "elapsed_s": 0.31554102897644043,
       "metrics": {
         "overflow_rate_all": 0.65,
         "overflow_rate_choice": 0.6111111111111112,
@@ -699,20 +643,6 @@
         "hall_load_gini": 0.23561262942230998,
         "skip_rate": 0.0509375,
         "mean_overload_excess": 0.4880565476190476
-      }
-    },
-    {
-      "policy": "Constrained-PPO-v2",
-      "seed": 5,
-      "elapsed_s": 1.7490730285644531,
-      "metrics": {
-        "overflow_rate_all": 0.55,
-        "overflow_rate_choice": 0.5,
-        "hall_utilization_variance": 0.046408669438145624,
-        "mean_user_utility": 0.33582999859565643,
-        "hall_load_gini": 0.2914425785680314,
-        "skip_rate": 0.0509375,
-        "mean_overload_excess": 0.3520297619047619
       }
     }
   ]

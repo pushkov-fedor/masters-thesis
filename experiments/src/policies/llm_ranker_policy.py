@@ -122,6 +122,24 @@ class LLMRankerPolicy:
         self._dirty = False
         self._save_every = 25  # сохранять кэш каждые N новых вызовов
         self._calls_since_save = 0
+        self.n_api_calls = 0
+        self.n_cache_hits = 0
+        self._heartbeat_every = 200
+        self._t_start = time.time()
+        self._pbar = None
+
+    def set_progress_total(self, total: int, desc: str = "LLM-ranker"):
+        """Создаёт tqdm progress bar; вызывается из run_experiments.py."""
+        from tqdm import tqdm
+        if self._pbar is not None:
+            self._pbar.close()
+        self._pbar = tqdm(total=total, desc=desc, unit="call", dynamic_ncols=True,
+                          mininterval=1.0, file=__import__("sys").stdout)
+
+    def close_progress(self):
+        if self._pbar is not None:
+            self._pbar.close()
+            self._pbar = None
 
     def __del__(self):
         if getattr(self, "_dirty", False):
@@ -155,6 +173,7 @@ class LLMRankerPolicy:
         key = self._cache_key(user.id, slot.id, cand_ids)
         cached = self.cache.get(key)
         if cached:
+            self.n_cache_hits += 1
             return [tid for tid in cached if tid in cand_ids][:K]
 
         if self.cumulative_cost >= self.budget_usd:
@@ -176,7 +195,22 @@ class LLMRankerPolicy:
                 ],
                 temperature=0.2,
                 max_tokens=120,
+                timeout=60,
             )
+            self.n_api_calls += 1
+            last_latency = time.time() - t0
+            if self._pbar is not None:
+                self._pbar.update(1)
+                self._pbar.set_postfix({
+                    "cost": f"${self.cumulative_cost:.2f}",
+                    "last": f"{last_latency:.1f}s",
+                    "hits": self.n_cache_hits,
+                })
+            elif self.n_api_calls % self._heartbeat_every == 0:
+                elapsed = time.time() - self._t_start
+                print(f"  [LLM-ranker] api={self.n_api_calls} cache_hits={self.n_cache_hits} "
+                      f"cost=${self.cumulative_cost:.3f} last={last_latency:.1f}s elapsed={elapsed:.0f}s",
+                      flush=True)
         except Exception as e:
             _log_usage({"ts": time.time(), "kind": "llm_ranker_error", "error": str(e)})
             return self._fallback_cosine(user, conf, cand_ids, K)
@@ -188,6 +222,8 @@ class LLMRankerPolicy:
             usage.completion_tokens if usage else 0,
         )
         self.cumulative_cost += cost
+        if not resp.choices or resp.choices[0].message is None:
+            return self._fallback_cosine(user, conf, cand_ids, K)
         msg = resp.choices[0].message.content or ""
         arr = _parse_array(msg)
         if not arr:
