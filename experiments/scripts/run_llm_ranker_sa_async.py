@@ -27,7 +27,7 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from src.simulator import Conference, SimConfig, UserProfile, simulate_async_slots, cosine_relevance  # noqa: E402
+from src.simulator import Conference, SimConfig, UserProfile, simulate_async_slots, cosine_relevance, LearnedPreferenceFn  # noqa: E402
 from src.metrics import compute_all  # noqa: E402
 from src.policies.llm_ranker_state_aware_policy import LLMRankerStateAwarePolicy  # noqa: E402
 
@@ -47,10 +47,10 @@ def load_users(personas_name: str):
     ]
 
 
-async def run_seed(conf, users, policy, cfg, concurrency):
+async def run_seed(conf, users, policy, cfg, concurrency, relevance_fn):
     return await simulate_async_slots(
         conf=conf, users=users, policy=policy, cfg=cfg,
-        relevance_fn=cosine_relevance,
+        relevance_fn=relevance_fn,
         concurrency=concurrency,
     )
 
@@ -73,6 +73,25 @@ async def main_async(args):
           f"budget=${args.budget}, api_concurrency={args.api_concurrency}")
     print(f"  cache size at start: {len(policy.cache)} entries")
 
+    # Релевантность для записи chosen_relevance — согласована с run_experiments.py:
+    # на Demo Day используется learned-модель (preference_model_demoday), на Mobius — preference_model.
+    if args.relevance == "learned":
+        if args.conference == "demo_day_2026":
+            model_path = ROOT / "data" / "models" / "preference_model_demoday.pkl"
+        else:
+            model_path = ROOT / "data" / "models" / "preference_model.pkl"
+        if not model_path.exists():
+            raise SystemExit(f"Learned model not found at {model_path}")
+        relevance_fn = LearnedPreferenceFn(model_path)
+        persona_dict = {u.id: u.embedding for u in users}
+        talk_dict = {tid: t.embedding for tid, t in conf.talks.items()}
+        relevance_fn.precompute_all(persona_dict, talk_dict)
+        print(f"  relevance: learned ({model_path.name}, "
+              f"precomputed {len(relevance_fn._cache)} pairs)")
+    else:
+        relevance_fn = cosine_relevance
+        print("  relevance: cosine")
+
     n_active_slots = sum(1 for s in conf.slots if s.talk_ids)
     policy.set_progress_total(len(args.seeds) * len(users) * n_active_slots,
                               desc="LLM-ranker-SA-async")
@@ -90,7 +109,7 @@ async def main_async(args):
             alpha_curious=args.alpha_curious,
         )
         t0 = time.time()
-        sim = await run_seed(conf, users, policy, cfg, args.concurrency)
+        sim = await run_seed(conf, users, policy, cfg, args.concurrency, relevance_fn)
         elapsed = time.time() - t0
         m = compute_all(conf, sim)
         runs.append({"policy": "LLM-ranker (state-aware)", "seed": seed,
@@ -169,6 +188,9 @@ def main():
     ap.add_argument("--api-concurrency", type=int, default=20,
                     help="макс. параллельных API-вызовов в семафоре политики")
     ap.add_argument("--results-suffix", default="")
+    ap.add_argument("--relevance", choices=["cosine", "learned"], default="learned",
+                    help="Функция релевантности для записи chosen_relevance "
+                         "(должна совпадать с прогоном остальных политик)")
     args = ap.parse_args()
     asyncio.run(main_async(args))
 
