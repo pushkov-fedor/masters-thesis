@@ -1,7 +1,9 @@
 .DS_Store
 .env
 external/
-.claude/
+.claude/*
+!.claude/memory
+.claude/memory/.DS_Store
 
 # LLM-ranker cache — пересобирается при необходимости, шумит при коммитах
 experiments/logs/llm_ranker_cache.json
