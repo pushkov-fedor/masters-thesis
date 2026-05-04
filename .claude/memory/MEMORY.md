@@ -19,6 +19,7 @@
 
 - [Технические наблюдения](project_technical_observations.md) — capacity, mean_overload_excess, узкий конус e5, B1-leakage
 - [Литература и канон валидации](reference_validation_defense.md) — must-cite, канон Sargent / Kleijnen / DMDU / Larooij & Törnberg, distribution-match Meetup ρ=0.438
+- [Обзор предметной области 2026-05-04](research_field_survey_2026-05-04.md) — карта подходов, capacity-aware recsys, LLM-агенты, gap-анализ, плюс EMA-workbench / PRIM как лёгкое усиление
 
 ## Поведенческие правила
 
