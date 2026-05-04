@@ -1,0 +1,44 @@
+{
+  "train": {
+    "n": 6155,
+    "pearson_r": 0.8809684551040187,
+    "spearman_r": 0.8259542076437325,
+    "mse": 0.05605007955202478,
+    "mae": 0.14518540400718427,
+    "baseline_cosine_pearson": 0.6063318252563477,
+    "baseline_cosine_spearman": 0.6090757450596541,
+    "auc": 0.9828213194386113
+  },
+  "val": {
+    "n": 869,
+    "pearson_r": 0.7911920379670931,
+    "spearman_r": 0.7665322635938014,
+    "mse": 0.09112331782319294,
+    "mae": 0.19023339279875257,
+    "baseline_cosine_pearson": 0.636334240436554,
+    "baseline_cosine_spearman": 0.6372320058275783,
+    "auc": 0.9476751800916831
+  },
+  "test": {
+    "n": 1748,
+    "pearson_r": 0.7930680664951739,
+    "spearman_r": 0.7677000966452663,
+    "mse": 0.09102055881223503,
+    "mae": 0.19686010875352933,
+    "baseline_cosine_pearson": 0.6285911798477173,
+    "baseline_cosine_spearman": 0.6276076090703793,
+    "auc": 0.9475538824463455
+  },
+  "test_slot_accuracy_at_1": {
+    "n": 731,
+    "hits": 671,
+    "accuracy": 0.9179206566347469,
+    "random_baseline": 0.4479480164158684
+  },
+  "test_slot_accuracy_at_1_cosine_baseline": {
+    "n": 731,
+    "hits": 598,
+    "accuracy": 0.8180574555403557,
+    "random_baseline": 0.4479480164158684
+  }
+}

@@ -1,0 +1,2810 @@
+[
+  {
+    "id": "R_3PX1xNVjv8W8AOl",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_3j85ipjEK5RNq1P",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=1.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7G4EvGLZLVJpvwt",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4OTUpULsKXk63Gp",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1Y0QqhLJde4bOwh",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1sAYArwzJWYbMo9",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3TaC94A0vbyw3ZL",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5sw6JRoQZ2HOUz7",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_5ty5WcbnpQwhbrb",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1fp1kyrN3IjSRBS",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_13vI0UDIMjUO8Ap",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7Oy89nuAqjgyKsY",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3rceE2AumFzZcqj",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_48nfy9y1YLV3ixz",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_2P7Q4qADuW8BNgV",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3GkvjkUo7Dr1dYZ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7pSfnECN3YNRg8h",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7GDkDwYmplsTpYD",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_38Vtxd2HSOB8IJr",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1gUPStercprFKHI",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_6LOJasA583tFBQ0",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1mOPIxrIgJxuMAm",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_58SblJa37o4Quwn",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1eLt5Na4ffzjSxr",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_42QnwBVz94duflf",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7rZQ43L1VocElZf",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_383qh0vN3olUH8l",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_5R26oihuZfEVUus",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_14jI2NuW8H1xfHr",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7mqyBXBgEKmNd97",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7nBoiKQYIAx6zU5",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7gSyn9fSDEw611r",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5hbfrprNmmYyIh6",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3K0APIDgupWgaz5",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4WIneZKR0j5KUaR",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4VF6DIbUsGCDZ6O",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3TQNYumfCcj2ZMk",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1jmRtLq4fX13y6J",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4kYrV2lVOjb6GuH",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7QYWhGVdTONSRQx",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=1.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_66nkzvipsTfmvLT",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6PcDt05uFGi0Mac",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1kIgb8vTjn26ZEP",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3wLCdmNvqEniLli",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=4.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_6VjO61bKqLnGhjC",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1knZ5IQ5KwWoR9b",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=7.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_707N23eXCataIzn",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5YfUjY2dKqfNYJg",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=2.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5ONK1MIaDD6uXhD",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5PySJCXHNSurDYZ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6dCvHNMmVytwMRr",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_71GJepBcqrz52D1",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7xVxaYyHdWsnw1X",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1PIiQZwQiih5j4T",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1RXgkL1DVeUx7Rn",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6CruClbNccAk8fU",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3QJxE6WdqYtOZrX",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6obeTNyKmYRf8r8",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=7.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5I3PYlzI0lUGZ5i",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6ZESfOXMmtzaRxh",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_31WMSGQuASwmbiE",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_72mCuIQLplB8iOM",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=1.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_3k5yA1UbKhFoVwJ",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_5lzzxP52t03W95R",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3d0S9NmKgQLFnLn",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3uO3BuucFBGAEi2",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4Wi4EqGmVpSoQVz",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5rxkle1yzrnqHuT",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4uyr8S75o6JHlNn",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5LPslt4kjb9yXzX",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_2Mh7lbvmVHRxmnc",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_62x0qSNxNBOW0tZ",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3Gp6kIMSUO28gVC",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5EFjzZ0El8qRb9O",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5TQKTaxaWRe50lT",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1JJ06fJ01T5vQo0",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5nZb9BGVosD9GX4",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7RGzhoOhIWLH2nf",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5rHWSfm7yfC4KAS",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_32YAahzFl1cgqNq",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1VhW272nv8rSwUN",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1Betejj8DOjYcgt",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5CIHV7bsPPflIS5",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7KuW7CxmbKdDtVI",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5t2SwPWhhVsQPZn",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_2TCeyQhdRjTKYUt",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6DN4JxxnXvwx1Wp",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1v7dkVdyWn99cfH",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_7QrUiwr8D7Ylz1q",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=8.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3OJmouWVEGkaBYJ",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_8lgxOLlLWvrYRgE",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_16bxXNB0R35CIeQ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3dddpknRK23aESJ",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6C8xyA7ISfMAA06",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7rNxKoCdYSOQtXV",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=2.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_68CLAaX2Z9k2rri",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_63JBf55gVJoUgg1",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1wcotz5KTMkcuVw",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5nNIVU1PAzx00qD",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1rDCQe2N0jOuNQf",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6Kk94Pcg7jUvdUw",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_17qvPzQe3Nx1lip",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_35GeUuu1jPHJ2DW",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7f8bd7ZgzXH0Slo",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_7kNBlkravr9y41P",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5OdyT0Fq1JrfYXK",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6QMVa1R1vi6rV8S",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=2.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6ghZXydAWFEvOoq",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=1.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_6Itm5UPD56KaHY0",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7MQCEdbdFgzZ4No",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3jg5zG2JyPLmcmt",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=2.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7VTxCeXwo0Giihb",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5ngg4PgG5Tx6RPj",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=1.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1luWs8B4O1tnXxv",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3O5cWzBGRVygGJP",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_7EBhv3OW5t8XRHc",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7YJxiEruUK0jgrE",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=1.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_7RLQVJ8UaLiMtUZ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5HLMM6RSf2IzS25",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_2zj7RIsj3ATPb3s",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5WXMTDKaFezFWSt",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7Br5gsUiCXNgq5P",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4oIkmhZ0RqNDwK5",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1SIpRsgiUw46kO5",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=7.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1dfHxvfYe1sl0Eo",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3dDFb4wR6NEbGiH",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_6Q6qp70QGJqgtwk",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_15RogWyF1VCKA5H",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_59svrhE3Zg3gUfs",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6PXaSiIePXbfHo2",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7LgVnEJWyF38zFa",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_75X6iH49VyNt6Iy",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7Bg07u06KfdpC00",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5J1N1M656dCTtct",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1PzHN9cfmy6YnHF",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4lFHe1tBHGVs1MJ",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1rDOjCa96yta87c",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5U4R42wHdds9LXC",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7PFmAIlPgrf5vpf",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_8uU8SvApApw4PT3",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1dBkEEoZ5RPh9oo",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3NPYSjIg4pzJdQ5",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1MRRR3lOb7KZVeU",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6aAsBWu1qjvYCKl",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=7.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7VmzxyShpk8IhfX",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3pQyC5RJck1Eq0o",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7c5cvJzwI6YrV9L",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1hDPQL01BWj4X59",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7F3ShTedZQUL7WP",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=4.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_3sixmCms7D0xusE",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=2.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3uQIbGssXWLDnTM",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6yCXl0yVmR47ueZ",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6e68O4oWfEB5A09",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1P7b6IzUjEReWyg",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4q3Eql7Nns1mo3e",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5xY4mujl2I5kubM",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=1.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_6VvuD3VN7ctnK8a",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6EAHISPo8euOeMp",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3DxHSshjPVNfwWZ",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6E6dsVqqUL1qKH8",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6M0lZ44vradgZSF",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=1.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1ir6EDIZOWaPZxa",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3Pj6XW7Ob5KqUKc",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_61UG8zBTqV45qcV",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4TyQ95lJDRZoxui",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_59bqhwI8XpYnm6d",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_8S7GsSBUQ7OQA1j",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=1.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6xz77Um73Aj59BQ",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_100Fhc2CWR7E3i9",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4gMUqgEO8bBiTZs",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3ZCGGKbOFSqmdNo",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7McAanLfi5QDrH2",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_3mkvFlVW7Cg6jQ7",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6kpGusvDEJcbb6S",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6UtOOcrpHyBAIzD",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5koobyuDy8SU5Rg",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3ekJ0mHOekIaxg0",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_2pDNyJxARXTtOyl",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1HXknhZxaBLK9Pz",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3kLbLtDaSit3CNk",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6Sk6vzN4UFyXpf1",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6LjkBLGCra2gis7",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=2.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1WZ5RenaDNZwpM5",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=2.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_614HdJhGSbCs7AT",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6ohedJrrOxHQZUu",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1OIYIzgKm4aThxK",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6ylol9PDtJnPUKy",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6QRFpnXMABo2psX",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3RggZbFBlptYdFG",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1qduUmRRecbdDAQ",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1ItqGbfF3oyXTVC",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_8oztPuiQPEPOhUJ",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4vqsa9bqFLJEYj7",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3CVH0oc0uNXwSxf",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1EcvM4Tz7n8ZELk",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1eX7pfHelOXQ3GF",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_33AAivStq0PAqJz",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=2.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6SqcGOCiaCi7ZjP",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6ePjMU2ufvnMc3y",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5xJ0cWlOsovznia",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_13igsbpFSRS6Spb",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1DBZtACXGvVH9DE",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=1.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_78LZstlYgAcz4bY",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_8flwGhSmRiDv3KI",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5wSRdwMKaSpG2yB",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=7.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6hm9l2Vr04ahK9o",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_33deFiudiLFJaJ2",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_52DNAzCIwhLnhJD",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5otFavXAbTtMOmR",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_2pcloTwJqFqSXXN",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6qpI6dTDjD8GGPp",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_60A7VR6W78fGWBa",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_778PtQzVlTFBlE4",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_62L2LOohM5Z9jBO",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_7w1HS3uj7ZEYeNH",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4mkGu3NDDsWr9ud",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1kk3DYTPHfz1RnV",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_1WGAZ2cmueSNNlg",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_6J3LOrEXsDdsqxN",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3IAhwfSBRuWiX2X",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6LsnV5nTGYJwMil",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=1.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_2rpqCvfY9HENwtz",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3irXlbsRbdx0tm9",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3JPT790FQ663K7f",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4bVhQTI1ESVQFek",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_17USpVGa6vCIASZ",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1dybEsy9fXZ2Z8D",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1wcXwzE4iSYigyl",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_8yeQDvpdi3W902d",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1EcdhmxjfHQVBjJ",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_10obmPozx5VbGJE",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3uCAXyG586xyD1O",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=4.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_1gvu9EKZSej2Jmp",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7dZkLvUB1JQh0qb",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7EBnokpQJEh29fN",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=7.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_48Okm6D8ki2lnuK",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5VIpQd8jezT2HrP",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3dZaGYw3Pfiuu9H",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1oyS6lbi2xj76tb",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5rDOIta81uVkn6g",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3ltJGh0fYHs7EK5",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_67KgIgsaLtWg7oZ",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4urqk8Q8XmdJojv",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3jYcV2QlWfWVEwF",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3xFAlcQuHa0lbVa",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=7.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3Hv8O1BSRGNVFUe",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1pF1N99j98e3r0q",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_144UmrnW7mDWI4V",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4EaNfMgdY1d7oJa",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1lyOcVylLTruM50",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_31yNSMR6XbTNAwb",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_36aQvFJrVUPR4La",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3O8hyp8Lh5GlSBM",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_49QQlmoiWKmmpUt",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_57DP57bBSCzn46s",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5NRlFas4BTSQ9o2",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_6QLJKwLmAVjsS3a",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_60uwM7PlmiYuzJk",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1kCWeMAQL2Ha9Hj",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4SkQbdKvsrZCuXF",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4QrtDJJdrbpTrJJ",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1qwaiH4RVDsg7a3",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3f7WX0y4o8xUbXv",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6Tu73Qx0VjrshBA",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=7.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4GcEbPRvIS1WO1g",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=7.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4hQkoksLsHfVdml",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4EwIbns5SIa74Y1",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=2.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7EaWun5GMcuHm5S",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=1.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3FCW88UOMlu8YRT",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7hmvWpDuoikbQJY",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4OOcinUD836GrVV",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=1.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3wbJ6HPbVwDCpKP",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=1.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1QaWZjMtYfim9fn",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4gOAlyzs2L6pY3Y",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=6.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3bWulhQ18Rq1Z39",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7h85fmvpxhPOGiZ",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=1.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6ceF7nWsbiGZD7B",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4DOZbNTSGXLiVKY",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3GIicoJLxfQr7Cj",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_2oilpe3M9ma4Im2",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5fHCGcLxJOOUn5f",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5OPjQonjYlgJExh",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3rdZ7izFfsVC4WJ",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4oap10fHA5q4Vy1",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7rr8CKg8kOLmKtD",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6DkoeUclzq8T0Bu",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7OusjI8FNBI9gYx",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4anUupx0xp6d3wW",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_38GmYP2DVMsKK1F",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6OdzrhVfgspQPm6",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=7.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3uBRLDnv4CS38Dx",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1O0lakKtbW2LOA7",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5cBHMKEnqnjkTtp",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3UzF8q8sg7l2gbT",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3ZJst1IgPUxYjNK",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4Xb7KXrXTpz2cyE",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4FnweqgddgTw6Ry",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_65GEfdHfaK4I3mX",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4tHq8Nnu2RCEu09",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=6.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4dualrpDBtuGhyE",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5hz4mABcKstq8v9",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4k0z9S26xBu0smc",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4ahraRehc6HEDrz",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_12nrhHvERvvUMhI",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4xyQdj86YmFLuT5",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5ImySUF0YY0szUV",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1gXvgSZyRYJo4kc",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1gDXs0HqeE0iFVv",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_18aO6uVjCJSi1hL",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3IY06rL3TphoaJ3",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_30MlXhYjvJHZLeP",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7Jx8pzfPrzyfQgg",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7HIausNq0xcutYf",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3LelNQw3FKOJ4Mp",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6X1BvUCQ54AdPxv",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_7rpufWyXE0YPxTR",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4w1b64RejcCN7fU",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_44GCKskDyGCGTwT",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1kSstHa974aW5GB",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3ffYyzWfIUzFtmV",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1SpKGVByEyjg2op",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4HTjkOqrjKYh8Az",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4fcr9XnOBDPZSz3",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_64LTOhFJsUn0H6U",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5liY2pHs53xasNf",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3wcMfnhDV4doLip",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_43rgy0u6L2cFy01",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_46fOVQi5Cp2Btsr",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_72MlG2vea27XyTq",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6fBhTZGHinZ0FPM",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_1SisvxkmvpXapBf",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7tyPAHUfxZAPA8V",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1qSSx7DlVcB5b7X",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_43dmw1Hx5GXf4aA",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=8.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4fnRPdE0Po5KFKp",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=8.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_2v6TS7h1eHmmHHr",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4tlhtneECY0X6jz",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7y51ROrWYWvcEeJ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7xVm6LhJ5Idoos9",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_62LvfLfzLoNSnv4",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1gyXCwVZLXT5xIJ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=1.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4tKBk7SXS6LNDBT",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3sTQEcSY8ucDfVY",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3d9MmqPKwlWfrzb",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_8CQDmK5PHipAJgq",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4AGqncNrrVZP1oI",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6KJjx5IaBmBNpIl",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1QArXVQWtesSaTk",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4FPV6CN3A1gK2w3",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=2.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4ER66kPh2h9Pvek",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_42mC3JL7rVBrOHr",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4d43tiZgdCICyEV",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4GHxTeI6ex6Li3T",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7a9qYbBAMQM0dzq",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7HKR1GgHjbu8J1f",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4mkkSQVmB3XXF0d",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=6.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4o0SDezn0px2Shz",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4zHNmRLNatGmRTJ",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6iR7UQGKUmZrk0H",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4qm1qFApBT8XstV",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_73wmCRNBDb32cJp",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4gwkCMORWtDRVhC",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4HNauLqwTQF5U4P",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4lGNkioxoo9hy3Y",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4S9pEuNP0AHCQNG",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4nj9yb1z5RWGoxU",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=1.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4rgmhb7OU6vlZ8l",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_14DidCYA6ULN8bG",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_8hGFc3bhBFajkmJ",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4MRkcnDnm6rIv1U",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4hXhRg9hu0kALUl",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_48KUTrA8CjFWpy1",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4pAlRl0cwLleMGh",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4JxvV21vUuK2gyr",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7jivtUyg79W86yK",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4ISVFbYiY9v14M9",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=7.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4fcSVXyQ6aXOamO",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4BVZPVWdB3HVkGx",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_42DgIVMwOE3UyRP",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6NSWjCZwSwInRpn",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5fBvhIsBwovOXsn",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7ToAYIxDpUQKBj6",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1PUj6lEs20tgeuc",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_41nHGFZAhxNsGgl",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=8.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_2FoN5HA85s5roJ3",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_78U31QpFgTWDezy",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7X4xCJxLXP6X409",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4XnSawOodPuNetA",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1KuOqhSMr3jJUSY",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_31aU9d31yRbb7bZ",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=7.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1M6vZpw7P9uVJHz",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=4.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_1CEjwqW5TBOhhEb",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=7.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4rxfwEF07R7WYPB",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_49S3t8sr7XrCxj3",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_659DffhMSmsBID7",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3jv5QzQgWkMnojL",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3LNX8flnxR62U40",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4aFokaAyTBqqAx3",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5384EEO4YHHr5oK",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1ikxyUbglrAeJq3",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4jCd7ZgRRvxks37",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5q7VCUYPIV1PfQf",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6pLMtp0ZYd6dNJN",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_13NBnQFQrmd6MSd",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7HkinEtwT7NLEMJ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3yqPx9MN4lGD5d0",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=2.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7sFNrRJe19Soiel",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_32S7bYH37Lwc0zw",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_8mE1ofQMlwvivux",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3sSc6uSomKO5irp",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1kB6lpKyuwq14OZ",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5i9Wvt4ROETSc0C",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6GwfwgEcDURZolS",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7MznT0e63NxT78H",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1aSdmcJTFhWe6aJ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_190KyCzCvzho4nn",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=4.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_2w0sHgW454dwT9G",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7QuPBVdl0TBfWCM",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7nCRp8KAz11I1wr",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_52xdOD47wIZpmUC",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6dgKRrH3Sw9GoK8",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7BxhEsnilRPL9cC",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1R9Dxcn0fhmYyIp",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_79mhkEYXqDULC7f",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5TBrjVIFt5ucZ7X",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5QV1hxMV1TKZK81",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_53Ba8GjVZ72CpA1",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7Kjr0wrdVgzTmOV",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4ha76m98aERDp3T",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=8.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7PMLlkRfhUaYMSJ",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3JCxtx4Lp7nbOXJ",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=1.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3D10yT1EWQu1NvW",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=2.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5qVu0j4sXV74eBW",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1bNpZgZ4DJPVG6U",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_325G5yxyRVNx3KF",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3ZSqTbyBq0w2iSR",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7PAFpDm4ZFCSFOz",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4qmz2BMDj06B6Io",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4nCxvuc2RPJPcdj",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4e9XEge1JY89l2W",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=8.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7v75l86OsyeFO9P",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5iWqVwJP9HAoIaa",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3QaHQQZRyOJDCDv",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3uPBR5figTXPe15",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6ME8rtQ2l1ZKeVc",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3urAfFI1xlOy5SF",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4otkdKmCEk5hubE",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4lAe2LuG6K4pCCz",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4cCu7uOeRzenbLl",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4R8NUxP2yp9f1dy",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6Jg6AmCJTJoZjfh",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3myl44VijkYx8QR",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4HpgitlWuFPlC02",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_1H6Q7ld8DeyQumR",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4VCvsedxB7XaQ8D",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_8eqtmVsuM8xHWAF",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_2snqhUTyQlM1yjg",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_6ZXenS2xe3lEVsB",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4HrYhZHVcBcg9SF",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4LbZd5xPz9ouXRw",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3QEAFmWo0I5fo7n",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4GebOU5v9GIjfkw",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4qhW4wqkCyWsLEl",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_62nTap0wXONCT83",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5g7y7Iv8QMVp5xr",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1PWZbO1EiHjZsno",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7PiXQC1GS16kKtn",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_1cuVS17sLcCAg9o",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7Pp0qqOXBQHUCA1",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4n2hh1MVdUlVTL4",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_32A4u81qiBVXC47",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_64w1NRBR2i4kDSn",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6LcBgN5lgah49zL",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4xzU2y76ps2KEUI",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=6.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5D8z7jdulZcATPb",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5DckWOrP7wBiaCS",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7hSV5vze22oAI1c",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6m2ftEKjN9P0zBU",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4gl6kHZW3hFnGTf",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6rHsZpTFmriZoWZ",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=7.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1zT6lZxLJbz4P77",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=7.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5gm1UY4EN9blxEB",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_870oKMXfRxuZx1D",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6Ptk8V1w5picz9h",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7p5Pb3drIRe0Ve6",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3IYnYyHQ1g31UT9",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7dpQ4wrE8p1ob4J",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=1.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6vDFYGXlT2mt8op",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6eY0TVBclwEcT2s",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_1HoE8BDotlK3gCp",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1KTnTgJZwD4eEXU",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3WwLo5cjN21lGnl",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4SASqpiTHSTT80F",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4JDzJGqb0Q1lWxa",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7LbDYq0UZdF9sTq",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4AMQCos54lpqI9c",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4ovgfeYEd5Es7lw",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6uDJLDod78pZAlS",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4a8LSdUwOTDeYdC",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=4.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4G341jAR8x42v6i",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4pJx9L4SUv3QDeR",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_14AhoXJ6wDlXJXl",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4sn5Y6Xltyx85Fv",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7e2qckcu9TakLB4",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4v07uZKhteLFLGY",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7mMb6gRriKz3j3z",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7GB1nRzjJCTschE",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_1OiZk8M7cx4NtSI",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_40yMnGKqnpK2a3L",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7kTRW19ZU5OKlft",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=2.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6pFEcN0lJLn9zAR",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1nEMlXF7kqMI8iB",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_32tN4Xj8NCkSWqZ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1pJljSI5KetVzSu",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=1.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1Jrec9CGP6GmrGH",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5sT53bef5hPAt82",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6riSq0YqigzM78J",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3hKcY2afW4tF2zF",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_43yjPqsj5Pq6PwS",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4EaNfG3JIBQI2jn",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=4.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_7mluoQxGbStxKYv",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_314xe0KcrSkM4nE",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3nveL0fO9hxRbQR",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7on6hiEfY0uV4Ax",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=1.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4YLki9bDE0mcfJy",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1wcXu3E8DjFKnfc",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5buQKjNAQmjItRD",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_424lluj7ruOEiT3",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_53CmuFujg9o0xbp",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=1.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_4gApE9ZHpj7orys",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5nfuWJ86na0OJES",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=2.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_7TfBJYTJgDeG7C1",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=1.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_8YV2rWs4bZFpKV3",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6RtE9sDSx3z83jb",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5nc38PhAsF7uxdc",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3mL6ndjjpCEwm2S",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=8.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_48HyIDG9LJEFQxK",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4zYiodksB6PjtHV",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=3.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_44u9ZktR8eO6urP",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=6.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6HkHwklhDijvLW6",
+    "background": "UMass CS student, status_level=6.0, n_courses_planned=1.0, n_preferences_given=28"
+  },
+  {
+    "id": "R_3qgjnyOw2tYLXfC",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_72ztLrrTRRuPDgh",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_671F5fqiIneinSt",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_45WIAkTGzlzJwfS",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3hgdQBivJsGZuHb",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_68pm9WPukABaCyJ",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7QlyQcUQ2UQtRLO",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4d0uy5195X8vFI3",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5phkMyfKQN81nxG",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5JIQ1AoqAi80cW6",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5rihrySP7lOXAUm",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4tyfPemJ8KQlx1d",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3pmTBS0AawyUQV3",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3CH4Ggi5PgZRQv1",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3nctydnIt4TyNko",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7KHEBoJKDq43z6s",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7J7USYIuZYeq4mJ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3aRCRVpvwnwtRdG",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6RwN0sf9i7afw58",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_68XUTLnJTOqCSkw",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1madi9Hn0beXtja",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_3hz1p1BtRjuU95z",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1KUVnJ75VxQeRJm",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1pYBAL2GQvhbkyK",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7Oothj70wWHgxsR",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=7.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_18Z1Jw3Ym4xfBWV",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_60MnPYkXilYoeEV",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6KyClueOy2e7xS1",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7TB3cwFDD1RIdI9",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_17ymacno4kj87Nn",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5d5YDgWE5zgKxn4",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3DAYof07LHXBUOt",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7jlWV7V6hjpwXtv",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_51MhsnzMAtewmsx",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7isTuwcI5noFayi",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7qe8rQ8esm7f0Hy",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6dtib80MxSjOu7T",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_42sz8roZ90DWnl2",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6DP97rp0TWtr6Vr",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_70MHPkFt9KA1N3e",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_7wKNKbJvujNuEyf",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7qWGykixWMO0l4u",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7Gvk71cpNAzhbFB",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5qEi3L3ueTwTKfL",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=1.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5TTuOMUqNtskPEB",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6Gof2PRELjrPYBz",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5M9rGeoXaKkOFZD",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4mY8kq04fdbFR4J",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3OVlUoRDxJY69Om",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_7hLA8tiHMxipiuZ",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4fqfoLRbuIiJrQB",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7Vw4d8kzDloUUfb",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6iDi0WTZYLOm9Gx",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4iKBjS1kl5AvJIt",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4Uhc9c11dsEED1D",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4mQMostOuingaAU",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7eaf316McGb3QNW",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3qk4WhnhdbkSa46",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=1.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5PzX5lUolQRhmHT",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3uvXWLcDtMWWbTx",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3nxBjCFrvv74PMI",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6pWCqd3vQiAiF3j",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_7EJp0yXQJsupCNP",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1ZQ5Uc50fLQGbch",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3Zh0phbKxZoIzdf",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3JMeHsgloIYqghP",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3fma2Q3gvy2GuAP",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1aJGD1Ti7dP89Cp",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4EbcA9u1o9Ek6d3",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5PbXBkM8lq8GumX",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=3.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_2E17odanhm9EjLN",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7ltRnm5ZvuRMmNc",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7Ny2bnzqMFAzJaf",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4t4HLlj4gEXfKat",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6fleNtoBZPdMNlW",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5wAKWv51spMXvyg",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7Um3fERof4Cn5TP",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3eRbnviyMQ9V1vn",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_8saWMKhMeZVBrfH",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1AFhqFUqjXQFy6J",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5tkpR3lkiD7WeNH",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1kRPysMu1FYAIgN",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_79ogPj9Zh2E9oNV",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6lLkDmIDtE1NVVk",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1k88PSVdiK25W2v",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_14uWHi7zCBOu8jT",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1ONxK5yPUH6Xg3W",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_61pdVNL4Y5Xsfsc",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6btzroZD7gZ1bX3",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_1etyeKwEvOCzjZz",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_18qMJd3ERUFw3DP",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=7.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_38LWXQoysFVYtTH",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5mVELpcsyUBKrZO",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_8epT2H0N4p7loRz",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_66Y5dkKRquay3HX",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3uF1CFmTPLJ82Yi",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6Bz0SlhHpLPCQ2b",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_6kSQwYka0oR04h3",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1c5tVLfRAnawBBY",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3q3od0J6LcDMM7W",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_8hFEfV5o3QNSRal",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_5W0zy2seEsWaTQZ",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5dFdLXDUrIiOWi2",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1ohxQ7cemBePfuZ",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6KSzo4oHpL5HLsB",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7fw1SjpQQMpx41D",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5Wp9xq0ukFmWzv3",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3vk8gH0wEdKxBlY",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_6qSWZcPgeXTkMAp",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5chCzj12JgE1Hl7",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3U9qvHORvS6QF0y",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_3EhH1X9fsMK13qs",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=6.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_56hbNx9GZY7grNZ",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4Ey20GZkBoyfWDv",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_32sTqsmaxsatOJ9",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4ay3MXCYq5IAoss",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_3I5d41f1nB0QISF",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=3.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5tEBVTB5AU3aBrk",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4iKP9d42m5NoBfr",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_523YVFyzSW41iVO",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=7.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_1L6X5s19Z104ljj",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_6gBzuRzwMA4KZ83",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4QsSxXxx8EBuNwd",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_4N9Q1oRmy8vBi4r",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=6.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4YjGn1lzuA87XfH",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4sXCh3DnjSN7kvK",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_5JE0Xk2Q6qDlmFP",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4J6fCYi9PawVKzn",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_6UfkAZAQCQ9W6l7",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_44CKvweAJF1v6nb",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7CxbB5mPzcW38NH",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=4.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_7Ep2tLl3UnzrAA0",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4EHfmMzjUCModu9",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=3.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_1wuiN5KAmixWLe3",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4pWWU405SShifLz",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6YmINIhHyiKKhQr",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=5.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5rGgttxq7Leazgh",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_4YLlyfgfSNDY91Y",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4CIP69TZQDN6ub1",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=6.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4Hum7zHF3r0kMOj",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_2D0mDxdm7UXoe7h",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_2MwoRZfasXlSiwV",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4ysy1f5SmLk64oQ",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=6.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4oAzXkz4ZMVWEzt",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_5KfliRaK07L004U",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=5.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_2erSFQIYt5IQYdU",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_8vXJCd8MjWCmQet",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=4.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_732vol0yoIMzD1e",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=5.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_6dPTz1dltvmLa05",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=5.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_4S1sUBIeEdq5Ycb",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_4XmOqRKlfbrKfO9",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=8.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7oL22mwwoQVf9jH",
+    "background": "UMass CS student, status_level=2.0, n_courses_planned=3.0, n_preferences_given=67"
+  },
+  {
+    "id": "R_3rrwafeJcrUeiXP",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=2.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3HB0HRSOcUl6gRy",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_5QMqEiRQSy1S5xG",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=4.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5Yc5v0wRhblyicJ",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=6.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3LUmmBzcEehsIrG",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=3.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_1Uqkbz5HM4z3n8t",
+    "background": "UMass CS student, status_level=3.0, n_courses_planned=4.0, n_preferences_given=72"
+  },
+  {
+    "id": "R_4pX9jZvywkf5QTn",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=2.0, n_preferences_given=29"
+  },
+  {
+    "id": "R_7KooQx6JXytVlkA",
+    "background": "UMass CS student, status_level=5.0, n_courses_planned=5.0, n_preferences_given=27"
+  },
+  {
+    "id": "R_5IaSfLMtHyyqcoF",
+    "background": "UMass CS student, status_level=4.0, n_courses_planned=1.0, n_preferences_given=83"
+  },
+  {
+    "id": "R_3YyUwFkCcPwOkbt",
+    "background": "UMass CS student, status_level=1.0, n_courses_planned=4.0, n_preferences_given=29"
+  }
+]

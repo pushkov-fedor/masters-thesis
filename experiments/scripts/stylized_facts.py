@@ -14,8 +14,10 @@
 """
 from __future__ import annotations
 
+import argparse
 import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 import numpy as np
@@ -36,29 +38,57 @@ def load_conference():
     )
 
 
-def attendance_per_talk_from_logs(conf, results_path: Path):
-    """Из results.json достаём hall_load_per_slot для каждой политики и считаем
-    через инверсию: на самом деле hall_load это не per_talk. Нам нужно симуляцию
-    переснять. Для Pareto используем decisions из agent_validation, если есть."""
-    # Попробуем взять agent_validation_v2_mobius_2025_autumn__100agents_no_chat.json
-    # там есть decisions (talk_id посещённый каждым агентом)
-    cand = ROOT / "results" / "agent_validation_v2_mobius_2025_autumn__100agents_no_chat.json"
-    if not cand.exists():
-        cand = ROOT / "results" / "agent_validation_v2_mobius_2025_autumn_v2.json"
-    if not cand.exists():
-        # fallback: пересчитать через симуляцию
+def attendance_per_talk_from_logs(conf, results_path: Path, src_file: str = None):
+    """Из results.json достаём decisions и считаем количество посещений на talk.
+
+    Поддерживает два формата:
+    - старый (agent_validation_full50.json): decision={'decision': talk_id}
+    - новый (llm_agents_*.json): decision={'chosen': talk_id}
+    """
+    candidates = []
+    if src_file:
+        candidates = [ROOT / "results" / src_file]
+    else:
+        for name in ["agent_validation_full50.json",
+                     "agent_validation_v2_mobius_2025_autumn__100agents_no_chat.json",
+                     "llm_agents_mobius_2025_autumn_n50_no_loads_seq.json",
+                     "llm_agents_mobius_2025_autumn_n50.json"]:
+            p = ROOT / "results" / name
+            if p.exists():
+                candidates.append(p)
+    if not candidates:
         return None
+    cand = candidates[0]
     with open(cand) as f:
         data = json.load(f)
+    print(f"Reading attendance from: {cand.name}")
     by_policy = {}
     for pname, res in data["results"].items():
         counts = {}
         for d in res["decisions"]:
-            tid = d.get("decision")
+            tid = d.get("decision") or d.get("chosen")
             if tid and tid != "skip":
                 counts[tid] = counts.get(tid, 0) + 1
         by_policy[pname] = counts
     return by_policy
+
+
+def decisions_per_user_from_logs(conf, src_file: str):
+    """Возвращает dict[policy] -> dict[user_id] -> list[talk_id_in_order]."""
+    p = ROOT / "results" / src_file
+    if not p.exists():
+        return {}
+    data = json.load(open(p))
+    out = {}
+    for pname, res in data["results"].items():
+        per_user = defaultdict(list)
+        for d in res["decisions"]:
+            tid = d.get("decision") or d.get("chosen")
+            uid = d.get("agent_id")
+            if tid and tid != "skip":
+                per_user[uid].append(tid)
+        out[pname] = dict(per_user)
+    return out
 
 
 def fact_1_pareto(by_policy_counts, conf):
@@ -104,30 +134,44 @@ def fact_1_pareto(by_policy_counts, conf):
     return out
 
 
-def fact_2_time_of_day(by_policy_decisions, conf):
-    """Time-of-day: утренние слоты популярнее. Регрессия attendance vs slot_num."""
+def fact_2_time_of_day(by_policy_decisions, conf, src_file: str = None):
+    """Time-of-day: утренние слоты популярнее. Регрессия attendance vs slot_num.
+    Поддерживает оба формата (decision/chosen, slot_num/slot_id)."""
     out = {}
     slot_id_to_num = {s.id: i for i, s in enumerate(conf.slots)}
     n_slots = len(conf.slots)
 
-    cand = ROOT / "results" / "agent_validation_v2_mobius_2025_autumn__100agents_no_chat.json"
-    if not cand.exists():
-        cand = ROOT / "results" / "agent_validation_v2_mobius_2025_autumn_v2.json"
-    if not cand.exists():
+    candidates = []
+    if src_file:
+        candidates = [ROOT / "results" / src_file]
+    else:
+        for name in ["agent_validation_full50.json",
+                     "llm_agents_mobius_2025_autumn_n50_no_loads_seq.json",
+                     "llm_agents_mobius_2025_autumn_n50.json"]:
+            p = ROOT / "results" / name
+            if p.exists():
+                candidates.append(p)
+    if not candidates:
         return out
-    with open(cand) as f:
+    with open(candidates[0]) as f:
         data = json.load(f)
 
     for pname, res in data["results"].items():
         per_slot = np.zeros(n_slots)
         per_slot_skips = np.zeros(n_slots)
         for d in res["decisions"]:
-            sn = d["slot_num"] - 1  # 1-indexed → 0
+            # старый формат: slot_num (1-indexed)
+            if "slot_num" in d:
+                sn = d["slot_num"] - 1
+            else:
+                # новый формат: slot_id → ищем по conf
+                sn = slot_id_to_num.get(d.get("slot_id"), -1)
             if sn < 0 or sn >= n_slots:
                 continue
-            if d["decision"] == "skip":
+            decision = d.get("decision") or d.get("chosen")
+            if decision is None or decision == "skip":
                 per_slot_skips[sn] += 1
-            elif d["decision"]:
+            else:
                 per_slot[sn] += 1
         total_per_slot = per_slot + per_slot_skips
         attended_share = per_slot / np.maximum(total_per_slot, 1)
@@ -140,36 +184,45 @@ def fact_2_time_of_day(by_policy_decisions, conf):
             "p_value": float(p),
             "r": float(r),
             "decline_per_10_slots": float(slope * 10),
-            "fact_holds": bool(slope < 0 and p < 0.05),  # негативный наклон значим
+            "fact_holds": bool(slope < 0 and p < 0.05),
         }
     return out
 
 
-def fact_3_track_affinity(by_policy_decisions, conf):
+def fact_3_track_affinity(by_policy_decisions, conf, src_file: str = None):
     """Track-affinity: каждый пользователь концентрируется вокруг 1-3 категорий.
     Метрика: средний нормированный entropy of attended categories per user.
     Низкий entropy = высокая концентрация (фактор подтверждается).
+    Поддерживает оба формата (decision/chosen).
     """
     out = {}
-    cand = ROOT / "results" / "agent_validation_v2_mobius_2025_autumn__100agents_no_chat.json"
-    if not cand.exists():
-        cand = ROOT / "results" / "agent_validation_v2_mobius_2025_autumn_v2.json"
-    if not cand.exists():
+    candidates = []
+    if src_file:
+        candidates = [ROOT / "results" / src_file]
+    else:
+        for name in ["agent_validation_full50.json",
+                     "llm_agents_mobius_2025_autumn_n50_no_loads_seq.json",
+                     "llm_agents_mobius_2025_autumn_n50.json"]:
+            p = ROOT / "results" / name
+            if p.exists():
+                candidates.append(p)
+    if not candidates:
         return out
-    with open(cand) as f:
+    with open(candidates[0]) as f:
         data = json.load(f)
 
     talk_to_cat = {tid: t.category for tid, t in conf.talks.items()}
     categories = sorted({t.category for t in conf.talks.values()})
     n_cats = len(categories)
-    max_entropy = np.log(n_cats)  # uniform baseline
+    max_entropy = np.log(n_cats)
 
     for pname, res in data["results"].items():
         per_user = {}
         for d in res["decisions"]:
-            if d["decision"] == "skip" or not d["decision"]:
+            decision = d.get("decision") or d.get("chosen")
+            if decision is None or decision == "skip":
                 continue
-            cat = talk_to_cat.get(d["decision"], "Unknown")
+            cat = talk_to_cat.get(decision, "Unknown")
             per_user.setdefault(d["agent_id"], []).append(cat)
 
         entropies = []
@@ -217,10 +270,18 @@ def fact_3_track_affinity(by_policy_decisions, conf):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--src", default=None,
+                    help="имя JSON-файла в results/ (auto-detect если не указано)")
+    ap.add_argument("--out-suffix", default="",
+                    help="суффикс к stylized_facts{suffix}.json")
+    args = ap.parse_args()
+
     conf = load_conference()
-    counts_by_policy = attendance_per_talk_from_logs(conf, ROOT / "results")
+    counts_by_policy = attendance_per_talk_from_logs(conf, ROOT / "results",
+                                                     src_file=args.src)
     if not counts_by_policy:
-        print("Не найдено логов с decisions. Сначала запустите run_agent_validation_v2.")
+        print("Не найдено логов с decisions.")
         return
 
     print(f"Loaded decisions for {len(counts_by_policy)} policies\n")
@@ -232,14 +293,14 @@ def main():
               f"KS_p={m['ks_p_value']:.4f}, Pareto={'✓' if m['pareto_holds'] else '✗'}")
 
     print("\n=== Stylized Fact 2: Time-of-day (наклон attendance vs slot) ===")
-    tod = fact_2_time_of_day(counts_by_policy, conf)
+    tod = fact_2_time_of_day(counts_by_policy, conf, src_file=args.src)
     for p, m in tod.items():
         print(f"  {p:<22} slope={m['slope']:+.4f}, p={m['p_value']:.4f}, "
               f"decline_per_10_slots={m['decline_per_10_slots']:+.3f}, "
               f"holds={'✓' if m['fact_holds'] else '✗'}")
 
     print("\n=== Stylized Fact 3: Track-affinity (entropy of categories per user) ===")
-    aff = fact_3_track_affinity(counts_by_policy, conf)
+    aff = fact_3_track_affinity(counts_by_policy, conf, src_file=args.src)
     for p, m in aff.items():
         print(f"  {p:<22} norm_H={m['normalized_entropy']:.3f}, "
               f"random_H={m['random_baseline_entropy']:.3f}, "
@@ -252,7 +313,8 @@ def main():
         "fact_2_time_of_day": tod,
         "fact_3_track_affinity": aff,
     }
-    out_path = ROOT / "results" / "stylized_facts.json"
+    suffix = args.out_suffix or ""
+    out_path = ROOT / "results" / f"stylized_facts{suffix}.json"
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     print(f"\nWROTE: {out_path}")

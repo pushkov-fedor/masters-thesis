@@ -1,0 +1,1509 @@
+{
+  "name": "UMass CICS Course Allocation Fall 2024",
+  "talks": [
+    {
+      "id": "101-01",
+      "title": "DEPT 101-01",
+      "hall": 0,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "101",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "102-01",
+      "title": "DEPT 102-01",
+      "hall": 1,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "102",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "102-02",
+      "title": "DEPT 102-02",
+      "hall": 2,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "102",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "102-03",
+      "title": "DEPT 102-03",
+      "hall": 3,
+      "slot_id": "Mon Wed-08:30 AM - 09:45 AM",
+      "category": "102",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 08:30 AM - 09:45 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "102-04",
+      "title": "DEPT 102-04",
+      "hall": 4,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "102",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "102-05",
+      "title": "DEPT 102-05",
+      "hall": 5,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "102",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "102-06",
+      "title": "DEPT 102-06",
+      "hall": 6,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "102",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "102-07",
+      "title": "DEPT 102-07",
+      "hall": 7,
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "category": "102",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 10:00 AM - 11:15 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "103-01",
+      "title": "DEPT 103-01",
+      "hall": 8,
+      "slot_id": "Mon Wed Fri-01:25 PM - 02:15 PM",
+      "category": "103",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed Fri, Time: 01:25 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "104-01",
+      "title": "DEPT 104-01",
+      "hall": 9,
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "category": "104",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "105-01",
+      "title": "DEPT 105-01",
+      "hall": 10,
+      "slot_id": "Tue Thu-08:30 AM - 09:45 AM",
+      "category": "105",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 08:30 AM - 09:45 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "105-02",
+      "title": "DEPT 105-02",
+      "hall": 11,
+      "slot_id": "Tue Thu-05:30 PM - 06:45 PM",
+      "category": "105",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 05:30 PM - 06:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "201-01",
+      "title": "DEPT 201-01",
+      "hall": 12,
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "category": "201",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 10:00 AM - 11:15 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "202-01",
+      "title": "DEPT 202-01",
+      "hall": 13,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "202",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "203-01",
+      "title": "DEPT 203-01",
+      "hall": 14,
+      "slot_id": "Mon Wed-05:30 PM - 06:45 PM",
+      "category": "203",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 05:30 PM - 06:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "203-02",
+      "title": "DEPT 203-02",
+      "hall": 15,
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "category": "203",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "204-01",
+      "title": "DEPT 204-01",
+      "hall": 16,
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "category": "204",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "205-01",
+      "title": "DEPT 205-01",
+      "hall": 17,
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "category": "205",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "205-02",
+      "title": "DEPT 205-02",
+      "hall": 18,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "205",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "206-01",
+      "title": "DEPT 206-01",
+      "hall": 19,
+      "slot_id": "Tue-10:00 AM - 11:15 AM",
+      "category": "206",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue, Time: 10:00 AM - 11:15 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "207-01",
+      "title": "DEPT 207-01",
+      "hall": 20,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "207",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "207-02",
+      "title": "DEPT 207-02",
+      "hall": 21,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "207",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "208-01",
+      "title": "DEPT 208-01",
+      "hall": 22,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "208",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "209-01",
+      "title": "DEPT 209-01",
+      "hall": 23,
+      "slot_id": "Mon Wed Fri-01:25 PM - 02:15 PM",
+      "category": "209",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed Fri, Time: 01:25 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "209-02",
+      "title": "DEPT 209-02",
+      "hall": 24,
+      "slot_id": "Mon Wed Fri-10:10 AM - 11:00 AM",
+      "category": "209",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed Fri, Time: 10:10 AM - 11:00 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "210-01",
+      "title": "DEPT 210-01",
+      "hall": 25,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "210",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-01",
+      "title": "DEPT 301-01",
+      "hall": 26,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-03",
+      "title": "DEPT 301-03",
+      "hall": 27,
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 10:00 AM - 11:15 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-05",
+      "title": "DEPT 301-05",
+      "hall": 28,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-07",
+      "title": "DEPT 301-07",
+      "hall": 29,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-09",
+      "title": "DEPT 301-09",
+      "hall": 30,
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-11",
+      "title": "DEPT 301-11",
+      "hall": 31,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-13",
+      "title": "DEPT 301-13",
+      "hall": 32,
+      "slot_id": "Tue Thu-02:30 PM - 03:45 PM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-15",
+      "title": "DEPT 301-15",
+      "hall": 33,
+      "slot_id": "Mon Wed Fri-10:10 AM - 11:00 AM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed Fri, Time: 10:10 AM - 11:00 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-17",
+      "title": "DEPT 301-17",
+      "hall": 34,
+      "slot_id": "Mon Wed Fri-11:15 AM - 12:05 PM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed Fri, Time: 11:15 AM - 12:05 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-19",
+      "title": "DEPT 301-19",
+      "hall": 35,
+      "slot_id": "Mon Wed Fri-12:20 PM - 01:10 PM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed Fri, Time: 12:20 PM - 01:10 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-21",
+      "title": "DEPT 301-21",
+      "hall": 36,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "301-23",
+      "title": "DEPT 301-23",
+      "hall": 37,
+      "slot_id": "Mon Wed Fri-09:05 AM - 09:55 AM",
+      "category": "301",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed Fri, Time: 09:05 AM - 09:55 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "302-01",
+      "title": "DEPT 302-01",
+      "hall": 38,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "302",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "302-02",
+      "title": "DEPT 302-02",
+      "hall": 39,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "302",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "303-01",
+      "title": "DEPT 303-01",
+      "hall": 40,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "303",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "303-02",
+      "title": "DEPT 303-02",
+      "hall": 41,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "303",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "303-03",
+      "title": "DEPT 303-03",
+      "hall": 42,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "303",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "303-04",
+      "title": "DEPT 303-04",
+      "hall": 43,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "303",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "304-01",
+      "title": "DEPT 304-01",
+      "hall": 44,
+      "slot_id": "Tue Thu-02:30 PM - 03:45 PM",
+      "category": "304",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "305-01",
+      "title": "DEPT 305-01",
+      "hall": 45,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "305",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "306-01",
+      "title": "DEPT 306-01",
+      "hall": 46,
+      "slot_id": "Tue-01:00 PM - 02:15 PM",
+      "category": "306",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "306-02",
+      "title": "DEPT 306-02",
+      "hall": 47,
+      "slot_id": "Thu-01:00 PM - 02:15 PM",
+      "category": "306",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "307-01",
+      "title": "DEPT 307-01",
+      "hall": 48,
+      "slot_id": "Mon Wed Fri-01:25 PM - 02:15 PM",
+      "category": "307",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed Fri, Time: 01:25 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "308-01",
+      "title": "DEPT 308-01",
+      "hall": 49,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "308",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "309-01",
+      "title": "DEPT 309-01",
+      "hall": 50,
+      "slot_id": "Mon-10:10 AM - 12:05 PM",
+      "category": "309",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon, Time: 10:10 AM - 12:05 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "309-02",
+      "title": "DEPT 309-02",
+      "hall": 51,
+      "slot_id": "Wed-10:10 AM - 12:05 PM",
+      "category": "309",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Wed, Time: 10:10 AM - 12:05 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "310-01",
+      "title": "DEPT 310-01",
+      "hall": 52,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "310",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "311-01",
+      "title": "DEPT 311-01",
+      "hall": 53,
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "category": "311",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 10:00 AM - 11:15 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "312-01",
+      "title": "DEPT 312-01",
+      "hall": 54,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "312",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "313-01",
+      "title": "DEPT 313-01",
+      "hall": 55,
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "category": "313",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 10:00 AM - 11:15 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "314-01",
+      "title": "DEPT 314-01",
+      "hall": 56,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "314",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "315-01",
+      "title": "DEPT 315-01",
+      "hall": 57,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "315",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "401-01",
+      "title": "DEPT 401-01",
+      "hall": 58,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "401",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "402-01",
+      "title": "DEPT 402-01",
+      "hall": 59,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "402",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "403-01",
+      "title": "DEPT 403-01",
+      "hall": 60,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "403",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "403-02",
+      "title": "DEPT 403-02",
+      "hall": 61,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "403",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "403-03",
+      "title": "DEPT 403-03",
+      "hall": 62,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "403",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "403-04",
+      "title": "DEPT 403-04",
+      "hall": 63,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "403",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "404-01",
+      "title": "DEPT 404-01",
+      "hall": 64,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "404",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "405-01",
+      "title": "DEPT 405-01",
+      "hall": 65,
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "category": "405",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "406-01",
+      "title": "DEPT 406-01",
+      "hall": 66,
+      "slot_id": "Tue Thu-02:30 PM - 03:45 PM",
+      "category": "406",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "408-01",
+      "title": "DEPT 408-01",
+      "hall": 67,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "408",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "409-01",
+      "title": "DEPT 409-01",
+      "hall": 68,
+      "slot_id": "Mon Wed-10:10 AM - 11:25 AM",
+      "category": "409",
+      "abstract": "Subject: DEPT, Categories: UGRD, Days: Mon Wed, Time: 10:10 AM - 11:25 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "501-01",
+      "title": "DEPT 501-01",
+      "hall": 69,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "501",
+      "abstract": "Subject: DEPT, Categories: L500, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "502-01",
+      "title": "DEPT 502-01",
+      "hall": 70,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "502",
+      "abstract": "Subject: DEPT, Categories: L500, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "503-01",
+      "title": "DEPT 503-01",
+      "hall": 71,
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "category": "503",
+      "abstract": "Subject: DEPT, Categories: L500, Days: Tue Thu, Time: 10:00 AM - 11:15 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "504-01",
+      "title": "DEPT 504-01",
+      "hall": 72,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "504",
+      "abstract": "Subject: DEPT, Categories: L500, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "505-01",
+      "title": "DEPT 505-01",
+      "hall": 73,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "505",
+      "abstract": "Subject: DEPT, Categories: L500, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "506-01",
+      "title": "DEPT 506-01",
+      "hall": 74,
+      "slot_id": "Tue-05:30 PM - 06:45 PM",
+      "category": "506",
+      "abstract": "Subject: DEPT, Categories: L500, Days: Tue, Time: 05:30 PM - 06:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "507-01",
+      "title": "DEPT 507-01",
+      "hall": 75,
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "category": "507",
+      "abstract": "Subject: DEPT, Categories: L500, Days: Tue Thu, Time: 10:00 AM - 11:15 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "508-01",
+      "title": "DEPT 508-01",
+      "hall": 76,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "508",
+      "abstract": "Subject: DEPT, Categories: L500, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "510-01",
+      "title": "DEPT 510-01",
+      "hall": 77,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "510",
+      "abstract": "Subject: DEPT, Categories: L500, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "601-01",
+      "title": "DEPT 601-01",
+      "hall": 78,
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "category": "601",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue Thu, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "602-01",
+      "title": "DEPT 602-01",
+      "hall": 79,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "602",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "603-01",
+      "title": "DEPT 603-01",
+      "hall": 80,
+      "slot_id": "Tue Thu-02:30 PM - 03:45 PM",
+      "category": "603",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue Thu, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "604-01",
+      "title": "DEPT 604-01",
+      "hall": 81,
+      "slot_id": "Tue Thu-02:30 PM - 03:45 PM",
+      "category": "604",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue Thu, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "605-01",
+      "title": "DEPT 605-01",
+      "hall": 82,
+      "slot_id": "Mon Wed-12:20 PM - 01:35 PM",
+      "category": "605",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Mon Wed, Time: 12:20 PM - 01:35 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "606-01",
+      "title": "DEPT 606-01",
+      "hall": 83,
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "category": "606",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue Thu, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "607-01",
+      "title": "DEPT 607-01",
+      "hall": 84,
+      "slot_id": "Mon Wed-10:10 AM - 11:25 AM",
+      "category": "607",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Mon Wed, Time: 10:10 AM - 11:25 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "608-01",
+      "title": "DEPT 608-01",
+      "hall": 85,
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "category": "608",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue Thu, Time: 11:30 AM - 12:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "609-01",
+      "title": "DEPT 609-01",
+      "hall": 86,
+      "slot_id": "Tue-04:00 PM - 05:15 PM",
+      "category": "609",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "610-01",
+      "title": "DEPT 610-01",
+      "hall": 87,
+      "slot_id": "Tue Thu-02:30 PM - 03:45 PM",
+      "category": "610",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue Thu, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "611-01",
+      "title": "DEPT 611-01",
+      "hall": 88,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "611",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "612-01",
+      "title": "DEPT 612-01",
+      "hall": 89,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "612",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "613-01",
+      "title": "DEPT 613-01",
+      "hall": 90,
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "category": "613",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue Thu, Time: 01:00 PM - 02:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "614-01",
+      "title": "DEPT 614-01",
+      "hall": 91,
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "category": "614",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue Thu, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "615-01",
+      "title": "DEPT 615-01",
+      "hall": 92,
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "category": "615",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Mon Wed, Time: 04:00 PM - 05:15 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "616-01",
+      "title": "DEPT 616-01",
+      "hall": 93,
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "category": "616",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Tue Thu, Time: 10:00 AM - 11:15 AM",
+      "fame": 0.0
+    },
+    {
+      "id": "617-01",
+      "title": "DEPT 617-01",
+      "hall": 94,
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "category": "617",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Mon Wed, Time: 02:30 PM - 03:45 PM",
+      "fame": 0.0
+    },
+    {
+      "id": "621-01",
+      "title": "DEPT 621-01",
+      "hall": 95,
+      "slot_id": "Wed-05:30 PM - 06:20 PM",
+      "category": "621",
+      "abstract": "Subject: DEPT, Categories: L600, Days: Wed, Time: 05:30 PM - 06:20 PM",
+      "fame": 0.0
+    }
+  ],
+  "halls": [
+    {
+      "id": 0,
+      "capacity": 90
+    },
+    {
+      "id": 1,
+      "capacity": 60
+    },
+    {
+      "id": 2,
+      "capacity": 60
+    },
+    {
+      "id": 3,
+      "capacity": 55
+    },
+    {
+      "id": 4,
+      "capacity": 60
+    },
+    {
+      "id": 5,
+      "capacity": 60
+    },
+    {
+      "id": 6,
+      "capacity": 60
+    },
+    {
+      "id": 7,
+      "capacity": 60
+    },
+    {
+      "id": 8,
+      "capacity": 150
+    },
+    {
+      "id": 9,
+      "capacity": 55
+    },
+    {
+      "id": 10,
+      "capacity": 150
+    },
+    {
+      "id": 11,
+      "capacity": 150
+    },
+    {
+      "id": 12,
+      "capacity": 65
+    },
+    {
+      "id": 13,
+      "capacity": 40
+    },
+    {
+      "id": 14,
+      "capacity": 120
+    },
+    {
+      "id": 15,
+      "capacity": 120
+    },
+    {
+      "id": 16,
+      "capacity": 240
+    },
+    {
+      "id": 17,
+      "capacity": 120
+    },
+    {
+      "id": 18,
+      "capacity": 120
+    },
+    {
+      "id": 19,
+      "capacity": 40
+    },
+    {
+      "id": 20,
+      "capacity": 150
+    },
+    {
+      "id": 21,
+      "capacity": 150
+    },
+    {
+      "id": 22,
+      "capacity": 75
+    },
+    {
+      "id": 23,
+      "capacity": 140
+    },
+    {
+      "id": 24,
+      "capacity": 140
+    },
+    {
+      "id": 25,
+      "capacity": 48
+    },
+    {
+      "id": 26,
+      "capacity": 22
+    },
+    {
+      "id": 27,
+      "capacity": 24
+    },
+    {
+      "id": 28,
+      "capacity": 26
+    },
+    {
+      "id": 29,
+      "capacity": 24
+    },
+    {
+      "id": 30,
+      "capacity": 24
+    },
+    {
+      "id": 31,
+      "capacity": 26
+    },
+    {
+      "id": 32,
+      "capacity": 26
+    },
+    {
+      "id": 33,
+      "capacity": 24
+    },
+    {
+      "id": 34,
+      "capacity": 24
+    },
+    {
+      "id": 35,
+      "capacity": 26
+    },
+    {
+      "id": 36,
+      "capacity": 21
+    },
+    {
+      "id": 37,
+      "capacity": 26
+    },
+    {
+      "id": 38,
+      "capacity": 165
+    },
+    {
+      "id": 39,
+      "capacity": 165
+    },
+    {
+      "id": 40,
+      "capacity": 50
+    },
+    {
+      "id": 41,
+      "capacity": 50
+    },
+    {
+      "id": 42,
+      "capacity": 50
+    },
+    {
+      "id": 43,
+      "capacity": 50
+    },
+    {
+      "id": 44,
+      "capacity": 40
+    },
+    {
+      "id": 45,
+      "capacity": 100
+    },
+    {
+      "id": 46,
+      "capacity": 100
+    },
+    {
+      "id": 47,
+      "capacity": 100
+    },
+    {
+      "id": 48,
+      "capacity": 66
+    },
+    {
+      "id": 49,
+      "capacity": 55
+    },
+    {
+      "id": 50,
+      "capacity": 99
+    },
+    {
+      "id": 51,
+      "capacity": 99
+    },
+    {
+      "id": 52,
+      "capacity": 75
+    },
+    {
+      "id": 53,
+      "capacity": 48
+    },
+    {
+      "id": 54,
+      "capacity": 36
+    },
+    {
+      "id": 55,
+      "capacity": 180
+    },
+    {
+      "id": 56,
+      "capacity": 140
+    },
+    {
+      "id": 57,
+      "capacity": 48
+    },
+    {
+      "id": 58,
+      "capacity": 50
+    },
+    {
+      "id": 59,
+      "capacity": 50
+    },
+    {
+      "id": 60,
+      "capacity": 5
+    },
+    {
+      "id": 61,
+      "capacity": 5
+    },
+    {
+      "id": 62,
+      "capacity": 5
+    },
+    {
+      "id": 63,
+      "capacity": 5
+    },
+    {
+      "id": 64,
+      "capacity": 80
+    },
+    {
+      "id": 65,
+      "capacity": 115
+    },
+    {
+      "id": 66,
+      "capacity": 120
+    },
+    {
+      "id": 67,
+      "capacity": 70
+    },
+    {
+      "id": 68,
+      "capacity": 36
+    },
+    {
+      "id": 69,
+      "capacity": 160
+    },
+    {
+      "id": 70,
+      "capacity": 60
+    },
+    {
+      "id": 71,
+      "capacity": 150
+    },
+    {
+      "id": 72,
+      "capacity": 70
+    },
+    {
+      "id": 73,
+      "capacity": 100
+    },
+    {
+      "id": 74,
+      "capacity": 118
+    },
+    {
+      "id": 75,
+      "capacity": 85
+    },
+    {
+      "id": 76,
+      "capacity": 60
+    },
+    {
+      "id": 77,
+      "capacity": 50
+    },
+    {
+      "id": 78,
+      "capacity": 55
+    },
+    {
+      "id": 79,
+      "capacity": 16
+    },
+    {
+      "id": 80,
+      "capacity": 120
+    },
+    {
+      "id": 81,
+      "capacity": 55
+    },
+    {
+      "id": 82,
+      "capacity": 55
+    },
+    {
+      "id": 83,
+      "capacity": 55
+    },
+    {
+      "id": 84,
+      "capacity": 40
+    },
+    {
+      "id": 85,
+      "capacity": 60
+    },
+    {
+      "id": 86,
+      "capacity": 66
+    },
+    {
+      "id": 87,
+      "capacity": 65
+    },
+    {
+      "id": 88,
+      "capacity": 75
+    },
+    {
+      "id": 89,
+      "capacity": 100
+    },
+    {
+      "id": 90,
+      "capacity": 229
+    },
+    {
+      "id": 91,
+      "capacity": 159
+    },
+    {
+      "id": 92,
+      "capacity": 60
+    },
+    {
+      "id": 93,
+      "capacity": 100
+    },
+    {
+      "id": 94,
+      "capacity": 48
+    },
+    {
+      "id": 95,
+      "capacity": 50
+    }
+  ],
+  "slots": [
+    {
+      "id": "Mon Wed Fri-01:25 PM - 02:15 PM",
+      "datetime": "Mon Wed Fri-01:25 PM - 02:15 PM",
+      "talk_ids": [
+        "103-01",
+        "209-01",
+        "307-01"
+      ]
+    },
+    {
+      "id": "Mon Wed Fri-09:05 AM - 09:55 AM",
+      "datetime": "Mon Wed Fri-09:05 AM - 09:55 AM",
+      "talk_ids": [
+        "301-23"
+      ]
+    },
+    {
+      "id": "Mon Wed Fri-10:10 AM - 11:00 AM",
+      "datetime": "Mon Wed Fri-10:10 AM - 11:00 AM",
+      "talk_ids": [
+        "209-02",
+        "301-15"
+      ]
+    },
+    {
+      "id": "Mon Wed Fri-11:15 AM - 12:05 PM",
+      "datetime": "Mon Wed Fri-11:15 AM - 12:05 PM",
+      "talk_ids": [
+        "301-17"
+      ]
+    },
+    {
+      "id": "Mon Wed Fri-12:20 PM - 01:10 PM",
+      "datetime": "Mon Wed Fri-12:20 PM - 01:10 PM",
+      "talk_ids": [
+        "301-19"
+      ]
+    },
+    {
+      "id": "Mon Wed-02:30 PM - 03:45 PM",
+      "datetime": "Mon Wed-02:30 PM - 03:45 PM",
+      "talk_ids": [
+        "202-01",
+        "205-02",
+        "207-01",
+        "208-01",
+        "301-05",
+        "302-02",
+        "310-01",
+        "510-01",
+        "612-01",
+        "617-01"
+      ]
+    },
+    {
+      "id": "Mon Wed-04:00 PM - 05:15 PM",
+      "datetime": "Mon Wed-04:00 PM - 05:15 PM",
+      "talk_ids": [
+        "102-01",
+        "102-05",
+        "102-06",
+        "207-02",
+        "301-07",
+        "303-03",
+        "303-04",
+        "308-01",
+        "401-01",
+        "402-01",
+        "403-03",
+        "403-04",
+        "404-01",
+        "504-01",
+        "505-01",
+        "602-01",
+        "611-01",
+        "615-01"
+      ]
+    },
+    {
+      "id": "Mon Wed-05:30 PM - 06:45 PM",
+      "datetime": "Mon Wed-05:30 PM - 06:45 PM",
+      "talk_ids": [
+        "203-01"
+      ]
+    },
+    {
+      "id": "Mon Wed-08:30 AM - 09:45 AM",
+      "datetime": "Mon Wed-08:30 AM - 09:45 AM",
+      "talk_ids": [
+        "102-03"
+      ]
+    },
+    {
+      "id": "Mon Wed-10:10 AM - 11:25 AM",
+      "datetime": "Mon Wed-10:10 AM - 11:25 AM",
+      "talk_ids": [
+        "409-01",
+        "607-01"
+      ]
+    },
+    {
+      "id": "Mon Wed-12:20 PM - 01:35 PM",
+      "datetime": "Mon Wed-12:20 PM - 01:35 PM",
+      "talk_ids": [
+        "605-01"
+      ]
+    },
+    {
+      "id": "Mon-10:10 AM - 12:05 PM",
+      "datetime": "Mon-10:10 AM - 12:05 PM",
+      "talk_ids": [
+        "309-01"
+      ]
+    },
+    {
+      "id": "Thu-01:00 PM - 02:15 PM",
+      "datetime": "Thu-01:00 PM - 02:15 PM",
+      "talk_ids": [
+        "306-02"
+      ]
+    },
+    {
+      "id": "Tue Thu-01:00 PM - 02:15 PM",
+      "datetime": "Tue Thu-01:00 PM - 02:15 PM",
+      "talk_ids": [
+        "101-01",
+        "102-04",
+        "210-01",
+        "301-11",
+        "303-01",
+        "312-01",
+        "403-01",
+        "501-01",
+        "502-01",
+        "508-01",
+        "613-01"
+      ]
+    },
+    {
+      "id": "Tue Thu-02:30 PM - 03:45 PM",
+      "datetime": "Tue Thu-02:30 PM - 03:45 PM",
+      "talk_ids": [
+        "301-13",
+        "304-01",
+        "406-01",
+        "603-01",
+        "604-01",
+        "610-01"
+      ]
+    },
+    {
+      "id": "Tue Thu-04:00 PM - 05:15 PM",
+      "datetime": "Tue Thu-04:00 PM - 05:15 PM",
+      "talk_ids": [
+        "104-01",
+        "203-02",
+        "204-01",
+        "205-01",
+        "301-09",
+        "405-01",
+        "601-01",
+        "606-01",
+        "614-01"
+      ]
+    },
+    {
+      "id": "Tue Thu-05:30 PM - 06:45 PM",
+      "datetime": "Tue Thu-05:30 PM - 06:45 PM",
+      "talk_ids": [
+        "105-02"
+      ]
+    },
+    {
+      "id": "Tue Thu-08:30 AM - 09:45 AM",
+      "datetime": "Tue Thu-08:30 AM - 09:45 AM",
+      "talk_ids": [
+        "105-01"
+      ]
+    },
+    {
+      "id": "Tue Thu-10:00 AM - 11:15 AM",
+      "datetime": "Tue Thu-10:00 AM - 11:15 AM",
+      "talk_ids": [
+        "102-07",
+        "201-01",
+        "301-03",
+        "311-01",
+        "313-01",
+        "503-01",
+        "507-01",
+        "616-01"
+      ]
+    },
+    {
+      "id": "Tue Thu-11:30 AM - 12:45 PM",
+      "datetime": "Tue Thu-11:30 AM - 12:45 PM",
+      "talk_ids": [
+        "102-02",
+        "301-01",
+        "301-21",
+        "302-01",
+        "303-02",
+        "305-01",
+        "314-01",
+        "315-01",
+        "403-02",
+        "408-01",
+        "608-01"
+      ]
+    },
+    {
+      "id": "Tue-01:00 PM - 02:15 PM",
+      "datetime": "Tue-01:00 PM - 02:15 PM",
+      "talk_ids": [
+        "306-01"
+      ]
+    },
+    {
+      "id": "Tue-04:00 PM - 05:15 PM",
+      "datetime": "Tue-04:00 PM - 05:15 PM",
+      "talk_ids": [
+        "609-01"
+      ]
+    },
+    {
+      "id": "Tue-05:30 PM - 06:45 PM",
+      "datetime": "Tue-05:30 PM - 06:45 PM",
+      "talk_ids": [
+        "506-01"
+      ]
+    },
+    {
+      "id": "Tue-10:00 AM - 11:15 AM",
+      "datetime": "Tue-10:00 AM - 11:15 AM",
+      "talk_ids": [
+        "206-01"
+      ]
+    },
+    {
+      "id": "Wed-05:30 PM - 06:20 PM",
+      "datetime": "Wed-05:30 PM - 06:20 PM",
+      "talk_ids": [
+        "621-01"
+      ]
+    },
+    {
+      "id": "Wed-10:10 AM - 12:05 PM",
+      "datetime": "Wed-10:10 AM - 12:05 PM",
+      "talk_ids": [
+        "309-02"
+      ]
+    }
+  ]
+}

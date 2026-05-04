@@ -1,0 +1,471 @@
+{
+  "config": {
+    "model": "openai/gpt-5.4-mini",
+    "n_pairs": 50,
+    "n_results": 50,
+    "concurrency": 20,
+    "max_history": 10
+  },
+  "metrics": {
+    "B2_prime_accuracy_at_1": 0.20689655172413793,
+    "B2_prime_accuracy_inc_skip": 0.12,
+    "random_baseline": 0.12731457431457432,
+    "n_correct": 6,
+    "n_answered": 29,
+    "n_skipped": 21,
+    "total_cost_usd": 0.004833000000000001,
+    "elapsed_s": 3.7697479724884033
+  },
+  "details": [
+    {
+      "user_id": "R_5OPjQonjYlgJExh",
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "chosen_real": "210-01",
+      "chosen_pred": null,
+      "reason": "Сегодня уже было много докладов, поэтому лучше сделать паузу и не перегружаться без явной рекомендации по интересам.",
+      "n_options": 11,
+      "cost": 0.0001065
+    },
+    {
+      "user_id": "R_4FnweqgddgTw6Ry",
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "chosen_real": "301-11",
+      "chosen_pred": "102-04",
+      "reason": "Нужно не повторять уже посещённые темы и к этому времени лучше выбрать более лёгкий UG-доклад.",
+      "n_options": 11,
+      "cost": 9.89e-05
+    },
+    {
+      "user_id": "R_14DidCYA6ULN8bG",
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "chosen_real": "303-01",
+      "chosen_pred": "502-01",
+      "reason": "Тема 502 выглядит наиболее продвинутой и полезной по профилю, при этом не повторяет уже посещённые курсы.",
+      "n_options": 11,
+      "cost": 0.00010850000000000001
+    },
+    {
+      "user_id": "R_7ToAYIxDpUQKBj6",
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "chosen_real": "312-01",
+      "chosen_pred": "613-01",
+      "reason": "Это более продвинутый курс уровня L600 и не повторяет уже посещенные сегодня темы.",
+      "n_options": 11,
+      "cost": 0.0001045
+    },
+    {
+      "user_id": "R_659DffhMSmsBID7",
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "chosen_real": "301-11",
+      "chosen_pred": "312-01",
+      "reason": "Это UGRD и выглядит самым уместным после уже насыщенного дня, без повторения более высоких уровней.",
+      "n_options": 11,
+      "cost": 0.0001065
+    },
+    {
+      "user_id": "R_5384EEO4YHHr5oK",
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "chosen_real": "210-01",
+      "chosen_pred": "301-11",
+      "reason": "Подходит для UGRD и выглядит менее повторяющим уже посещённые темы, при этом не слишком тяжёлый выбор к середине дня.",
+      "n_options": 11,
+      "cost": 0.0001089
+    },
+    {
+      "user_id": "R_1KUVnJ75VxQeRJm",
+      "slot_id": "Tue Thu-01:00 PM - 02:15 PM",
+      "chosen_real": "210-01",
+      "chosen_pred": "502-01",
+      "reason": "После уже посещённых базовых курсов лучше пойти на более продвинутый L500-уровень, а этот слот выглядит наиболее подходящим по новизне.",
+      "n_options": 11,
+      "cost": 0.0001113
+    },
+    {
+      "user_id": "R_7GDkDwYmplsTpYD",
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "chosen_real": "402-01",
+      "chosen_pred": null,
+      "reason": "Сейчас нет данных о ваших топ-предпочтениях, а после 10 посещений лучше сделать паузу, чем брать случайный доклад.",
+      "n_options": 14,
+      "cost": 0.0001252
+    },
+    {
+      "user_id": "R_6ghZXydAWFEvOoq",
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "chosen_real": "504-01",
+      "chosen_pred": "602-01",
+      "reason": "Это курс из верхнеуровневого блока L600 и он не дублирует уже посещённые сегодня темы.",
+      "n_options": 14,
+      "cost": 0.0001236
+    },
+    {
+      "user_id": "R_1ItqGbfF3oyXTVC",
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "chosen_real": "301-07",
+      "chosen_pred": "602-01",
+      "reason": "Уже было много UGRD и несколько похожих тем, поэтому сейчас лучше взять более высокий уровень 600 и сменить формат.",
+      "n_options": 14,
+      "cost": 0.000124
+    },
+    {
+      "user_id": "R_4xyQdj86YmFLuT5",
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "chosen_real": "301-07",
+      "chosen_pred": null,
+      "reason": "После 10 докладов уже есть риск усталости, а по текущему списку нет явной информации для осознанного выбора.",
+      "n_options": 14,
+      "cost": 0.0001244
+    },
+    {
+      "user_id": "R_314xe0KcrSkM4nE",
+      "slot_id": "Mon Wed-04:00 PM - 05:15 PM",
+      "chosen_real": "301-07",
+      "chosen_pred": "308-01",
+      "reason": "Это UGRD-вариант, а после двух уже посещённых курсов логично выбрать ещё одну базовую тему без повторения уровня.",
+      "n_options": 14,
+      "cost": 0.0001176
+    },
+    {
+      "user_id": "R_3uBRLDnv4CS38Dx",
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "chosen_real": "302-01",
+      "chosen_pred": "303-02",
+      "reason": "Тема 303 выглядит наиболее близкой к моим учебным интересам, а я уже был на 409 и 210, так что лучше не повторять их направления.",
+      "n_options": 10,
+      "cost": 9.84e-05
+    },
+    {
+      "user_id": "R_4rxfwEF07R7WYPB",
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "chosen_real": "102-02",
+      "chosen_pred": "302-01",
+      "reason": "После уже насыщенного дня лучше взять новый UGRD-доклад без повторения ранее посещённых тем.",
+      "n_options": 10,
+      "cost": 0.0001
+    },
+    {
+      "user_id": "R_3JMeHsgloIYqghP",
+      "slot_id": "Tue Thu-11:30 AM - 12:45 PM",
+      "chosen_real": "301-01",
+      "chosen_pred": "608-01",
+      "reason": "Хорошо подходит как более продвинутый доклад в середине дня и не повторяет уже посещённые темы.",
+      "n_options": 10,
+      "cost": 0.0001016
+    },
+    {
+      "user_id": "R_5LPslt4kjb9yXzX",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "313-01",
+      "chosen_pred": "313-01",
+      "reason": "Это UGRD-курс, и после уже посещённых более продвинутых тем сейчас логично выбрать свежую, более лёгкую пару.",
+      "n_options": 8,
+      "cost": 9.180000000000001e-05
+    },
+    {
+      "user_id": "R_1wcotz5KTMkcuVw",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "301-03",
+      "chosen_pred": "311-01",
+      "reason": "Это UGRD-курс и выглядит как более подходящий выбор по профилю студента, без повторения уже посещенных тем.",
+      "n_options": 8,
+      "cost": 9.100000000000002e-05
+    },
+    {
+      "user_id": "R_1hDPQL01BWj4X59",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "301-03",
+      "chosen_pred": "301-03",
+      "reason": "Это undergraduate-курс и, вероятно, ближе к вашему профилю, при этом не дублирует уже посещённые сегодня темы.",
+      "n_options": 8,
+      "cost": 9.220000000000002e-05
+    },
+    {
+      "user_id": "R_6Sk6vzN4UFyXpf1",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "313-01",
+      "chosen_pred": null,
+      "reason": "После уже посещённых курсов лучше сделать паузу, чтобы не перегружаться однотипными докладами.",
+      "n_options": 8,
+      "cost": 8.860000000000001e-05
+    },
+    {
+      "user_id": "R_6ohedJrrOxHQZUu",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "301-03",
+      "chosen_pred": "311-01",
+      "reason": "После нескольких старших курсов лучше переключиться на UGRD, а 311 выглядит как наиболее уместный новый вариант без повторения уже посещённых тем.",
+      "n_options": 8,
+      "cost": 9.300000000000001e-05
+    },
+    {
+      "user_id": "R_1ItqGbfF3oyXTVC",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "301-03",
+      "chosen_pred": null,
+      "reason": "После уже посещенных 10 докладов лучше сделать паузу, чтобы не перегружаться к концу дня.",
+      "n_options": 8,
+      "cost": 8.900000000000002e-05
+    },
+    {
+      "user_id": "R_1bNpZgZ4DJPVG6U",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "503-01",
+      "chosen_pred": null,
+      "reason": "Сейчас нет явной связи с моими топ‑интересами, а после десяти докладов лучше сделать паузу.",
+      "n_options": 8,
+      "cost": 8.980000000000001e-05
+    },
+    {
+      "user_id": "R_1pJljSI5KetVzSu",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "102-07",
+      "chosen_pred": null,
+      "reason": "После уже посещённых 10 докладов лучше сделать паузу, а здесь нет явной информации о соответствии тем вашим приоритетам.",
+      "n_options": 8,
+      "cost": 9.060000000000002e-05
+    },
+    {
+      "user_id": "R_4mQMostOuingaAU",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "102-07",
+      "chosen_pred": null,
+      "reason": "Слишком мало информации о темах и после уже посещённых 10 докладов разумнее сделать паузу, чем идти вслепую.",
+      "n_options": 8,
+      "cost": 9.140000000000001e-05
+    },
+    {
+      "user_id": "R_3HB0HRSOcUl6gRy",
+      "slot_id": "Tue Thu-10:00 AM - 11:15 AM",
+      "chosen_real": "616-01",
+      "chosen_pred": "301-03",
+      "reason": "Это UGRD-курс, а после нескольких upper-level и graduate докладов лучше сменить темп и выбрать более свежую для дня тему.",
+      "n_options": 8,
+      "cost": 9.220000000000002e-05
+    },
+    {
+      "user_id": "R_6VvuD3VN7ctnK8a",
+      "slot_id": "Mon Wed Fri-01:25 PM - 02:15 PM",
+      "chosen_real": "307-01",
+      "chosen_pred": "307-01",
+      "reason": "Из трех вариантов тема 307 выглядит наиболее перспективно и менее похожа на уже посещенные сегодня курсы.",
+      "n_options": 3,
+      "cost": 6.13e-05
+    },
+    {
+      "user_id": "R_6SqcGOCiaCi7ZjP",
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "chosen_real": "405-01",
+      "chosen_pred": null,
+      "reason": "После уже посещенных 10 докладов лучше сделать паузу и не перегружаться однотипными DEPT-сессиями.",
+      "n_options": 9,
+      "cost": 9.58e-05
+    },
+    {
+      "user_id": "R_67KgIgsaLtWg7oZ",
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "chosen_real": "301-09",
+      "chosen_pred": null,
+      "reason": "Без списка ваших рангов по темам лучше не выбирать наугад, тем более уже был насыщенный день.",
+      "n_options": 9,
+      "cost": 9.38e-05
+    },
+    {
+      "user_id": "R_4DOZbNTSGXLiVKY",
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "chosen_real": "301-09",
+      "chosen_pred": "301-09",
+      "reason": "Это новый для меня курс на уровне UGRD, а после уже посещённых 210 и 206 лучше не повторять ту же область.",
+      "n_options": 9,
+      "cost": 8.98e-05
+    },
+    {
+      "user_id": "R_7QuPBVdl0TBfWCM",
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "chosen_real": "301-09",
+      "chosen_pred": "104-01",
+      "reason": "Это выглядит как наиболее подходящий свежий UGRD-вариант после насыщенного дня без повторения уже посещённых тем.",
+      "n_options": 9,
+      "cost": 9.58e-05
+    },
+    {
+      "user_id": "R_4xzU2y76ps2KEUI",
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "chosen_real": "606-01",
+      "chosen_pred": null,
+      "reason": "Сегодня уже было много занятий, и без явной системы рекомендаций лучше пропустить этот слот, чтобы не перегружаться.",
+      "n_options": 9,
+      "cost": 9.46e-05
+    },
+    {
+      "user_id": "R_1wcXu3E8DjFKnfc",
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "chosen_real": "301-09",
+      "chosen_pred": "205-01",
+      "reason": "Это UGRD-доклад и он не повторяет уже посещённый Course 210, так что выбор выглядит наиболее безопасным и в тему.",
+      "n_options": 9,
+      "cost": 8.97e-05
+    },
+    {
+      "user_id": "R_3OVlUoRDxJY69Om",
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "chosen_real": "204-01",
+      "chosen_pred": null,
+      "reason": "После уже посещённых сегодня многих занятий лучше пропустить слот и не перегружаться повторяющимися темами.",
+      "n_options": 9,
+      "cost": 9.38e-05
+    },
+    {
+      "user_id": "R_4N9Q1oRmy8vBi4r",
+      "slot_id": "Tue Thu-04:00 PM - 05:15 PM",
+      "chosen_real": "614-01",
+      "chosen_pred": null,
+      "reason": "Нет информации о приоритетах по этим темам, а после 10 докладов разумно сделать паузу.",
+      "n_options": 9,
+      "cost": 9.46e-05
+    },
+    {
+      "user_id": "R_1wcotz5KTMkcuVw",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "207-01",
+      "chosen_pred": "301-05",
+      "reason": "Тема 301 выглядит наиболее сбалансированным выбором среди доступных и не повторяет уже посещённые направления.",
+      "n_options": 10,
+      "cost": 0.00010140000000000003
+    },
+    {
+      "user_id": "R_1dfHxvfYe1sl0Eo",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "207-01",
+      "chosen_pred": "207-01",
+      "reason": "Это выглядит как наиболее подходящий UG-вариант для студента CICS и хорошо избегает повторения уже посещённых тем.",
+      "n_options": 10,
+      "cost": 0.00010140000000000003
+    },
+    {
+      "user_id": "R_1P7b6IzUjEReWyg",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "301-05",
+      "chosen_pred": null,
+      "reason": "После уже посещённых сегодня лекций лучше сделать паузу, чтобы не перегружаться и не повторять похожие темы.",
+      "n_options": 10,
+      "cost": 0.00010060000000000002
+    },
+    {
+      "user_id": "R_3irXlbsRbdx0tm9",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "205-02",
+      "chosen_pred": null,
+      "reason": "Сегодня уже было много похожих докладов, а по текущим вариантам нет явной сильной персональной привязки.",
+      "n_options": 10,
+      "cost": 0.00010100000000000002
+    },
+    {
+      "user_id": "R_1gvu9EKZSej2Jmp",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "612-01",
+      "chosen_pred": null,
+      "reason": "После десяти докладов подряд лучше сделать паузу, чтобы не перегружаться и не повторять однотипные темы.",
+      "n_options": 10,
+      "cost": 0.00010100000000000002
+    },
+    {
+      "user_id": "R_7EBnokpQJEh29fN",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "301-05",
+      "chosen_pred": null,
+      "reason": "Судя по уже посещённым докладам, лучше сделать паузу и не дублировать похожие темы к концу дня.",
+      "n_options": 10,
+      "cost": 0.00010220000000000002
+    },
+    {
+      "user_id": "R_7BxhEsnilRPL9cC",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "207-01",
+      "chosen_pred": null,
+      "reason": "Уже был насыщенный день, а доступные доклады не дают явной более сильной связи с профилем.",
+      "n_options": 10,
+      "cost": 0.00010020000000000002
+    },
+    {
+      "user_id": "R_1cuVS17sLcCAg9o",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "617-01",
+      "chosen_pred": "207-01",
+      "reason": "Хочу разнообразить уже насыщенный день и взять более прикладной undergraduate-доклад без повторения ранних тем.",
+      "n_options": 10,
+      "cost": 0.00010100000000000002
+    },
+    {
+      "user_id": "R_4pJx9L4SUv3QDeR",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "617-01",
+      "chosen_pred": "207-01",
+      "reason": "Хороший вариант для UGRD и не повторяет уже посещённые темы, при этом выглядит менее утомительно, чем очередной L600.",
+      "n_options": 10,
+      "cost": 0.00010380000000000002
+    },
+    {
+      "user_id": "R_7Gvk71cpNAzhbFB",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "207-01",
+      "chosen_pred": null,
+      "reason": "После уже посещённых 10 докладов лучше сделать паузу, тем более нет данных о ваших топ‑предпочтениях по этим темам.",
+      "n_options": 10,
+      "cost": 0.00010300000000000001
+    },
+    {
+      "user_id": "R_5wAKWv51spMXvyg",
+      "slot_id": "Mon Wed-02:30 PM - 03:45 PM",
+      "chosen_real": "301-05",
+      "chosen_pred": null,
+      "reason": "Список тем слишком однотипный и без данных о предпочтениях по этим курсам лучше пропустить слот.",
+      "n_options": 10,
+      "cost": 9.900000000000002e-05
+    },
+    {
+      "user_id": "R_6QRFpnXMABo2psX",
+      "slot_id": "Mon Wed Fri-10:10 AM - 11:00 AM",
+      "chosen_real": "209-02",
+      "chosen_pred": "301-15",
+      "reason": "Тема 301 выглядит более сильным выбором, а 209 уже близка к уже посещённым техническим курсам сегодня.",
+      "n_options": 2,
+      "cost": 5.8e-05
+    },
+    {
+      "user_id": "R_8hGFc3bhBFajkmJ",
+      "slot_id": "Mon Wed Fri-10:10 AM - 11:00 AM",
+      "chosen_real": "209-02",
+      "chosen_pred": "301-15",
+      "reason": "Тема 301 выглядит ближе к продвинутому интересу и не повторяет уже посещённые сегодня курсы.",
+      "n_options": 2,
+      "cost": 5.72e-05
+    },
+    {
+      "user_id": "R_5nNIVU1PAzx00qD",
+      "slot_id": "Tue Thu-02:30 PM - 03:45 PM",
+      "chosen_real": "604-01",
+      "chosen_pred": null,
+      "reason": "Сегодня уже было много курсов, лучше пропустить слот и не перегружаться повторяющимися темами.",
+      "n_options": 6,
+      "cost": 7.16e-05
+    },
+    {
+      "user_id": "R_5iWqVwJP9HAoIaa",
+      "slot_id": "Tue Thu-02:30 PM - 03:45 PM",
+      "chosen_real": "301-13",
+      "chosen_pred": "301-13",
+      "reason": "Нужен более свежий undergraduate-доклад, чтобы не дублировать уже насыщенный набор тем и снизить усталость.",
+      "n_options": 6,
+      "cost": 7.620000000000001e-05
+    },
+    {
+      "user_id": "R_870oKMXfRxuZx1D",
+      "slot_id": "Tue Thu-02:30 PM - 03:45 PM",
+      "chosen_real": "301-13",
+      "chosen_pred": "304-01",
+      "reason": "Хочу добрать более ранний UGRD-топик и не дублировать уже посещённые старшие курсы.",
+      "n_options": 6,
+      "cost": 7.670000000000001e-05
+    }
+  ]
+}

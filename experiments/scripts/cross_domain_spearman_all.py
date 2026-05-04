@@ -55,6 +55,7 @@ def main():
             "ITC-2019 bet-spr18": ROOT / "results" / "results_itc2019_bet_calibrated.json",
             "ITC-2007 T1 set1": ROOT / "results" / "results_itc2007_t1_calibrated.json",
             "ITC-2007 T2 c1": ROOT / "results" / "results_itc2007_t2_calibrated.json",
+            "UMass CICS Fall 2024": ROOT / "results" / "results_umass_cics_calibrated.json",
         }
     else:
         datasets = {

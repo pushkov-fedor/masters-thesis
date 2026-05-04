@@ -1,0 +1,35 @@
+{
+  "hadamard": true,
+  "gbm_iter": 400,
+  "max_train_pairs": 0,
+  "train": {
+    "n": 166939,
+    "pos_rate": 0.6528851856067186,
+    "model_auc": 0.8432695584891232,
+    "cosine_auc": 0.7399033459447995,
+    "model_pearson": 0.5838112027149566,
+    "cosine_pearson": 0.39959344267845154,
+    "lift_auc_pp": 10.336621254432377,
+    "lift_pearson_pp": 18.421776003650503
+  },
+  "val": {
+    "n": 20677,
+    "pos_rate": 0.671760893746675,
+    "model_auc": 0.7911137446414042,
+    "cosine_auc": 0.7569848362329923,
+    "model_pearson": 0.49505111551147285,
+    "cosine_pearson": 0.42671340703964233,
+    "lift_auc_pp": 3.4128908408411873,
+    "lift_pearson_pp": 6.833770847183052
+  },
+  "test": {
+    "n": 48619,
+    "pos_rate": 0.6644316008144964,
+    "model_auc": 0.7704145508870146,
+    "cosine_auc": 0.7321929222189992,
+    "model_pearson": 0.46448814662277027,
+    "cosine_pearson": 0.3943084180355072,
+    "lift_auc_pp": 3.8221628668015373,
+    "lift_pearson_pp": 7.017972858726306
+  }
+}

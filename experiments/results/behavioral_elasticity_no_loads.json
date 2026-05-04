@@ -1,0 +1,198 @@
+{
+  "config": {
+    "src": "llm_agents_mobius_2025_autumn_n50_no_loads_seq.json",
+    "baseline_policy": "no_policy",
+    "n_policies": 4
+  },
+  "elasticity_aggregate": {
+    "cosine": {
+      "js_talks": 0.016012370038802688,
+      "js_halls": 0.0005344712821681022,
+      "js_categories": 0.004608364872219784,
+      "kl_talks": 0.16845305136201666
+    },
+    "cosine_capacity_filter": {
+      "js_talks": 0.013567030034961316,
+      "js_halls": 0.001718006606184156,
+      "js_categories": 0.004527473544013233,
+      "kl_talks": 0.1285723111459458
+    },
+    "cap_aware_mmr": {
+      "js_talks": 0.014227224021039396,
+      "js_halls": 0.0020935888442192296,
+      "js_categories": 0.004773923058395037,
+      "kl_talks": 0.16607482033827983
+    }
+  },
+  "elasticity_per_slot": {
+    "cosine": {
+      "mean_js_per_slot": 0.012897000070091154,
+      "median_js_per_slot": 0.00794247231864022,
+      "max_js_per_slot": 0.048715534607840456,
+      "mean_tvd_per_slot": 0.09875901518636379,
+      "n_slots_compared": 16
+    },
+    "cosine_capacity_filter": {
+      "mean_js_per_slot": 0.011173368077587419,
+      "median_js_per_slot": 0.003087284462249996,
+      "max_js_per_slot": 0.0762347758622265,
+      "mean_tvd_per_slot": 0.09115697555633083,
+      "n_slots_compared": 16
+    },
+    "cap_aware_mmr": {
+      "mean_js_per_slot": 0.011546317685307455,
+      "median_js_per_slot": 0.003055312165981393,
+      "max_js_per_slot": 0.09161116403375319,
+      "mean_tvd_per_slot": 0.08654903544978831,
+      "n_slots_compared": 16
+    }
+  },
+  "skip_rates": {
+    "no_policy": {
+      "count": 102,
+      "total": 800
+    },
+    "cosine": {
+      "count": 72,
+      "total": 800
+    },
+    "cosine_capacity_filter": {
+      "count": 69,
+      "total": 800
+    },
+    "cap_aware_mmr": {
+      "count": 76,
+      "total": 800
+    }
+  },
+  "top5_share": {
+    "no_policy": {
+      "top5": 213,
+      "total": 698
+    },
+    "cosine": {
+      "top5": 212,
+      "total": 728
+    },
+    "cosine_capacity_filter": {
+      "top5": 209,
+      "total": 731
+    },
+    "cap_aware_mmr": {
+      "top5": 213,
+      "total": 724
+    }
+  },
+  "talk_distribution": {
+    "no_policy": {
+      "6103f90a-76c4-4196-8a1a-7f1d4e84ab14": 50,
+      "c0566b22-f51c-4540-a0b1-fe07e3725264": 49,
+      "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf": 41,
+      "35374f1f-574b-460e-b925-c8957833af09": 37,
+      "fc751f64-9588-438a-b566-c7e84efc8d67": 36,
+      "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af": 35,
+      "240dd01a-6a52-4443-b7e7-7a81666bc9cc": 32,
+      "a80315ce-4636-42cf-bf90-fe072ec47e31": 26,
+      "f465c4ed-8502-407e-aac9-1679137ac427": 25,
+      "30966009-8397-4952-bef8-92af96db3494": 22,
+      "a2863300-2056-4d7c-9252-9c87141a0b4e": 22,
+      "505da2d1-55e7-4d4f-a01e-0767f14122a7": 21,
+      "656a85a5-2d7d-4980-aa11-b83ad236a054": 21,
+      "4566c47a-fc93-449a-8ac6-39b8124ec889": 20,
+      "6e90aabb-21be-46d2-b253-7076367477fb": 20,
+      "8b050486-6205-499a-9ad9-58d87052b51d": 18,
+      "5de14e81-eecc-452a-9408-0cbaebebd670": 16,
+      "b8e49241-776c-4855-b96e-53e28d53b7c0": 15,
+      "66c68e73-9691-4cde-9a70-4892045d610f": 15,
+      "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8": 15
+    },
+    "cosine": {
+      "6103f90a-76c4-4196-8a1a-7f1d4e84ab14": 50,
+      "c0566b22-f51c-4540-a0b1-fe07e3725264": 49,
+      "a80315ce-4636-42cf-bf90-fe072ec47e31": 43,
+      "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf": 38,
+      "240dd01a-6a52-4443-b7e7-7a81666bc9cc": 32,
+      "f465c4ed-8502-407e-aac9-1679137ac427": 32,
+      "35374f1f-574b-460e-b925-c8957833af09": 30,
+      "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af": 29,
+      "8b050486-6205-499a-9ad9-58d87052b51d": 28,
+      "4566c47a-fc93-449a-8ac6-39b8124ec889": 28,
+      "30966009-8397-4952-bef8-92af96db3494": 26,
+      "505da2d1-55e7-4d4f-a01e-0767f14122a7": 25,
+      "656a85a5-2d7d-4980-aa11-b83ad236a054": 25,
+      "fc751f64-9588-438a-b566-c7e84efc8d67": 23,
+      "25030506-424b-454c-9eb3-bff4e812532a": 17,
+      "66c68e73-9691-4cde-9a70-4892045d610f": 17,
+      "e00c8d6e-f5f0-4136-ad75-235ba09ab4c8": 16,
+      "3808bca0-f3cd-42ae-a445-2d51788ed8ec": 15,
+      "b8e49241-776c-4855-b96e-53e28d53b7c0": 15,
+      "a2863300-2056-4d7c-9252-9c87141a0b4e": 15
+    },
+    "cosine_capacity_filter": {
+      "6103f90a-76c4-4196-8a1a-7f1d4e84ab14": 50,
+      "c0566b22-f51c-4540-a0b1-fe07e3725264": 49,
+      "a80315ce-4636-42cf-bf90-fe072ec47e31": 42,
+      "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf": 39,
+      "240dd01a-6a52-4443-b7e7-7a81666bc9cc": 29,
+      "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af": 27,
+      "35374f1f-574b-460e-b925-c8957833af09": 27,
+      "8b050486-6205-499a-9ad9-58d87052b51d": 24,
+      "4566c47a-fc93-449a-8ac6-39b8124ec889": 24,
+      "656a85a5-2d7d-4980-aa11-b83ad236a054": 23,
+      "505da2d1-55e7-4d4f-a01e-0767f14122a7": 22,
+      "30966009-8397-4952-bef8-92af96db3494": 21,
+      "c96a7c5e-4375-4515-9e51-ec213a32d6de": 21,
+      "fc751f64-9588-438a-b566-c7e84efc8d67": 20,
+      "f465c4ed-8502-407e-aac9-1679137ac427": 20,
+      "95be6720-2939-4f6b-9b79-05ab2e9a1b9a": 19,
+      "682e16ec-b0ea-4379-a7f2-e8d96a6ce948": 19,
+      "a2863300-2056-4d7c-9252-9c87141a0b4e": 19,
+      "25030506-424b-454c-9eb3-bff4e812532a": 18,
+      "3808bca0-f3cd-42ae-a445-2d51788ed8ec": 17
+    },
+    "cap_aware_mmr": {
+      "6103f90a-76c4-4196-8a1a-7f1d4e84ab14": 50,
+      "c0566b22-f51c-4540-a0b1-fe07e3725264": 49,
+      "a80315ce-4636-42cf-bf90-fe072ec47e31": 43,
+      "519f9f4c-aca1-4ddb-b4a3-f1eadc4c63cf": 39,
+      "240dd01a-6a52-4443-b7e7-7a81666bc9cc": 32,
+      "35374f1f-574b-460e-b925-c8957833af09": 29,
+      "ce30f0ef-b6e7-4a5b-a36b-6c788f5ef4af": 27,
+      "8b050486-6205-499a-9ad9-58d87052b51d": 24,
+      "505da2d1-55e7-4d4f-a01e-0767f14122a7": 23,
+      "4566c47a-fc93-449a-8ac6-39b8124ec889": 23,
+      "30966009-8397-4952-bef8-92af96db3494": 22,
+      "656a85a5-2d7d-4980-aa11-b83ad236a054": 21,
+      "f465c4ed-8502-407e-aac9-1679137ac427": 21,
+      "95be6720-2939-4f6b-9b79-05ab2e9a1b9a": 18,
+      "25030506-424b-454c-9eb3-bff4e812532a": 18,
+      "c96a7c5e-4375-4515-9e51-ec213a32d6de": 18,
+      "fc751f64-9588-438a-b566-c7e84efc8d67": 17,
+      "6e90aabb-21be-46d2-b253-7076367477fb": 17,
+      "a4f6f840-cd4e-45c0-8ea8-e75162474667": 17,
+      "a2863300-2056-4d7c-9252-9c87141a0b4e": 16
+    }
+  },
+  "hall_distribution": {
+    "no_policy": {
+      "1": 381,
+      "3": 189,
+      "2": 128
+    },
+    "cosine": {
+      "1": 375,
+      "3": 216,
+      "2": 137
+    },
+    "cosine_capacity_filter": {
+      "1": 357,
+      "3": 217,
+      "2": 157
+    },
+    "cap_aware_mmr": {
+      "1": 349,
+      "3": 218,
+      "2": 157
+    }
+  }
+}

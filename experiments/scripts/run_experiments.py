@@ -110,6 +110,9 @@ def main():
     ap.add_argument("--llm-model", default="openai/gpt-4o-mini")
     ap.add_argument("--relevance", choices=["cosine", "learned"], default="cosine",
                     help="Способ вычисления релевантности: cosine (по умолчанию) или learned")
+    ap.add_argument("--learned-model", default=None,
+                    help="Имя файла learned-модели в data/models/ без .pkl. "
+                         "Если не задано — выбирается по конференции (preference_model или preference_model_demoday).")
     ap.add_argument("--results-suffix", default="",
                     help="Суффикс к имени результатов (например _learned)")
     ap.add_argument("--conference", default="mobius_2025_autumn",
@@ -140,8 +143,9 @@ def main():
 
     relevance_fn = None
     if args.relevance == "learned":
-        # Автоматический выбор модели по конференции
-        if args.conference == "demo_day_2026":
+        if args.learned_model:
+            model_path = ROOT / "data" / "models" / f"{args.learned_model}.pkl"
+        elif args.conference == "demo_day_2026":
             model_path = ROOT / "data" / "models" / "preference_model_demoday.pkl"
         else:
             model_path = ROOT / "data" / "models" / "preference_model.pkl"

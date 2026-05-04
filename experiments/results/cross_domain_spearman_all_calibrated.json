@@ -5,7 +5,8 @@
     "ITC-2019 mary-fal18",
     "ITC-2019 bet-spr18",
     "ITC-2007 T1 set1",
-    "ITC-2007 T2 c1"
+    "ITC-2007 T2 c1",
+    "UMass CICS Fall 2024"
   ],
   "metrics": [
     "mean_overload_excess",
@@ -174,6 +175,33 @@
       "mean_user_utility": {
         "rho": 0.5166666666666667,
         "p": 0.15439012098622507,
+        "n": 9
+      }
+    },
+    "UMass CICS Fall 2024": {
+      "mean_overload_excess": {
+        "rho": 0.8117225864930513,
+        "p": 0.007889297687829483,
+        "n": 9
+      },
+      "hall_utilization_variance": {
+        "rho": 0.6527253788294639,
+        "p": 0.056676692165527745,
+        "n": 9
+      },
+      "hall_load_gini": {
+        "rho": 0.16736548175114463,
+        "p": 0.6669046355985242,
+        "n": 9
+      },
+      "overflow_rate_choice": {
+        "rho": 0.05063336211778278,
+        "p": 0.8970706809372829,
+        "n": 9
+      },
+      "mean_user_utility": {
+        "rho": 0.8033543124054942,
+        "p": 0.009106405386877995,
         "n": 9
       }
     }

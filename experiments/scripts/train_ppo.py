@@ -232,11 +232,15 @@ def main():
     ]
 
     if args.relevance == "learned":
-        relevance_fn = LearnedPreferenceFn(ROOT / "data" / "models" / "preference_model.pkl")
+        if args.conference == "demo_day_2026":
+            model_path = ROOT / "data" / "models" / "preference_model_demoday.pkl"
+        else:
+            model_path = ROOT / "data" / "models" / "preference_model.pkl"
+        relevance_fn = LearnedPreferenceFn(model_path)
         persona_dict = {u.id: u.embedding for u in personas}
         talk_dict = {tid: t.embedding for tid, t in conf.talks.items()}
         relevance_fn.precompute_all(persona_dict, talk_dict)
-        print(f"Learned: precomputed {len(relevance_fn._cache)} preferences")
+        print(f"Learned: {model_path.name}, precomputed {len(relevance_fn._cache)} preferences")
     else:
         relevance_fn = cosine_relevance
         print("Relevance: cosine")

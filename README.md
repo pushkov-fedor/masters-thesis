@@ -64,23 +64,41 @@ masters-degree/
 
 ## Главные числа
 
-Актуальные на 02.05.2026 после большого методологического рефакторинга (e5-эмбеддер, Demo Day-персоны, controlled-вместимости, group split в обучении модели интереса):
+Актуальные на 03.05.2026 после ключевого pivot'а на простой LLM-агентский симулятор (≈200 строк, profile + memory + capacity in prompt) — это главный нарратив защиты.
 
-- **Demo Day, N=100, calibrated compliance, learned релевантность:**
-  - Cosine: $\text{OF}_{\text{choice}} = 0,495$, utility = $0,423$ — обычная рекомендалка **хуже Random** ($\text{OF} = 0,330$) по системным метрикам в 1,5×.
-  - Capacity-aware: $\text{OF}_{\text{choice}} = 0,211$ (в 2,3× меньше Cosine), utility = $0,406$ (потеря 4% против Cosine).
-  - Capacity-aware MMR: лидер по `hall_var = 0,046` и `excess = 0,238`.
-  - PPO (переобучен под Demo Day, 7 залов, 500k шагов): между Cosine и capacity-aware.
-- **Random + capacity** (контрольная политика): даёт $\text{OF}_{\text{choice}} = 0,241$ vs $0,211$ у Capacity-aware → recsys-часть вносит 13% снижения переполнений сверх голого capacity-фильтра.
-- Cross-domain перенос на 4 реальных датасета (Meetup RSVP, ITC-2019 ×2, ITC-2007 ×2): относительный порядок политик статистически значимо переносится по mean_overload_excess (Spearman ρ от +0,55 до +0,87 при p < 0,05 на 4 из 5 наборов).
-- B1: внешняя валидация параметрической модели отклика на реальных Meetup-RSVPs — accuracy@1 = 0,778 (vs 0,437 random), Spearman ρ = +0,84 (p < 10⁻⁵⁰).
-- B5: калибровка трёхтипной модели compliance — compliant 71,7% / star-chaser 21,3% / curious 7,0%.
-- Stylized facts: 2 из 3 воспроизводятся при p < 0,01 (Парето + спад посещаемости); track-affinity не воспроизводится.
-- **Обученная модель интереса** (group split по persona_id, без leakage):
-  - Mobius: Pearson **0,73** на тесте против **0,20** у cosine (с e5-эмбеддингами).
-  - Demo Day: Pearson **0,60** против **0,27** у cosine; обучена на 10 000 LLM-оценённых пар.
+### Главный результат — LLM-агентский симулятор на двух конференциях
 
-Сводный документ: `experiments/results/preliminary_findings_v7.md` (устаревший, требует переписи под новый пайплайн).
+| Конференция | Политика | OF_choice | hall_var | mean_overload_excess |
+|---|---|---|---|---|
+| **Mobius** (40 докладов, 16 слотов, 3 зала) | No policy | 0,310 | 0,076 | 0,062 |
+| Mobius | Cosine (как сейчас у JUG) | 0,370 (хуже!) | 0,040 | 0,057 |
+| Mobius | **Capacity-aware MMR** | **0,123** (÷2,5) | **0,007** (÷11) | **0,008** (÷7,8) |
+| **Demo Day** (210 докладов, 56 слотов, 1-6 залов) | No policy | 0,266 | 0,092 | 0,047 |
+| Demo Day | Cosine | 0,404 (хуже!) | 0,098 | 0,068 |
+| Demo Day | **Capacity-aware MMR** | **0,069** (÷3,9) | **0,027** (÷3,4) | **0,008** (÷5,9) |
+
+**Три воспроизводимых вывода (на двух конференциях независимо):**
+1. **Эмерджентная концентрация спроса:** без управляющей политики 27-31% выборов идут в переполненные залы. Это не запрограммировано — естественный эффект работы LLM-агентов с реальными описаниями докладов и текущей загрузкой залов в промпте.
+2. **Cosine-recsys (текущий продакшн JUG) усугубляет дисбаланс:** OF растёт до 37-40%.
+3. **Capacity-aware MMR снижает переполнения в 2,5-4 раза, hall_var в 3-11 раз.** Залы выравниваются.
+
+Стоимость прогона: $0,78 на 10 800 LLM-вызовов (gpt-5.4-mini, 50 агентов × 72 слота × 3 политики). Артефакты: `experiments/results/llm_agents_*.json`, картинки в `experiments/results/plots/llm_agents_*.png`.
+
+### Поддерживающие результаты
+
+- **B1: внешняя валидация параметрического симулятора на реальных Meetup-RSVPs** — accuracy@1 = 0,778 (vs 0,437 random), Spearman ρ = +0,84 (p < 10⁻⁵⁰), 3647 пар user×slot.
+- **Параметрический симулятор + 10 политик** на Mobius/Demo Day — методологический стенд для масштабных прогонов и cross-domain переноса.
+- **Cross-domain перенос порядка политик** на 4 реальных capacity-датасета (Meetup RSVP, ITC-2019 ×2, ITC-2007 ×2): Spearman ρ +0,55…+0,87, p < 0,05 на 4 из 5 наборов по mean_overload_excess.
+- **Stylized facts:** 2 из 3 воспроизводятся при p < 0,01 (Парето + спад посещаемости).
+- **Обученная модель интереса:**
+  - Meetup на real RSVPs: slot accuracy@1 = 0,918 vs cosine 0,818 = **+10 п.п.** (28K пар, 94 unseen test users).
+  - Scholar Inbox на real ML/AI ratings: AUC = 0,770 vs honest cosine 0,732 = +3,8 п.п. (237K пар, LOO+popularity+Hadamard, GBM).
+- **Negative results, оставлены в приложение:**
+  - Constrained-PPO проигрывает Capacity-aware на всех конфигурациях.
+  - Прямой transfer Scholar Inbox → Mobius без fine-tune не работает (Pearson −10,7 п.п. от cosine).
+  - LLM-разметка через trichotomy promtp давала 6 distinct values (исправлено на continuous).
+
+Сводный документ: `MEMORY.md` (auto-memory) — актуальный контекст. `experiments/results/preliminary_findings_v7.md` устарел.
 
 ## Принятые методологические решения
 

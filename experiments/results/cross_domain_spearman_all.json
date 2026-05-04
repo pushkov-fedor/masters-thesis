@@ -1,6 +1,5 @@
 {
   "datasets": [
-    "MovieLens 1M",
     "Meetup RSVP",
     "ITC-2019 mary-fal18",
     "ITC-2019 bet-spr18",
@@ -15,33 +14,6 @@
     "mean_user_utility"
   ],
   "table": {
-    "MovieLens 1M": {
-      "mean_overload_excess": {
-        "rho": 0.8499999999999999,
-        "p": 0.0037047773275858125,
-        "n": 9
-      },
-      "hall_utilization_variance": {
-        "rho": 0.9,
-        "p": 0.0009430623223403288,
-        "n": 9
-      },
-      "hall_load_gini": {
-        "rho": -0.33333333333333337,
-        "p": 0.38071318167686347,
-        "n": 9
-      },
-      "overflow_rate_choice": {
-        "rho": -0.29411764705882354,
-        "p": 0.44235740429608333,
-        "n": 9
-      },
-      "mean_user_utility": {
-        "rho": 0.5166666666666667,
-        "p": 0.15439012098622507,
-        "n": 9
-      }
-    },
     "Meetup RSVP": {
       "mean_overload_excess": {
         "rho": 0.5499999999999999,
