@@ -1,0 +1,32 @@
+{
+  "config": {
+    "K": 3,
+    "tau": 0.3,
+    "lambda_overflow": 2.0,
+    "p_skip_base": 0.05,
+    "seeds": [
+      1
+    ],
+    "n_users": 5,
+    "conference": "Demo Day ITMO 2026",
+    "concurrency": 5,
+    "api_concurrency": 8,
+    "model": "openai/gpt-4o-mini"
+  },
+  "runs": [
+    {
+      "policy": "LLM-ranker (state-aware)",
+      "seed": 1,
+      "elapsed_s": 76.44596886634827,
+      "metrics": {
+        "overflow_rate_all": 0.0,
+        "overflow_rate_choice": 0.0,
+        "hall_utilization_variance": 0.0018524513982916275,
+        "mean_user_utility": 0.2941471494202103,
+        "hall_load_gini": 0.32590983161325365,
+        "skip_rate": 0.060714285714285714,
+        "mean_overload_excess": 0.0
+      }
+    }
+  ]
+}
