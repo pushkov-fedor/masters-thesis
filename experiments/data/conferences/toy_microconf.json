@@ -1,0 +1,37 @@
+{
+  "name": "toy_microconf",
+  "talks": [
+    {
+      "id": "t_ml",
+      "title": "Toy ML talk",
+      "hall": 1,
+      "slot_id": "slot_00",
+      "category": "ml",
+      "abstract": "Synthetic ML talk for toy sanity."
+    },
+    {
+      "id": "t_java",
+      "title": "Toy Java talk",
+      "hall": 2,
+      "slot_id": "slot_00",
+      "category": "java",
+      "abstract": "Synthetic Java talk for toy sanity."
+    }
+  ],
+  "halls": [
+    {
+      "id": 1,
+      "capacity": 50
+    },
+    {
+      "id": 2,
+      "capacity": 50
+    }
+  ],
+  "slots": [
+    {
+      "id": "slot_00",
+      "datetime": "2026-01-01T10:00:00"
+    }
+  ]
+}
