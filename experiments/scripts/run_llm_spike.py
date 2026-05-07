@@ -184,6 +184,18 @@ def compute_metrics(
 
 # === Прогон одной политики ===
 
+def gossip_level_from_w(w_gossip: float) -> str:
+    """Маппинг cfg.w_gossip → дискретный уровень L2 (Q-J8 accepted 2026-05-07).
+
+    Граница 0.4: согласовано в spike_gossip_llm_amendment §6 и §8 Q-J8.
+    """
+    if w_gossip <= 0.0:
+        return "off"
+    if w_gossip < 0.4:
+        return "moderate"
+    return "strong"
+
+
 async def run_one_policy(
     policy_name: str,
     agents: List[LLMAgent],
@@ -196,10 +208,13 @@ async def run_one_policy(
     budget_cap: float,
     cumulative_cost_ref: List[float],
     seed: int,
+    w_gossip: float = 0.0,
 ) -> Dict[str, Any]:
     """Прогон одной политики на свежих копиях агентов.
 
     cumulative_cost_ref — list-обёртка для shared mutable cost между политиками.
+    w_gossip — управляет L2 LLM-gossip через дискретный уровень
+    (off/moderate/strong, см. gossip_level_from_w).
     Возвращает dict с per_decision, slot_loads, метриками и status.
     """
     fresh_agents = [
@@ -214,6 +229,12 @@ async def run_one_policy(
 
     decisions: List[Dict[str, Any]] = []
     slot_loads: Dict[str, Dict[int, int]] = defaultdict(lambda: defaultdict(int))
+    # L2 gossip: per-talk счётчик в текущем слоте (параллельный slot_loads
+    # per-hall). Семантически gossip-канал — про «выбор по докладу», см.
+    # spike_gossip §6 V5 / §8 и amendment §1.3.
+    slot_choice_count: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
+    gossip_level = gossip_level_from_w(w_gossip)
+    gossip_n_total = len(fresh_agents)
     n_parse_errors = 0
     n_decisions_aborted = 0
     status = "ok"
@@ -263,12 +284,23 @@ async def run_one_policy(
             else:
                 rec = policy_fn(user_emb, slot_talk_embs, slot_talk_ids, K)
 
+            # gossip_counts формируется ДО вызова decide(): отражает выбор
+            # первых N-1 агентов в текущем слоте (sequential causality, как и
+            # в параметрическом ядре). При gossip_level='off' блок в промпт
+            # не попадает (Q-J9 accepted).
+            gossip_counts_now = (
+                dict(slot_choice_count[sid]) if gossip_level != "off" else None
+            )
+
             decision = await agent.decide(
                 slot_id=sid,
                 talks=slot_talks,
-                hall_loads_pct={},  # capacity в промпт НЕ передаём (memo G §9.2)
+                hall_loads_pct={},  # capacity в промпт НЕ передаём (Q-G accepted)
                 recommendation=rec,
                 llm_call=llm_call,
+                gossip_counts=gossip_counts_now,
+                gossip_n_total=(gossip_n_total if gossip_level != "off" else None),
+                gossip_level=gossip_level,
             )
             cumulative_cost_ref[0] += decision.cost_usd
 
@@ -288,6 +320,7 @@ async def run_one_policy(
             else:
                 hall = hall_of_talk[decision.chosen]
                 slot_loads[sid][hall] += 1
+                slot_choice_count[sid][decision.chosen] += 1
                 fresh_agents[ai].commit(sid, talks_by_id[decision.chosen])
 
             pbar.update(1)
@@ -402,7 +435,10 @@ async def main_async(args: argparse.Namespace) -> int:
         return msg, cost
 
     policies = [p for p in args.policies.split(",") if p in POLICIES]
-    print(f"\n=== Running {len(policies)} policies sequentially: {policies} ===",
+    w_gossip_grid = [float(x) for x in args.w_gossip.split(",")]
+    print(f"\n=== Running {len(policies)} policies × "
+          f"{len(w_gossip_grid)} w_gossip points: "
+          f"policies={policies}, w_gossip={w_gossip_grid} ===",
           flush=True)
     print(f"  budget_cap = ${args.budget_cap}", flush=True)
     t0_global = time.time()
@@ -410,41 +446,48 @@ async def main_async(args: argparse.Namespace) -> int:
     results: List[Dict[str, Any]] = []
     cumulative_cost_ref = [0.0]
     overall_status = "ok"
-    for pol in policies:
-        t0 = time.time()
-        per_pol = await run_one_policy(
-            policy_name=pol,
-            agents=agents,
-            conf=conf,
-            talk_emb_map=talk_emb_map,
-            agent_emb_map=agent_emb_map,
-            cap_per_slot_hall=cap_per_slot_hall,
-            K=args.K,
-            llm_call=llm_call,
-            budget_cap=args.budget_cap,
-            cumulative_cost_ref=cumulative_cost_ref,
-            seed=args.seed,
-        )
-        elapsed = time.time() - t0
-        print(
-            f"[{pol}] done in {elapsed:.0f}s. status={per_pol['status']} "
-            f"agg={per_pol['agg']}",
-            flush=True,
-        )
-        results.append({
-            "capacity_scenario": "natural",
-            "policy": pol,
-            "w_rec": 1.0,
-            "seed": args.seed,
-            "per_decision_status": per_pol["status"],
-            "agg": per_pol["agg"],
-            "slot_loads": per_pol["slot_loads"],
-            "per_decision": per_pol["per_decision"],
-        })
-        if per_pol["status"] != "ok":
-            overall_status = per_pol["status"]
-            # дальнейшие политики не запускаем — оставшийся бюджет уже исчерпан
+    aborted_outer = False
+    for w_g in w_gossip_grid:
+        if aborted_outer:
             break
+        for pol in policies:
+            t0 = time.time()
+            per_pol = await run_one_policy(
+                policy_name=pol,
+                agents=agents,
+                conf=conf,
+                talk_emb_map=talk_emb_map,
+                agent_emb_map=agent_emb_map,
+                cap_per_slot_hall=cap_per_slot_hall,
+                K=args.K,
+                llm_call=llm_call,
+                budget_cap=args.budget_cap,
+                cumulative_cost_ref=cumulative_cost_ref,
+                seed=args.seed,
+                w_gossip=w_g,
+            )
+            elapsed = time.time() - t0
+            print(
+                f"[{pol} | w_gossip={w_g}] done in {elapsed:.0f}s. "
+                f"status={per_pol['status']} agg={per_pol['agg']}",
+                flush=True,
+            )
+            results.append({
+                "capacity_scenario": "natural",
+                "policy": pol,
+                "w_gossip": w_g,
+                "w_rec": 1.0,
+                "seed": args.seed,
+                "per_decision_status": per_pol["status"],
+                "agg": per_pol["agg"],
+                "slot_loads": per_pol["slot_loads"],
+                "per_decision": per_pol["per_decision"],
+            })
+            if per_pol["status"] != "ok":
+                overall_status = per_pol["status"]
+                aborted_outer = True
+                # дальнейшие комбинации не запускаем — бюджет исчерпан
+                break
 
     elapsed_total_s = time.time() - t0_global
     out = {
@@ -464,6 +507,7 @@ async def main_async(args: argparse.Namespace) -> int:
             "seeds": [args.seed],
             "policies": policies,
             "w_rec_values": [1.0],
+            "w_gossip_values": w_gossip_grid,
             "capacity_scenarios": ["natural"],
             "personas_source": args.personas,
             "personas_selection": selection_method,
@@ -482,13 +526,14 @@ async def main_async(args: argparse.Namespace) -> int:
     # Краткая сводка
     print("\n=== Сводка ===")
     print(
-        f"{'policy':<12} {'overload':<10} {'hall_var':<10} "
+        f"{'policy':<12} {'w_g':<5} {'overload':<10} {'hall_var':<10} "
         f"{'overflow':<10} {'skip':<6} {'perr':<5} {'cost':<8}"
     )
     for r in results:
         a = r["agg"]
         print(
             f"{r['policy']:<12} "
+            f"{r['w_gossip']:<5.2f} "
             f"{a['mean_overload_excess']:<10.4f} "
             f"{a['hall_utilization_variance']:<10.4f} "
             f"{a['overflow_rate_slothall']:<10.4f} "
@@ -526,6 +571,10 @@ def main():
     ap.add_argument("--budget-cap", type=float, default=5.0,
                     help="hard cap на суммарную стоимость, $")
     ap.add_argument("--seed", type=int, default=1)
+    ap.add_argument("--w-gossip", default="0.0",
+                    help="comma-separated w_gossip values; for stage L verification "
+                         "use '0.0,0.5'. Discrete LLM-gossip levels: "
+                         "off (w=0), moderate (0<w<0.4), strong (w>=0.4).")
     ap.add_argument("--suffix", default="")
     args = ap.parse_args()
     sys.exit(asyncio.run(main_async(args)))

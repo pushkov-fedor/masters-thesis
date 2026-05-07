@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import math
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Awaitable, Callable, Dict, List, Optional, Sequence
@@ -152,31 +153,43 @@ class UserProfile:
 class SimConfig:
     """Параметры симуляции (модель поведения участника).
 
-    Базовая utility-форма (PROJECT_DESIGN §7, accepted в spike поведения, §9):
+    Базовая utility-форма (PROJECT_DESIGN §7, accepted в spike_behavior_model
+    и spike_gossip §8 / §9):
 
-        U(t | i, hat_pi) = w_rel * effective_rel(i, t) + w_rec * 1{t in recs}
+        U(t | i, hat_pi) = w_rel * effective_rel(i, t)
+                         + w_rec * 1{t in recs}
+                         + w_gossip * gossip(t, L_t)
         effective_rel(i, t) = (1 - w_fame) * cos(profile_i, t) + w_fame * t.fame
+        gossip(t, L_t)      = log(1 + count_t) / log(1 + N_users)   (V5 log_count)
+                              где count_t = local_choice_count[t] — счётчик
+                              пользователей в текущем слоте, выбравших доклад t,
+                              до текущего юзера; N_users = len(user_order).
         consider_ids = весь slot   (политика НЕ ограничивает choice set)
         capacity-effect — только в политике П3 capacity_aware (НЕ в utility)
         outside option — вероятность skip = p_skip_base
 
-    Гибкость по w_rel + w_rec не задаётся жёстко в коде: для основной матрицы
-    эксперимента пользователь подтвердил нормировку w_rel + w_rec = 1, но
-    конфигурация SimConfig не запрещает другие комбинации (например, для
-    sensitivity-sweep). Контракт CRN-инвариантности EC3 формулируется как
-    «при w_rec = 0 политика не влияет на utility», что выполняется при любых
-    значениях w_rel независимо от нормировки.
+    Гибкость по весам не задаётся жёстко в коде: для основной матрицы
+    эксперимента пользователь подтвердил симплексную нормировку
+    w_rel + w_rec + w_gossip = 1, но SimConfig не запрещает другие комбинации
+    (например, для sensitivity-sweep). Контракт CRN-инвариантности EC3
+    формулируется как «при w_rec = 0 политика не влияет на utility», что
+    выполняется при любых значениях w_rel и w_gossip независимо от нормировки.
 
-    Gossip-компонент (w_gossip, gossip(t, L_t)) — отдельный плановый инкремент
-    этапов J–L PIVOT_IMPLEMENTATION_PLAN; здесь не реализован.
+    Gossip-инвариант (accepted в spike_gossip §11.L.1, проверка в этапе L):
+    при w_gossip = 0 траектории `chosen_id` пословно совпадают с траекториями
+    реализации этапа E (без gossip-канала); реализуется тривиально, потому что
+    cfg.w_gossip * gossip(...) = 0 тождественно при w_gossip = 0, и gossip-член
+    не использует RNG (не сдвигает choice_rng).
     """
     tau: float = 0.7              # температура softmax для выбора пользователя
     p_skip_base: float = 0.10     # вероятность skip как outside option (LCM4Rec-канон)
     K: int = 3                    # размер выдачи (top-K рекомендаций)
     seed: int = 0
-    # Веса базовой модели поведения (rel + rec). Default: w_rel = 0.7, w_rec = 0.3.
+    # Веса базовой модели поведения (rel + rec + gossip). Default: w_rel = 0.7,
+    # w_rec = 0.3, w_gossip = 0 (default — gossip-канал отключён, baseline E).
     w_rel: float = 0.7
     w_rec: float = 0.3
+    w_gossip: float = 0.0
     # Star-speaker effect: вес fame внутри effective_rel.
     w_fame: float = 0.0  # 0 = без fame; 0.3 = умеренный star effect
     # ----- DEPRECATED поля (этап E PIVOT_IMPLEMENTATION_PLAN) -----
@@ -349,11 +362,21 @@ async def _process_one_slot(
         consider_ids = list(slot.talk_ids)            # весь slot всегда
         rec_indicator(t) = 1 if t in recs else 0
         effective_rel(t) = (1 - w_fame) * rel + w_fame * t.fame
-        U(t) = w_rel * effective_rel(t) + w_rec * rec_indicator(t)
+        gossip(t)        = log(1 + local_choice_count[t]) / log(1 + N_users)
+                           # V5 log_count, accepted spike_gossip §8
+        U(t) = w_rel * effective_rel(t)
+             + w_rec * rec_indicator(t)
+             + w_gossip * gossip(t)
         P(choose t) = (1 - p_skip) * softmax(U / tau) ⊕ p_skip   (skip = no-choice)
 
     Capacity-effect в utility отсутствует. Capacity-канал — ответственность
     политики П3 (CapacityAwarePolicy.score = sim - alpha * load_frac).
+
+    Gossip-канал считает по `local_choice_count[talk_id]` (per-talk счётчик),
+    параллельный `local_load[hall_id]` (per-hall счётчик для capacity-канала
+    политики). На текущих программах (один доклад на зал в слот) численно они
+    совпадают, но семантически разные — это сознательное разделение каналов
+    (см. spike_gossip §6.V2 risk).
 
     Common random numbers (CRN):
       - ``choice_rng``  — финальный softmax-choice и legacy compliance roll;
@@ -376,6 +399,10 @@ async def _process_one_slot(
     choice_rng = np.random.default_rng(cfg.seed * 1_000_003 + slot_idx)
     policy_rng = np.random.default_rng(cfg.seed * 1_000_003 + slot_idx + 31)
     local_load: Dict[int, int] = {h.id: 0 for h in conf.halls.values()}
+    # V5 log_count gossip: per-talk счётчик выбравших, параллельный local_load
+    # (per-hall). При cfg.w_gossip = 0 значения не используются.
+    local_choice_count: Dict[str, int] = {tid: 0 for tid in slot.talk_ids}
+    n_users_in_slot = len(user_order)
     slot_steps: List[StepRecord] = []
 
     if not slot.talk_ids:
@@ -441,6 +468,7 @@ async def _process_one_slot(
             load_before = utilization(local_load[chosen_hall.id],
                                       conf.capacity_at(slot.id, chosen_hall.id))
             local_load[chosen_hall.id] += 1
+            local_choice_count[chosen_id] = local_choice_count.get(chosen_id, 0) + 1
             chosen_rel_for_record = relevance_fn(user.embedding, chosen_talk.embedding)
             if not parallel_safe and hasattr(policy, "update_history"):
                 policy.update_history(user.id, chosen_id)
@@ -452,16 +480,27 @@ async def _process_one_slot(
             ))
             continue
 
-        # Новая utility-формула: U = w_rel * effective_rel + w_rec * 1{t in recs}.
-        # Capacity-канал в utility отсутствует.
+        # Новая utility-формула:
+        #   U = w_rel * effective_rel + w_rec * 1{t in recs} + w_gossip * gossip(t).
+        # gossip(t) = log(1 + count_t) / log(1 + N_users)   (V5 log_count, accepted
+        # spike_gossip §8). Capacity-канал в utility отсутствует.
         recs_set = set(recs)
+        # Знаменатель log(1 + N_users) фиксируется один раз; деления на 0 не
+        # бывает, потому что слот без юзеров не доходит до этой ветки (early
+        # return при `not slot.talk_ids`), а условие `n_users_in_slot >= 1`
+        # обеспечивает log(1 + N) > 0 при N ≥ 1.
+        log_n_plus_one = math.log1p(n_users_in_slot) if n_users_in_slot >= 1 else 0.0
         utils_list: List[float] = []
         for tid in consider_ids:
             t = conf.talks[tid]
             rel = relevance_fn(user.embedding, t.embedding)
             effective_rel = (1.0 - cfg.w_fame) * rel + cfg.w_fame * t.fame
             rec_indicator = 1.0 if tid in recs_set else 0.0
-            u = cfg.w_rel * effective_rel + cfg.w_rec * rec_indicator
+            count_t = local_choice_count.get(tid, 0)
+            gossip = (math.log1p(count_t) / log_n_plus_one) if log_n_plus_one > 0 else 0.0
+            u = (cfg.w_rel * effective_rel
+                 + cfg.w_rec * rec_indicator
+                 + cfg.w_gossip * gossip)
             utils_list.append(u)
         utils = np.array(utils_list, dtype=np.float64)
 
@@ -488,6 +527,7 @@ async def _process_one_slot(
         load_before = utilization(local_load[chosen_hall.id],
                                   conf.capacity_at(slot.id, chosen_hall.id))
         local_load[chosen_hall.id] += 1
+        local_choice_count[chosen_id] = local_choice_count.get(chosen_id, 0) + 1
         chosen_rel_for_record = relevance_fn(user.embedding, chosen_talk.embedding)
         if not parallel_safe and hasattr(policy, "update_history"):
             policy.update_history(user.id, chosen_id)

@@ -178,3 +178,210 @@ def test_ec4_policies_differ_when_w_rec_one(
         f"EC4 fail: при w_rec=1 range(overload, policies)={range_metric:.4f} "
         f"≤ 0.02; политики неразличимы. vals={vals}"
     )
+
+
+# ---------- Gossip-extended EC (этап K, accepted spike_gossip §11.L.4) ----------
+
+def test_ec1_extended_with_w_gossip_positive(
+    toy_2slot_conf, personas_50_users, active_pols_no_llm, base_cfg
+):
+    """EC1 при w_gossip = 0.3, w_rec = 0.4: при cap×3.0 overload = 0 для всех политик.
+
+    Симплексная нормировка: w_rel = 1 - w_rec - w_gossip = 0.3.
+    """
+    loose_conf = _scale_capacity(toy_2slot_conf, 3.0)
+    seeds = [1, 2, 3, 4, 5]
+    failures = []
+    for name, pol in active_pols_no_llm.items():
+        vals = []
+        cfg = SimConfig(
+            tau=base_cfg.tau,
+            p_skip_base=base_cfg.p_skip_base,
+            K=base_cfg.K,
+            seed=0,
+            w_rel=0.3,
+            w_rec=0.4,
+            w_gossip=0.3,
+            w_fame=base_cfg.w_fame,
+        )
+        for s in seeds:
+            cfg.seed = s
+            res = simulate(loose_conf, personas_50_users, pol, cfg)
+            vals.append(float(mean_hall_overload_excess(loose_conf, res)))
+        ov = float(np.mean(vals))
+        if ov > 1e-9:
+            failures.append((name, ov))
+    assert not failures, (
+        f"EC1-extended fail (w_gossip=0.3, cap×3): {failures}"
+    )
+
+
+def test_ec2_extended_monotone_with_w_gossip_positive(
+    toy_2slot_conf, personas_50_users, active_pols_no_llm, base_cfg
+):
+    """EC2 при w_gossip = 0.3: монотонность mean_overload_excess по cap_mult."""
+    cap_grid = [0.5, 0.7, 1.0, 1.5, 3.0]
+    seeds = [1, 2, 3, 4, 5]
+    fails = []
+    for name, pol in active_pols_no_llm.items():
+        series = {}
+        for m in cap_grid:
+            scaled = _scale_capacity(toy_2slot_conf, m)
+            vals = []
+            cfg = SimConfig(
+                tau=base_cfg.tau, p_skip_base=base_cfg.p_skip_base,
+                K=base_cfg.K, seed=0,
+                w_rel=0.3, w_rec=0.4, w_gossip=0.3,
+                w_fame=base_cfg.w_fame,
+            )
+            for s in seeds:
+                cfg.seed = s
+                res = simulate(scaled, personas_50_users, pol, cfg)
+                vals.append(float(mean_hall_overload_excess(scaled, res)))
+            series[m] = float(np.mean(vals))
+        for i in range(len(cap_grid) - 1):
+            a, b = cap_grid[i], cap_grid[i + 1]
+            if series[a] + 1e-3 < series[b]:
+                fails.append({"policy": name, "from": (a, series[a]),
+                              "to": (b, series[b])})
+    assert not fails, f"EC2-extended monotonicity fail (w_gossip=0.3): {fails}"
+
+
+def test_ec3_extended_invariance_when_w_rec_zero_w_gossip_positive(
+    toy_2slot_conf, personas_50_users, active_pols_no_llm, base_cfg
+):
+    """EC3-extended: при w_rec = 0, w_gossip = 0.3 политики обязаны давать
+    идентичный mean_overload_excess. Gossip-канал не зависит от выдачи
+    политики (он зависит только от choice_rng-траектории, общей для всех
+    политик при w_rec = 0).
+    """
+    seeds = [1, 2, 3, 4, 5]
+    base_conf = _scale_capacity(toy_2slot_conf, 1.0)
+    vals = []
+    for name, pol in active_pols_no_llm.items():
+        per_seed = []
+        cfg = SimConfig(
+            tau=base_cfg.tau, p_skip_base=base_cfg.p_skip_base,
+            K=base_cfg.K, seed=0,
+            w_rel=0.7, w_rec=0.0, w_gossip=0.3,
+            w_fame=base_cfg.w_fame,
+        )
+        for s in seeds:
+            cfg.seed = s
+            res = simulate(base_conf, personas_50_users, pol, cfg)
+            per_seed.append(float(mean_hall_overload_excess(base_conf, res)))
+        vals.append((name, float(np.mean(per_seed))))
+
+    overloads = [v for _, v in vals]
+    range_metric = max(overloads) - min(overloads)
+    assert range_metric < 1e-9, (
+        f"EC3-extended fail: при w_rec=0, w_gossip=0.3 range overload "
+        f"должен быть 0, получили {range_metric:.6e}, vals={vals}"
+    )
+
+
+def test_ec4_extended_policies_differ_when_w_rec_one_minus_gossip(
+    toy_2slot_conf, personas_50_users, active_pols_no_llm, base_cfg
+):
+    """EC4-extended: при w_gossip = 0.3, w_rec = 0.7, стресс×0.5 политики
+    различимы (range > 0.02). Gossip-канал не схлопывает rec-канал.
+
+    Симплексная нормировка: w_rel = 1 - 0.7 - 0.3 = 0.0.
+    """
+    seeds = [1, 2, 3, 4, 5]
+    stress_conf = _scale_capacity(toy_2slot_conf, 0.5)
+    vals = []
+    for name, pol in active_pols_no_llm.items():
+        per_seed = []
+        cfg = SimConfig(
+            tau=base_cfg.tau, p_skip_base=base_cfg.p_skip_base,
+            K=base_cfg.K, seed=0,
+            w_rel=0.0, w_rec=0.7, w_gossip=0.3,
+            w_fame=base_cfg.w_fame,
+        )
+        for s in seeds:
+            cfg.seed = s
+            res = simulate(stress_conf, personas_50_users, pol, cfg)
+            per_seed.append(float(mean_hall_overload_excess(stress_conf, res)))
+        vals.append((name, float(np.mean(per_seed))))
+
+    overloads = [v for _, v in vals]
+    range_metric = max(overloads) - min(overloads)
+    assert range_metric > 0.02, (
+        f"EC4-extended fail: при w_rec=0.7, w_gossip=0.3 политики неразличимы; "
+        f"range={range_metric:.4f}, vals={vals}"
+    )
+
+
+def test_l5_capacity_aware_still_works_with_gossip(
+    toy_2slot_conf, personas_50_users, active_pols_no_llm, base_cfg
+):
+    """L.5 (accepted spike_gossip §11): при w_gossip = 0.3, asymmetric capacity
+    (стресс×0.5), capacity_aware (П3) даёт overload не больше cosine (П2).
+    Иначе capacity-канал размыт gossip-каналом — это центральный архитектурный
+    риск amendment §6.V2.
+    """
+    seeds = [1, 2, 3, 4, 5]
+    stress_conf = _scale_capacity(toy_2slot_conf, 0.5)
+    cfg = SimConfig(
+        tau=base_cfg.tau, p_skip_base=base_cfg.p_skip_base,
+        K=base_cfg.K, seed=0,
+        w_rel=0.2, w_rec=0.5, w_gossip=0.3,
+        w_fame=base_cfg.w_fame,
+    )
+    cos_vals, cap_vals = [], []
+    for s in seeds:
+        cfg.seed = s
+        cos_res = simulate(stress_conf, personas_50_users,
+                           active_pols_no_llm["cosine"], cfg)
+        cap_res = simulate(stress_conf, personas_50_users,
+                           active_pols_no_llm["capacity_aware"], cfg)
+        cos_vals.append(float(mean_hall_overload_excess(stress_conf, cos_res)))
+        cap_vals.append(float(mean_hall_overload_excess(stress_conf, cap_res)))
+    cos_mean = float(np.mean(cos_vals))
+    cap_mean = float(np.mean(cap_vals))
+    assert cap_mean <= cos_mean + 1e-3, (
+        f"L.5 fail: capacity_aware ({cap_mean:.4f}) хуже cosine ({cos_mean:.4f}) "
+        f"при w_gossip=0.3 — capacity-канал размыт gossip-каналом"
+    )
+
+
+def test_l3_gossip_concentration_monotone(
+    toy_2slot_conf, personas_50_users, active_pols_no_llm, base_cfg
+):
+    """L.3: рост w_gossip усиливает концентрацию выбора — Gini по hall_load
+    монотонно неубывающая по w_gossip ∈ {0, 0.3, 0.7} на стрессе.
+
+    Гипотеза этапа K (PIVOT_IMPLEMENTATION_PLAN строка 648).
+    """
+    from src.metrics import hall_load_gini
+
+    seeds = [1, 2, 3, 4, 5]
+    stress_conf = _scale_capacity(toy_2slot_conf, 0.5)
+    pol = active_pols_no_llm["no_policy"]  # П1, чтобы видеть чистый gossip-эффект
+
+    series = {}
+    for w_g in [0.0, 0.3, 0.7]:
+        cfg = SimConfig(
+            tau=base_cfg.tau, p_skip_base=base_cfg.p_skip_base,
+            K=base_cfg.K, seed=0,
+            w_rel=max(0.0, 1.0 - 0.0 - w_g),
+            w_rec=0.0,
+            w_gossip=w_g,
+            w_fame=base_cfg.w_fame,
+        )
+        ginis = []
+        for s in seeds:
+            cfg.seed = s
+            res = simulate(stress_conf, personas_50_users, pol, cfg)
+            ginis.append(float(hall_load_gini(stress_conf, res)))
+        series[w_g] = float(np.mean(ginis))
+
+    # Монотонность с маленьким эпсилоном на численный шум по 5 seeds
+    grid = sorted(series.keys())
+    for i in range(len(grid) - 1):
+        a, b = grid[i], grid[i + 1]
+        assert series[a] <= series[b] + 5e-3, (
+            f"L.3 fail: gini не монотонна по w_gossip; "
+            f"{a}→{series[a]:.4f}, {b}→{series[b]:.4f}"
+        )

@@ -148,6 +148,7 @@ def aggregate_seeds(per_seed: List[dict]) -> dict:
 def run_grid(
     conf_name: str,
     w_rec_grid: List[float],
+    w_gossip_grid: List[float],
     seeds: List[int],
     K: int,
     cap_scenarios: List[str],
@@ -164,24 +165,32 @@ def run_grid(
     for cap_name in cap_scenarios:
         scaled_conf = scale_capacity(base_conf, CAPACITY_SCENARIOS[cap_name])
         for w_rec in w_rec_grid:
-            cfg = SimConfig(
-                tau=0.7, p_skip_base=0.10, K=K, seed=0,
-                w_rel=1.0 - w_rec, w_rec=w_rec,
-            )
-            for pol_name, pol_obj in pols.items():
-                per_seed = []
-                for s in seeds:
-                    cfg.seed = s
-                    res = simulate(scaled_conf, users, pol_obj, cfg)
-                    per_seed.append(compute_metrics(scaled_conf, res))
-                rows.append({
-                    "capacity_scenario": cap_name,
-                    "policy":            pol_name,
-                    "w_rec":             w_rec,
-                    "seeds":             seeds,
-                    "agg":               aggregate_seeds(per_seed),
-                    "per_seed":          per_seed,
-                })
+            for w_gossip in w_gossip_grid:
+                # Симплексная нормировка (Q-J4 accepted): w_rel + w_rec + w_gossip = 1.
+                # Конфигурации с w_rec + w_gossip > 1 пропускаются явно с предупреждением.
+                if w_rec + w_gossip > 1.0 + 1e-9:
+                    print(f"  skip: w_rec={w_rec} + w_gossip={w_gossip} > 1.0")
+                    continue
+                w_rel = max(0.0, 1.0 - w_rec - w_gossip)
+                cfg = SimConfig(
+                    tau=0.7, p_skip_base=0.10, K=K, seed=0,
+                    w_rel=w_rel, w_rec=w_rec, w_gossip=w_gossip,
+                )
+                for pol_name, pol_obj in pols.items():
+                    per_seed = []
+                    for s in seeds:
+                        cfg.seed = s
+                        res = simulate(scaled_conf, users, pol_obj, cfg)
+                        per_seed.append(compute_metrics(scaled_conf, res))
+                    rows.append({
+                        "capacity_scenario": cap_name,
+                        "policy":            pol_name,
+                        "w_rec":             w_rec,
+                        "w_gossip":          w_gossip,
+                        "seeds":             seeds,
+                        "agg":               aggregate_seeds(per_seed),
+                        "per_seed":          per_seed,
+                    })
     return rows
 
 
@@ -197,11 +206,18 @@ def _cv(values: List[float]) -> float:
 
 
 def check_expectations(rows: List[dict], stress_scenario: str) -> dict:
-    """Все 5 ожиданий этапа D через ядро на полном инстансе."""
+    """Все 5 ожиданий этапа D через ядро + L.6 sensitivity по w_gossip
+    (этап K, gossip-инкремент). Старые EC берутся при w_gossip = 0; новый
+    L.6-чек проверяет видимость gossip-эффекта на любой паре политик / w_rec
+    при изменении w_gossip ∈ {0, 0.3, 0.7} (если в сетке есть).
+    """
     checks: Dict[str, object] = {}
 
-    # 1. EC3 strict при w_rec=0 на natural — все политики строго одинаковы
-    nat_w0 = [r for r in rows
+    # Базовые EC при w_gossip = 0 (baseline; точка совместимости с этапом E).
+    baseline_rows = [r for r in rows if abs(r.get("w_gossip", 0.0)) < 1e-9]
+
+    # 1. EC3 strict при w_rec=0, w_gossip=0 на natural — все политики строго одинаковы
+    nat_w0 = [r for r in baseline_rows
               if r["capacity_scenario"] == "natural" and r["w_rec"] == 0.0]
     util = [r["agg"]["mean_user_utility_mean"] for r in nat_w0]
     overl = [r["agg"]["mean_overload_excess_mean"] for r in nat_w0]
@@ -211,13 +227,15 @@ def check_expectations(rows: List[dict], stress_scenario: str) -> dict:
     checks["ec3_range_overload"] = range_overl
     checks["ec3_pass"] = bool(range_util < 1e-9 and range_overl < 1e-9)
 
-    # 2. MC3: монотонный рост различий по w_rec на stress-сценарии
+    # 2. MC3: монотонный рост различий по w_rec на stress-сценарии (w_gossip=0)
     ranges = []
-    w_rec_grid = sorted({r["w_rec"] for r in rows})
+    w_rec_grid = sorted({r["w_rec"] for r in baseline_rows})
     for w in w_rec_grid:
-        bs = [r for r in rows
+        bs = [r for r in baseline_rows
               if r["capacity_scenario"] == stress_scenario and r["w_rec"] == w]
         ovs = [r["agg"]["mean_overload_excess_mean"] for r in bs]
+        if not ovs:
+            continue
         ranges.append({"w_rec": w, "range": float(max(ovs) - min(ovs))})
     is_monotone = all(
         ranges[i]["range"] <= ranges[i + 1]["range"] + 1e-9
@@ -227,21 +245,23 @@ def check_expectations(rows: List[dict], stress_scenario: str) -> dict:
     checks["mc3_monotone_pass"] = bool(is_monotone)
 
     # 3. EC1 на loose
-    loose = [r for r in rows if r["capacity_scenario"] == "loose_x3_0"]
-    max_ov_loose = max(r["agg"]["mean_overload_excess_mean"] for r in loose)
+    loose = [r for r in baseline_rows if r["capacity_scenario"] == "loose_x3_0"]
+    max_ov_loose = max((r["agg"]["mean_overload_excess_mean"] for r in loose),
+                       default=0.0)
     checks["ec1_max_overload_loose"] = max_ov_loose
     checks["ec1_pass"] = bool(max_ov_loose == 0.0)
 
     # 4. EC2 на stress
-    stress = [r for r in rows if r["capacity_scenario"] == stress_scenario]
-    max_ov_stress = max(r["agg"]["mean_overload_excess_mean"] for r in stress)
+    stress = [r for r in baseline_rows if r["capacity_scenario"] == stress_scenario]
+    max_ov_stress = max((r["agg"]["mean_overload_excess_mean"] for r in stress),
+                        default=0.0)
     checks["ec2_max_overload_stress"] = max_ov_stress
     checks["ec2_pass"] = bool(max_ov_stress > 0.0)
 
     # 5. TC-D3 на stress: capacity_aware vs cosine
     asym_rows = []
     for w in w_rec_grid:
-        rows_w = [r for r in rows
+        rows_w = [r for r in baseline_rows
                   if r["capacity_scenario"] == stress_scenario and r["w_rec"] == w]
         by_pol = {r["policy"]: r["agg"] for r in rows_w}
         if "cosine" in by_pol and "capacity_aware" in by_pol:
@@ -264,11 +284,40 @@ def check_expectations(rows: List[dict], stress_scenario: str) -> dict:
     checks["asym_p3_overload_pass"] = bool(p3_no_worse)
     checks["asym_util_ratio_pass"] = bool(util_ok)
 
+    # 6. L.6 sensitivity по w_gossip (новое в этапе K). Считаем range overload
+    # в фиксированной точке (capacity=stress, w_rec=0.5) по всем доступным
+    # значениям w_gossip; если range >= 0.05 хотя бы для одной политики —
+    # gossip-эффект видим.
+    w_gossip_grid = sorted({r.get("w_gossip", 0.0) for r in rows})
+    gossip_sens = []
+    if len(w_gossip_grid) >= 2:
+        for pol_name in {r["policy"] for r in rows}:
+            pol_rows = [r for r in rows
+                        if r["capacity_scenario"] == stress_scenario
+                        and abs(r["w_rec"] - 0.5) < 1e-9
+                        and r["policy"] == pol_name]
+            if len(pol_rows) >= 2:
+                ovs = [r["agg"]["mean_overload_excess_mean"] for r in pol_rows]
+                gossip_sens.append({
+                    "policy": pol_name,
+                    "w_gossip_range": [min(r["w_gossip"] for r in pol_rows),
+                                       max(r["w_gossip"] for r in pol_rows)],
+                    "overload_range": float(max(ovs) - min(ovs)),
+                })
+    gossip_visible = (
+        bool(gossip_sens)
+        and any(s["overload_range"] >= 0.05 for s in gossip_sens)
+    )
+    checks["gossip_sensitivity"] = gossip_sens
+    checks["gossip_visible_pass"] = bool(gossip_visible) if len(w_gossip_grid) >= 2 else None
+
     overall = (
         checks["ec3_pass"] and checks["mc3_monotone_pass"]
         and checks["ec1_pass"] and checks["ec2_pass"]
         and checks["asym_p3_overload_pass"] and checks["asym_util_ratio_pass"]
     )
+    # gossip_visible — диагностика, не блокатор overall_pass этапа F (он остаётся
+    # в своих рамках); полная acceptance этапа L — отдельно.
     checks["overall_pass"] = bool(overall)
     return checks
 
@@ -285,7 +334,8 @@ def render_markdown(conf_name: str, rows: List[dict], checks: dict,
     lines.append(f"Реестр политик: `active_policies(include_llm=False)` → "
                  f"{params['policies']}.")
     lines.append(f"Параметры: K={params['K']}, τ=0.7, p_skip=0.10, "
-                 f"seeds={params['seeds']}, w_rec={params['w_rec_grid']}.")
+                 f"seeds={params['seeds']}, w_rec={params['w_rec_grid']}, "
+                 f"w_gossip={params.get('w_gossip_grid', [0.0])}.")
     lines.append(f"Capacity-сценарии: {list(CAPACITY_SCENARIOS.keys())}.")
     lines.append("")
 
@@ -295,14 +345,15 @@ def render_markdown(conf_name: str, rows: List[dict], checks: dict,
         lines.append(f"### Capacity scenario: `{cap_name}` "
                      f"(×{CAPACITY_SCENARIOS[cap_name]})")
         lines.append("")
-        lines.append("| w_rec | policy | overload_excess | user_utility | overflow_rate | hall_var | n_skip |")
-        lines.append("|------:|--------|----------------:|-------------:|--------------:|---------:|-------:|")
+        lines.append("| w_rec | w_gossip | policy | overload_excess | user_utility | overflow_rate | hall_var | n_skip |")
+        lines.append("|------:|---------:|--------|----------------:|-------------:|--------------:|---------:|-------:|")
         for r in rows:
             if r["capacity_scenario"] != cap_name:
                 continue
             a = r["agg"]
             lines.append(
-                f"| {r['w_rec']:.2f} | {r['policy']:14s} | "
+                f"| {r['w_rec']:.2f} | {r.get('w_gossip', 0.0):.2f} | "
+                f"{r['policy']:14s} | "
                 f"{a['mean_overload_excess_mean']:.4f} | "
                 f"{a['mean_user_utility_mean']:.4f} | "
                 f"{a['overflow_rate_slothall_mean']:.4f} | "
@@ -341,6 +392,24 @@ def render_markdown(conf_name: str, rows: List[dict], checks: dict,
     lines.append(f"  - util_ratio(П3/П2) > 0.6 @ w_rec≥0.5: "
                  f"**{'PASS' if checks['asym_util_ratio_pass'] else 'FAIL'}**")
     lines.append("")
+
+    # L.6 sensitivity по w_gossip — диагностика, появляется только если в сетке
+    # есть ≥ 2 точек w_gossip.
+    if checks.get("gossip_visible_pass") is not None:
+        lines.append("## Sensitivity по `w_gossip` (диагностика этапа K, L.6)")
+        lines.append("")
+        for s in checks.get("gossip_sensitivity", []):
+            lines.append(
+                f"- policy=`{s['policy']}`: w_gossip ∈ "
+                f"{s['w_gossip_range']}, range(mean_overload_excess) = "
+                f"{s['overload_range']:.4f}"
+            )
+        lines.append(
+            f"- видимый эффект (range ≥ 0.05 хоть для одной политики): "
+            f"**{'PASS' if checks['gossip_visible_pass'] else 'FAIL'}**"
+        )
+        lines.append("")
+
     lines.append(f"### Итог: **{'OK — все ожидания выполнены' if checks['overall_pass'] else 'NOT OK'}**")
     lines.append("")
     return "\n".join(lines)
@@ -353,6 +422,11 @@ def main() -> None:
     parser.add_argument("--conference", required=True,
                         choices=list(CONFERENCES.keys()))
     parser.add_argument("--w-rec", default="0.0,0.5,1.0")
+    parser.add_argument("--w-gossip", default="0.0",
+                        help="comma-separated w_gossip values; default '0.0' "
+                             "сохраняет поведение этапа F. Для проверки "
+                             "gossip-инкремента (этап L) используй '0.0,0.3,0.7'. "
+                             "Симплексная нормировка: w_rec + w_gossip ≤ 1.")
     parser.add_argument("--seeds", default="1,2,3")
     parser.add_argument("--K", type=int, default=2)
     parser.add_argument("--capacity-scenarios",
@@ -364,12 +438,14 @@ def main() -> None:
     args = parser.parse_args()
 
     w_rec_grid = [float(x) for x in args.w_rec.split(",")]
+    w_gossip_grid = [float(x) for x in args.w_gossip.split(",")]
     seeds = [int(x) for x in args.seeds.split(",")]
     cap_scenarios = [s.strip() for s in args.capacity_scenarios.split(",")]
     K = args.K
 
     # Для toy 2 talks ⇒ effective_K = 1 (ядро capped); для Mobius K=2.
-    rows = run_grid(args.conference, w_rec_grid, seeds, K, cap_scenarios)
+    rows = run_grid(args.conference, w_rec_grid, w_gossip_grid, seeds, K,
+                    cap_scenarios)
     checks = check_expectations(rows, args.stress_scenario)
 
     date = dt.date.today().isoformat()
@@ -380,7 +456,9 @@ def main() -> None:
 
     pols = active_policies(include_llm=False)
     params = {
-        "date": date, "K": K, "seeds": seeds, "w_rec_grid": w_rec_grid,
+        "date": date, "K": K, "seeds": seeds,
+        "w_rec_grid": w_rec_grid,
+        "w_gossip_grid": w_gossip_grid,
         "policies": sorted(pols.keys()),
         "stress_scenario": args.stress_scenario,
     }

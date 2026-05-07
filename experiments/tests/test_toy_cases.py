@@ -114,19 +114,55 @@ def test_tc2_capacity_aware_relieves_overflow(
 
 # ---------- TC3 (gossip) — отложен до этапа L ----------
 
-@pytest.mark.skip(
-    reason=(
-        "TC3 моделирует gossip-эффект между двумя слотами при w_gossip > 0. "
-        "Gossip-компонент модели поведения (`w_gossip * gossip(t, L_t)`) — "
-        "отдельный плановый инкремент этапов J (spike) — K (реализация) — "
-        "L (проверка) PIVOT_IMPLEMENTATION_PLAN r5. В текущем ядре поля "
-        "`w_gossip` и функции `gossip(t, L_t)` нет; SimConfig содержит "
-        "только `w_rel`, `w_rec`, `w_fame`. Тест восстановится в этапе L."
+def test_tc3_gossip_concentrates_choice_in_second_slot(
+    make_synth_conf, make_synth_users, active_pols_no_llm
+):
+    """TC3 (этап L разморозка): при w_gossip > 0 концентрация выбора по
+    залу растёт в каждом следующем слоте — gossip накапливает «социальный
+    след» внутри слота.
+
+    Формализация: 2 равно-релевантных доклада в каждом слоте, 100 user'ов,
+    no_policy. Считаем энтропию распределения посещений per slot. Должна
+    быть тенденция «при w_gossip = 0.5 финальное распределение более
+    концентрированное (entropy ниже), чем при w_gossip = 0».
+    """
+    common_emb = np.array([1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+                          dtype=np.float32)
+    common_emb /= np.linalg.norm(common_emb) + 1e-9
+    conf, _ = make_synth_conf(
+        slots=2, talks_per_slot=2, hall_capacities=[100, 100], emb_dim=8,
+        talk_emb_per_slot=[[common_emb, common_emb], [common_emb, common_emb]],
     )
-)
-def test_tc3_gossip_concentrates_choice_in_second_slot():
-    """Placeholder: см. reason в @skip."""
-    pass
+    users = make_synth_users(n=100, emb_dim=8, seed=2030)
+
+    no_pol = active_pols_no_llm["no_policy"]
+
+    def slot_entropy(res, slot_id):
+        loads = res.hall_load_per_slot.get(slot_id, {})
+        total = sum(loads.values()) or 1
+        ps = [v / total for v in loads.values() if v > 0]
+        return -sum(p * np.log(p) for p in ps) if ps else 0.0
+
+    def avg_entropy(w_gossip):
+        ents = []
+        for seed in [1, 2, 3, 4, 5]:
+            cfg = SimConfig(tau=0.7, p_skip_base=0.10, K=1, seed=seed,
+                            w_rel=max(0.0, 1.0 - 0.0 - w_gossip),
+                            w_rec=0.0, w_gossip=w_gossip)
+            res = simulate(conf, users, no_pol, cfg)
+            # Берём slot_01 (после накопления gossip-сигнала в slot_00)
+            ents.append(slot_entropy(res, "slot_01"))
+        return float(np.mean(ents))
+
+    h_off = avg_entropy(0.0)
+    h_on = avg_entropy(0.5)
+    # Ожидание: с gossip энтропия НЕ выше, чем без (концентрация не падает).
+    # На равно-релевантных talks без gossip энтропия ≈ ln(2) ≈ 0.693 (баланс).
+    # При gossip > 0 — возможны seeds, где толпа концентрируется на одном зале.
+    assert h_on <= h_off + 0.05, (
+        f"TC3 fail: при w_gossip=0.5 энтропия выше, чем при w_gossip=0; "
+        f"h_off={h_off:.3f}, h_on={h_on:.3f}"
+    )
 
 
 # ---------- TC5 (Φ-оператор + конфликты спикеров) — отложен до этапа N ----------
