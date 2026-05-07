@@ -1,13 +1,26 @@
-"""Параметрический симулятор Constrained MDP для задачи рекомендации программы конференции.
+"""Параметрический симулятор для задачи поддержки формирования программы конференции.
 
-Постановка по §2.1 Главы 2:
+Постановка по PROJECT_DESIGN §7 + accepted decision спайка модели поведения
+(``docs/spikes/spike_behavior_model.md``):
+
 - состояние s_t — вектор заполненности залов в текущем тайм-слоте;
 - действие a_t — список рекомендаций L_{i,t} для каждого пользователя i;
-- модель выбора — мультиномиальная логит с температурой τ + альтернатива «отказ»;
-- штраф за переполнение в полезности: u_ij = rel(p_i, j) - λ · overflow_penalty(j, s_t);
-- action masking: переполненные залы исключаются из выдачи (опционально, контролируется через политику).
+- consider_ids = весь slot всегда; политика НЕ ограничивает choice set;
+- модель выбора — multinomial logit с температурой τ + outside option (skip);
+- utility: U = w_rel * effective_rel + w_rec * 1{t in recs};
+- capacity-effect живёт ТОЛЬКО в политике П3 (CapacityAwarePolicy), не в utility;
+- gossip — отдельный плановый инкремент этапов J–L PIVOT_IMPLEMENTATION_PLAN.
 
-Релевантность: косинус между эмбеддингом профиля пользователя и эмбеддингом доклада.
+Common random numbers (CRN). Внутри одного слота используются два независимых
+RNG-потока: ``choice_rng`` для финального softmax-choice и legacy compliance
+roll, ``policy_rng`` (передаётся в state) для стохастичности самих политик.
+Это обеспечивает EC3 (PROJECT_DESIGN §11): при w_rec = 0 финальный выбор не
+зависит от политики, потому что utility сводится к ``w_rel * effective_rel``,
+а ``choice_rng`` идёт по той же траектории независимо от стохастичности
+политики.
+
+Релевантность: косинус между эмбеддингом профиля пользователя и эмбеддингом
+доклада (см. ``cosine_relevance``); ML-альтернатива через ``LearnedPreferenceFn``.
 """
 from __future__ import annotations
 
@@ -137,26 +150,50 @@ class UserProfile:
 
 @dataclass
 class SimConfig:
-    """Параметры симуляции."""
+    """Параметры симуляции (модель поведения участника).
+
+    Базовая utility-форма (PROJECT_DESIGN §7, accepted в spike поведения, §9):
+
+        U(t | i, hat_pi) = w_rel * effective_rel(i, t) + w_rec * 1{t in recs}
+        effective_rel(i, t) = (1 - w_fame) * cos(profile_i, t) + w_fame * t.fame
+        consider_ids = весь slot   (политика НЕ ограничивает choice set)
+        capacity-effect — только в политике П3 capacity_aware (НЕ в utility)
+        outside option — вероятность skip = p_skip_base
+
+    Гибкость по w_rel + w_rec не задаётся жёстко в коде: для основной матрицы
+    эксперимента пользователь подтвердил нормировку w_rel + w_rec = 1, но
+    конфигурация SimConfig не запрещает другие комбинации (например, для
+    sensitivity-sweep). Контракт CRN-инвариантности EC3 формулируется как
+    «при w_rec = 0 политика не влияет на utility», что выполняется при любых
+    значениях w_rel независимо от нормировки.
+
+    Gossip-компонент (w_gossip, gossip(t, L_t)) — отдельный плановый инкремент
+    этапов J–L PIVOT_IMPLEMENTATION_PLAN; здесь не реализован.
+    """
     tau: float = 0.7              # температура softmax для выбора пользователя
-    lambda_overflow: float = 1.0  # штраф за заполненность зала (видимый пользователю)
-    p_skip_base: float = 0.10     # базовая вероятность отказа в каждом слоте
+    p_skip_base: float = 0.10     # вероятность skip как outside option (LCM4Rec-канон)
     K: int = 3                    # размер выдачи (top-K рекомендаций)
     seed: int = 0
-    # Star-speaker effect: вес fame в effective utility пользователя
-    w_fame: float = 0.0  # 0 = без fame (старое поведение); 0.3 = умеренный star effect
-    # Compliance: насколько пользователь следует подсказке системы (legacy mode).
-    # 1.0 = строго из top-K (старое поведение)
-    # 0.5 = с вероятностью 50% выбирает из ВСЕХ кандидатов слота независимо от подсказки
+    # Веса базовой модели поведения (rel + rec). Default: w_rel = 0.7, w_rec = 0.3.
+    w_rel: float = 0.7
+    w_rec: float = 0.3
+    # Star-speaker effect: вес fame внутри effective_rel.
+    w_fame: float = 0.0  # 0 = без fame; 0.3 = умеренный star effect
+    # ----- DEPRECATED поля (этап E PIVOT_IMPLEMENTATION_PLAN) -----
+    # lambda_overflow в utility больше НЕ используется: capacity-effect вынесен
+    # в политику CapacityAwarePolicy (П3). Поле сохранено только для обратной
+    # совместимости с legacy-скриптами одномерных sweep'ов (capacity_sensitivity,
+    # run_compliance_sweep, run_experiments, make_plots), которые не входят в
+    # основной эксперимент с этапа F. Любое значение игнорируется в utility.
+    # Не использовать в новом коде.
+    lambda_overflow: float = 0.0
+    # ----- Legacy-параметры compliance (вне основного эксперимента) -----
+    # Default: оба выключены. Активны только при явном указании; в основной
+    # матрице LHS-конфигураций не используются. Назначение: distribution-match
+    # на Meetup-RSVPs как distribution-level якорь (PROJECT_STATUS §8).
+    # Контракт: при default-значениях (use_calibrated_compliance=False,
+    # user_compliance=1.0) основной path игнорирует обе ветки compliance.
     user_compliance: float = 1.0
-    # Калиброванная трёхтипная модель compliance (B/C/A).
-    # Доли получены из калибровки на Meetup RSVPs (scripts/calibrate_compliance_meetup.py):
-    #   compliant 71.7% / star-chaser 21.3% / curious 7.0% (на non-tie слотах);
-    #   55.4% / 32.5% / 12.2% (на всех парах с tie 50/50).
-    # Если use_calibrated_compliance=True, перекрывает поле user_compliance:
-    #   compliant пользователь идёт по top-K от политики (как user_compliance=1.0),
-    #   star-chaser игнорирует политику и идёт на argmax по fame в слоте,
-    #   curious игнорирует политику и выбирает softmax по effective_utility.
     use_calibrated_compliance: bool = False
     alpha_compliant: float = 0.717
     alpha_starchaser: float = 0.213
@@ -303,10 +340,41 @@ async def _process_one_slot(
 
     Возвращает (slot_id, steps_list, local_load_dict).
 
-    parallel_safe=True (несколько слотов параллельно) → отключается update_history,
-    т.к. история политики при параллельных слотах перепутается.
+    parallel_safe=True (несколько слотов параллельно) → отключается
+    update_history, т.к. история политики при параллельных слотах
+    перепутается.
+
+    Модель поведения участника:
+
+        consider_ids = list(slot.talk_ids)            # весь slot всегда
+        rec_indicator(t) = 1 if t in recs else 0
+        effective_rel(t) = (1 - w_fame) * rel + w_fame * t.fame
+        U(t) = w_rel * effective_rel(t) + w_rec * rec_indicator(t)
+        P(choose t) = (1 - p_skip) * softmax(U / tau) ⊕ p_skip   (skip = no-choice)
+
+    Capacity-effect в utility отсутствует. Capacity-канал — ответственность
+    политики П3 (CapacityAwarePolicy.score = sim - alpha * load_frac).
+
+    Common random numbers (CRN):
+      - ``choice_rng``  — финальный softmax-choice и legacy compliance roll;
+      - ``policy_rng``  — стохастичность самой политики (передаётся в state).
+    Разделение потоков обеспечивает: при ``cfg.w_rec == 0`` финальный choice
+    не зависит от политики (rec_indicator * 0 = 0), и ``choice_rng`` идёт по
+    той же траектории независимо от того, потребляла ли политика ``policy_rng``.
+
+    Legacy compliance:
+      - ``cfg.use_calibrated_compliance`` (default False) — трёхтипная B/C/A
+        модель на Meetup-RSVPs;
+      - ``cfg.user_compliance`` (default 1.0) — Bernoulli compliance.
+    Обе ветки активируются ТОЛЬКО при явных значениях, отличных от default;
+    в основной матрице эксперимента не используются (PROJECT_STATUS §8).
+    Когда они активны, они работают на уровне ``consider_ids`` поверх новой
+    utility-формулы (compliant — ограничивает выбор top-K от политики,
+    star_chaser — forced choice по argmax fame, curious / non-compliant —
+    consider_ids = весь slot).
     """
-    slot_rng = np.random.default_rng(cfg.seed * 1_000_003 + slot_idx)
+    choice_rng = np.random.default_rng(cfg.seed * 1_000_003 + slot_idx)
+    policy_rng = np.random.default_rng(cfg.seed * 1_000_003 + slot_idx + 31)
     local_load: Dict[int, int] = {h.id: 0 for h in conf.halls.values()}
     slot_steps: List[StepRecord] = []
 
@@ -316,45 +384,55 @@ async def _process_one_slot(
     n_cands = len(slot.talk_ids)
     effective_K = max(1, min(cfg.K, n_cands - 1)) if n_cands >= 2 else 1
 
+    legacy_compliance_active = (
+        cfg.use_calibrated_compliance or cfg.user_compliance < 1.0
+    )
+
     for user in user_order:
         state = {
             "hall_load": {(slot.id, hid): occ for hid, occ in local_load.items()},
             "slot_id": slot.id,
             "K": effective_K,
             "relevance_fn": relevance_fn,
+            "policy_rng": policy_rng,  # CRN: отдельный поток для стохастических политик
         }
         recs = await policy.acall(user=user, slot=slot, conf=conf, state=state)
         recs = [r for r in recs if r in slot.talk_ids][:effective_K]
-        if not recs:
-            slot_steps.append(StepRecord(
-                slot_id=slot.id, user_id=user.id, recommended=[],
-                chosen=None, chosen_relevance=0.0, chosen_hall_load_before=0.0,
-            ))
-            continue
 
-        consider_ids = recs
+        # Default (новая модель): consider_ids = весь slot всегда; политика
+        # влияет на utility через rec_indicator, не через ограничение
+        # consideration set.
+        consider_ids: List[str] = list(slot.talk_ids)
         forced_choice_id: Optional[str] = None
-        if cfg.use_calibrated_compliance:
-            roll = slot_rng.random()
-            if roll < cfg.alpha_compliant:
-                consider_ids = recs
-            elif roll < cfg.alpha_compliant + cfg.alpha_starchaser:
-                fame_scores = [(tid, conf.talks[tid].fame) for tid in slot.talk_ids]
-                max_fame = max(s for _, s in fame_scores)
-                if max_fame > 0:
-                    forced_choice_id = max(fame_scores, key=lambda x: x[1])[0]
-                else:
-                    forced_choice_id = max(
-                        slot.talk_ids,
-                        key=lambda tid: relevance_fn(user.embedding,
-                                                    conf.talks[tid].embedding),
-                    )
-            else:
-                consider_ids = list(slot.talk_ids)
-        else:
-            ignore_recommendation = (cfg.user_compliance < 1.0
-                                     and slot_rng.random() > cfg.user_compliance)
-            consider_ids = list(slot.talk_ids) if ignore_recommendation else recs
+
+        if legacy_compliance_active:
+            # Legacy ветка для distribution-match Meetup; вне основного
+            # эксперимента (PROJECT_STATUS §8). Активируется только при
+            # явном указании флагов (use_calibrated_compliance=True или
+            # user_compliance<1.0). RNG этой ветки — choice_rng, чтобы
+            # стохастичность политики не сдвигала её результаты.
+            if cfg.use_calibrated_compliance:
+                roll = choice_rng.random()
+                if roll < cfg.alpha_compliant:
+                    if recs:
+                        consider_ids = recs
+                elif roll < cfg.alpha_compliant + cfg.alpha_starchaser:
+                    fame_scores = [(tid, conf.talks[tid].fame)
+                                   for tid in slot.talk_ids]
+                    max_fame = max(s for _, s in fame_scores)
+                    if max_fame > 0:
+                        forced_choice_id = max(fame_scores, key=lambda x: x[1])[0]
+                    else:
+                        forced_choice_id = max(
+                            slot.talk_ids,
+                            key=lambda tid: relevance_fn(
+                                user.embedding, conf.talks[tid].embedding
+                            ),
+                        )
+            else:  # cfg.user_compliance < 1.0
+                ignore_recommendation = choice_rng.random() > cfg.user_compliance
+                if not ignore_recommendation and recs:
+                    consider_ids = recs
 
         if forced_choice_id is not None:
             chosen_id = forced_choice_id
@@ -374,18 +452,18 @@ async def _process_one_slot(
             ))
             continue
 
-        utils = []
+        # Новая utility-формула: U = w_rel * effective_rel + w_rec * 1{t in recs}.
+        # Capacity-канал в utility отсутствует.
+        recs_set = set(recs)
+        utils_list: List[float] = []
         for tid in consider_ids:
             t = conf.talks[tid]
             rel = relevance_fn(user.embedding, t.embedding)
-            hall = conf.halls[t.hall]
-            load_frac = utilization(local_load[hall.id],
-                                    conf.capacity_at(slot.id, hall.id))
-            effective_rel = (1 - cfg.w_fame) * rel + cfg.w_fame * t.fame
-            u = effective_rel - cfg.lambda_overflow * max(0.0, load_frac - 0.85)
-            utils.append(u)
-        utils = np.array(utils, dtype=np.float64)
-        recs = consider_ids
+            effective_rel = (1.0 - cfg.w_fame) * rel + cfg.w_fame * t.fame
+            rec_indicator = 1.0 if tid in recs_set else 0.0
+            u = cfg.w_rel * effective_rel + cfg.w_rec * rec_indicator
+            utils_list.append(u)
+        utils = np.array(utils_list, dtype=np.float64)
 
         scaled = utils / max(cfg.tau, 1e-6)
         scaled = scaled - scaled.max()
@@ -396,7 +474,7 @@ async def _process_one_slot(
         probs = np.concatenate([probs_recs, [p_skip]])
         probs = probs / probs.sum()
 
-        choice_idx = slot_rng.choice(len(probs), p=probs)
+        choice_idx = int(choice_rng.choice(len(probs), p=probs))
         if choice_idx == len(probs) - 1:
             slot_steps.append(StepRecord(
                 slot_id=slot.id, user_id=user.id, recommended=recs,
@@ -404,7 +482,7 @@ async def _process_one_slot(
             ))
             continue
 
-        chosen_id = recs[choice_idx]
+        chosen_id = consider_ids[choice_idx]
         chosen_talk = conf.talks[chosen_id]
         chosen_hall = conf.halls[chosen_talk.hall]
         load_before = utilization(local_load[chosen_hall.id],
