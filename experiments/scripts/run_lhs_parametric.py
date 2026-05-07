@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import csv
 import datetime as dt
 import json
 import sys
@@ -37,6 +38,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 
 import numpy as np
+from tqdm.auto import tqdm
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -223,30 +225,48 @@ def run_lhs(
         Принудительное включение точки с program_variant=0 в maximin subset.
         Default True (Q-O4 accepted). False — для smoke с малым n_points.
     """
+    timings: Dict[str, float] = {
+        "load_conference_s": 0.0,
+        "generate_lhs_s":    0.0,
+        "maximin_subset_s":  0.0,
+        "prep_total_s":      0.0,   # capacity scale + Φ + audience select
+        "p1_p3_total_s":     0.0,
+        "p4_total_s":        0.0,
+    }
+
+    t0_load = time.time()
     base_conf, all_users = load_conference(conference)
+    timings["load_conference_s"] = time.time() - t0_load
     if verbose:
         print(
             f"loaded {conference}: {len(base_conf.talks)} talks, "
             f"{len(base_conf.halls)} halls, {len(base_conf.slots)} slots, "
-            f"{len(all_users)} personas",
+            f"{len(all_users)} personas "
+            f"({timings['load_conference_s']:.2f}s)",
             flush=True,
         )
 
+    t0_lhs = time.time()
     rows = generate_lhs(
         n_points=n_points,
         master_seed=master_seed,
         min_per_level=min_per_level,
     )
+    timings["generate_lhs_s"] = time.time() - t0_lhs
+
+    t0_maximin = time.time()
     effective_k = min(maximin_k, n_points)
     maximin_idx = maximin_subset(
         rows, k=effective_k,
         force_program_variant_zero=force_pv_zero_in_maximin,
     )
     maximin_set = set(maximin_idx)
+    timings["maximin_subset_s"] = time.time() - t0_maximin
     if verbose:
         print(
-            f"generated {len(rows)} LHS rows; "
-            f"maximin subset (k={effective_k}): {sorted(maximin_idx)}",
+            f"generated {len(rows)} LHS rows ({timings['generate_lhs_s']:.2f}s); "
+            f"maximin subset (k={effective_k}, {timings['maximin_subset_s']:.2f}s): "
+            f"{sorted(maximin_idx)}",
             flush=True,
         )
 
@@ -260,11 +280,17 @@ def run_lhs(
         llm_ranker_pol = None
 
     long_rows: List[dict] = []
-    n_total_evals = 0
-    for row in rows:
-        # 1. Capacity scaling
+    n_evals_by_policy: Dict[str, int] = {}
+    n_p4_evals = 0  # отдельный счётчик для удобной диагностики
+
+    # tqdm: общий progress по LHS-точкам. Не меняет порядок вычислений
+    # (`for row in rows:` остаётся sequential), не вмешивается в RNG-потоки.
+    pbar = tqdm(rows, desc="LHS rows", unit="row", disable=not verbose,
+                dynamic_ncols=True)
+    for row in pbar:
+        # 1. Capacity scaling + Φ + audience subset (prep block)
+        t0_prep = time.time()
         cfg_capacity_conf = scale_capacity(base_conf, row["capacity_multiplier"])
-        # 2. program_variant (фикс по lhs_row_id через phi_seed)
         seeds_const = derive_seeds(row["lhs_row_id"], replicate=1)
         program_conf, program_meta = build_program_variant(
             cfg_capacity_conf,
@@ -272,17 +298,19 @@ def run_lhs(
             phi_seed=seeds_const["phi_seed"],
             k_max=5,
         )
-        # 3. audience subset (фикс по lhs_row_id через audience_seed)
         audience_users = select_audience(
             all_users, row["audience_size"], seeds_const["audience_seed"],
         )
-        # 4. cfg parameters
         w_fame = POP_SRC_TO_W_FAME[row["popularity_source"]]
-        # 5. Какие политики — П1-П3 всегда; П4 только на maximin subset
+        timings["prep_total_s"] += time.time() - t0_prep
+
+        # 2. Какие политики — П1-П3 всегда; П4 только на maximin subset
         policies_to_run: Dict[str, object] = dict(pols_no_llm)
-        if include_llm_ranker and row["lhs_row_id"] in maximin_set:
+        is_maximin = row["lhs_row_id"] in maximin_set
+        if include_llm_ranker and is_maximin:
             policies_to_run["llm_ranker"] = llm_ranker_pol
 
+        # 3. Реплики × политики
         for replicate in range(1, replicates + 1):
             seeds = derive_seeds(row["lhs_row_id"], replicate=replicate)
             cfg = SimConfig(
@@ -292,8 +320,17 @@ def run_lhs(
                 w_fame=w_fame,
             )
             for pol_name, pol in policies_to_run.items():
+                t0_eval = time.time()
                 res = simulate(program_conf, audience_users, pol, cfg)
+                eval_dt = time.time() - t0_eval
+                if pol_name == "llm_ranker":
+                    timings["p4_total_s"] += eval_dt
+                    n_p4_evals += 1
+                else:
+                    timings["p1_p3_total_s"] += eval_dt
+
                 metrics = compute_metrics_dict(program_conf, res)
+                n_evals_by_policy[pol_name] = n_evals_by_policy.get(pol_name, 0) + 1
                 long_rows.append({
                     "lhs_row_id":           row["lhs_row_id"],
                     "capacity_multiplier":  row["capacity_multiplier"],
@@ -308,22 +345,26 @@ def run_lhs(
                     "audience_seed":        seeds["audience_seed"],
                     "phi_seed":             seeds["phi_seed"],
                     "cfg_seed":             seeds["cfg_seed"],
-                    "is_maximin_point":     row["lhs_row_id"] in maximin_set,
+                    "is_maximin_point":     is_maximin,
                     "swap_descriptor":      program_meta.get("swap_descriptor"),
                     "fallback_to_p0":       program_meta.get("fallback_to_p0", False),
                     **{f"metric_{k}": v for k, v in metrics.items()},
                 })
-                n_total_evals += 1
-        if verbose and ((row["lhs_row_id"] + 1) % 10 == 0
-                        or row["lhs_row_id"] + 1 == len(rows)):
-            print(
-                f"  ... done {row['lhs_row_id'] + 1}/{n_points} rows, "
-                f"{n_total_evals} evals",
-                flush=True,
-            )
+
+        # progress постфикс: текущая точка, evals по политикам, П4-метка
+        pbar.set_postfix({
+            "n_evals": sum(n_evals_by_policy.values()),
+            "p4": n_p4_evals,
+            "p4_now": "✓" if is_maximin and include_llm_ranker else "·",
+        })
+
+    # Стоимость П4 (если LLMRankerPolicy была активна)
+    p4_cost_usd = None
+    if llm_ranker_pol is not None:
+        p4_cost_usd = float(getattr(llm_ranker_pol, "cumulative_cost", 0.0))
 
     return {
-        "etap": "P/Q",
+        "etap": "Q",
         "conference": conference,
         "params": {
             "n_points": n_points,
@@ -339,7 +380,244 @@ def run_lhs(
         "maximin_indices": sorted(maximin_idx),
         "results": long_rows,
         "n_results": len(long_rows),
+        "n_evals_by_policy": n_evals_by_policy,
+        "n_p4_evals": n_p4_evals,
+        "p4_cost_usd": p4_cost_usd,
+        "timings": timings,
     }
+
+
+# ---------- CSV / Markdown / Acceptance ----------
+
+CSV_COLUMNS = (
+    "lhs_row_id", "capacity_multiplier", "popularity_source",
+    "w_rel", "w_rec", "w_gossip",
+    "audience_size", "program_variant",
+    "policy", "replicate",
+    "audience_seed", "phi_seed", "cfg_seed",
+    "is_maximin_point", "fallback_to_p0",
+    "swap_slot_a", "swap_slot_b", "swap_t1", "swap_t2",
+    "metric_mean_overload_excess", "metric_mean_user_utility",
+    "metric_overflow_rate_slothall", "metric_hall_utilization_variance",
+    "metric_n_skipped", "metric_n_users",
+)
+
+
+def write_csv(out_path: Path, results: List[dict]) -> None:
+    """Long-format CSV (одна строка на eval)."""
+    with open(out_path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS, extrasaction="ignore")
+        writer.writeheader()
+        for r in results:
+            row = dict(r)
+            sd = row.pop("swap_descriptor", None)
+            if sd:
+                row["swap_slot_a"] = sd.get("slot_a")
+                row["swap_slot_b"] = sd.get("slot_b")
+                row["swap_t1"] = sd.get("t1")
+                row["swap_t2"] = sd.get("t2")
+            else:
+                row["swap_slot_a"] = ""
+                row["swap_slot_b"] = ""
+                row["swap_t1"] = ""
+                row["swap_t2"] = ""
+            writer.writerow(row)
+
+
+def compute_acceptance_checks(out: dict) -> dict:
+    """Acceptance-чеки этапа Q (PIVOT_IMPLEMENTATION_PLAN + Q-O9)."""
+    rows = out["results"]
+    params = out["params"]
+    n_points = params["n_points"]
+    replicates = params["replicates"]
+    maximin_k = params["maximin_k"]
+    include_p4 = params["include_llm_ranker"]
+    maximin_set = set(out["maximin_indices"])
+
+    expected_p1_p3 = n_points * replicates * 3      # П1, П2, П3
+    expected_p4 = (maximin_k * replicates) if include_p4 else 0
+    expected_total = expected_p1_p3 + expected_p4
+
+    n_by_pol = out["n_evals_by_policy"]
+    actual_p1_p3 = sum(n_by_pol.get(p, 0) for p in ("no_policy", "cosine", "capacity_aware"))
+    actual_p4 = n_by_pol.get("llm_ranker", 0)
+    actual_total = sum(n_by_pol.values())
+
+    # П4 только на maximin
+    p4_outside_maximin = [
+        r for r in rows
+        if r["policy"] == "llm_ranker" and r["lhs_row_id"] not in maximin_set
+    ]
+
+    # CRN: audience_seed/phi_seed одинаковы для (lhs_row_id, replicate) между политиками
+    by_key: Dict[tuple, list] = {}
+    for r in rows:
+        key = (r["lhs_row_id"], r["replicate"])
+        by_key.setdefault(key, []).append(r)
+    crn_violations = []
+    for key, group in by_key.items():
+        seeds_seen = {(r["audience_seed"], r["phi_seed"]) for r in group}
+        if len(seeds_seen) > 1:
+            crn_violations.append({"key": list(key), "seeds_count": len(seeds_seen)})
+
+    # cfg_seed = replicate
+    cfg_seed_violations = [
+        r["lhs_row_id"] for r in rows if r["cfg_seed"] != r["replicate"]
+    ]
+
+    # Long-format columns: проверка минимального набора
+    required = {
+        "lhs_row_id", "capacity_multiplier", "popularity_source",
+        "w_rel", "w_rec", "w_gossip", "audience_size", "program_variant",
+        "policy", "replicate", "audience_seed", "phi_seed", "cfg_seed",
+        "is_maximin_point",
+        "metric_mean_overload_excess",
+    }
+    missing_keys = []
+    if rows:
+        missing_keys = sorted(required - set(rows[0].keys()))
+
+    # Fallback-к-P0 случаи (не silent — фиксируется явным флагом)
+    n_fallback = sum(1 for r in rows if r.get("fallback_to_p0"))
+
+    return {
+        "expected_p1_p3":  expected_p1_p3,
+        "expected_p4":     expected_p4,
+        "expected_total":  expected_total,
+        "actual_p1_p3":    actual_p1_p3,
+        "actual_p4":       actual_p4,
+        "actual_total":    actual_total,
+        "n_eval_match":    actual_total == expected_total,
+        "p1_p3_match":     actual_p1_p3 == expected_p1_p3,
+        "p4_match":        actual_p4 == expected_p4,
+        "p4_only_on_maximin":          len(p4_outside_maximin) == 0,
+        "p4_outside_maximin_count":    len(p4_outside_maximin),
+        "crn_audience_phi_invariant":  len(crn_violations) == 0,
+        "crn_violations_count":        len(crn_violations),
+        "cfg_seed_equals_replicate":   len(cfg_seed_violations) == 0,
+        "cfg_seed_violations_count":   len(cfg_seed_violations),
+        "long_format_keys_ok":         len(missing_keys) == 0,
+        "missing_keys":                missing_keys,
+        "n_fallback_to_p0":            n_fallback,
+    }
+
+
+def acceptance_passed(checks: dict) -> bool:
+    return all([
+        checks["n_eval_match"],
+        checks["p1_p3_match"],
+        checks["p4_match"],
+        checks["p4_only_on_maximin"],
+        checks["crn_audience_phi_invariant"],
+        checks["cfg_seed_equals_replicate"],
+        checks["long_format_keys_ok"],
+    ])
+
+
+def render_markdown(out: dict, checks: dict, paths: dict, wallclock_s: float) -> str:
+    """Markdown-отчёт этапа Q."""
+    p = out["params"]
+    t = out["timings"]
+    lines = []
+    lines.append(f"# Этап Q: полный параметрический LHS-прогон")
+    lines.append("")
+    lines.append(f"Дата: {dt.date.today().isoformat()}")
+    lines.append(f"Конференция: `{out['conference']}`")
+    lines.append(f"Master seed: {p['master_seed']}")
+    lines.append("")
+
+    lines.append("## Параметры")
+    lines.append("")
+    lines.append(f"- n_points: **{p['n_points']}**")
+    lines.append(f"- replicates: **{p['replicates']}**")
+    lines.append(f"- maximin_k: **{p['maximin_k']}**")
+    lines.append(f"- include_llm_ranker: **{p['include_llm_ranker']}**")
+    lines.append(f"- K (top-K): {p['K']}")
+    lines.append(f"- audience_size grid: {{30, 60, 100}}")
+    lines.append(f"- popularity_source grid: {{cosine_only, fame_only, mixed}}")
+    lines.append(f"- w_rec ∈ [0, 0.7], w_gossip ∈ [0, 0.7], симплекс w_rel + w_rec + w_gossip = 1")
+    lines.append(f"- program_variant ∈ {{0..5}}; P_0 control + до 5 swap-модификаций (Φ)")
+    lines.append("")
+
+    lines.append("## Wallclock breakdown")
+    lines.append("")
+    lines.append(f"| Блок | Время, сек |")
+    lines.append(f"|---|---:|")
+    lines.append(f"| load_conference | {t['load_conference_s']:.2f} |")
+    lines.append(f"| generate_lhs | {t['generate_lhs_s']:.2f} |")
+    lines.append(f"| maximin_subset | {t['maximin_subset_s']:.2f} |")
+    lines.append(f"| prep (capacity / Φ / audience) | {t['prep_total_s']:.2f} |")
+    lines.append(f"| П1–П3 evals | {t['p1_p3_total_s']:.2f} |")
+    lines.append(f"| П4 (llm_ranker) evals | {t['p4_total_s']:.2f} |")
+    lines.append(f"| **итого (run_lhs внутренний)** | **{sum(t.values()):.2f}** |")
+    lines.append(f"| **wallclock полный** | **{wallclock_s:.2f}** |")
+    lines.append("")
+
+    lines.append("## Сводка evals по политикам")
+    lines.append("")
+    lines.append(f"| Политика | Evals |")
+    lines.append(f"|---|---:|")
+    for pol in ("no_policy", "cosine", "capacity_aware", "llm_ranker"):
+        n = out["n_evals_by_policy"].get(pol, 0)
+        lines.append(f"| {pol} | {n} |")
+    lines.append(f"| **итого** | **{out['n_results']}** |")
+    lines.append("")
+
+    if out.get("p4_cost_usd") is not None:
+        lines.append(f"П4 LLMRankerPolicy cumulative cost: **${out['p4_cost_usd']:.4f}**")
+        lines.append("")
+
+    lines.append("## Maximin subset")
+    lines.append("")
+    lines.append(f"Indices ({len(out['maximin_indices'])}): "
+                 f"{out['maximin_indices']}")
+    lines.append("")
+
+    lines.append("## Acceptance")
+    lines.append("")
+    lines.append(f"| Чек | Значение | Статус |")
+    lines.append(f"|---|---|---|")
+    lines.append(f"| П1–П3 evals == ожидаемое | {checks['actual_p1_p3']} == "
+                 f"{checks['expected_p1_p3']} | "
+                 f"{'PASS' if checks['p1_p3_match'] else 'FAIL'} |")
+    lines.append(f"| П4 evals == ожидаемое | {checks['actual_p4']} == "
+                 f"{checks['expected_p4']} | "
+                 f"{'PASS' if checks['p4_match'] else 'FAIL'} |")
+    lines.append(f"| total evals == ожидаемое | {checks['actual_total']} == "
+                 f"{checks['expected_total']} | "
+                 f"{'PASS' if checks['n_eval_match'] else 'FAIL'} |")
+    lines.append(f"| П4 только на maximin | "
+                 f"violations={checks['p4_outside_maximin_count']} | "
+                 f"{'PASS' if checks['p4_only_on_maximin'] else 'FAIL'} |")
+    lines.append(f"| CRN audience/phi инвариант | "
+                 f"violations={checks['crn_violations_count']} | "
+                 f"{'PASS' if checks['crn_audience_phi_invariant'] else 'FAIL'} |")
+    lines.append(f"| cfg_seed = replicate | "
+                 f"violations={checks['cfg_seed_violations_count']} | "
+                 f"{'PASS' if checks['cfg_seed_equals_replicate'] else 'FAIL'} |")
+    lines.append(f"| long-format ключи | "
+                 f"missing={checks['missing_keys']} | "
+                 f"{'PASS' if checks['long_format_keys_ok'] else 'FAIL'} |")
+    lines.append("")
+    lines.append(f"Дополнительно (диагностика, не блокатор):")
+    lines.append(f"- fallback_to_p0 случаев: **{checks['n_fallback_to_p0']}** "
+                 f"(когда `enumerate_modifications` вернула меньше swap-вариантов "
+                 f"чем требовался индекс program_variant; не silent — флаг записан "
+                 f"в каждой соответствующей строке)")
+    lines.append("")
+
+    overall = acceptance_passed(checks)
+    lines.append(f"### Итог: **{'PASS' if overall else 'FAIL'}**")
+    lines.append("")
+
+    lines.append("## Артефакты")
+    lines.append("")
+    lines.append(f"- JSON: `{paths['json'].name}`")
+    lines.append(f"- CSV (long-format): `{paths['csv'].name}`")
+    lines.append(f"- этот отчёт: `{paths['md'].name}`")
+    lines.append("")
+
+    return "\n".join(lines)
 
 
 # ---------- CLI ----------
@@ -357,7 +635,8 @@ def main() -> None:
                          "(Q-O9 accepted вариант (в)). Без флага П4 не "
                          "запускается.")
     ap.add_argument("--K", type=int, default=3)
-    ap.add_argument("--out", default=None)
+    ap.add_argument("--out-prefix", default=None,
+                    help="Путь без расширения; будут созданы .json/.csv/.md")
     args = ap.parse_args()
 
     t0 = time.time()
@@ -373,16 +652,39 @@ def main() -> None:
     elapsed = time.time() - t0
     out["elapsed_total_s"] = elapsed
 
+    checks = compute_acceptance_checks(out)
+    out["acceptance"] = checks
+
     date = dt.date.today().isoformat()
-    out_path = Path(args.out) if args.out else (
-        ROOT / "results" / f"lhs_parametric_{args.conference}_{date}.json"
+    if args.out_prefix:
+        prefix = Path(args.out_prefix)
+    else:
+        prefix = ROOT / "results" / f"lhs_parametric_{args.conference}_{date}"
+    prefix.parent.mkdir(parents=True, exist_ok=True)
+
+    paths = {
+        "json": prefix.with_suffix(".json"),
+        "csv":  prefix.with_suffix(".csv"),
+        "md":   prefix.with_suffix(".md"),
+    }
+    paths["json"].write_text(
+        json.dumps(out, ensure_ascii=False, indent=2, default=str)
     )
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2,
-                                   default=str))
-    print(f"\nWROTE: {out_path}")
-    print(f"  n_results: {out['n_results']}")
-    print(f"  elapsed: {elapsed:.1f}s")
+    write_csv(paths["csv"], out["results"])
+    paths["md"].write_text(render_markdown(out, checks, paths, elapsed))
+
+    print(f"\nWROTE: {paths['json']}")
+    print(f"WROTE: {paths['csv']}")
+    print(f"WROTE: {paths['md']}")
+    print(f"\n  n_results: {out['n_results']}")
+    print(f"  evals by policy: {out['n_evals_by_policy']}")
+    print(f"  П4 cost: ${out.get('p4_cost_usd', 0.0):.4f}"
+          if out.get("p4_cost_usd") is not None else "  П4 cost: n/a (не запускалась)")
+    print(f"  elapsed total: {elapsed:.1f}s")
+    print(f"\n  acceptance: {'PASS' if acceptance_passed(checks) else 'FAIL'}")
+    for k, v in checks.items():
+        if isinstance(v, bool):
+            print(f"    {k}: {v}")
 
 
 if __name__ == "__main__":
