@@ -1,0 +1,1582 @@
+{
+  "interpretation": "diagnostic only — no conf-matching",
+  "policies_in_full_50": [
+    "no_policy",
+    "cosine",
+    "capacity_aware"
+  ],
+  "policies_excluded": [
+    "llm_ranker"
+  ],
+  "p4_exclusion_reason": "llm_ranker присутствует только на 12 maximin LHS-row, не во всём LHS-50; full-50 program-effect анализ строится только на П1–П3.",
+  "pv_levels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "per_pv_aggregate": {
+    "0": {
+      "n_lhs": 7,
+      "lhs_row_ids": [
+        7,
+        12,
+        15,
+        16,
+        32,
+        35,
+        45
+      ],
+      "policies": {
+        "no_policy": {
+          "metric_mean_overload_excess": {
+            "n": 7,
+            "mean": 0.008468140047087415,
+            "median": 0.0,
+            "std": 0.017426339294155234,
+            "p25": 0.0,
+            "p75": 0.0043859649122807015,
+            "min": 0.0,
+            "max": 0.0505050505050505
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 7,
+            "mean": 0.03571428571428571,
+            "median": 0.0,
+            "std": 0.06925256939166186,
+            "p25": 0.0,
+            "p75": 0.025,
+            "min": 0.0,
+            "max": 0.2
+          },
+          "metric_hall_utilization_variance": {
+            "n": 7,
+            "mean": 0.009964926999553092,
+            "median": 0.007261088248742571,
+            "std": 0.007878891275158218,
+            "p25": 0.002638335807496787,
+            "p75": 0.018659106719733795,
+            "min": 0.0007900720699888235,
+            "max": 0.01910844362367908
+          },
+          "metric_mean_user_utility": {
+            "n": 7,
+            "mean": 0.7308653376074065,
+            "median": 0.7316472345963121,
+            "std": 0.0035918019366222285,
+            "p25": 0.7288427858923872,
+            "p75": 0.7335924594476819,
+            "min": 0.7249134089797735,
+            "max": 0.7346262289956212
+          }
+        },
+        "cosine": {
+          "metric_mean_overload_excess": {
+            "n": 7,
+            "mean": 0.009911141490088858,
+            "median": 0.0,
+            "std": 0.020916248829136903,
+            "p25": 0.0,
+            "p75": 0.0043859649122807015,
+            "min": 0.0,
+            "max": 0.06060606060606061
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 7,
+            "mean": 0.03928571428571429,
+            "median": 0.0,
+            "std": 0.07775550377527586,
+            "p25": 0.0,
+            "p75": 0.025,
+            "min": 0.0,
+            "max": 0.225
+          },
+          "metric_hall_utilization_variance": {
+            "n": 7,
+            "mean": 0.010660144740748933,
+            "median": 0.007370827617741198,
+            "std": 0.007546078701517046,
+            "p25": 0.004173667932148258,
+            "p75": 0.019025451626461652,
+            "min": 0.0013981492187065084,
+            "max": 0.019453797231575008
+          },
+          "metric_mean_user_utility": {
+            "n": 7,
+            "mean": 0.732167362492709,
+            "median": 0.7330748397856951,
+            "std": 0.0029913471857891524,
+            "p25": 0.7304031110058229,
+            "p75": 0.7343723251794776,
+            "min": 0.7270685599495967,
+            "max": 0.73547726534307
+          }
+        },
+        "capacity_aware": {
+          "metric_mean_overload_excess": {
+            "n": 7,
+            "mean": 0.001300599984810511,
+            "median": 0.0,
+            "std": 0.002324359406353404,
+            "p25": 0.0,
+            "p75": 0.0012626262626262627,
+            "min": 0.0,
+            "max": 0.006578947368421052
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 7,
+            "mean": 0.010714285714285716,
+            "median": 0.0,
+            "std": 0.01821078397711709,
+            "p25": 0.0,
+            "p75": 0.0125,
+            "min": 0.0,
+            "max": 0.05
+          },
+          "metric_hall_utilization_variance": {
+            "n": 7,
+            "mean": 0.005277229839179462,
+            "median": 0.003420210333790582,
+            "std": 0.005991953783073642,
+            "p25": 0.001120118607107003,
+            "p75": 0.0057604091097190665,
+            "min": 0.0006508994831344236,
+            "max": 0.01910844362367908
+          },
+          "metric_mean_user_utility": {
+            "n": 7,
+            "mean": 0.7316089423639432,
+            "median": 0.7322670898710688,
+            "std": 0.0031472641170025954,
+            "p25": 0.7295808537552755,
+            "p75": 0.7340930754629275,
+            "min": 0.7266747469703356,
+            "max": 0.7349729012697935
+          }
+        }
+      }
+    },
+    "1": {
+      "n_lhs": 9,
+      "lhs_row_ids": [
+        0,
+        10,
+        26,
+        27,
+        28,
+        29,
+        34,
+        38,
+        42
+      ],
+      "policies": {
+        "no_policy": {
+          "metric_mean_overload_excess": {
+            "n": 9,
+            "mean": 0.01025132275132275,
+            "median": 0.0,
+            "std": 0.02258382417852364,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.07142857142857142
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 9,
+            "mean": 0.01673789173789174,
+            "median": 0.0,
+            "std": 0.03910249923450372,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.125
+          },
+          "metric_hall_utilization_variance": {
+            "n": 9,
+            "mean": 0.011984224292118302,
+            "median": 0.010673423327210331,
+            "std": 0.009847807066491372,
+            "p25": 0.002179290016660259,
+            "p75": 0.017064726401748973,
+            "min": 0.0018317984790287998,
+            "max": 0.032081968589905106
+          },
+          "metric_mean_user_utility": {
+            "n": 9,
+            "mean": 0.7308596064674634,
+            "median": 0.7314845525970062,
+            "std": 0.0031365834600261978,
+            "p25": 0.730971425337096,
+            "p75": 0.7332856709510088,
+            "min": 0.7251829066624244,
+            "max": 0.7344843868538737
+          }
+        },
+        "cosine": {
+          "metric_mean_overload_excess": {
+            "n": 9,
+            "mean": 0.0210813492063492,
+            "median": 0.0,
+            "std": 0.0532094086056323,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.1706349206349206
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 9,
+            "mean": 0.03340455840455841,
+            "median": 0.0,
+            "std": 0.08579023610339852,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.275
+          },
+          "metric_hall_utilization_variance": {
+            "n": 9,
+            "mean": 0.020119427194715548,
+            "median": 0.015244314864653196,
+            "std": 0.025123938774459693,
+            "p25": 0.0046874758973884335,
+            "p75": 0.01684736394557823,
+            "min": 0.002225426118159682,
+            "max": 0.08688166624674563
+          },
+          "metric_mean_user_utility": {
+            "n": 9,
+            "mean": 0.7319982140207733,
+            "median": 0.7327008838454883,
+            "std": 0.003620741627300869,
+            "p25": 0.7315077717105548,
+            "p75": 0.7344886734336614,
+            "min": 0.7252233161280552,
+            "max": 0.7361504054442048
+          }
+        },
+        "capacity_aware": {
+          "metric_mean_overload_excess": {
+            "n": 9,
+            "mean": 0.0015983245149911816,
+            "median": 0.0,
+            "std": 0.003354304244863963,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.010416666666666666
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 9,
+            "mean": 0.005626780626780627,
+            "median": 0.0,
+            "std": 0.010527826904217595,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.02564102564102564
+          },
+          "metric_hall_utilization_variance": {
+            "n": 9,
+            "mean": 0.005212616667693986,
+            "median": 0.005450464570473251,
+            "std": 0.0034244508340416616,
+            "p25": 0.001871716006664104,
+            "p75": 0.007768539514571262,
+            "min": 0.001074012371388465,
+            "max": 0.010810569480613425
+          },
+          "metric_mean_user_utility": {
+            "n": 9,
+            "mean": 0.7312449453164029,
+            "median": 0.7316587761665384,
+            "std": 0.0033660599619532387,
+            "p25": 0.7313459631055593,
+            "p75": 0.7339733889326453,
+            "min": 0.7251437082886696,
+            "max": 0.7355200799927115
+          }
+        }
+      }
+    },
+    "2": {
+      "n_lhs": 9,
+      "lhs_row_ids": [
+        9,
+        14,
+        23,
+        25,
+        33,
+        39,
+        43,
+        44,
+        49
+      ],
+      "policies": {
+        "no_policy": {
+          "metric_mean_overload_excess": {
+            "n": 9,
+            "mean": 0.05261283550757234,
+            "median": 0.0,
+            "std": 0.14573589385493932,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.4647435897435897
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 9,
+            "mean": 0.09064327485380116,
+            "median": 0.0,
+            "std": 0.24721007471167544,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.7894736842105263
+          },
+          "metric_hall_utilization_variance": {
+            "n": 9,
+            "mean": 0.01711961088636381,
+            "median": 0.007044175694969346,
+            "std": 0.022692094391064618,
+            "p25": 0.0028202233424350627,
+            "p75": 0.016267074150596878,
+            "min": 0.0012216455209534795,
+            "max": 0.07572457812842427
+          },
+          "metric_mean_user_utility": {
+            "n": 9,
+            "mean": 0.7305529796608068,
+            "median": 0.73197888918221,
+            "std": 0.0035465420962749687,
+            "p25": 0.7262703554083904,
+            "p75": 0.7324896494547526,
+            "min": 0.7250735248128574,
+            "max": 0.73516053494066
+          }
+        },
+        "cosine": {
+          "metric_mean_overload_excess": {
+            "n": 9,
+            "mean": 0.06326592510803038,
+            "median": 0.0,
+            "std": 0.1703474683483236,
+            "p25": 0.0,
+            "p75": 0.011363636363636362,
+            "min": 0.0,
+            "max": 0.5448717948717949
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 9,
+            "mean": 0.08187134502923978,
+            "median": 0.0,
+            "std": 0.21322987898835713,
+            "p25": 0.0,
+            "p75": 0.02631578947368421,
+            "min": 0.0,
+            "max": 0.6842105263157895
+          },
+          "metric_hall_utilization_variance": {
+            "n": 9,
+            "mean": 0.028101682983364042,
+            "median": 0.020744100109179472,
+            "std": 0.034237723250356275,
+            "p25": 0.003102464468248968,
+            "p75": 0.037972847158453206,
+            "min": 0.0014715494040753556,
+            "max": 0.11574416502301114
+          },
+          "metric_mean_user_utility": {
+            "n": 9,
+            "mean": 0.7317415405133807,
+            "median": 0.7330863629778226,
+            "std": 0.0037275409458262586,
+            "p25": 0.7272005045165618,
+            "p75": 0.7338343234111865,
+            "min": 0.7265821809569994,
+            "max": 0.7371548940986394
+          }
+        },
+        "capacity_aware": {
+          "metric_mean_overload_excess": {
+            "n": 9,
+            "mean": 0.04050457339931024,
+            "median": 0.0,
+            "std": 0.11149644145723327,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.3557692307692308
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 9,
+            "mean": 0.10526315789473684,
+            "median": 0.0,
+            "std": 0.2885418281297987,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.9210526315789473
+          },
+          "metric_hall_utilization_variance": {
+            "n": 9,
+            "mean": 0.008789683747711443,
+            "median": 0.0025970559406287195,
+            "std": 0.010451450461658632,
+            "p25": 0.002220224126789783,
+            "p75": 0.011560921717171718,
+            "min": 0.0007333717800845829,
+            "max": 0.028136862624397255
+          },
+          "metric_mean_user_utility": {
+            "n": 9,
+            "mean": 0.7310054474517151,
+            "median": 0.7322167593985796,
+            "std": 0.003441739256654405,
+            "p25": 0.7269375991076231,
+            "p75": 0.7327907857174675,
+            "min": 0.7261325530707836,
+            "max": 0.7359215787053108
+          }
+        }
+      }
+    },
+    "3": {
+      "n_lhs": 8,
+      "lhs_row_ids": [
+        2,
+        4,
+        5,
+        8,
+        11,
+        20,
+        22,
+        40
+      ],
+      "policies": {
+        "no_policy": {
+          "metric_mean_overload_excess": {
+            "n": 8,
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 8,
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "metric_hall_utilization_variance": {
+            "n": 8,
+            "mean": 0.004771303479520847,
+            "median": 0.0034236399924733067,
+            "std": 0.003352872271972419,
+            "p25": 0.00207845548516402,
+            "p75": 0.007127562049289364,
+            "min": 0.000998368519736041,
+            "max": 0.010725308641975309
+          },
+          "metric_mean_user_utility": {
+            "n": 8,
+            "mean": 0.7288478056434542,
+            "median": 0.729005701902012,
+            "std": 0.0030024775376461714,
+            "p25": 0.7257757168263197,
+            "p75": 0.7318786335488161,
+            "min": 0.7251410452028115,
+            "max": 0.7322374562422435
+          }
+        },
+        "cosine": {
+          "metric_mean_overload_excess": {
+            "n": 8,
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 8,
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "metric_hall_utilization_variance": {
+            "n": 8,
+            "mean": 0.006224135961612275,
+            "median": 0.004075266155268535,
+            "std": 0.0046618199894306964,
+            "p25": 0.003405938272358757,
+            "p75": 0.008127811471679618,
+            "min": 0.0010074999391238707,
+            "max": 0.01641203703703704
+          },
+          "metric_mean_user_utility": {
+            "n": 8,
+            "mean": 0.7300456290210907,
+            "median": 0.7301310283131898,
+            "std": 0.002978742490247997,
+            "p25": 0.7275291961928209,
+            "p75": 0.7328638301541408,
+            "min": 0.7258267688254515,
+            "max": 0.7334989915291469
+          }
+        },
+        "capacity_aware": {
+          "metric_mean_overload_excess": {
+            "n": 8,
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 8,
+            "mean": 0.0,
+            "median": 0.0,
+            "std": 0.0,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "metric_hall_utilization_variance": {
+            "n": 8,
+            "mean": 0.0025670223625835317,
+            "median": 0.002432905525077224,
+            "std": 0.0014098322511065377,
+            "p25": 0.001378635190933066,
+            "p75": 0.0033362268518518515,
+            "min": 0.0009003821684815437,
+            "max": 0.0053195523816191755
+          },
+          "metric_mean_user_utility": {
+            "n": 8,
+            "mean": 0.7294996437539036,
+            "median": 0.7297601893544197,
+            "std": 0.0028989043395485103,
+            "p25": 0.7268947987817228,
+            "p75": 0.7323088012946148,
+            "min": 0.7258267688254515,
+            "max": 0.7325767934943239
+          }
+        }
+      }
+    },
+    "4": {
+      "n_lhs": 7,
+      "lhs_row_ids": [
+        3,
+        13,
+        19,
+        21,
+        41,
+        46,
+        47
+      ],
+      "policies": {
+        "no_policy": {
+          "metric_mean_overload_excess": {
+            "n": 7,
+            "mean": 0.16984126984126985,
+            "median": 0.0,
+            "std": 0.4126323970399362,
+            "p25": 0.0,
+            "p75": 0.004166666666666667,
+            "min": 0.0,
+            "max": 1.1805555555555556
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 7,
+            "mean": 0.14661654135338348,
+            "median": 0.0,
+            "std": 0.3485106371376478,
+            "p25": 0.0,
+            "p75": 0.013157894736842105,
+            "min": 0.0,
+            "max": 1.0
+          },
+          "metric_hall_utilization_variance": {
+            "n": 7,
+            "mean": 0.04476762859981972,
+            "median": 0.010748885459533607,
+            "std": 0.08095174778630326,
+            "p25": 0.008629568265346775,
+            "p75": 0.01787871605327234,
+            "min": 0.00683102566300869,
+            "max": 0.2427769204389575
+          },
+          "metric_mean_user_utility": {
+            "n": 7,
+            "mean": 0.7321200630388089,
+            "median": 0.7345150237902999,
+            "std": 0.004144916484949044,
+            "p25": 0.7303492777235806,
+            "p75": 0.7346086804568768,
+            "min": 0.7250094741582871,
+            "max": 0.7354000269621611
+          }
+        },
+        "cosine": {
+          "metric_mean_overload_excess": {
+            "n": 7,
+            "mean": 0.17619047619047618,
+            "median": 0.0,
+            "std": 0.4270578799818863,
+            "p25": 0.0,
+            "p75": 0.005555555555555556,
+            "min": 0.0,
+            "max": 1.222222222222222
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 7,
+            "mean": 0.15037593984962405,
+            "median": 0.0,
+            "std": 0.3473326154120631,
+            "p25": 0.0,
+            "p75": 0.02631578947368421,
+            "min": 0.0,
+            "max": 1.0
+          },
+          "metric_hall_utilization_variance": {
+            "n": 7,
+            "mean": 0.05602802388046054,
+            "median": 0.01885108170552405,
+            "std": 0.09638374396154821,
+            "p25": 0.01286474799305136,
+            "p75": 0.023594442398121335,
+            "min": 0.008695737597165066,
+            "max": 0.2917309670781893
+          },
+          "metric_mean_user_utility": {
+            "n": 7,
+            "mean": 0.7332748496532441,
+            "median": 0.7353876085579395,
+            "std": 0.004272990430066379,
+            "p25": 0.7310508440000316,
+            "p75": 0.7362528861500323,
+            "min": 0.7260441427429517,
+            "max": 0.7368847359716892
+          }
+        },
+        "capacity_aware": {
+          "metric_mean_overload_excess": {
+            "n": 7,
+            "mean": 0.16818783068783066,
+            "median": 0.0,
+            "std": 0.4114076337122071,
+            "p25": 0.0,
+            "p75": 0.0006944444444444445,
+            "min": 0.0,
+            "max": 1.1759259259259258
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 7,
+            "mean": 0.14661654135338348,
+            "median": 0.0,
+            "std": 0.3485106371376478,
+            "p25": 0.0,
+            "p75": 0.013157894736842105,
+            "min": 0.0,
+            "max": 1.0
+          },
+          "metric_hall_utilization_variance": {
+            "n": 7,
+            "mean": 0.03711345893371743,
+            "median": 0.004567115340649291,
+            "std": 0.07485232108184635,
+            "p25": 0.0032056081803660385,
+            "p75": 0.013198879228025548,
+            "min": 0.0022749467955991355,
+            "max": 0.22014317558299043
+          },
+          "metric_mean_user_utility": {
+            "n": 7,
+            "mean": 0.7325905471632169,
+            "median": 0.7348602250218391,
+            "std": 0.004174644028554707,
+            "p25": 0.7305365220457316,
+            "p75": 0.7353961420431734,
+            "min": 0.7256300946076711,
+            "max": 0.7357781823351979
+          }
+        }
+      }
+    },
+    "5": {
+      "n_lhs": 10,
+      "lhs_row_ids": [
+        1,
+        6,
+        17,
+        18,
+        24,
+        30,
+        31,
+        36,
+        37,
+        48
+      ],
+      "policies": {
+        "no_policy": {
+          "metric_mean_overload_excess": {
+            "n": 10,
+            "mean": 0.016065685045948207,
+            "median": 0.0,
+            "std": 0.04225313396368005,
+            "p25": 0.0,
+            "p75": 0.006578947368421052,
+            "min": 0.0,
+            "max": 0.14236111111111113
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 10,
+            "mean": 0.018421052631578946,
+            "median": 0.0,
+            "std": 0.03912123354557501,
+            "p25": 0.0,
+            "p75": 0.019736842105263157,
+            "min": 0.0,
+            "max": 0.13157894736842105
+          },
+          "metric_hall_utilization_variance": {
+            "n": 10,
+            "mean": 0.016276625038951883,
+            "median": 0.008595413543919654,
+            "std": 0.023046028088150372,
+            "p25": 0.0034723380559681613,
+            "p75": 0.01734120648233645,
+            "min": 0.0008587559092609599,
+            "max": 0.0825295781893004
+          },
+          "metric_mean_user_utility": {
+            "n": 10,
+            "mean": 0.7316752123199403,
+            "median": 0.7328600894349317,
+            "std": 0.003636191881826684,
+            "p25": 0.7282963873352855,
+            "p75": 0.734588388428092,
+            "min": 0.7251164490977923,
+            "max": 0.7360638330131769
+          }
+        },
+        "cosine": {
+          "metric_mean_overload_excess": {
+            "n": 10,
+            "mean": 0.01827955304928989,
+            "median": 0.0,
+            "std": 0.04191196591255594,
+            "p25": 0.0,
+            "p75": 0.009868421052631578,
+            "min": 0.0,
+            "max": 0.14236111111111108
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 10,
+            "mean": 0.023684210526315787,
+            "median": 0.0,
+            "std": 0.0398230156590041,
+            "p25": 0.0,
+            "p75": 0.02631578947368421,
+            "min": 0.0,
+            "max": 0.13157894736842105
+          },
+          "metric_hall_utilization_variance": {
+            "n": 10,
+            "mean": 0.022432464631650724,
+            "median": 0.010500564780195249,
+            "std": 0.0235124525927568,
+            "p25": 0.00465431616255279,
+            "p75": 0.040128395079176635,
+            "min": 0.0010259724064437868,
+            "max": 0.07273180298353911
+          },
+          "metric_mean_user_utility": {
+            "n": 10,
+            "mean": 0.7330495078687866,
+            "median": 0.734376778639853,
+            "std": 0.00392688142081685,
+            "p25": 0.7299873217319449,
+            "p75": 0.735643956689164,
+            "min": 0.7254780780524015,
+            "max": 0.7385143566504121
+          }
+        },
+        "capacity_aware": {
+          "metric_mean_overload_excess": {
+            "n": 10,
+            "mean": 0.011549707602339181,
+            "median": 0.0,
+            "std": 0.033212886420126334,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.11111111111111112
+          },
+          "metric_overflow_rate_slothall": {
+            "n": 10,
+            "mean": 0.013157894736842105,
+            "median": 0.0,
+            "std": 0.03168840678629552,
+            "p25": 0.0,
+            "p75": 0.0,
+            "min": 0.0,
+            "max": 0.10526315789473684
+          },
+          "metric_hall_utilization_variance": {
+            "n": 10,
+            "mean": 0.010288650130818026,
+            "median": 0.005509261708496918,
+            "std": 0.015556855154380298,
+            "p25": 0.0012988700679776347,
+            "p75": 0.009974980527760503,
+            "min": 0.0006291874978743666,
+            "max": 0.05517779063786008
+          },
+          "metric_mean_user_utility": {
+            "n": 10,
+            "mean": 0.7323109511894484,
+            "median": 0.7331305663722256,
+            "std": 0.0036120142415317393,
+            "p25": 0.7293525850710769,
+            "p75": 0.7348773768171668,
+            "min": 0.7253437120467424,
+            "max": 0.7372987049072981
+          }
+        }
+      }
+    }
+  },
+  "delta_vs_p0_mean": {
+    "no_policy": {
+      "metric_mean_overload_excess": {
+        "0": 0.0,
+        "1": 0.0017831827042353362,
+        "2": 0.044144695460484926,
+        "3": -0.008468140047087415,
+        "4": 0.16137312979418245,
+        "5": 0.007597544998860792
+      },
+      "metric_overflow_rate_slothall": {
+        "0": 0.0,
+        "1": -0.018976393976393974,
+        "2": 0.05492898913951545,
+        "3": -0.03571428571428571,
+        "4": 0.11090225563909777,
+        "5": -0.017293233082706767
+      },
+      "metric_hall_utilization_variance": {
+        "0": 0.0,
+        "1": 0.0020192972925652097,
+        "2": 0.007154683886810717,
+        "3": -0.005193623520032245,
+        "4": 0.034802701600266626,
+        "5": 0.006311698039398791
+      },
+      "metric_mean_user_utility": {
+        "0": 0.0,
+        "1": -5.731139943065955e-06,
+        "2": -0.00031235794659967286,
+        "3": -0.002017531963952268,
+        "4": 0.0012547254314024814,
+        "5": 0.000809874712533798
+      }
+    },
+    "cosine": {
+      "metric_mean_overload_excess": {
+        "0": 0.0,
+        "1": 0.011170207716260342,
+        "2": 0.05335478361794152,
+        "3": -0.009911141490088858,
+        "4": 0.1662793347003873,
+        "5": 0.00836841155920103
+      },
+      "metric_overflow_rate_slothall": {
+        "0": 0.0,
+        "1": -0.005881155881155883,
+        "2": 0.042585630743525484,
+        "3": -0.03928571428571429,
+        "4": 0.11109022556390977,
+        "5": -0.015601503759398505
+      },
+      "metric_hall_utilization_variance": {
+        "0": 0.0,
+        "1": 0.009459282453966615,
+        "2": 0.017441538242615108,
+        "3": -0.004436008779136658,
+        "4": 0.04536787913971161,
+        "5": 0.011772319890901791
+      },
+      "metric_mean_user_utility": {
+        "0": 0.0,
+        "1": -0.00016914847193572058,
+        "2": -0.00042582197932827803,
+        "3": -0.002121733471618259,
+        "4": 0.0011074871605351033,
+        "5": 0.0008821453760776699
+      }
+    },
+    "capacity_aware": {
+      "metric_mean_overload_excess": {
+        "0": 0.0,
+        "1": 0.0002977245301806705,
+        "2": 0.03920397341449973,
+        "3": -0.001300599984810511,
+        "4": 0.16688723070302014,
+        "5": 0.010249107617528671
+      },
+      "metric_overflow_rate_slothall": {
+        "0": 0.0,
+        "1": -0.005087505087505089,
+        "2": 0.09454887218045112,
+        "3": -0.010714285714285716,
+        "4": 0.13590225563909777,
+        "5": 0.0024436090225563884
+      },
+      "metric_hall_utilization_variance": {
+        "0": 0.0,
+        "1": -6.461317148547582e-05,
+        "2": 0.003512453908531981,
+        "3": -0.00271020747659593,
+        "4": 0.03183622909453797,
+        "5": 0.005011420291638565
+      },
+      "metric_mean_user_utility": {
+        "0": 0.0,
+        "1": -0.0003639970475403098,
+        "2": -0.0006034949122281086,
+        "3": -0.0021092986100396116,
+        "4": 0.000981604799273672,
+        "5": 0.0007020088255051959
+      }
+    }
+  },
+  "sign_test_diagnostic_only": {
+    "no_policy": {
+      "metric_mean_overload_excess": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 28,
+          "n_positive": 13,
+          "n_negative": 15,
+          "p_value": 0.8505540192127228,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 27,
+          "n_positive": 12,
+          "n_negative": 15,
+          "p_value": 0.7011080384254456,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 16,
+          "n_positive": 0,
+          "n_negative": 16,
+          "p_value": 3.0517578125e-05,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 24,
+          "n_positive": 12,
+          "n_negative": 12,
+          "p_value": 1.0,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 34,
+          "n_positive": 18,
+          "n_negative": 16,
+          "p_value": 0.8641662404406816,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      },
+      "metric_overflow_rate_slothall": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 28,
+          "n_positive": 11,
+          "n_negative": 17,
+          "p_value": 0.34492845088243484,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 28,
+          "n_positive": 12,
+          "n_negative": 16,
+          "p_value": 0.5715881884098053,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 16,
+          "n_positive": 0,
+          "n_negative": 16,
+          "p_value": 3.0517578125e-05,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 24,
+          "n_positive": 12,
+          "n_negative": 12,
+          "p_value": 1.0,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 35,
+          "n_positive": 16,
+          "n_negative": 19,
+          "p_value": 0.735878800856881,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      },
+      "metric_hall_utilization_variance": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 63,
+          "n_positive": 33,
+          "n_negative": 30,
+          "p_value": 0.8013064925040663,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 63,
+          "n_positive": 33,
+          "n_negative": 30,
+          "p_value": 0.8013064925040663,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 56,
+          "n_positive": 20,
+          "n_negative": 36,
+          "p_value": 0.044046546102150766,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 49,
+          "n_positive": 33,
+          "n_negative": 16,
+          "p_value": 0.021294114141387155,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 70,
+          "n_positive": 37,
+          "n_negative": 33,
+          "p_value": 0.7202027723528612,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      },
+      "metric_mean_user_utility": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 63,
+          "n_positive": 25,
+          "n_negative": 38,
+          "p_value": 0.12991792302255253,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 63,
+          "n_positive": 32,
+          "n_negative": 31,
+          "p_value": 1.0,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 56,
+          "n_positive": 19,
+          "n_negative": 37,
+          "p_value": 0.022241389472860106,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 49,
+          "n_positive": 31,
+          "n_negative": 18,
+          "p_value": 0.08543313315739454,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 70,
+          "n_positive": 41,
+          "n_negative": 29,
+          "p_value": 0.18821620302302766,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      }
+    },
+    "cosine": {
+      "metric_mean_overload_excess": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 28,
+          "n_positive": 13,
+          "n_negative": 15,
+          "p_value": 0.8505540192127228,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 33,
+          "n_positive": 19,
+          "n_negative": 14,
+          "p_value": 0.48685024166479707,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 16,
+          "n_positive": 0,
+          "n_negative": 16,
+          "p_value": 3.0517578125e-05,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 24,
+          "n_positive": 13,
+          "n_negative": 11,
+          "p_value": 0.8388197422027588,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 39,
+          "n_positive": 24,
+          "n_negative": 15,
+          "p_value": 0.19959086691960698,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      },
+      "metric_overflow_rate_slothall": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 28,
+          "n_positive": 12,
+          "n_negative": 16,
+          "p_value": 0.5715881884098053,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 33,
+          "n_positive": 17,
+          "n_negative": 16,
+          "p_value": 1.0,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 16,
+          "n_positive": 0,
+          "n_negative": 16,
+          "p_value": 3.0517578125e-05,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 24,
+          "n_positive": 13,
+          "n_negative": 11,
+          "p_value": 0.8388197422027588,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 40,
+          "n_positive": 22,
+          "n_negative": 18,
+          "p_value": 0.6358280026288412,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      },
+      "metric_hall_utilization_variance": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 63,
+          "n_positive": 33,
+          "n_negative": 30,
+          "p_value": 0.8013064925040663,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 63,
+          "n_positive": 39,
+          "n_negative": 24,
+          "p_value": 0.07692583360960925,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 56,
+          "n_positive": 18,
+          "n_negative": 38,
+          "p_value": 0.01045481832189218,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 49,
+          "n_positive": 37,
+          "n_negative": 12,
+          "p_value": 0.0004697573180081349,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 70,
+          "n_positive": 42,
+          "n_negative": 28,
+          "p_value": 0.11960933562988493,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      },
+      "metric_mean_user_utility": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 63,
+          "n_positive": 30,
+          "n_negative": 33,
+          "p_value": 0.8013064925040663,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 63,
+          "n_positive": 29,
+          "n_negative": 34,
+          "p_value": 0.6146550157654618,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 56,
+          "n_positive": 15,
+          "n_negative": 41,
+          "p_value": 0.0006855641563783821,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 49,
+          "n_positive": 34,
+          "n_negative": 15,
+          "p_value": 0.009399241523873059,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 70,
+          "n_positive": 44,
+          "n_negative": 26,
+          "p_value": 0.04139142867391546,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      }
+    },
+    "capacity_aware": {
+      "metric_mean_overload_excess": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 28,
+          "n_positive": 13,
+          "n_negative": 15,
+          "p_value": 0.8505540192127228,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 28,
+          "n_positive": 14,
+          "n_negative": 14,
+          "p_value": 1.0,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 16,
+          "n_positive": 0,
+          "n_negative": 16,
+          "p_value": 3.0517578125e-05,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 24,
+          "n_positive": 12,
+          "n_negative": 12,
+          "p_value": 1.0,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 30,
+          "n_positive": 13,
+          "n_negative": 17,
+          "p_value": 0.5846647117286922,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      },
+      "metric_overflow_rate_slothall": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 27,
+          "n_positive": 11,
+          "n_negative": 16,
+          "p_value": 0.44206833839416504,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 28,
+          "n_positive": 13,
+          "n_negative": 15,
+          "p_value": 0.8505540192127228,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 16,
+          "n_positive": 0,
+          "n_negative": 16,
+          "p_value": 3.0517578125e-05,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 24,
+          "n_positive": 13,
+          "n_negative": 11,
+          "p_value": 0.8388197422027588,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 30,
+          "n_positive": 13,
+          "n_negative": 17,
+          "p_value": 0.5846647117286922,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      },
+      "metric_hall_utilization_variance": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 63,
+          "n_positive": 38,
+          "n_negative": 25,
+          "p_value": 0.12991792302255253,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 63,
+          "n_positive": 36,
+          "n_negative": 27,
+          "p_value": 0.31350305329645284,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 56,
+          "n_positive": 23,
+          "n_negative": 33,
+          "p_value": 0.2288055412343561,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 49,
+          "n_positive": 33,
+          "n_negative": 16,
+          "p_value": 0.021294114141387155,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 70,
+          "n_positive": 40,
+          "n_negative": 30,
+          "p_value": 0.281978921793656,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      },
+      "metric_mean_user_utility": {
+        "0": {
+          "n": 0,
+          "n_positive": 0,
+          "n_negative": 0,
+          "p_value": null,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": "PV=0 reference"
+        },
+        "1": {
+          "n": 63,
+          "n_positive": 25,
+          "n_negative": 38,
+          "p_value": 0.12991792302255253,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "2": {
+          "n": 63,
+          "n_positive": 27,
+          "n_negative": 36,
+          "p_value": 0.31350305329645284,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "3": {
+          "n": 56,
+          "n_positive": 18,
+          "n_negative": 38,
+          "p_value": 0.01045481832189218,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "4": {
+          "n": 49,
+          "n_positive": 33,
+          "n_negative": 16,
+          "p_value": 0.021294114141387155,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        },
+        "5": {
+          "n": 70,
+          "n_positive": 42,
+          "n_negative": 28,
+          "p_value": 0.11960933562988493,
+          "interpretation": "diagnostic only — no conf-matching",
+          "skipped": null
+        }
+      }
+    }
+  }
+}
