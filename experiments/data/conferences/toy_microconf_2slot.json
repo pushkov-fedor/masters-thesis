@@ -1,0 +1,45 @@
+{
+  "name": "toy_microconf_2slot",
+  "talks": [
+    {
+      "id": "t_s0_ml",
+      "title": "Введение в современные NLP-модели и трансформеры",
+      "hall": 1,
+      "slot_id": "slot_00",
+      "category": "ml",
+      "abstract": "Обзор архитектуры трансформеров, ключевые приёмы в больших языковых моделях, практические задачи NLP в продакшене."
+    },
+    {
+      "id": "t_s0_ios",
+      "title": "Производительность iOS-приложений на Swift",
+      "hall": 2,
+      "slot_id": "slot_00",
+      "category": "ios",
+      "abstract": "Профилирование Swift-кода в Instruments, оптимизация UIKit и SwiftUI, борьба с утечками памяти в крупном клиентском приложении."
+    },
+    {
+      "id": "t_s1_devops",
+      "title": "Kubernetes в продакшене и наблюдаемость",
+      "hall": 1,
+      "slot_id": "slot_01",
+      "category": "devops",
+      "abstract": "Опыт эксплуатации больших Kubernetes-кластеров: метрики, трассировка, инциденты, GitOps-пайплайны и управление конфигурацией."
+    },
+    {
+      "id": "t_s1_java",
+      "title": "Современный Java backend: virtual threads и реактивность",
+      "hall": 2,
+      "slot_id": "slot_01",
+      "category": "java",
+      "abstract": "Project Loom и virtual threads, реактивные подходы в Java, тонкая настройка JVM под высокую нагрузку, опыт миграции на Java 21."
+    }
+  ],
+  "halls": [
+    {"id": 1, "capacity": 50},
+    {"id": 2, "capacity": 50}
+  ],
+  "slots": [
+    {"id": "slot_00", "datetime": "2026-01-01T10:00:00"},
+    {"id": "slot_01", "datetime": "2026-01-01T11:30:00"}
+  ]
+}

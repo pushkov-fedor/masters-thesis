@@ -1,0 +1,527 @@
+{
+  "etap": "H",
+  "conference": "toy_microconf_2slot",
+  "status": "ok",
+  "elapsed_total_s": 56.68376398086548,
+  "n_decisions_aborted": 0,
+  "params": {
+    "date": "2026-05-07",
+    "n_agents": 10,
+    "n_slots": 2,
+    "K": 1,
+    "model": "openai/gpt-5.4-mini",
+    "seeds": [
+      1
+    ],
+    "policies": [
+      "no_policy",
+      "cosine"
+    ],
+    "w_rec_values": [
+      1.0
+    ],
+    "capacity_scenarios": [
+      "natural"
+    ],
+    "personas_source": "personas_100",
+    "personas_selection": "kmeans_k10_seed42",
+    "selected_persona_ids": [
+      "u_018",
+      "u_071",
+      "u_032",
+      "u_086",
+      "u_077",
+      "u_033",
+      "u_078",
+      "u_068",
+      "u_095",
+      "u_091"
+    ],
+    "budget_cap_usd": 5.0
+  },
+  "results": [
+    {
+      "capacity_scenario": "natural",
+      "policy": "no_policy",
+      "w_rec": 1.0,
+      "seed": 1,
+      "per_decision_status": "ok",
+      "agg": {
+        "mean_overload_excess": 0.04999999999999999,
+        "hall_utilization_variance": 0.205,
+        "overflow_rate_slothall": 0.25,
+        "n_decisions": 20,
+        "n_skipped": 7,
+        "n_parse_errors": 0,
+        "n_decisions_aborted": 0,
+        "cost_usd": 0.0011140000000000002,
+        "mean_user_utility": 0.8234158479250394
+      },
+      "slot_loads": {
+        "slot_00": {
+          "2": 6,
+          "1": 1
+        },
+        "slot_01": {
+          "2": 5,
+          "1": 1
+        }
+      },
+      "per_decision": [
+        {
+          "agent_id": "u_095",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Это наиболее релевантно моему профилю: iOS-производительность и оптимизация в крупном приложении напрямую полезны для архитектуры и code review.",
+          "cost_usd": 5.86e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_077",
+          "slot_id": "slot_00",
+          "chosen": null,
+          "reason": "Оба доклада слабо соответствуют твоему Flutter/Dart-профилю и текущим интересам.",
+          "cost_usd": 5.24e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_068",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Ближе к моей экспертизе по производительности и масштабным мобильным приложениям, а ML/NLP сейчас менее релевантен.",
+          "cost_usd": 5.6500000000000005e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_018",
+          "slot_id": "slot_00",
+          "chosen": null,
+          "reason": "Оба доклада сильно вне моего текущего Android/Kotlin-профиля, поэтому лучше пропустить и поискать более релевантный слот.",
+          "cost_usd": 5.25e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_071",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Тема напрямую связана с моим iOS-профилем и может быть полезна для аудита и качества приложений.",
+          "cost_usd": 5.4800000000000004e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_032",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Для мобильного продакта с фокусом на мобильные приложения более полезен практический доклад про производительность iOS и ограничения платформы.",
+          "cost_usd": 5.3700000000000004e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_033",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Тема напрямую соответствует моему iOS-профилю и текущей задаче с производительностью SwiftUI в крупном приложении.",
+          "cost_usd": 5.5100000000000004e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_091",
+          "slot_id": "slot_00",
+          "chosen": null,
+          "reason": "Оба доклада слабо совпадают с моим фокусом на backend, API и сетевую производительность.",
+          "cost_usd": 5.28e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_078",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ml",
+          "reason": "Как CTO, я выберу доклад про трансформеры и NLP-архитектуры, чтобы оценить актуальные технологии и их применение в продакшене.",
+          "cost_usd": 5.8200000000000005e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_086",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Доклад по iOS ближе к вашему опыту в мобильной автоматизации и может дать практики для улучшения качества и производительности мобильных приложений.",
+          "cost_usd": 5.630000000000001e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_018",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Ближе к вашему бэкграунду в Java и интересу к современным подходам, а virtual threads и Java 21 будут полезны для перехода в актуальный стек.",
+          "cost_usd": 5.81e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_071",
+          "slot_id": "slot_01",
+          "chosen": null,
+          "reason": "Оба доклада слишком далеки от моего текущего фокуса на iOS security.",
+          "cost_usd": 5.28e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_095",
+          "slot_id": "slot_01",
+          "chosen": null,
+          "reason": "Оба доклада далеко от моего текущего фокуса на iOS/KMP и лидерстве, а после уже посещённой технической сессии лучше не распыляться.",
+          "cost_usd": 6.060000000000001e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_078",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Это ближе к моей роли CTO: интересно сравнить современные подходы к высоконагруженному backend и оценить практическую ценность Java 21.",
+          "cost_usd": 5.960000000000001e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_033",
+          "slot_id": "slot_01",
+          "chosen": null,
+          "reason": "Оба доклада вне моего текущего iOS/SwiftUI фокуса, поэтому лучше пропустить и сохранить силы.",
+          "cost_usd": 5.4300000000000005e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_068",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Ближе к моему профилю и полезно для платформенной архитектуры и высоконагруженных систем.",
+          "cost_usd": 5.6500000000000005e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_091",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Это ближе к моему backend-профилю и интересам в high-load, latency и JVM-оптимизации.",
+          "cost_usd": 5.4800000000000004e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_032",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Ближе к вашему техническому интересу к возможностям платформ и дает более прикладное понимание backend-ограничений, чем DevOps-тема.",
+          "cost_usd": 5.690000000000001e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_086",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_devops",
+          "reason": "Наблюдаемость и GitOps полезнее для QA-автоматизации и CI/CD, чем углубление в Java backend.",
+          "cost_usd": 5.67e-05,
+          "recommended": null
+        },
+        {
+          "agent_id": "u_077",
+          "slot_id": "slot_01",
+          "chosen": null,
+          "reason": "Оба доклада слабо совпадают с моим Flutter-профилем и текущими интересами.",
+          "cost_usd": 5.28e-05,
+          "recommended": null
+        }
+      ]
+    },
+    {
+      "capacity_scenario": "natural",
+      "policy": "cosine",
+      "w_rec": 1.0,
+      "seed": 1,
+      "per_decision_status": "ok",
+      "agg": {
+        "mean_overload_excess": 0.25,
+        "hall_utilization_variance": 0.44500000000000006,
+        "overflow_rate_slothall": 0.5,
+        "n_decisions": 20,
+        "n_skipped": 3,
+        "n_parse_errors": 0,
+        "n_decisions_aborted": 0,
+        "cost_usd": 0.0011656000000000001,
+        "mean_user_utility": 0.8227011035470402
+      },
+      "slot_loads": {
+        "slot_00": {
+          "2": 8
+        },
+        "slot_01": {
+          "2": 7,
+          "1": 2
+        }
+      },
+      "per_decision": [
+        {
+          "agent_id": "u_095",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Тема напрямую полезна для iOS-архитектуры и performance в крупном приложении, что ближе к моим текущим задачам и рекомендации системы.",
+          "cost_usd": 6.03e-05,
+          "recommended": [
+            "t_s0_ios"
+          ]
+        },
+        {
+          "agent_id": "u_077",
+          "slot_id": "slot_00",
+          "chosen": null,
+          "reason": "Оба доклада слабо совпадают с моим Flutter/Dart-профилем, поэтому лучше сохранить силы для более релевантной темы.",
+          "cost_usd": 5.7300000000000004e-05,
+          "recommended": [
+            "t_s0_ml"
+          ]
+        },
+        {
+          "agent_id": "u_068",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Это ближе к теме производительности крупного мобильного приложения и может дать полезные практики, несмотря на iOS-специфику.",
+          "cost_usd": 5.86e-05,
+          "recommended": [
+            "t_s0_ios"
+          ]
+        },
+        {
+          "agent_id": "u_018",
+          "slot_id": "slot_00",
+          "chosen": null,
+          "reason": "Оба доклада слабо совпадают с моим профилем Android/Kotlin и лучше сохранить силы на более релевантную сессию.",
+          "cost_usd": 5.5e-05,
+          "recommended": [
+            "t_s0_ml"
+          ]
+        },
+        {
+          "agent_id": "u_071",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Это самый релевантный доклад к моему iOS-фокусу и может дать практические идеи для оптимизации и аудита приложений.",
+          "cost_usd": 5.81e-05,
+          "recommended": [
+            "t_s0_ios"
+          ]
+        },
+        {
+          "agent_id": "u_032",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Это ближе к мобильному профилю и поможет лучше понимать технические ограничения iOS-приложения.",
+          "cost_usd": 5.220000000000001e-05,
+          "recommended": [
+            "t_s0_ml"
+          ]
+        },
+        {
+          "agent_id": "u_033",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Это максимально соответствует моему iOS/SwiftUI профилю и полезно для миграции и оптимизации большого приложения.",
+          "cost_usd": 5.560000000000001e-05,
+          "recommended": [
+            "t_s0_ios"
+          ]
+        },
+        {
+          "agent_id": "u_091",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Это ближе к моему фокусу на производительности клиентских приложений и practical latency issues, чем общий обзор NLP.",
+          "cost_usd": 5.570000000000001e-05,
+          "recommended": [
+            "t_s0_ios"
+          ]
+        },
+        {
+          "agent_id": "u_078",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Ваш iOS-опыт и интерес к оптимизации делают этот доклад наиболее практичным и полезным сейчас.",
+          "cost_usd": 5.5100000000000004e-05,
+          "recommended": [
+            "t_s0_ios"
+          ]
+        },
+        {
+          "agent_id": "u_086",
+          "slot_id": "slot_00",
+          "chosen": "t_s0_ios",
+          "reason": "Тема iOS и производительности ближе к моему бэкенду автотестов мобильных приложений и может помочь с ускорением и стабильностью тестов.",
+          "cost_usd": 5.92e-05,
+          "recommended": [
+            "t_s0_ios"
+          ]
+        },
+        {
+          "agent_id": "u_018",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Тема Java ближе к моему бэкграунду и помогает мягко перейти от Java к современным практикам, а рекомендация тоже в её пользу.",
+          "cost_usd": 5.780000000000001e-05,
+          "recommended": [
+            "t_s1_java"
+          ]
+        },
+        {
+          "agent_id": "u_071",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Тема про Java backend и высокую нагрузку выглядит полезнее для моего общего техпрофиля, а devops меньше соответствует моему текущему фокусу.",
+          "cost_usd": 6.13e-05,
+          "recommended": [
+            "t_s1_java"
+          ]
+        },
+        {
+          "agent_id": "u_095",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Тема ближе к архитектуре и новым подходам, а KMP и backend-экосистема Java могут быть полезны для кросс-командной работы.",
+          "cost_usd": 6.23e-05,
+          "recommended": [
+            "t_s1_java"
+          ]
+        },
+        {
+          "agent_id": "u_078",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_devops",
+          "reason": "Это ближе к моей роли CTO: практика эксплуатации, наблюдаемость и GitOps полезнее для стратегических решений, а iOS-тему уже закрывал сегодня.",
+          "cost_usd": 6.2e-05,
+          "recommended": [
+            "t_s1_devops"
+          ]
+        },
+        {
+          "agent_id": "u_033",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Тема реактивности и миграции на современные подходы ближе всего к вашему фокусу на SwiftUI и архитектуре.",
+          "cost_usd": 5.8399999999999997e-05,
+          "recommended": [
+            "t_s1_java"
+          ]
+        },
+        {
+          "agent_id": "u_068",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Тема ближе к вашему профилю по архитектуре и масштабированию, а Java 21 и virtual threads полезны для backend-интеграций и высоконагруженных систем банка.",
+          "cost_usd": 6.500000000000001e-05,
+          "recommended": [
+            "t_s1_java"
+          ]
+        },
+        {
+          "agent_id": "u_091",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Тема Java backend ближе к моему профилю и интересам в low-latency/high-throughput, а DevOps-сессия менее релевантна.",
+          "cost_usd": 6.170000000000001e-05,
+          "recommended": [
+            "t_s1_java"
+          ]
+        },
+        {
+          "agent_id": "u_032",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_java",
+          "reason": "Тема ближе к пониманию технических возможностей платформ и рекомендации системы тоже на нее указывают.",
+          "cost_usd": 5.34e-05,
+          "recommended": [
+            "t_s1_java"
+          ]
+        },
+        {
+          "agent_id": "u_086",
+          "slot_id": "slot_01",
+          "chosen": "t_s1_devops",
+          "reason": "Тема DevOps и GitOps напрямую полезна для интеграции QA в CI/CD и оптимизации тестовых пайплайнов.",
+          "cost_usd": 5.8500000000000006e-05,
+          "recommended": [
+            "t_s1_devops"
+          ]
+        },
+        {
+          "agent_id": "u_077",
+          "slot_id": "slot_01",
+          "chosen": null,
+          "reason": "Оба доклада слабо совпадают с моим Flutter-профилем, поэтому лучше сохранить силы для более релевантной сессии.",
+          "cost_usd": 5.81e-05,
+          "recommended": [
+            "t_s1_java"
+          ]
+        }
+      ]
+    }
+  ],
+  "acceptance": {
+    "decision_date": "2026-05-07",
+    "decision_ref": "user accepted stage H with Q-H1=(в) and Q-H2=(2.4)",
+    "schema_version": "h-acceptance-v2-after-Q-H1-split",
+    "gates": {
+      "exit_clean": {
+        "passed": true,
+        "detail": "exit code 0; status=ok; no exceptions"
+      },
+      "cost_within_cap": {
+        "passed": true,
+        "value_usd": 0.0022796000000000005,
+        "cap_usd": 5.0,
+        "stopped_by_cap": false
+      },
+      "smoke_compatible_format": {
+        "passed": true,
+        "detail": "etap, conference, status, params, results: [{capacity_scenario, policy, w_rec, seed, agg: {mean_overload_excess, hall_utilization_variance, overflow_rate_slothall, ...}}]"
+      },
+      "elapsed_within_budget": {
+        "passed": true,
+        "elapsed_s": 56.68376398086548,
+        "budget_s": 600
+      },
+      "no_parse_or_api_failures": {
+        "passed": true,
+        "n_parse_errors_total": 0,
+        "per_policy": {
+          "no_policy": 0,
+          "cosine": 0
+        },
+        "note": "Replaces old check 6 'n_skipped/n_decisions <= 0.30'. After Q-H1=(в), gate is parse/JSON/API faults only; content skip moved to diagnostic."
+      }
+    },
+    "diagnostic": {
+      "content_skip_rate": {
+        "no_policy": {
+          "n_skipped": 7,
+          "n_decisions": 20,
+          "rate": 0.35
+        },
+        "cosine": {
+          "n_skipped": 3,
+          "n_decisions": 20,
+          "rate": 0.15
+        },
+        "note": "After Q-H1=(в) — diagnostic only, not a blocker. 0.35 in no_policy reflects mobile-heavy persona sample meeting NLP/DevOps talks; for stage V mandatorily stratify personas by preferred_topics (memo G §10 #11)."
+      },
+      "no_policy_minus_cosine_overload_sign": {
+        "no_policy": 0.04999999999999999,
+        "cosine": 0.25,
+        "diff": -0.2,
+        "sign": "negative",
+        "note": "cosine more aggressive on overload; consistent with parametric smoke F sign at w_rec >= 0.5."
+      },
+      "cost_per_agent_full_session_usd": {
+        "value": 0.000114,
+        "note": "~$0.000115 / агент per slot at gpt-5.4-mini; ~70x cheaper than S3 Agent4Rec ChatGPT-3.5 baseline."
+      }
+    },
+    "overall": "accepted",
+    "stage": "H",
+    "next_step": "Stage I (extreme conditions for parametric model). Do not proceed without explicit user confirmation."
+  }
+}
