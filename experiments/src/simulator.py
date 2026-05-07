@@ -44,6 +44,12 @@ class Talk:
     abstract: str
     embedding: np.ndarray  # 1D, нормализован
     fame: float = 0.0  # популярность доклада [0, 1] — для star-speaker effect
+    # Список спикеров (etap N spike_program_modification accepted Q-M7).
+    # Парсится из JSON-поля `speakers` (comma-separated string) или []
+    # при отсутствии. Используется оператором Φ для hard-валидации
+    # speaker-конфликтов; default [] делает validation no-op для toy / ITC /
+    # Meetup, у которых поля speakers нет.
+    speakers: List[str] = field(default_factory=list)
 
 
 @dataclass
@@ -109,6 +115,18 @@ class Conference:
 
         talks = {}
         for t in prog["talks"]:
+            # speakers: comma-separated string в Mobius / Demo Day; список в
+            # будущих fixtures; отсутствует в toy / ITC / Meetup. При
+            # отсутствии — пустой список (speaker-validation становится no-op,
+            # но это НЕ доказательство отсутствия конфликтов).
+            speakers_raw = t.get("speakers", "")
+            if isinstance(speakers_raw, str):
+                speakers_list = [s.strip() for s in speakers_raw.split(",")
+                                 if s.strip()]
+            elif isinstance(speakers_raw, list):
+                speakers_list = [str(s).strip() for s in speakers_raw if s]
+            else:
+                speakers_list = []
             talks[t["id"]] = Talk(
                 id=t["id"],
                 title=t["title"],
@@ -118,6 +136,7 @@ class Conference:
                 abstract=t.get("abstract", ""),
                 embedding=emb_map[t["id"]],
                 fame=float(fame_map.get(t["id"], 0.0)),
+                speakers=speakers_list,
             )
 
         halls = {h["id"]: Hall(id=h["id"], capacity=h["capacity"]) for h in prog["halls"]}

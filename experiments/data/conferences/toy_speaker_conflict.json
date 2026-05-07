@@ -1,0 +1,49 @@
+{
+  "name": "toy_speaker_conflict",
+  "talks": [
+    {
+      "id": "t_s0_h1",
+      "title": "Alice intro talk",
+      "speakers": "Alice",
+      "hall": 1,
+      "slot_id": "slot_00",
+      "category": "intro",
+      "abstract": "Alice presents in slot_00 hall 1."
+    },
+    {
+      "id": "t_s0_h2",
+      "title": "Bob deep-dive",
+      "speakers": "Bob",
+      "hall": 2,
+      "slot_id": "slot_00",
+      "category": "deep",
+      "abstract": "Bob presents in slot_00 hall 2."
+    },
+    {
+      "id": "t_s1_h1",
+      "title": "Alice second talk",
+      "speakers": "Alice",
+      "hall": 1,
+      "slot_id": "slot_01",
+      "category": "intro",
+      "abstract": "Alice presents in slot_01 hall 1 — same speaker, but different timeslot, so no conflict in P_0."
+    },
+    {
+      "id": "t_s1_h2",
+      "title": "Carol architecture",
+      "speakers": "Carol",
+      "hall": 2,
+      "slot_id": "slot_01",
+      "category": "deep",
+      "abstract": "Carol presents in slot_01 hall 2."
+    }
+  ],
+  "halls": [
+    {"id": 1, "capacity": 50},
+    {"id": 2, "capacity": 50}
+  ],
+  "slots": [
+    {"id": "slot_00", "datetime": "2026-01-01T10:00:00"},
+    {"id": "slot_01", "datetime": "2026-01-01T11:30:00"}
+  ]
+}

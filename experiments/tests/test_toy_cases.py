@@ -167,21 +167,34 @@ def test_tc3_gossip_concentrates_choice_in_second_slot(
 
 # ---------- TC5 (Φ-оператор + конфликты спикеров) — отложен до этапа N ----------
 
-@pytest.mark.skip(
-    reason=(
-        "TC5 проверяет оператор локальных модификаций программы Φ "
-        "(перестановка пар талков между слотами) с обязательной проверкой "
-        "конфликтов спикеров (PROJECT_DESIGN §7 «Модуль локальных "
-        "модификаций программы»). Реализация Φ — этап N "
-        "PIVOT_IMPLEMENTATION_PLAN r5 (строки 722–745); spike — этап M. "
-        "В текущем ядре нет ни модуля Φ, ни поля speaker в Talk, поэтому "
-        "формальная проверка преждевременна. Полноценный тест появится "
-        "после прохождения этапов M / N."
+def test_tc5_phi_operator_no_speaker_conflict(experiments_root):
+    """**TC5** (PIVOT_IMPLEMENTATION_PLAN §10.1, accepted Q-M8 в spike M):
+    оператор Φ отбрасывает swap, создающий speaker-конфликт.
+
+    Реализация — этап N PIVOT_IMPLEMENTATION_PLAN r5 (модуль
+    `experiments/src/program_modification.py`). Подробная проверка
+    speaker-конфликтов и полный список инвариантов — в
+    `test_program_modification.py`. Здесь — высокоуровневая sanity-проверка
+    через тот же fixture.
+    """
+    import numpy as np
+    from src.program_modification import (
+        enumerate_modifications,
+        has_speaker_conflict,
     )
-)
-def test_tc5_phi_operator_no_speaker_conflict():
-    """Placeholder: см. reason в @skip."""
-    pass
+    from src.simulator import Conference
+
+    conf = Conference.load(
+        experiments_root / "data/conferences/toy_speaker_conflict.json",
+        experiments_root / "data/conferences/toy_speaker_conflict_embeddings.npz",
+    )
+    rng = np.random.default_rng(0)
+    mods = enumerate_modifications(conf, k_max=10, rng=rng)
+    # На toy_speaker_conflict 4 candidate-pair, 2 валидных → возвращается 2.
+    assert len(mods) == 2
+    # И ни одна модификация не содержит speaker-конфликта.
+    for modified, _ in mods:
+        assert not has_speaker_conflict(modified)
 
 
 # ---------- TC4: одиночный определённый выбор ----------
