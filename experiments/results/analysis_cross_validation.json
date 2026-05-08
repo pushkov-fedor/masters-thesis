@@ -1,0 +1,1962 @@
+{
+  "etap": "V cross-validation",
+  "date": "2026-05-08",
+  "acceptance_threshold_median_rho": 0.5,
+  "metrics": [
+    "metric_mean_overload_excess",
+    "metric_overflow_rate_slothall",
+    "metric_hall_utilization_variance",
+    "metric_mean_user_utility"
+  ],
+  "policies": [
+    "no_policy",
+    "cosine",
+    "capacity_aware",
+    "llm_ranker"
+  ],
+  "lower_is_better": {
+    "metric_mean_overload_excess": true,
+    "metric_overflow_rate_slothall": true,
+    "metric_hall_utilization_variance": true,
+    "metric_mean_user_utility": false
+  },
+  "n_lhs_in_llm": 12,
+  "lhs_ids_in_llm": [
+    6,
+    7,
+    13,
+    18,
+    23,
+    27,
+    31,
+    34,
+    36,
+    42,
+    45,
+    48
+  ],
+  "n_evals_in_llm": 48,
+  "correlations_by_metric": {
+    "metric_mean_overload_excess": {
+      "per_lhs": {
+        "6": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "7": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "13": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "18": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.19999999999999998,
+          "tau": 0.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "23": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        },
+        "27": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "cosine",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "31": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.5,
+            "capacity_aware": 1.5,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "cosine",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "34": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        },
+        "36": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.39999999999999997,
+          "tau": 0.3333333333333334,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "42": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        },
+        "45": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        },
+        "48": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        }
+      },
+      "rho_summary": {
+        "n": 2,
+        "median": 0.3,
+        "mean": 0.3,
+        "min": 0.19999999999999998,
+        "max": 0.39999999999999997,
+        "p25": 0.24999999999999997,
+        "p75": 0.35
+      },
+      "tau_summary": {
+        "n": 2,
+        "median": 0.1666666666666667,
+        "mean": 0.1666666666666667
+      },
+      "top1_summary": {
+        "n": 12,
+        "n_match": 7,
+        "fraction_match": 0.5833333333333334
+      },
+      "top1_nondegenerate_summary": {
+        "n_nondegenerate": 2,
+        "n_match": 2,
+        "fraction_match": 1.0
+      },
+      "degenerate_diagnostic": {
+        "rule": "degenerate = constant ranks on parametric OR LLM side; Spearman ρ then undefined (scipy ConstantInputWarning) and skipped from rho_summary. top-1 with constant ranks deterministically falls to common_pols[0] via argmin tie-breaking — possible fake match.",
+        "n_lhs_total": 12,
+        "n_param_constant_ranks": 10,
+        "n_llm_constant_ranks": 5,
+        "n_either_constant_skipped_from_rho": 10,
+        "n_used_in_rho_summary": 2,
+        "degenerate_lhs": [
+          {
+            "lhs_row_id": "6",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 4.0,
+              "cosine": 2.0,
+              "capacity_aware": 1.0,
+              "llm_ranker": 3.0
+            }
+          },
+          {
+            "lhs_row_id": "7",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 4.0,
+              "cosine": 2.0,
+              "capacity_aware": 1.0,
+              "llm_ranker": 3.0
+            }
+          },
+          {
+            "lhs_row_id": "13",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 4.0,
+              "cosine": 2.0,
+              "capacity_aware": 1.0,
+              "llm_ranker": 3.0
+            }
+          },
+          {
+            "lhs_row_id": "23",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          },
+          {
+            "lhs_row_id": "27",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 4.0,
+              "cosine": 1.0,
+              "capacity_aware": 2.0,
+              "llm_ranker": 3.0
+            }
+          },
+          {
+            "lhs_row_id": "31",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 3.0,
+              "cosine": 1.5,
+              "capacity_aware": 1.5,
+              "llm_ranker": 4.0
+            }
+          },
+          {
+            "lhs_row_id": "34",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          },
+          {
+            "lhs_row_id": "42",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          },
+          {
+            "lhs_row_id": "45",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          },
+          {
+            "lhs_row_id": "48",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          }
+        ]
+      }
+    },
+    "metric_overflow_rate_slothall": {
+      "per_lhs": {
+        "6": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "7": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.5,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "13": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 3.5,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "18": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.7745966692414834,
+          "tau": 0.7071067811865477,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "23": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        },
+        "27": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.5,
+            "capacity_aware": 1.5,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "cosine",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "31": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.5,
+            "capacity_aware": 1.5,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "cosine",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "34": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        },
+        "36": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.5,
+            "cosine": 3.5,
+            "capacity_aware": 1.5,
+            "llm_ranker": 1.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.7071067811865477,
+          "tau": 0.6708203932499369,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "42": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        },
+        "45": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        },
+        "48": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 2.5,
+            "llm_ranker": 2.5
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": true,
+          "degenerate": true
+        }
+      },
+      "rho_summary": {
+        "n": 2,
+        "median": 0.7408517252140155,
+        "mean": 0.7408517252140155,
+        "min": 0.7071067811865477,
+        "max": 0.7745966692414834,
+        "p25": 0.7239792532002816,
+        "p75": 0.7577241972277495
+      },
+      "tau_summary": {
+        "n": 2,
+        "median": 0.6889635872182422,
+        "mean": 0.6889635872182422
+      },
+      "top1_summary": {
+        "n": 12,
+        "n_match": 7,
+        "fraction_match": 0.5833333333333334
+      },
+      "top1_nondegenerate_summary": {
+        "n_nondegenerate": 2,
+        "n_match": 2,
+        "fraction_match": 1.0
+      },
+      "degenerate_diagnostic": {
+        "rule": "degenerate = constant ranks on parametric OR LLM side; Spearman ρ then undefined (scipy ConstantInputWarning) and skipped from rho_summary. top-1 with constant ranks deterministically falls to common_pols[0] via argmin tie-breaking — possible fake match.",
+        "n_lhs_total": 12,
+        "n_param_constant_ranks": 10,
+        "n_llm_constant_ranks": 5,
+        "n_either_constant_skipped_from_rho": 10,
+        "n_used_in_rho_summary": 2,
+        "degenerate_lhs": [
+          {
+            "lhs_row_id": "6",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 3.0,
+              "cosine": 2.0,
+              "capacity_aware": 1.0,
+              "llm_ranker": 4.0
+            }
+          },
+          {
+            "lhs_row_id": "7",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 4.0,
+              "cosine": 2.5,
+              "capacity_aware": 1.0,
+              "llm_ranker": 2.5
+            }
+          },
+          {
+            "lhs_row_id": "13",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 3.5,
+              "cosine": 2.0,
+              "capacity_aware": 1.0,
+              "llm_ranker": 3.5
+            }
+          },
+          {
+            "lhs_row_id": "23",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          },
+          {
+            "lhs_row_id": "27",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 4.0,
+              "cosine": 1.5,
+              "capacity_aware": 1.5,
+              "llm_ranker": 3.0
+            }
+          },
+          {
+            "lhs_row_id": "31",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 3.0,
+              "cosine": 1.5,
+              "capacity_aware": 1.5,
+              "llm_ranker": 4.0
+            }
+          },
+          {
+            "lhs_row_id": "34",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          },
+          {
+            "lhs_row_id": "42",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          },
+          {
+            "lhs_row_id": "45",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          },
+          {
+            "lhs_row_id": "48",
+            "param_constant": true,
+            "llm_constant": true,
+            "param_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            },
+            "llm_ranks": {
+              "no_policy": 2.5,
+              "cosine": 2.5,
+              "capacity_aware": 2.5,
+              "llm_ranker": 2.5
+            }
+          }
+        ]
+      }
+    },
+    "metric_hall_utilization_variance": {
+      "per_lhs": {
+        "6": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.19999999999999998,
+          "tau": 0.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "7": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.39999999999999997,
+          "tau": 0.3333333333333334,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "13": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "18": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.19999999999999998,
+          "tau": 0.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "23": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "27": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.39999999999999997,
+          "tau": 0.3333333333333334,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "31": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.39999999999999997,
+          "tau": 0.3333333333333334,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "34": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 1.0,
+            "capacity_aware": 3.0,
+            "llm_ranker": 4.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": 0.0,
+          "tau": 0.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "36": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.39999999999999997,
+          "tau": 0.3333333333333334,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "42": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.19999999999999998,
+          "tau": 0.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "45": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.19999999999999998,
+          "tau": 0.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "48": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 4.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.39999999999999997,
+          "tau": 0.3333333333333334,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        }
+      },
+      "rho_summary": {
+        "n": 12,
+        "median": 0.39999999999999997,
+        "mean": 0.39999999999999997,
+        "min": 0.0,
+        "max": 1.0,
+        "p25": 0.19999999999999998,
+        "p75": 0.39999999999999997
+      },
+      "tau_summary": {
+        "n": 12,
+        "median": 0.3333333333333334,
+        "mean": 0.30555555555555564
+      },
+      "top1_summary": {
+        "n": 12,
+        "n_match": 11,
+        "fraction_match": 0.9166666666666666
+      },
+      "top1_nondegenerate_summary": {
+        "n_nondegenerate": 12,
+        "n_match": 11,
+        "fraction_match": 0.9166666666666666
+      },
+      "degenerate_diagnostic": {
+        "rule": "degenerate = constant ranks on parametric OR LLM side; Spearman ρ then undefined (scipy ConstantInputWarning) and skipped from rho_summary. top-1 with constant ranks deterministically falls to common_pols[0] via argmin tie-breaking — possible fake match.",
+        "n_lhs_total": 12,
+        "n_param_constant_ranks": 0,
+        "n_llm_constant_ranks": 0,
+        "n_either_constant_skipped_from_rho": 0,
+        "n_used_in_rho_summary": 12,
+        "degenerate_lhs": []
+      }
+    },
+    "metric_mean_user_utility": {
+      "per_lhs": {
+        "6": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 1.0,
+            "capacity_aware": 4.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 2.0,
+            "cosine": 1.0,
+            "capacity_aware": 4.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "7": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.7999999999999999,
+          "tau": 0.6666666666666669,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "13": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 3.0,
+            "llm_ranker": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.7999999999999999,
+          "tau": 0.6666666666666669,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "18": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 4.0,
+            "llm_ranker": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.39999999999999997,
+          "tau": 0.3333333333333334,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "23": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "27": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 3.0,
+            "llm_ranker": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.7999999999999999,
+          "tau": 0.6666666666666669,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "31": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "34": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 4.0
+          },
+          "llm_ranks": {
+            "no_policy": 2.0,
+            "cosine": 1.0,
+            "capacity_aware": 3.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.7999999999999999,
+          "tau": 0.6666666666666669,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "36": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 4.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 3.0,
+            "llm_ranker": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.39999999999999997,
+          "tau": 0.3333333333333334,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "42": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 1.0,
+            "capacity_aware": 3.0,
+            "llm_ranker": 4.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.7999999999999999,
+          "tau": 0.6666666666666669,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "45": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 4.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.7999999999999999,
+          "tau": 0.6666666666666669,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "48": {
+          "n_policies": 4,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware",
+            "llm_ranker"
+          ],
+          "param_ranks": {
+            "no_policy": 4.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0,
+            "llm_ranker": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 4.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0,
+            "llm_ranker": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": 0.7999999999999999,
+          "tau": 0.6666666666666669,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        }
+      },
+      "rho_summary": {
+        "n": 12,
+        "median": 0.7999999999999999,
+        "mean": 0.7833333333333333,
+        "min": 0.39999999999999997,
+        "max": 1.0,
+        "p25": 0.7999999999999999,
+        "p75": 0.85
+      },
+      "tau_summary": {
+        "n": 12,
+        "median": 0.6666666666666669,
+        "mean": 0.6944444444444445
+      },
+      "top1_summary": {
+        "n": 12,
+        "n_match": 11,
+        "fraction_match": 0.9166666666666666
+      },
+      "top1_nondegenerate_summary": {
+        "n_nondegenerate": 12,
+        "n_match": 11,
+        "fraction_match": 0.9166666666666666
+      },
+      "degenerate_diagnostic": {
+        "rule": "degenerate = constant ranks on parametric OR LLM side; Spearman ρ then undefined (scipy ConstantInputWarning) and skipped from rho_summary. top-1 with constant ranks deterministically falls to common_pols[0] via argmin tie-breaking — possible fake match.",
+        "n_lhs_total": 12,
+        "n_param_constant_ranks": 0,
+        "n_llm_constant_ranks": 0,
+        "n_either_constant_skipped_from_rho": 0,
+        "n_used_in_rho_summary": 12,
+        "degenerate_lhs": []
+      }
+    }
+  },
+  "rho_overall_across_metrics": {
+    "n": 28,
+    "median": 0.5535533905932738,
+    "mean": 0.5814894089438584
+  },
+  "acceptance_per_metric": {
+    "metric_mean_overload_excess": {
+      "passed": false,
+      "reason": "median Spearman ρ < threshold",
+      "median": 0.3,
+      "threshold": 0.5
+    },
+    "metric_overflow_rate_slothall": {
+      "passed": true,
+      "reason": "median Spearman ρ >= threshold",
+      "median": 0.7408517252140155,
+      "threshold": 0.5
+    },
+    "metric_hall_utilization_variance": {
+      "passed": false,
+      "reason": "median Spearman ρ < threshold",
+      "median": 0.39999999999999997,
+      "threshold": 0.5
+    },
+    "metric_mean_user_utility": {
+      "passed": true,
+      "reason": "median Spearman ρ >= threshold",
+      "median": 0.7999999999999999,
+      "threshold": 0.5
+    }
+  },
+  "acceptance_overall": {
+    "passed": true,
+    "reason": "median Spearman ρ >= threshold",
+    "median": 0.5535533905932738,
+    "threshold": 0.5
+  },
+  "param_input": "analysis_llm_ranker_diagnostic.json",
+  "llm_input": "llm_agents_lhs_subset_12pts.json"
+}
