@@ -13,6 +13,10 @@
 \newfontfamily\cyrillicfont{Times New Roman}
 \newfontfamily\englishfont{Times New Roman}
 
+% Моноширинный шрифт с поддержкой кириллицы (для \texttt{...} рядом с кириллическим текстом).
+\setmonofont{Courier New}
+\newfontfamily\cyrillicfonttt{Courier New}
+
 % Математические пакеты (\mathbb, \varnothing, \mathcal, окружения align/equation и т.п.)
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -117,10 +121,8 @@
   \renewcommand{\appendixname}{ПРИЛОЖЕНИЕ}
   % Заголовок приложения: «ПРИЛОЖЕНИЕ А» по центру, затем название (п. 4.11.2)
   \titleformat{\chapter}{\fontsize{16pt}{18pt}\selectfont\bfseries\centering}{\MakeUppercase{\chaptertitlename}.\ \thechapter}{4pt}{}
-  \addtocontents{toc}{\protect\value{tocdepth}=\chaptertocdepth}
-  \renewcommand\addchaptertocentry[2]{%
-    \addtocentrydefault{chapter}{}{\appendixname~##1 ##2}%
-  }
+  % В приложениях оглавление сокращается до уровня глав
+  \addtocontents{toc}{\protect\value{tocdepth}=0}
 }
 
 % Переопределяем \mainmatter: убираем сброс счётчика страниц (п. 4.3.1 — сквозная нумерация)

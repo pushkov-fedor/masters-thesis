@@ -2,17 +2,24 @@
 \label{app:artefacts}
 \sloppy
 
-В таблице~Б.1 приведён состав закоммиченных артефактов, на которых получены численные результаты главы~4. Артефакты сгруппированы по назначению и хранятся в каталоге \texttt{experiments/results/} репозитория проекта.
+В таблице~\ref{tab:artefacts} приведён состав закоммиченных артефактов, на которых получены численные результаты главы~\ref{ch:results}. Артефакты сгруппированы по назначению и хранятся в каталоге \texttt{experiments/results/} репозитория проекта.
 
-\begin{table}[h!]
-\centering
-\caption{Состав экспериментальных артефактов}
-\label{tab:artefacts}
-\small
-\begin{tabular}{|p{3.0cm}|p{6.0cm}|p{5.5cm}|}
+\begin{small}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{3.0cm}|>{\raggedright\arraybackslash}p{5.8cm}|>{\raggedright\arraybackslash}p{5.7cm}|}
+\caption{Состав экспериментальных артефактов}\label{tab:artefacts}\\
 \hline
 \textbf{Группа} & \textbf{Назначение} & \textbf{Артефакты} \\
 \hline
+\endfirsthead
+\caption*{Продолжение таблицы~\ref{tab:artefacts}}\\
+\hline
+\textbf{Группа} & \textbf{Назначение} & \textbf{Артефакты} \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
 Таблица единичных прогонов & Long-format таблица всех 486 единичных итераций параметрического симулятора с явным указанием значений всех параметрических осей конфигурации, идентификатора политики, номера реплики и значений показателей групп, описанных в подразделе~2.2.3 & \texttt{lhs\_parametric\_mobius\_2025\_autumn\_2026-05-08.\{json,csv,md\}} \\
 \hline
 Файлы постобработки параметрического прогона & Сводки попарных сравнений, агрегатов по уровням параметрических осей, диагностики risk-positive подмножества, чувствительности по осям, разброса между репликами, диагностики политики на основе языковой модели и распределения <<риск~$\times$~релевантность>> & \texttt{analysis\_pairwise.json}, \texttt{analysis\_capacity\_audit.json}, \texttt{analysis\_program\_effect.json}, \texttt{analysis\_gossip\_effect.json}, \texttt{analysis\_sensitivity.json}, \texttt{analysis\_stability.json}, \texttt{analysis\_llm\_ranker\_diagnostic.json}, \texttt{analysis\_risk\_utility.json} \\
@@ -28,8 +35,7 @@
 Метаданные LLM-прогонов & Параметры запуска агентского симулятора, конкретные имена использованных языковых моделей (\texttt{openai/gpt-4o-mini} для политики на основе языковой модели, \texttt{openai/gpt-5.4-nano} для агентского симулятора), фактические значения суммарной стоимости и времени выполнения, число вызовов и доля ошибок парсинга структурированного ответа & Поля \texttt{params} и блок acceptance в \texttt{llm\_agents\_lhs\_subset\_12pts.json} \\
 \hline
 Тесты граничной верификации & Автоматизированные тесты, реализующие граничные свойства EC1--EC4 и их расширения на конфигурации с ненулевым весом социального заражения; каждый тест выполняется на минимально достаточной конфигурации с усреднением по нескольким случайным зёрнам & \texttt{experiments/tests/test\_extreme\_conditions.py} \\
-\hline
-\end{tabular}
-\end{table}
+\end{longtable}
+\end{small}
 
 Сохранённые артефакты позволяют воспроизвести любую единичную итерацию параметрического прогона по фиксированному значению параметрических осей и случайных зёрен. Воспроизводимость LLM-агентских прогонов ограничена стохастичностью внешней языковой модели и фиксируется на уровне условий запуска.
