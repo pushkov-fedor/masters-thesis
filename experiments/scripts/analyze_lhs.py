@@ -1022,18 +1022,24 @@ def plot_risk_utility(points: list[dict], plots_dir: Path) -> Path:
                   and p["is_maximin_point"] == is_maximin]
             if not xs:
                 continue
-            label = pi
+            policy_ru = {
+                "no_policy": "контрольная",
+                "cosine": "по релевантности",
+                "capacity_aware": "с учётом загрузки",
+                "llm_ranker": "на основе LLM",
+            }
+            label = policy_ru.get(pi, pi)
             if is_maximin:
-                label = f"{pi} (maximin)"
+                label = f"{label} (maximin)"
             ax.scatter(xs, ys, s=60 if is_maximin else 30,
                        c=color_by_policy.get(pi, "gray"),
                        marker=marker_by_subset[is_maximin],
                        alpha=0.65, label=label,
                        edgecolors="black" if is_maximin else "none",
                        linewidths=0.5)
-    ax.set_xlabel("mean_overload_excess (lower is better)")
-    ax.set_ylabel("mean_user_utility (higher is better)")
-    ax.set_title("Risk × Utility (per LHS-row × policy, median over replicates)")
+    ax.set_xlabel("Среднее превышение вместимости")
+    ax.set_ylabel("Средняя релевантность выбранного доклада")
+    ax.set_title("Риск × релевантность по точкам LHS и политикам")
     ax.grid(True, alpha=0.3)
     ax.legend(fontsize=8, loc="lower left")
     fig.tight_layout()
@@ -1058,6 +1064,12 @@ def plot_gossip_bucket(gossip_block: dict, plots_dir: Path) -> Path:
         "capacity_aware": "#54A24B",
         "llm_ranker": "#E45756",
     }
+    policy_ru = {
+        "no_policy": "контрольная",
+        "cosine": "по релевантности",
+        "capacity_aware": "с учётом загрузки",
+        "llm_ranker": "на основе LLM",
+    }
     table = gossip_block["table_w_gossip_x_policy"]
     x_base = np.arange(len(bucket_labels))
     for k, pi in enumerate(pol_list):
@@ -1067,15 +1079,15 @@ def plot_gossip_bucket(gossip_block: dict, plots_dir: Path) -> Path:
             means.append(stat["mean"] if stat["mean"] is not None else 0.0)
         ax.bar(
             x_base + (k - len(pol_list) / 2 + 0.5) * width,
-            means, width=width, label=pi,
+            means, width=width, label=policy_ru.get(pi, pi),
             color=color_by_policy.get(pi, "gray"),
             edgecolor="black", linewidth=0.4,
         )
     ax.set_xticks(x_base)
     ax.set_xticklabels(bucket_labels)
-    ax.set_xlabel("w_gossip bucket")
-    ax.set_ylabel("mean_overload_excess (mean over LHS-row in bucket)")
-    ax.set_title("w_gossip × policy: mean_overload_excess")
+    ax.set_xlabel(r"Бакет $w_{gossip}$")
+    ax.set_ylabel("Среднее превышение вместимости")
+    ax.set_title(r"Средний риск перегрузки по бакетам $w_{gossip}$ и политикам")
     ax.legend(fontsize=9)
     ax.grid(True, axis="y", alpha=0.3)
     fig.tight_layout()
@@ -1097,21 +1109,28 @@ def plot_ranking_heatmap(ranking_block: dict, plots_dir: Path) -> Path:
         [[rv[str(i)][pi] for pi in pol_list] for i in lhs_ids],
         dtype=np.float64,
     )
+    policy_ru = {
+        "no_policy": "контрольная",
+        "cosine": "по релевантности",
+        "capacity_aware": "с учётом загрузки",
+        "llm_ranker": "на основе LLM",
+    }
     fig, ax = plt.subplots(figsize=(7.5, 7.0))
     im = ax.imshow(matrix, aspect="auto", cmap="viridis_r",
                    vmin=1, vmax=len(pol_list))
     ax.set_xticks(range(len(pol_list)))
-    ax.set_xticklabels(pol_list, rotation=20, ha="right")
+    ax.set_xticklabels([policy_ru.get(p, p) for p in pol_list],
+                       rotation=20, ha="right")
     ax.set_yticks(range(len(lhs_ids)))
     ax.set_yticklabels([f"#{i}" for i in lhs_ids])
-    ax.set_xlabel("policy")
-    ax.set_ylabel("maximin LHS-row id")
-    ax.set_title("Ranking on 12 maximin (1=best, 4=worst) — mean_overload_excess")
+    ax.set_xlabel("Политика")
+    ax.set_ylabel("Точка LHS из maximin-подмножества")
+    ax.set_title("Ранжирование политик на 12 maximin-точках")
     for r_idx in range(matrix.shape[0]):
         for c_idx in range(matrix.shape[1]):
             ax.text(c_idx, r_idx, f"{matrix[r_idx, c_idx]:.1f}",
                     ha="center", va="center", color="white", fontsize=8)
-    fig.colorbar(im, ax=ax, label="rank (lower better)")
+    fig.colorbar(im, ax=ax, label="Ранг")
     fig.tight_layout()
     out = plots_dir / "analysis_ranking_heatmap_maximin.png"
     fig.savefig(out, dpi=120)

@@ -288,6 +288,12 @@ def plot_ranking_compare(
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
+    metric_ru = {
+        "metric_mean_overload_excess": "Среднее превышение вместимости",
+        "metric_overflow_rate_slothall": "Доля слотов с переполнением",
+        "metric_hall_utilization_variance": "Дисперсия загрузки залов",
+        "metric_mean_user_utility": "Средняя релевантность",
+    }
     fig, axes = plt.subplots(1, len(METRICS), figsize=(20, 5),
                               sharey=True)
     if len(METRICS) == 1:
@@ -303,18 +309,18 @@ def plot_ranking_compare(
         ax.bar(range(len(lhs_ids)), rhos, color=colors, edgecolor="black",
                linewidth=0.4)
         ax.axhline(0.5, color="black", linestyle="--", linewidth=0.8,
-                   label="acceptance 0.5")
+                   label=r"Порог $\rho = 0.5$")
         ax.axhline(0.0, color="gray", linewidth=0.5)
         ax.set_xticks(range(len(lhs_ids)))
         ax.set_xticklabels(lhs_ids, rotation=45, ha="right")
-        ax.set_xlabel("LHS row id")
-        ax.set_title(m.replace("metric_", ""))
+        ax.set_xlabel("Точка LHS")
+        ax.set_title(metric_ru.get(m, m.replace("metric_", "")))
         ax.set_ylim(-1.05, 1.05)
         ax.grid(True, alpha=0.3, axis="y")
-    axes[0].set_ylabel("Spearman ρ")
+    axes[0].set_ylabel(r"Коэффициент Спирмена $\rho$")
     axes[0].legend(loc="lower right", fontsize=8)
-    fig.suptitle("Cross-validation: Spearman ρ rankings parametric ↔ LLM "
-                 "(per LHS-row, per metric)")
+    fig.suptitle("Перекрёстная проверка ранжирования политик "
+                 "параметрический ↔ LLM-агентский симулятор")
     fig.tight_layout()
     fig.savefig(out_path, dpi=120)
     plt.close(fig)

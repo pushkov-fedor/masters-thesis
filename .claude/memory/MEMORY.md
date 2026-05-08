@@ -40,3 +40,4 @@
 - [PM-режим в момент паники](feedback_pm_mode_not_writer.md)
 - [Валидировать параметры важных прогонов](feedback_validate_run_params.md)
 - [Проактивно предлагать реалистичные параметры](feedback_propose_realistic_params.md)
+- [Без скобочных пояснений в лейблах графиков](feedback_no_parenthetical_label_hints.md)
