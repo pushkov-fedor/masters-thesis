@@ -42,3 +42,4 @@
 - [Проактивно предлагать реалистичные параметры](feedback_propose_realistic_params.md)
 - [Без скобочных пояснений в лейблах графиков](feedback_no_parenthetical_label_hints.md)
 - [На consistency-проверке открывать все \input{}](feedback_check_all_input_files.md)
+- [Slidev — пустые строки внутри HTML-блоков](feedback_slidev_html_blank_lines.md)

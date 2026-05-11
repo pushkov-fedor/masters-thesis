@@ -5,6 +5,9 @@ external/
 !.claude/memory
 .claude/memory/.DS_Store
 
+# Playwright MCP — рабочие YAML-снапшоты со страниц
+.playwright-mcp/
+
 # LLM-ranker cache — пересобирается при необходимости, шумит при коммитах
 experiments/logs/llm_ranker_cache.json
 experiments/logs/llm_ranker_state_aware_cache.json

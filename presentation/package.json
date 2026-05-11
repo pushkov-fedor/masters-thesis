@@ -1,0 +1,20 @@
+{
+  "name": "thesis-defense",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "export-pdf": "slidev export --output ПушковФВ_предзащита.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "slidev-theme-neversink": "latest",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "latest"
+  }
+}
