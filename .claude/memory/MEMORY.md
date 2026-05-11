@@ -29,6 +29,7 @@
 - [Не ставить пакеты глобально без разрешения](feedback_no_global_installs.md)
 - [Не злоупотреблять англицизмами](feedback_no_anglicisms.md)
 - [Академический стиль](feedback_academic_style.md)
+- [Без первого лица в академическом тексте](feedback_no_first_person.md) — нет «наш / мой / мы / я» в тексте ВКР, слайдах, заметках докладчика
 - [Самосовершенствование](feedback_self_improvement.md)
 - [uv для Python](feedback_python_uv.md)
 - [Проверять семантику данных](feedback_verify_data_semantics.md)
