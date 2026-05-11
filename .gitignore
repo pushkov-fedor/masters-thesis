@@ -3,6 +3,7 @@
 external/
 .claude/*
 !.claude/memory
+!.claude/skills
 .claude/memory/.DS_Store
 
 # Playwright MCP — рабочие YAML-снапшоты со страниц
