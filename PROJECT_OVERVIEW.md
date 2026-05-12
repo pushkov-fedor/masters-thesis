@@ -1,10 +1,51 @@
 # PROJECT_OVERVIEW
 
-Дата фиксации: 2026-05-11
+Дата фиксации: 2026-05-11; обновление 2026-05-12 (EN-pipeline pivot — см. блок ниже).
 
 > **Точка входа в проект.** Детальное техническое описание системы: какая задача решается, какими методами, как они работают и какие результаты получены. Для содержательных вопросов о проекте достаточно этого документа; обращение к главам ВКР, исходному коду или spike-memo требуется только для верификации цитат и проверки реализации.
 >
-> Снимок состояния: антиплагиат пройден 08.05.2026; спринт реализации A–W закрыт; идёт подготовка к предзащите 13.05.2026.
+> Снимок состояния: антиплагиат пройден 08.05.2026; спринт реализации A–W закрыт; перегон основного эксперимента на EN-пайплайне (BGE-large-en + ABTT-1, 100 EN-персон, Q + V + cross-validation) выполнен 2026-05-12; идёт подготовка к предзащите 13.05.2026.
+
+---
+
+## Update 2026-05-12 — EN pipeline pivot
+
+По итогам аудита функции релевантности (`docs/spikes/spike_relevance_function_audit.md`) основной эксперимент перезапущен на английском пайплайне:
+
+- **Эмбеддинги.** `intfloat/multilingual-e5-small` (384-dim) → **`BAAI/bge-large-en-v1.5` + ABTT-1** (1024-dim, постобработка через удаление одного top-PCA направления; Mu, Bhat, Viswanath, ICLR 2018).
+- **Пул персон.** 100 синтетических EN-персон под Mobius (50 из spike + 50 догенерация через subagent Sonnet с сохранением distribution 8/30/44/18 jr/mid/sr/lead; internal-consistency 50/50 для новой половины через LLM-judge). Vendi-разнообразие пула после ABTT-1 = 63 эффективных distinct из 100 (узкий конус сломан).
+- **Программа.** `mobius_2025_autumn_en.json` — структура из RU + EN-контент talks по id-матчу.
+- **LLM-агент.** Bilingual templates в `experiments/src/llm_agent.py`; флаг `--language en|ru` в `run_llm_lhs_subset.py`. V запущен с EN-промптами (паритет каналов с параметриком).
+- **Прогон.** Q: 50 LHS × {П1, П2, П3} × 3 replicate + П4 на 12 maximin × 3 replicate = 486 evals, acceptance 7/7 PASS. V: 12 maximin × 4 политики × 1 seed = 48 evals, 44 160 LLMAgent-вызовов на `gpt-5.4-nano`, $10.22 (cap $20), 2 ч 23 мин. EC: 10/10 на toy_2slot + smoke 3/3 на mobius_2025_autumn_en.
+
+### Главные изменения чисел против §12 (RU snapshot)
+
+| Метрика | RU (08.05) | EN (12.05) |
+|---|---:|---:|
+| `cosine vs capacity_aware`: strict wins | 26% | 20% |
+| `cosine vs capacity_aware`: за ε | 22% | 14% |
+| Risk-positive подмножество | 13 / 50 (26%) | 11 / 50 (22%) |
+| На risk-positive: cap_aware строго снижает | 11 / 13 (85%) | 8 / 11 (73%) |
+| Trade-off risk × utility (markers) | 11 / 150 (7.3%) | 3 / 150 (2.0%) |
+| Volatile points | 24 | 72 |
+| **Q-O7 overall median ρ** | **0.554** | **0.769** |
+| `hall_utilization_variance` ρ | 0.40 (FAIL) | **0.80 (PASS)** на 12/12 |
+| `mean_user_utility` ρ | 0.80 (PASS) | 0.67 (PASS) на 12/12 |
+
+**Главные выводы перегона.** Центральный численный тезис («cosine не выигрывает у capacity_aware ни на одной из 50 LHS-точек ни строго, ни за ε») **подтверждён** на новой функции релевантности; доли строгих побед чуть скромнее, но направление сохранено. Cross-validation Q-O7 пройден существенно сильнее — паритет каналов между параметриком и LLM на едином EN-пайплайне даёт более согласованную картину, чем смесь языков RU-прогона. `hall_utilization_variance` перешла из формального FAIL в PASS на полной выборке 12/12 LHS — это главное усиление по критерию «эффективность» индустриального трека (см. PROJECT_STATUS §13).
+
+### Артефакты перегона
+
+- Финальный отчёт: `experiments/results/report_mobius_2025_autumn_en_full.md`
+- Q LHS: `experiments/results/lhs_parametric_mobius_2025_autumn_en_2026-05-12.{json,csv,md}`
+- S postprocess + V + cross-validation: `experiments/results/en/` (8 analysis_*.json + V json/csv/md + cross-validation json/md + 4 plot)
+- Данные: `experiments/data/{conferences,personas}/...en{.json,_embeddings.npz}`, `experiments/data/personas/test_diversity/{personas_mobius_en_part2,internal_consistency_mobius_part2}.json`
+- Скрипты: `experiments/scripts/{embed_bge_abtt,diagnose_mobius_personas_en_100,smoke_ec_mobius_en}.py`
+- Bilingual LLM: `experiments/src/llm_agent.py` (параметр `language`), `experiments/scripts/run_llm_lhs_subset.py` (флаг `--language`)
+
+### Что НЕ менялось
+
+Текст ВКР после антиплагиата (08.05.2026 PDF `thesis/ПушковФВ_ВКР.pdf`) — не правится до защиты. Корректировка под новые числа и BGE+ABTT — в финальной версии после 13.05; план правок в `THESIS_CORRECTIONS_AFTER_DEFENSE.md`. Раздел §12 ниже отражает RU-snapshot из PDF и остаётся как зафиксированное описание состояния на момент подачи в антиплагиат.
 
 ---
 

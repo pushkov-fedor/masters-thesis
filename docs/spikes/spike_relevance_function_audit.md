@@ -1,6 +1,6 @@
 # Аудит функции релевантности и качества пула персон
 
-Дата: 2026-05-12
+Дата: 2026-05-12; implementation note добавлена в §V (2026-05-12, по итогам перегона).
 
 ## Постановка проблемы
 
@@ -175,3 +175,26 @@ EN BGE + ABTT-1 — единственный кандидат, который:
   - `experiments/data/personas/test_diversity/judge_ru.json`, `judge_en.json`, `judge_mobius_ru.json`, `judge_mobius_en.json` — эталонные оценки LLM
   - `experiments/data/personas/test_diversity/internal_consistency_mobius.json` — проверка непротиворечивости полей
   - `experiments/data/personas/test_diversity/all_scores_*.npz` — кэш всех score-матриц
+
+## Часть V. Implementation note (2026-05-12)
+
+Решение из части III реализовано: основной эксперимент перезапущен на BGE-large-en + ABTT-1 в день аудита.
+
+**Что сделано:**
+- Пул синтетических EN-персон расширен с 50 до 100 (50 spike + 50 догенерация через subagent Claude Sonnet с сохранением distribution 8/30/44/18 jr/mid/sr/lead; internal-consistency LLM-judge: 50/50 consistent для новой половины — см. `data/personas/test_diversity/internal_consistency_mobius_part2.json`).
+- Программа конференции собрана в EN-версии (`data/conferences/mobius_2025_autumn_en.json` — структура из RU + EN-контент talks по id-матчу из `talks_mobius_en.json`).
+- Эмбеддинги пересчитаны через `scripts/embed_bge_abtt.py` — vstack(personas, talks) → ABTT-1 (n_components=1) → renormalize → 1024-dim float32. Сохранены и raw, и postprocessed векторы (`*_embeddings.npz` ключи `embeddings` и `embeddings_raw`).
+- LLM-агент переключён на bilingual templates (`experiments/src/llm_agent.py`, поле `language`); флаг `--language en` в `run_llm_lhs_subset.py`.
+- Q-прогон: 50 LHS × {П1, П2, П3} × 3 replicate + П4 на 12 maximin × 3 replicate = **486 evals**, acceptance 7/7 PASS, wallclock 54 минуты (54 минуты — Q-rerun с LLMRanker; первый Q без П4 = 10 секунд).
+- EC: 10/10 PASS на toy_2slot (архитектурные инварианты) + smoke EC1/EC3 на mobius_2025_autumn_en (EC1 cap×3 → overload=0; EC3 w_rec=0 → range=0; EC4 bonus → range=0.097 c capacity_aware 0.0069 значительно ниже cosine 0.1039).
+- V-прогон LLM-агента: 12 maximin × 4 политики × 1 seed = **48 evals**, 44 160 LLMAgent-вызовов на gpt-5.4-nano, cost $10.22 (cap $20), wallclock 2 ч 23 мин, 0 timeouts / 0 errors.
+- Cross-validation Q-O7: **overall median Spearman ρ = 0.769 (PASS)** — против 0.554 в RU-прогоне. Главное усиление: `hall_utilization_variance` перешла из FAIL (ρ = 0.40) в **PASS (ρ = 0.80 на полной выборке 12/12 LHS)**. Это методический результат паритета каналов (EN-промпты + EN-эмбеддинги на обеих сторонах), не просто арифметическое улучшение.
+
+**Главные защищаемые числа на новой функции** (см. `experiments/results/report_mobius_2025_autumn_en_full.md`):
+- Центральный тезис сохранён: `cosine` не выигрывает у `capacity_aware` ни на одной из 50 LHS-точек (0/50 strict, 0/50 за ε); обратное направление — `capacity_aware` строго лучше в 20%, за ε в 14% (RU: 26% / 22%).
+- Risk-positive subset 11/50 (22% vs 26% в RU); на нём cap_aware строго снижает за ε на 8/11 (73%).
+- Trade-off risk × utility: 3/150 = 2.0% (vs 11/150 = 7.3% в RU) — стало реже.
+
+**Безопасный fallback из части III (RU e5 + ABTT-1) НЕ потребовался** — EN-перегон прошёл без открытых рисков, V-cross-validation усилился вместо проседания.
+
+**Артефакты перегона:** `experiments/results/report_mobius_2025_autumn_en_full.md`, `experiments/results/lhs_parametric_mobius_2025_autumn_en_2026-05-12.{json,csv,md}`, `experiments/results/en/` (analysis_*.json + V + cross-validation + plots).

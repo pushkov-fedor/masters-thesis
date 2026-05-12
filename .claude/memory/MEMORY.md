@@ -6,7 +6,8 @@
 
 ## Активный фрейм
 
-- **Точка входа в проект — [`PROJECT_OVERVIEW.md`](/Users/fedor/Study/masters-degree/PROJECT_OVERVIEW.md) в корне репо.**
+- **Точка входа в проект — [`PROJECT_OVERVIEW.md`](/Users/fedor/Study/masters-degree/PROJECT_OVERVIEW.md) в корне репо** (актуальный блок «Update 2026-05-12 — EN pipeline pivot» в начале).
+- [EN-pipeline rerun 2026-05-12](project_en_rerun_2026-05-12.md) — перегон на BGE-large-en + ABTT-1; новые числа Q + V + cross-validation; Q-O7 пройден сильнее (median ρ 0.769 vs 0.554)
 - [Финальный фрейм ВКР](project_final_thesis_frame.md) — сценарный аналитический полигон / DSS для стресс-теста программы конференции
 - [Стоп-лист тезисов](project_thesis_stoplist.md) — что больше НЕ защищается в работе
 
