@@ -149,44 +149,44 @@
     },
     "llm_ranker": {
       "metric_mean_overload_excess": {
-        "n": 0,
-        "mean": null,
-        "median": null,
-        "std": null,
-        "p25": null,
-        "p75": null,
-        "min": null,
-        "max": null
+        "n": 12,
+        "mean": 0.01099537037037037,
+        "median": 0.0,
+        "std": 0.0364675179495096,
+        "p25": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.13194444444444445
       },
       "metric_overflow_rate_slothall": {
-        "n": 0,
-        "mean": null,
-        "median": null,
-        "std": null,
-        "p25": null,
-        "p75": null,
-        "min": null,
-        "max": null
+        "n": 12,
+        "mean": 0.008771929824561403,
+        "median": 0.0,
+        "std": 0.02909319991539824,
+        "p25": 0.0,
+        "p75": 0.0,
+        "min": 0.0,
+        "max": 0.10526315789473684
       },
       "metric_hall_utilization_variance": {
-        "n": 0,
-        "mean": null,
-        "median": null,
-        "std": null,
-        "p25": null,
-        "p75": null,
-        "min": null,
-        "max": null
+        "n": 12,
+        "mean": 0.014418113926825793,
+        "median": 0.007696501144608466,
+        "std": 0.018080734415522985,
+        "p25": 0.0031605945837422387,
+        "p75": 0.017219331441444215,
+        "min": 0.0009947964493419038,
+        "max": 0.06839152520576132
       },
       "metric_mean_user_utility": {
-        "n": 0,
-        "mean": null,
-        "median": null,
-        "std": null,
-        "p25": null,
-        "p75": null,
-        "min": null,
-        "max": null
+        "n": 12,
+        "mean": -0.0029707743473813427,
+        "median": -0.003548110355901978,
+        "std": 0.005230601908997115,
+        "p25": -0.0070991311277794015,
+        "p75": 0.00020597095650979708,
+        "min": -0.010480277852426905,
+        "max": 0.007954354439668047
       }
     }
   },
@@ -209,12 +209,12 @@
         "n_paired": 12
       },
       "no_policy_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.0,
+        "win_eps": 0.0,
+        "ties_eps": 0.9166666666666666,
+        "loss_strict": 0.16666666666666666,
+        "loss_eps": 0.08333333333333333,
+        "n_paired": 12
       },
       "cosine_vs_capacity_aware": {
         "win_strict": 0.0,
@@ -225,20 +225,20 @@
         "n_paired": 12
       },
       "cosine_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.0,
+        "win_eps": 0.0,
+        "ties_eps": 0.9166666666666666,
+        "loss_strict": 0.16666666666666666,
+        "loss_eps": 0.08333333333333333,
+        "n_paired": 12
       },
       "capacity_aware_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.08333333333333333,
+        "win_eps": 0.08333333333333333,
+        "ties_eps": 0.9166666666666666,
+        "loss_strict": 0.0,
+        "loss_eps": 0.0,
+        "n_paired": 12
       }
     },
     "metric_overflow_rate_slothall": {
@@ -259,12 +259,12 @@
         "n_paired": 12
       },
       "no_policy_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.0,
+        "win_eps": 0.0,
+        "ties_eps": 0.9166666666666666,
+        "loss_strict": 0.08333333333333333,
+        "loss_eps": 0.08333333333333333,
+        "n_paired": 12
       },
       "cosine_vs_capacity_aware": {
         "win_strict": 0.0,
@@ -275,20 +275,20 @@
         "n_paired": 12
       },
       "cosine_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.0,
+        "win_eps": 0.0,
+        "ties_eps": 0.8333333333333334,
+        "loss_strict": 0.16666666666666666,
+        "loss_eps": 0.16666666666666666,
+        "n_paired": 12
       },
       "capacity_aware_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.0,
+        "win_eps": 0.0,
+        "ties_eps": 1.0,
+        "loss_strict": 0.0,
+        "loss_eps": 0.0,
+        "n_paired": 12
       }
     },
     "metric_hall_utilization_variance": {
@@ -309,12 +309,12 @@
         "n_paired": 12
       },
       "no_policy_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.8333333333333334,
+        "win_eps": 0.08333333333333333,
+        "ties_eps": 0.8333333333333334,
+        "loss_strict": 0.16666666666666666,
+        "loss_eps": 0.08333333333333333,
+        "n_paired": 12
       },
       "cosine_vs_capacity_aware": {
         "win_strict": 0.0,
@@ -325,20 +325,20 @@
         "n_paired": 12
       },
       "cosine_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.6666666666666666,
+        "win_eps": 0.08333333333333333,
+        "ties_eps": 0.8333333333333334,
+        "loss_strict": 0.3333333333333333,
+        "loss_eps": 0.08333333333333333,
+        "n_paired": 12
       },
       "capacity_aware_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.9166666666666666,
+        "win_eps": 0.3333333333333333,
+        "ties_eps": 0.6666666666666666,
+        "loss_strict": 0.0,
+        "loss_eps": 0.0,
+        "n_paired": 12
       }
     },
     "metric_mean_user_utility": {
@@ -359,12 +359,12 @@
         "n_paired": 12
       },
       "no_policy_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.0,
+        "win_eps": 0.0,
+        "ties_eps": 0.4166666666666667,
+        "loss_strict": 1.0,
+        "loss_eps": 0.5833333333333334,
+        "n_paired": 12
       },
       "cosine_vs_capacity_aware": {
         "win_strict": 0.75,
@@ -375,318 +375,318 @@
         "n_paired": 12
       },
       "cosine_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 1.0,
+        "win_eps": 0.6666666666666666,
+        "ties_eps": 0.3333333333333333,
+        "loss_strict": 0.0,
+        "loss_eps": 0.0,
+        "n_paired": 12
       },
       "capacity_aware_vs_llm_ranker": {
-        "win_strict": null,
-        "win_eps": null,
-        "ties_eps": null,
-        "loss_strict": null,
-        "loss_eps": null,
-        "n_paired": 0
+        "win_strict": 0.9166666666666666,
+        "win_eps": 0.6666666666666666,
+        "ties_eps": 0.3333333333333333,
+        "loss_strict": 0.08333333333333333,
+        "loss_eps": 0.0,
+        "n_paired": 12
       }
     }
   },
   "ranking_vectors": {
     "metric_mean_overload_excess": {
       "6": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "7": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "13": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "18": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.5,
+        "llm_ranker": 1.5
       },
       "23": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "27": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "31": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "34": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "36": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 3.0,
+        "cosine": 4.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 2.0
       },
       "42": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "45": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "48": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       }
     },
     "metric_overflow_rate_slothall": {
       "6": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "7": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "13": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "18": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 3.5,
+        "cosine": 3.5,
+        "capacity_aware": 1.5,
+        "llm_ranker": 1.5
       },
       "23": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "27": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "31": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "34": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "36": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.0,
+        "cosine": 4.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 2.0
       },
       "42": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "45": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "48": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       }
     },
     "metric_hall_utilization_variance": {
       "6": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 4.0
       },
       "7": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 4.0
       },
       "13": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 4.0
       },
       "18": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 3.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 4.0
       },
       "23": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 3.0
       },
       "27": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 1.0,
+        "cosine": 4.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 3.0
       },
       "31": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 4.0
       },
       "34": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 1.0,
+        "cosine": 4.0,
+        "capacity_aware": 2.5,
+        "llm_ranker": 2.5
       },
       "36": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 3.0,
+        "cosine": 4.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 2.0
       },
       "42": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 2.0,
+        "cosine": 4.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 3.0
       },
       "45": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 3.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 4.0
       },
       "48": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 3.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 4.0
       }
     },
     "metric_mean_user_utility": {
       "6": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 3.0
       },
       "7": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 3.0
       },
       "13": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 3.0
       },
       "18": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 3.0
       },
       "23": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 3.0
       },
       "27": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 3.0
       },
       "31": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 3.0
       },
       "34": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.0,
+        "capacity_aware": 3.0,
+        "llm_ranker": 2.0
       },
       "36": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 3.0
       },
       "42": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.5,
+        "capacity_aware": 1.5,
+        "llm_ranker": 3.0
       },
       "45": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0,
+        "llm_ranker": 3.0
       },
       "48": {
-        "no_policy": NaN,
-        "cosine": NaN,
-        "capacity_aware": NaN,
-        "llm_ranker": NaN
+        "no_policy": 4.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0,
+        "llm_ranker": 3.0
       }
     }
   },

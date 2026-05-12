@@ -9,7 +9,7 @@ Master seed: 2026
 - n_points: **50**
 - replicates: **3**
 - maximin_k: **12**
-- include_llm_ranker: **False**
+- include_llm_ranker: **True**
 - K (top-K): 3
 - audience_size grid: {30, 60, 100}
 - popularity_source grid: {cosine_only, fame_only, mixed}
@@ -23,11 +23,11 @@ Master seed: 2026
 | load_conference | 0.01 |
 | generate_lhs | 0.11 |
 | maximin_subset | 0.00 |
-| prep (capacity / Φ / audience) | 4.05 |
-| П1–П3 evals | 5.56 |
-| П4 (llm_ranker) evals | 0.00 |
-| **итого (run_lhs внутренний)** | **9.72** |
-| **wallclock полный** | **9.80** |
+| prep (capacity / Φ / audience) | 4.97 |
+| П1–П3 evals | 6.71 |
+| П4 (llm_ranker) evals | 3248.67 |
+| **итого (run_lhs внутренний)** | **3260.47** |
+| **wallclock полный** | **3260.78** |
 
 ## Сводка evals по политикам
 
@@ -36,8 +36,10 @@ Master seed: 2026
 | no_policy | 150 |
 | cosine | 150 |
 | capacity_aware | 150 |
-| llm_ranker | 0 |
-| **итого** | **450** |
+| llm_ranker | 36 |
+| **итого** | **486** |
+
+П4 LLMRankerPolicy cumulative cost: **$0.2923**
 
 ## Maximin subset
 
@@ -48,8 +50,8 @@ Indices (12): [6, 7, 13, 18, 23, 27, 31, 34, 36, 42, 45, 48]
 | Чек | Значение | Статус |
 |---|---|---|
 | П1–П3 evals == ожидаемое | 450 == 450 | PASS |
-| П4 evals == ожидаемое | 0 == 0 | PASS |
-| total evals == ожидаемое | 450 == 450 | PASS |
+| П4 evals == ожидаемое | 36 == 36 | PASS |
+| total evals == ожидаемое | 486 == 486 | PASS |
 | П4 только на maximin | violations=0 | PASS |
 | CRN audience/phi инвариант | violations=0 | PASS |
 | cfg_seed = replicate | violations=0 | PASS |

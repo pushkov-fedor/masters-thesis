@@ -15,6 +15,11 @@ L2 gossip — engineering choice на базе литературы (S12 OASIS l
 S13 Agent4Rec, S20 social proof, S6/S7 recsys feedback loops). Не воспроизводит
 полную OASIS-архитектуру; берётся только идея controlled aggregated social
 signal в text-form промпте. См. docs/spikes/spike_gossip_llm_amendment.md.
+
+Bilingual templates ru/en — для паритета каналов с параметрическим симулятором
+на EN-пайплайне (BGE-large-en + ABTT-1). Язык выбирается полем
+``LLMAgent.language`` и параметром ``build_system_prompt(..., language=)``.
+По умолчанию ``"ru"`` (обратная совместимость с RU-прогоном 08.05.2026).
 """
 from __future__ import annotations
 
@@ -25,61 +30,127 @@ from dataclasses import dataclass, field
 from typing import Any
 
 
-SYSTEM_PROMPT_BASE = """Ты — реальный участник IT-конференции в зале. Тебе нужно решить, на какой из параллельных докладов сейчас идти. На реальной конференции ты учитываешь:
-1. Свой профиль и интересы.
-2. Что уже посещал сегодня (не повторять одни темы, к концу дня усталость).
-3. Рекомендацию системы, если она есть (не обязан слушать).
+# ---------- Bilingual templates ----------
 
-Ответ строго в формате JSON: {"choice": "<talk_id или 'skip'>", "reason": "<1 короткое предложение>"}
-Никакого текста до или после JSON."""
+_TEMPLATES: dict[str, dict[str, str]] = {
+    "ru": {
+        "system_base": (
+            "Ты — реальный участник IT-конференции в зале. Тебе нужно решить, "
+            "на какой из параллельных докладов сейчас идти. На реальной "
+            "конференции ты учитываешь:\n"
+            "1. Свой профиль и интересы.\n"
+            "2. Что уже посещал сегодня (не повторять одни темы, к концу дня "
+            "усталость).\n"
+            "3. Рекомендацию системы, если она есть (не обязан слушать).\n\n"
+            "Ответ строго в формате JSON: "
+            "{\"choice\": \"<talk_id или 'skip'>\", \"reason\": \"<1 короткое "
+            "предложение>\"}\n"
+            "Никакого текста до или после JSON."
+        ),
+        "system_gossip_moderate": (
+            "\n4. Выбор других участников в этом же слоте — учитывай как "
+            "умеренный социальный фактор (но не определяющий)."
+        ),
+        "system_gossip_strong": (
+            "\n4. Выбор других участников в этом же слоте — учитывай как "
+            "заметный социальный фактор: толпа сигнализирует, что доклад хорош."
+        ),
+        "user_template": (
+            "Профиль:\n{profile}\n\n"
+            "Уже посетил сегодня ({n_visited}):\n{history}\n\n"
+            "Сейчас параллельно ({n_options} вариантов в слоте {slot_id}):\n"
+            "{options_block}{rec_block}{gossip_block}\n\n"
+            "Что выбираешь? Только JSON."
+        ),
+        "history_empty": "  (пока ничего)",
+        "history_line": "  - [{slot_id}] {title}",
+        "option_line": (
+            "  {i}. [{tid}] зал {hall}, тема {cat}\n"
+            "     {title}\n"
+            "     {abstract}"
+        ),
+        "rec_block": "\nРекомендация системы (не обязан слушать): {rec}",
+        "gossip_header": "\nЧто уже выбрали другие участники в этом слоте:",
+        "gossip_line": "  - [{tid}] {title}: {count} из {total}",
+    },
+    "en": {
+        "system_base": (
+            "You are a real attendee at an IT conference. You need to decide "
+            "which of the parallel talks to attend right now. At a real "
+            "conference you consider:\n"
+            "1. Your profile and interests.\n"
+            "2. What you have already attended today (avoid repeating the same "
+            "topics; fatigue builds up by the end of the day).\n"
+            "3. The system's recommendation, if any (you are not required to "
+            "follow it).\n\n"
+            "Answer strictly as JSON: "
+            "{\"choice\": \"<talk_id or 'skip'>\", \"reason\": \"<one short "
+            "sentence>\"}\n"
+            "No text before or after the JSON."
+        ),
+        "system_gossip_moderate": (
+            "\n4. The choices of other attendees in the same slot — treat as "
+            "a moderate social signal (but not decisive)."
+        ),
+        "system_gossip_strong": (
+            "\n4. The choices of other attendees in the same slot — treat as "
+            "a strong social signal: a crowd suggests the talk is good."
+        ),
+        "user_template": (
+            "Profile:\n{profile}\n\n"
+            "Already attended today ({n_visited}):\n{history}\n\n"
+            "Currently parallel ({n_options} options in slot {slot_id}):\n"
+            "{options_block}{rec_block}{gossip_block}\n\n"
+            "Which one do you choose? JSON only."
+        ),
+        "history_empty": "  (none yet)",
+        "history_line": "  - [{slot_id}] {title}",
+        "option_line": (
+            "  {i}. [{tid}] hall {hall}, topic {cat}\n"
+            "     {title}\n"
+            "     {abstract}"
+        ),
+        "rec_block": "\nSystem recommendation (not required to follow): {rec}",
+        "gossip_header": "\nWhat other attendees in this slot have already chosen:",
+        "gossip_line": "  - [{tid}] {title}: {count} of {total}",
+    },
+}
 
 
-# Дополнения системного промпта для разных уровней L2 gossip.
-# Соответствие cfg.w_gossip → уровень фиксируется на стороне run_llm_spike.py
-# (Q-J8 accepted): off (w=0), moderate (0 < w < 0.4), strong (w >= 0.4).
-SYSTEM_PROMPT_GOSSIP_MODERATE = (
-    "\n4. Выбор других участников в этом же слоте — учитывай как умеренный "
-    "социальный фактор (но не определяющий)."
-)
-SYSTEM_PROMPT_GOSSIP_STRONG = (
-    "\n4. Выбор других участников в этом же слоте — учитывай как заметный "
-    "социальный фактор: толпа сигнализирует, что доклад хорош."
-)
+def _get_templates(language: str) -> dict[str, str]:
+    if language not in _TEMPLATES:
+        raise ValueError(
+            f"unknown language={language!r}; must be one of {list(_TEMPLATES)}"
+        )
+    return _TEMPLATES[language]
 
 
-def build_system_prompt(gossip_level: str = "off") -> str:
-    """Собирает SYSTEM_PROMPT под уровень L2 gossip.
+def build_system_prompt(gossip_level: str = "off", language: str = "ru") -> str:
+    """Собирает SYSTEM_PROMPT под уровень L2 gossip и язык.
 
     gossip_level: 'off' (w_gossip = 0; Q-J9 accepted: блок не добавляется),
                   'moderate' (0 < w_gossip < 0.4), 'strong' (w_gossip >= 0.4).
+    language: 'ru' (default) | 'en' — паритет с языком текстов программы.
     """
+    t = _get_templates(language)
     if gossip_level == "off":
-        return SYSTEM_PROMPT_BASE
+        return t["system_base"]
     if gossip_level == "moderate":
-        return SYSTEM_PROMPT_BASE + SYSTEM_PROMPT_GOSSIP_MODERATE
+        return t["system_base"] + t["system_gossip_moderate"]
     if gossip_level == "strong":
-        return SYSTEM_PROMPT_BASE + SYSTEM_PROMPT_GOSSIP_STRONG
+        return t["system_base"] + t["system_gossip_strong"]
     raise ValueError(
         f"unknown gossip_level={gossip_level!r}; must be off|moderate|strong"
     )
 
 
-# Backward-compatible: код, импортирующий SYSTEM_PROMPT, получает baseline
+# Backward-compatible: код, импортирующий SYSTEM_PROMPT, получает RU baseline
 # (gossip_level='off') — это эквивалент поведения этапа H V3 без gossip.
-SYSTEM_PROMPT = SYSTEM_PROMPT_BASE
-
-
-USER_PROMPT_TEMPLATE = """Профиль:
-{profile}
-
-Уже посетил сегодня ({n_visited}):
-{history}
-
-Сейчас параллельно ({n_options} вариантов в слоте {slot_id}):
-{options_block}
-{rec_block}{gossip_block}
-
-Что выбираешь? Только JSON."""
+SYSTEM_PROMPT = _TEMPLATES["ru"]["system_base"]
+SYSTEM_PROMPT_BASE = _TEMPLATES["ru"]["system_base"]
+SYSTEM_PROMPT_GOSSIP_MODERATE = _TEMPLATES["ru"]["system_gossip_moderate"]
+SYSTEM_PROMPT_GOSSIP_STRONG = _TEMPLATES["ru"]["system_gossip_strong"]
+USER_PROMPT_TEMPLATE = _TEMPLATES["ru"]["user_template"]
 
 
 @dataclass
@@ -97,12 +168,17 @@ class LLMAgent:
     agent_id: str
     profile: str
     history: list[dict] = field(default_factory=list)  # [{slot_id, talk_id, title}]
+    language: str = "ru"
 
     def render_history(self) -> str:
+        t = _get_templates(self.language)
         if not self.history:
-            return "  (пока ничего)"
+            return t["history_empty"]
         return "\n".join(
-            f"  - [{h['slot_id']}] {h.get('title', h['talk_id'])[:80]}"
+            t["history_line"].format(
+                slot_id=h["slot_id"],
+                title=h.get("title", h["talk_id"])[:80],
+            )
             for h in self.history
         )
 
@@ -136,17 +212,21 @@ class LLMAgent:
             gossip_level: 'off' | 'moderate' | 'strong' — уровень L2 gossip
                 (определяется в run_llm_spike.py из cfg.w_gossip).
         """
+        t = _get_templates(self.language)
         options_lines = []
-        for i, t in enumerate(talks):
-            short_abs = (t.get("abstract", "") or "")[:200]
-            options_lines.append(
-                f"  {i + 1}. [{t['id']}] зал {t['hall']}, тема {t.get('category', '?')}\n"
-                f"     {t['title'][:120]}\n"
-                f"     {short_abs}"
-            )
+        for i, talk in enumerate(talks):
+            short_abs = (talk.get("abstract", "") or "")[:200]
+            options_lines.append(t["option_line"].format(
+                i=i + 1,
+                tid=talk["id"],
+                hall=talk["hall"],
+                cat=talk.get("category", "?"),
+                title=talk["title"][:120],
+                abstract=short_abs,
+            ))
         rec_block = ""
         if recommendation:
-            rec_block = f"\nРекомендация системы (не обязан слушать): {recommendation}"
+            rec_block = t["rec_block"].format(rec=recommendation)
 
         # L2 gossip: блок попадает в промпт только при gossip_level != 'off' И
         # переданных gossip_counts/gossip_n_total. При gossip_level='off' блок
@@ -154,18 +234,18 @@ class LLMAgent:
         # просто не передаём блок).
         gossip_block = ""
         if gossip_level != "off" and gossip_counts and gossip_n_total:
-            lines = []
-            for t in talks:
-                count = int(gossip_counts.get(t["id"], 0))
-                lines.append(
-                    f"  - [{t['id']}] {t['title'][:80]}: {count} из {gossip_n_total}"
+            lines = [
+                t["gossip_line"].format(
+                    tid=talk["id"],
+                    title=talk["title"][:80],
+                    count=int(gossip_counts.get(talk["id"], 0)),
+                    total=gossip_n_total,
                 )
-            gossip_block = (
-                "\nЧто уже выбрали другие участники в этом слоте:\n"
-                + "\n".join(lines)
-            )
+                for talk in talks
+            ]
+            gossip_block = t["gossip_header"] + "\n" + "\n".join(lines)
 
-        user_msg = USER_PROMPT_TEMPLATE.format(
+        user_msg = t["user_template"].format(
             profile=self.profile[:600],
             n_visited=len(self.history),
             history=self.render_history(),
@@ -176,9 +256,9 @@ class LLMAgent:
             gossip_block=gossip_block,
         )
 
-        system_prompt = build_system_prompt(gossip_level)
+        system_prompt = build_system_prompt(gossip_level, language=self.language)
         text, cost = await llm_call(system_prompt, user_msg, max_tokens=200)
-        chosen, reason = self._parse_response(text, valid_ids=[t["id"] for t in talks])
+        chosen, reason = self._parse_response(text, valid_ids=[talk["id"] for talk in talks])
 
         return LLMAgentDecision(
             agent_id=self.agent_id,

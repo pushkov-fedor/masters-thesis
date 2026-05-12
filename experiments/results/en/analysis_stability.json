@@ -6923,22 +6923,576 @@
   },
   "maximin_12_p4_only": {
     "volatile_threshold_std_over_mean": 0.5,
-    "n_volatile": 0,
-    "volatile": [],
+    "n_volatile": 6,
+    "volatile": [
+      {
+        "lhs_row_id": 18,
+        "policy": "llm_ranker",
+        "metric": "metric_mean_overload_excess",
+        "mean": 0.0023809523809523807,
+        "std": 0.0033671751485073696,
+        "std_over_mean": 1.4142135623730954
+      },
+      {
+        "lhs_row_id": 18,
+        "policy": "llm_ranker",
+        "metric": "metric_overflow_rate_slothall",
+        "mean": 0.008771929824561403,
+        "std": 0.012405382126079782,
+        "std_over_mean": 1.4142135623730951
+      },
+      {
+        "lhs_row_id": 18,
+        "policy": "llm_ranker",
+        "metric": "metric_mean_user_utility",
+        "mean": -0.0003465018307098136,
+        "std": 0.000363865273770135,
+        "std_over_mean": 1.0501106820265629
+      },
+      {
+        "lhs_row_id": 23,
+        "policy": "llm_ranker",
+        "metric": "metric_mean_user_utility",
+        "mean": 0.0013028164719192622,
+        "std": 0.0010417979731227236,
+        "std_over_mean": 0.7996505997410245
+      },
+      {
+        "lhs_row_id": 31,
+        "policy": "llm_ranker",
+        "metric": "metric_mean_user_utility",
+        "mean": -0.0010405826642818283,
+        "std": 0.0008775360489865449,
+        "std_over_mean": 0.8433121933586967
+      },
+      {
+        "lhs_row_id": 48,
+        "policy": "llm_ranker",
+        "metric": "metric_mean_user_utility",
+        "mean": -0.0021148443131500647,
+        "std": 0.00277686544400162,
+        "std_over_mean": 1.3130353977997906
+      }
+    ],
     "std_distribution_summary": {
       "llm_ranker": {
-        "n": 0,
-        "mean": null,
-        "median": null,
-        "std": null,
-        "p25": null,
-        "p75": null,
-        "min": null,
-        "max": null
+        "n": 48,
+        "mean": 0.003135380389688499,
+        "median": 0.0003389069429957053,
+        "std": 0.007987886218069971,
+        "p25": 0.0,
+        "p75": 0.002145910392407686,
+        "min": 0.0,
+        "max": 0.04101862302469757
       }
     },
     "per_policy_per_lhs": {
-      "llm_ranker": {}
+      "llm_ranker": {
+        "6": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.010202370772764613,
+            "std": 0.002266456706530648,
+            "std_over_mean": 0.22215000385802378,
+            "values": [
+              0.008718541991516187,
+              0.00848381201482152,
+              0.013404758311956139
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": -0.007067136062250939,
+            "std": 0.0008234166604681696,
+            "std_over_mean": 0.11651348625738853,
+            "values": [
+              -0.007886291360628093,
+              -0.007374329605954699,
+              -0.005940787220170023
+            ]
+          }
+        },
+        "7": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.014754435323287211,
+            "std": 0.004955122363348073,
+            "std_over_mean": 0.33583951230768605,
+            "values": [
+              0.016456623116352563,
+              0.008016341002813428,
+              0.019790341850695642
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": -0.0068712797810601646,
+            "std": 0.0006299583890545211,
+            "std_over_mean": 0.09167992122674494,
+            "values": [
+              -0.0075657001395787425,
+              -0.006040740901880781,
+              -0.007007398301720968
+            ]
+          }
+        },
+        "13": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.018511225466171906,
+            "std": 0.0022141024691517074,
+            "std_over_mean": 0.11960863818539944,
+            "values": [
+              0.020583910943079185,
+              0.019507456416719176,
+              0.015442309038717357
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": -0.005999095106704368,
+            "std": 0.002123179700159679,
+            "std_over_mean": 0.35391665949534484,
+            "values": [
+              -0.0032076047791633755,
+              -0.008352715195602893,
+              -0.006436965345346835
+            ]
+          }
+        },
+        "18": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0023809523809523807,
+            "std": 0.0033671751485073696,
+            "std_over_mean": 1.4142135623730954,
+            "values": [
+              0.0,
+              0.007142857142857143,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.008771929824561403,
+            "std": 0.012405382126079782,
+            "std_over_mean": 1.4142135623730951,
+            "values": [
+              0.0,
+              0.02631578947368421,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.025493827160493827,
+            "std": 0.0054375768640200555,
+            "std_over_mean": 0.21328993994461234,
+            "values": [
+              0.031158352229780802,
+              0.027165532879818596,
+              0.01815759637188209
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": -0.0003465018307098136,
+            "std": 0.000363865273770135,
+            "std_over_mean": 1.0501106820265629,
+            "values": [
+              -0.0008600927799610266,
+              -6.204485180205666e-05,
+              -0.00011736786036635749
+            ]
+          }
+        },
+        "23": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.0037721123829344435,
+            "std": 0.0002889955513756216,
+            "std_over_mean": 0.07661371720606133,
+            "values": [
+              0.0041779878213280925,
+              0.003527623617373878,
+              0.0036107257101013605
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": 0.0013028164719192622,
+            "std": 0.0010417979731227236,
+            "std_over_mean": 0.7996505997410245,
+            "values": [
+              0.0026374313490426476,
+              9.503065957687795e-05,
+              0.0011759874071382607
+            ]
+          }
+        },
+        "27": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.01319979443962191,
+            "std": 0.001575043603263944,
+            "std_over_mean": 0.11932334328905343,
+            "values": [
+              0.011051884403935184,
+              0.013762862594039351,
+              0.014784636320891201
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": -0.004879343373249867,
+            "std": 0.0009761252546667639,
+            "std_over_mean": 0.200052584947843,
+            "values": [
+              -0.005377291628756211,
+              -0.00351535067151417,
+              -0.00574538781947922
+            ]
+          }
+        },
+        "31": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.005257582685566225,
+            "std": 0.0015136753724903226,
+            "std_over_mean": 0.2879032937790696,
+            "values": [
+              0.003752857796067672,
+              0.007328532235939642,
+              0.004691358024691359
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": -0.0010405826642818283,
+            "std": 0.0008775360489865449,
+            "std_over_mean": 0.8433121933586967,
+            "values": [
+              3.507554429234005e-05,
+              -0.0021144377377640923,
+              -0.0010423857993737328
+            ]
+          }
+        },
+        "34": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.00763203953738283,
+            "std": 0.0021158711320202733,
+            "std_over_mean": 0.2772353473349334,
+            "values": [
+              0.005655702384372307,
+              0.006674460297700746,
+              0.010565955930075437
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": 0.002833110698217449,
+            "std": 0.0011336046808699803,
+            "std_over_mean": 0.40012721055454253,
+            "values": [
+              0.0012904477490034575,
+              0.003982241891693169,
+              0.0032266424539557194
+            ]
+          }
+        },
+        "36": {
+          "metric_mean_overload_excess": {
+            "mean": 0.10648148148148147,
+            "std": 0.04101862302469757,
+            "std_over_mean": 0.38521837275368154,
+            "values": [
+              0.13194444444444445,
+              0.04861111111111111,
+              0.13888888888888887
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.11403508771929823,
+            "std": 0.032821556024332815,
+            "std_over_mean": 0.2878197989826109,
+            "values": [
+              0.10526315789473684,
+              0.07894736842105263,
+              0.15789473684210525
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.0611376350308642,
+            "std": 0.022401130508256817,
+            "std_over_mean": 0.36640492385660683,
+            "values": [
+              0.06839152520576132,
+              0.03080391589506173,
+              0.08421746399176955
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": -0.009069272150777073,
+            "std": 0.0022815276107596987,
+            "std_over_mean": 0.2515667820778995,
+            "values": [
+              -0.006635677525385593,
+              -0.012120807934600937,
+              -0.008451330992344689
+            ]
+          }
+        },
+        "42": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.001758832073134265,
+            "std": 0.00016327349047668826,
+            "std_over_mean": 0.09283063060462188,
+            "values": [
+              0.001810201204664873,
+              0.0019281045751633988,
+              0.0015381904395745227
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": -0.008620186236091993,
+            "std": 0.003080268989390245,
+            "std_over_mean": 0.3573320697519757,
+            "values": [
+              -0.0042788166446068015,
+              -0.011101464211242274,
+              -0.010480277852426905
+            ]
+          }
+        },
+        "45": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.0012418476980854134,
+            "std": 0.000155708901444456,
+            "std_over_mean": 0.12538486135177138,
+            "values": [
+              0.0014366893196815732,
+              0.0010555705433726015,
+              0.0012332832312020657
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": 0.007947715826513659,
+            "std": 0.001376470781580478,
+            "std_over_mean": 0.17319073953154662,
+            "values": [
+              0.006258580792928114,
+              0.007954354439668047,
+              0.009630212246944818
+            ]
+          }
+        },
+        "48": {
+          "metric_mean_overload_excess": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_overflow_rate_slothall": {
+            "mean": 0.0,
+            "std": 0.0,
+            "std_over_mean": null,
+            "values": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "metric_hall_utilization_variance": {
+            "mean": 0.0009966859012874726,
+            "std": 0.0003139486122212757,
+            "std_over_mean": 0.31499252855461435,
+            "values": [
+              0.0013821340981834808,
+              0.0009947964493419038,
+              0.0006131271563370329
+            ]
+          },
+          "metric_mean_user_utility": {
+            "mean": -0.0021148443131500647,
+            "std": 0.00277686544400162,
+            "std_over_mean": 1.3130353977997906,
+            "values": [
+              -0.0056964258566343535,
+              -0.0017189290830477452,
+              0.0010708220002319043
+            ]
+          }
+        }
+      }
     }
   }
 }

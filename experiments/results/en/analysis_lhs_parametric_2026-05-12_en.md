@@ -35,7 +35,10 @@ Master seed: 2026
 |---|---:|---:|---:|---:|---:|---:|
 | no_policy_vs_cosine | 0.08 | 0.00 | 0.92 | 0.08 | 0.08 | 12 |
 | no_policy_vs_capacity_aware | 0.00 | 0.00 | 0.83 | 0.17 | 0.17 | 12 |
+| no_policy_vs_llm_ranker | 0.00 | 0.00 | 0.92 | 0.17 | 0.08 | 12 |
 | cosine_vs_capacity_aware | 0.00 | 0.00 | 0.92 | 0.17 | 0.08 | 12 |
+| cosine_vs_llm_ranker | 0.00 | 0.00 | 0.92 | 0.17 | 0.08 | 12 |
+| capacity_aware_vs_llm_ranker | 0.08 | 0.08 | 0.92 | 0.00 | 0.00 | 12 |
 
 ### 2.3. Per-policy distribution (median по LHS-row)
 
@@ -72,6 +75,10 @@ Maximin-12 (все 4 политики, общая база сравнения):
 | capacity_aware | overflow_rate_slothall | 12 | 0.0088 | 0.0000 | 0.0000 | 0.0000 |
 | capacity_aware | hall_utilization_variance | 12 | 0.0104 | 0.0067 | 0.0021 | 0.0093 |
 | capacity_aware | mean_user_utility | 12 | 0.0001 | -0.0005 | -0.0051 | 0.0048 |
+| llm_ranker | mean_overload_excess | 12 | 0.0110 | 0.0000 | 0.0000 | 0.0000 |
+| llm_ranker | overflow_rate_slothall | 12 | 0.0088 | 0.0000 | 0.0000 | 0.0000 |
+| llm_ranker | hall_utilization_variance | 12 | 0.0144 | 0.0077 | 0.0032 | 0.0172 |
+| llm_ranker | mean_user_utility | 12 | -0.0030 | -0.0035 | -0.0071 | 0.0002 |
 
 ## 3. Q-S-CapVsCos: bucket-анализ capacity_aware vs cosine
 
@@ -205,7 +212,10 @@ Pairwise (`mean_overload_excess`, ε=0.005) на 12 maximin LHS-row:
 |---|---:|---:|---:|---:|---:|---:|
 | no_policy_vs_cosine | 0.08 | 0.00 | 0.92 | 0.08 | 0.08 | 12 |
 | no_policy_vs_capacity_aware | 0.00 | 0.00 | 0.83 | 0.17 | 0.17 | 12 |
+| no_policy_vs_llm_ranker | 0.00 | 0.00 | 0.92 | 0.17 | 0.08 | 12 |
 | cosine_vs_capacity_aware | 0.00 | 0.00 | 0.92 | 0.17 | 0.08 | 12 |
+| cosine_vs_llm_ranker | 0.00 | 0.00 | 0.92 | 0.17 | 0.08 | 12 |
+| capacity_aware_vs_llm_ranker | 0.08 | 0.08 | 0.92 | 0.00 | 0.00 | 12 |
 
 ## 8. Q-S-Stability: volatile points
 
@@ -269,6 +279,7 @@ Per-policy overload-frequency:
 | no_policy | 50 | 11 | 22 % |
 | cosine | 50 | 11 | 22 % |
 | capacity_aware | 50 | 10 | 20 % |
+| llm_ranker | 12 | 1 | 8 % |
 
 ### 11.3. Overload по bucket × policy (П1–П3)
 
@@ -331,18 +342,18 @@ Per-policy overload-frequency:
 
 | Блок | Время, сек |
 |---|---:|
-| read_input | 0.001 |
-| aggregate_replicates | 0.006 |
-| pairwise_and_regret | 0.003 |
-| sensitivity | 0.016 |
-| program_effect | 0.012 |
-| gossip_effect | 0.006 |
+| read_input | 0.002 |
+| aggregate_replicates | 0.008 |
+| pairwise_and_regret | 0.004 |
+| sensitivity | 0.018 |
+| program_effect | 0.014 |
+| gossip_effect | 0.009 |
 | risk_utility | 0.000 |
 | llm_ranker_diag | 0.002 |
-| stability | 0.001 |
-| capacity_audit | 0.000 |
-| plots | 0.343 |
-| write_json | 0.011 |
+| stability | 0.000 |
+| capacity_audit | 0.001 |
+| plots | 0.400 |
+| write_json | 0.012 |
 
 ## 13. Plots
 

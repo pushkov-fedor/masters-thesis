@@ -301,14 +301,16 @@
         ]
       },
       "llm_ranker": {
-        "n_evaluated_lhs": 0,
-        "n_lhs_with_overload": 0,
-        "fraction_nonzero": null,
-        "lhs_row_ids_with_overload": []
+        "n_evaluated_lhs": 12,
+        "n_lhs_with_overload": 1,
+        "fraction_nonzero": 0.08333333333333333,
+        "lhs_row_ids_with_overload": [
+          36
+        ]
       }
     },
-    "pairs_total": 150,
-    "pairs_nonzero": 32
+    "pairs_total": 162,
+    "pairs_nonzero": 33
   },
   "overload_by_bucket_x_policy": {
     "stress[0.5,1)": {

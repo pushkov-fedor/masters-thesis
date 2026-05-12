@@ -292,6 +292,7 @@ async def run_lhs_policy(
     capacity_aware_pol: CapacityAwarePolicy,
     llm_ranker_pol,  # Optional[LLMRankerPolicy]
     pbar: tqdm | None = None,
+    language: str = "ru",
 ) -> dict:
     """Прогон одной политики на одной LHS-row (CRN-aware).
 
@@ -300,7 +301,8 @@ async def run_lhs_policy(
     агент видит обновлённый gossip-сигнал.
     """
     # Свежие копии агентов (история пустая — каждая политика начинает с нуля)
-    agents = [LLMAgent(agent_id=u.id, profile=u.text) for u in audience]
+    agents = [LLMAgent(agent_id=u.id, profile=u.text, language=language)
+              for u in audience]
     agent_emb_map = {u.id: u.embedding for u in audience}
 
     decisions: list[dict] = []
@@ -839,6 +841,7 @@ async def main_async(args: argparse.Namespace) -> int:
                 llm_ranker_pol=(llm_ranker_pol if pi == "llm_ranker"
                                 else None),
                 pbar=per_policy_inner_bars[pi],
+                language=args.language,
             )
             metrics = res["metrics"]
             rec = {
@@ -1162,6 +1165,9 @@ def main(argv: list[str] | None = None) -> int:
                     help="resume из partial JSONL (по умолчанию)")
     ap.add_argument("--no-resume", action="store_false", dest="resume",
                     help="игнорировать partial JSONL, начать с нуля")
+    ap.add_argument("--language", default="ru", choices=["ru", "en"],
+                    help="язык промптов LLMAgent: 'ru' (default, RU-прогон) или "
+                         "'en' (EN-пайплайн с BGE+ABTT, паритет каналов)")
     args = ap.parse_args(argv)
     return asyncio.run(main_async(args))
 
