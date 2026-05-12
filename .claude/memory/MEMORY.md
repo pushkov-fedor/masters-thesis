@@ -22,6 +22,10 @@
 ## Технические наблюдения и литература
 
 - [Технические наблюдения](project_technical_observations.md) — capacity, mean_overload_excess, узкий конус e5, B1-leakage
+- [Модель генерации EN-персон](project_persona_generation_model.md) — EN-пул Mobius 100 персон сделан через Claude Opus 4.7, не Sonnet (запись в spike-аудите устарела)
+- [Повторный поиск датасетов 12.05.2026](project_dataset_search_2026-05-12.md) — исчерпывающий поиск перед предзащитой, ничего не нашёл по структурной причине; список проверенных доменов и Q6 в speech.md
+- [Оператор Φ деприкейтнут 12.05.2026](project_phi_operator_deprecated_2026-05-12.md) — на параметрическом симуляторе эффект слабый, на защите не выносится; ось program_variant можно убирать в будущих LHS-перегонах
+- [Hall-conflict bug в program_modification.py](project_phi_hall_conflict_bug.md) — основной оператор Φ сохраняет hall и не проверяет конфликт залов; исправить в финальной версии после защиты
 - [Литература и канон валидации](reference_validation_defense.md) — must-cite, канон Sargent / Kleijnen / DMDU / Larooij & Törnberg, distribution-match Meetup ρ=0.438
 - [Обзор предметной области 2026-05-04](research_field_survey_2026-05-04.md) — карта подходов, capacity-aware recsys, LLM-агенты, gap-анализ, плюс EMA-workbench / PRIM как лёгкое усиление
 
