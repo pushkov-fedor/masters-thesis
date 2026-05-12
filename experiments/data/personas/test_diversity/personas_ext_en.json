@@ -1,0 +1,506 @@
+[
+  {
+    "id": "p_ios_01",
+    "category": "iOS",
+    "role": "iOS UI Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": ["SwiftUI", "UIKit", "Custom Layouts"],
+    "preferred_topics": ["UI/UX", "Tutorials"],
+    "background": "A year and a half in iOS, joined a startup with a media application after coming from web development. Writes interfaces mostly in SwiftUI, has recently started exploring UICollectionViewLayout for legacy screens. Wants to understand the Layout protocol and the subtleties of ViewBuilder under the hood, looking for quality tutorials on View hierarchy architecture."
+  },
+  {
+    "id": "p_ios_02",
+    "category": "iOS",
+    "role": "iOS Performance Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Swift Runtime", "Instruments", "Binary Size"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Eight years in iOS, the last three years works on performance of a bank application with 30 million installs. Profiles through Instruments, reads Mach-O dumps, fights against bloating of the __TEXT segment. Reduced cold start from 1.8 to 0.7 seconds through lazy initialization of singletons and removal of dyld closure dependencies."
+  },
+  {
+    "id": "p_ios_03",
+    "category": "iOS",
+    "role": "ARKit Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["ARKit", "RealityKit", "Metal"],
+    "preferred_topics": ["Applied Tech", "Performance"],
+    "background": "Six years in graphics and AR, two years at a startup building virtual makeup try-on for the face. Uses ARKit with Face Tracking, custom Metal shaders for blending, ARGeoTracking for outdoor scenarios. Works on tracking stabilization on iPhones without LiDAR through classical VIO."
+  },
+  {
+    "id": "p_ios_04",
+    "category": "iOS",
+    "role": "iOS QA Automation Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": ["XCUITest", "Snapshot Testing", "Test Plans"],
+    "preferred_topics": ["Tools", "Best Practices"],
+    "background": "Three years working on iOS testing automation for a ride-hailing application. Writes XCUITest, uses accessibility identifiers and the Page Object pattern. Introduced snapshot testing through swift-snapshot-testing, set up parallel runs on 40 simulators through xcodebuild test and Test Plans."
+  },
+  {
+    "id": "p_ios_05",
+    "category": "iOS",
+    "role": "iOS Accessibility Specialist",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["VoiceOver", "Dynamic Type", "Switch Control"],
+    "preferred_topics": ["UI/UX", "Best Practices"],
+    "background": "Seven years in the industry, the last two years leads the accessibility track at an insurance holding. Audits screens through Accessibility Inspector, writes custom UIAccessibilityCustomAction for complex controls, supports Switch Control for people with motor impairments. Certified in WCAG 2.2 and ADA principles."
+  },
+  {
+    "id": "p_ios_06",
+    "category": "iOS",
+    "role": "iOS Security Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Keychain", "Secure Enclave", "Code Obfuscation"],
+    "preferred_topics": ["Security", "Under the Hood"],
+    "background": "Nine years in mobile development, the last four at a bank in charge of iOS application security. Works with Secure Enclave for biometrics and key storage, implements SSL pinning through CertificatePinner, protects against runtime injections through FairPlay-like techniques. Regularly goes through pentests with Frida and Hopper Disassembler."
+  },
+  {
+    "id": "p_ios_07",
+    "category": "iOS",
+    "role": "iOS Build Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Bazel", "Tuist", "Fastlane"],
+    "preferred_topics": ["Tooling", "CI/CD"],
+    "background": "Eleven years in iOS, leads a platform team of six at a major telecom. Migrated a monolithic workspace of 150 modules to Bazel with remote cache in S3, accelerated clean build from 22 to 5 minutes. Maintains custom Fastlane plugins, automates signing through the App Store Connect API."
+  },
+  {
+    "id": "p_ios_08",
+    "category": "iOS",
+    "role": "iOS Networking Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["URLSession", "WebSocket", "GraphQL"],
+    "preferred_topics": ["Networking", "Architecture"],
+    "background": "Four years working with the network stack in a streaming application, owns the player and content delivery. Implemented a custom URLProtocol for request interception, optimized WebSocket through URLSessionWebSocketTask with reconnect logic. Currently integrating Apollo iOS for the move from REST to GraphQL."
+  },
+  {
+    "id": "p_ios_09",
+    "category": "iOS",
+    "role": "iOS Architect",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["Modular Architecture", "Clean Architecture", "TCA"],
+    "preferred_topics": ["Architecture", "Best Practices"],
+    "background": "Twelve years in iOS, an architect at a product company with 80 developers. Introduced The Composable Architecture for a new payments module, split the application into feature modules with a clear contract through the protocol-witness pattern. Currently exploring the migration of part of the modules to Swift 6 strict concurrency."
+  },
+  {
+    "id": "p_ios_10",
+    "category": "iOS",
+    "role": "iOS Developer Advocate",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["DevRel", "Swift Concurrency", "Open Source"],
+    "preferred_topics": ["Trends", "Community"],
+    "background": "Eight years in iOS, the last two years combines mentoring juniors and technical evangelism at a product studio. Runs an internal tech-talk series on Swift Concurrency and actor isolation, actively contributes to swift-async-algorithms. Often speaks at meetups with breakdowns of Swift Evolution proposals."
+  },
+
+  {
+    "id": "p_android_01",
+    "category": "Android",
+    "role": "Android Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["Jetpack Compose", "Material 3", "Kotlin"],
+    "preferred_topics": ["UI/UX", "Tutorials"],
+    "background": "One year in Android after a bootcamp, writes marketplace interfaces in Compose with Material 3 and dynamic color themes. Has just started exploring SharedTransitionLayout and Modifier.animateContentSize. Wants to understand lazy list performance through LazyListPrefetchStrategy and learn how to write custom Layout through MeasureScope."
+  },
+  {
+    "id": "p_android_02",
+    "category": "Android",
+    "role": "Android Runtime Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["ART", "Coroutines Internals", "Flow"],
+    "preferred_topics": ["Under the Hood", "Performance"],
+    "background": "Seven years on Kotlin, the last three at a bank digs into the internals of ART and JIT. Investigated the behavior of Coroutines on different versions of the Android Runtime, found and patched a deadlock in OkHttp on Android 12. Currently studying the impact of ART CompactDex on application size and verification time."
+  },
+  {
+    "id": "p_android_03",
+    "category": "Android",
+    "role": "Android Database Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Room", "SQLite", "Offline Sync"],
+    "preferred_topics": ["Architecture", "Performance"],
+    "background": "Six years in Android, four at a messenger with 8 million active users. Designed Room migrations from FTS4 to FTS5 for full-text search, optimized queries through EXPLAIN QUERY PLAN. Implemented a sync engine based on CRDT with local persistence in SQLite through WAL mode."
+  },
+  {
+    "id": "p_android_04",
+    "category": "Android",
+    "role": "Wear OS Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Wear OS", "Compose for Wear", "Health Services"],
+    "preferred_topics": ["Applied Tech", "UI/UX"],
+    "background": "Three years writing an application for fitness trackers on Wear OS 4 and 5. Uses Compose for Wear with TimeText, CurvedText, Tiles. Integrates the Health Services API for collecting heart rate and SpO2 data, optimizes power consumption through ambient mode. Supports the application on 12 watch models from different manufacturers."
+  },
+  {
+    "id": "p_android_05",
+    "category": "Android",
+    "role": "Android Auto Developer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["Android Auto", "Car App Library", "Voice Actions"],
+    "preferred_topics": ["Applied Tech", "UI/UX"],
+    "background": "Seven years in Android, the last two in the automotive industry building a navigation application for Android Auto. Uses the Car App Library with the Templates API, supports the Distraction-Optimized interface per the guidelines. Integrates Voice Actions through Assistant App Actions, tests on the DHU and real Volkswagen head units."
+  },
+  {
+    "id": "p_android_06",
+    "category": "Android",
+    "role": "Android Performance Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Macrobenchmark", "Baseline Profiles", "Perfetto"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Eight years in Android, profiles a video-on-demand application. Reduced janky frames percentage from 4.2 to 0.6 through Baseline Profiles, the move to R8 fullMode and Compose recomposition optimization. Actively uses Perfetto for traces and Android GPU Inspector for shaders. Set up automated Macrobenchmark runs on CI."
+  },
+  {
+    "id": "p_android_07",
+    "category": "Android",
+    "role": "Android Security Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["KeyStore", "Play Integrity", "Code Obfuscation"],
+    "preferred_topics": ["Security", "Under the Hood"],
+    "background": "Ten years in Android, leads security of a bank application. Works with Hardware-backed KeyStore, implements attestation through Play Integrity API, protects against Frida and Magisk through a combination of SafetyNet and custom runtime checks. Set up R8 with aggressive obfuscation and shrinking, regularly conducts threat modeling."
+  },
+  {
+    "id": "p_android_08",
+    "category": "Android",
+    "role": "Android Build Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Gradle", "Bazel", "Build Cache"],
+    "preferred_topics": ["Tooling", "CI/CD"],
+    "background": "Nine years in Android, the last three owns build infrastructure at a product company with 50 developers. Moved Gradle to Configuration Cache and Project Isolation, accelerated incremental build from 80 to 18 seconds. Set up Gradle Enterprise build scans and remote build cache, experiments with Bazel for Kotlin modules."
+  },
+  {
+    "id": "p_android_09",
+    "category": "Android",
+    "role": "Android Networking Engineer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["OkHttp", "Retrofit", "gRPC"],
+    "preferred_topics": ["Networking", "Architecture"],
+    "background": "Four years in Android, two at a food delivery startup. Designed the network layer on OkHttp with custom Interceptor for authentication and retry logic, moved part of the API to gRPC through grpc-kotlin for bidirectional streaming of orders. Optimizes TLS handshake through session resumption and HTTP/2 multiplexing."
+  },
+  {
+    "id": "p_android_10",
+    "category": "Android",
+    "role": "Android Architect",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Clean Architecture", "Modularization", "KMP"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Eleven years in Android, an architect of a social network application with 60 developers. Introduced a multi-module architecture with feature/data/domain layers, described module contracts through api/impl separation. Currently extracting business logic into a Kotlin Multiplatform shared module with the iOS team in mind."
+  },
+
+  {
+    "id": "p_backend_01",
+    "category": "Backend",
+    "role": "Java Service Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Java", "Spring Boot", "GraalVM"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Nine years on Java, the last four at a bank on the credit products platform. Writes Spring Boot 3 with Spring Web Reactive, understands the internals of HotSpot JIT compilation, reads G1 and ZGC GC logs. Currently migrating part of the critical services to GraalVM Native Image, fights with reflection config and build-time initialization."
+  },
+  {
+    "id": "p_backend_02",
+    "category": "Backend",
+    "role": "Go Microservices Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Go", "gRPC", "Kubernetes"],
+    "preferred_topics": ["Distributed Systems", "Architecture"],
+    "background": "Four years on Go, in an e-commerce company owns the cart and checkout domain. Writes microservices on go-kit, uses gRPC with buf for contracts, deploys to Kubernetes through Helm charts. Actively works with runtime/pprof and trace for latency diagnostics, optimizes sync.Pool under high load."
+  },
+  {
+    "id": "p_backend_03",
+    "category": "Backend",
+    "role": "Rust Low-Latency Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["Rust", "Tokio", "io_uring"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Seven years in systems development, two at a startup building a trading gateway with under 100 microseconds latency at the 99th percentile. Writes Rust with Tokio, experiments with tokio-uring and glommio for io_uring. Knows by heart the memory ordering chapter of the Rust nomicon, applies lock-free queues through crossbeam-skiplist."
+  },
+  {
+    "id": "p_backend_04",
+    "category": "Backend",
+    "role": "Python Backend Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": ["Python", "FastAPI", "asyncio"],
+    "preferred_topics": ["Web", "Tutorials"],
+    "background": "A year and a half in backend, at a ticket aggregator startup writes APIs on FastAPI and Pydantic v2. Has started exploring asyncio with uvloop, recently sped up an endpoint by switching to orjson. Wants to better understand the GIL and the event loop internals, interested in no-GIL Python 3.13 for CPU-bound tasks."
+  },
+  {
+    "id": "p_backend_05",
+    "category": "Backend",
+    "role": "Database Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["PostgreSQL", "ClickHouse", "Replication"],
+    "preferred_topics": ["Databases", "Architecture"],
+    "background": "Twelve years working with databases, the last five as a DBA engineer at a logistics holding. Maintains a PostgreSQL cluster of 24 nodes with Patroni and pgBouncer, configures logical replication between data centers. Introduced ClickHouse for analytics on 12 TB of data, uses ReplicatedMergeTree and project-level shards."
+  },
+  {
+    "id": "p_backend_06",
+    "category": "Backend",
+    "role": "Kafka Streaming Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Kafka", "Kafka Streams", "Schema Registry"],
+    "preferred_topics": ["Distributed Systems", "Streaming"],
+    "background": "Eight years in streaming systems, at a telecom owns the event bus on Kafka with 60 topics and 12 brokers. Writes processors on Kafka Streams and Apache Flink, maintains Confluent Schema Registry with Avro evolution. Implemented an exactly-once pipeline for billing through a transactional producer and read_committed."
+  },
+  {
+    "id": "p_backend_07",
+    "category": "Backend",
+    "role": "SRE Observability Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Prometheus", "OpenTelemetry", "eBPF"],
+    "preferred_topics": ["Observability", "Tools"],
+    "background": "Seven years in infrastructure teams, the last three as an SRE at a SaaS with 200 microservices. Maintains a Prometheus federation with long-term storage in Mimir, instruments services through OpenTelemetry with exemplars. Uses eBPF through Pixie and Parca for continuous profiling without changing application code."
+  },
+  {
+    "id": "p_backend_08",
+    "category": "Backend",
+    "role": "Backend Security Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["OAuth 2.1", "mTLS", "Zero Trust"],
+    "preferred_topics": ["Security", "Architecture"],
+    "background": "Ten years in application security, at a fintech leads API protection. Designed OAuth 2.1 + DPoP infrastructure on Keycloak, introduced mTLS between all services through Istio. Set up OPA for policy-as-code, regularly conducts threat modeling and red-team exercises."
+  },
+  {
+    "id": "p_backend_09",
+    "category": "Backend",
+    "role": "API Gateway Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Envoy", "Kong", "WebSocket"],
+    "preferred_topics": ["Architecture", "Networking"],
+    "background": "Five years in backend, the last two years maintains an API gateway on Envoy with custom Lua filters. Maintains 14 public APIs with rate-limiting through Redis, implemented automatic canary routing through xDS API. Currently exploring WebTransport and QUIC for real-time endpoints."
+  },
+  {
+    "id": "p_backend_10",
+    "category": "Backend",
+    "role": "Distributed Systems Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Raft", "CRDTs", "Consensus"],
+    "preferred_topics": ["Distributed Systems", "Research"],
+    "background": "Eight years in distributed systems, at a cloud database vendor writes code in Go and Rust. Implemented their own Raft implementation with pre-vote and witness replicas, works on clock-skew-resistant linearizable reads. Knows deeply the works of Lamport, Brewer and Bailis, regularly reads Jepsen reports."
+  },
+
+  {
+    "id": "p_ml_01",
+    "category": "ML",
+    "role": "NLP/LLM Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["LLM", "RAG", "Fine-Tuning"],
+    "preferred_topics": ["Applied ML", "Research"],
+    "background": "Seven years in NLP, the last two years on a product team at a search giant. Trains LoRA adapters over 7B models on domain dialogues, builds RAG pipelines with hybrid BM25 + embeddings search. Uses vLLM for inference with PagedAttention, works with long context through RoPE-scaling and YaRN."
+  },
+  {
+    "id": "p_ml_02",
+    "category": "ML",
+    "role": "Computer Vision Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Object Detection", "Segmentation", "Diffusion Models"],
+    "preferred_topics": ["Applied ML", "Research"],
+    "background": "Four years in CV, in e-commerce works on the catalog: automatic product categorization from photos, background removal. Uses YOLOv8 for detection, SAM for segmentation, ControlNet on top of Stable Diffusion for cover generation. Fine-tunes models on a proprietary dataset of 4 million annotated images."
+  },
+  {
+    "id": "p_ml_03",
+    "category": "ML",
+    "role": "MLOps Engineer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["Kubeflow", "Triton", "Feature Store"],
+    "preferred_topics": ["MLOps", "Production"],
+    "background": "Eight years in ML infrastructure, at an insurance holding builds a platform for 60 production models. Orchestrates training through Kubeflow Pipelines with Argo Workflows, deploys models on Triton Inference Server with dynamic batching. Stood up a feature store on Feast with offline storage in Iceberg and online in DragonflyDB."
+  },
+  {
+    "id": "p_ml_04",
+    "category": "ML",
+    "role": "Recommender Systems Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["RecSys", "Two-Tower Models", "Ranking"],
+    "preferred_topics": ["Applied ML", "Research"],
+    "background": "Seven years in recommender systems, the last three at a streaming service with 40 million users. Maintains a two-stage pipeline: candidate generation on a two-tower model through ANN search in Vespa, ranking on gradient boosting and transformers. Knows the works of Pinterest, Spotify and Netflix on cold-start and calibration."
+  },
+  {
+    "id": "p_ml_05",
+    "category": "ML",
+    "role": "Reinforcement Learning Researcher",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["RL", "PPO", "Multi-Agent"],
+    "preferred_topics": ["Research", "Applied ML"],
+    "background": "Nine years in RL, holds a PhD, leads a research group at a robotics startup. Applies PPO and SAC for training manipulator policies in NVIDIA Isaac simulation, works with domain randomization for sim-to-real transfer. Studies offline RL through CQL and IQL for learning from demonstrations."
+  },
+  {
+    "id": "p_ml_06",
+    "category": "ML",
+    "role": "Tabular ML Junior",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["XGBoost", "CatBoost", "Feature Engineering"],
+    "preferred_topics": ["Applied ML", "Tutorials"],
+    "background": "One year after a Master's in applied mathematics, at a credit scoring company works with credit risk models. Learning to use CatBoost with categorical features and grouping, has recently started doing PSI drift monitoring. Wants to figure out TabNet and FT-Transformer as an alternative to classical boosting on high-dimensional data."
+  },
+  {
+    "id": "p_ml_07",
+    "category": "ML",
+    "role": "Edge ML Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["Edge Inference", "Quantization", "TensorRT"],
+    "preferred_topics": ["Performance", "Applied ML"],
+    "background": "Six years in embedded ML, at a smart security cameras startup optimizes models for Jetson Orin Nano. Does int8 quantization through TensorRT with post-training calibration, prunes layers through torch.nn.utils.prune. Compares performance on Coral Edge TPU and Hailo-8 for batch inference scenarios."
+  },
+  {
+    "id": "p_ml_08",
+    "category": "ML",
+    "role": "Data Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Spark", "Iceberg", "dbt"],
+    "preferred_topics": ["Data Engineering", "Tools"],
+    "background": "Eight years in data engineering, at a bank owns a data lakehouse on Apache Iceberg in S3. Writes batch pipelines on Spark with the Photon engine, maintains 200+ models in a dbt project with tests and documentation. Works on migration from Hive Metastore to Unity Catalog with row-level security."
+  },
+  {
+    "id": "p_ml_09",
+    "category": "ML",
+    "role": "Data Scientist Analyst",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["A/B Testing", "Causal Inference", "SQL"],
+    "preferred_topics": ["Applied ML", "Best Practices"],
+    "background": "Four years in product analytics at a game studio. Designs A/B tests with CUPED variance reduction, uses bootstrap for interval estimates. Applies causal inference: difference-in-differences for evaluating marketing campaigns, instrumental variables for anti-cannibalization analysis."
+  },
+  {
+    "id": "p_ml_10",
+    "category": "ML",
+    "role": "ML Platform Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Ray", "Slurm", "GPU Scheduling"],
+    "preferred_topics": ["MLOps", "Infrastructure"],
+    "background": "Ten years in HPC and ML infrastructure, at a research institute leads a team of five engineers. Maintains a Slurm cluster of 80 nodes with A100, moves part of training to Ray with autoscaling. Introduced MIG partitioning of GPUs for sharing cards between small experiments, uses NCCL for efficient all-reduce communication."
+  },
+
+  {
+    "id": "p_frontend_01",
+    "category": "Frontend",
+    "role": "React Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["React", "TypeScript", "State Management"],
+    "preferred_topics": ["Architecture", "Best Practices"],
+    "background": "Eight years in React, the last three at a marketplace with 15 million DAU. Maintains an application on React 19 with Server Actions, uses TanStack Query for server state and Zustand for client state. Introduced feature-sliced design architecture, maintains strict typing through TypeScript 5 with branded types."
+  },
+  {
+    "id": "p_frontend_02",
+    "category": "Frontend",
+    "role": "Vue.js Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Vue 3", "Nuxt", "Composition API"],
+    "preferred_topics": ["Best Practices", "Architecture"],
+    "background": "Four years writing Vue, at a startup builds an analytics SaaS on Nuxt 3. Actively uses the Composition API with composables, Pinia for state, Vue Suspense for asynchronous components. Currently exploring Nuxt UI Pro and the move to Vue 3.5 Reactive Props Destructure."
+  },
+  {
+    "id": "p_frontend_03",
+    "category": "Frontend",
+    "role": "Next.js Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Next.js", "RSC", "Server Actions"],
+    "preferred_topics": ["Architecture", "Performance"],
+    "background": "Seven years on the web, the last two specializes in Next.js. At an EdTech company maintains an application on the App Router with React Server Components and Server Actions. Uses Partial Prerendering for hybrid rendering of course pages, finely tunes caching through unstable_cache and tag-based revalidation."
+  },
+  {
+    "id": "p_frontend_04",
+    "category": "Frontend",
+    "role": "Frontend Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": ["PWA", "Service Workers", "Web Push"],
+    "preferred_topics": ["UI/UX", "Tutorials"],
+    "background": "One year on the web after courses, at a delivery startup builds a mobile PWA for a restaurant chain. Has just started working with Workbox for offline mode, exploring the Service Worker lifecycle. Wants to master Web Push for notifications, Web Share API integration, learn how to measure impact on Core Web Vitals."
+  },
+  {
+    "id": "p_frontend_05",
+    "category": "Frontend",
+    "role": "UI/Animation Engineer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Framer Motion", "WebGL", "GSAP"],
+    "preferred_topics": ["UI/UX", "Applied Tech"],
+    "background": "Five years in product design-development, at a design studio builds interactive sites for brand clients. Uses Framer Motion and GSAP for complex timelines, three.js for WebGL scenes with shader graphics. Optimizes animations through will-change and offscreen canvas, measures jank through Performance Observer."
+  },
+  {
+    "id": "p_frontend_06",
+    "category": "Frontend",
+    "role": "Web Performance Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Core Web Vitals", "INP", "Bundle Size"],
+    "preferred_topics": ["Performance", "Tools"],
+    "background": "Seven years on the web, the last two years owns performance of the home page of a news portal. Optimized LCP from 3.4 to 1.6 seconds through priority hints and reserving space for images, reduced INP by 40% through scheduler.yield and Web Workers. Introduced RUM on CrUX and SpeedCurve."
+  },
+  {
+    "id": "p_frontend_07",
+    "category": "Frontend",
+    "role": "Accessibility Engineer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["ARIA", "Screen Readers", "Keyboard Navigation"],
+    "preferred_topics": ["UI/UX", "Best Practices"],
+    "background": "Eight years on the web, the last three years leads the accessibility track at a financial holding. Audits components through axe-core, tests with NVDA, JAWS and VoiceOver. Maintains compliance with WCAG 2.2 AA, introduced automated accessibility tests in CI through pa11y and Playwright."
+  },
+  {
+    "id": "p_frontend_08",
+    "category": "Frontend",
+    "role": "Frontend Build Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Vite", "Turbopack", "Module Federation"],
+    "preferred_topics": ["Tooling", "CI/CD"],
+    "background": "Eight years on the frontend, the last two specializes in build infrastructure at a SaaS company. Migrated a monorepo of 40 packages from Webpack to Vite 5, accelerated dev build from 28 to 3 seconds. Maintains an Nx monorepo with distributed task execution, experiments with Turbopack for critical scenarios."
+  },
+  {
+    "id": "p_frontend_09",
+    "category": "Frontend",
+    "role": "Design System Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Design Tokens", "Headless UI", "Storybook"],
+    "preferred_topics": ["Architecture", "Best Practices"],
+    "background": "Ten years on the frontend, leads a design system team at a major bank with 80+ product teams. Maintains 220 React components with strict typing, documents through Storybook 8 with visual regression. Works with design tokens per the W3C spec, syncs Figma and code through Style Dictionary."
+  },
+  {
+    "id": "p_frontend_10",
+    "category": "Frontend",
+    "role": "Micro-Frontends Architect",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Module Federation", "Single SPA", "Web Components"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Eleven years on the web, the last three designs micro-frontend architecture at an insurance company. Introduced Webpack Module Federation for five teams of 8 developers, described contracts through Pact. Currently exploring Native Federation on Vite and the move from runtime composition to edge side includes through Cloudflare Workers."
+  }
+]

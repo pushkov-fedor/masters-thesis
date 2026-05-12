@@ -1,0 +1,222 @@
+[
+  {
+    "id": "t_ios_01",
+    "category": "iOS",
+    "title": "SwiftUI: продвинутые паттерны управления состоянием",
+    "speakers": "Иван Соколов",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "Разбираем продвинутые техники управления состоянием в SwiftUI: Observation framework, @State, @Binding, @Observable. Сравниваем с UIKit-паттернами, показываем реальные кейсы рефакторинга legacy-приложений с MVVM на новую модель. Отдельно обсуждаем работу со scenePhase, EnvironmentObject и тонкости перерисовки View под капотом."
+  },
+  {
+    "id": "t_ios_02",
+    "category": "iOS",
+    "title": "Профилирование памяти Swift-приложений через Instruments",
+    "speakers": "Мария Левина",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "Доклад про охоту на retain cycles, утечки CGImage и неочевидное поведение autoreleasepool в Swift. Показываем, как читать Allocations и Leaks templates в Instruments, искать abandoned memory через generations, отлавливать сильные ссылки на self в замыканиях. На примере iOS-приложения банка снижаем пиковое потребление памяти с 480 до 180 МБ."
+  },
+  {
+    "id": "t_ios_03",
+    "category": "iOS",
+    "title": "ARKit и RealityKit: производительный AR в продакшене",
+    "speakers": "Антон Сергеев",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "Рассказываем, как построить AR-приложение для интерьерного дизайна на ARKit и RealityKit: трекинг плоскостей, окклюзия людей через LiDAR, размещение USDZ-моделей. Обсуждаем тонкости работы с ARSession, обработку прерываний и настройку освещения. В финале — оптимизация FPS на старых устройствах через адаптивное качество мешей."
+  },
+  {
+    "id": "t_ios_04",
+    "category": "iOS",
+    "title": "Модульная сборка iOS-приложения через Bazel и SPM",
+    "speakers": "Егор Кузнецов",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "Опыт переезда монолитного Xcode workspace на модульную сборку: 200 SPM-таргетов, кастомные правила Bazel, кеш сборки на CI. Обсуждаем ускорение clean build с 18 до 4 минут, инкрементальную линковку, генерацию project.yml через XcodeGen. Отдельный блок — про code signing, провижининг-профили и автоматизацию через Fastlane match."
+  },
+  {
+    "id": "t_android_01",
+    "category": "Android",
+    "title": "Jetpack Compose: миграция с XML без боли",
+    "speakers": "Елена Морозова",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "История поэтапного переезда e-commerce приложения с View System на Jetpack Compose: ComposeView внутри XML, AndroidView для legacy, общая навигация через Navigation Compose. Разбираем подводные камни interop, проблемы с фокусом и ввода клавиатуры. Финал — про Material 3, динамические темы и SharedTransitionLayout для плавных переходов между экранами."
+  },
+  {
+    "id": "t_android_02",
+    "category": "Android",
+    "title": "Kotlin Coroutines под капотом: continuations и dispatchers",
+    "speakers": "Дмитрий Воронов",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "Глубокое погружение в внутренности Kotlin Coroutines: трансформация suspend-функций в continuations компилятором, устройство Job и CoroutineContext, очереди задач в Dispatchers.Default и IO. Разбираем, что происходит при отмене, как работает structured concurrency, почему withContext не всегда переключает поток. Примеры — на отладке реальных deadlock в Android-приложении."
+  },
+  {
+    "id": "t_android_03",
+    "category": "Android",
+    "title": "Baseline Profiles и R8: ускоряем холодный старт",
+    "speakers": "Артём Беляев",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "Как сократить время холодного старта Android-приложения с 2.4 до 0.9 секунды через Baseline Profiles, Startup Profiles и агрессивные настройки R8. Показываем сбор профилей через Macrobenchmark, читаем traces в Android Studio Profiler и Perfetto. Отдельный блок — про оптимизацию иерархии View, lazy-инициализацию Hilt и асинхронную регистрацию ContentProvider."
+  },
+  {
+    "id": "t_android_04",
+    "category": "Android",
+    "title": "Room и WorkManager: надёжный оффлайн-режим",
+    "speakers": "Ольга Громова",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "Строим оффлайн-first архитектуру Android-приложения на Room и WorkManager: миграции схемы базы, типизированные конвертеры, защита от потери данных при OOM-kill. Обсуждаем планирование фоновых задач с учётом Doze-режима, App Standby Buckets и ограничений Foreground Service. На примере мессенджера показываем синхронизацию через ExpeditedWorkRequest."
+  },
+  {
+    "id": "t_backend_01",
+    "category": "Backend",
+    "title": "Apache Kafka: exactly-once семантика на практике",
+    "speakers": "Сергей Лебедев",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "Подробный разбор exactly-once семантики в Kafka: идемпотентные продюсеры, транзакции на брокере, изолированное чтение через read_committed. Объясняем, как правильно строить producer-consumer pipeline с записью в две темы атомарно. Показываем особенности Kafka Streams и Connect, разбираем типичные ошибки: дубликаты при ребалансе, потеря сообщений из-за auto-commit."
+  },
+  {
+    "id": "t_backend_02",
+    "category": "Backend",
+    "title": "PostgreSQL: оптимизация запросов через EXPLAIN ANALYZE",
+    "speakers": "Михаил Прохоров",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "Учимся читать планы запросов в PostgreSQL: разница между Seq Scan, Index Scan и Bitmap Heap Scan, что значат estimated и actual rows, когда планировщик ошибается. Разбираем работу JIT, статистику pg_statistic, ручной тюнинг через CREATE STATISTICS. На примере OLTP-нагрузки в логистике переписываем медленный запрос с 12 секунд до 80 миллисекунд."
+  },
+  {
+    "id": "t_backend_03",
+    "category": "Backend",
+    "title": "Saga и outbox: распределённые транзакции в микросервисах",
+    "speakers": "Анна Васильева",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "Как обеспечить целостность данных между микросервисами без распределённых блокировок: Saga-паттерн с компенсирующими транзакциями, transactional outbox для надёжной публикации событий, идемпотентные обработчики. Сравниваем хореографию и оркестрацию на примере процесса оформления заказа в маркетплейсе. Финал — про CDC через Debezium и доставку в Kafka."
+  },
+  {
+    "id": "t_backend_04",
+    "category": "Backend",
+    "title": "Rust и Tokio: low-latency биржевой шлюз",
+    "speakers": "Павел Никитин",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "Архитектура шлюза, который обрабатывает 800 тысяч ордеров в секунду на одном узле: Tokio runtime с настроенным пулом потоков, lock-free очереди через crossbeam, zero-copy парсинг бинарного протокола. Разбираем профилирование через perf и tokio-console, оптимизацию аллокаций через mimalloc. Особое внимание — латенцийным хвостам p99 и p999, и как с ними бороться."
+  },
+  {
+    "id": "t_ml_01",
+    "category": "ML",
+    "title": "Обучение LLM на сотнях GPU: FSDP и DeepSpeed",
+    "speakers": "Алексей Григорьев",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "Практический опыт обучения языковой модели на 70 миллиардов параметров: тензорный и пайплайновый параллелизм, FSDP в PyTorch, ZeRO-3 в DeepSpeed. Разбираем активационный чекпоинтинг, mixed precision на bfloat16, тюнинг batch size под пропускную способность NVLink. Показываем графики throughput и MFU на кластере из 256 H100, обсуждаем типичные проблемы синхронизации."
+  },
+  {
+    "id": "t_ml_02",
+    "category": "ML",
+    "title": "Семантический поиск: эмбеддеры и FAISS-индексы",
+    "speakers": "Ирина Семёнова",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "Строим семантический поиск по миллионам документов: дообучение sentence-transformers на доменных парах, выбор между cosine и dot-product, дистилляция большого модели в маленькую через MarginMSE. Обсуждаем индексы FAISS — IVF-PQ, HNSW, OPQ — и их компромиссы по памяти, latency и recall. На примере e-commerce показываем устройство гибридного поиска BM25 плюс эмбеддинги."
+  },
+  {
+    "id": "t_ml_03",
+    "category": "ML",
+    "title": "MLOps: feature store и serving через Triton",
+    "speakers": "Виктор Морозов",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "Платформенный подход к ML в большой компании: feature store на Feast с офлайн-хранилищем в Iceberg и онлайн в Redis, обучение через Kubeflow Pipelines, serving на Triton Inference Server с динамическим батчингом и моделями ONNX. Разбираем canary-релизы моделей, мониторинг дрейфа фичей через Evidently, A/B-тестирование с автоматической остановкой при деградации метрик."
+  },
+  {
+    "id": "t_ml_04",
+    "category": "ML",
+    "title": "Сегментация спутниковых снимков: квантизация на edge",
+    "speakers": "Тимур Назаров",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "Как мы дообучали модели семантической сегментации в MMDetection на 200 тысячах размеченных тайлов спутниковых снимков, оптимизировали loss-функции под несбалансированные классы. Затем — деплой на edge-устройства: квантизация int8 через TensorRT, post-training calibration, pruning слоёв до целевого FLOPs-бюджета. В финале — сравнение latency и mIoU до и после оптимизации."
+  },
+  {
+    "id": "t_frontend_01",
+    "category": "Frontend",
+    "title": "Core Web Vitals: оптимизация LCP и INP в маркетплейсе",
+    "speakers": "Денис Романов",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "Как мы снижали Largest Contentful Paint и Interaction to Next Paint на главной странице маркетплейса. Разбираем приоритизацию ресурсов через fetchpriority, критический CSS, lazy-загрузку изображений с правильными размерами. Отдельный блок — про планирование задач в основном потоке, scheduler.yield, отказ от тяжёлых синхронных вычислений и работа с Web Workers."
+  },
+  {
+    "id": "t_frontend_02",
+    "category": "Frontend",
+    "title": "Next.js App Router и React Server Components в проде",
+    "speakers": "Юлия Зайцева",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "Опыт миграции SaaS-приложения на Next.js App Router и React Server Components. Разбираем границу server и client компонентов, передачу пропсов через сериализацию, потоковую отрисовку через Suspense. Обсуждаем кеширование на edge через Vercel, ревалидацию по тегам, частичный prerendering. В финале — про подводные камни гидратации и как с ними бороться через useId и suppressHydrationWarning."
+  },
+  {
+    "id": "t_frontend_03",
+    "category": "Frontend",
+    "title": "Микрофронтенды через Module Federation: год в продакшене",
+    "speakers": "Кирилл Андреев",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "Как пять команд по фронтенду живут в одном приложении через Webpack Module Federation: разделение на host и remote, общие зависимости через shared, версионирование контрактов между модулями. Разбираем CI/CD для независимых деплоев, отладку в условиях разных версий React, тестирование контрактов через Pact. Честно говорим про цену подхода и когда он действительно оправдан."
+  },
+  {
+    "id": "t_frontend_04",
+    "category": "Frontend",
+    "title": "Современный CSS: Container Queries и Cascade Layers",
+    "speakers": "Светлана Куликова",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "Обзор возможностей современного CSS: контейнерные запросы для адаптивных компонентов независимо от viewport, каскадные слои для управления специфичностью в дизайн-системе, subgrid для сложных макетов. Показываем :has() для родительских селекторов, color-mix и относительные цвета. На примере дизайн-системы образовательной платформы переписываем легаси-стили с BEM на современный подход."
+  }
+]

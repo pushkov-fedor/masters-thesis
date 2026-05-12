@@ -1,0 +1,452 @@
+[
+  {
+    "id": "p_mobius_01",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["SwiftUI", "Performance", "Memory Management"],
+    "preferred_topics": ["Architecture", "Under the Hood"],
+    "background": "Seven years in iOS, the last three on the platform team of a large bank, owns the transfers section in SwiftUI. Profiles cold start through Instruments and xcrun simctl, fights memory leaks in @StateObject across deep screen hierarchies. Comes to the conference for talks about Swift compiler internals and real cases of binary size optimization."
+  },
+  {
+    "id": "p_mobius_02",
+    "role": "Android Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["Compose", "Modularization", "Build Performance"],
+    "preferred_topics": ["Architecture", "Infrastructure"],
+    "background": "Ten years in Android, leads a team of eight on an e-commerce platform with 30M MAU. Finishing the migration from XML to Compose while pulling a 200-module Gradle project out of cache misses. Wants to see how other companies handle on-the-fly dependency substitution and keep a unified code style across distributed teams."
+  },
+  {
+    "id": "p_mobius_03",
+    "role": "iOS Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["SwiftUI", "Combine", "Modular Architecture"],
+    "preferred_topics": ["Architecture", "UX/UI in Mobile Development"],
+    "background": "Four years in iOS, in a B2B logistics service of 120 people. Writes features in SwiftUI on top of UIKit navigation, maintains a coordinator layer and custom ScrollViews with inline tables. Wants to dig into TextRenderer and AttributedString because the team constantly faces tasks involving markdown and custom highlighting in chats."
+  },
+  {
+    "id": "p_mobius_04",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Kotlin Coroutines", "OkHttp", "java.nio"],
+    "preferred_topics": ["Under the Hood", "Infrastructure"],
+    "background": "Eight years in Android, the sixth year at a 300-person company building a messenger with heavy attachments. Owns the file uploader and is moving it from OkHttp to a custom coroutine-first solution on top of java.nio because of issues with long uploads on weak networks. Comes for other people's experience with the network stack and Gradle dependency substitution in a multi-repo setup."
+  },
+  {
+    "id": "p_mobius_05",
+    "role": "Mobile Architect",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["KMP", "Shared Logic", "Migration Strategy"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Fifteen years in mobile development, the last two as the mobile architect at an insurance holding. Launching the migration of iOS and Android applications to Kotlin Multiplatform, negotiating Swift export with the iOS team, and weighing SwiftJava as an alternative. Came to Mobius for the round table about KMP at X5 and JetBrains' announcements about Kotlin/Native."
+  },
+  {
+    "id": "p_mobius_06",
+    "role": "iOS Junior Developer",
+    "experience": "junior",
+    "company_size": "smallish-startup",
+    "interests": ["SwiftUI", "UIKit", "Code Reviews"],
+    "preferred_topics": ["General", "UX/UI in Mobile Development"],
+    "background": "A year and a half in the industry, moved from web development on Vue to a twelve-person startup building a gym booking application. Writes mostly SwiftUI screens, picking up UIKit on the legacy sections. At the conference she wants to see how experienced colleagues work with ScrollView and animations, and to gather a personal growth checklist."
+  },
+  {
+    "id": "p_mobius_07",
+    "role": "Android Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["Kotlin", "Compose", "Material 3"],
+    "preferred_topics": ["General", "UX/UI in Mobile Development"],
+    "background": "A year in Android after a bootcamp, works at a 250-person product company on the subscriptions section of a food delivery app. Writes features in Compose, occasionally dives into legacy Activities. Wants to understand how home-screen widgets are built and why the team keeps complaining about boilerplate in the presentation layer."
+  },
+  {
+    "id": "p_mobius_08",
+    "role": "Flutter Developer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["Flutter", "CustomPainter", "Dart Isolates"],
+    "preferred_topics": ["Under the Hood", "Trends"],
+    "background": "Three years in Flutter, in a 25-person product startup building a drawing and notes app with Apple Pencil support. Regularly digs into CustomPainter and Skia, currently optimizing frames on older Android devices. Comes to listen to a talk about CustomPainter under the hood and the implementation of Flutter CLI for alternative OSes, since he's looking at the Russian market."
+  },
+  {
+    "id": "p_mobius_09",
+    "role": "Kotlin Multiplatform Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["KMP", "Compose Multiplatform", "Kotlin/Native"],
+    "preferred_topics": ["Architecture", "Under the Hood"],
+    "background": "Six years in Kotlin, the last two as a KMP engineer at a 180-person fintech service. Already pulled 70% of the business logic into the shared module, currently experimenting with Compose Multiplatform for iOS. Came to Mobius for talks about Kotlin export to Swift and X5's experience migrating big tech to KMP."
+  },
+  {
+    "id": "p_mobius_10",
+    "role": "React Native Developer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["React Native", "TurboModules", "Reanimated"],
+    "preferred_topics": ["Under the Hood", "Trends"],
+    "background": "Four years in RN after moving from web development. At an eighteen-person startup builds a fintech application on the new architecture (Fabric + TurboModules). Currently experimenting with embedded mini-games and looking at Godot. Wants to hear an honest review of mobile gamification and stories about CI/CD pain with heavy SDKs."
+  },
+  {
+    "id": "p_mobius_11",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Core ML", "Vision", "Metal Shaders"],
+    "preferred_topics": ["Under the Hood", "Trends"],
+    "background": "Nine years in iOS, four years on the camera team of a large social service. Writes shaders for CIKernel, converts segmentation models into Core ML, the last six months — face filters with face landmarks. At the conference looks forward to a detailed breakdown of face filters under the hood and an overview of running LLMs locally on iPhone."
+  },
+  {
+    "id": "p_mobius_12",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["ExoPlayer", "Video Streaming", "Perfetto"],
+    "preferred_topics": ["Under the Hood", "Product Quality"],
+    "background": "Seven years in Android, on the video feed team of a large social network. Tunes ExoPlayer for low start latency and a smooth buffer, uses Perfetto to analyze slow sessions. Comes for a talk about video feed optimization techniques and wants to compare his end-to-end metrics with how Yandex colleagues build theirs."
+  },
+  {
+    "id": "p_mobius_13",
+    "role": "iOS Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["SwiftLint", "Code Style", "Modular Builds"],
+    "preferred_topics": ["Infrastructure", "Architecture"],
+    "background": "Twelve years in iOS, tech lead of the platform team at a bank. Manages the linter and templates for seventy iOS developers, fights against scattered configs across dozens of repositories. Comes to Mobius for the talk about centralized SwiftLint via Remote Configs — that's exactly his current task."
+  },
+  {
+    "id": "p_mobius_14",
+    "role": "Android Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Compose", "Coroutines", "Hilt"],
+    "preferred_topics": ["Architecture", "UX/UI in Mobile Development"],
+    "background": "Five years in Android, the fourth year at a 200-person EdTech company building an exam prep application for school students. Writes in Compose with Hilt, currently dealing with performance of card lists. Wants to listen to talks about BDUI and the tool that visualizes business-logic connections via the PSI tree."
+  },
+  {
+    "id": "p_mobius_15",
+    "role": "Mobile Product Manager",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": ["Mobile Analytics", "Feature Adoption", "BDUI"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Trends"],
+    "background": "Six years in product, four of them on mobile applications. Currently owns the transfers section in a bank with 25M users and coordinates release cadences with two mobile teams. Comes to Mobius for a breakdown of BDUI ROI and discussions about the boundaries of the design-code ecosystem — he has the exact question of \"in-house framework or open source\" on the table."
+  },
+  {
+    "id": "p_mobius_16",
+    "role": "Mobile QA Automation Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Espresso", "XCUITest", "Snapshot Testing"],
+    "preferred_topics": ["Product Quality", "Infrastructure"],
+    "background": "Eight years in QA, the last five on mobile. At a 350-person company owns the autotest harness for iOS and Android, maintains Page Object and parallel runs across 30 emulators. Comes for the talk about fuzz testing with kotlinx.fuzz and wants to compare his snapshot testing approach with how Alfa-Bank covers BDUI with tests."
+  },
+  {
+    "id": "p_mobius_17",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["AVFoundation", "Audio Engine", "CallKit"],
+    "preferred_topics": ["Under the Hood", "Product Quality"],
+    "background": "Seven years in iOS, the last three on a product for a voice-based caller ID. Deep into CallKit, writes custom audio units, recently started exploring homomorphic encryption and private information retrieval. Comes to the conference primarily for the talk about Live Caller ID on iOS — an almost direct hit on his current work."
+  },
+  {
+    "id": "p_mobius_18",
+    "role": "Android Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Android Security", "Runtime Resource Overlay", "Obfuscation"],
+    "preferred_topics": ["Product Quality", "Under the Hood"],
+    "background": "Thirteen years in Android, leads the mobile application security track at a large telecom. Knows the ProGuard and R8 toolchain by heart, the last six months has been looking at RRO as an additional layer of resource protection. Comes for the talk about resource protection through Runtime Resource Overlay and attack scenarios from a hacker's perspective."
+  },
+  {
+    "id": "p_mobius_19",
+    "role": "iOS Middle Developer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["SwiftUI", "Indie Development", "App Store Optimization"],
+    "preferred_topics": ["Product Quality", "General"],
+    "background": "Three years on the payroll on an iOS team of six building a habit tracker. On the side runs a couple of his own apps in the App Store, experiments with paywalls and onboarding. Comes to Mobius for the talk about the indie hacker's path and wants to understand how realistic it is to combine a day job with his own product."
+  },
+  {
+    "id": "p_mobius_20",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Compose", "BDUI", "Design Tokens"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Architecture"],
+    "background": "Eight years in Android, the sixth year at a bank with 100+ mobile developers. On the platform UI team maintains the design system and the BDUI engine, recently shipped support for animations and the blur effect. Comes to listen to the talk about the live picture in cross-platform BDUI and to compare with her own Android solutions."
+  },
+  {
+    "id": "p_mobius_21",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["Swift Compiler", "Linkmap", "Binary Size"],
+    "preferred_topics": ["Under the Hood", "Architecture"],
+    "background": "Ten years in iOS, the last two at a bank, owns the binary size and start time of the application. Regularly digs into linkmaps, fights bloat in __TEXT and the code generated for structs. At the conference looks forward to the talk \"When structs in Swift aren't your bro\" — he has exactly that pain with generic structs in his SDK."
+  },
+  {
+    "id": "p_mobius_22",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Gradle", "Kotlin Compiler Plugin", "PSI"],
+    "preferred_topics": ["Infrastructure", "Under the Hood"],
+    "background": "Nine years in Android, at a 220-person product company owns the build infrastructure and internal plugins. Wrote a Compiler Plugin for navigation annotations and dreams of turning business-logic connections into living documentation. Comes to listen to the talk about Kotlin Embedded Compiler Plugin and about substituting dependencies in Gradle without artifacts."
+  },
+  {
+    "id": "p_mobius_23",
+    "role": "Mobile DevRel",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Open Source", "SDK Design", "Community"],
+    "preferred_topics": ["Trends", "General"],
+    "background": "Five years in the industry, the last two as DevRel at a company that builds an SDK for mobile application analytics. Owns documentation and gathers feedback from Android and iOS teams of clients. Comes to Mobius for the talk about contributing to open source and for the overall TechRadar slice — that's his working summary of topics for the next quarter."
+  },
+  {
+    "id": "p_mobius_24",
+    "role": "iOS Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["Swift", "UIKit", "Concurrency"],
+    "preferred_topics": ["General", "Architecture"],
+    "background": "Eight months on an iOS team at a 150-person product company, builds screens in the user account section. Maintains UIKit legacy and slowly adds Swift Concurrency. Comes to the conference to get oriented in the industry and understand which architectural patterns are currently fashionable in real production."
+  },
+  {
+    "id": "p_mobius_25",
+    "role": "Android Middle Developer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["Compose", "Offline-first", "SQLite"],
+    "preferred_topics": ["Architecture", "Under the Hood"],
+    "background": "Four years in Android, at a 20-person startup building an application for field engineers — it has to work without a network. Tinkers with cache schemes on SQLite and strategies for merging offline changes with the server. Comes for the talk about a consistent cache between offline and online and for the AntiSOLID breakdown."
+  },
+  {
+    "id": "p_mobius_26",
+    "role": "iOS Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["SwiftUI", "Accessibility", "VoiceOver"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Product Quality"],
+    "background": "Five years in iOS, in an EdTech service for visually impaired users. Works daily with VoiceOver, Dynamic Type, and accessibilityCustomActions, maintains an internal accessibility checklist. At the conference wants to compare the UX review process and learn more about design-system tools for mobile accessibility."
+  },
+  {
+    "id": "p_mobius_27",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["WebView", "Hybrid Apps", "Security"],
+    "preferred_topics": ["Under the Hood", "Product Quality"],
+    "background": "Nine years in Android, the seventh in a large retailer. Maintains a hybrid application with a substantial WebView surface and payment widgets. Regularly goes through pentests, deals with MitM and token theft. Comes for the breakdown of attack scenarios from a hacker's perspective and for an updated picture of WebView security."
+  },
+  {
+    "id": "p_mobius_28",
+    "role": "iOS Lead",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["Architecture", "Modularization", "Wave Architecture"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Eleven years in iOS, lead of a ten-person team in a payment service. Migrated a monolith to 80 modules with explicit boundaries, experiments with feature toggles at the module contract level. Comes to listen to the talk about wave architecture and the monolith breakup at Yandex Smena to compare with his own experience."
+  },
+  {
+    "id": "p_mobius_29",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Compose", "Animations", "Custom Drawing"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Under the Hood"],
+    "background": "Seven years in Android, on a product for a social network of video enthusiasts. Builds custom widgets in Compose with the Canvas API, the last six months — her own engine for mini-animations in the feed. At the conference she expects a lot from the talk about the live picture in BDUI and from the video feed techniques, since both intersect with her tasks."
+  },
+  {
+    "id": "p_mobius_30",
+    "role": "Backend for Mobile Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["BFF", "GraphQL", "Push Notifications"],
+    "preferred_topics": ["Infrastructure", "Architecture"],
+    "background": "Eight years in backend, the last four on the BFF team for a mobile bank, serves data to iOS and Android clients. Knows the front-end pain better than some mobile developers. Comes for the talk about server-side BDUI and for the Crash Reporting 101 discussion — his service receives plenty of complaints from the mobile teams."
+  },
+  {
+    "id": "p_mobius_31",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["AI on device", "Core ML", "MLX"],
+    "preferred_topics": ["Trends", "Under the Hood"],
+    "background": "Eight years in iOS, two years ago joined a team that's wiring on-device LLMs into a photo editor for travelers. Quantizes and ports models through Core ML and MLX, fights memory limits on lower-end iPhones. Looking forward to talks about local LLMs on the phone and Privacy-First AI on iOS."
+  },
+  {
+    "id": "p_mobius_32",
+    "role": "Android Junior Developer",
+    "experience": "junior",
+    "company_size": "smallish-startup",
+    "interests": ["Kotlin", "Compose", "Navigation"],
+    "preferred_topics": ["General", "Architecture"],
+    "background": "Ten months in Android, at an 8-person startup building a scooter rental application. Learning navigation in Compose, regularly breaks the navigation graph and then fixes it. Comes to the conference to meet colleagues and listen to introductory talks on templating and architectural patterns."
+  },
+  {
+    "id": "p_mobius_33",
+    "role": "Mobile UX Designer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Design Systems", "Figma API", "Tokens"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Trends"],
+    "background": "Six years in design, four in mobile. Owns the design system in a 180-person fintech application, the last few months tinkers with Figma API and auto-generation of tokens in Dart. Comes to Mobius for the talk about the path from a mockup to production code and the design-system tools that help everyone."
+  },
+  {
+    "id": "p_mobius_34",
+    "role": "Mobile QA Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": ["Manual Testing", "Crash Triage", "Sentry"],
+    "preferred_topics": ["Product Quality", "Infrastructure"],
+    "background": "Five years in QA, four on mobile applications of a large retail chain. Every day triages crash logs in Sentry, filters grouping, negotiates priorities with developers. Comes for the Crash Reporting 101 talk to understand how analogous services are built in-house and what could be improved in their pipeline."
+  },
+  {
+    "id": "p_mobius_35",
+    "role": "Android Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Compose", "BDUI", "Team Practices"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Architecture"],
+    "background": "Nine years in Android, tech lead of a six-person team at a product travel company. Currently discussing with the product manager the introduction of BDUI for the sake of release speed. Comes for the talk \"How much does BDUI cost?\" — that's exactly the question he has to answer to leadership by the end of the quarter."
+  },
+  {
+    "id": "p_mobius_36",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Swift", "Data Sync", "CRDT"],
+    "preferred_topics": ["Architecture", "Under the Hood"],
+    "background": "Six years in iOS, at a 130-person product company builds a notebook with collaborative editing. Works with CRDTs on top of a local CoreData cache and conflict resolution strategies. Comes to Mobius for the talk about a consistent cache between offline and online — there's a lot of overlap with his own challenges."
+  },
+  {
+    "id": "p_mobius_37",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Smart Devices", "Voice Interfaces", "Perfetto"],
+    "preferred_topics": ["Under the Hood", "Product Quality"],
+    "background": "Seven years in Android, four on the voice assistants team for smart devices. Builds end-to-end response metrics and optimizes scenario start with Perfetto. Comes for the talk about accelerating smart devices: colleagues solve the same class of problems and there's a chance to pick up useful practices."
+  },
+  {
+    "id": "p_mobius_38",
+    "role": "Mobile Backend Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["File Upload", "Streaming", "TLS"],
+    "preferred_topics": ["Infrastructure", "Under the Hood"],
+    "background": "Five years in backend, maintains the photo and video upload service for the mobile app of a delivery service. Constantly tunes TLS, deals with chunked upload and retry strategies for weak networks. Comes for the talk about the non-obvious solution to the obvious problem of file uploads."
+  },
+  {
+    "id": "p_mobius_39",
+    "role": "Cross-platform Developer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["Compose Multiplatform", "Aurora OS", "Qt"],
+    "preferred_topics": ["Trends", "Under the Hood"],
+    "background": "Four years in Kotlin, the last year and a half at a 14-person startup building applications for Russian government clients on Compose Multiplatform with an eye on Aurora. Plays with QtBindings and his own bridges to native APIs. At the conference his must-have is the talks about KMP for Aurora and Flutter CLI for Aurora."
+  },
+  {
+    "id": "p_mobius_40",
+    "role": "iOS Lead",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Hiring", "Mentorship", "Interviewing"],
+    "preferred_topics": ["General", "Architecture"],
+    "background": "Twelve years in iOS, leads a seven-person team at a 200-person product company. Regularly conducts interviews and runs an internal mentorship club. Comes to Mobius for the talk \"Will you actually need this after the interview?\" and for a general impression of the industry's level from the fresh State of Mobile Dev."
+  },
+  {
+    "id": "p_mobius_41",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["KasperskyOS", "Camera Stack", "HAL"],
+    "preferred_topics": ["Under the Hood", "Trends"],
+    "background": "Ten years in Android and embedded systems, the last two in a research division exploring alternative mobile OSes. Digs into HAL and the Camera2 API, reads sensor specifications. Comes for the talk about the camera in KasperskyOS Mobile — such details about a microkernel OS are almost absent from public sources."
+  },
+  {
+    "id": "p_mobius_42",
+    "role": "Mobile ML Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["TensorFlow Lite", "Quantization", "Edge Inference"],
+    "preferred_topics": ["Trends", "Under the Hood"],
+    "background": "Seven years in ML, the last four on mobile inference at an EdTech service. Converts models through TFLite and Core ML, plays with 4-bit quantization. Came to Mobius for the talks about local LLMs on the phone and Privacy-First AI on iOS — both topics are right on her next-quarter roadmap."
+  },
+  {
+    "id": "p_mobius_43",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["SwiftUI", "Custom Layout", "TextKit"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Under the Hood"],
+    "background": "Eight years in iOS, on the iOS client team of a large corporate messenger. Deep into TextKit 2, AttributedString, custom message renderers with edit mode. Comes to Mobius for the talk \"SwiftUI: Scroll, Text and a bit of magic\" — he has unresolved stories about text and ScrollView in chats."
+  },
+  {
+    "id": "p_mobius_44",
+    "role": "Android Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Compose", "Hilt", "Testing"],
+    "preferred_topics": ["Product Quality", "Architecture"],
+    "background": "Four years in Android, on a 160-person HR-tech product. Writes in Compose with Hilt, builds out test coverage for a new task tracking feature. Comes for the talk about SwiftLint at scale and other people's experience building a unified code style — they have an exact linter conflict between two teams."
+  },
+  {
+    "id": "p_mobius_45",
+    "role": "DevOps for Mobile",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Fastlane", "GitLab CI", "Mobile Build Pipelines"],
+    "preferred_topics": ["Infrastructure", "Product Quality"],
+    "background": "Nine years in DevOps, the last three on iOS and Android builds at a marketplace. Maintains the Fastlane, GitLab CI, and App Store Connect API setup, fights long builds and unstable signing. Comes for the talk about Gradle dependency substitution and for an internal discussion of CI best practices with colleagues from other banks."
+  },
+  {
+    "id": "p_mobius_46",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Combine", "Reactive", "Realm"],
+    "preferred_topics": ["Architecture", "Under the Hood"],
+    "background": "Seven years in iOS, on a streaming service for podcasts. Deep into Combine, maintains a local Realm cache with thousands of episodes and an offline player. At the conference wants to listen to the talk about a consistent cache between offline and online and the monolith breakup at Yandex Smena to compare with his own move toward modularity."
+  },
+  {
+    "id": "p_mobius_47",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Gamification", "Game Engines", "React Native"],
+    "preferred_topics": ["Trends", "Product Quality"],
+    "background": "Eight years in Android, the last two on a fintech application where leadership wants to add a game section. Tries Unity, RN Game Engine, Godot, hits the wall on SDK weight and emulator support. Comes specifically for the talk about mobile gamification to hear someone else's path and avoid stepping on the same rakes."
+  },
+  {
+    "id": "p_mobius_48",
+    "role": "Mobile Engineering Manager",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Team Health", "Hiring", "Engineering Standards"],
+    "preferred_topics": ["General", "Trends"],
+    "background": "Sixteen years in the industry, eight in management of mobile teams. Currently runs mobile development at a holding with 90 engineers across iOS and Android. Comes for the State of Mobile Dev and the talk about templating in the IDE — both topics directly feed his hiring and standards plans."
+  },
+  {
+    "id": "p_mobius_49",
+    "role": "iOS CTO",
+    "experience": "lead/principal",
+    "company_size": "smallish-startup",
+    "interests": ["Indie Apps", "App Store", "Founder Issues"],
+    "preferred_topics": ["Product Quality", "Trends"],
+    "background": "Technical co-founder of a six-person startup building a personal finance management app. Writes iOS code while also owning metrics, subscriptions, and ASO. Comes to Mobius for the talk about the indie hacker's path and the round table on KMP — he's considering pulling logic into shared to launch Android sooner."
+  },
+  {
+    "id": "p_mobius_50",
+    "role": "Healthtech Mobile Developer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["HealthKit", "Bluetooth Mesh", "Biohacking"],
+    "preferred_topics": ["Biohacking", "General"],
+    "background": "Four years in iOS, in an 18-person startup building a sleep and heart-rate tracking app integrated with smart watches and rings. Deep into HealthKit, BLE, deals with sensor noise. Comes primarily for the talk about biohacking — it's both a personal interest and material for the company blog, with State of Mobile Dev as a warm-up."
+  }
+]

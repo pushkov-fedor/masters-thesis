@@ -1,0 +1,222 @@
+[
+  {
+    "id": "t_ios_01",
+    "category": "iOS",
+    "title": "SwiftUI: Advanced State Management Patterns",
+    "speakers": "Ivan Sokolov",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "We cover advanced state management techniques in SwiftUI: the Observation framework, @State, @Binding, @Observable. We compare them with UIKit patterns and show real cases of refactoring legacy applications from MVVM to the new model. Separately, we discuss working with scenePhase, EnvironmentObject and the subtleties of View redrawing under the hood."
+  },
+  {
+    "id": "t_ios_02",
+    "category": "iOS",
+    "title": "Memory Profiling of Swift Applications with Instruments",
+    "speakers": "Maria Levina",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "A talk about hunting retain cycles, CGImage leaks and the non-obvious behavior of autoreleasepool in Swift. We show how to read the Allocations and Leaks templates in Instruments, find abandoned memory through generations and catch strong references to self in closures. Using a bank's iOS application as an example, we reduce peak memory consumption from 480 to 180 MB."
+  },
+  {
+    "id": "t_ios_03",
+    "category": "iOS",
+    "title": "ARKit and RealityKit: Performant AR in Production",
+    "speakers": "Anton Sergeev",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "We tell how to build an AR application for interior design on ARKit and RealityKit: plane tracking, people occlusion via LiDAR, placement of USDZ models. We discuss the subtleties of working with ARSession, handling interruptions and configuring lighting. Finally, FPS optimization on older devices through adaptive mesh quality."
+  },
+  {
+    "id": "t_ios_04",
+    "category": "iOS",
+    "title": "Modular iOS Application Builds with Bazel and SPM",
+    "speakers": "Egor Kuznetsov",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "Experience of migrating a monolithic Xcode workspace to modular builds: 200 SPM targets, custom Bazel rules, build cache on CI. We discuss accelerating clean build from 18 to 4 minutes, incremental linking, generation of project.yml through XcodeGen. A separate block is about code signing, provisioning profiles and automation through Fastlane match."
+  },
+  {
+    "id": "t_android_01",
+    "category": "Android",
+    "title": "Jetpack Compose: Migrating from XML Without Pain",
+    "speakers": "Elena Morozova",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "A story of step-by-step migration of an e-commerce application from the View System to Jetpack Compose: ComposeView inside XML, AndroidView for legacy, shared navigation through Navigation Compose. We cover the pitfalls of interop, problems with focus and keyboard input. The finale is about Material 3, dynamic themes and SharedTransitionLayout for smooth transitions between screens."
+  },
+  {
+    "id": "t_android_02",
+    "category": "Android",
+    "title": "Kotlin Coroutines Under the Hood: Continuations and Dispatchers",
+    "speakers": "Dmitry Voronov",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "A deep dive into the internals of Kotlin Coroutines: how the compiler transforms suspend functions into continuations, the structure of Job and CoroutineContext, task queues in Dispatchers.Default and IO. We cover what happens on cancellation, how structured concurrency works, why withContext does not always switch threads. Examples come from debugging real deadlocks in an Android application."
+  },
+  {
+    "id": "t_android_03",
+    "category": "Android",
+    "title": "Baseline Profiles and R8: Speeding Up Cold Start",
+    "speakers": "Artem Belyaev",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "How to reduce Android application cold start time from 2.4 to 0.9 seconds through Baseline Profiles, Startup Profiles and aggressive R8 settings. We show how to collect profiles via Macrobenchmark, read traces in Android Studio Profiler and Perfetto. A separate block is about View hierarchy optimization, lazy initialization of Hilt and asynchronous registration of ContentProvider."
+  },
+  {
+    "id": "t_android_04",
+    "category": "Android",
+    "title": "Room and WorkManager: Reliable Offline Mode",
+    "speakers": "Olga Gromova",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "We build an offline-first architecture for an Android application on Room and WorkManager: schema migrations, typed converters, protection against data loss on OOM-kill. We discuss background task scheduling under Doze mode, App Standby Buckets and Foreground Service constraints. Using a messenger as an example, we show synchronization through ExpeditedWorkRequest."
+  },
+  {
+    "id": "t_backend_01",
+    "category": "Backend",
+    "title": "Apache Kafka: Exactly-Once Semantics in Practice",
+    "speakers": "Sergey Lebedev",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "A detailed walkthrough of exactly-once semantics in Kafka: idempotent producers, broker-side transactions, isolated reads through read_committed. We explain how to properly build a producer-consumer pipeline that writes to two topics atomically. We show the specifics of Kafka Streams and Connect, and analyze typical mistakes: duplicates on rebalance, message loss due to auto-commit."
+  },
+  {
+    "id": "t_backend_02",
+    "category": "Backend",
+    "title": "PostgreSQL: Query Optimization with EXPLAIN ANALYZE",
+    "speakers": "Mikhail Prokhorov",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "We learn to read query plans in PostgreSQL: the difference between Seq Scan, Index Scan and Bitmap Heap Scan, what estimated and actual rows mean, when the planner gets it wrong. We cover how JIT works, the pg_statistic statistics, manual tuning through CREATE STATISTICS. Using an OLTP workload in logistics as an example, we rewrite a slow query from 12 seconds down to 80 milliseconds."
+  },
+  {
+    "id": "t_backend_03",
+    "category": "Backend",
+    "title": "Saga and Outbox: Distributed Transactions in Microservices",
+    "speakers": "Anna Vasilyeva",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "How to ensure data integrity between microservices without distributed locks: the Saga pattern with compensating transactions, the transactional outbox for reliable event publication, idempotent handlers. We compare choreography and orchestration using a marketplace order placement process as an example. The finale is about CDC through Debezium and delivery to Kafka."
+  },
+  {
+    "id": "t_backend_04",
+    "category": "Backend",
+    "title": "Rust and Tokio: A Low-Latency Exchange Gateway",
+    "speakers": "Pavel Nikitin",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "The architecture of a gateway that handles 800 thousand orders per second on a single node: the Tokio runtime with a tuned thread pool, lock-free queues via crossbeam, zero-copy parsing of a binary protocol. We cover profiling through perf and tokio-console, allocation optimization through mimalloc. Particular attention is paid to latency tails at p99 and p999, and how to fight them."
+  },
+  {
+    "id": "t_ml_01",
+    "category": "ML",
+    "title": "Training LLMs on Hundreds of GPUs: FSDP and DeepSpeed",
+    "speakers": "Alexey Grigoryev",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "Practical experience of training a 70-billion-parameter language model: tensor and pipeline parallelism, FSDP in PyTorch, ZeRO-3 in DeepSpeed. We cover activation checkpointing, mixed precision on bfloat16, batch size tuning for NVLink throughput. We show throughput and MFU graphs on a cluster of 256 H100s and discuss typical synchronization issues."
+  },
+  {
+    "id": "t_ml_02",
+    "category": "ML",
+    "title": "Semantic Search: Embedders and FAISS Indexes",
+    "speakers": "Irina Semenova",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "We build semantic search across millions of documents: fine-tuning sentence-transformers on domain pairs, choosing between cosine and dot-product, distilling a large model into a small one through MarginMSE. We discuss FAISS indexes — IVF-PQ, HNSW, OPQ — and their trade-offs in memory, latency and recall. Using e-commerce as an example, we show the structure of hybrid search combining BM25 and embeddings."
+  },
+  {
+    "id": "t_ml_03",
+    "category": "ML",
+    "title": "MLOps: Feature Store and Serving with Triton",
+    "speakers": "Viktor Morozov",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "A platform approach to ML in a large company: a feature store on Feast with offline storage in Iceberg and online in Redis, training through Kubeflow Pipelines, serving on Triton Inference Server with dynamic batching and ONNX models. We cover canary releases of models, feature drift monitoring through Evidently, A/B testing with automatic stop on metric degradation."
+  },
+  {
+    "id": "t_ml_04",
+    "category": "ML",
+    "title": "Satellite Image Segmentation: Quantization on the Edge",
+    "speakers": "Timur Nazarov",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "How we fine-tuned semantic segmentation models in MMDetection on 200 thousand annotated satellite imagery tiles, optimized loss functions for imbalanced classes. Then deployment to edge devices: int8 quantization through TensorRT, post-training calibration, layer pruning to a target FLOPs budget. The finale is a comparison of latency and mIoU before and after optimization."
+  },
+  {
+    "id": "t_frontend_01",
+    "category": "Frontend",
+    "title": "Core Web Vitals: Optimizing LCP and INP in a Marketplace",
+    "speakers": "Denis Romanov",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "10:00:00",
+    "end_time": "10:45:00",
+    "abstract": "How we reduced Largest Contentful Paint and Interaction to Next Paint on the home page of a marketplace. We cover resource prioritization through fetchpriority, critical CSS, lazy loading of images with proper sizing. A separate block is about main-thread task scheduling, scheduler.yield, avoiding heavy synchronous computations and working with Web Workers."
+  },
+  {
+    "id": "t_frontend_02",
+    "category": "Frontend",
+    "title": "Next.js App Router and React Server Components in Production",
+    "speakers": "Yulia Zaitseva",
+    "hall": 2,
+    "date": "2026-01-01",
+    "start_time": "11:00:00",
+    "end_time": "11:45:00",
+    "abstract": "Experience of migrating a SaaS application to Next.js App Router and React Server Components. We cover the boundary between server and client components, prop passing through serialization, streaming rendering through Suspense. We discuss caching at the edge through Vercel, tag-based revalidation, partial prerendering. The finale is about the pitfalls of hydration and how to fight them through useId and suppressHydrationWarning."
+  },
+  {
+    "id": "t_frontend_03",
+    "category": "Frontend",
+    "title": "Micro-Frontends with Module Federation: A Year in Production",
+    "speakers": "Kirill Andreev",
+    "hall": 3,
+    "date": "2026-01-01",
+    "start_time": "13:00:00",
+    "end_time": "13:45:00",
+    "abstract": "How five frontend teams live in one application through Webpack Module Federation: separation into host and remote, shared dependencies through shared, contract versioning between modules. We cover CI/CD for independent deployments, debugging across different React versions, contract testing through Pact. We honestly speak about the cost of the approach and when it is actually justified."
+  },
+  {
+    "id": "t_frontend_04",
+    "category": "Frontend",
+    "title": "Modern CSS: Container Queries and Cascade Layers",
+    "speakers": "Svetlana Kulikova",
+    "hall": 1,
+    "date": "2026-01-01",
+    "start_time": "14:00:00",
+    "end_time": "14:45:00",
+    "abstract": "An overview of modern CSS capabilities: container queries for adaptive components independent of viewport, cascade layers for managing specificity in a design system, subgrid for complex layouts. We show :has() for parent selectors, color-mix and relative colors. Using the design system of an educational platform as an example, we rewrite legacy styles from BEM to a modern approach."
+  }
+]

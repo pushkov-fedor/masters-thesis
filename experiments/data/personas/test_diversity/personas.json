@@ -1,0 +1,202 @@
+[
+  {
+    "id": "p_ios_01",
+    "category": "iOS",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["SwiftUI", "Performance", "Memory Management"],
+    "preferred_topics": ["Architecture", "Under the Hood"],
+    "background": "Более 8 лет в iOS-разработке, последние 4 года работает в крупном банке над оптимизацией приложения для 100М+ пользователей. Глубоко разбирается в Swift runtime, регулярно использует Instruments, занимается профилированием памяти и снижением размера бинарника. Ищет новые подходы к модульной архитектуре для масштабируемости."
+  },
+  {
+    "id": "p_ios_02",
+    "category": "iOS",
+    "role": "iOS Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["UIKit", "Combine", "Networking"],
+    "preferred_topics": ["Tools", "Best Practices"],
+    "background": "Четыре года работает с UIKit в e-commerce приложении, постепенно мигрирует экраны на SwiftUI. Хорошо знает URLSession, Alamofire, занимался оффлайн-кешированием через Core Data. Сейчас разбирается с Combine и Swift Concurrency, хочет понять, как корректно строить async pipelines в продакшене."
+  },
+  {
+    "id": "p_ios_03",
+    "category": "iOS",
+    "role": "iOS Lead",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Modular Architecture", "CI/CD", "Code Signing"],
+    "preferred_topics": ["Architecture", "Tooling"],
+    "background": "Лидирует команду из 12 iOS-разработчиков в телекоме, отвечает за инфраструктуру: модуляризация на SPM, ускорение сборки в Xcode, кастомные шаги в Fastlane. Глубоко погружён в особенности код-сайнинга, провижининг-профилей и App Store Connect API. Сейчас занят переездом монолитного workspace на распределённую сборку через Bazel."
+  },
+  {
+    "id": "p_ios_04",
+    "category": "iOS",
+    "role": "iOS Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": ["SwiftUI", "ARKit", "Animations"],
+    "preferred_topics": ["Tutorials", "UI/UX"],
+    "background": "Полтора года назад пришёл из веб-разработки в стартап, делающий AR-приложение для интерьерного дизайна. Пишет полностью на SwiftUI, работает с ARKit и RealityKit, делает кастомные анимации через Canvas и TimelineView. Хочет глубже понять жизненный цикл View и под капот @State."
+  },
+  {
+    "id": "p_android_01",
+    "category": "Android",
+    "role": "Android Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["Kotlin", "Jetpack Compose", "Team Management"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Десять лет в Android-разработке, сейчас лидирует команду в крупной e-commerce компании. Завершает миграцию основного приложения с XML и View System на Jetpack Compose, управляет шестью разработчиками. Интересуется best practices масштабирования мобильных команд и продвинутыми возможностями Kotlin Multiplatform."
+  },
+  {
+    "id": "p_android_02",
+    "category": "Android",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Coroutines", "Room", "WorkManager"],
+    "preferred_topics": ["Under the Hood", "Performance"],
+    "background": "Семь лет пишет на Kotlin, последние три года в финтех-приложении на 5 миллионов активных пользователей. Хорошо знает внутренности Coroutines и Flow, оптимизирует холодный старт, занимался снижением ANR через профилирование Systrace и Perfetto. Хочет разобраться с Baseline Profiles и R8 в полном объёме."
+  },
+  {
+    "id": "p_android_03",
+    "category": "Android",
+    "role": "Android Middle Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Jetpack Compose", "Material 3", "Navigation"],
+    "preferred_topics": ["UI/UX", "Best Practices"],
+    "background": "Три с половиной года в Android, пришла в стартап из аутсорса. Полностью пишет интерфейсы на Compose с Material 3, разбирается с Navigation Compose и анимациями переходов через SharedTransitionLayout. Хочет научиться правильно строить state hoisting и stable-классы для скоростной перерисовки."
+  },
+  {
+    "id": "p_android_04",
+    "category": "Android",
+    "role": "Android Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["Kotlin", "MVVM", "Dependency Injection"],
+    "preferred_topics": ["Tutorials", "Architecture"],
+    "background": "Год назад закончил буткемп и пришёл в продуктовую компанию. Пишет на Kotlin с MVVM и Hilt, разбирается со ViewModel, LiveData и StateFlow. Хочет понять, чем Hilt отличается от Koin, как правильно писать UI-тесты на Espresso и работать с Gradle build variants."
+  },
+  {
+    "id": "p_backend_01",
+    "category": "Backend",
+    "role": "Backend Senior Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Java", "Spring Boot", "Kafka"],
+    "preferred_topics": ["Distributed Systems", "Performance"],
+    "background": "Девять лет на Java, последние пять — в банке на платформе платежей. Пишет на Spring Boot, активно использует Kafka для событийной интеграции между сервисами, работал с exactly-once семантикой и compaction. Сейчас занят переездом части критических микросервисов с JVM на GraalVM Native Image для снижения cold start."
+  },
+  {
+    "id": "p_backend_02",
+    "category": "Backend",
+    "role": "Backend Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Go", "gRPC", "PostgreSQL"],
+    "preferred_topics": ["Architecture", "Databases"],
+    "background": "Лидирует команду из восьми инженеров в логистической компании, стек на Go и gRPC. Глубоко разбирается в PostgreSQL: реплика-сеты, partitioning, оптимизация запросов через EXPLAIN ANALYZE, использует pg_stat_statements. Сейчас проектирует переезд аналитики на ClickHouse и сравнивает варианты CDC через Debezium."
+  },
+  {
+    "id": "p_backend_03",
+    "category": "Backend",
+    "role": "Backend Middle Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Python", "FastAPI", "Redis"],
+    "preferred_topics": ["Web", "Tools"],
+    "background": "Четыре года на Python, пишет API на FastAPI и асинхронные воркеры на Celery. Активно использует Redis как кеш и брокер, занимался настройкой Sentinel и переходом на Redis Cluster. Хочет разобраться с распределёнными транзакциями, Saga-паттерном и outbox-таблицами для надёжной отправки событий."
+  },
+  {
+    "id": "p_backend_04",
+    "category": "Backend",
+    "role": "Backend Senior Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["Rust", "Tokio", "Microservices"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Шесть лет в бекенде, два года назад перешёл с C++ на Rust в стартапе, делающем low-latency биржевой шлюз. Пишет на Tokio, разбирается во внутренностях async-runtime, профилирует через perf и tokio-console. Интересуется zero-copy сериализацией, lock-free структурами и тонкой настройкой epoll."
+  },
+  {
+    "id": "p_ml_01",
+    "category": "ML",
+    "role": "ML Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["PyTorch", "LLM", "Distributed Training"],
+    "preferred_topics": ["Research", "MLOps"],
+    "background": "Семь лет в машинном обучении, последние три года занимается обучением больших языковых моделей в исследовательской команде поискового гиганта. Пишет на PyTorch с FSDP и DeepSpeed, работал с тензорным и пайплайновым параллелизмом на сотнях A100. Сейчас экспериментирует с длинным контекстом через RoPE-scaling и flash attention v3."
+  },
+  {
+    "id": "p_ml_02",
+    "category": "ML",
+    "role": "Data Scientist",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["NLP", "Transformers", "Embeddings"],
+    "preferred_topics": ["Research", "Applied ML"],
+    "background": "Четыре года в data science, занимается NLP в e-commerce: классификация отзывов, поиск дубликатов товаров, fine-tuning моделей на доменных данных. Пишет на Python с HuggingFace Transformers, использует sentence-transformers для построения семантических индексов поверх FAISS. Интересуется методами дистилляции и квантизации эмбеддеров."
+  },
+  {
+    "id": "p_ml_03",
+    "category": "ML",
+    "role": "ML Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["MLOps", "Feature Store", "Model Serving"],
+    "preferred_topics": ["MLOps", "Production"],
+    "background": "Девять лет в ML, лидирует платформенную команду в телекоме. Строит feature store на Feast, оркестрирует обучение через Kubeflow, разворачивает модели на Triton Inference Server с динамическим батчингом. Хочет разобраться с canary-релизами моделей, online learning и мониторингом дрейфа фичей в проде."
+  },
+  {
+    "id": "p_ml_04",
+    "category": "ML",
+    "role": "Computer Vision Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["Computer Vision", "Object Detection", "Edge Inference"],
+    "preferred_topics": ["Applied ML", "Performance"],
+    "background": "Шесть лет в компьютерном зрении, два года в стартапе по анализу спутниковых снимков. Использует PyTorch и MMDetection, дообучает модели сегментации на собственном датасете в 200 тысяч размеченных тайлов. Занимается инференсом на edge-устройствах через TensorRT и ONNX Runtime, оптимизирует квантизацию int8 и pruning."
+  },
+  {
+    "id": "p_frontend_01",
+    "category": "Frontend",
+    "role": "Frontend Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["React", "TypeScript", "Web Performance"],
+    "preferred_topics": ["Performance", "Architecture"],
+    "background": "Восемь лет в вебе, последние четыре года в маркетплейсе с трафиком в десятки миллионов посетителей в сутки. Пишет на React и TypeScript, профилирует приложения через Chrome DevTools и Lighthouse, оптимизирует Core Web Vitals и Time to Interactive. Сейчас занят миграцией монолита на микрофронтенды через Module Federation."
+  },
+  {
+    "id": "p_frontend_02",
+    "category": "Frontend",
+    "role": "Frontend Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Next.js", "SSR", "Edge Functions"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Десять лет в вебе, лидирует команду из семи фронтендеров в SaaS-компании. Полный стек на Next.js с App Router и React Server Components, активно использует edge-функции на Vercel. Разбирается с гидратацией, частичным префетчингом и стратегиями кеширования на CDN. Интересуется streaming SSR и островной архитектурой."
+  },
+  {
+    "id": "p_frontend_03",
+    "category": "Frontend",
+    "role": "Vue.js Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Vue 3", "Composition API", "Pinia"],
+    "preferred_topics": ["Best Practices", "UI/UX"],
+    "background": "Три с половиной года пишет на Vue, перешла на Vue 3 и Composition API. Делает админ-панель аналитического SaaS, использует Pinia для стейта и Vite для сборки. Хочет понять, как правильно строить дизайн-систему на Vue, и разобраться с подходами тестирования компонентов через Vitest и Playwright."
+  },
+  {
+    "id": "p_frontend_04",
+    "category": "Frontend",
+    "role": "Frontend Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["React", "CSS", "Accessibility"],
+    "preferred_topics": ["Tutorials", "UI/UX"],
+    "background": "Год в индустрии после курсов, пишет на React в продуктовой команде образовательной платформы. Углубляется в современный CSS: Grid, контейнерные запросы, каскадные слои. Серьёзно интересуется доступностью: ARIA-атрибутами, навигацией с клавиатуры, тестированием через axe-core и screen reader."
+  }
+]

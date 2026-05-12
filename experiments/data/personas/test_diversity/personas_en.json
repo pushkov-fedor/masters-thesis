@@ -1,0 +1,202 @@
+[
+  {
+    "id": "p_ios_01",
+    "category": "iOS",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["SwiftUI", "Performance", "Memory Management"],
+    "preferred_topics": ["Architecture", "Under the Hood"],
+    "background": "Over 8 years in iOS development, the last 4 years at a large bank optimizing an application for 100M+ users. Has deep expertise in the Swift runtime, regularly uses Instruments, and works on memory profiling and binary size reduction. Looking for new approaches to modular architecture for scalability."
+  },
+  {
+    "id": "p_ios_02",
+    "category": "iOS",
+    "role": "iOS Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["UIKit", "Combine", "Networking"],
+    "preferred_topics": ["Tools", "Best Practices"],
+    "background": "Four years working with UIKit in an e-commerce application, gradually migrating screens to SwiftUI. Knows URLSession and Alamofire well, has worked on offline caching with Core Data. Currently exploring Combine and Swift Concurrency, wants to understand how to build async pipelines correctly in production."
+  },
+  {
+    "id": "p_ios_03",
+    "category": "iOS",
+    "role": "iOS Lead",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Modular Architecture", "CI/CD", "Code Signing"],
+    "preferred_topics": ["Architecture", "Tooling"],
+    "background": "Leads a team of 12 iOS developers at a telecom company, owns the infrastructure: SPM modularization, Xcode build acceleration, custom Fastlane steps. Deeply familiar with code signing, provisioning profiles and the App Store Connect API. Currently busy migrating a monolithic workspace to distributed builds via Bazel."
+  },
+  {
+    "id": "p_ios_04",
+    "category": "iOS",
+    "role": "iOS Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": ["SwiftUI", "ARKit", "Animations"],
+    "preferred_topics": ["Tutorials", "UI/UX"],
+    "background": "Moved from web development a year and a half ago into a startup building an AR application for interior design. Writes everything in SwiftUI, works with ARKit and RealityKit, builds custom animations through Canvas and TimelineView. Wants to understand the View lifecycle and the internals of @State more deeply."
+  },
+  {
+    "id": "p_android_01",
+    "category": "Android",
+    "role": "Android Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["Kotlin", "Jetpack Compose", "Team Management"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Ten years in Android development, currently leads a team at a large e-commerce company. Finishing migration of the main application from XML and the View System to Jetpack Compose, manages six developers. Interested in best practices for scaling mobile teams and advanced Kotlin Multiplatform capabilities."
+  },
+  {
+    "id": "p_android_02",
+    "category": "Android",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Coroutines", "Room", "WorkManager"],
+    "preferred_topics": ["Under the Hood", "Performance"],
+    "background": "Seven years writing Kotlin, the last three years at a fintech application with 5 million active users. Knows the internals of Coroutines and Flow well, optimizes cold start, has worked on reducing ANRs through Systrace and Perfetto profiling. Wants to master Baseline Profiles and R8 in full depth."
+  },
+  {
+    "id": "p_android_03",
+    "category": "Android",
+    "role": "Android Middle Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Jetpack Compose", "Material 3", "Navigation"],
+    "preferred_topics": ["UI/UX", "Best Practices"],
+    "background": "Three and a half years in Android, joined a startup after working in outsourcing. Writes interfaces entirely in Compose with Material 3, works with Navigation Compose and transition animations through SharedTransitionLayout. Wants to learn how to do state hoisting properly and build stable classes for fast recomposition."
+  },
+  {
+    "id": "p_android_04",
+    "category": "Android",
+    "role": "Android Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["Kotlin", "MVVM", "Dependency Injection"],
+    "preferred_topics": ["Tutorials", "Architecture"],
+    "background": "Finished a bootcamp a year ago and joined a product company. Writes Kotlin with MVVM and Hilt, works with ViewModel, LiveData and StateFlow. Wants to understand the differences between Hilt and Koin, how to write UI tests in Espresso properly and how to work with Gradle build variants."
+  },
+  {
+    "id": "p_backend_01",
+    "category": "Backend",
+    "role": "Backend Senior Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Java", "Spring Boot", "Kafka"],
+    "preferred_topics": ["Distributed Systems", "Performance"],
+    "background": "Nine years on Java, the last five at a bank on the payments platform. Writes Spring Boot, actively uses Kafka for event-driven integration between services, has worked with exactly-once semantics and compaction. Currently busy migrating part of the critical microservices from JVM to GraalVM Native Image to reduce cold start."
+  },
+  {
+    "id": "p_backend_02",
+    "category": "Backend",
+    "role": "Backend Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Go", "gRPC", "PostgreSQL"],
+    "preferred_topics": ["Architecture", "Databases"],
+    "background": "Leads a team of eight engineers at a logistics company, with a stack on Go and gRPC. Has deep PostgreSQL expertise: replica sets, partitioning, query optimization through EXPLAIN ANALYZE, uses pg_stat_statements. Currently designing a migration of analytics to ClickHouse and comparing CDC options through Debezium."
+  },
+  {
+    "id": "p_backend_03",
+    "category": "Backend",
+    "role": "Backend Middle Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Python", "FastAPI", "Redis"],
+    "preferred_topics": ["Web", "Tools"],
+    "background": "Four years on Python, writes APIs in FastAPI and asynchronous workers in Celery. Actively uses Redis as a cache and broker, has worked on Sentinel configuration and migration to Redis Cluster. Wants to learn distributed transactions, the Saga pattern and outbox tables for reliable event delivery."
+  },
+  {
+    "id": "p_backend_04",
+    "category": "Backend",
+    "role": "Backend Senior Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["Rust", "Tokio", "Microservices"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Six years in backend, switched from C++ to Rust two years ago at a startup building a low-latency exchange gateway. Writes Tokio, understands the internals of the async runtime, profiles via perf and tokio-console. Interested in zero-copy serialization, lock-free structures and fine-tuning epoll."
+  },
+  {
+    "id": "p_ml_01",
+    "category": "ML",
+    "role": "ML Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["PyTorch", "LLM", "Distributed Training"],
+    "preferred_topics": ["Research", "MLOps"],
+    "background": "Seven years in machine learning, the last three years training large language models in a research team at a search giant. Writes PyTorch with FSDP and DeepSpeed, has worked with tensor and pipeline parallelism on hundreds of A100s. Currently experimenting with long context through RoPE-scaling and flash attention v3."
+  },
+  {
+    "id": "p_ml_02",
+    "category": "ML",
+    "role": "Data Scientist",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["NLP", "Transformers", "Embeddings"],
+    "preferred_topics": ["Research", "Applied ML"],
+    "background": "Four years in data science, works on NLP in e-commerce: review classification, product duplicate detection, fine-tuning models on domain data. Writes Python with HuggingFace Transformers, uses sentence-transformers to build semantic indexes on top of FAISS. Interested in distillation and quantization methods for embedders."
+  },
+  {
+    "id": "p_ml_03",
+    "category": "ML",
+    "role": "ML Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["MLOps", "Feature Store", "Model Serving"],
+    "preferred_topics": ["MLOps", "Production"],
+    "background": "Nine years in ML, leads a platform team at a telecom company. Builds a feature store on Feast, orchestrates training through Kubeflow, deploys models on Triton Inference Server with dynamic batching. Wants to learn canary releases of models, online learning and feature drift monitoring in production."
+  },
+  {
+    "id": "p_ml_04",
+    "category": "ML",
+    "role": "Computer Vision Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["Computer Vision", "Object Detection", "Edge Inference"],
+    "preferred_topics": ["Applied ML", "Performance"],
+    "background": "Six years in computer vision, two years at a startup analyzing satellite imagery. Uses PyTorch and MMDetection, fine-tunes segmentation models on a proprietary dataset of 200 thousand annotated tiles. Works on inference on edge devices through TensorRT and ONNX Runtime, optimizes int8 quantization and pruning."
+  },
+  {
+    "id": "p_frontend_01",
+    "category": "Frontend",
+    "role": "Frontend Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["React", "TypeScript", "Web Performance"],
+    "preferred_topics": ["Performance", "Architecture"],
+    "background": "Eight years on the web, the last four years at a marketplace with traffic of tens of millions of visitors per day. Writes React and TypeScript, profiles applications through Chrome DevTools and Lighthouse, optimizes Core Web Vitals and Time to Interactive. Currently busy migrating the monolith to micro-frontends via Module Federation."
+  },
+  {
+    "id": "p_frontend_02",
+    "category": "Frontend",
+    "role": "Frontend Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Next.js", "SSR", "Edge Functions"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Ten years on the web, leads a team of seven frontend engineers at a SaaS company. Full stack on Next.js with App Router and React Server Components, actively uses edge functions on Vercel. Familiar with hydration, partial prefetching and CDN caching strategies. Interested in streaming SSR and islands architecture."
+  },
+  {
+    "id": "p_frontend_03",
+    "category": "Frontend",
+    "role": "Vue.js Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Vue 3", "Composition API", "Pinia"],
+    "preferred_topics": ["Best Practices", "UI/UX"],
+    "background": "Three and a half years writing Vue, has moved to Vue 3 and the Composition API. Builds the admin panel of an analytics SaaS, uses Pinia for state and Vite for bundling. Wants to understand how to build a design system on Vue properly, and to figure out approaches for component testing through Vitest and Playwright."
+  },
+  {
+    "id": "p_frontend_04",
+    "category": "Frontend",
+    "role": "Frontend Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["React", "CSS", "Accessibility"],
+    "preferred_topics": ["Tutorials", "UI/UX"],
+    "background": "One year in the industry after courses, writes React on the product team of an educational platform. Goes deep into modern CSS: Grid, container queries, cascade layers. Seriously interested in accessibility: ARIA attributes, keyboard navigation, testing through axe-core and a screen reader."
+  }
+]

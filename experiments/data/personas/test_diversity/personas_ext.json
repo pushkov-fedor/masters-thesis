@@ -1,0 +1,506 @@
+[
+  {
+    "id": "p_ios_01",
+    "category": "iOS",
+    "role": "iOS UI Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": ["SwiftUI", "UIKit", "Custom Layouts"],
+    "preferred_topics": ["UI/UX", "Tutorials"],
+    "background": "Полтора года в iOS, пришёл из веб-разработки в стартап с медиа-приложением. Пишет интерфейсы преимущественно на SwiftUI, недавно начал разбираться с UICollectionViewLayout для legacy-экранов. Хочет понять Layout-протокол и тонкости ViewBuilder под капотом, ищет качественные туториалы по архитектуре View-иерархии."
+  },
+  {
+    "id": "p_ios_02",
+    "category": "iOS",
+    "role": "iOS Performance Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Swift Runtime", "Instruments", "Binary Size"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Восемь лет в iOS, последние три года занимается перформансом приложения банка на 30 миллионов установок. Профилирует через Instruments, читает дамп Mach-O, борется с раздуванием __TEXT-сегмента. Снизил холодный старт с 1.8 до 0.7 секунды через ленивую инициализацию синглтонов и выпиливание dyld closure-зависимостей."
+  },
+  {
+    "id": "p_ios_03",
+    "category": "iOS",
+    "role": "ARKit Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["ARKit", "RealityKit", "Metal"],
+    "preferred_topics": ["Applied Tech", "Performance"],
+    "background": "Шесть лет в графике и AR, два года в стартапе по виртуальной примерке косметики на лицо. Использует ARKit с Face Tracking, кастомные Metal-шейдеры для блендинга, ARGeoTracking для outdoor-сценариев. Занимается стабилизацией трекинга на айфонах без LiDAR через классический VIO."
+  },
+  {
+    "id": "p_ios_04",
+    "category": "iOS",
+    "role": "iOS QA Automation Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": ["XCUITest", "Snapshot Testing", "Test Plans"],
+    "preferred_topics": ["Tools", "Best Practices"],
+    "background": "Три года занимается автоматизацией тестирования iOS-приложения такси-сервиса. Пишет XCUITest, использует accessibility identifier-ы и Page Object паттерн. Внедрил snapshot-тестирование через swift-snapshot-testing, поднял параллельный запуск на 40 симуляторах через xcodebuild test и Test Plans."
+  },
+  {
+    "id": "p_ios_05",
+    "category": "iOS",
+    "role": "iOS Accessibility Specialist",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["VoiceOver", "Dynamic Type", "Switch Control"],
+    "preferred_topics": ["UI/UX", "Best Practices"],
+    "background": "Семь лет в индустрии, последние два года ведёт направление доступности в страховом холдинге. Аудитит экраны через Accessibility Inspector, пишет кастомные UIAccessibilityCustomAction для сложных контролов, поддерживает Switch Control для людей с моторными нарушениями. Сертифицирован по WCAG 2.2 и принципам ADA."
+  },
+  {
+    "id": "p_ios_06",
+    "category": "iOS",
+    "role": "iOS Security Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Keychain", "Secure Enclave", "Code Obfuscation"],
+    "preferred_topics": ["Security", "Under the Hood"],
+    "background": "Девять лет в мобильной разработке, последние четыре в банке отвечает за безопасность iOS-приложения. Работает с Secure Enclave для биометрии и хранения ключей, реализует SSL pinning через CertificatePinner, защищает от рантайм-инъекций через FairPlay-подобные техники. Регулярно проходит pentest с Frida и Hopper Disassembler."
+  },
+  {
+    "id": "p_ios_07",
+    "category": "iOS",
+    "role": "iOS Build Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Bazel", "Tuist", "Fastlane"],
+    "preferred_topics": ["Tooling", "CI/CD"],
+    "background": "Одиннадцать лет в iOS, лидирует платформенную команду из шести человек в крупном телекоме. Перевёл монолитный workspace из 150 модулей на Bazel с remote cache в S3, ускорил clean build с 22 до 5 минут. Поддерживает кастомные Fastlane-плагины, автоматизирует подпись через App Store Connect API."
+  },
+  {
+    "id": "p_ios_08",
+    "category": "iOS",
+    "role": "iOS Networking Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["URLSession", "WebSocket", "GraphQL"],
+    "preferred_topics": ["Networking", "Architecture"],
+    "background": "Четыре года работает с сетевым стеком в стриминговом приложении, отвечает за плеер и доставку контента. Реализовал кастомный URLProtocol для перехвата запросов, оптимизировал WebSocket через URLSessionWebSocketTask с reconnect-логикой. Сейчас интегрирует Apollo iOS для перехода с REST на GraphQL."
+  },
+  {
+    "id": "p_ios_09",
+    "category": "iOS",
+    "role": "iOS Architect",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["Modular Architecture", "Clean Architecture", "TCA"],
+    "preferred_topics": ["Architecture", "Best Practices"],
+    "background": "Двенадцать лет в iOS, архитектор в продуктовой компании на 80 разработчиков. Внедрил The Composable Architecture для нового модуля платежей, разделил приложение на feature-модули с чётким контрактом через protocol-witness pattern. Сейчас исследует переход части модулей на Swift 6 strict concurrency."
+  },
+  {
+    "id": "p_ios_10",
+    "category": "iOS",
+    "role": "iOS Developer Advocate",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["DevRel", "Swift Concurrency", "Open Source"],
+    "preferred_topics": ["Trends", "Community"],
+    "background": "Восемь лет в iOS, последние два года совмещает менторство джунов и техническое евангелизм в продуктовой студии. Ведёт внутренний tech-talk цикл по Swift Concurrency и actor isolation, активно контрибьютит в swift-async-algorithms. Часто выступает на митапах с разборами Swift Evolution предложений."
+  },
+
+  {
+    "id": "p_android_01",
+    "category": "Android",
+    "role": "Android Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["Jetpack Compose", "Material 3", "Kotlin"],
+    "preferred_topics": ["UI/UX", "Tutorials"],
+    "background": "Год в Android после буткемпа, пишет интерфейсы маркетплейса на Compose с Material 3 и динамическими цветовыми темами. Только начал разбираться со SharedTransitionLayout и Modifier.animateContentSize. Хочет понять производительность lazy-списков через LazyListPrefetchStrategy и научиться писать кастомные Layout через MeasureScope."
+  },
+  {
+    "id": "p_android_02",
+    "category": "Android",
+    "role": "Android Runtime Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["ART", "Coroutines Internals", "Flow"],
+    "preferred_topics": ["Under the Hood", "Performance"],
+    "background": "Семь лет на Kotlin, последние три года в банке копается в внутренностях ART и JIT. Разбирался с поведением Coroutines на разных версиях Android Runtime, нашёл и заpatch-ил deadlock в OkHttp под Android 12. Сейчас изучает влияние ART CompactDex на размер приложения и время верификации."
+  },
+  {
+    "id": "p_android_03",
+    "category": "Android",
+    "role": "Android Database Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Room", "SQLite", "Offline Sync"],
+    "preferred_topics": ["Architecture", "Performance"],
+    "background": "Шесть лет в Android, четыре в мессенджере на 8 миллионов активных пользователей. Спроектировал миграции Room с FTS4 на FTS5 для полнотекстового поиска, оптимизировал запросы через EXPLAIN QUERY PLAN. Реализовал sync-движок на основе CRDT с локальной персистенцией в SQLite через WAL-mode."
+  },
+  {
+    "id": "p_android_04",
+    "category": "Android",
+    "role": "Wear OS Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Wear OS", "Compose for Wear", "Health Services"],
+    "preferred_topics": ["Applied Tech", "UI/UX"],
+    "background": "Три года пишет приложение для фитнес-трекеров на Wear OS 4 и 5. Использует Compose for Wear с TimeText, CurvedText, Tiles. Интегрирует Health Services API для сбора данных пульса и SpO2, оптимизирует энергопотребление через ambient mode. Поддерживает приложение на 12 моделях часов разных производителей."
+  },
+  {
+    "id": "p_android_05",
+    "category": "Android",
+    "role": "Android Auto Developer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["Android Auto", "Car App Library", "Voice Actions"],
+    "preferred_topics": ["Applied Tech", "UI/UX"],
+    "background": "Семь лет в Android, последние два в автопроме делает приложение навигации для Android Auto. Использует Car App Library с Templates API, поддерживает Distraction-Optimized интерфейс согласно гайдлайнам. Интегрирует Voice Actions через Assistant App Actions, тестирует на DHU и реальных головных устройствах Volkswagen."
+  },
+  {
+    "id": "p_android_06",
+    "category": "Android",
+    "role": "Android Performance Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Macrobenchmark", "Baseline Profiles", "Perfetto"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Восемь лет в Android, профилирует приложение онлайн-кинотеатра. Снизил процент janky frames с 4.2 до 0.6 через Baseline Profiles, переход на R8 fullMode и оптимизацию Compose-перерисовок. Активно использует Perfetto для трейсов и Android GPU Inspector для шейдеров. Внедрил автоматический сбор Macrobenchmark на CI."
+  },
+  {
+    "id": "p_android_07",
+    "category": "Android",
+    "role": "Android Security Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["KeyStore", "Play Integrity", "Code Obfuscation"],
+    "preferred_topics": ["Security", "Under the Hood"],
+    "background": "Десять лет в Android, ведёт безопасность приложения банка. Работает с Hardware-backed KeyStore, реализует attestation через Play Integrity API, защищает от Frida и Magisk через комбинацию SafetyNet и собственных runtime-проверок. Внедрил R8 с агрессивной обфускацией и shrinking, регулярно проводит threat-modeling."
+  },
+  {
+    "id": "p_android_08",
+    "category": "Android",
+    "role": "Android Build Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Gradle", "Bazel", "Build Cache"],
+    "preferred_topics": ["Tooling", "CI/CD"],
+    "background": "Девять лет в Android, последние три отвечает за инфраструктуру сборки в продуктовой компании на 50 разработчиков. Перевёл Gradle на Configuration Cache и Project Isolation, ускорил инкрементальную сборку с 80 до 18 секунд. Внедрил Gradle Enterprise build scans и remote build cache, экспериментирует с Bazel для Kotlin-модулей."
+  },
+  {
+    "id": "p_android_09",
+    "category": "Android",
+    "role": "Android Networking Engineer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["OkHttp", "Retrofit", "gRPC"],
+    "preferred_topics": ["Networking", "Architecture"],
+    "background": "Четыре года в Android, два в стартапе по доставке еды. Спроектировал сетевой слой на OkHttp с кастомными Interceptor для аутентификации и retry-логики, перевёл часть API на gRPC через grpc-kotlin для двустороннего стриминга заказов. Оптимизирует TLS handshake через session resumption и HTTP/2 multiplexing."
+  },
+  {
+    "id": "p_android_10",
+    "category": "Android",
+    "role": "Android Architect",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Clean Architecture", "Modularization", "KMP"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Одиннадцать лет в Android, архитектор приложения соцсети на 60 разработчиков. Внедрил многомодульную архитектуру с feature/data/domain слоями, описал контракты модулей через api/impl-разделение. Сейчас выносит бизнес-логику в Kotlin Multiplatform shared-модуль с расчётом на iOS-команду."
+  },
+
+  {
+    "id": "p_backend_01",
+    "category": "Backend",
+    "role": "Java Service Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Java", "Spring Boot", "GraalVM"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Девять лет на Java, последние четыре в банке на платформе кредитных продуктов. Пишет на Spring Boot 3 с Spring Web Reactive, разбирается в внутренностях JIT-компиляции HotSpot, читает GC-логи G1 и ZGC. Сейчас мигрирует часть критических сервисов на GraalVM Native Image, борется с reflection-конфигом и build-time-инициализацией."
+  },
+  {
+    "id": "p_backend_02",
+    "category": "Backend",
+    "role": "Go Microservices Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Go", "gRPC", "Kubernetes"],
+    "preferred_topics": ["Distributed Systems", "Architecture"],
+    "background": "Четыре года на Go, в e-commerce компании отвечает за доменную область корзины и чекаута. Пишет микросервисы на go-kit, использует gRPC с buf для контрактов, деплоит в Kubernetes через Helm-чарты. Активно работает с runtime/pprof и trace для диагностики latency, оптимизирует sync.Pool под высокую нагрузку."
+  },
+  {
+    "id": "p_backend_03",
+    "category": "Backend",
+    "role": "Rust Low-Latency Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["Rust", "Tokio", "io_uring"],
+    "preferred_topics": ["Performance", "Under the Hood"],
+    "background": "Семь лет в системной разработке, два года в стартапе по торговому шлюзу с задержкой меньше 100 микросекунд на 99-й перцентили. Пишет на Rust с Tokio, экспериментирует с tokio-uring и glommio для io_uring. Знает наизусть memory ordering из Atomics-главы Rust nomicon, применяет lock-free очереди через crossbeam-skiplist."
+  },
+  {
+    "id": "p_backend_04",
+    "category": "Backend",
+    "role": "Python Backend Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": ["Python", "FastAPI", "asyncio"],
+    "preferred_topics": ["Web", "Tutorials"],
+    "background": "Полтора года в бекенде, в стартапе-агрегаторе билетов пишет API на FastAPI и Pydantic v2. Начал разбираться с asyncio и uvloop, недавно ускорил эндпоинт через переход на orjson. Хочет глубже понять GIL и устройство event loop, заинтересован в no-GIL Python 3.13 для CPU-bound задач."
+  },
+  {
+    "id": "p_backend_05",
+    "category": "Backend",
+    "role": "Database Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["PostgreSQL", "ClickHouse", "Replication"],
+    "preferred_topics": ["Databases", "Architecture"],
+    "background": "Двенадцать лет работает с базами данных, последние пять — DBA-инженер в логистическом холдинге. Поддерживает PostgreSQL-кластер из 24 узлов с Patroni и pgBouncer, настраивает логическую репликацию между ЦОД. Внедрил ClickHouse для аналитики на 12 ТБ данных, использует ReplicatedMergeTree и проектные шарды."
+  },
+  {
+    "id": "p_backend_06",
+    "category": "Backend",
+    "role": "Kafka Streaming Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Kafka", "Kafka Streams", "Schema Registry"],
+    "preferred_topics": ["Distributed Systems", "Streaming"],
+    "background": "Восемь лет в стриминговых системах, в телекоме отвечает за event-bus на Kafka из 60 топиков и 12 брокеров. Пишет процессоры на Kafka Streams и Apache Flink, поддерживает Confluent Schema Registry с Avro-эволюцией. Реализовал exactly-once pipeline для биллинга через транзакционный продюсер и read_committed."
+  },
+  {
+    "id": "p_backend_07",
+    "category": "Backend",
+    "role": "SRE Observability Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Prometheus", "OpenTelemetry", "eBPF"],
+    "preferred_topics": ["Observability", "Tools"],
+    "background": "Семь лет в инфраструктурных командах, последние три — SRE в SaaS на 200 микросервисов. Поддерживает Prometheus-федерацию с долгосрочным хранением в Mimir, инструментирует сервисы через OpenTelemetry с exemplars. Использует eBPF через Pixie и Parca для continuous profiling без изменения кода приложений."
+  },
+  {
+    "id": "p_backend_08",
+    "category": "Backend",
+    "role": "Backend Security Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["OAuth 2.1", "mTLS", "Zero Trust"],
+    "preferred_topics": ["Security", "Architecture"],
+    "background": "Десять лет в области application security, в финтехе ведёт направление защиты API. Спроектировал OAuth 2.1 + DPoP инфраструктуру на Keycloak, внедрил mTLS между всеми сервисами через Istio. Настроил OPA для policy-as-code, регулярно проводит threat-modeling и red-team упражнения."
+  },
+  {
+    "id": "p_backend_09",
+    "category": "Backend",
+    "role": "API Gateway Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Envoy", "Kong", "WebSocket"],
+    "preferred_topics": ["Architecture", "Networking"],
+    "background": "Пять лет в бекенде, последние два года поддерживает API gateway на Envoy с кастомными Lua-фильтрами. Поддерживает 14 публичных API на rate-limiting через Redis, реализовал автоматический canary-роутинг через xDS-API. Сейчас разбирается с WebTransport и QUIC для real-time эндпоинтов."
+  },
+  {
+    "id": "p_backend_10",
+    "category": "Backend",
+    "role": "Distributed Systems Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Raft", "CRDTs", "Consensus"],
+    "preferred_topics": ["Distributed Systems", "Research"],
+    "background": "Восемь лет в распределённых системах, в компании-разработчике облачной БД пишет код на Go и Rust. Реализовал собственную имплементацию Raft с pre-vote и witness-репликами, работает над сlock-skew-устойчивым линеаризуемым чтением. Глубоко знает работы Lamport, Brewer и Bailis, регулярно перечитывает Jepsen-отчёты."
+  },
+
+  {
+    "id": "p_ml_01",
+    "category": "ML",
+    "role": "NLP/LLM Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["LLM", "RAG", "Fine-Tuning"],
+    "preferred_topics": ["Applied ML", "Research"],
+    "background": "Семь лет в NLP, последние два года в продуктовой команде поискового гиганта. Тренирует LoRA-адаптеры поверх 7B-моделей на доменных диалогах, строит RAG-пайплайны с гибридным поиском BM25+эмбеддинги. Использует vLLM для inference с PagedAttention, работает с длинным контекстом через RoPE-scaling и YaRN."
+  },
+  {
+    "id": "p_ml_02",
+    "category": "ML",
+    "role": "Computer Vision Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Object Detection", "Segmentation", "Diffusion Models"],
+    "preferred_topics": ["Applied ML", "Research"],
+    "background": "Четыре года в CV, в e-commerce занимается каталогом: автоматическая категоризация товаров по фото, удаление фона. Использует YOLOv8 для детекции, SAM для сегментации, ControlNet поверх Stable Diffusion для генерации обложек. Дообучает модели на собственном датасете в 4 миллиона размеченных изображений."
+  },
+  {
+    "id": "p_ml_03",
+    "category": "ML",
+    "role": "MLOps Engineer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["Kubeflow", "Triton", "Feature Store"],
+    "preferred_topics": ["MLOps", "Production"],
+    "background": "Восемь лет в инфраструктуре ML, в страховом холдинге строит платформу для 60 моделей в проде. Оркестрирует обучение через Kubeflow Pipelines с Argo Workflows, разворачивает модели на Triton Inference Server с динамическим батчингом. Поднял feature store на Feast с офлайн-хранилищем в Iceberg и онлайн в DragonflyDB."
+  },
+  {
+    "id": "p_ml_04",
+    "category": "ML",
+    "role": "Recommender Systems Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["RecSys", "Two-Tower Models", "Ranking"],
+    "preferred_topics": ["Applied ML", "Research"],
+    "background": "Семь лет в рекомендательных системах, последние три в стриминговом сервисе на 40 миллионов пользователей. Поддерживает двухэтапный пайплайн: candidate generation на two-tower через ANN-поиск в Vespa, ранжирование на gradient boosting и трансформерах. Знает работы Pinterest, Spotify и Netflix по cold-start и calibration."
+  },
+  {
+    "id": "p_ml_05",
+    "category": "ML",
+    "role": "Reinforcement Learning Researcher",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["RL", "PPO", "Multi-Agent"],
+    "preferred_topics": ["Research", "Applied ML"],
+    "background": "Девять лет в RL, кандидат наук, ведёт исследовательскую группу в робототехническом стартапе. Применяет PPO и SAC для обучения политик манипулятора в симуляции NVIDIA Isaac, работает с domain randomization для sim-to-real transfer. Изучает offline-RL через CQL и IQL для обучения на демонстрациях."
+  },
+  {
+    "id": "p_ml_06",
+    "category": "ML",
+    "role": "Tabular ML Junior",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["XGBoost", "CatBoost", "Feature Engineering"],
+    "preferred_topics": ["Applied ML", "Tutorials"],
+    "background": "Год после магистратуры по прикладной математике, в скоринговой компании работает с моделями кредитного риска. Учится использовать CatBoost с категориальными фичами и группировкой, недавно начал делать PSI-мониторинг дрейфа. Хочет разобраться с TabNet и FT-Transformer как альтернативой классическому boosting на высокомерных данных."
+  },
+  {
+    "id": "p_ml_07",
+    "category": "ML",
+    "role": "Edge ML Engineer",
+    "experience": "senior",
+    "company_size": "startup",
+    "interests": ["Edge Inference", "Quantization", "TensorRT"],
+    "preferred_topics": ["Performance", "Applied ML"],
+    "background": "Шесть лет в области embedded ML, в стартапе по умным камерам безопасности оптимизирует модели для Jetson Orin Nano. Делает int8-квантизацию через TensorRT с post-training calibration, режет слои с pruning через torch.nn.utils.prune. Сравнивает производительность на Coral Edge TPU и Hailo-8 для сценариев батч-инференса."
+  },
+  {
+    "id": "p_ml_08",
+    "category": "ML",
+    "role": "Data Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Spark", "Iceberg", "dbt"],
+    "preferred_topics": ["Data Engineering", "Tools"],
+    "background": "Восемь лет в data engineering, в банке отвечает за data lakehouse на Apache Iceberg в S3. Пишет батчевые пайплайны на Spark с Photon-движком, поддерживает 200+ моделей в dbt-проекте с тестами и документацией. Работает над migration от Hive Metastore к Unity Catalog с row-level security."
+  },
+  {
+    "id": "p_ml_09",
+    "category": "ML",
+    "role": "Data Scientist Analyst",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["A/B Testing", "Causal Inference", "SQL"],
+    "preferred_topics": ["Applied ML", "Best Practices"],
+    "background": "Четыре года в продуктовой аналитике игровой студии. Проектирует A/B-тесты с CUPED-вариансной редукцией, использует bootstrap для интервальных оценок. Применяет causal inference: difference-in-differences для оценки маркетинговых кампаний, instrumental variables для anti-cannibalization анализа."
+  },
+  {
+    "id": "p_ml_10",
+    "category": "ML",
+    "role": "ML Platform Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Ray", "Slurm", "GPU Scheduling"],
+    "preferred_topics": ["MLOps", "Infrastructure"],
+    "background": "Десять лет в HPC и ML-инфраструктуре, в исследовательском институте лидирует команду из пяти инженеров. Поддерживает Slurm-кластер из 80 узлов с A100, переводит часть обучения на Ray с автоскейлингом. Внедрил MIG-партиционирование GPU для шеринга карт между мелкими экспериментами, использует NCCL для эффективной all-reduce коммуникации."
+  },
+
+  {
+    "id": "p_frontend_01",
+    "category": "Frontend",
+    "role": "React Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["React", "TypeScript", "State Management"],
+    "preferred_topics": ["Architecture", "Best Practices"],
+    "background": "Восемь лет в React, последние три в маркетплейсе на 15 миллионов DAU. Поддерживает приложение на React 19 с Server Actions, использует TanStack Query для серверного состояния и Zustand для клиентского. Внедрил архитектуру feature-sliced design, поддерживает строгую типизацию через TypeScript 5 с branded types."
+  },
+  {
+    "id": "p_frontend_02",
+    "category": "Frontend",
+    "role": "Vue.js Developer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Vue 3", "Nuxt", "Composition API"],
+    "preferred_topics": ["Best Practices", "Architecture"],
+    "background": "Четыре года пишет на Vue, в стартапе делает аналитический SaaS на Nuxt 3. Активно использует Composition API с composables, Pinia для стейта, Vue Suspense для асинхронных компонентов. Сейчас разбирается с Nuxt UI Pro и переходом на Vue 3.5 Reactive Props Destructure."
+  },
+  {
+    "id": "p_frontend_03",
+    "category": "Frontend",
+    "role": "Next.js Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Next.js", "RSC", "Server Actions"],
+    "preferred_topics": ["Architecture", "Performance"],
+    "background": "Семь лет в вебе, последние два специализируется на Next.js. В EdTech-компании поддерживает приложение на App Router с React Server Components и Server Actions. Использует Partial Prerendering для гибридного рендеринга страниц курсов, тонко настраивает кеширование через unstable_cache и тег-ревалидацию."
+  },
+  {
+    "id": "p_frontend_04",
+    "category": "Frontend",
+    "role": "Frontend Junior Developer",
+    "experience": "junior",
+    "company_size": "startup",
+    "interests": ["PWA", "Service Workers", "Web Push"],
+    "preferred_topics": ["UI/UX", "Tutorials"],
+    "background": "Год в вебе после курсов, в стартапе доставки делает мобильную PWA для сети ресторанов. Только начал работать с Workbox для офлайн-режима, разбирается с Service Worker lifecycle. Хочет освоить Web Push для уведомлений, интеграцию Web Share API, научиться измерять impact на Core Web Vitals."
+  },
+  {
+    "id": "p_frontend_05",
+    "category": "Frontend",
+    "role": "UI/Animation Engineer",
+    "experience": "middle",
+    "company_size": "startup",
+    "interests": ["Framer Motion", "WebGL", "GSAP"],
+    "preferred_topics": ["UI/UX", "Applied Tech"],
+    "background": "Пять лет в продуктовом дизайне-разработке, в дизайн-студии делает интерактивные сайты для брендовых клиентов. Использует Framer Motion и GSAP для сложных таймлайнов, three.js для WebGL-сцен с шейдерной графикой. Оптимизирует анимации через will-change и offscreen canvas, измеряет jank через Performance Observer."
+  },
+  {
+    "id": "p_frontend_06",
+    "category": "Frontend",
+    "role": "Web Performance Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Core Web Vitals", "INP", "Bundle Size"],
+    "preferred_topics": ["Performance", "Tools"],
+    "background": "Семь лет в вебе, последние два года отвечает за перформанс главной страницы новостного портала. Оптимизировал LCP с 3.4 до 1.6 секунды через priority hints и резервирование места под изображения, снизил INP на 40% через scheduler.yield и Web Workers. Внедрил RUM на CrUX и SpeedCurve."
+  },
+  {
+    "id": "p_frontend_07",
+    "category": "Frontend",
+    "role": "Accessibility Engineer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["ARIA", "Screen Readers", "Keyboard Navigation"],
+    "preferred_topics": ["UI/UX", "Best Practices"],
+    "background": "Восемь лет в вебе, последние три года ведёт направление доступности в финансовом холдинге. Аудитит компоненты через axe-core, тестирует с NVDA, JAWS и VoiceOver. Поддерживает соответствие WCAG 2.2 AA, внедрил автоматизированные accessibility-тесты в CI через pa11y и Playwright."
+  },
+  {
+    "id": "p_frontend_08",
+    "category": "Frontend",
+    "role": "Frontend Build Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Vite", "Turbopack", "Module Federation"],
+    "preferred_topics": ["Tooling", "CI/CD"],
+    "background": "Восемь лет во фронтенде, последние два специализируется на сборочной инфраструктуре в SaaS-компании. Перевёл монорепу из 40 пакетов с Webpack на Vite 5, ускорил dev-сборку с 28 до 3 секунд. Поддерживает Nx-монорепу с distributed task execution, экспериментирует с Turbopack для критических сценариев."
+  },
+  {
+    "id": "p_frontend_09",
+    "category": "Frontend",
+    "role": "Design System Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Design Tokens", "Headless UI", "Storybook"],
+    "preferred_topics": ["Architecture", "Best Practices"],
+    "background": "Десять лет во фронтенде, лидирует команду дизайн-системы в крупном банке на 80+ продуктовых команд. Поддерживает 220 React-компонентов с строгой типизацией, документирует через Storybook 8 с visual regression. Работает с design tokens по спецификации W3C, синхронизирует Figma и код через Style Dictionary."
+  },
+  {
+    "id": "p_frontend_10",
+    "category": "Frontend",
+    "role": "Micro-Frontends Architect",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Module Federation", "Single SPA", "Web Components"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Одиннадцать лет в вебе, последние три проектирует микрофронтенд-архитектуру в страховой компании. Внедрил Webpack Module Federation для пяти команд по 8 разработчиков, описал контракты через Pact. Сейчас исследует Native Federation на Vite и переход с runtime-композиции на edge side includes через Cloudflare Workers."
+  }
+]
