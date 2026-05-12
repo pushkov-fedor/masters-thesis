@@ -1,0 +1,1598 @@
+{
+  "etap": "V cross-validation",
+  "date": "2026-05-13",
+  "acceptance_threshold_median_rho": 0.5,
+  "metrics": [
+    "metric_mean_overload_excess",
+    "metric_overflow_rate_slothall",
+    "metric_hall_utilization_variance",
+    "metric_mean_user_utility"
+  ],
+  "policies": [
+    "no_policy",
+    "cosine",
+    "capacity_aware",
+    "llm_ranker"
+  ],
+  "lower_is_better": {
+    "metric_mean_overload_excess": true,
+    "metric_overflow_rate_slothall": true,
+    "metric_hall_utilization_variance": true,
+    "metric_mean_user_utility": false
+  },
+  "n_lhs_in_llm": 12,
+  "lhs_ids_in_llm": [
+    0,
+    1,
+    2,
+    6,
+    12,
+    14,
+    17,
+    31,
+    33,
+    34,
+    36,
+    39
+  ],
+  "n_evals_in_llm": 36,
+  "correlations_by_metric": {
+    "metric_mean_overload_excess": {
+      "per_lhs": {
+        "0": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "1": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "2": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 2.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "6": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "12": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "14": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 1.0,
+            "cosine": 3.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "no_policy",
+          "top1_match": false,
+          "rho": -0.5,
+          "tau": -0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "17": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 2.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "31": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 2.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "33": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "34": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "36": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 1.0,
+            "cosine": 3.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": -0.5,
+          "tau": -0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "39": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 2.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        }
+      },
+      "rho_summary": {
+        "n": 8,
+        "median": 0.5,
+        "mean": 0.3125,
+        "min": -0.5,
+        "max": 1.0,
+        "p25": 0.25,
+        "p75": 0.5
+      },
+      "tau_summary": {
+        "n": 8,
+        "median": 0.33333333333333337,
+        "mean": 0.25
+      },
+      "top1_summary": {
+        "n": 12,
+        "n_match": 6,
+        "fraction_match": 0.5
+      },
+      "top1_nondegenerate_summary": {
+        "n_nondegenerate": 8,
+        "n_match": 6,
+        "fraction_match": 0.75
+      },
+      "degenerate_diagnostic": {
+        "rule": "degenerate = constant ranks on parametric OR LLM side; Spearman ρ then undefined (scipy ConstantInputWarning) and skipped from rho_summary. top-1 with constant ranks deterministically falls to common_pols[0] via argmin tie-breaking — possible fake match.",
+        "n_lhs_total": 12,
+        "n_param_constant_ranks": 4,
+        "n_llm_constant_ranks": 0,
+        "n_either_constant_skipped_from_rho": 4,
+        "n_used_in_rho_summary": 8,
+        "degenerate_lhs": [
+          {
+            "lhs_row_id": "2",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.0,
+              "cosine": 2.0,
+              "capacity_aware": 2.0
+            },
+            "llm_ranks": {
+              "no_policy": 3.0,
+              "cosine": 2.0,
+              "capacity_aware": 1.0
+            }
+          },
+          {
+            "lhs_row_id": "17",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.0,
+              "cosine": 2.0,
+              "capacity_aware": 2.0
+            },
+            "llm_ranks": {
+              "no_policy": 2.0,
+              "cosine": 3.0,
+              "capacity_aware": 1.0
+            }
+          },
+          {
+            "lhs_row_id": "31",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.0,
+              "cosine": 2.0,
+              "capacity_aware": 2.0
+            },
+            "llm_ranks": {
+              "no_policy": 2.0,
+              "cosine": 3.0,
+              "capacity_aware": 1.0
+            }
+          },
+          {
+            "lhs_row_id": "39",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.0,
+              "cosine": 2.0,
+              "capacity_aware": 2.0
+            },
+            "llm_ranks": {
+              "no_policy": 2.0,
+              "cosine": 3.0,
+              "capacity_aware": 1.0
+            }
+          }
+        ]
+      }
+    },
+    "metric_overflow_rate_slothall": {
+      "per_lhs": {
+        "0": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 1.0,
+            "capacity_aware": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 1.0,
+            "cosine": 2.0,
+            "capacity_aware": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "no_policy",
+          "top1_match": false,
+          "rho": 0.0,
+          "tau": 0.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "1": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 1.5,
+            "cosine": 1.5,
+            "capacity_aware": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 1.0,
+            "cosine": 2.0,
+            "capacity_aware": 3.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": 0.8660254037844387,
+          "tau": 0.816496580927726,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "2": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 2.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "6": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 1.0,
+            "cosine": 2.0,
+            "capacity_aware": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "no_policy",
+          "top1_match": false,
+          "rho": -0.5,
+          "tau": -0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "12": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 1.5,
+            "cosine": 1.5,
+            "capacity_aware": 3.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "no_policy",
+          "top1_match": false,
+          "rho": -0.8660254037844387,
+          "tau": -0.816496580927726,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "14": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 1.0,
+            "capacity_aware": 2.5
+          },
+          "llm_ranks": {
+            "no_policy": 1.0,
+            "cosine": 2.0,
+            "capacity_aware": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "no_policy",
+          "top1_match": false,
+          "rho": 0.0,
+          "tau": 0.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "17": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 2.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "31": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 2.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        },
+        "33": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "34": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.5,
+            "cosine": 2.5,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 1.0,
+            "cosine": 3.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "no_policy",
+          "top1_match": false,
+          "rho": 0.0,
+          "tau": 0.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "36": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 1.5,
+            "cosine": 1.5,
+            "capacity_aware": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 1.0,
+            "cosine": 2.0,
+            "capacity_aware": 3.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "no_policy",
+          "top1_match": true,
+          "rho": 0.8660254037844387,
+          "tau": 0.816496580927726,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "39": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 2.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "no_policy",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": null,
+          "tau": null,
+          "param_constant_ranks": true,
+          "llm_constant_ranks": false,
+          "degenerate": true
+        }
+      },
+      "rho_summary": {
+        "n": 8,
+        "median": 0.0,
+        "mean": 0.17075317547305485,
+        "min": -0.8660254037844387,
+        "max": 1.0,
+        "p25": -0.125,
+        "p75": 0.8660254037844387
+      },
+      "tau_summary": {
+        "n": 8,
+        "median": 0.0,
+        "mean": 0.1853954059492991
+      },
+      "top1_summary": {
+        "n": 12,
+        "n_match": 3,
+        "fraction_match": 0.25
+      },
+      "top1_nondegenerate_summary": {
+        "n_nondegenerate": 8,
+        "n_match": 3,
+        "fraction_match": 0.375
+      },
+      "degenerate_diagnostic": {
+        "rule": "degenerate = constant ranks on parametric OR LLM side; Spearman ρ then undefined (scipy ConstantInputWarning) and skipped from rho_summary. top-1 with constant ranks deterministically falls to common_pols[0] via argmin tie-breaking — possible fake match.",
+        "n_lhs_total": 12,
+        "n_param_constant_ranks": 4,
+        "n_llm_constant_ranks": 0,
+        "n_either_constant_skipped_from_rho": 4,
+        "n_used_in_rho_summary": 8,
+        "degenerate_lhs": [
+          {
+            "lhs_row_id": "2",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.0,
+              "cosine": 2.0,
+              "capacity_aware": 2.0
+            },
+            "llm_ranks": {
+              "no_policy": 2.0,
+              "cosine": 3.0,
+              "capacity_aware": 1.0
+            }
+          },
+          {
+            "lhs_row_id": "17",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.0,
+              "cosine": 2.0,
+              "capacity_aware": 2.0
+            },
+            "llm_ranks": {
+              "no_policy": 3.0,
+              "cosine": 2.0,
+              "capacity_aware": 1.0
+            }
+          },
+          {
+            "lhs_row_id": "31",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.0,
+              "cosine": 2.0,
+              "capacity_aware": 2.0
+            },
+            "llm_ranks": {
+              "no_policy": 3.0,
+              "cosine": 2.0,
+              "capacity_aware": 1.0
+            }
+          },
+          {
+            "lhs_row_id": "39",
+            "param_constant": true,
+            "llm_constant": false,
+            "param_ranks": {
+              "no_policy": 2.0,
+              "cosine": 2.0,
+              "capacity_aware": 2.0
+            },
+            "llm_ranks": {
+              "no_policy": 3.0,
+              "cosine": 2.0,
+              "capacity_aware": 1.0
+            }
+          }
+        ]
+      }
+    },
+    "metric_hall_utilization_variance": {
+      "per_lhs": {
+        "0": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "1": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "2": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "6": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "12": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "14": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "17": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "31": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "33": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "34": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "capacity_aware",
+          "top1_match": false,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "36": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "39": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 3.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "capacity_aware",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        }
+      },
+      "rho_summary": {
+        "n": 12,
+        "median": 0.5,
+        "mean": 0.5,
+        "min": 0.5,
+        "max": 0.5,
+        "p25": 0.5,
+        "p75": 0.5
+      },
+      "tau_summary": {
+        "n": 12,
+        "median": 0.33333333333333337,
+        "mean": 0.3333333333333334
+      },
+      "top1_summary": {
+        "n": 12,
+        "n_match": 11,
+        "fraction_match": 0.9166666666666666
+      },
+      "top1_nondegenerate_summary": {
+        "n_nondegenerate": 12,
+        "n_match": 11,
+        "fraction_match": 0.9166666666666666
+      },
+      "degenerate_diagnostic": {
+        "rule": "degenerate = constant ranks on parametric OR LLM side; Spearman ρ then undefined (scipy ConstantInputWarning) and skipped from rho_summary. top-1 with constant ranks deterministically falls to common_pols[0] via argmin tie-breaking — possible fake match.",
+        "n_lhs_total": 12,
+        "n_param_constant_ranks": 0,
+        "n_llm_constant_ranks": 0,
+        "n_either_constant_skipped_from_rho": 0,
+        "n_used_in_rho_summary": 12,
+        "degenerate_lhs": []
+      }
+    },
+    "metric_mean_user_utility": {
+      "per_lhs": {
+        "0": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "1": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "2": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "6": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "12": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "14": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "17": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "cosine",
+          "top1_match": false,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "31": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 2.0,
+            "cosine": 1.0,
+            "capacity_aware": 3.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "33": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "34": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 1.0,
+          "tau": 1.0,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "36": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 2.0,
+            "cosine": 1.0,
+            "capacity_aware": 3.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "cosine",
+          "llm_top1": "cosine",
+          "top1_match": true,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        },
+        "39": {
+          "n_policies": 3,
+          "common_policies": [
+            "no_policy",
+            "cosine",
+            "capacity_aware"
+          ],
+          "param_ranks": {
+            "no_policy": 3.0,
+            "cosine": 2.0,
+            "capacity_aware": 1.0
+          },
+          "llm_ranks": {
+            "no_policy": 3.0,
+            "cosine": 1.0,
+            "capacity_aware": 2.0
+          },
+          "param_top1": "capacity_aware",
+          "llm_top1": "cosine",
+          "top1_match": false,
+          "rho": 0.5,
+          "tau": 0.33333333333333337,
+          "param_constant_ranks": false,
+          "llm_constant_ranks": false,
+          "degenerate": false
+        }
+      },
+      "rho_summary": {
+        "n": 12,
+        "median": 1.0,
+        "mean": 0.8333333333333334,
+        "min": 0.5,
+        "max": 1.0,
+        "p25": 0.5,
+        "p75": 1.0
+      },
+      "tau_summary": {
+        "n": 12,
+        "median": 1.0,
+        "mean": 0.777777777777778
+      },
+      "top1_summary": {
+        "n": 12,
+        "n_match": 10,
+        "fraction_match": 0.8333333333333334
+      },
+      "top1_nondegenerate_summary": {
+        "n_nondegenerate": 12,
+        "n_match": 10,
+        "fraction_match": 0.8333333333333334
+      },
+      "degenerate_diagnostic": {
+        "rule": "degenerate = constant ranks on parametric OR LLM side; Spearman ρ then undefined (scipy ConstantInputWarning) and skipped from rho_summary. top-1 with constant ranks deterministically falls to common_pols[0] via argmin tie-breaking — possible fake match.",
+        "n_lhs_total": 12,
+        "n_param_constant_ranks": 0,
+        "n_llm_constant_ranks": 0,
+        "n_either_constant_skipped_from_rho": 0,
+        "n_used_in_rho_summary": 12,
+        "degenerate_lhs": []
+      }
+    }
+  },
+  "rho_overall_across_metrics": {
+    "n": 40,
+    "median": 0.5,
+    "mean": 0.49665063509461105
+  },
+  "acceptance_per_metric": {
+    "metric_mean_overload_excess": {
+      "passed": true,
+      "reason": "median Spearman ρ >= threshold",
+      "median": 0.5,
+      "threshold": 0.5
+    },
+    "metric_overflow_rate_slothall": {
+      "passed": false,
+      "reason": "median Spearman ρ < threshold",
+      "median": 0.0,
+      "threshold": 0.5
+    },
+    "metric_hall_utilization_variance": {
+      "passed": true,
+      "reason": "median Spearman ρ >= threshold",
+      "median": 0.5,
+      "threshold": 0.5
+    },
+    "metric_mean_user_utility": {
+      "passed": true,
+      "reason": "median Spearman ρ >= threshold",
+      "median": 1.0,
+      "threshold": 0.5
+    }
+  },
+  "acceptance_overall": {
+    "passed": true,
+    "reason": "median Spearman ρ >= threshold",
+    "median": 0.5,
+    "threshold": 0.5
+  },
+  "param_input": "analysis_simplified_diagnostic.json",
+  "llm_input": "llm_agents_simplified_stratified_2026-05-12.json"
+}

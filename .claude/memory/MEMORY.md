@@ -28,6 +28,9 @@
 - [Hall-conflict bug в program_modification.py](project_phi_hall_conflict_bug.md) — основной оператор Φ сохраняет hall и не проверяет конфликт залов; исправить в финальной версии после защиты
 - [Результаты прогонов 12.05.2026 (Mobius simplified + Demo Day)](project_results_2026-05-12_simplified_demoday.md) — два дополнительных прогона усиливают позицию: Demo Day 20%→34% cap_aware wins, Mobius simplified 0%→72% на узком capacity. Центральный тезис «cosine не выигрывает у cap_aware» подтверждён на втором инстансе
 - [Perf-bug enumerate_modifications](project_perf_bug_enumerate_modifications.md) — O(N²) deepcopy на больших программах (Demo Day: 886s/908s LHS-прогона); не критично для защиты, исправить в финальной версии
+- [EC smoke на LLM-симуляторе 2026-05-13](project_ec_smoke_llm_2026-05-13.md) — 3/3 EC на LLM проходят (EC1 / EC2 / EC4); EC3 не делается из-за стохастичности; на LHS 102 LLM воспроизводит защитный паттерн no_policy > cosine > cap_aware
+- [Cross-val simplified stratified 2026-05-12/13](project_cross_val_simplified_2026-05-13.md) — overall median ρ=0.5 на пороге PASS (vs 0.77 на основном EN); FAIL по overflow_rate; в основную речь не выносится, держим для Q&A
+- [Production Telegram-bot на Heisenbug](project_production_bot_heisenbug.md) — индустриальный контекст ВКР; телеметрия ~25 активаций / 21 расписание / 7 оценок докладов — иллюстрация недостаточности фактических данных для калибровки модели поведения
 - [Литература и канон валидации](reference_validation_defense.md) — must-cite, канон Sargent / Kleijnen / DMDU / Larooij & Törnberg, distribution-match Meetup ρ=0.438
 - [Обзор предметной области 2026-05-04](research_field_survey_2026-05-04.md) — карта подходов, capacity-aware recsys, LLM-агенты, gap-анализ, плюс EMA-workbench / PRIM как лёгкое усиление
 

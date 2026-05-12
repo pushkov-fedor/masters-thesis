@@ -1,0 +1,272 @@
+{
+  "subset": "stratified_12",
+  "lhs_row_ids": [
+    2,
+    33,
+    34,
+    0,
+    6,
+    12,
+    17,
+    31,
+    39,
+    1,
+    14,
+    36
+  ],
+  "policies": [
+    "no_policy",
+    "cosine",
+    "capacity_aware"
+  ],
+  "ranking_vectors": {
+    "metric_mean_overload_excess": {
+      "2": {
+        "no_policy": 2.0,
+        "cosine": 2.0,
+        "capacity_aware": 2.0
+      },
+      "33": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "34": {
+        "no_policy": 3.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0
+      },
+      "0": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "6": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "12": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "17": {
+        "no_policy": 2.0,
+        "cosine": 2.0,
+        "capacity_aware": 2.0
+      },
+      "31": {
+        "no_policy": 2.0,
+        "cosine": 2.0,
+        "capacity_aware": 2.0
+      },
+      "39": {
+        "no_policy": 2.0,
+        "cosine": 2.0,
+        "capacity_aware": 2.0
+      },
+      "1": {
+        "no_policy": 3.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0
+      },
+      "14": {
+        "no_policy": 3.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0
+      },
+      "36": {
+        "no_policy": 1.0,
+        "cosine": 3.0,
+        "capacity_aware": 2.0
+      }
+    },
+    "metric_overflow_rate_slothall": {
+      "2": {
+        "no_policy": 2.0,
+        "cosine": 2.0,
+        "capacity_aware": 2.0
+      },
+      "33": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "34": {
+        "no_policy": 2.5,
+        "cosine": 2.5,
+        "capacity_aware": 1.0
+      },
+      "0": {
+        "no_policy": 2.5,
+        "cosine": 1.0,
+        "capacity_aware": 2.5
+      },
+      "6": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "12": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "17": {
+        "no_policy": 2.0,
+        "cosine": 2.0,
+        "capacity_aware": 2.0
+      },
+      "31": {
+        "no_policy": 2.0,
+        "cosine": 2.0,
+        "capacity_aware": 2.0
+      },
+      "39": {
+        "no_policy": 2.0,
+        "cosine": 2.0,
+        "capacity_aware": 2.0
+      },
+      "1": {
+        "no_policy": 1.5,
+        "cosine": 1.5,
+        "capacity_aware": 3.0
+      },
+      "14": {
+        "no_policy": 2.5,
+        "cosine": 1.0,
+        "capacity_aware": 2.5
+      },
+      "36": {
+        "no_policy": 1.5,
+        "cosine": 1.5,
+        "capacity_aware": 3.0
+      }
+    },
+    "metric_hall_utilization_variance": {
+      "2": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "33": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "34": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "0": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "6": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "12": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "17": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "31": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "39": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "1": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "14": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      },
+      "36": {
+        "no_policy": 2.0,
+        "cosine": 3.0,
+        "capacity_aware": 1.0
+      }
+    },
+    "metric_mean_user_utility": {
+      "2": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "33": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "34": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "0": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "6": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "12": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "17": {
+        "no_policy": 3.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0
+      },
+      "31": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "39": {
+        "no_policy": 3.0,
+        "cosine": 2.0,
+        "capacity_aware": 1.0
+      },
+      "1": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "14": {
+        "no_policy": 3.0,
+        "cosine": 1.0,
+        "capacity_aware": 2.0
+      },
+      "36": {
+        "no_policy": 2.0,
+        "cosine": 1.0,
+        "capacity_aware": 3.0
+      }
+    }
+  }
+}
