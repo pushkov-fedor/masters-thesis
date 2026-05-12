@@ -1,0 +1,1367 @@
+{
+  "subset": "full_50_p123 + maximin_12_p4_appended",
+  "p123_block": {
+    "epsilon_overload": 0.005,
+    "epsilon_utility": 0.001,
+    "n_points": 150,
+    "n_tradeoff_markers": 6,
+    "tradeoff_markers": [
+      {
+        "lhs_row_id": 0,
+        "a": "cosine",
+        "b": "capacity_aware",
+        "kind": "B_better_overload_worse_utility"
+      },
+      {
+        "lhs_row_id": 7,
+        "a": "cosine",
+        "b": "capacity_aware",
+        "kind": "B_better_overload_worse_utility"
+      },
+      {
+        "lhs_row_id": 26,
+        "a": "no_policy",
+        "b": "cosine",
+        "kind": "A_better_overload_worse_utility"
+      },
+      {
+        "lhs_row_id": 26,
+        "a": "cosine",
+        "b": "capacity_aware",
+        "kind": "B_better_overload_worse_utility"
+      },
+      {
+        "lhs_row_id": 35,
+        "a": "cosine",
+        "b": "capacity_aware",
+        "kind": "B_better_overload_worse_utility"
+      },
+      {
+        "lhs_row_id": 49,
+        "a": "cosine",
+        "b": "capacity_aware",
+        "kind": "B_better_overload_worse_utility"
+      }
+    ],
+    "points": [
+      {
+        "lhs_row_id": 0,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.027044513457556936,
+        "metric_mean_user_utility": -0.0016260321872791142
+      },
+      {
+        "lhs_row_id": 0,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.028312629399585922,
+        "metric_mean_user_utility": 0.012364027427808781
+      },
+      {
+        "lhs_row_id": 0,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.004736024844720497,
+        "metric_mean_user_utility": 0.011058103595402956
+      },
+      {
+        "lhs_row_id": 1,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.002288329519450801,
+        "metric_mean_user_utility": -0.0027402604466520383
+      },
+      {
+        "lhs_row_id": 1,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0007763975155279503,
+        "metric_mean_user_utility": 0.0117816643368098
+      },
+      {
+        "lhs_row_id": 1,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.011026852064172825
+      },
+      {
+        "lhs_row_id": 2,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0022233821445427435
+      },
+      {
+        "lhs_row_id": 2,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0014569191563558498
+      },
+      {
+        "lhs_row_id": 2,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0016458393258203397
+      },
+      {
+        "lhs_row_id": 3,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 1.1966487618661532,
+        "metric_mean_user_utility": 0.0023951008027402816
+      },
+      {
+        "lhs_row_id": 3,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 1.1937153024109548,
+        "metric_mean_user_utility": 0.004307299917563796
+      },
+      {
+        "lhs_row_id": 3,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 1.1568133959438307,
+        "metric_mean_user_utility": 0.0036812342055574324
+      },
+      {
+        "lhs_row_id": 4,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0006461834451848907
+      },
+      {
+        "lhs_row_id": 4,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0032995976316409982
+      },
+      {
+        "lhs_row_id": 4,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0029857278187548565
+      },
+      {
+        "lhs_row_id": 5,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0004370020433617312
+      },
+      {
+        "lhs_row_id": 5,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.015141541568542987
+      },
+      {
+        "lhs_row_id": 5,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.014866451897805312
+      },
+      {
+        "lhs_row_id": 6,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.023420774415223996,
+        "metric_mean_user_utility": -0.0036646212513525307
+      },
+      {
+        "lhs_row_id": 6,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.020447337121712702,
+        "metric_mean_user_utility": -0.0011240309812793775
+      },
+      {
+        "lhs_row_id": 6,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0172189551121096,
+        "metric_mean_user_utility": -0.0014843649218424357
+      },
+      {
+        "lhs_row_id": 7,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.009478050829657636,
+        "metric_mean_user_utility": -0.001675502524102783
+      },
+      {
+        "lhs_row_id": 7,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.01083674648183155,
+        "metric_mean_user_utility": 0.006395068022712145
+      },
+      {
+        "lhs_row_id": 7,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.002717391304347826,
+        "metric_mean_user_utility": 0.005023239326623124
+      },
+      {
+        "lhs_row_id": 8,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.003775799644478996
+      },
+      {
+        "lhs_row_id": 8,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.013242820798075714
+      },
+      {
+        "lhs_row_id": 8,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.012557846602396153
+      },
+      {
+        "lhs_row_id": 9,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.004319512849074922
+      },
+      {
+        "lhs_row_id": 9,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0035345394671561993
+      },
+      {
+        "lhs_row_id": 9,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0033500276413092034
+      },
+      {
+        "lhs_row_id": 10,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0022789727242308712
+      },
+      {
+        "lhs_row_id": 10,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.010169509715411723
+      },
+      {
+        "lhs_row_id": 10,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.009547124914353758
+      },
+      {
+        "lhs_row_id": 11,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.005784632496180988
+      },
+      {
+        "lhs_row_id": 11,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.004616076490423265
+      },
+      {
+        "lhs_row_id": 11,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.004223011922814684
+      },
+      {
+        "lhs_row_id": 12,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -1.5145415506724801e-05
+      },
+      {
+        "lhs_row_id": 12,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.017471518196925034
+      },
+      {
+        "lhs_row_id": 12,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.017235804202971935
+      },
+      {
+        "lhs_row_id": 13,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.001976284584980237,
+        "metric_mean_user_utility": -0.001969486696595725
+      },
+      {
+        "lhs_row_id": 13,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.006836118171728837
+      },
+      {
+        "lhs_row_id": 13,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.005580408629612066
+      },
+      {
+        "lhs_row_id": 14,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.010759771629336846,
+        "metric_mean_user_utility": 0.0023084543939192025
+      },
+      {
+        "lhs_row_id": 14,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.00878348704435661,
+        "metric_mean_user_utility": 0.0053440849098565415
+      },
+      {
+        "lhs_row_id": 14,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.00655294362388184,
+        "metric_mean_user_utility": 0.005268838992370071
+      },
+      {
+        "lhs_row_id": 15,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.001663084195371041
+      },
+      {
+        "lhs_row_id": 15,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.00793069881467437
+      },
+      {
+        "lhs_row_id": 15,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007433891816028682
+      },
+      {
+        "lhs_row_id": 16,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0013270536899134251
+      },
+      {
+        "lhs_row_id": 16,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.009753404173395774
+      },
+      {
+        "lhs_row_id": 16,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.009383556150021918
+      },
+      {
+        "lhs_row_id": 17,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0019150984707604428
+      },
+      {
+        "lhs_row_id": 17,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.008288744244325373
+      },
+      {
+        "lhs_row_id": 17,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007956741949185796
+      },
+      {
+        "lhs_row_id": 18,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.004658385093167702,
+        "metric_mean_user_utility": -0.002826337839706823
+      },
+      {
+        "lhs_row_id": 18,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.003623188405797101,
+        "metric_mean_user_utility": 0.01714807553099014
+      },
+      {
+        "lhs_row_id": 18,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.01566650094991062
+      },
+      {
+        "lhs_row_id": 19,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0029665192774873937
+      },
+      {
+        "lhs_row_id": 19,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.008063181116206882
+      },
+      {
+        "lhs_row_id": 19,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007042645402751597
+      },
+      {
+        "lhs_row_id": 20,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.006265337578675133
+      },
+      {
+        "lhs_row_id": 20,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.006465925872492205
+      },
+      {
+        "lhs_row_id": 20,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.006460730893082828
+      },
+      {
+        "lhs_row_id": 21,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.003395159945440745
+      },
+      {
+        "lhs_row_id": 21,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0033570467625811166
+      },
+      {
+        "lhs_row_id": 21,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.002997124164955624
+      },
+      {
+        "lhs_row_id": 22,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.002637273821857802
+      },
+      {
+        "lhs_row_id": 22,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0066882854475850415
+      },
+      {
+        "lhs_row_id": 22,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.006684310689091771
+      },
+      {
+        "lhs_row_id": 23,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0007591124359307633
+      },
+      {
+        "lhs_row_id": 23,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007065001414074296
+      },
+      {
+        "lhs_row_id": 23,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007022506311685512
+      },
+      {
+        "lhs_row_id": 24,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0034757302547361525
+      },
+      {
+        "lhs_row_id": 24,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007148320856642732
+      },
+      {
+        "lhs_row_id": 24,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007024498110210212
+      },
+      {
+        "lhs_row_id": 25,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0002647778140575004
+      },
+      {
+        "lhs_row_id": 25,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.008186915864020454
+      },
+      {
+        "lhs_row_id": 25,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007406578077990118
+      },
+      {
+        "lhs_row_id": 26,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.1729510408945893,
+        "metric_mean_user_utility": -0.0033079092035352784
+      },
+      {
+        "lhs_row_id": 26,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.1914701415928625,
+        "metric_mean_user_utility": 0.012231669607752424
+      },
+      {
+        "lhs_row_id": 26,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.08004964005139321,
+        "metric_mean_user_utility": 0.009127441933725052
+      },
+      {
+        "lhs_row_id": 27,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0004625346901017576,
+        "metric_mean_user_utility": -0.003930581146102798
+      },
+      {
+        "lhs_row_id": 27,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.002717391304347826,
+        "metric_mean_user_utility": -0.0008563905491610058
+      },
+      {
+        "lhs_row_id": 27,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.001213322017491529
+      },
+      {
+        "lhs_row_id": 28,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.000866499128183239
+      },
+      {
+        "lhs_row_id": 28,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0038452756343065717
+      },
+      {
+        "lhs_row_id": 28,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0039046452120168225
+      },
+      {
+        "lhs_row_id": 29,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.002094486339857602
+      },
+      {
+        "lhs_row_id": 29,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.012476698774594947
+      },
+      {
+        "lhs_row_id": 29,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.01213615048410637
+      },
+      {
+        "lhs_row_id": 30,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0041096519563801675
+      },
+      {
+        "lhs_row_id": 30,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0017696301131287502
+      },
+      {
+        "lhs_row_id": 30,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0020594900407429253
+      },
+      {
+        "lhs_row_id": 31,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0003022898347366468
+      },
+      {
+        "lhs_row_id": 31,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.015724797489071664
+      },
+      {
+        "lhs_row_id": 31,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.014837980907260706
+      },
+      {
+        "lhs_row_id": 32,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0897636340378356,
+        "metric_mean_user_utility": -0.0028128133496336106
+      },
+      {
+        "lhs_row_id": 32,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.09226160865301249,
+        "metric_mean_user_utility": -0.002373845913846578
+      },
+      {
+        "lhs_row_id": 32,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.08616235769006636,
+        "metric_mean_user_utility": -0.002482564749994448
+      },
+      {
+        "lhs_row_id": 33,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0006587615283267457,
+        "metric_mean_user_utility": -0.0033446569180731398
+      },
+      {
+        "lhs_row_id": 33,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0013175230566534915,
+        "metric_mean_user_utility": 0.014835561484339581
+      },
+      {
+        "lhs_row_id": 33,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.013730559809482656
+      },
+      {
+        "lhs_row_id": 34,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0027759373445102637
+      },
+      {
+        "lhs_row_id": 34,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.003250788631253055
+      },
+      {
+        "lhs_row_id": 34,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0028296107149799353
+      },
+      {
+        "lhs_row_id": 35,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.2184856285971847,
+        "metric_mean_user_utility": 0.002915815019015489
+      },
+      {
+        "lhs_row_id": 35,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.2175993343041398,
+        "metric_mean_user_utility": 0.009167764491742543
+      },
+      {
+        "lhs_row_id": 35,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.15654687608348936,
+        "metric_mean_user_utility": 0.007127686351928527
+      },
+      {
+        "lhs_row_id": 36,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.1406999756424309,
+        "metric_mean_user_utility": 0.0014072975114686414
+      },
+      {
+        "lhs_row_id": 36,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.12514919011082695,
+        "metric_mean_user_utility": 0.00314479093053489
+      },
+      {
+        "lhs_row_id": 36,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.12126720253318718,
+        "metric_mean_user_utility": 0.0028859381128789946
+      },
+      {
+        "lhs_row_id": 37,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.003824768288124845,
+        "metric_mean_user_utility": -0.0016778812152084097
+      },
+      {
+        "lhs_row_id": 37,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0030520454058684944,
+        "metric_mean_user_utility": 0.007055937353455062
+      },
+      {
+        "lhs_row_id": 37,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.006290864081363127
+      },
+      {
+        "lhs_row_id": 38,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.001867334862306182
+      },
+      {
+        "lhs_row_id": 38,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.005569923855641502
+      },
+      {
+        "lhs_row_id": 38,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.00513290377538873
+      },
+      {
+        "lhs_row_id": 39,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0017584103075759707
+      },
+      {
+        "lhs_row_id": 39,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007405665090828691
+      },
+      {
+        "lhs_row_id": 39,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.00705864667182877
+      },
+      {
+        "lhs_row_id": 40,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0006761431516635986
+      },
+      {
+        "lhs_row_id": 40,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.010118568958049374
+      },
+      {
+        "lhs_row_id": 40,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.009920794652065352
+      },
+      {
+        "lhs_row_id": 41,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.002326190307545143
+      },
+      {
+        "lhs_row_id": 41,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.008782370042920646
+      },
+      {
+        "lhs_row_id": 41,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.008227172213041091
+      },
+      {
+        "lhs_row_id": 42,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.002760025763667987
+      },
+      {
+        "lhs_row_id": 42,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0005122039925828133
+      },
+      {
+        "lhs_row_id": 42,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0005023945432012191
+      },
+      {
+        "lhs_row_id": 43,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0020703933747412005,
+        "metric_mean_user_utility": -0.0023791499731790583
+      },
+      {
+        "lhs_row_id": 43,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0020703933747412005,
+        "metric_mean_user_utility": 0.014034135400738923
+      },
+      {
+        "lhs_row_id": 43,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.013053353670485584
+      },
+      {
+        "lhs_row_id": 44,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0014381745363131076
+      },
+      {
+        "lhs_row_id": 44,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.01227921958419583
+      },
+      {
+        "lhs_row_id": 44,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.01238083923484997
+      },
+      {
+        "lhs_row_id": 45,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.003999073934530662
+      },
+      {
+        "lhs_row_id": 45,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.014183736822451465
+      },
+      {
+        "lhs_row_id": 45,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.013822944053875593
+      },
+      {
+        "lhs_row_id": 46,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0033116903020085635
+      },
+      {
+        "lhs_row_id": 46,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.01306165647859286
+      },
+      {
+        "lhs_row_id": 46,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.012503781352300264
+      },
+      {
+        "lhs_row_id": 47,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.003918832578970718
+      },
+      {
+        "lhs_row_id": 47,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.002484472049689441,
+        "metric_mean_user_utility": 0.012591949247351814
+      },
+      {
+        "lhs_row_id": 47,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.01186423234427431
+      },
+      {
+        "lhs_row_id": 48,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.00023047394920251376
+      },
+      {
+        "lhs_row_id": 48,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.008697072329093879
+      },
+      {
+        "lhs_row_id": 48,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0084520492388124
+      },
+      {
+        "lhs_row_id": 49,
+        "policy": "no_policy",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.5265768937393651,
+        "metric_mean_user_utility": -0.00012046364930159013
+      },
+      {
+        "lhs_row_id": 49,
+        "policy": "cosine",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.515554773220677,
+        "metric_mean_user_utility": 0.010855927512789744
+      },
+      {
+        "lhs_row_id": 49,
+        "policy": "capacity_aware",
+        "is_maximin_point": false,
+        "metric_mean_overload_excess": 0.36534060904770277,
+        "metric_mean_user_utility": 0.0076173884443622745
+      }
+    ]
+  },
+  "maximin_full_block": {
+    "epsilon_overload": 0.005,
+    "epsilon_utility": 0.001,
+    "n_points": 36,
+    "n_tradeoff_markers": 1,
+    "tradeoff_markers": [
+      {
+        "lhs_row_id": 7,
+        "a": "cosine",
+        "b": "capacity_aware",
+        "kind": "B_better_overload_worse_utility"
+      }
+    ],
+    "points": [
+      {
+        "lhs_row_id": 6,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.023420774415223996,
+        "metric_mean_user_utility": -0.0036646212513525307
+      },
+      {
+        "lhs_row_id": 6,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.020447337121712702,
+        "metric_mean_user_utility": -0.0011240309812793775
+      },
+      {
+        "lhs_row_id": 6,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0172189551121096,
+        "metric_mean_user_utility": -0.0014843649218424357
+      },
+      {
+        "lhs_row_id": 7,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.009478050829657636,
+        "metric_mean_user_utility": -0.001675502524102783
+      },
+      {
+        "lhs_row_id": 7,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.01083674648183155,
+        "metric_mean_user_utility": 0.006395068022712145
+      },
+      {
+        "lhs_row_id": 7,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.002717391304347826,
+        "metric_mean_user_utility": 0.005023239326623124
+      },
+      {
+        "lhs_row_id": 13,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.001976284584980237,
+        "metric_mean_user_utility": -0.001969486696595725
+      },
+      {
+        "lhs_row_id": 13,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.006836118171728837
+      },
+      {
+        "lhs_row_id": 13,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.005580408629612066
+      },
+      {
+        "lhs_row_id": 18,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.004658385093167702,
+        "metric_mean_user_utility": -0.002826337839706823
+      },
+      {
+        "lhs_row_id": 18,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.003623188405797101,
+        "metric_mean_user_utility": 0.01714807553099014
+      },
+      {
+        "lhs_row_id": 18,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.01566650094991062
+      },
+      {
+        "lhs_row_id": 23,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0007591124359307633
+      },
+      {
+        "lhs_row_id": 23,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007065001414074296
+      },
+      {
+        "lhs_row_id": 23,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.007022506311685512
+      },
+      {
+        "lhs_row_id": 27,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0004625346901017576,
+        "metric_mean_user_utility": -0.003930581146102798
+      },
+      {
+        "lhs_row_id": 27,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.002717391304347826,
+        "metric_mean_user_utility": -0.0008563905491610058
+      },
+      {
+        "lhs_row_id": 27,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.001213322017491529
+      },
+      {
+        "lhs_row_id": 31,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0003022898347366468
+      },
+      {
+        "lhs_row_id": 31,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.015724797489071664
+      },
+      {
+        "lhs_row_id": 31,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.014837980907260706
+      },
+      {
+        "lhs_row_id": 34,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0027759373445102637
+      },
+      {
+        "lhs_row_id": 34,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.003250788631253055
+      },
+      {
+        "lhs_row_id": 34,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0028296107149799353
+      },
+      {
+        "lhs_row_id": 36,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.1406999756424309,
+        "metric_mean_user_utility": 0.0014072975114686414
+      },
+      {
+        "lhs_row_id": 36,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.12514919011082695,
+        "metric_mean_user_utility": 0.00314479093053489
+      },
+      {
+        "lhs_row_id": 36,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.12126720253318718,
+        "metric_mean_user_utility": 0.0028859381128789946
+      },
+      {
+        "lhs_row_id": 42,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.002760025763667987
+      },
+      {
+        "lhs_row_id": 42,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0005122039925828133
+      },
+      {
+        "lhs_row_id": 42,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.0005023945432012191
+      },
+      {
+        "lhs_row_id": 45,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": -0.003999073934530662
+      },
+      {
+        "lhs_row_id": 45,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.014183736822451465
+      },
+      {
+        "lhs_row_id": 45,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.013822944053875593
+      },
+      {
+        "lhs_row_id": 48,
+        "policy": "no_policy",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.00023047394920251376
+      },
+      {
+        "lhs_row_id": 48,
+        "policy": "cosine",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.008697072329093879
+      },
+      {
+        "lhs_row_id": 48,
+        "policy": "capacity_aware",
+        "is_maximin_point": true,
+        "metric_mean_overload_excess": 0.0,
+        "metric_mean_user_utility": 0.0084520492388124
+      }
+    ]
+  }
+}

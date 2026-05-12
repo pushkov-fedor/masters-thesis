@@ -1,0 +1,857 @@
+{
+  "purpose": "Sanity-проверка: median overload = 0 в full-50 не означает «capacity слишком мягкая», это структурное свойство сценарного анализа — большинство LHS-точек безопасные. Главная ценность DSS — в нахождении и количественной оценке стрессовых сценариев.",
+  "conference": {
+    "loaded": true,
+    "conference_json_path": "/Users/fedor/Study/masters-degree/experiments/data/conferences/demo_day_2026_en.json",
+    "name": "Demo Day ITMO 2026 (English)",
+    "population_for_capacity": 100,
+    "n_slots": 56,
+    "n_plenary_slots": 10,
+    "n_parallel_slots": 46,
+    "per_slot_capacity_min": 100,
+    "per_slot_capacity_mean": 100.57142857142857,
+    "per_slot_capacity_max": 102,
+    "base_halls": [
+      {
+        "id": 1,
+        "capacity": 100
+      },
+      {
+        "id": 2,
+        "capacity": 100
+      },
+      {
+        "id": 3,
+        "capacity": 100
+      },
+      {
+        "id": 4,
+        "capacity": 100
+      },
+      {
+        "id": 5,
+        "capacity": 100
+      },
+      {
+        "id": 6,
+        "capacity": 100
+      },
+      {
+        "id": 8,
+        "capacity": 100
+      }
+    ],
+    "base_total_halls_capacity": 700,
+    "slot_capacity_breakdown": [
+      {
+        "slot_id": "slot_00",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_01",
+        "n_active_halls": 6,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_02",
+        "n_active_halls": 6,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_03",
+        "n_active_halls": 6,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_04",
+        "n_active_halls": 6,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_05",
+        "n_active_halls": 5,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_06",
+        "n_active_halls": 6,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_07",
+        "n_active_halls": 6,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_08",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_09",
+        "n_active_halls": 5,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_10",
+        "n_active_halls": 6,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_11",
+        "n_active_halls": 5,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_12",
+        "n_active_halls": 6,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_13",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_14",
+        "n_active_halls": 6,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_15",
+        "n_active_halls": 5,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_16",
+        "n_active_halls": 3,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_17",
+        "n_active_halls": 5,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_18",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_19",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_20",
+        "n_active_halls": 5,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_21",
+        "n_active_halls": 2,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_22",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_23",
+        "n_active_halls": 5,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_24",
+        "n_active_halls": 5,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_25",
+        "n_active_halls": 5,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_26",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_27",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_28",
+        "n_active_halls": 2,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_29",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_30",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_31",
+        "n_active_halls": 3,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_32",
+        "n_active_halls": 2,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_33",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_34",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_35",
+        "n_active_halls": 3,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_36",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_37",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_38",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_39",
+        "n_active_halls": 3,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_40",
+        "n_active_halls": 2,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_41",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_42",
+        "n_active_halls": 3,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_43",
+        "n_active_halls": 2,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_44",
+        "n_active_halls": 3,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_45",
+        "n_active_halls": 3,
+        "total_capacity": 102
+      },
+      {
+        "slot_id": "slot_46",
+        "n_active_halls": 2,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_47",
+        "n_active_halls": 4,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_48",
+        "n_active_halls": 2,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_49",
+        "n_active_halls": 2,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_50",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_51",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_52",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_53",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_54",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      },
+      {
+        "slot_id": "slot_55",
+        "n_active_halls": 1,
+        "total_capacity": 100
+      }
+    ]
+  },
+  "lhs_distribution": {
+    "n_lhs_total": 50,
+    "buckets": {
+      "stress[0.5,1)": {
+        "n_lhs": 10,
+        "by_audience": {
+          "30": {
+            "n_lhs": 4,
+            "lhs_row_ids": [
+              8,
+              13,
+              14,
+              38
+            ]
+          },
+          "60": {
+            "n_lhs": 3,
+            "lhs_row_ids": [
+              7,
+              26,
+              36
+            ]
+          },
+          "100": {
+            "n_lhs": 3,
+            "lhs_row_ids": [
+              3,
+              35,
+              49
+            ]
+          }
+        }
+      },
+      "normal[1,2)": {
+        "n_lhs": 21,
+        "by_audience": {
+          "30": {
+            "n_lhs": 5,
+            "lhs_row_ids": [
+              12,
+              19,
+              22,
+              23,
+              30
+            ]
+          },
+          "60": {
+            "n_lhs": 9,
+            "lhs_row_ids": [
+              1,
+              10,
+              11,
+              15,
+              16,
+              18,
+              25,
+              34,
+              43
+            ]
+          },
+          "100": {
+            "n_lhs": 7,
+            "lhs_row_ids": [
+              0,
+              6,
+              27,
+              32,
+              33,
+              37,
+              47
+            ]
+          }
+        }
+      },
+      "loose[2,3]": {
+        "n_lhs": 19,
+        "by_audience": {
+          "30": {
+            "n_lhs": 7,
+            "lhs_row_ids": [
+              20,
+              24,
+              40,
+              42,
+              44,
+              45,
+              48
+            ]
+          },
+          "60": {
+            "n_lhs": 6,
+            "lhs_row_ids": [
+              2,
+              4,
+              5,
+              9,
+              28,
+              39
+            ]
+          },
+          "100": {
+            "n_lhs": 6,
+            "lhs_row_ids": [
+              17,
+              21,
+              29,
+              31,
+              41,
+              46
+            ]
+          }
+        }
+      }
+    },
+    "audience_size_levels": [
+      30,
+      60,
+      100
+    ]
+  },
+  "overload_occurrence": {
+    "n_lhs_total": 50,
+    "n_lhs_with_any_overload_p123": 18,
+    "fraction_lhs_with_any_overload_p123": 0.36,
+    "lhs_row_ids_with_any_overload_p123": [
+      0,
+      1,
+      3,
+      6,
+      7,
+      13,
+      14,
+      18,
+      26,
+      27,
+      32,
+      33,
+      35,
+      36,
+      37,
+      43,
+      47,
+      49
+    ],
+    "per_policy": {
+      "no_policy": {
+        "n_evaluated_lhs": 50,
+        "n_lhs_with_overload": 17,
+        "fraction_nonzero": 0.34,
+        "lhs_row_ids_with_overload": [
+          0,
+          1,
+          3,
+          6,
+          7,
+          13,
+          14,
+          18,
+          26,
+          27,
+          32,
+          33,
+          35,
+          36,
+          37,
+          43,
+          49
+        ]
+      },
+      "cosine": {
+        "n_evaluated_lhs": 50,
+        "n_lhs_with_overload": 17,
+        "fraction_nonzero": 0.34,
+        "lhs_row_ids_with_overload": [
+          0,
+          1,
+          3,
+          6,
+          7,
+          14,
+          18,
+          26,
+          27,
+          32,
+          33,
+          35,
+          36,
+          37,
+          43,
+          47,
+          49
+        ]
+      },
+      "capacity_aware": {
+        "n_evaluated_lhs": 50,
+        "n_lhs_with_overload": 10,
+        "fraction_nonzero": 0.2,
+        "lhs_row_ids_with_overload": [
+          0,
+          3,
+          6,
+          7,
+          14,
+          26,
+          32,
+          35,
+          36,
+          49
+        ]
+      },
+      "llm_ranker": {
+        "n_evaluated_lhs": 0,
+        "n_lhs_with_overload": 0,
+        "fraction_nonzero": null,
+        "lhs_row_ids_with_overload": []
+      }
+    },
+    "pairs_total": 150,
+    "pairs_nonzero": 44
+  },
+  "overload_by_bucket_x_policy": {
+    "stress[0.5,1)": {
+      "no_policy": {
+        "n_lhs_in_bucket": 10,
+        "n_lhs_with_overload": 8,
+        "mean_overload": 0.22775764077836982,
+        "max_overload": 1.1966487618661532
+      },
+      "cosine": {
+        "n_lhs_in_bucket": 10,
+        "n_lhs_with_overload": 7,
+        "mean_overload": 0.2263108975165649,
+        "max_overload": 1.1937153024109548
+      },
+      "capacity_aware": {
+        "n_lhs_in_bucket": 10,
+        "n_lhs_with_overload": 7,
+        "mean_overload": 0.1889288058587833,
+        "max_overload": 1.1568133959438307
+      }
+    },
+    "normal[1,2)": {
+      "no_policy": {
+        "n_lhs_in_bucket": 21,
+        "n_lhs_with_overload": 9,
+        "mean_overload": 0.00734248068592998,
+        "max_overload": 0.0897636340378356
+      },
+      "cosine": {
+        "n_lhs_in_bucket": 21,
+        "n_lhs_with_overload": 10,
+        "mean_overload": 0.007479189823187457,
+        "max_overload": 0.09226160865301249
+      },
+      "capacity_aware": {
+        "n_lhs_in_bucket": 21,
+        "n_lhs_with_overload": 3,
+        "mean_overload": 0.005148444649852212,
+        "max_overload": 0.08616235769006636
+      }
+    },
+    "loose[2,3]": {
+      "no_policy": {
+        "n_lhs_in_bucket": 19,
+        "n_lhs_with_overload": 0,
+        "mean_overload": 0.0,
+        "max_overload": 0.0
+      },
+      "cosine": {
+        "n_lhs_in_bucket": 19,
+        "n_lhs_with_overload": 0,
+        "mean_overload": 0.0,
+        "max_overload": 0.0
+      },
+      "capacity_aware": {
+        "n_lhs_in_bucket": 19,
+        "n_lhs_with_overload": 0,
+        "mean_overload": 0.0,
+        "max_overload": 0.0
+      }
+    }
+  },
+  "capacity_aware_effect": {
+    "subset_definition": "risk-positive LHS-row: LHS-row, на которых хотя бы у одной из П1–П3 median overload > 0. Не путать с capacity-stress bucket [0.5, 1.0) по capacity_multiplier — это разные выборки (risk-positive 13/50; cap-stress 10/50).",
+    "n_risk_positive_lhs": 18,
+    "n_capacity_aware_strictly_better_by_eps": 9,
+    "n_capacity_aware_no_worse_by_eps": 18,
+    "fraction_strict_wins_among_risk_positive": 0.5,
+    "fraction_no_worse_among_risk_positive": 1.0,
+    "epsilon": 0.005,
+    "interpretation_note": "«strictly better by ε»: capacity_aware median overload строго ниже max(no_policy, cosine) более чем на ε. «no_worse by ε»: capacity_aware median overload не превышает max(no_policy, cosine) более чем на ε.",
+    "per_lhs_breakdown": [
+      {
+        "lhs_row_id": 0,
+        "capacity_multiplier": 1.4078589077930963,
+        "audience_size": 100,
+        "no_policy": 0.027044513457556936,
+        "cosine": 0.028312629399585922,
+        "capacity_aware": 0.004736024844720497,
+        "reduction_vs_cosine": 0.023576604554865425,
+        "reduction_vs_no_policy": 0.02230848861283644,
+        "capacity_aware_strictly_better": true
+      },
+      {
+        "lhs_row_id": 1,
+        "capacity_multiplier": 1.1100046679050473,
+        "audience_size": 60,
+        "no_policy": 0.002288329519450801,
+        "cosine": 0.0007763975155279503,
+        "capacity_aware": 0.0,
+        "reduction_vs_cosine": 0.0007763975155279503,
+        "reduction_vs_no_policy": 0.002288329519450801,
+        "capacity_aware_strictly_better": false
+      },
+      {
+        "lhs_row_id": 3,
+        "capacity_multiplier": 0.534432544189839,
+        "audience_size": 100,
+        "no_policy": 1.1966487618661532,
+        "cosine": 1.1937153024109548,
+        "capacity_aware": 1.1568133959438307,
+        "reduction_vs_cosine": 0.0369019064671241,
+        "reduction_vs_no_policy": 0.03983536592232251,
+        "capacity_aware_strictly_better": true
+      },
+      {
+        "lhs_row_id": 6,
+        "capacity_multiplier": 1.3840326049865799,
+        "audience_size": 100,
+        "no_policy": 0.023420774415223996,
+        "cosine": 0.020447337121712702,
+        "capacity_aware": 0.0172189551121096,
+        "reduction_vs_cosine": 0.0032283820096031014,
+        "reduction_vs_no_policy": 0.0062018193031143955,
+        "capacity_aware_strictly_better": true
+      },
+      {
+        "lhs_row_id": 7,
+        "capacity_multiplier": 0.9140526242680163,
+        "audience_size": 60,
+        "no_policy": 0.009478050829657636,
+        "cosine": 0.01083674648183155,
+        "capacity_aware": 0.002717391304347826,
+        "reduction_vs_cosine": 0.008119355177483724,
+        "reduction_vs_no_policy": 0.00676065952530981,
+        "capacity_aware_strictly_better": true
+      },
+      {
+        "lhs_row_id": 13,
+        "capacity_multiplier": 0.6657772195836948,
+        "audience_size": 30,
+        "no_policy": 0.001976284584980237,
+        "cosine": 0.0,
+        "capacity_aware": 0.0,
+        "reduction_vs_cosine": 0.0,
+        "reduction_vs_no_policy": 0.001976284584980237,
+        "capacity_aware_strictly_better": false
+      },
+      {
+        "lhs_row_id": 14,
+        "capacity_multiplier": 0.5445505367768867,
+        "audience_size": 30,
+        "no_policy": 0.010759771629336846,
+        "cosine": 0.00878348704435661,
+        "capacity_aware": 0.00655294362388184,
+        "reduction_vs_cosine": 0.00223054342047477,
+        "reduction_vs_no_policy": 0.004206828005455006,
+        "capacity_aware_strictly_better": false
+      },
+      {
+        "lhs_row_id": 18,
+        "capacity_multiplier": 1.0402672607980472,
+        "audience_size": 60,
+        "no_policy": 0.004658385093167702,
+        "cosine": 0.003623188405797101,
+        "capacity_aware": 0.0,
+        "reduction_vs_cosine": 0.003623188405797101,
+        "reduction_vs_no_policy": 0.004658385093167702,
+        "capacity_aware_strictly_better": false
+      },
+      {
+        "lhs_row_id": 26,
+        "capacity_multiplier": 0.6293971827288529,
+        "audience_size": 60,
+        "no_policy": 0.1729510408945893,
+        "cosine": 0.1914701415928625,
+        "capacity_aware": 0.08004964005139321,
+        "reduction_vs_cosine": 0.11142050154146928,
+        "reduction_vs_no_policy": 0.09290140084319608,
+        "capacity_aware_strictly_better": true
+      },
+      {
+        "lhs_row_id": 27,
+        "capacity_multiplier": 1.8856533686956491,
+        "audience_size": 100,
+        "no_policy": 0.0004625346901017576,
+        "cosine": 0.002717391304347826,
+        "capacity_aware": 0.0,
+        "reduction_vs_cosine": 0.002717391304347826,
+        "reduction_vs_no_policy": 0.0004625346901017576,
+        "capacity_aware_strictly_better": false
+      },
+      {
+        "lhs_row_id": 32,
+        "capacity_multiplier": 1.1267969964202653,
+        "audience_size": 100,
+        "no_policy": 0.0897636340378356,
+        "cosine": 0.09226160865301249,
+        "capacity_aware": 0.08616235769006636,
+        "reduction_vs_cosine": 0.006099250962946126,
+        "reduction_vs_no_policy": 0.0036012763477692444,
+        "capacity_aware_strictly_better": true
+      },
+      {
+        "lhs_row_id": 33,
+        "capacity_multiplier": 1.9418837907717625,
+        "audience_size": 100,
+        "no_policy": 0.0006587615283267457,
+        "cosine": 0.0013175230566534915,
+        "capacity_aware": 0.0,
+        "reduction_vs_cosine": 0.0013175230566534915,
+        "reduction_vs_no_policy": 0.0006587615283267457,
+        "capacity_aware_strictly_better": false
+      },
+      {
+        "lhs_row_id": 35,
+        "capacity_multiplier": 0.9626157979592529,
+        "audience_size": 100,
+        "no_policy": 0.2184856285971847,
+        "cosine": 0.2175993343041398,
+        "capacity_aware": 0.15654687608348936,
+        "reduction_vs_cosine": 0.061052458220650446,
+        "reduction_vs_no_policy": 0.06193875251369535,
+        "capacity_aware_strictly_better": true
+      },
+      {
+        "lhs_row_id": 36,
+        "capacity_multiplier": 0.6961006803825321,
+        "audience_size": 60,
+        "no_policy": 0.1406999756424309,
+        "cosine": 0.12514919011082695,
+        "capacity_aware": 0.12126720253318718,
+        "reduction_vs_cosine": 0.0038819875776397728,
+        "reduction_vs_no_policy": 0.01943277310924371,
+        "capacity_aware_strictly_better": true
+      },
+      {
+        "lhs_row_id": 37,
+        "capacity_multiplier": 1.6840524820913523,
+        "audience_size": 100,
+        "no_policy": 0.003824768288124845,
+        "cosine": 0.0030520454058684944,
+        "capacity_aware": 0.0,
+        "reduction_vs_cosine": 0.0030520454058684944,
+        "reduction_vs_no_policy": 0.003824768288124845,
+        "capacity_aware_strictly_better": false
+      },
+      {
+        "lhs_row_id": 43,
+        "capacity_multiplier": 1.2317694883501318,
+        "audience_size": 60,
+        "no_policy": 0.0020703933747412005,
+        "cosine": 0.0020703933747412005,
+        "capacity_aware": 0.0,
+        "reduction_vs_cosine": 0.0020703933747412005,
+        "reduction_vs_no_policy": 0.0020703933747412005,
+        "capacity_aware_strictly_better": false
+      },
+      {
+        "lhs_row_id": 47,
+        "capacity_multiplier": 1.7571215099754938,
+        "audience_size": 100,
+        "no_policy": 0.0,
+        "cosine": 0.002484472049689441,
+        "capacity_aware": 0.0,
+        "reduction_vs_cosine": 0.002484472049689441,
+        "reduction_vs_no_policy": 0.0,
+        "capacity_aware_strictly_better": false
+      },
+      {
+        "lhs_row_id": 49,
+        "capacity_multiplier": 0.7736911178776708,
+        "audience_size": 100,
+        "no_policy": 0.5265768937393651,
+        "cosine": 0.515554773220677,
+        "capacity_aware": 0.36534060904770277,
+        "reduction_vs_cosine": 0.15021416417297423,
+        "reduction_vs_no_policy": 0.16123628469166235,
+        "capacity_aware_strictly_better": true
+      }
+    ]
+  },
+  "critical_infeasible_lhs": {
+    "rule": "audience_size > per-slot-capacity × capacity_multiplier (на параллельном слоте). При концентрации аудитории в один зал переполнение математически неизбежно.",
+    "n_critical": 3,
+    "lhs": [
+      {
+        "lhs_row_id": 3,
+        "capacity_multiplier": 0.534432544189839,
+        "audience_size": 100,
+        "effective_per_slot_capacity": 53.4432544189839,
+        "audience_minus_capacity": 46.5567455810161,
+        "interpretation": "audience > per-slot capacity → physical overload неизбежен при концентрации в один зал; ни одна политика не может полностью спасти"
+      },
+      {
+        "lhs_row_id": 35,
+        "capacity_multiplier": 0.9626157979592529,
+        "audience_size": 100,
+        "effective_per_slot_capacity": 96.26157979592529,
+        "audience_minus_capacity": 3.738420204074714,
+        "interpretation": "audience > per-slot capacity → physical overload неизбежен при концентрации в один зал; ни одна политика не может полностью спасти"
+      },
+      {
+        "lhs_row_id": 49,
+        "capacity_multiplier": 0.7736911178776708,
+        "audience_size": 100,
+        "effective_per_slot_capacity": 77.36911178776708,
+        "audience_minus_capacity": 22.630888212232918,
+        "interpretation": "audience > per-slot capacity → physical overload неизбежен при концентрации в один зал; ни одна политика не может полностью спасти"
+      }
+    ]
+  },
+  "interpretation_for_defense": [
+    "Большинство LHS-точек (≈74 % на mobius) — безопасные сценарии: overload = 0 у всех 4 политик; эти точки нужны как контраст, а не как «провал политики».",
+    "Risk-positive LHS-точек (median overload > 0 хотя бы у одной из П1–П3) ≈26 %; на этом подмножестве capacity_aware снижает или сохраняет overload относительно max(no_policy, cosine) за ε и в большинстве случаев строго снижает риск перегрузки за ε. Точные доли — в полях `fraction_no_worse_among_risk_positive` и `fraction_strict_wins_among_risk_positive`.",
+    "«Risk-positive» подмножество (по факту overload > 0) и capacity-stress bucket [0.5, 1.0) (по capacity_multiplier) — разные выборки. Risk-positive получается шире stress-bucket: часть нормальных-cap_m точек становится risk-positive из-за сочетания audience=100 и tight-normal cap_m.",
+    "Критические infeasible-точки (audience > per-slot capacity × capacity_multiplier) — physical overload неустраним никакой политикой; эти LHS-row показывают границу управляемости и тоже нужны в выборке.",
+    "audience_size grid {30, 60, 100} согласован с per-slot capacity Mobius (≈102 на параллельный слот при cap_m=1.0); поэтому диапазон capacity_multiplier ∈ [0.5, 3.0] разворачивает сценарии от плотного stress до loose."
+  ]
+}

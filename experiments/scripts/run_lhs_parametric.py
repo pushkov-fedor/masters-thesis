@@ -72,6 +72,11 @@ CONFERENCES: Dict[str, Tuple[str, str, str]] = {
         "data/conferences/mobius_2025_autumn_en_embeddings.npz",
         "data/personas/personas_mobius_en.json",
     ),
+    "demo_day_2026_en": (
+        "data/conferences/demo_day_2026_en.json",
+        "data/conferences/demo_day_2026_en_embeddings.npz",
+        "data/personas/personas_demoday_en.json",
+    ),
     "toy_microconf_2slot": (
         "data/conferences/toy_microconf_2slot.json",
         "data/conferences/toy_microconf_2slot_embeddings.npz",

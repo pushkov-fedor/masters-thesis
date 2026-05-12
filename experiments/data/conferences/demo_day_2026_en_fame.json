@@ -1,0 +1,1903 @@
+{
+  "fame": {
+    "3a60025a-c234-4ebf-99e1-4c2078e27e2a": 0.454,
+    "2674ba4a-7446-4849-b208-ef70d5da516f": 0.109,
+    "137b31c4-05ab-4a95-add0-5fc596947ac1": 0.215,
+    "17359097-f757-4e3e-96e5-cb9edc71a0c5": 0.221,
+    "9ede99aa-4995-44e2-933b-b1c23786b1fc": 0.15,
+    "4bdf66d8-8663-411c-a24b-f2d631a9b834": 0.107,
+    "c92e0165-0232-458a-98a0-49e4cb12f718": 0.096,
+    "874407e0-4603-4aa6-b7fc-58c836ffec54": 0.258,
+    "ff60c13a-357d-449d-8a52-1f27e0ec1813": 0.36,
+    "29167913-afe4-4ec2-992e-0f9434c7769e": 0.196,
+    "e5a8aa90-61c5-41da-aa28-e2d92e1420ea": 0.215,
+    "281c51ee-0138-4774-bc10-5adf2c608d4d": 0.154,
+    "0d1fd49b-c581-4fa0-bc98-3a804ee3a29a": 0.107,
+    "2563f7c8-2f4a-49cd-aaa8-60aa2b094037": 0.242,
+    "70652630-9b32-4e71-b291-b32f900c1548": 0.109,
+    "3ec2c0d4-4c81-4506-b8f2-79ace542b0af": 0.111,
+    "3fa44602-0f92-479c-b2fd-80dc4e7a9d96": 0.103,
+    "c46fff3a-c668-4c6c-82bd-1a0487e5694f": 0.256,
+    "adfb6c36-c6b8-46c5-b3a9-8ccb28f7b4a7": 0.154,
+    "c259f8da-509c-4bc1-a762-89817337f96d": 0.252,
+    "ec007557-f1fc-4e45-8b44-d86157a93333": 0.221,
+    "545fbd33-f58d-4e08-bd13-24fa33f7c770": 0.1,
+    "5caecd51-fe21-43f7-bb2e-7f63d03e47ee": 0.311,
+    "9aae9757-874c-4dc9-99b1-b71efb0a1703": 0.148,
+    "050700b3-0fa5-4be4-9f7c-e376064e0d32": 0.149,
+    "c545a653-4625-43c3-b939-d29b65d30f53": 0.217,
+    "10f6a765-bd32-4d84-893f-54d06f2726a3": 0.111,
+    "edbb8945-0fce-4cf0-87ab-f7b4980064ff": 0.119,
+    "f14aee7a-4f98-4c98-9c16-4802a65ea3dc": 0.107,
+    "f5647b10-0c85-4452-8b00-bb8e3d17958b": 0.159,
+    "3eac741e-be2e-4f1f-80b4-c6c5afce229b": 0.145,
+    "d588a2ff-6729-4577-89a1-ed874e046fb4": 0.109,
+    "326e74cf-60c7-40dc-9b5c-462d258d04f0": 0.107,
+    "ed9cd898-bac9-48e5-a636-ec4e765e0f44": 0.256,
+    "a16fc3f0-c12f-4bac-92d1-65a7b83dab7a": 0.092,
+    "1db2fc77-3e64-4473-a31a-38e6f9ce1504": 0.107,
+    "a6a1b096-9f09-49af-90fa-6c8b0f1f6170": 0.211,
+    "aedd8838-e02f-4903-be31-3ee5be013c19": 0.215,
+    "f1b1a344-63ac-4893-ad85-82eefa52cd32": 0.247,
+    "e35ac9cc-a696-461a-aa1c-f390aa3858ee": 0.239,
+    "a3978633-4391-4ca0-8d31-16a3ec41349a": 0.211,
+    "c8e5f64d-3263-413d-966b-4be2fbefb4ab": 0.607,
+    "3b7af676-fac2-4596-94bc-6b831f41cddd": 0.205,
+    "4f8c4b4c-98af-44a6-a12b-a8046b09c953": 0.294,
+    "fbaab27c-d788-49c5-8e29-52d71368f28d": 0.254,
+    "9cd71658-e286-48f5-a678-0e0eea263bc3": 0.206,
+    "25e8051c-a599-431b-bab2-d228faf890ef": 0.174,
+    "92a63b65-f258-4b77-a0e9-6e4b65f56721": 0.313,
+    "d54a4413-94b7-42c1-884f-a5d2ba99d382": 0.221,
+    "a360dada-d649-4465-8926-d40ac8a2d899": 0.19,
+    "2277050e-a474-4ed1-97f7-5bf2f91d83a0": 0.092,
+    "04ad743f-9228-436e-b5dd-291447df3a01": 0.217,
+    "2e7dfcbc-b5f2-40c8-bd17-af801afe2c9d": 0.171,
+    "7a435d86-7eae-4dfd-8a72-48ccadf256e0": 0.213,
+    "91f5db9c-c0df-41f0-9a1a-5b5ec2920c88": 0.194,
+    "7518aa69-652d-4daf-8c90-5d5e7bd455ab": 0.254,
+    "2f936e74-c7e5-4af6-a4b3-384094d18d01": 0.256,
+    "980d3bb6-9af4-4b7a-806d-a953dc35af32": 0.101,
+    "1f984736-fd6b-40cb-b9cb-aff53eb83d98": 0.111,
+    "450c74b3-0088-4783-bbaa-f90354fc4fa5": 0.254,
+    "a6590de6-9c4f-472a-87d1-dac0488bd09d": 0.103,
+    "0a79fb72-3321-484d-8f06-73a3ac9ca9b7": 0.207,
+    "cc979ea1-ec0d-4cc9-a323-8d820e0b610a": 0.161,
+    "cef4e7b2-e11b-4441-962b-36b6eea80a8f": 0.3,
+    "f20333be-d6cc-4359-b0ef-16735e8e125a": 0.213,
+    "8b0c3d8c-d5cf-4827-b2a6-34fd005a451e": 0.258,
+    "4be243cf-4d39-4c52-8739-a3d0439d95a8": 0.115,
+    "2359e77a-8a24-4b0e-9b01-7b24b2f77099": 0.141,
+    "b41a4b00-4d1b-45cd-8869-dd7d5e3e3f7f": 0.113,
+    "4f3ef429-5a0b-4db6-bf13-487ef09b4fce": 0.101,
+    "a81c6c15-9d53-469a-aeb9-5520fe034157": 0.254,
+    "7552ede6-b2bd-4513-95ef-73d153d69ebe": 0.139,
+    "c1b19ce1-869d-4866-8614-19d1f7200a4c": 0.198,
+    "0d6e20c2-79a5-4b25-a8c8-2eadec83a92a": 0.199,
+    "658bc934-0fde-4cba-9ade-75a70154a371": 0.108,
+    "570e4fc2-0074-46c2-b0e4-32c974af38c4": 0.113,
+    "7f87d0b4-e543-4add-8c69-8459860dd4e8": 0.348,
+    "48082fd4-f932-4111-a29b-14370b2b4199": 0.239,
+    "885d248d-26c3-45ad-8ff3-f895eb024279": 0.202,
+    "e06952f6-197f-467a-9f1a-1ec332b9fb73": 0.107,
+    "b0d6f3cd-957f-434e-93e3-7b5efa1183b9": 0.101,
+    "ca246177-54ac-4b0f-9312-c876caba7039": 0.309,
+    "56277917-1459-4f42-a38f-5e287fc5167c": 0.252,
+    "b262b67e-2fc4-45ac-9a22-978c72187ec8": 0.205,
+    "3b36180e-950e-4789-9fd2-bf1382e2129d": 0.194,
+    "707dbb20-04ae-4aca-b280-d21c4f295f48": 0.203,
+    "e57150a6-7a84-43fa-8fff-5a2c8c03ecd1": 0.213,
+    "33846c37-d338-4417-9050-69b88cedf8b3": 0.213,
+    "3021dcf4-32f0-4420-8afa-5efe0f3c3e63": 0.209,
+    "66f86ae5-4a77-49ff-b3ca-8e8048aaf26b": 0.347,
+    "75921f09-c87b-40a9-934f-b195038867a3": 0.205,
+    "1bdade8d-7b7e-485f-aa69-7ed45b44e430": 0.205,
+    "a07b35b8-cec0-49b0-849c-53a4c9d80a12": 0.117,
+    "a34c37b7-384d-4850-b8b9-e3412da0e4cf": 0.257,
+    "977e1847-974e-4e2b-ba8b-0ed8adc334be": 0.262,
+    "97e82b03-c843-4fd6-a9f6-4d4f6a0bca0b": 0.207,
+    "e0905bed-0b2d-4165-8ad3-e84c8d02704e": 0.217,
+    "2fd899ee-452d-42d3-9021-7cdea9bdd036": 0.207,
+    "ab6bdb70-8bbe-4968-a120-b5f2ea6b6c9c": 0.306,
+    "0b776672-daaa-45f2-89da-b4c4aedfa1f6": 0.359,
+    "7102c089-6b72-4eaa-9f51-a2e4e9dd6504": 0.133,
+    "ecc09a02-0089-433c-9b9b-2b95c9547e3c": 0.239,
+    "424459a1-26d0-41d1-ad62-c047fedc8b40": 0.169,
+    "a658c594-4481-46a0-8cba-00d05e6d10d5": 0.233,
+    "96b29bb7-d08d-41a9-a649-0f1f42fe3748": 0.123,
+    "66fb487a-054e-4e14-bd65-857e9c420af2": 0.215,
+    "d008032d-371d-4b66-94b5-a43a582d07c7": 0.113,
+    "9562d347-e362-4bd5-ba27-c859f5feca30": 0.279,
+    "aa4bd07a-fa26-49b8-ab90-2624b3579812": 0.606,
+    "70bc1e49-17b3-4dab-8a36-84c0ea0b393d": 0.271,
+    "2338f2e9-b5a5-41c0-8ee4-30c57ae3221f": 0.203,
+    "6899f31f-32cf-45dd-bb50-fabe0fc43394": 0.15,
+    "fd00c8cb-4bc6-44cc-aec8-440e3dcaf205": 0.26,
+    "50b98ab2-0c7b-4dd0-861f-10f11f480fbd": 0.115,
+    "b14d42fa-db81-41e2-960a-c931bbca7fe0": 0.154,
+    "25bacf8c-8657-412a-9996-929be594c4c3": 0.115,
+    "f36406ad-de2d-4f42-a8a5-4b83101eb3b7": 0.215,
+    "79394990-7bcc-4f7e-8e9a-f3aa34aaf46e": 0.158,
+    "c922dc06-c8a5-4c53-99db-f7921e4cd7e3": 0.19,
+    "a24de2ba-5e51-44fc-a517-ba2d8e792905": 0.198,
+    "756ee48e-d5b1-45f9-95cd-00c0aad1a931": 0.205,
+    "bdefc5d2-c922-4799-95c9-ecc412d667c0": 0.294,
+    "a02fc1ee-7e2f-4ead-81c0-0e91b37fea75": 0.514,
+    "5f9a6e03-84be-42c4-989b-e99e74d8e0e9": 0.407,
+    "38863e6f-a341-4e14-a5e2-87c3f5923091": 0.505,
+    "428750b4-1e3a-462f-a736-7559c955874d": 0.393,
+    "34ff6a22-6b9b-49de-ae23-133c4dd28108": 0.45,
+    "3328e55c-7b0f-478a-bba6-5611d43c94ad": 0.299,
+    "617dd5b7-581a-48c9-bf48-783b3c1e710d": 0.225,
+    "18744af1-d7bd-4508-ad1a-2e2f3afb96cc": 0.211,
+    "002dc769-f3f1-4df0-b0e5-fc07ae6955c7": 0.101,
+    "12a08201-2b11-48ea-8b4b-5864341f5ab5": 0.254,
+    "80385980-31c7-4de8-8287-826ddaa357e3": 0.26,
+    "62c702f3-09f1-440e-902c-c8d7b6634692": 0.193,
+    "b8828735-ec4c-49fd-aa31-eb5e99bc7c3d": 0.2,
+    "3584829f-0225-4b76-ab26-a6737536f516": 0.131,
+    "cb773ca5-a95f-4c4c-8f76-1c944436e7d0": 0.117,
+    "35c09bfd-216c-4104-859b-0d650f891548": 0.094,
+    "070ac77d-8d93-4ccf-ab4f-7f6ebb873578": 0.237,
+    "db9e14cc-b26c-4a79-a17f-34e1326997ed": 0.123,
+    "07ea01a6-da59-46c1-8149-65143176f040": 0.213,
+    "2e815a53-b458-4745-91fc-447852262a7c": 0.319,
+    "0f11dcd1-6f68-4810-b82c-55ffc9a3db43": 0.227,
+    "4b704bb9-7703-4cf3-bd41-292eea55a5b7": 0.309,
+    "613385f7-eff2-434d-af0c-c5a22af56501": 0.143,
+    "b12f83ea-42d4-42e7-9967-e4a59ea81324": 0.203,
+    "34a00afd-aff8-4344-8fdd-39b7625faf22": 0.284,
+    "31998789-7b6b-4538-994e-26b39e851174": 0.358,
+    "3580b702-e657-477a-94b5-50ef0b5ca646": 0.275,
+    "aeb503db-277d-449d-80c1-38afb19e36f7": 0.26,
+    "03220496-cbaf-4a8f-9a86-8bd88852175d": 0.251,
+    "3ff0046d-3368-46ce-bf45-23618d7dd9b0": 0.275,
+    "d086abc9-a511-4ea7-8611-6cb042c035aa": 0.375,
+    "e6609c3c-ad2a-4865-8e39-068fc66e9f56": 0.373,
+    "6c9cbf86-5d58-4197-99af-5f5e67751801": 0.253,
+    "d3fa414c-4008-4148-a4ad-879c75ae8e0e": 0.275,
+    "5e6634d4-8ab1-4c82-8db8-812657583a63": 0.275,
+    "62e4b60a-11c3-4107-a858-ef59a87e51f9": 0.275,
+    "09eae996-e9a0-4e33-bbee-07a23521457b": 0.26,
+    "4f92c1df-cdb7-4b45-978a-0e7055d87f0f": 0.275,
+    "1cb6dfa3-6a9a-4991-8237-bb3ca6fda427": 0.267,
+    "cdd8369d-47c2-4195-9112-34556f1522b7": 0.275,
+    "25c79403-88c9-4d2e-8db6-3e0ed2e9f55b": 0.26,
+    "345b46c8-8ad7-4f3a-b6e4-9baa92074877": 0.26,
+    "d9e57827-1a08-49c7-9020-22d546b8bb0b": 0.275,
+    "2288d692-1c78-4e28-b5dd-2be8d46da5c9": 0.347,
+    "a8675bd6-9a7d-416a-b76b-5079742b2372": 0.375,
+    "dadaf6ee-4e9d-4ac4-8ff8-d4e6143a30d0": 0.275,
+    "c68402b0-8754-4f9a-b20c-e07529e07e76": 0.375,
+    "807de48e-effe-42a6-837f-e9c56f86730e": 0.375,
+    "ccfbefd4-f913-46d2-816c-0d08d3c1d978": 0.375,
+    "0a2f9248-f54a-4929-be5c-7d6edbf1ff56": 0.375,
+    "1d74866d-a62b-4669-88b2-d16f3887fbdb": 0.367,
+    "2e1b7077-ea19-4fee-bcd1-d872f53b4011": 0.246,
+    "a15a38c2-ba33-4771-b14f-3806e9df779b": 0.375,
+    "44287ecc-0982-4fac-8f0b-00db4785af94": 0.275,
+    "e511834f-1803-46c8-a4d0-3a76e294d591": 0.675,
+    "bb025247-6099-4338-a258-7728876f20f5": 0.359,
+    "731b44d4-eb2d-401b-8519-acd93024c685": 0.375,
+    "f22cea8c-e0d7-4107-97fd-3642bb8dc1ce": 0.275,
+    "23c1c3e3-1e6f-4a9a-ad2d-0ac23930f74c": 0.275,
+    "4bae40a2-4f91-43f2-bd18-973a6b45cee2": 0.275,
+    "4e213d22-5a94-4821-9810-39510f6da735": 0.32,
+    "c46e0586-10d3-4167-8096-b1cd7b1959bc": 0.275,
+    "f073185d-2a21-4960-87f6-3c328e12c7f1": 0.261,
+    "7dcc8f7b-7885-45a3-9d7f-48a1b2cb265e": 0.275,
+    "3567ede2-0246-4104-8778-88fa8e28cff4": 0.375,
+    "1ee830b3-358f-443b-83db-49f2590bcbc0": 0.275,
+    "823ab482-0c51-4e8f-b2d0-ed6fd344572d": 0.32,
+    "3281ff45-9205-46f0-9545-55822b710f53": 0.245,
+    "b557f62f-906a-4a69-af72-aedcf0b5a590": 0.275,
+    "08f8a369-d0fd-4cee-838e-565e49547a41": 0.275,
+    "a4e0f3b0-224a-43de-b5f1-5fa461dc61b6": 0.271,
+    "79c201b3-616d-429b-b680-e97039343746": 0.275,
+    "d6a68412-32d0-4366-b2ee-f7e83773177b": 0.32,
+    "55299c77-7427-4156-a14c-373eaaa72de0": 0.275,
+    "2569fb05-f558-494e-a2fa-af2991f572ae": 0.359,
+    "bfa734a7-c046-43bd-b8f7-b0d6aaebf7ba": 0.375,
+    "63de3fc2-21bd-4c3c-8b04-7835aad36d9a": 0.559,
+    "66c3a57a-fb4d-4ec9-b385-9475ca8de935": 0.375,
+    "6fc731fb-9175-42a5-b562-eb1b72738af8": 0.26,
+    "45232dbd-b6f7-4326-bdbf-8227e467062b": 0.26,
+    "31f67935-f59b-4cfa-8df4-eb556fc1e0ee": 0.275,
+    "13123e3d-db06-46c8-b093-b004b6eb07e9": 0.275,
+    "33fb81b0-411d-40e6-8bc1-d75ba4b406b8": 0.275,
+    "9072663b-c74d-4ebd-8ba6-d5e13eabc9c3": 0.375,
+    "528ca6bc-3852-483f-b482-5f7f9a398342": 0.275,
+    "38ba560b-70d5-4e7b-8ae2-e70fc32d0a0a": 0.375,
+    "ae8902f8-3b57-43fd-86d7-724a5d8e8731": 0.275,
+    "7d694758-3051-451e-a5f6-8c56acb63dac": 0.575
+  },
+  "detailed": {
+    "3a60025a-c234-4ebf-99e1-4c2078e27e2a": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.454
+    },
+    "2674ba4a-7446-4849-b208-ef70d5da516f": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.109
+    },
+    "137b31c4-05ab-4a95-add0-5fc596947ac1": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.215
+    },
+    "17359097-f757-4e3e-96e5-cb9edc71a0c5": {
+      "abstract_length": 0.23,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.221
+    },
+    "9ede99aa-4995-44e2-933b-b1c23786b1fc": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.15
+    },
+    "4bdf66d8-8663-411c-a24b-f2d631a9b834": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.107
+    },
+    "c92e0165-0232-458a-98a0-49e4cb12f718": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.096
+    },
+    "874407e0-4603-4aa6-b7fc-58c836ffec54": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.258
+    },
+    "ff60c13a-357d-449d-8a52-1f27e0ec1813": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.8,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.36
+    },
+    "29167913-afe4-4ec2-992e-0f9434c7769e": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.196
+    },
+    "e5a8aa90-61c5-41da-aa28-e2d92e1420ea": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.215
+    },
+    "281c51ee-0138-4774-bc10-5adf2c608d4d": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.154
+    },
+    "0d1fd49b-c581-4fa0-bc98-3a804ee3a29a": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.107
+    },
+    "2563f7c8-2f4a-49cd-aaa8-60aa2b094037": {
+      "abstract_length": 0.11,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.242
+    },
+    "70652630-9b32-4e71-b291-b32f900c1548": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.109
+    },
+    "3ec2c0d4-4c81-4506-b8f2-79ace542b0af": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.111
+    },
+    "3fa44602-0f92-479c-b2fd-80dc4e7a9d96": {
+      "abstract_length": 0.14,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.103
+    },
+    "c46fff3a-c668-4c6c-82bd-1a0487e5694f": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.256
+    },
+    "adfb6c36-c6b8-46c5-b3a9-8ccb28f7b4a7": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.154
+    },
+    "c259f8da-509c-4bc1-a762-89817337f96d": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.252
+    },
+    "ec007557-f1fc-4e45-8b44-d86157a93333": {
+      "abstract_length": 0.23,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.221
+    },
+    "545fbd33-f58d-4e08-bd13-24fa33f7c770": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.1
+    },
+    "5caecd51-fe21-43f7-bb2e-7f63d03e47ee": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.5,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.311
+    },
+    "9aae9757-874c-4dc9-99b1-b71efb0a1703": {
+      "abstract_length": 0.14,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.148
+    },
+    "050700b3-0fa5-4be4-9f7c-e376064e0d32": {
+      "abstract_length": 0.37,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.149
+    },
+    "c545a653-4625-43c3-b939-d29b65d30f53": {
+      "abstract_length": 0.21,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.217
+    },
+    "10f6a765-bd32-4d84-893f-54d06f2726a3": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.111
+    },
+    "edbb8945-0fce-4cf0-87ab-f7b4980064ff": {
+      "abstract_length": 0.22,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.119
+    },
+    "f14aee7a-4f98-4c98-9c16-4802a65ea3dc": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.107
+    },
+    "f5647b10-0c85-4452-8b00-bb8e3d17958b": {
+      "abstract_length": 0.42,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.159
+    },
+    "3eac741e-be2e-4f1f-80b4-c6c5afce229b": {
+      "abstract_length": 0.35,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.145
+    },
+    "d588a2ff-6729-4577-89a1-ed874e046fb4": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.109
+    },
+    "326e74cf-60c7-40dc-9b5c-462d258d04f0": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.107
+    },
+    "ed9cd898-bac9-48e5-a636-ec4e765e0f44": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.256
+    },
+    "a16fc3f0-c12f-4bac-92d1-65a7b83dab7a": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.092
+    },
+    "1db2fc77-3e64-4473-a31a-38e6f9ce1504": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.107
+    },
+    "a6a1b096-9f09-49af-90fa-6c8b0f1f6170": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.211
+    },
+    "aedd8838-e02f-4903-be31-3ee5be013c19": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.215
+    },
+    "f1b1a344-63ac-4893-ad85-82eefa52cd32": {
+      "abstract_length": 0.36,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.247
+    },
+    "e35ac9cc-a696-461a-aa1c-f390aa3858ee": {
+      "abstract_length": 0.32,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.239
+    },
+    "a3978633-4391-4ca0-8d31-16a3ec41349a": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.211
+    },
+    "c8e5f64d-3263-413d-966b-4be2fbefb4ab": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 1.0,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.607
+    },
+    "3b7af676-fac2-4596-94bc-6b831f41cddd": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.205
+    },
+    "4f8c4b4c-98af-44a6-a12b-a8046b09c953": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.4,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.294
+    },
+    "fbaab27c-d788-49c5-8e29-52d71368f28d": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.254
+    },
+    "9cd71658-e286-48f5-a678-0e0eea263bc3": {
+      "abstract_length": 0.23,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.206
+    },
+    "25e8051c-a599-431b-bab2-d228faf890ef": {
+      "abstract_length": 0.07,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.174
+    },
+    "92a63b65-f258-4b77-a0e9-6e4b65f56721": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.5,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.313
+    },
+    "d54a4413-94b7-42c1-884f-a5d2ba99d382": {
+      "abstract_length": 0.23,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.221
+    },
+    "a360dada-d649-4465-8926-d40ac8a2d899": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.19
+    },
+    "2277050e-a474-4ed1-97f7-5bf2f91d83a0": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.092
+    },
+    "04ad743f-9228-436e-b5dd-291447df3a01": {
+      "abstract_length": 0.21,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.217
+    },
+    "2e7dfcbc-b5f2-40c8-bd17-af801afe2c9d": {
+      "abstract_length": 0.48,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.171
+    },
+    "7a435d86-7eae-4dfd-8a72-48ccadf256e0": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.213
+    },
+    "91f5db9c-c0df-41f0-9a1a-5b5ec2920c88": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.194
+    },
+    "7518aa69-652d-4daf-8c90-5d5e7bd455ab": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.254
+    },
+    "2f936e74-c7e5-4af6-a4b3-384094d18d01": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.256
+    },
+    "980d3bb6-9af4-4b7a-806d-a953dc35af32": {
+      "abstract_length": 0.13,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.101
+    },
+    "1f984736-fd6b-40cb-b9cb-aff53eb83d98": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.111
+    },
+    "450c74b3-0088-4783-bbaa-f90354fc4fa5": {
+      "abstract_length": 0.47,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.254
+    },
+    "a6590de6-9c4f-472a-87d1-dac0488bd09d": {
+      "abstract_length": 0.14,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.103
+    },
+    "0a79fb72-3321-484d-8f06-73a3ac9ca9b7": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.207
+    },
+    "cc979ea1-ec0d-4cc9-a323-8d820e0b610a": {
+      "abstract_length": 0.43,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.161
+    },
+    "cef4e7b2-e11b-4441-962b-36b6eea80a8f": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.4,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.3
+    },
+    "f20333be-d6cc-4359-b0ef-16735e8e125a": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.213
+    },
+    "8b0c3d8c-d5cf-4827-b2a6-34fd005a451e": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.258
+    },
+    "4be243cf-4d39-4c52-8739-a3d0439d95a8": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.115
+    },
+    "2359e77a-8a24-4b0e-9b01-7b24b2f77099": {
+      "abstract_length": 0.33,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.141
+    },
+    "b41a4b00-4d1b-45cd-8869-dd7d5e3e3f7f": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.113
+    },
+    "4f3ef429-5a0b-4db6-bf13-487ef09b4fce": {
+      "abstract_length": 0.13,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.101
+    },
+    "a81c6c15-9d53-469a-aeb9-5520fe034157": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.254
+    },
+    "7552ede6-b2bd-4513-95ef-73d153d69ebe": {
+      "abstract_length": 0.32,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.139
+    },
+    "c1b19ce1-869d-4866-8614-19d1f7200a4c": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.198
+    },
+    "0d6e20c2-79a5-4b25-a8c8-2eadec83a92a": {
+      "abstract_length": 0.12,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.199
+    },
+    "658bc934-0fde-4cba-9ade-75a70154a371": {
+      "abstract_length": 0.24,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.108
+    },
+    "570e4fc2-0074-46c2-b0e4-32c974af38c4": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.113
+    },
+    "7f87d0b4-e543-4add-8c69-8459860dd4e8": {
+      "abstract_length": 0.14,
+      "coauthor_count": 0.8,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.348
+    },
+    "48082fd4-f932-4111-a29b-14370b2b4199": {
+      "abstract_length": 0.32,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.239
+    },
+    "885d248d-26c3-45ad-8ff3-f895eb024279": {
+      "abstract_length": 0.21,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.202
+    },
+    "e06952f6-197f-467a-9f1a-1ec332b9fb73": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.107
+    },
+    "b0d6f3cd-957f-434e-93e3-7b5efa1183b9": {
+      "abstract_length": 0.13,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.101
+    },
+    "ca246177-54ac-4b0f-9312-c876caba7039": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.5,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.309
+    },
+    "56277917-1459-4f42-a38f-5e287fc5167c": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.252
+    },
+    "b262b67e-2fc4-45ac-9a22-978c72187ec8": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.205
+    },
+    "3b36180e-950e-4789-9fd2-bf1382e2129d": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.194
+    },
+    "707dbb20-04ae-4aca-b280-d21c4f295f48": {
+      "abstract_length": 0.14,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.203
+    },
+    "e57150a6-7a84-43fa-8fff-5a2c8c03ecd1": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.213
+    },
+    "33846c37-d338-4417-9050-69b88cedf8b3": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.213
+    },
+    "3021dcf4-32f0-4420-8afa-5efe0f3c3e63": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.209
+    },
+    "66f86ae5-4a77-49ff-b3ca-8e8048aaf26b": {
+      "abstract_length": 0.36,
+      "coauthor_count": 0.5,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.347
+    },
+    "75921f09-c87b-40a9-934f-b195038867a3": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.205
+    },
+    "1bdade8d-7b7e-485f-aa69-7ed45b44e430": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.205
+    },
+    "a07b35b8-cec0-49b0-849c-53a4c9d80a12": {
+      "abstract_length": 0.21,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.117
+    },
+    "a34c37b7-384d-4850-b8b9-e3412da0e4cf": {
+      "abstract_length": 0.41,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.257
+    },
+    "977e1847-974e-4e2b-ba8b-0ed8adc334be": {
+      "abstract_length": 0.21,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.262
+    },
+    "97e82b03-c843-4fd6-a9f6-4d4f6a0bca0b": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.207
+    },
+    "e0905bed-0b2d-4165-8ad3-e84c8d02704e": {
+      "abstract_length": 0.21,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.217
+    },
+    "2fd899ee-452d-42d3-9021-7cdea9bdd036": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.207
+    },
+    "ab6bdb70-8bbe-4968-a120-b5f2ea6b6c9c": {
+      "abstract_length": 0.43,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.306
+    },
+    "0b776672-daaa-45f2-89da-b4c4aedfa1f6": {
+      "abstract_length": 0.92,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.359
+    },
+    "7102c089-6b72-4eaa-9f51-a2e4e9dd6504": {
+      "abstract_length": 0.29,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.133
+    },
+    "ecc09a02-0089-433c-9b9b-2b95c9547e3c": {
+      "abstract_length": 0.32,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.239
+    },
+    "424459a1-26d0-41d1-ad62-c047fedc8b40": {
+      "abstract_length": 0.47,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.169
+    },
+    "a658c594-4481-46a0-8cba-00d05e6d10d5": {
+      "abstract_length": 0.29,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.233
+    },
+    "96b29bb7-d08d-41a9-a649-0f1f42fe3748": {
+      "abstract_length": 0.24,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.123
+    },
+    "66fb487a-054e-4e14-bd65-857e9c420af2": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.215
+    },
+    "d008032d-371d-4b66-94b5-a43a582d07c7": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.113
+    },
+    "9562d347-e362-4bd5-ba27-c859f5feca30": {
+      "abstract_length": 0.52,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.279
+    },
+    "aa4bd07a-fa26-49b8-ab90-2624b3579812": {
+      "abstract_length": 0.43,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.606
+    },
+    "70bc1e49-17b3-4dab-8a36-84c0ea0b393d": {
+      "abstract_length": 0.48,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.271
+    },
+    "2338f2e9-b5a5-41c0-8ee4-30c57ae3221f": {
+      "abstract_length": 0.14,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.203
+    },
+    "6899f31f-32cf-45dd-bb50-fabe0fc43394": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.15
+    },
+    "fd00c8cb-4bc6-44cc-aec8-440e3dcaf205": {
+      "abstract_length": 0.5,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.26
+    },
+    "50b98ab2-0c7b-4dd0-861f-10f11f480fbd": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.115
+    },
+    "b14d42fa-db81-41e2-960a-c931bbca7fe0": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.154
+    },
+    "25bacf8c-8657-412a-9996-929be594c4c3": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.115
+    },
+    "f36406ad-de2d-4f42-a8a5-4b83101eb3b7": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.215
+    },
+    "79394990-7bcc-4f7e-8e9a-f3aa34aaf46e": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.158
+    },
+    "c922dc06-c8a5-4c53-99db-f7921e4cd7e3": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.19
+    },
+    "a24de2ba-5e51-44fc-a517-ba2d8e792905": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.198
+    },
+    "756ee48e-d5b1-45f9-95cd-00c0aad1a931": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.205
+    },
+    "bdefc5d2-c922-4799-95c9-ecc412d667c0": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.4,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.294
+    },
+    "a02fc1ee-7e2f-4ead-81c0-0e91b37fea75": {
+      "abstract_length": 0.27,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.514
+    },
+    "5f9a6e03-84be-42c4-989b-e99e74d8e0e9": {
+      "abstract_length": 0.16,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.407
+    },
+    "38863e6f-a341-4e14-a5e2-87c3f5923091": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.505
+    },
+    "428750b4-1e3a-462f-a736-7559c955874d": {
+      "abstract_length": 0.09,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.393
+    },
+    "34ff6a22-6b9b-49de-ae23-133c4dd28108": {
+      "abstract_length": 0.15,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.45
+    },
+    "3328e55c-7b0f-478a-bba6-5611d43c94ad": {
+      "abstract_length": 0.12,
+      "coauthor_count": 0.5,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.299
+    },
+    "617dd5b7-581a-48c9-bf48-783b3c1e710d": {
+      "abstract_length": 0.25,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.225
+    },
+    "18744af1-d7bd-4508-ad1a-2e2f3afb96cc": {
+      "abstract_length": 0.18,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.211
+    },
+    "002dc769-f3f1-4df0-b0e5-fc07ae6955c7": {
+      "abstract_length": 0.13,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.101
+    },
+    "12a08201-2b11-48ea-8b4b-5864341f5ab5": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.254
+    },
+    "80385980-31c7-4de8-8287-826ddaa357e3": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.26
+    },
+    "62c702f3-09f1-440e-902c-c8d7b6634692": {
+      "abstract_length": 0.09,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.193
+    },
+    "b8828735-ec4c-49fd-aa31-eb5e99bc7c3d": {
+      "abstract_length": 0.2,
+      "coauthor_count": 0.4,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.2
+    },
+    "3584829f-0225-4b76-ab26-a6737536f516": {
+      "abstract_length": 0.28,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.131
+    },
+    "cb773ca5-a95f-4c4c-8f76-1c944436e7d0": {
+      "abstract_length": 0.21,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.117
+    },
+    "35c09bfd-216c-4104-859b-0d650f891548": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.094
+    },
+    "070ac77d-8d93-4ccf-ab4f-7f6ebb873578": {
+      "abstract_length": 0.31,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.237
+    },
+    "db9e14cc-b26c-4a79-a17f-34e1326997ed": {
+      "abstract_length": 0.24,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.123
+    },
+    "07ea01a6-da59-46c1-8149-65143176f040": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.213
+    },
+    "2e815a53-b458-4745-91fc-447852262a7c": {
+      "abstract_length": 0.22,
+      "coauthor_count": 0.5,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.319
+    },
+    "0f11dcd1-6f68-4810-b82c-55ffc9a3db43": {
+      "abstract_length": 0.26,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.227
+    },
+    "4b704bb9-7703-4cf3-bd41-292eea55a5b7": {
+      "abstract_length": 0.17,
+      "coauthor_count": 0.5,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.309
+    },
+    "613385f7-eff2-434d-af0c-c5a22af56501": {
+      "abstract_length": 0.34,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.143
+    },
+    "b12f83ea-42d4-42e7-9967-e4a59ea81324": {
+      "abstract_length": 0.14,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.203
+    },
+    "34a00afd-aff8-4344-8fdd-39b7625faf22": {
+      "abstract_length": 0.32,
+      "coauthor_count": 0.8,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.284
+    },
+    "31998789-7b6b-4538-994e-26b39e851174": {
+      "abstract_length": 0.19,
+      "coauthor_count": 0.8,
+      "category_hype": 1.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.358
+    },
+    "3580b702-e657-477a-94b5-50ef0b5ca646": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "aeb503db-277d-449d-80c1-38afb19e36f7": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.26
+    },
+    "03220496-cbaf-4a8f-9a86-8bd88852175d": {
+      "abstract_length": 0.88,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.251
+    },
+    "3ff0046d-3368-46ce-bf45-23618d7dd9b0": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "d086abc9-a511-4ea7-8611-6cb042c035aa": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "e6609c3c-ad2a-4865-8e39-068fc66e9f56": {
+      "abstract_length": 0.99,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.373
+    },
+    "6c9cbf86-5d58-4197-99af-5f5e67751801": {
+      "abstract_length": 0.89,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.253
+    },
+    "d3fa414c-4008-4148-a4ad-879c75ae8e0e": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "5e6634d4-8ab1-4c82-8db8-812657583a63": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "62e4b60a-11c3-4107-a858-ef59a87e51f9": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "09eae996-e9a0-4e33-bbee-07a23521457b": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.26
+    },
+    "4f92c1df-cdb7-4b45-978a-0e7055d87f0f": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "1cb6dfa3-6a9a-4991-8237-bb3ca6fda427": {
+      "abstract_length": 0.96,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.267
+    },
+    "cdd8369d-47c2-4195-9112-34556f1522b7": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "25c79403-88c9-4d2e-8db6-3e0ed2e9f55b": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.26
+    },
+    "345b46c8-8ad7-4f3a-b6e4-9baa92074877": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.26
+    },
+    "d9e57827-1a08-49c7-9020-22d546b8bb0b": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "2288d692-1c78-4e28-b5dd-2be8d46da5c9": {
+      "abstract_length": 0.86,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.347
+    },
+    "a8675bd6-9a7d-416a-b76b-5079742b2372": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "dadaf6ee-4e9d-4ac4-8ff8-d4e6143a30d0": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "c68402b0-8754-4f9a-b20c-e07529e07e76": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "807de48e-effe-42a6-837f-e9c56f86730e": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "ccfbefd4-f913-46d2-816c-0d08d3c1d978": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "0a2f9248-f54a-4929-be5c-7d6edbf1ff56": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "1d74866d-a62b-4669-88b2-d16f3887fbdb": {
+      "abstract_length": 0.96,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.367
+    },
+    "2e1b7077-ea19-4fee-bcd1-d872f53b4011": {
+      "abstract_length": 0.93,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.246
+    },
+    "a15a38c2-ba33-4771-b14f-3806e9df779b": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "44287ecc-0982-4fac-8f0b-00db4785af94": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "e511834f-1803-46c8-a4d0-3a76e294d591": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.675
+    },
+    "bb025247-6099-4338-a258-7728876f20f5": {
+      "abstract_length": 0.92,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.359
+    },
+    "731b44d4-eb2d-401b-8519-acd93024c685": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "f22cea8c-e0d7-4107-97fd-3642bb8dc1ce": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "23c1c3e3-1e6f-4a9a-ad2d-0ac23930f74c": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "4bae40a2-4f91-43f2-bd18-973a6b45cee2": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "4e213d22-5a94-4821-9810-39510f6da735": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.32
+    },
+    "c46e0586-10d3-4167-8096-b1cd7b1959bc": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "f073185d-2a21-4960-87f6-3c328e12c7f1": {
+      "abstract_length": 0.93,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.261
+    },
+    "7dcc8f7b-7885-45a3-9d7f-48a1b2cb265e": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "3567ede2-0246-4104-8778-88fa8e28cff4": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "1ee830b3-358f-443b-83db-49f2590bcbc0": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "823ab482-0c51-4e8f-b2d0-ed6fd344572d": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.32
+    },
+    "3281ff45-9205-46f0-9545-55822b710f53": {
+      "abstract_length": 0.85,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.245
+    },
+    "b557f62f-906a-4a69-af72-aedcf0b5a590": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "08f8a369-d0fd-4cee-838e-565e49547a41": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "a4e0f3b0-224a-43de-b5f1-5fa461dc61b6": {
+      "abstract_length": 0.98,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.271
+    },
+    "79c201b3-616d-429b-b680-e97039343746": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "d6a68412-32d0-4366-b2ee-f7e83773177b": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.8,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.32
+    },
+    "55299c77-7427-4156-a14c-373eaaa72de0": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "2569fb05-f558-494e-a2fa-af2991f572ae": {
+      "abstract_length": 0.92,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.359
+    },
+    "bfa734a7-c046-43bd-b8f7-b0d6aaebf7ba": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "63de3fc2-21bd-4c3c-8b04-7835aad36d9a": {
+      "abstract_length": 0.92,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.559
+    },
+    "66c3a57a-fb4d-4ec9-b385-9475ca8de935": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "6fc731fb-9175-42a5-b562-eb1b72738af8": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.26
+    },
+    "45232dbd-b6f7-4326-bdbf-8227e467062b": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.4,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.26
+    },
+    "31f67935-f59b-4cfa-8df4-eb556fc1e0ee": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "13123e3d-db06-46c8-b093-b004b6eb07e9": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "33fb81b0-411d-40e6-8bc1-d75ba4b406b8": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "9072663b-c74d-4ebd-8ba6-d5e13eabc9c3": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "528ca6bc-3852-483f-b482-5f7f9a398342": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "38ba560b-70d5-4e7b-8ae2-e70fc32d0a0a": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.5,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.375
+    },
+    "ae8902f8-3b57-43fd-86d7-724a5d8e8731": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 0.0,
+      "company": 0.0,
+      "final": 0.275
+    },
+    "7d694758-3051-451e-a5f6-8c56acb63dac": {
+      "abstract_length": 1.0,
+      "coauthor_count": 0.5,
+      "category_hype": 0.0,
+      "slot_position": 1.0,
+      "company": 0.0,
+      "final": 0.575
+    }
+  },
+  "weights": {
+    "abstract_length": 0.2,
+    "coauthor_count": 0.15,
+    "category_hype": 0.2,
+    "slot_position": 0.3,
+    "company": 0.15
+  }
+}

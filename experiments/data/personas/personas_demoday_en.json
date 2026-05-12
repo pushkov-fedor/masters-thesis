@@ -1,0 +1,2632 @@
+[
+  {
+    "id": "p_demoday_001",
+    "role": "AI Agent Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "LangGraph",
+      "AutoGen",
+      "Code agents"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "Autonomous agents",
+      "LLM"
+    ],
+    "background": "Senior AI Agent Engineer at a large financial services firm, leading a team of four building autonomous code-generation and debugging agents using LangGraph and AutoGen. Currently architecting a multi-turn agent system that autonomously resolves customer support tickets by executing Python scripts and querying internal APIs. Has shipped production agents handling ~10K daily interactions with 94% resolution rate without human escalation. Seeks conference insights into advanced agent orchestration patterns, real-world scaling challenges beyond toy benchmarks, and emerging techniques for deterministic agent behavior in high-stakes environments."
+  },
+  {
+    "id": "p_demoday_002",
+    "role": "Senior Analyst",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "ClickHouse",
+      "Causal inference",
+      "A/B testing",
+      "Looker",
+      "Cohort analysis"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Analytics"
+    ],
+    "background": "Senior Analytics lead at a midsize e-commerce platform managing a team of three data analysts and one junior ML engineer, responsible for all experimentation and causal inference workflows. Owns the entire A/B testing infrastructure built on ClickHouse for sub-second query performance across billions of events, with Looker dashboards driving 50+ concurrent experiments monthly. Recently implemented propensity score matching and instrumental variable methods to isolate causal effects in observational cohort data, improving incrementality estimates by 23%. Attending to deepen expertise in modern causal inference techniques, learn production-grade ML approaches for attribution modeling, and explore advanced cohort segmentation strategies."
+  },
+  {
+    "id": "p_demoday_003",
+    "role": "Computer Vision Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "3D reconstruction",
+      "Edge deployment",
+      "OCR",
+      "Pose estimation"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "OCR"
+    ],
+    "background": "Senior Computer Vision Engineer at a midsize logistics startup building real-time document processing and warehouse automation systems. Maintains production pipelines for OCR-based invoice parsing (PyTorch + TorchScript) deployed on edge devices with <200ms latency constraints, processing 50K+ documents daily with 96% accuracy. Recently led 3D reconstruction work for autonomous pallet detection using structure-from-motion, integrating pose estimation models to guide robotic arms. Seeking conference exposure to state-of-the-art OCR architectures, efficient edge deployment strategies for vision models, and novel approaches to 3D scene understanding in constrained industrial environments."
+  },
+  {
+    "id": "p_demoday_004",
+    "role": "Fraud Detection ML Engineer",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "Credit scoring",
+      "Anti-money-laundering",
+      "Behavioural scoring"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Industrial ML"
+    ],
+    "background": "Principal ML Engineer and fraud platform lead at a midsize fintech company, overseeing architecture and deployment of real-time fraud and credit risk systems serving 2M+ active users. Designed behavioral scoring models combining transaction patterns, device fingerprinting, and network analysis to detect AML-flagged activity with 99.2% precision at 0.8% recall. Owns credit scoring pipeline combining traditional rule-based systems with gradient boosting models, reducing default rates by 18% while maintaining regulatory compliance across multiple jurisdictions. Attending to benchmark emerging techniques in behavioral biometrics, explore federated learning for privacy-preserving credit models, and discuss production challenges in deploying high-stakes financial ML systems at scale."
+  },
+  {
+    "id": "p_demoday_005",
+    "role": "Multi-Agent Systems Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Code agents",
+      "Agent evaluation",
+      "Memory and planning",
+      "LangGraph",
+      "AutoGen"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents",
+      "Agents"
+    ],
+    "background": "Middle-level Multi-Agent Systems Engineer at a midsize SaaS platform building collaborative AI agents for software development workflows. Working on a team of five engineers implementing LangGraph-based agent frameworks where specialized agents (code reviewer, test writer, documentation generator) coordinate via shared memory and planning modules to autonomously handle pull requests. Currently prototyping agent evaluation frameworks to measure hallucination rates, task completion accuracy, and inter-agent communication efficiency across different LLM backbones. Eager to learn production-grade agent evaluation methodologies, explore advanced memory architectures for long-running agent systems, and understand how to design robust planning mechanisms that prevent agent loops and failures."
+  },
+  {
+    "id": "p_demoday_006",
+    "role": "AI Agent Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "OpenAI Assistants",
+      "Browser agents",
+      "Reasoning loops",
+      "Memory and planning"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Works at a mid-sized SaaS company building autonomous workflow agents that integrate with enterprise tools via browser automation. Currently architecting multi-step reasoning loops using OpenAI Assistants API to handle customer support ticket triage and resolution, with persistent memory across conversation sessions. The team of four engineers is struggling with state management across long-running agent interactions and wants to learn production patterns for scaling agent reasoning without ballooning token costs. Seeks conference insights on planning mechanisms and memory optimization strategies that can improve agent reliability in unpredictable user scenarios."
+  },
+  {
+    "id": "p_demoday_007",
+    "role": "MLOps Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Data versioning",
+      "Model registry",
+      "Kubernetes",
+      "GPU scheduling"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Senior MLOps architect at a mid-sized fintech firm managing the infrastructure for real-time fraud detection and credit scoring models. Owns the end-to-end ML platform built on Kubernetes with DVC for data versioning and a custom model registry backed by PostgreSQL and S3, handling 50+ model deployments across production and staging. Recently migrated GPU workloads from on-prem to cloud and is optimizing scheduling policies to reduce idle time while maintaining SLA compliance for inference. Attending to benchmark emerging tools for experiment tracking and explore cost-efficient GPU allocation strategies for training large ensemble models."
+  },
+  {
+    "id": "p_demoday_008",
+    "role": "Recommender Systems Engineer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Implicit feedback",
+      "Cold start",
+      "Sequence models",
+      "Multi-stage ranking"
+    ],
+    "preferred_topics": [
+      "Personalization",
+      "RecSys",
+      "Recsys"
+    ],
+    "background": "Builds recommendation systems for a small e-commerce startup with limited labeled data, relying heavily on implicit feedback signals from user browsing and purchase history. Currently implementing a two-stage ranking pipeline with a retrieval model based on collaborative filtering and a sequence model (GRU-based) to capture temporal patterns in user behavior. The team faces acute cold-start challenges for new users and products, and the current approach of content-based fallbacks is not scaling well with catalog growth. Wants to learn advanced sequence modeling techniques and explore hybrid cold-start strategies that combine collaborative and content signals to improve conversion rates."
+  },
+  {
+    "id": "p_demoday_009",
+    "role": "LLM Agent Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "LLM agents",
+      "AutoGen",
+      "Browser agents",
+      "Code agents"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "LLM"
+    ],
+    "background": "Develops LLM-powered automation agents at a mid-sized B2B SaaS platform, using AutoGen and LangChain to orchestrate multi-agent workflows for data extraction and code generation tasks. Recently shipped a browser agent prototype that autonomously fills out complex forms and navigates legacy web interfaces, reducing manual data entry for customers by 70%. The team of six is iterating rapidly on agent reliability and wants to standardize error handling, tool calling patterns, and fallback logic across heterogeneous agent types. Seeking conference talks on production-grade agent architectures, tool composition strategies, and lessons learned from scaling agents in real-world deployments."
+  },
+  {
+    "id": "p_demoday_010",
+    "role": "Conversational AI Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "LlamaIndex",
+      "RAG",
+      "Prompt engineering",
+      "LangChain"
+    ],
+    "preferred_topics": [
+      "RAG",
+      "NLP"
+    ],
+    "background": "Senior engineer at a conversational AI startup building domain-specific chatbots for legal and healthcare verticals using retrieval-augmented generation (RAG) over proprietary document corpora. Owns the full RAG pipeline built with LlamaIndex for document ingestion and chunking, LangChain for orchestration, and fine-tuned prompts to enforce regulatory compliance and reduce hallucinations in high-stakes domains. The startup is scaling to support multi-document reasoning and cross-domain queries, which requires rethinking retrieval strategies and context ranking to avoid token limits and degraded response quality. Plans to learn advanced RAG techniques, semantic caching approaches, and prompt optimization methods that can improve accuracy while maintaining latency SLAs for production deployments."
+  },
+  {
+    "id": "p_demoday_011",
+    "role": "Credit Scoring ML Engineer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "Survival analysis",
+      "Fraud detection",
+      "Credit scoring",
+      "Behavioural scoring",
+      "Anti-money-laundering"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Fintech"
+    ],
+    "background": "Junior ML engineer at a mid-sized fintech lender building credit decisioning systems. Works on survival analysis pipelines to predict loan default risk, integrating behavioral scoring features from transaction history and payment patterns. Currently developing fraud detection heuristics layered with statistical models to flag high-risk applications before credit scoring. The team is small (4 data scientists) and relies on scikit-learn, XGBoost, and custom SQL feature engineering. Wants to learn production-grade survival analysis techniques and best practices for anti-money-laundering signal integration into credit models at scale."
+  },
+  {
+    "id": "p_demoday_012",
+    "role": "Search and Ranking Engineer",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "Catboost",
+      "Reranker training",
+      "Embeddings",
+      "Evaluation",
+      "Ranking"
+    ],
+    "preferred_topics": [
+      "Personalization",
+      "Recsys",
+      "Search"
+    ],
+    "background": "Principal ranking engineer leading a 6-person team at a mid-sized e-commerce platform responsible for search and product recommendations. Owns the full ranking pipeline: dense embeddings (FAISS-based retrieval), CatBoost rerankers trained on click/conversion signals, and online A/B testing infrastructure. Recently migrated from LambdaMART to gradient boosting for faster iteration and better interpretability. Manages evaluation frameworks (NDCG, MRR, conversion lift) and owns personalization logic that incorporates user behavior sequences. Seeks advanced techniques in embedding optimization, online learning for ranking, and multi-objective ranking tradeoffs."
+  },
+  {
+    "id": "p_demoday_013",
+    "role": "Applied NLP Researcher",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Question answering",
+      "Text generation",
+      "LangChain",
+      "Function calling"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "Search"
+    ],
+    "background": "Mid-level NLP researcher at a mid-sized SaaS company building a customer support chatbot powered by LLMs and retrieval-augmented generation. Implements question-answering systems using LangChain, manages prompt engineering for function calling to route queries to backend APIs, and integrates semantic search over internal knowledge bases. Recently deployed a GPT-4-based system with fine-tuned retrievers and is now optimizing latency and reducing hallucination through better retrieval ranking. Team of 3 NLP engineers collaborates with product on evaluation metrics and user feedback loops. Interested in advanced RAG architectures, function-calling patterns for agent workflows, and scaling text generation systems."
+  },
+  {
+    "id": "p_demoday_014",
+    "role": "Senior ML Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Anomaly detection",
+      "Tabular ML",
+      "Streaming inference"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "Industrial ML",
+      "ML"
+    ],
+    "background": "Senior ML engineer (one of two) at a small-cap industrial IoT startup deploying real-time anomaly detection on sensor streams from manufacturing equipment. Builds tabular ML models (LightGBM, XGBoost) on time-series features extracted from high-frequency sensor data, handles concept drift with online learning, and manages low-latency inference on edge devices. Currently architecting a streaming inference pipeline using Kafka and custom C++ inference servers to detect equipment failures before they occur. Works directly with ops and sales, owns the full ML lifecycle from data collection to model deployment. Seeks expertise in streaming anomaly detection, online learning techniques for non-stationary data, and production deployment patterns for real-time systems."
+  },
+  {
+    "id": "p_demoday_015",
+    "role": "Senior ML Engineer (Fintech)",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Transactional sequence models",
+      "Uplift modelling",
+      "Anti-money-laundering",
+      "Behavioural scoring",
+      "Survival analysis"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "ML",
+      "Fintech"
+    ],
+    "background": "Mid-level senior ML engineer at a mid-sized payments fintech company focused on transaction risk and customer lifetime value modeling. Develops sequence models (LSTMs, Transformers) over transaction histories to detect money laundering patterns and behavioral anomalies; owns uplift modeling frameworks to optimize intervention strategies (e.g., when to trigger additional verification). Builds survival analysis models for churn prediction and customer retention, integrating AML signals into behavioral scoring for real-time risk decisions. Works with a team of 5 engineers on production systems handling millions of daily transactions. Wants to deepen expertise in causal inference for uplift, advanced sequence architectures for financial data, and scaling AML detection without sacrificing false-positive rates."
+  },
+  {
+    "id": "p_demoday_016",
+    "role": "AI Agent Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "LangGraph",
+      "Multi-agent orchestration",
+      "Function calling",
+      "Code agents",
+      "OpenAI Assistants"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "Autonomous agents",
+      "LLM"
+    ],
+    "background": "Works at a midsize fintech platform building autonomous workflows for customer support and transaction analysis. Currently architecting a multi-agent system using LangGraph where specialized agents handle document parsing, compliance checks, and customer communication via function calling to internal APIs. The team of five engineers is transitioning from prompt-chaining to stateful agent graphs and needs patterns for reliable orchestration across OpenAI Assistants and custom code agents. Wants to learn production-grade approaches to agent memory, error recovery, and how to structure complex agent workflows without callback hell."
+  },
+  {
+    "id": "p_demoday_017",
+    "role": "Risk Modelling Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Survival analysis",
+      "Anti-money-laundering",
+      "Credit scoring",
+      "Behavioural scoring"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "Fintech"
+    ],
+    "background": "Leads the risk analytics team at a large European bank, managing models for credit origination and AML compliance across 50+ data scientists. Specializes in survival analysis for loan default prediction and behavioral scoring for customer lifetime value estimation, using scikit-survival and custom PyTorch survival networks. Recently migrated the credit scoring pipeline from batch XGBoost to online learning with Vowpal Wabbit to handle concept drift in real-time lending decisions. Seeking conference insights on scaling anti-money-laundering models, handling class imbalance in fraud detection, and emerging techniques for explainable risk models under regulatory scrutiny."
+  },
+  {
+    "id": "p_demoday_018",
+    "role": "Risk Modelling Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Fraud detection",
+      "Credit scoring",
+      "Uplift modelling",
+      "Transactional sequence models"
+    ],
+    "preferred_topics": [
+      "Fintech",
+      "ML",
+      "Industrial ML"
+    ],
+    "background": "Part of the ML platform team at a large payment processor, developing fraud detection and credit decisioning models for merchant and consumer segments. Currently building transactional sequence models using LSTM and attention mechanisms to flag suspicious patterns in real-time payment flows, and experimenting with causal forest for uplift modelling in credit limit assignment. Works with a team of 12 engineers on infrastructure to serve models at 50k+ TPS with <100ms latency. Wants to deepen knowledge on handling temporal dependencies in fraud, production strategies for uplift models, and how to validate credit scoring fairness across demographics."
+  },
+  {
+    "id": "p_demoday_019",
+    "role": "Applied NLP Researcher",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "Multilingual NLP",
+      "Text generation",
+      "Classification",
+      "Retrieval"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "RAG"
+    ],
+    "background": "Works in the NLP research group at a large enterprise software company, focusing on multilingual document understanding and retrieval for internal knowledge management systems. Currently building a RAG pipeline using LangChain and Pinecone to index technical documentation across 15 languages, with fine-tuned multilingual embeddings and LLM-based re-ranking to improve retrieval quality. The team is exploring how to handle code-switching and domain-specific terminology in retrieval, and whether to use instruction-tuned LLMs for generation or smaller task-specific models. Interested in learning state-of-the-art RAG architectures, multilingual embedding strategies, and how to evaluate retrieval-augmented generation systems for consistency and hallucination reduction."
+  },
+  {
+    "id": "p_demoday_020",
+    "role": "Autonomous Systems Researcher",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "AutoGen",
+      "Memory and planning",
+      "OpenAI Assistants"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "Autonomous agents",
+      "LLM"
+    ],
+    "background": "Leads the autonomous agents research team at a midsize AI infrastructure startup, developing frameworks for long-horizon task planning and multi-turn reasoning. Pioneered internal adoption of AutoGen for prototyping collaborative agent systems and is now investigating persistent memory architectures and planning algorithms to enable agents to decompose complex requests over multiple sessions. The team of eight researchers is building a platform that combines OpenAI Assistants with custom planning modules to handle hierarchical task decomposition and backtracking. Seeking to understand emerging patterns in agent memory systems, how to integrate formal planning with LLM reasoning, and production lessons from teams running autonomous agents at scale."
+  },
+  {
+    "id": "p_demoday_021",
+    "role": "Analytics Engineer",
+    "experience": "junior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Cohort analysis",
+      "Experimentation platform",
+      "Causal inference",
+      "Looker",
+      "DBT"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "ML"
+    ],
+    "background": "Junior analytics engineer at a Series A fintech startup building data infrastructure for a 12-person team. Owns the DBT transformation layer connecting raw event data to Looker dashboards, recently implemented cohort retention analysis to track user lifecycle metrics. Runs weekly A/B tests on product features but lacks formal causal inference training and wants to move beyond simple t-tests. Interested in learning experimental design best practices and how to detect confounding in observational data. Hopes to build a lightweight experimentation platform that integrates with their existing Snowflake warehouse."
+  },
+  {
+    "id": "p_demoday_022",
+    "role": "Conversational AI Engineer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "Multilingual NLP",
+      "Prompt engineering",
+      "RAG",
+      "Classification"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "RAG",
+      "LLM"
+    ],
+    "background": "Junior conversational AI engineer at a midsize SaaS customer support platform, part of a 6-person ML team. Currently building multilingual intent classifiers and slot-filling pipelines for 8 languages using transformers and spaCy. Recently migrated chatbot responses from template-based to RAG-augmented generation, retrieving from a vector store of support docs. Struggles with prompt engineering consistency across languages and wants to understand how to evaluate retrieval quality at scale. Seeking conference talks on production RAG systems, multilingual model optimization, and prompt engineering frameworks."
+  },
+  {
+    "id": "p_demoday_023",
+    "role": "Applied ML Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Streaming inference",
+      "Anomaly detection",
+      "Model monitoring",
+      "A/B testing",
+      "Feature engineering"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Analytics"
+    ],
+    "background": "Senior ML engineer at a large fintech company leading a team of four engineers on real-time fraud detection systems. Owns end-to-end ownership of anomaly detection pipelines ingesting 50k+ transactions per second, deployed via Kafka and Flink for streaming inference. Built comprehensive model monitoring dashboards tracking data drift, prediction distribution shifts, and feature staleness; recently implemented automated retraining triggers. Runs rigorous A/B tests on model variants using causal forest methods to isolate treatment effects. Wants to learn emerging techniques for feature engineering at scale and best practices for production anomaly detection in high-velocity environments."
+  },
+  {
+    "id": "p_demoday_024",
+    "role": "AI for Education Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Automated grading",
+      "Curriculum design",
+      "Adaptive learning",
+      "Knowledge tracing",
+      "Student modelling"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "EdTech",
+      "LLM"
+    ],
+    "background": "Senior ML engineer at an EdTech Series B startup building AI tutoring systems, leading a team of two engineers. Designed knowledge tracing models using Bayesian networks to infer student mastery from assessment responses, integrated with adaptive curriculum sequencing that adjusts difficulty based on predicted learning state. Recently deployed an LLM-based automated grading system for open-ended math and essay questions, handling rubric-based evaluation with confidence scoring. Exploring how to combine classical student modeling with modern language models for personalized explanations. Wants to learn state-of-the-art approaches in knowledge tracing, curriculum optimization, and how to safely deploy LLMs in educational contexts."
+  },
+  {
+    "id": "p_demoday_025",
+    "role": "Personalization ML Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Multi-stage ranking",
+      "Evaluation",
+      "Catboost"
+    ],
+    "preferred_topics": [
+      "Personalization",
+      "Recsys"
+    ],
+    "background": "Middle-level personalization ML engineer at a large e-commerce platform working within a 15-person recommendation systems team. Owns the multi-stage ranking pipeline: candidate generation via collaborative filtering, retrieval via approximate nearest neighbors, and final ranking using CatBoost gradient boosting models trained on engagement signals. Focuses on feature engineering for ranking models and recently implemented offline evaluation metrics (NDCG, MRR) to validate ranking quality before online A/B testing. Collaborates with data scientists on model architecture and with engineers on inference latency optimization. Wants to deepen knowledge of advanced ranking techniques, learn best practices for evaluation in recommendation systems, and explore how to handle cold-start and long-tail items."
+  },
+  {
+    "id": "p_demoday_026",
+    "role": "LLM Platform Engineer",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "LlamaIndex",
+      "Prompt engineering",
+      "Multilingual NLP",
+      "Retrieval",
+      "Function calling"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Search",
+      "RAG"
+    ],
+    "background": "Leading the LLM infrastructure team at a Fortune 500 financial services firm, this engineer oversees a platform serving 50+ internal teams building retrieval-augmented generation systems. The team standardizes on LlamaIndex for document indexing and manages multilingual prompt templates across English, Mandarin, and Spanish for global compliance workflows. Current focus is scaling function calling patterns to enable agentic workflows that integrate with legacy banking systems while maintaining latency SLAs under 500ms. Seeks conference insights on advanced retrieval strategies, multilingual prompt optimization, and production patterns for handling long-context reasoning in regulated environments."
+  },
+  {
+    "id": "p_demoday_027",
+    "role": "Applied ML Engineer (RecSys)",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "Candidate generation",
+      "Ranking",
+      "Sequence models",
+      "Cold start",
+      "Implicit feedback"
+    ],
+    "preferred_topics": [
+      "Personalization",
+      "Search",
+      "Recsys"
+    ],
+    "background": "Recently joined a mid-market e-commerce platform as the first dedicated recommendation systems engineer on a team of 12 ML practitioners. Owns the two-stage recommendation pipeline: a candidate generation model using collaborative filtering on implicit feedback signals, and a learning-to-rank stage that balances relevance with inventory clearance. Currently tackling the cold-start problem for new users and items using content-based features and temporal decay in sequence models. Wants to learn production techniques for A/B testing ranking algorithms, handling sparse feedback, and scaling candidate generation to real-time serving constraints."
+  },
+  {
+    "id": "p_demoday_028",
+    "role": "Senior ML Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Streaming inference",
+      "Anomaly detection",
+      "Feature engineering"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Analytics",
+      "Industrial ML"
+    ],
+    "background": "Senior ML engineer at a large industrial manufacturing conglomerate responsible for predictive maintenance systems across 200+ production facilities. Designs real-time anomaly detection pipelines using streaming inference on sensor telemetry (vibration, temperature, pressure) to predict equipment failures 7–14 days in advance. Leads feature engineering efforts that combine domain expertise with automated feature discovery, currently migrating from batch processing to Kafka-based streaming for sub-second detection latency. Interests lie in operationalizing anomaly detection at scale, reducing false positives through domain adaptation, and integrating ML signals into existing SCADA systems without disrupting legacy workflows."
+  },
+  {
+    "id": "p_demoday_029",
+    "role": "LLM Engineer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Question answering",
+      "LLM fine-tuning",
+      "Multilingual NLP",
+      "LlamaIndex"
+    ],
+    "preferred_topics": [
+      "RAG",
+      "LLM",
+      "Search"
+    ],
+    "background": "Working at a 25-person edtech startup building an AI tutor that answers student questions in 8 languages across STEM subjects. Implements retrieval-augmented generation using LlamaIndex to ground responses in curriculum documents and previous student interactions, reducing hallucinations in math explanations. Actively fine-tunes open-source models (Mistral, Llama 2) on domain-specific Q&A pairs to improve pedagogical accuracy without relying on expensive closed APIs. Seeks practical guidance on multilingual retrieval strategies, efficient fine-tuning workflows for resource-constrained environments, and techniques for evaluating answer quality across languages and subject domains."
+  },
+  {
+    "id": "p_demoday_030",
+    "role": "Computer Vision Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Quantisation",
+      "Segmentation",
+      "TensorRT",
+      "Edge deployment",
+      "Diffusion models"
+    ],
+    "preferred_topics": [
+      "CV",
+      "OCR",
+      "Computer Vision"
+    ],
+    "background": "Mid-level CV engineer at a mid-market autonomous logistics startup optimizing vision models for edge deployment on AGVs and warehouse robots. Specializes in semantic segmentation for scene understanding and uses TensorRT to quantize and accelerate inference, achieving 8× speedup on NVIDIA Jetson platforms. Recently exploring diffusion models for synthetic data generation to augment training sets in low-light warehouse environments where real labeled data is scarce. Aims to learn production quantization strategies that preserve segmentation accuracy, techniques for deploying large vision models on resource-constrained hardware, and how diffusion models can improve robustness in domain adaptation scenarios."
+  },
+  {
+    "id": "p_demoday_031",
+    "role": "Risk Modelling Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Uplift modelling",
+      "Anti-money-laundering",
+      "Fraud detection",
+      "Transactional sequence models"
+    ],
+    "preferred_topics": [
+      "Fintech",
+      "ML"
+    ],
+    "background": "Senior risk modelling engineer at a 40-person fintech startup building real-time payment fraud detection systems. Owns end-to-end pipeline for AML risk scoring using XGBoost and LightGBM on transactional graphs, currently experimenting with temporal sequence models (LSTM, Transformer) to capture money-laundering patterns across account histories. Leads a team of two junior ML engineers and collaborates closely with compliance and product on uplift modelling to measure intervention effectiveness. Seeking conference insights on advanced fraud detection architectures and causal inference methods to improve model interpretability for regulatory audits."
+  },
+  {
+    "id": "p_demoday_032",
+    "role": "NLP Engineer",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "LLM fine-tuning",
+      "Embeddings",
+      "Prompt engineering",
+      "Question answering"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "NLP"
+    ],
+    "background": "Principal NLP engineer at a 200-person SaaS company leading a team of five engineers building a domain-specific question-answering platform. Architected fine-tuning pipelines for open-source LLMs (Llama 2, Mistral) using LoRA and QLoRA, optimized embedding models for retrieval-augmented generation (RAG) workflows, and developed systematic prompt engineering frameworks for production deployments. Manages infrastructure on AWS with MLflow for experiment tracking and focuses on reducing inference latency and hallucination rates in customer-facing Q&A systems. Attending the conference to explore latest advances in LLM alignment, retrieval strategies, and cost-effective serving patterns for large-scale deployments."
+  },
+  {
+    "id": "p_demoday_033",
+    "role": "Applied ML Engineer (RecSys)",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "Implicit feedback",
+      "Reranker training",
+      "Sequence models"
+    ],
+    "preferred_topics": [
+      "Personalization",
+      "Search",
+      "Recsys"
+    ],
+    "background": "Junior ML engineer on the personalization team at a 180-person e-commerce platform, working on ranking and recommendation systems that serve 2M+ daily active users. Collaborates with senior engineers on implicit feedback models (click, dwell time, purchase signals) and recently shipped a two-stage reranker using gradient boosting to optimize for engagement and conversion simultaneously. Supports A/B testing infrastructure and has begun exploring sequence models (GRU, self-attention) to capture user session dynamics for next-item prediction. Wants to deepen knowledge at the conference on state-of-the-art reranking techniques, implicit feedback handling, and practical personalization strategies that scale across diverse user cohorts."
+  },
+  {
+    "id": "p_demoday_034",
+    "role": "Autonomous Systems Researcher",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Code agents",
+      "Multi-agent orchestration",
+      "Reasoning loops",
+      "Tool use"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Agents",
+      "Autonomous agents"
+    ],
+    "background": "Senior researcher in the autonomous systems lab at a large tech company, leading a team of eight engineers and researchers on LLM-powered code generation and reasoning agents. Designs multi-agent orchestration frameworks where specialized agents (planning, coding, debugging, testing) collaborate via structured reasoning loops and tool-use protocols. Currently shipping a production system that uses ReAct-style prompting with function calling to generate and validate infrastructure-as-code, achieving 78% first-pass correctness on internal benchmarks. Manages evaluation frameworks and contributes to internal agent libraries built on LangChain and LlamaIndex. Seeking conference sessions on agent reasoning architectures, tool composition patterns, and scalable evaluation methodologies for autonomous systems."
+  },
+  {
+    "id": "p_demoday_035",
+    "role": "Speech Recognition Researcher",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Endpoint detection",
+      "TTS",
+      "Whisper"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "TTS",
+      "ASR"
+    ],
+    "background": "Senior speech researcher at a 150-person voice AI company responsible for ASR and TTS research and deployment. Leads optimization work on Whisper-based models for low-latency, multilingual speech recognition in embedded and cloud environments, with focus on endpoint detection to minimize false-positive wake-word triggers. Manages a pipeline using Kaldi and PyTorch for model training, quantization, and on-device inference on ARM processors. Collaborates with product teams on TTS synthesis quality and latency trade-offs for real-time conversational AI applications. Attending the conference to explore recent advances in streaming ASR architectures, efficient endpoint detection algorithms, and emerging TTS techniques for naturalness and speaker adaptation."
+  },
+  {
+    "id": "p_demoday_036",
+    "role": "ML Engineer (CV)",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "TensorRT",
+      "Edge deployment",
+      "Multimodal vision",
+      "Object detection"
+    ],
+    "preferred_topics": [
+      "CV",
+      "OCR",
+      "Computer Vision"
+    ],
+    "background": "Works as an ML Engineer at a midsize autonomous mobility startup, focusing on real-time object detection pipelines for embedded systems. Owns the optimization and deployment of YOLO-based detectors using TensorRT to meet latency constraints on edge devices (Jetson, mobile). Currently shipping multimodal vision models that fuse RGB and thermal sensor streams for pedestrian detection in adverse weather. Seeking conference talks on efficient model quantization, ONNX export workflows, and production lessons from other CV teams deploying models at scale on constrained hardware."
+  },
+  {
+    "id": "p_demoday_037",
+    "role": "Senior Analyst",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Cohort analysis",
+      "DBT",
+      "Looker",
+      "ClickHouse",
+      "A/B testing"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "ML"
+    ],
+    "background": "Senior Analyst at a large fintech company managing a 12-person analytics team responsible for user segmentation and experimentation infrastructure. Maintains a DBT-based data transformation layer ingesting 500M+ daily events into ClickHouse, with Looker serving as the primary BI layer for 200+ internal stakeholders. Designs and analyzes A/B tests across payment flows, retention campaigns, and feature rollouts; recently built a cohort analysis framework to track long-term user behavior post-treatment. Wants to learn advanced statistical methods for detecting interaction effects in experiments and best practices for scaling analytics infrastructure in high-growth environments."
+  },
+  {
+    "id": "p_demoday_038",
+    "role": "Industrial ML Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "A/B testing",
+      "Anomaly detection",
+      "Tabular ML"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Industrial ML",
+      "Analytics"
+    ],
+    "background": "Senior Industrial ML Engineer at a large manufacturing conglomerate deploying predictive maintenance and quality control models across 50+ production lines. Specializes in tabular ML (XGBoost, LightGBM) for sensor anomaly detection, achieving 92% precision on bearing failure prediction. Owns the experimental framework for validating model improvements before production rollout, running structured A/B tests on model versions and retraining schedules. Works with domain experts and plant operators to translate business constraints into model objectives. Interested in learning novel anomaly detection architectures for multivariate time-series, online learning strategies for concept drift, and case studies from other industrial deployments."
+  },
+  {
+    "id": "p_demoday_039",
+    "role": "Computer Vision Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "TensorRT",
+      "Pose estimation",
+      "ONNX",
+      "Edge deployment",
+      "Diffusion models"
+    ],
+    "preferred_topics": [
+      "CV",
+      "OCR",
+      "Computer Vision"
+    ],
+    "background": "Senior Computer Vision Engineer at a midsize sports-tech startup building real-time human pose estimation systems for fitness applications. Leads the model optimization pipeline, converting PyTorch pose models to ONNX and deploying via TensorRT on mobile devices and edge servers, achieving 30ms inference latency. Recently explored diffusion-based pose refinement to improve accuracy on occluded joints. Manages a small team of 3 engineers responsible for data annotation, model training, and production inference serving. Seeking insights on pose estimation under extreme angles, efficient model distillation for mobile, and emerging applications of generative models in computer vision."
+  },
+  {
+    "id": "p_demoday_040",
+    "role": "Recommender Systems Engineer",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "Two-tower models",
+      "Cold start",
+      "Multi-stage ranking"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "Personalization"
+    ],
+    "background": "Principal Recommender Systems Engineer at a midsize e-commerce platform leading a 7-person team building personalization infrastructure serving 50M+ monthly users. Architected a two-tower dual-encoder model for candidate retrieval, reducing latency from 200ms to 45ms while maintaining ranking quality. Owns the multi-stage ranking pipeline (retrieval → filtering → ranking) and has built specialized cold-start strategies for new users and items using content-based embeddings and collaborative signals. Recently shipped a contextual bandit layer for real-time exploration-exploitation trade-offs. Wants to share learnings on scaling two-tower models, discuss novel approaches to cold-start in mature platforms, and explore emerging architectures for cross-domain recommendation."
+  },
+  {
+    "id": "p_demoday_041",
+    "role": "Applied NLP Researcher",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "LangChain",
+      "Prompt engineering",
+      "Text generation",
+      "RAG"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "NLP",
+      "Search"
+    ],
+    "background": "Senior NLP researcher at a Fortune 500 tech company leading a team of four focused on retrieval-augmented generation pipelines for enterprise search. Currently architecting a hybrid LangChain-based system that combines dense and sparse retrievers to handle domain-specific queries across 50M+ documents. Owns prompt engineering best practices and has shipped multiple text generation features using GPT-4 and open-source LLMs in production. Seeking conference insights on scaling RAG systems, advanced prompt optimization techniques, and emerging LLM evaluation frameworks to improve retrieval quality and reduce hallucinations in customer-facing applications."
+  },
+  {
+    "id": "p_demoday_042",
+    "role": "Multi-Agent Systems Engineer",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "Memory and planning",
+      "Multi-agent orchestration",
+      "Function calling",
+      "Browser agents"
+    ],
+    "preferred_topics": [
+      "Autonomous agents",
+      "LLM"
+    ],
+    "background": "Principal engineer at a major cloud provider designing multi-agent orchestration frameworks for enterprise automation workflows. Leads a cross-functional team building a browser-automation platform that chains LLM function calls with stateful memory management across distributed agents. Has shipped production systems handling complex planning scenarios using ReAct patterns and tool-use APIs with GPT-4 and Claude. Attending to explore cutting-edge approaches in agent memory architectures, long-horizon planning under uncertainty, and emerging frameworks for coordinating heterogeneous agent teams at scale."
+  },
+  {
+    "id": "p_demoday_043",
+    "role": "Recommender Systems Engineer",
+    "experience": "lead/principal",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Diversity",
+      "Cold start",
+      "Reranker training",
+      "Embeddings"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "Personalization",
+      "RecSys"
+    ],
+    "background": "Principal engineer at a Series B content discovery startup owning the end-to-end recommender system serving 2M+ daily active users. Specializes in cold-start mitigation through content-based embeddings and collaborative filtering hybrids, recently shipping a learned reranker trained on user engagement signals to improve diversity metrics. Manages a lean team of two ML engineers and focuses on balancing recommendation accuracy with serendipity to reduce filter bubbles. Wants to learn state-of-the-art reranking techniques, embedding architectures for long-tail items, and real-time personalization strategies that scale without massive infrastructure."
+  },
+  {
+    "id": "p_demoday_044",
+    "role": "Computer Vision Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Diffusion models",
+      "TensorRT",
+      "Quantisation",
+      "Segmentation"
+    ],
+    "preferred_topics": [
+      "OCR",
+      "CV"
+    ],
+    "background": "Senior CV engineer at an autonomous vehicle company optimizing vision pipelines for real-time inference on edge hardware. Currently deploying quantized segmentation models using TensorRT to achieve sub-100ms latency on NVIDIA Jetson platforms while maintaining mAP above 85%. Recently experimented with diffusion-based data augmentation for rare failure modes in perception datasets. Leads a team of three engineers focused on model compression and production deployment. Seeking conference talks on efficient diffusion model inference, advanced quantization strategies for vision transformers, and emerging OCR techniques for document understanding in autonomous systems."
+  },
+  {
+    "id": "p_demoday_045",
+    "role": "Quant ML Engineer",
+    "experience": "junior",
+    "company_size": "large",
+    "interests": [
+      "Uplift modelling",
+      "Credit scoring",
+      "Behavioural scoring",
+      "Fraud detection"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Fintech",
+      "Industrial ML"
+    ],
+    "background": "Junior ML engineer at a major financial services firm working on credit risk models and fraud detection pipelines serving millions of transactions daily. Owns feature engineering and model validation for behavioral scoring systems that predict customer default risk using XGBoost and LightGBM. Recently contributed to an uplift modeling project to optimize credit limit offers using causal inference techniques. Works within a team of eight quant analysts and engineers in a regulated environment requiring strict model governance and explainability. Wants to deepen expertise in causal inference for treatment optimization, advanced fraud detection architectures, and best practices for deploying interpretable models in compliance-heavy fintech settings."
+  },
+  {
+    "id": "p_demoday_046",
+    "role": "LLM Platform Engineer",
+    "experience": "junior",
+    "company_size": "large",
+    "interests": [
+      "Question answering",
+      "Function calling",
+      "Retrieval",
+      "Multilingual NLP",
+      "RAG"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "RAG",
+      "Search"
+    ],
+    "background": "Junior platform engineer at a large tech company building internal LLM infrastructure for question-answering systems across 15+ languages. Works on retrieval pipelines using dense vector embeddings and BM25 hybrid search, integrating function-calling capabilities into prompt templates for tool use. Currently owns a RAG system that serves 50K+ daily queries across customer support and internal knowledge bases, using LangChain and Pinecone for vector storage. Wants to learn best practices for multilingual retrieval, scaling retrieval systems to production volume, and optimizing function-calling latency at the conference."
+  },
+  {
+    "id": "p_demoday_047",
+    "role": "Senior ML Engineer (Fintech)",
+    "experience": "lead/principal",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Survival analysis",
+      "Anti-money-laundering",
+      "Fraud detection",
+      "Credit scoring"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "ML"
+    ],
+    "background": "Lead ML engineer at a 40-person fintech startup leading a team of three data scientists building real-time fraud and AML detection systems. Owns the survival analysis pipeline for customer lifetime value prediction and credit risk models trained on 2M+ transaction records using XGBoost and custom Cox proportional hazards implementations. Manages feature engineering pipelines in Spark, model monitoring dashboards, and regulatory compliance reporting for financial institutions. Seeks conference insights on scaling ML infrastructure for regulated environments, handling class imbalance in fraud datasets, and deploying survival models in production."
+  },
+  {
+    "id": "p_demoday_048",
+    "role": "LLM Red Team Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Prompt injection",
+      "Differential privacy",
+      "Model jailbreaks"
+    ],
+    "preferred_topics": [
+      "Security",
+      "AI",
+      "LLM"
+    ],
+    "background": "Senior security researcher at a 25-person AI safety startup focused on adversarial testing and hardening of large language models. Specializes in prompt injection attacks, jailbreak techniques, and differential privacy mechanisms for fine-tuning; has published work on prompt-level vulnerabilities in GPT and open-source models. Builds automated red-teaming frameworks that generate adversarial prompts at scale, tests model robustness across 100+ attack patterns, and develops privacy-preserving training techniques using DP-SGD. Attends the conference to share findings on emerging jailbreak methods, learn about new privacy-preserving techniques in LLM training, and connect with other AI security practitioners."
+  },
+  {
+    "id": "p_demoday_049",
+    "role": "Credit Scoring ML Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Uplift modelling",
+      "Behavioural scoring",
+      "Credit scoring",
+      "Anti-money-laundering",
+      "Fraud detection"
+    ],
+    "preferred_topics": [
+      "Fintech",
+      "Industrial ML",
+      "ML"
+    ],
+    "background": "Senior ML engineer at a 60-person lending fintech startup owning end-to-end credit scoring and behavioral monitoring systems for 500K+ active borrowers. Develops uplift models to personalize credit offers and pricing, maintains behavioral scoring systems that detect early payment default signals, and integrates AML transaction monitoring using graph-based anomaly detection. Works with Python, scikit-learn, and LightGBM; manages model retraining pipelines on monthly loan performance data and regulatory backtesting for credit models. Wants to explore advanced causal inference techniques for uplift modeling, learn about graph neural networks for AML, and understand best practices for credit model governance in production."
+  },
+  {
+    "id": "p_demoday_050",
+    "role": "Conversational AI Engineer",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "LangChain",
+      "RAG",
+      "Prompt engineering",
+      "Function calling",
+      "Question answering"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM"
+    ],
+    "background": "Middle-level conversational AI engineer at a large enterprise building customer-facing chatbot systems using LLMs and RAG for internal documentation retrieval. Develops prompt templates and chains using LangChain to orchestrate multi-step reasoning, integrates function calling for ticket creation and knowledge base lookups, and fine-tunes question-answering models on domain-specific FAQs. Manages a team of two junior engineers and oversees deployment of conversational agents serving 100K+ monthly interactions across web and mobile channels. Seeks to deepen expertise in prompt engineering techniques, learn advanced RAG architectures for long-context retrieval, and explore function-calling patterns for complex enterprise workflows."
+  },
+  {
+    "id": "p_demoday_051",
+    "role": "Industrial ML Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Streaming inference",
+      "Tabular ML",
+      "Gradient boosting",
+      "Time-series"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Industrial ML"
+    ],
+    "background": "Senior ML engineer at a midsize manufacturing automation company responsible for real-time predictive maintenance pipelines. Leads a team of three engineers building XGBoost and LightGBM models that ingest sensor streams from production equipment, processing time-series features at sub-second latency using Kafka and Redis for feature caching. Currently architecting a migration from batch inference to streaming inference on Kubernetes, replacing Airflow DAGs with Flink-based feature computation. Owns the full stack from feature engineering through model deployment and monitoring, with deep expertise in handling imbalanced tabular datasets and drift detection. Seeking conference sessions on production-grade streaming ML systems and advanced gradient boosting techniques for industrial use cases."
+  },
+  {
+    "id": "p_demoday_052",
+    "role": "Multi-Agent Systems Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Code agents",
+      "Multi-agent orchestration",
+      "OpenAI Assistants"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents",
+      "Agents"
+    ],
+    "background": "Middle-level engineer at a midsize fintech platform building autonomous code-generation workflows using OpenAI Assistants and GPT-4. Works on orchestrating multi-agent systems where one agent generates SQL queries, another validates schema compliance, and a third executes against production databases with audit logging. Integrates with LangChain for agent state management and has shipped two production systems handling financial report automation. Experienced in prompt engineering and managing agent hallucination through retrieval-augmented generation and tool constraints. Wants to learn about production patterns for multi-agent coordination, failure recovery, and scaling beyond single-threaded orchestration."
+  },
+  {
+    "id": "p_demoday_053",
+    "role": "Applied ML Engineer (RecSys)",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "Embeddings",
+      "Reranker training",
+      "Catboost",
+      "Sequence models"
+    ],
+    "preferred_topics": [
+      "Recsys",
+      "RecSys",
+      "Search"
+    ],
+    "background": "Principal ML engineer leading the recommendation systems team at a large e-commerce platform with 15+ engineers across ranking, retrieval, and personalization. Owns the end-to-end reranking pipeline using CatBoost on user interaction sequences and item embeddings, processing millions of ranking requests daily with <100ms latency SLAs. Recently shipped a transformer-based sequence model for next-item prediction that improved conversion by 3.2%, integrated into the production ranking stack via model serving on ONNX Runtime. Manages A/B testing infrastructure, offline evaluation metrics, and online feedback loops for continuous model improvement. Attending to explore emerging embedding techniques, cross-domain transfer learning for cold-start problems, and industry best practices in large-scale recsys."
+  },
+  {
+    "id": "p_demoday_054",
+    "role": "Multi-Agent Systems Engineer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "Browser agents",
+      "LangGraph",
+      "Function calling",
+      "OpenAI Assistants",
+      "Tool use"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents",
+      "Agents"
+    ],
+    "background": "Junior engineer at a midsize SaaS automation company building browser-based agents that automate customer support workflows. Develops agents using LangGraph for state management and OpenAI Assistants with function calling to navigate web interfaces, fill forms, and extract data from third-party platforms without custom integrations. Implements tool-use patterns for Selenium-based browser control and integrates with internal APIs for ticket creation and knowledge base lookups. Has shipped three proof-of-concept agents handling account creation, billing inquiries, and documentation retrieval, with 85% success rates on scripted test scenarios. Eager to learn production-grade patterns for browser agents, error recovery strategies, and how to scale tool-use systems beyond proof-of-concept."
+  },
+  {
+    "id": "p_demoday_055",
+    "role": "ML Security Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Prompt injection",
+      "Differential privacy",
+      "Model jailbreaks",
+      "Privacy-preserving ML"
+    ],
+    "preferred_topics": [
+      "Security",
+      "AI",
+      "LLM"
+    ],
+    "background": "Senior security engineer at a smallish-startup building privacy-first LLM applications, focusing on adversarial robustness and data protection. Leads security research on prompt injection attacks, model jailbreaks, and defenses including input sanitization, output validation, and retrieval-augmented generation constraints. Implements differential privacy mechanisms for fine-tuning customer models on sensitive datasets using OpenDP and PyDP libraries, ensuring epsilon-delta guarantees. Conducts red-teaming exercises against production systems and has published internal threat models for LLM supply chains. Attending the conference to stay current on emerging LLM attack vectors, privacy-preserving training techniques, and to network with other security practitioners in the AI space."
+  },
+  {
+    "id": "p_demoday_056",
+    "role": "LLM Agent Developer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "Tool use",
+      "LangGraph",
+      "Agent evaluation"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Senior agent architect at a Fortune 500 financial services firm, leading a team of 8 engineers building autonomous trading and compliance workflows. Currently architecting multi-step reasoning pipelines using LangGraph to orchestrate tool calls across internal APIs, market data feeds, and regulatory databases. The team has deployed agents handling document classification, anomaly detection, and decision support across three business units. Evaluating agent reliability remains a critical blocker—existing metrics don't capture hallucination rates or tool-use failures in production. Seeking conference talks on agent evaluation frameworks, tool-use patterns at scale, and failure modes in long-horizon reasoning to harden the platform."
+  },
+  {
+    "id": "p_demoday_057",
+    "role": "Conversational Voice Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Voice cloning",
+      "Conformer",
+      "Streaming ASR",
+      "Endpoint detection",
+      "VAD"
+    ],
+    "preferred_topics": [
+      "TTS",
+      "ASR"
+    ],
+    "background": "Senior voice infrastructure engineer at a mid-market conversational AI platform serving 50+ enterprise customers across customer service and accessibility verticals. Owns the full ASR pipeline: streaming Conformer-based models deployed on GPU clusters, real-time VAD and endpoint detection, and voice cloning for personalized TTS responses. Recently shipped low-latency streaming ASR with sub-100ms latency using Triton inference and custom ONNX optimizations. The team is now tackling multilingual voice cloning and accent-aware synthesis, but struggles with voice quality degradation in noisy environments and cross-lingual robustness. Attending to learn latest advances in noise-robust Conformer variants, streaming endpoint detection strategies, and production voice cloning architectures."
+  },
+  {
+    "id": "p_demoday_058",
+    "role": "Applied ML Engineer (RecSys)",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "Diversity",
+      "Evaluation",
+      "Ranking",
+      "Catboost"
+    ],
+    "preferred_topics": [
+      "Personalization",
+      "RecSys"
+    ],
+    "background": "Mid-level ML engineer on the recommendation team at a large media and entertainment corporation, working on ranking and personalization for a streaming platform with 200M+ users. Develops and maintains CatBoost ranking models that balance relevance, diversity, and business objectives; recently A/B tested a diversity-aware loss function that increased session length by 3.2% while reducing algorithmic bias metrics. Collaborates with data scientists on offline evaluation frameworks and works with platform engineers on feature engineering pipelines. The team faces challenges in measuring diversity without sacrificing engagement, and in handling cold-start problems for new content and users. Interested in learning state-of-the-art diversity metrics, multi-objective ranking approaches, and how other platforms evaluate recommendation quality beyond traditional NDCG metrics."
+  },
+  {
+    "id": "p_demoday_059",
+    "role": "ML Engineer (CV)",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "3D reconstruction",
+      "Segmentation",
+      "OCR",
+      "Edge deployment",
+      "TensorRT"
+    ],
+    "preferred_topics": [
+      "CV",
+      "OCR"
+    ],
+    "background": "Mid-level computer vision engineer at a mid-market document automation startup, building end-to-end pipelines for invoice and receipt processing. Develops segmentation models (Mask R-CNN, YOLACT) to isolate line items and tables, chains them with OCR engines (Tesseract + custom fine-tuned models), and optimizes inference for edge deployment on customer hardware using TensorRT quantization and ONNX export. Recently prototyped 3D reconstruction from multi-angle document scans to improve OCR accuracy on folded or curved receipts. The team deploys models on CPU and mobile devices where latency and model size are hard constraints. Seeking conference insights on efficient segmentation architectures, OCR robustness in real-world conditions, and best practices for TensorRT optimization to reduce model footprint without sacrificing accuracy."
+  },
+  {
+    "id": "p_demoday_060",
+    "role": "Conversational AI Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Prompt engineering",
+      "Text generation",
+      "LLM fine-tuning",
+      "LlamaIndex"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "Search",
+      "LLM"
+    ],
+    "background": "Senior conversational AI engineer at a mid-market SaaS platform specializing in enterprise search and knowledge management. Leads prompt engineering and LLM integration efforts, recently migrating the platform from GPT-3.5 to open-source models (Mistral, Llama 2) and fine-tuning them on domain-specific corpora using LoRA and QLoRA. Implemented LlamaIndex-based RAG pipelines to ground responses in customer knowledge bases, reducing hallucination and improving cite-ability. The team handles 10+ customer verticals with different domain vocabularies and regulatory requirements, requiring careful prompt design and model selection. Current challenges include prompt brittleness across model families, managing fine-tuning costs, and measuring generation quality in production. Attending to learn latest prompt engineering patterns, fine-tuning strategies for open models, and how to evaluate and monitor LLM outputs at scale."
+  },
+  {
+    "id": "p_demoday_061",
+    "role": "Personalization ML Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Cold start",
+      "Sequence models",
+      "Reranker training",
+      "Candidate generation"
+    ],
+    "preferred_topics": [
+      "RecSys",
+      "Recsys",
+      "Search"
+    ],
+    "background": "Works on the personalization platform at a large e-commerce company serving 50M+ monthly users, focusing on cold-start problems for new users and items. Currently owns the two-stage retrieval pipeline: candidate generation via collaborative filtering and neural reranking using transformer-based models trained on implicit feedback signals. The team of eight engineers maintains real-time ranking systems processing 100K+ requests per second. Seeking deeper insights into sequence modeling for session-based recommendations and best practices for training rerankers at scale, particularly handling sparse feature spaces and improving diversity-accuracy tradeoffs."
+  },
+  {
+    "id": "p_demoday_062",
+    "role": "Speech Recognition Researcher",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "Whisper",
+      "VAD",
+      "Endpoint detection",
+      "Streaming ASR",
+      "Acoustic models"
+    ],
+    "preferred_topics": [
+      "TTS",
+      "ASR",
+      "NLP"
+    ],
+    "background": "Senior researcher at a telecommunications enterprise building multilingual voice assistants across 15+ languages, with primary focus on streaming ASR pipelines deployed on edge and cloud infrastructure. Maintains custom acoustic models fine-tuned on domain-specific corpora and recently integrated Whisper-based backfill for low-resource languages. Leads a team of five researchers optimizing VAD and endpoint detection for noisy environments (automotive, industrial settings). Interested in exploring recent advances in streaming transformer architectures, efficient quantization for on-device deployment, and techniques for reducing latency in real-time speech processing without sacrificing accuracy."
+  },
+  {
+    "id": "p_demoday_063",
+    "role": "Applied NLP Researcher",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "LlamaIndex",
+      "Classification",
+      "Embeddings",
+      "Function calling"
+    ],
+    "preferred_topics": [
+      "Search",
+      "RAG",
+      "LLM"
+    ],
+    "background": "Senior researcher at a 25-person NLP startup building enterprise document intelligence products, specializing in retrieval-augmented generation pipelines for legal and financial document analysis. Architected the company's RAG stack using LlamaIndex for index management, open-source embeddings models (Voyage, Nomic), and function-calling patterns with Claude and Llama 2 for structured extraction. Owns end-to-end responsibility for model selection, prompt optimization, and evaluation frameworks across customer deployments. Seeking conference insights into hybrid retrieval strategies, dense-sparse fusion techniques, and production patterns for scaling RAG systems while managing hallucination and retrieval quality in specialized domains."
+  },
+  {
+    "id": "p_demoday_064",
+    "role": "Recommender Systems Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Implicit feedback",
+      "Embeddings",
+      "Catboost"
+    ],
+    "preferred_topics": [
+      "Search",
+      "Recsys"
+    ],
+    "background": "Mid-level engineer at a midsize music streaming platform (8M subscribers) responsible for the ranking layer of their discovery recommendation system. Builds gradient-boosted models using CatBoost to score candidate playlists and tracks, leveraging implicit feedback signals from play history, skip patterns, and playlist saves. Recently migrated the embedding infrastructure to dense vector representations for both users and content, enabling efficient approximate nearest-neighbor search for candidate retrieval. Works in a team of four on a system processing 2B+ events daily. Wants to deepen expertise in learning-to-rank frameworks, explore modern embedding techniques for sequential patterns, and understand approaches for balancing exploration-exploitation in personalized search results."
+  },
+  {
+    "id": "p_demoday_065",
+    "role": "Applied NLP Researcher",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "Prompt engineering",
+      "Question answering",
+      "Embeddings",
+      "RAG",
+      "LLM fine-tuning"
+    ],
+    "preferred_topics": [
+      "Search",
+      "LLM",
+      "NLP"
+    ],
+    "background": "Principal researcher leading an NLP team of 12 engineers at a large technology company, driving strategy for LLM-powered search and question-answering systems across multiple product verticals. Oversees research into retrieval augmentation, prompt engineering frameworks, and fine-tuning pipelines for proprietary and open-source models (Llama 2, Mistral). Recently shipped a production QA system combining dense retrieval with multi-stage ranking and LLM reranking, achieving 40% improvement in answer relevance. Actively publishes on embedding models, in-context learning, and RAG evaluation methodologies. Seeking conference engagement to explore emerging techniques in adaptive retrieval, synthetic data generation for domain-specific fine-tuning, and production-grade evaluation frameworks for LLM-based search systems."
+  },
+  {
+    "id": "p_demoday_066",
+    "role": "Speech Recognition Researcher",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Whisper",
+      "Voice cloning",
+      "Acoustic models",
+      "VAD"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "TTS"
+    ],
+    "background": "Senior researcher at a 12-person speech startup focused on multilingual ASR infrastructure. Currently architecting a production Whisper fine-tuning pipeline for low-resource languages, integrating custom VAD layers to reduce hallucination in noisy environments. Owns the acoustic modeling stack and has shipped voice cloning features using speaker embeddings and neural vocoders. Seeking conference insights on recent advances in end-to-end speech synthesis and how NLP-side tokenization strategies can improve downstream TTS quality."
+  },
+  {
+    "id": "p_demoday_067",
+    "role": "Analytics Engineer",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "ClickHouse",
+      "Retention modelling",
+      "Causal inference",
+      "Looker"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "ML"
+    ],
+    "background": "Principal analytics engineer at a 500+ person fintech company, leading a team of five data engineers and analysts. Designed and maintains a ClickHouse-based event warehouse processing 2B events daily, with Looker as the primary BI layer. Recently shipped a retention modeling framework using survival analysis and causal inference techniques to quantify feature impact on churn. Attending the conference to explore ML-driven feature engineering at scale and benchmark emerging causal inference libraries against current production workflows."
+  },
+  {
+    "id": "p_demoday_068",
+    "role": "ML Engineer (CV)",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "Quantisation",
+      "Object detection",
+      "Diffusion models",
+      "ONNX",
+      "Pose estimation"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "CV",
+      "OCR"
+    ],
+    "background": "Lead ML engineer at a large enterprise with 200+ ML practitioners, overseeing computer vision infrastructure for autonomous systems. Manages deployment of quantized object detection and pose estimation models via ONNX Runtime across edge and cloud clusters. Recently prototyped diffusion-based synthetic data generation to augment training sets for rare failure modes in detection pipelines. Interested in learning production-grade techniques for model compression, OCR improvements for document processing workflows, and scaling vision model serving in heterogeneous hardware environments."
+  },
+  {
+    "id": "p_demoday_069",
+    "role": "Product Data Scientist",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "A/B testing",
+      "ClickHouse",
+      "DBT"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "ML"
+    ],
+    "background": "Senior data scientist at a 150-person edtech company, partnering with product and engineering on experimentation and user insights. Built the A/B testing infrastructure using ClickHouse for event ingestion and DBT for metric layer transformation, enabling 20+ concurrent experiments. Owns statistical methodology and has implemented sequential testing and multi-armed bandit algorithms for feature rollout decisions. Wants to explore advanced causal inference methods to isolate feature impact from confounding variables and learn how other companies scale analytics infrastructure as product complexity grows."
+  },
+  {
+    "id": "p_demoday_070",
+    "role": "Computer Vision Engineer",
+    "experience": "lead/principal",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Video understanding",
+      "Pose estimation",
+      "Segmentation",
+      "TensorRT",
+      "Diffusion models"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "OCR"
+    ],
+    "background": "Principal engineer at an 18-person computer vision startup building real-time video analytics for fitness and sports applications. Architected the inference stack using TensorRT for low-latency pose estimation and segmentation on edge devices, handling 30+ fps streams. Recently integrated diffusion models for synthetic pose data generation to improve model robustness on underrepresented body types and movements. Seeking conference talks on video understanding architectures, OCR advances for in-frame text extraction, and production strategies for deploying generative models in real-time pipelines."
+  },
+  {
+    "id": "p_demoday_071",
+    "role": "Search and Retrieval Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Retrieval",
+      "Classification",
+      "LLM fine-tuning",
+      "Prompt engineering"
+    ],
+    "preferred_topics": [
+      "Search",
+      "LLM",
+      "NLP"
+    ],
+    "background": "Senior engineer at a large enterprise search platform responsible for building dense retrieval pipelines and re-ranking systems that serve billions of queries daily. Currently leads a team of four engineers optimizing hybrid BM25 + neural retrieval stacks using FAISS and ColBERT, with focus on reducing latency while maintaining relevance. Recently shipped a production fine-tuned DPR model adapted for domain-specific queries in financial documents, achieving 15% improvement in nDCG@10. Wants to explore latest advances in prompt engineering for retrieval-augmented generation and learn how leading organizations are integrating LLMs into search ranking without sacrificing inference speed."
+  },
+  {
+    "id": "p_demoday_072",
+    "role": "Speech Recognition Researcher",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Endpoint detection",
+      "VAD",
+      "Voice cloning"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "ASR",
+      "TTS"
+    ],
+    "background": "Senior researcher at a midsize speech AI company specializing in real-time ASR systems for contact centers and voice assistants. Owns the VAD and endpoint detection pipeline built on Silero VAD and custom Wav2Vec2 models, processing millions of audio streams monthly across 12 languages. Recently completed a voice cloning prototype using FastPitch and HiFi-GAN for multilingual speaker adaptation, now evaluating production feasibility. Seeking conference exposure to emerging neural vocoder architectures, advances in low-latency endpoint detection for noisy environments, and best practices for scaling speech models across diverse acoustic conditions."
+  },
+  {
+    "id": "p_demoday_073",
+    "role": "Computer Vision Engineer",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "ONNX",
+      "Object detection",
+      "Diffusion models",
+      "3D reconstruction",
+      "Edge deployment"
+    ],
+    "preferred_topics": [
+      "CV",
+      "OCR",
+      "Computer Vision"
+    ],
+    "background": "Principal engineer leading computer vision at a midsize industrial automation firm, overseeing a team of six engineers building perception systems for manufacturing quality control and robotics. Architected a multi-model inference pipeline using ONNX Runtime that deploys YOLOv8 for real-time object detection on edge devices (Jetson Orin), achieving 45 FPS while maintaining 88% mAP on custom industrial defect datasets. Actively experimenting with diffusion models for synthetic data generation to augment training sets and exploring 3D reconstruction from stereo feeds for robotic manipulation. Aims to connect with peers on production deployment strategies for large vision models, ONNX optimization techniques, and emerging applications of generative models in computer vision workflows."
+  },
+  {
+    "id": "p_demoday_074",
+    "role": "Autonomous Systems Researcher",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Code agents",
+      "Multi-agent orchestration",
+      "Browser agents",
+      "Memory and planning"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Middle-level researcher at a large tech company exploring agentic AI systems for automation and knowledge work. Currently prototyping multi-agent orchestration frameworks where specialized agents (code execution, web browsing, API calling) coordinate via LLM-driven planning to solve complex tasks like data analysis pipelines and customer support workflows. Built proof-of-concept browser agents using Playwright and LangChain that autonomously navigate e-commerce sites and extract structured data with 82% accuracy. Investigating memory architectures (episodic, semantic, procedural) for agent state management and long-horizon planning without context explosion. Wants to learn from conference talks on agent evaluation frameworks, production deployment patterns for autonomous systems, and how leading organizations handle agent reliability and cost optimization."
+  },
+  {
+    "id": "p_demoday_075",
+    "role": "AI for Education Engineer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Intelligent tutoring",
+      "Adaptive learning",
+      "Automated grading"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "NLP"
+    ],
+    "background": "Middle engineer at an early-stage EdTech startup building personalized learning platforms powered by LLMs. Develops intelligent tutoring systems that adapt question difficulty and explanation style based on student performance traces, currently serving 5,000 active users across K-12 mathematics and science. Implemented automated grading for short-answer questions using fine-tuned DistilBERT and semantic similarity scoring, reducing teacher workload by 40% while maintaining 91% agreement with human graders. Recently integrated GPT-4 for generating contextual hints and multi-step problem breakdowns, balancing pedagogical effectiveness against API costs. Seeks conference insights on scaling LLM-based tutoring systems cost-effectively, best practices for adaptive learning algorithms, and emerging research in automated assessment that goes beyond multiple-choice evaluation."
+  },
+  {
+    "id": "p_demoday_076",
+    "role": "Autonomous Systems Researcher",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "OpenAI Assistants",
+      "Multi-agent orchestration",
+      "Browser agents"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents",
+      "Agents"
+    ],
+    "background": "Senior researcher at a midsize AI infrastructure company leading a team of four engineers building multi-agent orchestration platforms for enterprise automation. Currently architecting a browser automation system that chains OpenAI Assistants with Playwright for end-to-end workflow execution, handling complex state management and tool composition across heterogeneous APIs. The system processes over 10K daily tasks spanning document processing, data extraction, and form filling. Seeks conference insights on production-grade agent patterns, failure recovery mechanisms, and how to scale multi-agent systems beyond toy examples. Wants to understand emerging approaches to agent memory, reasoning bottlenecks, and integration with knowledge bases at scale."
+  },
+  {
+    "id": "p_demoday_077",
+    "role": "LLM Red Team Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Model jailbreaks",
+      "Differential privacy",
+      "Adversarial ML",
+      "LLM red teaming"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "AI",
+      "Security"
+    ],
+    "background": "Senior security engineer at a large cloud provider responsible for red-teaming internal LLM deployments and customer-facing generative AI services. Leads a specialized team conducting systematic adversarial testing against proprietary models, identifying prompt injection vectors, context window exploits, and training-data extraction attacks. Recently published findings on differential privacy defenses in fine-tuning pipelines and co-authored internal guidelines for responsible model release. Attends conference to benchmark red-teaming methodologies against industry peers, understand emerging jailbreak techniques, and explore formal verification approaches for LLM safety. Interested in how other organizations operationalize adversarial testing at scale and integrate red-team findings into model development cycles."
+  },
+  {
+    "id": "p_demoday_078",
+    "role": "LLM Agent Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Function calling",
+      "Tool use",
+      "AutoGen"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Middle-level engineer at a midsize SaaS platform building AI-powered customer support agents using Microsoft AutoGen and OpenAI function calling. Owns the tool-use layer that connects LLM inference to 40+ internal APIs and third-party integrations, implementing robust error handling and fallback logic for agent actions. Recently debugged production issues with function calling hallucinations and context window overflow in long-running agent sessions. Seeks conference talks on best practices for reliable tool composition, strategies for grounding agent outputs, and patterns for handling ambiguous user intents. Wants to learn from practitioners managing agent complexity in production and understand emerging frameworks that simplify multi-step reasoning workflows."
+  },
+  {
+    "id": "p_demoday_079",
+    "role": "Causal Inference Specialist",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "A/B testing",
+      "ClickHouse",
+      "Retention modelling",
+      "DBT"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "ML"
+    ],
+    "background": "Senior data scientist at a large fintech company designing causal inference frameworks for product experimentation and retention modeling. Manages a data stack built on ClickHouse for sub-second query latency on 500B+ events, with DBT orchestrating 200+ transformation models feeding into ML pipelines. Specializes in quasi-experimental design for observational data, propensity score matching, and instrumental variable estimation to isolate feature impact on user lifetime value. Recently built a retention prediction model combining causal forest methods with survival analysis, reducing churn by 12% in a pilot cohort. Attends conference to explore novel causal discovery techniques, learn from other practitioners scaling experimentation infrastructure, and understand how to integrate causal reasoning into production ML systems."
+  },
+  {
+    "id": "p_demoday_080",
+    "role": "AI Security Researcher",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "LLM red teaming",
+      "Privacy-preserving ML",
+      "Model jailbreaks",
+      "Adversarial ML",
+      "Prompt injection"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Security"
+    ],
+    "background": "Senior security researcher at a smallish-startup focused exclusively on LLM safety and adversarial robustness, working across a lean team of three to build red-teaming tools and privacy-preserving inference systems. Develops automated prompt injection detection frameworks and maintains a curated dataset of 5K+ jailbreak attempts across model families, published in open-source tooling. Conducts differential privacy analysis on fine-tuning workflows and researches federated learning approaches for sensitive domains like healthcare. Leads external collaborations with academic groups on adversarial ML evaluation and contributes to industry safety benchmarks. Attends conference to exchange red-teaming methodologies with security teams at scale, understand privacy-preserving techniques for LLM deployment, and identify emerging threat vectors in production systems."
+  },
+  {
+    "id": "p_demoday_081",
+    "role": "Learning Analytics Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Automated grading",
+      "Knowledge tracing",
+      "Intelligent tutoring",
+      "Student modelling"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM"
+    ],
+    "background": "Works at a midsize EdTech platform serving 50K+ students across STEM subjects, building the learning analytics backbone that powers adaptive curriculum recommendations. Currently owns the automated grading pipeline using transformer-based models for open-ended problem assessment and maintains a Bayesian knowledge tracing system to predict student mastery gaps. The team of four engineers recently migrated from rule-based grading to fine-tuned BERT models, achieving 15% improvement in grade prediction accuracy. Seeking conference insights on LLM-powered student modeling and how large language models can enhance natural language understanding in tutoring systems to better personalize learning paths."
+  },
+  {
+    "id": "p_demoday_082",
+    "role": "Multi-Agent Systems Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Browser agents",
+      "Agent evaluation",
+      "OpenAI Assistants",
+      "Code agents"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Senior engineer at a midsize automation platform building autonomous agents for enterprise workflow orchestration, with a team of six focused on agent reasoning and coordination. Architected the company's multi-agent framework using OpenAI Assistants API and custom tool-use patterns, currently deployed in production for customer support ticket routing and code review workflows. Recently shipped a browser automation agent capable of complex multi-step web interactions, but faces challenges in agent evaluation and reliability at scale. Attending the conference to explore advanced agentic patterns, benchmarking methodologies for agent performance, and strategies for composing multiple specialized agents into coherent autonomous systems."
+  },
+  {
+    "id": "p_demoday_083",
+    "role": "NLP Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Prompt engineering",
+      "Classification",
+      "Text generation",
+      "Question answering",
+      "LangChain"
+    ],
+    "preferred_topics": [
+      "Search",
+      "LLM"
+    ],
+    "background": "Senior NLP engineer at a midsize SaaS company building semantic search and content understanding products, responsible for the core NLP pipeline serving 200+ enterprise customers. Owns the prompt engineering strategy across GPT-4 and open-source models, maintains LangChain-based RAG systems for question-answering over customer documents, and leads classification tasks for intent detection and content categorization. The team recently shipped a hybrid search solution combining dense vector embeddings with BM25 ranking, improving retrieval precision by 22%. Wants to deepen knowledge on advanced retrieval-augmented generation patterns, semantic search optimization, and production-grade LLM orchestration at the conference."
+  },
+  {
+    "id": "p_demoday_084",
+    "role": "ML Platform Engineer",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "CI/CD for ML",
+      "Distributed training",
+      "Triton Inference Server"
+    ],
+    "preferred_topics": [
+      "MLOps",
+      "Industrial ML"
+    ],
+    "background": "ML Platform engineer at a large enterprise financial services firm, part of a 12-person platform team responsible for the ML infrastructure serving 40+ data science teams across risk modeling and fraud detection. Manages the company's Kubernetes-based training pipeline with distributed PyTorch jobs, owns the deployment layer using Triton Inference Server for sub-100ms latency requirements, and recently implemented automated model versioning and A/B testing infrastructure. Currently tackling challenges around model registry governance, continuous validation of production models, and scaling CI/CD pipelines for thousands of daily training runs. Seeking conference talks on enterprise MLOps patterns, monitoring strategies for production models, and best practices for managing model drift in high-stakes financial applications."
+  },
+  {
+    "id": "p_demoday_085",
+    "role": "Speech AI Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Endpoint detection",
+      "Speaker diarization",
+      "TTS",
+      "Acoustic models",
+      "Speech-to-text"
+    ],
+    "preferred_topics": [
+      "TTS",
+      "NLP"
+    ],
+    "background": "Senior speech engineer at a smallish-startup building conversational AI for customer service automation, owning the entire speech processing stack from raw audio ingestion to synthesis. Implemented a production ASR system using Whisper with speaker diarization via pyannote.audio, trained custom acoustic models for domain-specific terminology in healthcare, and recently deployed a neural TTS engine using Tacotron2 for natural agent responses. As the technical lead for a team of three, balances model accuracy with latency constraints (target <500ms end-to-end) and manages on-device inference for privacy-sensitive deployments. Attending the conference to explore state-of-the-art TTS architectures, streaming ASR techniques, and how NLP advances in language understanding can improve dialogue coherence in spoken interactions."
+  },
+  {
+    "id": "p_demoday_086",
+    "role": "Search and Retrieval Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Multilingual NLP",
+      "vLLM",
+      "Prompt engineering"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "NLP"
+    ],
+    "background": "Works at a large tech company on cross-lingual search infrastructure serving 15+ languages. Currently optimizing retrieval-augmented generation pipelines using vLLM for sub-100ms latency on dense passage retrieval tasks. Owns the prompt engineering workflow for ranking and reranking stages, experimenting with few-shot techniques and chain-of-thought patterns to improve relevance on low-resource language pairs. Team of 8 engineers focuses on bridging multilingual embeddings with LLM-based rerankers. Seeks conference insights on production-grade multilingual prompt optimization and vLLM deployment patterns at scale."
+  },
+  {
+    "id": "p_demoday_087",
+    "role": "LLM Agent Developer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Multi-agent orchestration",
+      "LLM agents",
+      "OpenAI Assistants",
+      "Browser agents"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Develops autonomous agent systems at a large enterprise, building browser-based agents that handle multi-step customer service workflows. Currently architecting a multi-agent orchestration layer that coordinates OpenAI Assistants with custom tool-calling logic for document retrieval and transaction processing. Manages agent memory, tool schemas, and failure recovery across 3-5 concurrent agents per user session. Works in a team of 6 focused on agentic reliability and observability. Wants to learn emerging patterns in agent coordination, tool composition, and how to scale agent systems without exponential latency growth."
+  },
+  {
+    "id": "p_demoday_088",
+    "role": "Speech Recognition Researcher",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Conformer",
+      "Whisper",
+      "Speaker diarization",
+      "Acoustic models",
+      "VAD"
+    ],
+    "preferred_topics": [
+      "ASR",
+      "TTS",
+      "NLP"
+    ],
+    "background": "Senior researcher at a midsize speech-AI company leading the core ASR stack built on Conformer architectures and fine-tuned Whisper models for domain-specific accuracy. Owns speaker diarization pipelines and voice activity detection modules that preprocess audio for downstream transcription. Team of 4 researchers focuses on low-latency streaming ASR and multilingual robustness in noisy environments. Recently shipped production VAD that reduced false-positive rates by 18% on telephony data. Seeks conference exposure to latest acoustic modeling advances, Conformer variants, and production challenges in speaker attribution at scale."
+  },
+  {
+    "id": "p_demoday_089",
+    "role": "Learning Analytics Engineer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Automated grading",
+      "Intelligent tutoring",
+      "Student modelling",
+      "Knowledge tracing",
+      "Curriculum design"
+    ],
+    "preferred_topics": [
+      "EdTech",
+      "LLM",
+      "NLP"
+    ],
+    "background": "Builds learning analytics infrastructure at an early-stage EdTech startup with 12 engineers total. Developed an LLM-powered automated grading system that evaluates free-form student responses against rubrics, reducing teacher workload by 60% on formative assessments. Currently implementing Bayesian knowledge tracing models to personalize curriculum recommendations and identify learning gaps in real time. Integrates NLP for semantic similarity scoring and student misconception detection. Wants to explore how LLMs can improve intelligent tutoring systems, learn production best practices for knowledge tracing at scale, and discover new approaches to student modeling that go beyond traditional item-response theory."
+  },
+  {
+    "id": "p_demoday_090",
+    "role": "Senior ML Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Streaming inference",
+      "Feature engineering",
+      "A/B testing"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Analytics"
+    ],
+    "background": "Senior ML engineer at a midsize fintech company responsible for real-time fraud detection and transaction scoring systems. Owns feature engineering pipelines that aggregate 200+ signals from streaming transaction data and historical customer behavior, optimized for sub-50ms inference latency. Leads A/B testing infrastructure and statistical rigor across 10+ concurrent experiments on classification models. Manages model serving via Kafka-based streaming inference and handles feature store orchestration across training and production environments. Team of 5 engineers focuses on model reliability and feature velocity. Interested in advanced feature engineering techniques, streaming inference architectures, and statistical methods for high-velocity A/B testing in financial risk contexts."
+  },
+  {
+    "id": "p_demoday_091",
+    "role": "Vision Platform Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "OCR",
+      "Diffusion models",
+      "Edge deployment"
+    ],
+    "preferred_topics": [
+      "OCR",
+      "Computer Vision"
+    ],
+    "background": "Senior vision platform engineer at a large financial services company responsible for building and scaling OCR infrastructure that processes millions of documents daily. Leads a team of four engineers maintaining a custom PyTorch-based document recognition pipeline deployed across edge devices and cloud clusters. Recently integrated diffusion models for synthetic training data generation to improve model robustness on rare document types. Owns the end-to-end optimization strategy from model quantization to on-device inference using ONNX Runtime. Seeks conference insights on latest OCR architectures, edge deployment patterns, and how diffusion-based augmentation can further reduce annotation burden in production systems."
+  },
+  {
+    "id": "p_demoday_092",
+    "role": "Computer Vision Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "3D reconstruction",
+      "OCR",
+      "TensorRT",
+      "Edge deployment"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "OCR",
+      "CV"
+    ],
+    "background": "Middle-level computer vision engineer at a large autonomous systems company working on real-time 3D reconstruction pipelines for mobile robotics. Specializes in optimizing dense depth estimation models using TensorRT for deployment on edge GPUs with strict latency budgets under 50ms. Currently integrating OCR capabilities into the perception stack to enable scene understanding with text localization and recognition. Works with CUDA kernels and model quantization techniques to squeeze performance from constrained hardware. Interested in learning about recent advances in efficient 3D vision architectures and best practices for fusing OCR with spatial reconstruction in real-time systems."
+  },
+  {
+    "id": "p_demoday_093",
+    "role": "NLP Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Question answering",
+      "LlamaIndex",
+      "LangChain",
+      "vLLM"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Search"
+    ],
+    "background": "Senior NLP engineer at a midsize SaaS company building question-answering systems for enterprise knowledge management. Leads architecture decisions around LLM integration, currently evaluating vLLM for batched inference serving across a fleet of open-source models. Maintains a production RAG pipeline using LlamaIndex for document indexing and LangChain for orchestration, handling millions of queries monthly. Owns the full stack from embedding model selection to retrieval optimization and prompt engineering. Wants to explore at the conference how latest search ranking techniques and LLM inference optimization strategies can reduce latency and improve answer quality in knowledge-intensive domains."
+  },
+  {
+    "id": "p_demoday_094",
+    "role": "ML Platform Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Model registry",
+      "ETL",
+      "Triton Inference Server"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Middle-level ML platform engineer at a midsize fintech company responsible for the model deployment and serving infrastructure supporting fraud detection and credit scoring systems. Manages a centralized model registry built on MLflow to track lineage, versions, and governance across 30+ production models. Recently deployed Triton Inference Server to consolidate inference serving and reduce operational overhead. Owns ETL pipelines in Airflow that feed feature stores and ensure data quality for model training and inference. Seeks conference guidance on scaling model governance, improving CI/CD for ML workflows, and best practices for multi-framework serving in production environments."
+  },
+  {
+    "id": "p_demoday_095",
+    "role": "Applied NLP Researcher",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "Question answering",
+      "Classification",
+      "Function calling",
+      "Embeddings"
+    ],
+    "preferred_topics": [
+      "Search",
+      "LLM",
+      "RAG"
+    ],
+    "background": "Principal NLP researcher at an enterprise technology company leading a team of eight researchers and engineers building foundational LLM-powered search and retrieval systems. Drives research and production deployment of dense embedding models, semantic search ranking, and function-calling mechanisms for enterprise knowledge retrieval. Recently published work on improving zero-shot classification with LLMs and is now scaling retrieval-augmented generation across multiple business units serving millions of users. Oversees model evaluation frameworks and owns the strategy for evaluating trade-offs between model size, latency, and quality in search relevance. Attends conference to discuss emerging RAG architectures, advances in embedding models, and how function calling can enhance semantic search in complex enterprise workflows."
+  },
+  {
+    "id": "p_demoday_096",
+    "role": "LLM Agent Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "LLM agents",
+      "Browser agents",
+      "Tool use",
+      "LangGraph"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Junior developer at a midsize SaaS company building autonomous browser-control agents using LangGraph and Claude API. Currently working on a task-automation platform that chains tool calls across web APIs and UI interactions, focusing on reliable agent orchestration and tool-use patterns. The team is small (4 ML engineers) and shipping pilot features to enterprise customers. Seeking conference talks on agent frameworks, multi-step reasoning, and production patterns for LLM-powered automation to level up from prototype to scalable deployment."
+  },
+  {
+    "id": "p_demoday_097",
+    "role": "LLM Engineer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": [
+      "RAG",
+      "Information extraction",
+      "Text generation",
+      "Embeddings"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "NLP"
+    ],
+    "background": "Middle-level engineer at a lean startup (12 people) building a document-intelligence product that extracts structured data from PDFs and scanned contracts using RAG and fine-tuned embeddings. Owns the retrieval pipeline (FAISS + dense embeddings) and information-extraction module that chains multiple LLM calls to parse complex legal documents. Previously worked with spaCy and traditional NLP but is now deep in LLM-native workflows. Wants to learn about retrieval optimization, embedding model selection, and scaling extraction accuracy as the startup grows."
+  },
+  {
+    "id": "p_demoday_098",
+    "role": "Quant ML Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Fraud detection",
+      "Anti-money-laundering",
+      "Transactional sequence models"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "Fintech",
+      "ML"
+    ],
+    "background": "Senior ML engineer at a fintech company (50+ data scientists) leading the fraud and AML detection platform, which processes millions of transactions daily using sequence models (LSTMs, Transformers) and graph neural networks to detect suspicious patterns. Built the feature engineering pipeline, model serving infrastructure, and real-time decision systems that balance false-positive rates with regulatory compliance. Team manages 15+ models in production with strict SLA requirements and audit trails. Attending to explore emerging techniques in anomaly detection, temporal modeling, and how to integrate new architectures without disrupting production systems."
+  },
+  {
+    "id": "p_demoday_099",
+    "role": "Conversational AI Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Prompt engineering",
+      "Retrieval",
+      "Information extraction",
+      "Question answering",
+      "LangChain"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "RAG"
+    ],
+    "background": "Senior engineer at a midsize conversational AI company (60 employees, 8-person ML team) architecting end-to-end QA and retrieval-augmented generation systems for customer-support chatbots. Deep expertise in prompt engineering, LangChain orchestration, and hybrid retrieval (BM25 + dense embeddings) to ground LLM responses in company knowledge bases. Recently led migration from rule-based extraction to LLM-based extraction and is now optimizing latency and accuracy for production deployments. Interested in advanced prompt techniques, retrieval reranking, and how to measure and improve information-extraction reliability in complex domains."
+  },
+  {
+    "id": "p_demoday_100",
+    "role": "Product Data Scientist",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Retention modelling",
+      "Experimentation platform",
+      "Causal inference"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Analytics"
+    ],
+    "background": "Mid-level data scientist at a large consumer tech company (200+ data scientists) focused on retention modeling and experimentation infrastructure. Owns predictive churn models (XGBoost, LightGBM) that feed into retention-targeting campaigns and works closely with the experimentation platform team to design and analyze A/B tests using causal inference techniques (propensity-score matching, CATE estimation). Manages a codebase in Python/SQL with Airflow orchestration and deploys models to production via internal ML platform. Seeking conference insights on advanced causal methods, heterogeneous treatment effects, and scaling experimentation platforms to support hundreds of concurrent tests."
+  },
+  {
+    "id": "p_demoday_101",
+    "role": "Speech Recognition Researcher",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "Speaker diarization",
+      "Streaming ASR",
+      "Conformer",
+      "TTS"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "TTS"
+    ],
+    "background": "Leading a 12-person speech team at a mid-scale voice AI company, this researcher oversees end-to-end ASR pipeline development using Conformer-based architectures optimized for low-latency streaming inference. Currently driving a project to integrate speaker diarization with real-time transcription for multi-speaker meeting scenarios, leveraging PyTorch and NVIDIA Triton for production deployment. The team recently shipped a TTS module for voice cloning using speaker embeddings, and this engineer is keen to explore latest advances in neural vocoding and prosody modeling. Attending the conference to benchmark emerging streaming ASR techniques and connect with practitioners working on speaker-aware speech synthesis."
+  },
+  {
+    "id": "p_demoday_102",
+    "role": "Senior ML Engineer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Gradient boosting",
+      "Anomaly detection",
+      "AutoML"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "ML"
+    ],
+    "background": "At a lean 8-person startup focused on predictive maintenance, this engineer owns the full ML stack from feature engineering to model deployment, primarily using XGBoost and LightGBM for equipment failure forecasting. Recently implemented an anomaly detection pipeline combining isolation forests with statistical process control to flag manufacturing equipment degradation in real-time, reducing unplanned downtime by 30%. Frustrated with manual hyperparameter tuning, the team is evaluating AutoML frameworks like Optuna and Hyperopt to accelerate model iteration cycles. Seeking conference sessions on production-grade anomaly detection patterns and AutoML best practices to scale beyond the current single-engineer ML team."
+  },
+  {
+    "id": "p_demoday_103",
+    "role": "Quant ML Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Fraud detection",
+      "Credit scoring",
+      "Transactional sequence models",
+      "Uplift modelling"
+    ],
+    "preferred_topics": [
+      "Fintech",
+      "Industrial ML"
+    ],
+    "background": "Working within a 40-person risk analytics team at a tier-1 fintech firm, this engineer develops real-time fraud detection systems and credit risk models serving millions of transactions daily. Currently architecting a transactional sequence model using transformer-based encoders to capture temporal dependencies in customer payment behavior, moving beyond traditional tabular features into deep learning territory. The team also runs A/B tests on uplift modeling frameworks to personalize credit limits and detect fraud propensity at the individual level, using tools like CausalML and EconML. Attending the conference to learn state-of-the-art techniques in causal inference for fintech and discuss deployment strategies for high-throughput ML systems in regulated environments."
+  },
+  {
+    "id": "p_demoday_104",
+    "role": "Learning Analytics Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Knowledge tracing",
+      "Automated grading",
+      "Curriculum design",
+      "Adaptive learning"
+    ],
+    "preferred_topics": [
+      "EdTech",
+      "LLM"
+    ],
+    "background": "Building intelligent tutoring systems at a mid-sized EdTech platform with 15 ML engineers, this engineer focuses on knowledge tracing models that predict student mastery across thousands of learning objectives. Recently deployed a Bayesian knowledge tracing variant using PyMC3 to personalize exercise recommendations, and is now exploring deep knowledge tracing architectures with attention mechanisms to capture prerequisite dependencies. The team is experimenting with LLM-based automated grading for open-ended responses, fine-tuning smaller models on domain-specific rubrics to reduce hallucinations and improve consistency. Wants to learn about recent advances in knowledge tracing, LLM-powered assessment, and how to ethically design adaptive curricula that don't amplify existing educational inequities."
+  },
+  {
+    "id": "p_demoday_105",
+    "role": "AI Safety Engineer",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "Prompt injection",
+      "Privacy-preserving ML",
+      "Adversarial ML",
+      "LLM red teaming"
+    ],
+    "preferred_topics": [
+      "Security",
+      "AI",
+      "LLM"
+    ],
+    "background": "Leading a 10-person AI safety and security team at a mid-scale AI infrastructure company, this engineer designs adversarial robustness testing frameworks and red-teaming workflows for LLM deployments. Currently building an automated prompt injection detector using semantic similarity and token-level anomaly scoring to catch jailbreak attempts before they reach production models. The team also maintains privacy-preserving ML pipelines using differential privacy libraries and federated learning to protect customer data in model training, with recent focus on quantifying privacy-utility tradeoffs in fine-tuning scenarios. Seeking conference talks on emerging LLM attack vectors, defenses against prompt injection and data poisoning, and industry standards for AI security governance to inform the team's roadmap."
+  },
+  {
+    "id": "p_demoday_106",
+    "role": "Applied CV Researcher",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "TensorRT",
+      "Edge deployment",
+      "Diffusion models"
+    ],
+    "preferred_topics": [
+      "OCR",
+      "Computer Vision"
+    ],
+    "background": "Senior CV researcher at a midsize computer vision company working on real-time inference optimization for mobile and embedded devices. Leads a team of four engineers focused on deploying state-of-the-art vision models using TensorRT and ONNX Runtime across edge hardware. Currently architecting a diffusion-based image enhancement pipeline that must run at <100ms latency on ARM processors for a B2B document processing product. Proficient with PyTorch, CUDA optimization, and quantization techniques to reduce model footprint without sacrificing accuracy. Seeking conference insights on latest OCR architectures and efficient diffusion model deployment strategies to inform next-generation product roadmap."
+  },
+  {
+    "id": "p_demoday_107",
+    "role": "Vision Platform Engineer",
+    "experience": "lead/principal",
+    "company_size": "smallish-startup",
+    "interests": [
+      "OCR",
+      "Pose estimation",
+      "Video understanding",
+      "3D reconstruction"
+    ],
+    "preferred_topics": [
+      "OCR",
+      "Computer Vision"
+    ],
+    "background": "Principal engineer at a lean computer vision startup (12-person team) building a multi-modal platform for automated document and video analysis. Owns the full stack from model selection through production deployment, currently integrating OCR, pose estimation, and 3D reconstruction modules into a unified inference service. Working with OpenCV, MediaPipe, and custom PyTorch models to process video streams for real-time pose tracking and document digitization in warehouse automation scenarios. Responsible for system design decisions that balance accuracy, latency, and cost across heterogeneous hardware (GPU clusters and edge devices). Attending to discover emerging OCR techniques and video understanding breakthroughs that could differentiate the platform in competitive enterprise markets."
+  },
+  {
+    "id": "p_demoday_108",
+    "role": "Data Scientist",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "A/B testing",
+      "Looker",
+      "Retention modelling"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Analytics"
+    ],
+    "background": "Senior data scientist at a large fintech platform operating within a 40-person analytics organization, focused on user retention and monetization modeling. Designs and executes rigorous A/B tests using Python and SQL, with results visualized in Looker dashboards consumed by product and leadership teams. Currently building a cohort-based retention prediction model using gradient boosting (XGBoost/LightGBM) to identify at-risk users and optimize intervention timing across customer segments. Collaborates closely with product managers and engineers to translate statistical findings into actionable product changes that drive subscription renewals and reduce churn. Seeking conference sessions on advanced causal inference techniques and modern ML ops practices to scale experimentation infrastructure and improve model deployment velocity."
+  },
+  {
+    "id": "p_demoday_109",
+    "role": "ML Engineer (CV)",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Multimodal vision",
+      "Edge deployment",
+      "Object detection",
+      "Quantisation",
+      "OCR"
+    ],
+    "preferred_topics": [
+      "OCR",
+      "CV",
+      "Computer Vision"
+    ],
+    "background": "Senior ML engineer at a midsize autonomous robotics company responsible for deploying multimodal vision pipelines on resource-constrained robot hardware. Specializes in object detection (YOLO, Faster R-CNN) and OCR for real-world robotic manipulation tasks, with deep expertise in quantization (INT8, dynamic range) and model compression to fit models into embedded GPUs. Currently shipping a production system combining visual perception, text recognition, and spatial reasoning on NVIDIA Jetson platforms, achieving <50ms inference latency per frame. Works primarily with TensorFlow Lite, TorchScript, and custom CUDA kernels to optimize inference graphs for edge deployment while maintaining accuracy. Interested in learning about state-of-the-art OCR architectures, multimodal fusion techniques, and emerging quantization methods that could unlock next-generation on-device AI capabilities."
+  },
+  {
+    "id": "p_demoday_110",
+    "role": "LLM Engineer",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "Classification",
+      "Multilingual NLP",
+      "Embeddings"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM"
+    ],
+    "background": "Principal LLM engineer at a large enterprise software company leading a 25-person team building language understanding infrastructure for global compliance and content moderation systems. Owns the design and deployment of multilingual classification pipelines using fine-tuned transformer models (BERT, RoBERTa) and dense retrieval systems with learned embeddings across 40+ languages. Currently architecting a hybrid classification stack combining lightweight rule-based heuristics with large language models for real-time content categorization, balancing latency, cost, and accuracy across diverse regulatory domains. Proficient with Hugging Face Transformers, FAISS for semantic search, and MLflow for experiment tracking across distributed training infrastructure. Attending to explore latest advances in multilingual embeddings, efficient classification architectures, and LLM fine-tuning techniques that could improve model robustness and reduce inference costs at scale."
+  },
+  {
+    "id": "p_demoday_111",
+    "role": "Recommender Systems Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Evaluation",
+      "Cold start",
+      "Catboost",
+      "Reranker training"
+    ],
+    "preferred_topics": [
+      "Personalization",
+      "RecSys",
+      "Search"
+    ],
+    "background": "Senior recommender systems engineer at a large e-commerce platform responsible for the personalized product ranking pipeline serving 50M+ daily active users. Owns end-to-end reranker training workflows using Catboost, with particular focus on cold-start problems for new users and items in a two-sided marketplace. Currently optimizing ranking metrics (NDCG, diversity, business KPIs) across multiple candidate retrieval stages and working with a cross-functional team of 8 ML engineers and data scientists. Seeks conference insights on state-of-the-art evaluation methodologies for reranking systems, emerging cold-start mitigation strategies, and production patterns for scaling personalization infrastructure. Interested in learning how other platforms handle the tension between relevance, diversity, and business objectives in large-scale recommendation systems."
+  },
+  {
+    "id": "p_demoday_112",
+    "role": "DevOps for ML",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Model registry",
+      "ETL",
+      "GPU scheduling",
+      "MLflow"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Senior DevOps engineer specializing in ML infrastructure at a midsize fintech company with ~40 ML practitioners across risk modeling, fraud detection, and pricing teams. Manages MLflow-based model registry, orchestrates GPU-intensive ETL pipelines for real-time feature computation, and handles Kubernetes cluster scheduling for competing model training workloads. Recently migrated the company from ad-hoc Jenkins jobs to a centralized MLOps stack, reducing model deployment time from weeks to days while improving reproducibility. Wants to understand best practices for model versioning governance, strategies for optimizing GPU utilization across diverse workloads, and how to integrate ETL monitoring with model performance tracking. Keen to explore production patterns from other organizations managing similar scale and complexity."
+  },
+  {
+    "id": "p_demoday_113",
+    "role": "MLOps Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Kubeflow",
+      "CI/CD for ML",
+      "MLflow",
+      "Data versioning",
+      "Distributed training"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Senior MLOps engineer at a 25-person AI startup building computer vision models for autonomous inspection systems in manufacturing. Architected the entire ML platform from scratch using Kubeflow for orchestration, DVC for data versioning, and MLflow for experiment tracking, enabling 12 data scientists to train and deploy models independently. Designed CI/CD pipelines that automatically validate model performance on held-out test sets before production deployment, with distributed training support for large-scale image datasets across multi-GPU nodes. Focuses on reducing friction between research and production, currently implementing automated retraining triggers based on data drift detection. Seeks conference guidance on scaling Kubeflow in resource-constrained environments, best practices for data versioning at startup scale, and lessons from teams managing similar distributed training complexity with limited DevOps headcount."
+  },
+  {
+    "id": "p_demoday_114",
+    "role": "ML Platform Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Data versioning",
+      "ETL",
+      "Kubeflow"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Senior ML platform engineer at an early-stage startup (18 people) focused on predictive maintenance for industrial equipment, responsible for building the foundational infrastructure that 6 ML engineers depend on daily. Implemented a Kubeflow-based training platform with integrated data versioning using DVC, enabling reproducible experiments and audit trails for regulated environments. Designed ETL pipelines that ingest sensor telemetry from customer deployments, perform feature engineering, and feed models in both batch and streaming modes. Balances the startup's need for rapid iteration with the operational rigor required by enterprise customers in heavy manufacturing. Wants to learn how other early-stage teams have scaled their platforms without over-engineering, best practices for data versioning governance as the company grows, and patterns for managing Kubeflow in resource-constrained cloud environments. Interested in understanding tradeoffs between building custom solutions versus adopting managed platforms."
+  },
+  {
+    "id": "p_demoday_115",
+    "role": "Senior ML Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Feature engineering",
+      "AutoML",
+      "Streaming inference",
+      "Demand forecasting"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "Industrial ML"
+    ],
+    "background": "Senior ML engineer at a midsize retail analytics company specializing in demand forecasting and inventory optimization for 500+ retail clients across apparel and grocery sectors. Owns the feature engineering pipeline that transforms raw transaction data, seasonality signals, and external economic indicators into predictive features for hierarchical time-series models. Recently evaluated AutoML frameworks (AutoGluon, TPOT) to accelerate model development across diverse product categories, reducing time-to-production for new client onboarding by 60%. Implements streaming inference infrastructure to serve real-time demand predictions to client dashboards with sub-100ms latency, using a combination of batch pre-computation and online feature stores. Works with a team of 5 other ML engineers and collaborates closely with analytics and product teams. Seeks conference insights on advanced feature engineering techniques for time-series forecasting, practical AutoML deployment patterns in production, and strategies for maintaining model performance across heterogeneous retail verticals with varying data quality and seasonality patterns."
+  },
+  {
+    "id": "p_demoday_116",
+    "role": "Recommender Systems Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Evaluation",
+      "Ranking",
+      "Catboost",
+      "Reranker training",
+      "Implicit feedback"
+    ],
+    "preferred_topics": [
+      "Personalization",
+      "Search",
+      "RecSys"
+    ],
+    "background": "Works at a midsize e-commerce platform where they own the ranking and personalization stack serving 10M+ monthly users. Currently building a two-stage recommendation pipeline: retrieval via collaborative filtering on implicit user-item interactions, followed by a CatBoost reranker that optimizes for both relevance and business metrics. The team recently migrated implicit feedback processing to handle sparse, high-cardinality user behaviour streams, and they're now focused on improving ranking diversity and coverage. Wants to learn state-of-the-art evaluation methodologies for implicit feedback systems and best practices for training rerankers at scale without overfitting to training data biases."
+  },
+  {
+    "id": "p_demoday_117",
+    "role": "EdTech Product ML Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Adaptive learning",
+      "Knowledge tracing",
+      "Automated grading",
+      "Curriculum design"
+    ],
+    "preferred_topics": [
+      "EdTech",
+      "NLP"
+    ],
+    "background": "Part of a 6-person ML team at a large online learning platform serving 500K+ active learners across STEM subjects. Focuses on building knowledge tracing models to predict student mastery and personalize problem sequencing in real-time. Recently deployed an automated essay grading system using BERT-based classifiers fine-tuned on domain-specific rubrics, achieving 92% inter-rater agreement with human graders. The team is now exploring curriculum design optimization—using reinforcement learning to recommend next-best learning paths that balance skill progression with engagement. Seeking conference insights on scaling knowledge tracing to new subjects, handling sparse grading data, and integrating LLM-based feedback generation into adaptive workflows."
+  },
+  {
+    "id": "p_demoday_118",
+    "role": "Senior ML Engineer (Fintech)",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": [
+      "Behavioural scoring",
+      "Transactional sequence models",
+      "Fraud detection",
+      "Uplift modelling",
+      "Anti-money-laundering"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "ML"
+    ],
+    "background": "Leads the ML infrastructure and model governance team at a Tier-1 financial institution, overseeing 20+ engineers and 100+ models in production across lending, payments, and compliance. Architected a real-time fraud detection system using sequence models (Transformers on transactional streams) and behavioural scoring that processes 2M+ transactions daily with <50ms latency. Recently implemented an uplift modelling framework to measure incremental impact of intervention strategies (e.g., dynamic credit limits, friction-based friction) on customer lifetime value, reducing false positives in AML alerts by 30% while maintaining regulatory compliance. Attends the conference to benchmark emerging approaches in transactional sequence learning, discuss federated or privacy-preserving model training for sensitive financial data, and explore how LLMs might augment anomaly detection in unstructured transaction metadata."
+  },
+  {
+    "id": "p_demoday_119",
+    "role": "Multi-Agent Systems Engineer",
+    "experience": "junior",
+    "company_size": "large",
+    "interests": [
+      "AutoGen",
+      "LangGraph",
+      "Code agents",
+      "Multi-agent orchestration",
+      "OpenAI Assistants"
+    ],
+    "preferred_topics": [
+      "Autonomous agents",
+      "LLM",
+      "Agents"
+    ],
+    "background": "Recently joined the AI platform team at a large SaaS company, where they're prototyping multi-agent systems for enterprise automation workflows. Currently building a code generation and debugging agent using LangGraph and AutoGen, where specialized agents (planner, coder, reviewer) collaborate to transform natural language specifications into production-ready Python modules. Experimenting with OpenAI Assistants API for stateful agent conversations and exploring orchestration patterns that handle tool failures and context window constraints. The team is still early-stage on agents—no production systems yet—so they're learning rapidly through proof-of-concepts. Wants to learn from practitioners who've deployed multi-agent systems at scale, understand failure modes and recovery strategies, and explore emerging patterns in agent memory and reasoning."
+  },
+  {
+    "id": "p_demoday_120",
+    "role": "NLP Engineer",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "LLM fine-tuning",
+      "LangChain",
+      "Function calling",
+      "Information extraction"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "Search"
+    ],
+    "background": "Works on the search and discovery team at a large enterprise SaaS platform, responsible for indexing and ranking 50M+ documents across customer knowledge bases. Recently fine-tuned open-source LLMs (Llama 2, Mistral) on proprietary domain corpora to improve entity extraction and query intent classification, reducing search latency by 40% compared to API-based solutions. Built a LangChain-based pipeline for structured information extraction from unstructured customer documents, leveraging function calling to enforce schema compliance and reduce hallucinations. The team operates under strict data residency and cost constraints, so they prioritize on-premise or self-hosted model deployment over closed APIs. Attending the conference to stay current on fine-tuning methodologies, understand how to integrate retrieval-augmented generation (RAG) with function calling for higher-quality extractions, and explore efficient inference techniques for large LLMs in resource-constrained environments."
+  },
+  {
+    "id": "p_demoday_121",
+    "role": "ML Infrastructure Engineer",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "Kubernetes",
+      "CI/CD for ML",
+      "GPU scheduling"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Leads the ML infrastructure platform at a large financial services firm, managing Kubernetes clusters that run training and inference workloads across 50+ ML teams. Owns the CI/CD pipeline for model deployment, handling GPU scheduling and resource optimization to reduce infrastructure costs by 35% year-over-year. Currently architecting a multi-region failover system for real-time serving and exploring Karpenter for dynamic node provisioning. Wants to learn emerging patterns in production ML observability and cost optimization strategies from peers running similar scale."
+  },
+  {
+    "id": "p_demoday_122",
+    "role": "Multi-Agent Systems Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Multi-agent orchestration",
+      "LangGraph",
+      "Agent evaluation"
+    ],
+    "preferred_topics": [
+      "Autonomous agents",
+      "Agents",
+      "LLM"
+    ],
+    "background": "Senior engineer at a large enterprise building autonomous agent systems for customer support and internal process automation using LangGraph and Claude. Designs multi-agent orchestration patterns where specialized agents handle classification, retrieval, and reasoning tasks with explicit handoff protocols and fallback strategies. Recently shipped a 4-agent system that reduced support ticket resolution time by 40% through intelligent routing. Seeking conference talks on agent evaluation frameworks, long-horizon planning, and production reliability patterns for agentic systems at scale."
+  },
+  {
+    "id": "p_demoday_123",
+    "role": "Applied ML Engineer",
+    "experience": "lead/principal",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Gradient boosting",
+      "AutoML",
+      "Streaming inference",
+      "Demand forecasting"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "ML",
+      "Industrial ML"
+    ],
+    "background": "Technical co-founder at a supply-chain analytics startup building real-time demand forecasting systems for retail and manufacturing clients. Owns the full ML stack from feature engineering to production serving, leveraging XGBoost and LightGBM for time-series forecasting with streaming inference on AWS Lambda. Built an internal AutoML framework that reduced model tuning time from weeks to days, enabling rapid iteration across 200+ client SKUs. Wants to learn about feature stores, online-offline inference consistency, and scaling demand forecasting to handle high-volume streaming data."
+  },
+  {
+    "id": "p_demoday_124",
+    "role": "ML Platform Engineer",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "Anomaly detection",
+      "Time-series",
+      "Feature engineering",
+      "Gradient boosting"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "ML",
+      "Analytics"
+    ],
+    "background": "Platform engineer at an enterprise manufacturing company building shared ML infrastructure for predictive maintenance and equipment anomaly detection across 15+ production facilities. Works with time-series data from IoT sensors, implementing feature engineering pipelines using Spark and gradient boosting models for early fault detection. Currently integrating a feature store to standardize feature definitions across teams and reduce redundant computation. Interested in learning best practices for time-series feature engineering at scale, handling concept drift in anomaly detection models, and MLOps patterns for managing dozens of production forecasting pipelines."
+  },
+  {
+    "id": "p_demoday_125",
+    "role": "Senior ML Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Model monitoring",
+      "A/B testing",
+      "AutoML",
+      "Time-series"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Industrial ML",
+      "Analytics"
+    ],
+    "background": "Senior ML engineer at a midsize fintech company responsible for monitoring and improving 30+ production models across fraud detection, credit scoring, and churn prediction. Owns the A/B testing framework and model monitoring dashboards that track data drift, performance degradation, and business KPIs in real-time. Recently implemented an AutoML pipeline that discovered a 2% improvement in fraud recall by automatically tuning ensemble weights. Seeks conference insights on statistical rigor in A/B testing for ML systems, automated retraining triggers, and time-series forecasting for financial products."
+  },
+  {
+    "id": "p_demoday_126",
+    "role": "Speech AI Engineer",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "Voice cloning",
+      "Speaker diarization",
+      "TTS",
+      "VAD",
+      "Endpoint detection"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "ASR",
+      "TTS"
+    ],
+    "background": "Lead speech AI engineer at a midsize conversational AI platform company, overseeing a team of four engineers building production ASR and TTS pipelines. Currently architecting a multi-speaker voice cloning system using speaker diarization and speaker embedding models, with inference deployed on edge devices via ONNX Runtime. The team recently migrated VAD and endpoint detection from Silero to custom PyTorch models to reduce latency and licensing costs. Seeking conference insights on state-of-the-art speaker adaptation techniques, real-time TTS synthesis improvements, and how to scale voice cloning quality without proportional compute overhead."
+  },
+  {
+    "id": "p_demoday_127",
+    "role": "Vision Platform Engineer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "TensorRT",
+      "Video understanding",
+      "ONNX",
+      "Segmentation"
+    ],
+    "preferred_topics": [
+      "OCR",
+      "CV"
+    ],
+    "background": "Senior vision platform engineer at a large financial services enterprise, responsible for maintaining inference infrastructure serving real-time document OCR and video-based compliance monitoring across 50+ internal applications. Manages deployment of segmentation and detection models using TensorRT optimization and ONNX model serving on Kubernetes clusters processing ~10M images daily. Recently led a project converting legacy OpenVINO pipelines to unified ONNX Runtime to reduce operational complexity and improve model portability across CPU and GPU hardware. Attending to learn emerging video understanding architectures, efficient segmentation techniques for resource-constrained environments, and best practices for model versioning and A/B testing in large-scale enterprise deployments."
+  },
+  {
+    "id": "p_demoday_128",
+    "role": "Senior Analyst",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "A/B testing",
+      "DBT",
+      "Experimentation platform",
+      "Retention modelling"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "ML"
+    ],
+    "background": "Senior analyst at a large consumer subscription platform, embedded within the data science organization and responsible for designing and analyzing A/B tests across the product funnel. Works extensively with DBT for data transformation pipelines and owns retention modeling projects that feed into churn prediction initiatives. Recently built a cohort retention dashboard using SQL and Python to identify high-value user segments and predict 90-day churn with 78% AUC. Collaborates closely with product and engineering teams on experimentation platform governance and statistical rigor. Interested in learning advanced retention modeling techniques, causal inference methods for observational data, and how to scale A/B testing infrastructure without sacrificing statistical validity."
+  },
+  {
+    "id": "p_demoday_129",
+    "role": "Analytics Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "A/B testing",
+      "DBT",
+      "Looker",
+      "ClickHouse"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "ML"
+    ],
+    "background": "Senior analytics engineer at a midsize e-commerce analytics platform, building data infrastructure and self-service analytics for 200+ enterprise customers. Architected the core DBT transformation layer processing 50TB+ of event data daily, migrating the data warehouse from Redshift to ClickHouse to reduce costs and improve query latency. Designed and maintains the internal A/B testing framework, including experiment design validation, statistical power calculations, and automated Looker dashboards for experiment tracking. Recently implemented feature flagging integration to enable rapid experimentation across customer instances. Wants to explore advanced statistical methods for sequential testing, learn how to operationalize causal inference at scale, and understand emerging patterns in analytics tooling for fast-growing data teams."
+  },
+  {
+    "id": "p_demoday_130",
+    "role": "LLM Agent Developer",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "Tool use",
+      "Code agents",
+      "Memory and planning",
+      "LangGraph"
+    ],
+    "preferred_topics": [
+      "Autonomous agents",
+      "Agents",
+      "LLM"
+    ],
+    "background": "Lead agent developer at a midsize enterprise automation startup, leading a team of three engineers building autonomous code generation and data analysis agents for Fortune 500 clients. Architected the core agent framework using LangGraph for state management and multi-step planning, with custom tool use implementations for SQL generation, API calls, and code execution sandboxing. Currently shipping agents that autonomously debug data pipelines and generate business intelligence reports, with long-term memory implemented via vector stores and retrieval-augmented generation. Recently tackled challenges in tool grounding, hallucination reduction in code generation, and maintaining conversation context across multi-turn interactions. Seeking conference sessions on advanced planning algorithms for agents, emerging memory architectures, safety and guardrails for autonomous code execution, and production patterns for handling agent failures gracefully."
+  },
+  {
+    "id": "p_demoday_131",
+    "role": "NLP Engineer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": [
+      "Embeddings",
+      "Multilingual NLP",
+      "Classification",
+      "Text generation",
+      "RAG"
+    ],
+    "preferred_topics": [
+      "NLP",
+      "LLM",
+      "RAG"
+    ],
+    "background": "Junior NLP engineer at a midsize SaaS company working on customer support automation. Owns text classification and intent detection pipelines using transformers and sentence-transformers for multilingual support across 12 languages. Currently building a retrieval-augmented generation system to reduce hallucinations in customer-facing chatbots, integrating FAISS for embedding search with GPT-3.5 backends. Team of 4 engineers supports 50+ production models. Wants to deepen knowledge on RAG architectures, advanced embedding techniques, and how to scale multilingual systems without degrading latency."
+  },
+  {
+    "id": "p_demoday_132",
+    "role": "Production ML Engineer",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "Streaming inference",
+      "AutoML",
+      "Time-series",
+      "Anomaly detection"
+    ],
+    "preferred_topics": [
+      "ML",
+      "Industrial ML"
+    ],
+    "background": "Mid-level ML engineer at a large financial services firm responsible for real-time anomaly detection in transaction streams. Maintains Kafka pipelines feeding time-series data into PyOD and Isolation Forest models for fraud prevention, serving 50k+ requests per second with sub-100ms latency requirements. Recently evaluated AutoML frameworks (H2O, TPOT) to reduce manual feature engineering for seasonal demand patterns. Works within a 15-person platform team supporting 200+ models across risk, pricing, and operations. Seeks exposure to advanced streaming inference patterns, production-grade anomaly detection at scale, and AutoML trade-offs in regulated environments."
+  },
+  {
+    "id": "p_demoday_133",
+    "role": "ML Infrastructure Engineer",
+    "experience": "junior",
+    "company_size": "enterprise",
+    "interests": [
+      "Distributed training",
+      "ETL",
+      "Data versioning",
+      "MLflow",
+      "Triton Inference Server"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Junior infrastructure engineer at an enterprise tech company building internal ML platform tooling. Manages MLflow experiment tracking, DVC pipelines for data versioning, and Triton Inference Server deployments across Kubernetes clusters. Recently implemented distributed training orchestration using Ray for large-scale computer vision models, reducing training time from 48 to 12 hours. Supports 30+ data scientists and ML engineers across the organization. Focuses on ETL reliability, reproducibility, and reducing deployment friction. Wants to master advanced MLOps patterns, distributed training optimization, and how to build scalable feature stores and model registries."
+  },
+  {
+    "id": "p_demoday_134",
+    "role": "Applied ML Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Time-series",
+      "Tabular ML",
+      "Gradient boosting",
+      "Demand forecasting"
+    ],
+    "preferred_topics": [
+      "Analytics",
+      "ML"
+    ],
+    "background": "Mid-career ML engineer at a midsize e-commerce logistics company specializing in demand forecasting and inventory optimization. Builds XGBoost and LightGBM models on tabular time-series data spanning 500+ SKUs across 50 warehouses, achieving 8% MAPE improvement over baseline statistical methods. Owns feature engineering pipelines combining sales history, seasonality, promotional calendars, and external signals (weather, holidays) using pandas and Polars for performance. Team of 6 engineers supports planning, pricing, and supply-chain use cases. Interested in advanced gradient boosting techniques, handling sparse time-series, and deploying forecasting systems that adapt to distribution shifts in production."
+  },
+  {
+    "id": "p_demoday_135",
+    "role": "NLP Engineer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "LLM fine-tuning",
+      "LlamaIndex",
+      "LangChain",
+      "Retrieval"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Search",
+      "NLP"
+    ],
+    "background": "Senior NLP engineer leading LLM initiatives at a large enterprise software company. Architected retrieval-augmented generation systems using LangChain and LlamaIndex, integrating proprietary knowledge bases with GPT-4 and open-source models (Llama 2, Mistral) for internal Q&A and documentation generation. Leads fine-tuning efforts on domain-specific tasks using LoRA and QLoRA, optimizing for cost and latency on A100 clusters. Mentors team of 8 engineers on production LLM patterns, prompt engineering, and evaluation frameworks. Seeking deep dives into advanced retrieval strategies, LLM optimization for enterprise constraints, and emerging architectures for scaling retrieval systems beyond vector databases."
+  },
+  {
+    "id": "p_demoday_136",
+    "role": "ML Security Engineer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": [
+      "Privacy-preserving ML",
+      "Prompt injection",
+      "Differential privacy"
+    ],
+    "preferred_topics": [
+      "AI",
+      "Security",
+      "LLM"
+    ],
+    "background": "Senior ML Security Engineer at a Fortune 500 financial services firm responsible for hardening LLM deployments across trading and compliance systems. Leads a team of four security specialists implementing differential privacy mechanisms in model training pipelines and conducting red-team exercises against prompt injection vulnerabilities. Currently architecting defenses for a GPT-4-based document analysis system handling sensitive regulatory filings, with focus on preventing data exfiltration and model inversion attacks. Has published internal research on adversarial robustness of retrieval-augmented generation systems and wants to learn emerging threat models specific to agentic AI systems and multi-model attack surfaces at the conference."
+  },
+  {
+    "id": "p_demoday_137",
+    "role": "Applied NLP Researcher",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Text generation",
+      "Retrieval",
+      "Question answering"
+    ],
+    "preferred_topics": [
+      "Search",
+      "RAG",
+      "NLP"
+    ],
+    "background": "Senior NLP Researcher at a mid-sized search infrastructure company building domain-specific question-answering systems for enterprise knowledge bases. Owns the retrieval and ranking pipeline serving over 50 million daily queries, combining dense retrievers with sparse BM25 and fine-tuned rerankers. Recently shipped a hybrid retrieval system integrating semantic search with traditional full-text indexing, reducing latency by 40% while improving answer relevance. Specializes in optimizing text generation quality through prompt engineering and in-context learning rather than full model fine-tuning. Seeking conference insights on scaling retrieval-augmented generation to handle longer contexts and improving robustness of QA systems against adversarial queries."
+  },
+  {
+    "id": "p_demoday_138",
+    "role": "Autonomous Systems Researcher",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": [
+      "Tool use",
+      "Multi-agent orchestration",
+      "Memory and planning",
+      "LangGraph",
+      "Browser agents"
+    ],
+    "preferred_topics": [
+      "Agents",
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Mid-level Autonomous Systems Researcher at a mid-sized AI infrastructure startup building agentic frameworks for workflow automation. Develops LangGraph-based multi-agent orchestration systems where specialized agents collaborate on complex tasks like data analysis, web research, and report generation. Currently prototyping a browser automation agent that plans multi-step interactions across web applications, managing episodic memory and learning from execution failures. Works closely with two other researchers on tool-use abstractions and agent-to-agent communication protocols. Interested in learning production-grade patterns for agent reliability, state management across distributed agents, and how to implement effective long-term planning and memory systems at scale."
+  },
+  {
+    "id": "p_demoday_139",
+    "role": "MLOps Engineer",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "Kubeflow",
+      "MLflow",
+      "Feature store",
+      "Kubernetes"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "MLOps"
+    ],
+    "background": "Principal MLOps Engineer leading a platform team of eight engineers at a large e-commerce company, responsible for the ML infrastructure serving 200+ models in production across recommendation, search ranking, and fraud detection. Architected a Kubernetes-based ML platform integrating Kubeflow for orchestration, MLflow for experiment tracking, and a proprietary feature store managing 10,000+ real-time features. Owns model deployment pipelines handling canary rollouts, A/B testing infrastructure, and automated retraining workflows triggered by data drift detection. Recently migrated legacy Spark-based training to containerized Kubernetes jobs, reducing training time by 50% and improving reproducibility. Wants to explore emerging patterns in LLM ops, including model serving optimization, cost management for large models, and integration of foundation models into existing ML platforms."
+  },
+  {
+    "id": "p_demoday_140",
+    "role": "LLM Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "LangChain",
+      "Embeddings",
+      "Multilingual NLP"
+    ],
+    "preferred_topics": [
+      "Search",
+      "LLM",
+      "RAG"
+    ],
+    "background": "Senior LLM Engineer at a large tech company building multilingual retrieval-augmented generation systems for customer support automation across 15 languages. Develops LangChain-based applications integrating proprietary embeddings models with vector databases to power semantic search over support documentation and knowledge bases. Recently optimized embedding inference using quantization and distillation techniques, reducing latency by 60% while maintaining retrieval quality across diverse languages. Manages a codebase handling complex RAG chains with fallback mechanisms, prompt templates, and dynamic context injection for handling edge cases in non-English queries. Seeking conference guidance on scaling embeddings to handle longer documents, improving cross-lingual retrieval robustness, and best practices for evaluating RAG system quality in production environments."
+  },
+  {
+    "id": "p_demoday_141",
+    "role": "Applied CV Researcher",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "Quantisation",
+      "Segmentation",
+      "Video understanding",
+      "ONNX"
+    ],
+    "preferred_topics": [
+      "Computer Vision",
+      "OCR"
+    ],
+    "background": "Senior CV researcher at a large media technology company working on real-time video segmentation and object tracking for content moderation. Leads a team of four engineers deploying quantized ResNet and ViT models to edge devices using ONNX runtime, achieving 8x compression while maintaining 94% mAP on benchmark datasets. Currently optimizing inference latency for live video streams processing 10K+ frames per second across distributed GPU clusters. Seeks conference insights into state-of-the-art video understanding architectures and practical quantization strategies for production OCR pipelines handling multilingual document processing at scale."
+  },
+  {
+    "id": "p_demoday_142",
+    "role": "AI for Education Engineer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": [
+      "Intelligent tutoring",
+      "Knowledge tracing",
+      "Automated grading",
+      "Student modelling"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "EdTech"
+    ],
+    "background": "Mid-level engineer at a large EdTech platform building intelligent tutoring systems for K-12 mathematics and science curricula. Implements knowledge tracing models using Bayesian networks and deep learning to predict student misconceptions, feeding signals into personalized learning paths for 500K+ active learners. Recently prototyped LLM-based automated grading for free-response physics problems, achieving 89% agreement with human raters on validation set. Wants to explore LLM fine-tuning techniques for domain-specific student modeling and attend sessions on knowledge graph integration with modern language models for adaptive curriculum sequencing."
+  },
+  {
+    "id": "p_demoday_143",
+    "role": "Applied ML Engineer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": [
+      "Model monitoring",
+      "Streaming inference",
+      "Tabular ML",
+      "Gradient boosting"
+    ],
+    "preferred_topics": [
+      "Industrial ML",
+      "Analytics"
+    ],
+    "background": "Mid-level ML engineer at a fintech startup building real-time fraud detection and credit risk scoring systems using XGBoost and LightGBM on high-dimensional transaction data. Owns the streaming inference pipeline processing 50K transactions/second through Kafka topics, with custom monitoring dashboards tracking data drift and model performance degradation in production. Manages feature engineering pipelines for 200+ tabular features extracted from customer transaction history and behavioral signals. Interested in learning advanced monitoring strategies for drift detection and exploring gradient boosting innovations that could improve latency-accuracy tradeoffs in real-time scoring scenarios."
+  },
+  {
+    "id": "p_demoday_144",
+    "role": "AI Tutor Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Student modelling",
+      "Intelligent tutoring",
+      "Curriculum design",
+      "Adaptive learning"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "NLP"
+    ],
+    "background": "Senior engineer at a midsize online learning platform designing adaptive tutoring systems that personalize content delivery based on student proficiency trajectories and learning style signals. Developed a Bayesian student model integrating NLP-based response analysis to generate targeted feedback on essay submissions and conceptual explanations. Currently leading a team of six building LLM-powered conversational tutors that maintain pedagogical awareness while generating explanations in natural language, tested with 20K students across multiple subjects. Seeks conference sessions on prompt engineering for educational contexts, LLM-based student modeling, and curriculum sequencing algorithms that maintain learning objectives while adapting to individual student needs."
+  },
+  {
+    "id": "p_demoday_145",
+    "role": "ML Infrastructure Engineer",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": [
+      "ETL",
+      "Triton Inference Server",
+      "Feature store",
+      "Model registry",
+      "Distributed training"
+    ],
+    "preferred_topics": [
+      "MLOps",
+      "Industrial ML"
+    ],
+    "background": "Principal infrastructure engineer at a large enterprise managing ML platform serving 200+ models across recommendation, fraud, and demand forecasting domains. Architected end-to-end MLOps stack including Airflow-orchestrated ETL pipelines, Tecton feature store with 5K+ features, and Triton Inference Server deployment handling 100K QPS with sub-50ms latency SLAs. Oversees distributed training infrastructure using Ray and Horovod, reducing training time by 60% through automated hyperparameter tuning and multi-GPU optimization. Wants to explore emerging model registry patterns, advanced feature store query optimization, and strategies for scaling inference infrastructure across heterogeneous hardware while maintaining model governance and reproducibility across the organization."
+  },
+  {
+    "id": "p_demoday_146",
+    "role": "NLP Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": [
+      "vLLM",
+      "LLM fine-tuning",
+      "Multilingual NLP",
+      "Text generation"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "RAG",
+      "NLP"
+    ],
+    "background": "Senior NLP engineer at a large tech company leading a team of four focused on production LLM deployments. Currently owns the infrastructure for serving fine-tuned multilingual models using vLLM, handling inference optimization across 15+ languages with throughput constraints in the millions of requests per day. The team recently migrated from HuggingFace transformers to vLLM for 3x latency reduction and is now exploring parameter-efficient fine-tuning techniques (LoRA, QLoRA) to reduce model footprint without sacrificing quality. Wants to learn state-of-the-art approaches to multilingual text generation and understand how leading companies are scaling LLM fine-tuning pipelines in production environments."
+  },
+  {
+    "id": "p_demoday_147",
+    "role": "Search and Retrieval Engineer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": [
+      "Multilingual NLP",
+      "Text generation",
+      "Retrieval",
+      "LLM fine-tuning"
+    ],
+    "preferred_topics": [
+      "Search",
+      "RAG",
+      "NLP"
+    ],
+    "background": "Senior search engineer at a midsize fintech company building multilingual document retrieval systems for compliance and regulatory search. Works on dense retrieval pipelines combining BM25 and neural embeddings (Sentence-Transformers) to index legal documents across seven languages, with recent experiments in fine-tuning retrieval models on domain-specific query-document pairs. The team is integrating LLM-based re-ranking and exploring retrieval-augmented generation for automated legal summary generation. Seeks practical insights on scaling multilingual retrieval at production scale and understanding how to effectively combine traditional search with modern LLM-powered ranking and generation."
+  },
+  {
+    "id": "p_demoday_148",
+    "role": "Search and Ranking Engineer",
+    "experience": "middle",
+    "company_size": "enterprise",
+    "interests": [
+      "Candidate generation",
+      "Cold start",
+      "Sequence models",
+      "Multi-stage ranking",
+      "Ranking"
+    ],
+    "preferred_topics": [
+      "RecSys",
+      "Recsys",
+      "Personalization"
+    ],
+    "background": "Middle-level ranking engineer at an enterprise e-commerce platform responsible for multi-stage ranking pipelines serving billions of product impressions daily. Maintains candidate generation models (approximate nearest neighbor search via Faiss), implements learning-to-rank models (LambdaMART, XGBoost) for final ranking, and owns cold-start strategies for new users and items using content-based features and collaborative signals. Recently prototyped transformer-based sequence models (BERT4Rec) to capture user session dynamics and is investigating how to reduce inference latency in the ranking stage from 50ms to under 20ms. Interested in learning novel approaches to cold-start problems, multi-stage ranking optimization, and how to leverage sequence models effectively in production recommendation systems."
+  },
+  {
+    "id": "p_demoday_149",
+    "role": "Multi-Agent Systems Engineer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": [
+      "LLM agents",
+      "Browser agents",
+      "Multi-agent orchestration",
+      "AutoGen"
+    ],
+    "preferred_topics": [
+      "LLM",
+      "Autonomous agents"
+    ],
+    "background": "Senior engineer at a smallish-startup building autonomous agent frameworks for enterprise workflow automation. Leads development of browser agents and multi-agent orchestration systems using AutoGen and LangChain, enabling agents to coordinate across APIs, databases, and web interfaces to complete complex business processes. Currently shipping a system where multiple specialized agents (data retrieval, validation, decision-making) collaborate to automate insurance claims processing, reducing manual review time by 60%. The team faces challenges in agent reliability, context management across long conversations, and failure recovery in multi-agent scenarios. Wants to understand state-of-the-art techniques for agent reasoning, multi-agent coordination patterns, and how to build robust autonomous systems that can handle edge cases and recover gracefully from failures."
+  },
+  {
+    "id": "p_demoday_150",
+    "role": "Speech Recognition Researcher",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": [
+      "Streaming ASR",
+      "Whisper",
+      "Speaker diarization"
+    ],
+    "preferred_topics": [
+      "ASR",
+      "NLP",
+      "TTS"
+    ],
+    "background": "Principal researcher leading the speech recognition team at a midsize voice AI company responsible for production ASR systems serving millions of daily queries. Oversees development of streaming ASR pipelines using Whisper-based models and custom RNN-T architectures optimized for low-latency inference on edge devices, alongside speaker diarization modules to handle multi-speaker scenarios in call center and meeting transcription use cases. The team recently open-sourced a speaker diarization toolkit and is investigating how to integrate speaker embeddings into the ASR decoder to improve speaker-dependent accuracy. Seeks to stay current with latest advances in streaming ASR architectures, speaker diarization techniques, and how the community is applying foundation models like Whisper to improve robustness across diverse acoustic conditions and languages."
+  }
+]

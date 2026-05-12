@@ -1,0 +1,143 @@
+{
+  "source": "results/lhs_parametric_simplified_2026-05-12_mobius_2025_autumn_en.json",
+  "method": "stratified_maximin_by_mean_overload_excess",
+  "buckets": [
+    {
+      "name": "safe",
+      "lo": 0.0,
+      "hi": 0.001,
+      "n_points": 5
+    },
+    {
+      "name": "light",
+      "lo": 0.001,
+      "hi": 0.05,
+      "n_points": 20
+    },
+    {
+      "name": "moderate",
+      "lo": 0.05,
+      "hi": 0.2,
+      "n_points": 6
+    },
+    {
+      "name": "severe",
+      "lo": 0.2,
+      "hi": Infinity,
+      "n_points": 19
+    }
+  ],
+  "per_bucket": 3,
+  "selected": [
+    {
+      "lhs_row_id": 2,
+      "bucket": "light",
+      "mean_overload": 0.0015117157974300832,
+      "capacity_multiplier": 1.4386248122399263,
+      "w_rec": 0.1398362019676277,
+      "w_gossip": 0.42263918721238886
+    },
+    {
+      "lhs_row_id": 33,
+      "bucket": "light",
+      "mean_overload": 0.009009009009009009,
+      "capacity_multiplier": 1.076753516308705,
+      "w_rec": 0.6871085944070108,
+      "w_gossip": 0.21981749448730198
+    },
+    {
+      "lhs_row_id": 34,
+      "bucket": "light",
+      "mean_overload": 0.029684095860566456,
+      "capacity_multiplier": 0.9886738589380965,
+      "w_rec": 0.02186066440236677,
+      "w_gossip": 0.04739376310520291
+    },
+    {
+      "lhs_row_id": 0,
+      "bucket": "moderate",
+      "mean_overload": 0.171455938697318,
+      "capacity_multiplier": 0.8631435631172385,
+      "w_rec": 0.5203343679348198,
+      "w_gossip": 0.4622117850232084
+    },
+    {
+      "lhs_row_id": 6,
+      "bucket": "moderate",
+      "mean_overload": 0.19604086845466157,
+      "capacity_multiplier": 0.853613041994632,
+      "w_rec": 0.08741585871512286,
+      "w_gossip": 0.10839810560681226
+    },
+    {
+      "lhs_row_id": 12,
+      "bucket": "moderate",
+      "mean_overload": 0.060185185185185196,
+      "capacity_multiplier": 0.9491055955513588,
+      "w_rec": 0.6241404590155623,
+      "w_gossip": 0.09514078228206367
+    },
+    {
+      "lhs_row_id": 17,
+      "bucket": "safe",
+      "mean_overload": 0.0007716049382716049,
+      "capacity_multiplier": 1.4087381826481025,
+      "w_rec": 0.3569324863710438,
+      "w_gossip": 0.3300398882754443
+    },
+    {
+      "lhs_row_id": 31,
+      "bucket": "safe",
+      "mean_overload": 0.0,
+      "capacity_multiplier": 1.3634567124311596,
+      "w_rec": 0.5959476662794291,
+      "w_gossip": 0.06200051287508574
+    },
+    {
+      "lhs_row_id": 39,
+      "bucket": "safe",
+      "mean_overload": 0.0,
+      "capacity_multiplier": 1.4913148187251004,
+      "w_rec": 0.18494593352146807,
+      "w_gossip": 0.008725669189350669
+    },
+    {
+      "lhs_row_id": 1,
+      "bucket": "severe",
+      "mean_overload": 0.34814814814814815,
+      "capacity_multiplier": 0.7440018671620189,
+      "w_rec": 0.47969005654680413,
+      "w_gossip": 0.17453911335252825
+    },
+    {
+      "lhs_row_id": 14,
+      "bucket": "severe",
+      "mean_overload": 0.9012345679012346,
+      "capacity_multiplier": 0.5178202147107547,
+      "w_rec": 0.12085567093861324,
+      "w_gossip": 0.3083496268045492
+    },
+    {
+      "lhs_row_id": 36,
+      "bucket": "severe",
+      "mean_overload": 0.7810185185185184,
+      "capacity_multiplier": 0.5784402721530129,
+      "w_rec": 0.0542201813845719,
+      "w_gossip": 0.6769490944297043
+    }
+  ],
+  "selected_lhs_row_ids": [
+    2,
+    33,
+    34,
+    0,
+    6,
+    12,
+    17,
+    31,
+    39,
+    1,
+    14,
+    36
+  ]
+}

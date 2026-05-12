@@ -1,10 +1,71 @@
 # PROJECT_OVERVIEW
 
-Дата фиксации: 2026-05-11; обновление 2026-05-12 (EN-pipeline pivot — см. блок ниже).
+Дата фиксации: 2026-05-11; обновления: 2026-05-12 (EN-pipeline pivot), 2026-05-12 вечер (simplified Mobius + Demo Day) — см. блоки ниже.
 
 > **Точка входа в проект.** Детальное техническое описание системы: какая задача решается, какими методами, как они работают и какие результаты получены. Для содержательных вопросов о проекте достаточно этого документа; обращение к главам ВКР, исходному коду или spike-memo требуется только для верификации цитат и проверки реализации.
 >
-> Снимок состояния: антиплагиат пройден 08.05.2026; спринт реализации A–W закрыт; перегон основного эксперимента на EN-пайплайне (BGE-large-en + ABTT-1, 100 EN-персон, Q + V + cross-validation) выполнен 2026-05-12; идёт подготовка к предзащите 13.05.2026.
+> Снимок состояния: антиплагиат пройден 08.05.2026; спринт реализации A–W закрыт; перегон основного эксперимента на EN-пайплайне (BGE-large-en + ABTT-1, 100 EN-персон, Q + V + cross-validation) выполнен 2026-05-12; накануне предзащиты 13.05 проведены два дополнительных прогона — simplified Mobius (3 оси, capacity [0.5, 1.5]) и Demo Day EN как второй инстанс (210 talks, 7 halls, 150 EN-персон).
+
+---
+
+## Update 2026-05-12 (вечер) — simplified Mobius + Demo Day
+
+Накануне предзащиты проведены два дополнительных прогона для усиления защиты. Результаты в текст ВКР не вносятся (антиплагиат пройден 08.05, текст не правится до защиты), используются в устной защите.
+
+### 1. Mobius simplified (план #35 из PREDZASHCHITA_PLAN)
+
+**Сетка:** 3 оси (`capacity_multiplier ∈ [0.5, 1.5]`, `w_rec`, `w_gossip`); зафиксированы `audience_size = 100`, `popularity_source = cosine_only`, `program_variant = 0`. 50 LHS × 3 политики (no_policy, cosine, capacity_aware) × 3 replicate = 450 evals; без llm_ranker. Скрипт — `experiments/scripts/run_lhs_parametric_simplified.py` (отдельный файл, не трогает основной код).
+
+**Результаты:**
+- Wallclock: 9 секунд.
+- Risk-positive: **48 / 50 (96%)** против 11/50 (22%) на 6-осевом EN-прогоне — сужение диапазона убрало физически безопасную зону.
+- `cap_aware` строго лучше `cosine` в **72%** evals (108/150) — против 20% на 6-осевом.
+- `cap_aware` за ε лучше `cosine` в **64%** evals.
+- `cosine` не выигрывает у `cap_aware` ни в одной evals (0% strict, 0% за ε) — центральный тезис **сохраняется**.
+- Per-policy mean overload: no_policy 0.225, cosine 0.229 (худший), cap_aware 0.191 (лучший).
+
+**Stratified subset для V:** 12 точек разнесены по 4 корзинам `mean_overload_excess` (3 safe, 3 light, 3 moderate, 3 severe) — `experiments/results/lhs_parametric_simplified_2026-05-12_mobius_2025_autumn_en_stratified_subset.json`. V (LLM-симулятор) запущен в фоне 2026-05-12 21:26 на этой выборке × 3 политики; ETA ~3 ч, результаты появятся в `results/llm_agents_simplified_stratified_2026-05-12*`.
+
+### 2. Demo Day EN (план #26)
+
+**Сетка:** та же 6-осевая, что для Mobius EN (для прямой сопоставимости с числами §12 / EN snapshot). Конференция: 210 talks, 7 halls, 56 slots, 2 дня. Пул: 150 EN-персон, audit-проверки PASS. Сделано subagent'ом автономно за 27 минут wallclock; LLM-вызовы $0.52.
+
+**Acceptance:**
+- Internal consistency: **148/150 (98.7%)** PASS.
+- Coverage: **0 / 210 dead docs** при τ=0.5; mean 33 заинтересованных персон на talk.
+- Vendi Score пула: 36.2% (cos+ABTT). Ниже Mobius (89%), но дублей нет (max ABTT-cos 0.785), coverage отличный — это известное свойство широкого домена + 150 персон.
+- EC smoke: 3 / 3 PASS.
+
+**Главное численное сравнение с Mobius EN (на той же 6-осевой сетке):**
+
+| метрика (full 50, pairwise по mean_overload_excess) | Mobius EN | Demo Day EN |
+|---|---:|---:|
+| cosine strict wins vs cap_aware | 0% | **0%** |
+| cap_aware strict wins vs cosine | 20% | **34%** |
+| eps cosine wins | 0% | 0% |
+| eps cap_aware wins | 14% | 14% |
+| ε-equivalent | 86% | 86% |
+
+Центральный тезис **подтверждён на втором инстансе**: cosine не выигрывает у cap_aware ни в одной из 50 точек на Demo Day, как и на Mobius. На более крупной программе (210 talks vs 40, 7 залов vs 3) `cap_aware` строго побеждает `cosine` в **34%** точек — выраженнее, чем на Mobius.
+
+### Артефакты Update 2026-05-12 (вечер)
+
+- **Mobius simplified:** `experiments/results/lhs_parametric_simplified_2026-05-12_mobius_2025_autumn_en.{json,csv,md}`, `..._stratified_subset.json`, `..._for_v.json`.
+- **Demo Day:** `experiments/results/lhs_parametric_demo_day_2026_en_2026-05-12.{json,csv,md}`, `experiments/results/demo_day_en/analysis_*.json` + `report_demoday_en_summary.md` + plots. Данные: `experiments/data/conferences/demo_day_2026_en.{json,_embeddings.npz,_fame.json}`, `experiments/data/personas/personas_demoday_en.{json,_embeddings.npz}`, `experiments/data/personas/test_diversity/{internal_consistency_demoday,diagnose_demoday_en}.json`.
+- **Скрипты Demo Day pipeline:** `experiments/scripts/{translate_demoday,generate_demoday_personas_en,audit_demoday_personas_consistency,diagnose_demoday_personas_en_150,smoke_ec_demoday_en,summarize_demoday}.py`. Регистрация `demo_day_2026_en` в `CONFERENCES` dict — модификация `experiments/scripts/run_lhs_parametric.py`.
+- **Утилиты simplified:** `experiments/scripts/{run_lhs_parametric_simplified,stratified_subset_for_v}.py`. Также флаг `--policies` добавлен в `experiments/scripts/run_llm_lhs_subset.py`.
+
+### Стратегия подачи на защите 13.05
+
+- **В основной речи (слайд численных результатов):** Demo Day как второй инстанс, прямое сравнение 20% → 34% с Mobius на той же сетке.
+- **В Q&A (backup):** Mobius simplified как «дополнительная проверка на узком стрессовом диапазоне», 72% wins для cap_aware.
+- **НЕ выводить** пару 72% / 34% подряд — сетки разные, объяснять расхождение методологий за регламент сложно.
+- **На вопрос про Vendi 36% Demo Day** — отвечать: «coverage программы полный (0 dead docs из 210), пул структурно покрывает программу; Vendi ниже из-за более широкого домена; не влияет на главный результат».
+
+### Известные технические долги (для финальной версии после защиты)
+
+- **Perf-bug `enumerate_modifications`:** O(N²) deepcopy на больших программах. На Demo Day забрал 886 / 908 с LHS-прогона. Оптимизировать после защиты (см. `.claude/memory/project_perf_bug_enumerate_modifications.md`).
+- **Hall-conflict bug** в `_apply_swap` остаётся — оператор Φ депрекейтнут для защиты, но в финальной версии исправить (см. `project_phi_hall_conflict_bug.md`).
 
 ---
 

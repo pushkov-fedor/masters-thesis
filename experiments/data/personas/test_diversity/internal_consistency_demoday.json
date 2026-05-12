@@ -1,0 +1,773 @@
+{
+  "n_total": 150,
+  "n_consistent": 148,
+  "n_inconsistent": 2,
+  "n_audit_error": 0,
+  "pct_consistent": 0.9866666666666667,
+  "inconsistencies": [
+    {
+      "persona_id": "p_demoday_066",
+      "verdict": "inconsistent",
+      "issue": "Preferred topics (NLP, TTS) are only tangentially related to the core role and background, which focuses on ASR, acoustic modeling, and voice cloning rather than NLP or text-to-speech synthesis."
+    },
+    {
+      "persona_id": "p_demoday_102",
+      "verdict": "inconsistent",
+      "issue": "Experience level 'middle' does not align with 'Senior ML Engineer' role title and the described scope of owning the full ML stack and leading team scaling efforts at a startup."
+    }
+  ],
+  "records": [
+    {
+      "persona_id": "p_demoday_001",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_002",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_003",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_004",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_005",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_006",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_007",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_008",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_009",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_010",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_011",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_012",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_013",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_014",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_015",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_016",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_017",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_018",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_019",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_020",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_021",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_022",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_023",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_024",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_025",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_026",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_027",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_028",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_029",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_030",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_031",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_032",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_033",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_034",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_035",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_036",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_037",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_038",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_039",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_040",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_041",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_042",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_043",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_044",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_045",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_046",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_047",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_048",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_049",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_050",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_051",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_052",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_053",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_054",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_055",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_056",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_057",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_058",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_059",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_060",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_061",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_062",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_063",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_064",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_065",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_066",
+      "verdict": "inconsistent",
+      "issue": "Preferred topics (NLP, TTS) are only tangentially related to the core role and background, which focuses on ASR, acoustic modeling, and voice cloning rather than NLP or text-to-speech synthesis."
+    },
+    {
+      "persona_id": "p_demoday_067",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_068",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_069",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_070",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_071",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_072",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_073",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_074",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_075",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_076",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_077",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_078",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_079",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_080",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_081",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_082",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_083",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_084",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_085",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_086",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_087",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_088",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_089",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_090",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_091",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_092",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_093",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_094",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_095",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_096",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_097",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_098",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_099",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_100",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_101",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_102",
+      "verdict": "inconsistent",
+      "issue": "Experience level 'middle' does not align with 'Senior ML Engineer' role title and the described scope of owning the full ML stack and leading team scaling efforts at a startup."
+    },
+    {
+      "persona_id": "p_demoday_103",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_104",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_105",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_106",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_107",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_108",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_109",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_110",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_111",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_112",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_113",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_114",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_115",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_116",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_117",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_118",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_119",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_120",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_121",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_122",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_123",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_124",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_125",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_126",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_127",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_128",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_129",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_130",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_131",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_132",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_133",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_134",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_135",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_136",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_137",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_138",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_139",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_140",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_141",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_142",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_143",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_144",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_145",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_146",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_147",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_148",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_149",
+      "verdict": "consistent",
+      "issue": null
+    },
+    {
+      "persona_id": "p_demoday_150",
+      "verdict": "consistent",
+      "issue": null
+    }
+  ],
+  "model": "anthropic/claude-haiku-4.5",
+  "cost_usd": 0.07991700000000002
+}

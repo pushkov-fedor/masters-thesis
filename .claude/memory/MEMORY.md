@@ -26,6 +26,8 @@
 - [Повторный поиск датасетов 12.05.2026](project_dataset_search_2026-05-12.md) — исчерпывающий поиск перед предзащитой, ничего не нашёл по структурной причине; список проверенных доменов и Q6 в speech.md
 - [Оператор Φ деприкейтнут 12.05.2026](project_phi_operator_deprecated_2026-05-12.md) — на параметрическом симуляторе эффект слабый, на защите не выносится; ось program_variant можно убирать в будущих LHS-перегонах
 - [Hall-conflict bug в program_modification.py](project_phi_hall_conflict_bug.md) — основной оператор Φ сохраняет hall и не проверяет конфликт залов; исправить в финальной версии после защиты
+- [Результаты прогонов 12.05.2026 (Mobius simplified + Demo Day)](project_results_2026-05-12_simplified_demoday.md) — два дополнительных прогона усиливают позицию: Demo Day 20%→34% cap_aware wins, Mobius simplified 0%→72% на узком capacity. Центральный тезис «cosine не выигрывает у cap_aware» подтверждён на втором инстансе
+- [Perf-bug enumerate_modifications](project_perf_bug_enumerate_modifications.md) — O(N²) deepcopy на больших программах (Demo Day: 886s/908s LHS-прогона); не критично для защиты, исправить в финальной версии
 - [Литература и канон валидации](reference_validation_defense.md) — must-cite, канон Sargent / Kleijnen / DMDU / Larooij & Törnberg, distribution-match Meetup ρ=0.438
 - [Обзор предметной области 2026-05-04](research_field_survey_2026-05-04.md) — карта подходов, capacity-aware recsys, LLM-агенты, gap-анализ, плюс EMA-workbench / PRIM как лёгкое усиление
 

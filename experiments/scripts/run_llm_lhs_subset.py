@@ -573,7 +573,15 @@ async def main_async(args: argparse.Namespace) -> int:
               flush=True)
     else:
         target_lhs_ids = list(maximin_indices)
-        target_policies = POLICY_NAMES
+        if args.policies:
+            requested = [p.strip() for p in args.policies.split(",") if p.strip()]
+            invalid = [p for p in requested if p not in POLICY_NAMES]
+            if invalid:
+                raise ValueError(f"unknown policies in --policies: {invalid}; "
+                                 f"valid: {POLICY_NAMES}")
+            target_policies = tuple(requested)
+        else:
+            target_policies = POLICY_NAMES
 
     # ===== 4. LLM client + ranker policy =====
     # Default AsyncOpenAI без custom httpx — SDK сам управляет pool;
@@ -1165,6 +1173,8 @@ def main(argv: list[str] | None = None) -> int:
                     help="resume из partial JSONL (по умолчанию)")
     ap.add_argument("--no-resume", action="store_false", dest="resume",
                     help="игнорировать partial JSONL, начать с нуля")
+    ap.add_argument("--policies", default=None,
+                    help="comma-separated policies; default: all from POLICY_NAMES")
     ap.add_argument("--language", default="ru", choices=["ru", "en"],
                     help="язык промптов LLMAgent: 'ru' (default, RU-прогон) или "
                          "'en' (EN-пайплайн с BGE+ABTT, паритет каналов)")

@@ -1,0 +1,3094 @@
+{
+  "conf_id": "demo_day_2026_en",
+  "name": "Demo Day ITMO 2026 (English)",
+  "date": "2026-01-22",
+  "population_for_capacity": 100,
+  "halls": [
+    {
+      "id": 1,
+      "capacity": 100
+    },
+    {
+      "id": 2,
+      "capacity": 100
+    },
+    {
+      "id": 3,
+      "capacity": 100
+    },
+    {
+      "id": 4,
+      "capacity": 100
+    },
+    {
+      "id": 5,
+      "capacity": 100
+    },
+    {
+      "id": 6,
+      "capacity": 100
+    },
+    {
+      "id": 8,
+      "capacity": 100
+    }
+  ],
+  "slots": [
+    {
+      "id": "slot_00",
+      "datetime": "2026-01-22 10:30:00",
+      "hall_capacities": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "5": 25
+      }
+    },
+    {
+      "id": "slot_01",
+      "datetime": "2026-01-22 10:45:00",
+      "hall_capacities": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "id": "slot_02",
+      "datetime": "2026-01-22 11:00:00",
+      "hall_capacities": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "id": "slot_03",
+      "datetime": "2026-01-22 11:15:00",
+      "hall_capacities": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "id": "slot_04",
+      "datetime": "2026-01-22 11:30:00",
+      "hall_capacities": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "id": "slot_05",
+      "datetime": "2026-01-22 11:45:00",
+      "hall_capacities": {
+        "1": 20,
+        "2": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "id": "slot_06",
+      "datetime": "2026-01-22 12:00:00",
+      "hall_capacities": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "id": "slot_07",
+      "datetime": "2026-01-22 12:15:00",
+      "hall_capacities": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "id": "slot_08",
+      "datetime": "2026-01-22 12:30:00",
+      "hall_capacities": {
+        "6": 100
+      }
+    },
+    {
+      "id": "slot_09",
+      "datetime": "2026-01-22 13:00:00",
+      "hall_capacities": {
+        "1": 20,
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "id": "slot_10",
+      "datetime": "2026-01-22 13:15:00",
+      "hall_capacities": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "id": "slot_11",
+      "datetime": "2026-01-22 13:30:00",
+      "hall_capacities": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "id": "slot_12",
+      "datetime": "2026-01-22 13:45:00",
+      "hall_capacities": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "id": "slot_13",
+      "datetime": "2026-01-22 13:50:00",
+      "hall_capacities": {
+        "8": 100
+      }
+    },
+    {
+      "id": "slot_14",
+      "datetime": "2026-01-22 14:00:00",
+      "hall_capacities": {
+        "1": 17,
+        "2": 17,
+        "3": 17,
+        "4": 17,
+        "5": 17,
+        "6": 17
+      }
+    },
+    {
+      "id": "slot_15",
+      "datetime": "2026-01-22 14:15:00",
+      "hall_capacities": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "id": "slot_16",
+      "datetime": "2026-01-22 14:30:00",
+      "hall_capacities": {
+        "3": 34,
+        "4": 34,
+        "6": 34
+      }
+    },
+    {
+      "id": "slot_17",
+      "datetime": "2026-01-22 14:45:00",
+      "hall_capacities": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "id": "slot_18",
+      "datetime": "2026-01-22 15:00:00",
+      "hall_capacities": {
+        "2": 25,
+        "3": 25,
+        "5": 25,
+        "6": 25
+      }
+    },
+    {
+      "id": "slot_19",
+      "datetime": "2026-01-22 15:15:00",
+      "hall_capacities": {
+        "2": 25,
+        "4": 25,
+        "5": 25,
+        "6": 25
+      }
+    },
+    {
+      "id": "slot_20",
+      "datetime": "2026-01-22 15:30:00",
+      "hall_capacities": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "id": "slot_21",
+      "datetime": "2026-01-22 15:45:00",
+      "hall_capacities": {
+        "3": 50,
+        "6": 50
+      }
+    },
+    {
+      "id": "slot_22",
+      "datetime": "2026-01-22 16:00:00",
+      "hall_capacities": {
+        "2": 25,
+        "3": 25,
+        "4": 25,
+        "5": 25
+      }
+    },
+    {
+      "id": "slot_23",
+      "datetime": "2026-01-22 16:15:00",
+      "hall_capacities": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "id": "slot_24",
+      "datetime": "2026-01-22 16:30:00",
+      "hall_capacities": {
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "id": "slot_25",
+      "datetime": "2026-01-22 16:45:00",
+      "hall_capacities": {
+        "1": 20,
+        "2": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20
+      }
+    },
+    {
+      "id": "slot_26",
+      "datetime": "2026-01-22 17:00:00",
+      "hall_capacities": {
+        "2": 25,
+        "3": 25,
+        "4": 25,
+        "6": 25
+      }
+    },
+    {
+      "id": "slot_27",
+      "datetime": "2026-01-22 17:15:00",
+      "hall_capacities": {
+        "2": 25,
+        "4": 25,
+        "5": 25,
+        "6": 25
+      }
+    },
+    {
+      "id": "slot_28",
+      "datetime": "2026-01-22 17:30:00",
+      "hall_capacities": {
+        "3": 50,
+        "6": 50
+      }
+    },
+    {
+      "id": "slot_29",
+      "datetime": "2026-01-22 17:45:00",
+      "hall_capacities": {
+        "2": 25,
+        "3": 25,
+        "5": 25,
+        "6": 25
+      }
+    },
+    {
+      "id": "slot_30",
+      "datetime": "2026-01-22 18:00:00",
+      "hall_capacities": {
+        "2": 25,
+        "3": 25,
+        "5": 25,
+        "6": 25
+      }
+    },
+    {
+      "id": "slot_31",
+      "datetime": "2026-01-22 18:15:00",
+      "hall_capacities": {
+        "3": 34,
+        "5": 34,
+        "6": 34
+      }
+    },
+    {
+      "id": "slot_32",
+      "datetime": "2026-01-22 18:30:00",
+      "hall_capacities": {
+        "5": 50,
+        "6": 50
+      }
+    },
+    {
+      "id": "slot_33",
+      "datetime": "2026-01-22 19:15:00",
+      "hall_capacities": {
+        "6": 100
+      }
+    },
+    {
+      "id": "slot_34",
+      "datetime": "2026-01-23 14:00:00",
+      "hall_capacities": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      }
+    },
+    {
+      "id": "slot_35",
+      "datetime": "2026-01-23 14:15:00",
+      "hall_capacities": {
+        "1": 34,
+        "2": 34,
+        "3": 34
+      }
+    },
+    {
+      "id": "slot_36",
+      "datetime": "2026-01-23 14:30:00",
+      "hall_capacities": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      }
+    },
+    {
+      "id": "slot_37",
+      "datetime": "2026-01-23 14:45:00",
+      "hall_capacities": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      }
+    },
+    {
+      "id": "slot_38",
+      "datetime": "2026-01-23 15:00:00",
+      "hall_capacities": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      }
+    },
+    {
+      "id": "slot_39",
+      "datetime": "2026-01-23 15:15:00",
+      "hall_capacities": {
+        "1": 34,
+        "2": 34,
+        "3": 34
+      }
+    },
+    {
+      "id": "slot_40",
+      "datetime": "2026-01-23 15:30:00",
+      "hall_capacities": {
+        "1": 50,
+        "4": 50
+      }
+    },
+    {
+      "id": "slot_41",
+      "datetime": "2026-01-23 15:45:00",
+      "hall_capacities": {
+        "1": 100
+      }
+    },
+    {
+      "id": "slot_42",
+      "datetime": "2026-01-23 16:00:00",
+      "hall_capacities": {
+        "1": 34,
+        "2": 34,
+        "4": 34
+      }
+    },
+    {
+      "id": "slot_43",
+      "datetime": "2026-01-23 16:15:00",
+      "hall_capacities": {
+        "2": 50,
+        "3": 50
+      }
+    },
+    {
+      "id": "slot_44",
+      "datetime": "2026-01-23 16:30:00",
+      "hall_capacities": {
+        "2": 34,
+        "3": 34,
+        "4": 34
+      }
+    },
+    {
+      "id": "slot_45",
+      "datetime": "2026-01-23 16:45:00",
+      "hall_capacities": {
+        "2": 34,
+        "3": 34,
+        "4": 34
+      }
+    },
+    {
+      "id": "slot_46",
+      "datetime": "2026-01-23 17:00:00",
+      "hall_capacities": {
+        "1": 50,
+        "2": 50
+      }
+    },
+    {
+      "id": "slot_47",
+      "datetime": "2026-01-23 17:15:00",
+      "hall_capacities": {
+        "1": 25,
+        "2": 25,
+        "3": 25,
+        "4": 25
+      }
+    },
+    {
+      "id": "slot_48",
+      "datetime": "2026-01-23 17:30:00",
+      "hall_capacities": {
+        "2": 50,
+        "4": 50
+      }
+    },
+    {
+      "id": "slot_49",
+      "datetime": "2026-01-23 17:45:00",
+      "hall_capacities": {
+        "2": 50,
+        "3": 50
+      }
+    },
+    {
+      "id": "slot_50",
+      "datetime": "2026-01-23 18:00:00",
+      "hall_capacities": {
+        "4": 100
+      }
+    },
+    {
+      "id": "slot_51",
+      "datetime": "2026-01-23 18:30:00",
+      "hall_capacities": {
+        "2": 100
+      }
+    },
+    {
+      "id": "slot_52",
+      "datetime": "2026-01-23 18:45:00",
+      "hall_capacities": {
+        "2": 100
+      }
+    },
+    {
+      "id": "slot_53",
+      "datetime": "2026-01-23 19:00:00",
+      "hall_capacities": {
+        "2": 100
+      }
+    },
+    {
+      "id": "slot_54",
+      "datetime": "2026-01-23 19:15:00",
+      "hall_capacities": {
+        "2": 100
+      }
+    },
+    {
+      "id": "slot_55",
+      "datetime": "2026-01-23 19:30:00",
+      "hall_capacities": {
+        "2": 100
+      }
+    }
+  ],
+  "talks": [
+    {
+      "id": "3a60025a-c234-4ebf-99e1-4c2078e27e2a",
+      "title": "Intuition",
+      "speakers": "Борисов А.С., Глухов Н.Ю., Плехов Р.К.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "10:30:00",
+      "end_time": "10:45:00",
+      "category": "EdTech",
+      "abstract": "Explains complex passages in classical literature through context, references, and historical background. Transforms reading into a meaningful experience.",
+      "slot_id": "slot_00"
+    },
+    {
+      "id": "2674ba4a-7446-4849-b208-ef70d5da516f",
+      "title": "Educational Course \"Hypothesis Testing\"",
+      "speakers": "Иванов Д.Ю.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "10:45:00",
+      "end_time": "11:00:00",
+      "category": "EdTech, Experiments, Analytics, A/B Testing",
+      "abstract": "A training course on the practical application of statistics in A/B tests and data analysis. Fills a gap in educational programs in the Russian Federation.",
+      "slot_id": "slot_01"
+    },
+    {
+      "id": "137b31c4-05ab-4a95-add0-5fc596947ac1",
+      "title": "AI Assistant for the Course \"Theory and History of International Relations\"",
+      "speakers": "Муравьёва Н.В.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "11:00:00",
+      "end_time": "11:15:00",
+      "category": "EdTech, LLM",
+      "abstract": "Helps students gain a deeper understanding of classical literature on international relations through context and references. Lowers the entry barrier and replaces superficial summarizers.",
+      "slot_id": "slot_02"
+    },
+    {
+      "id": "17359097-f757-4e3e-96e5-cb9edc71a0c5",
+      "title": "Machine Learning Course for HSE",
+      "speakers": "Рустамова Д.Д.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "11:15:00",
+      "end_time": "11:30:00",
+      "category": "EdTech, ML, Education, Curriculum",
+      "abstract": "Creates from scratch an ML course for the engineering faculty with automatic assignment verification through AI. Covers basic models, data processing, and practical applications.",
+      "slot_id": "slot_03"
+    },
+    {
+      "id": "9ede99aa-4995-44e2-933b-b1c23786b1fc",
+      "title": "SOVA: Accompanying Educational Virtual Assistant",
+      "speakers": "Сазанаков Д.В., Сиворакша Т.А., Уколов С.Д.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "11:30:00",
+      "end_time": "11:45:00",
+      "category": "EdTech, NLP",
+      "abstract": "Helps schoolchildren with homework through step-by-step hints rather than copying. Supports photo, voice, and text.",
+      "slot_id": "slot_04"
+    },
+    {
+      "id": "4bdf66d8-8663-411c-a24b-f2d631a9b834",
+      "title": "AI teacher helper - AI assistant for teacher and student",
+      "speakers": "Деулин Н.В",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "11:45:00",
+      "end_time": "12:00:00",
+      "category": "EdTech, NLP",
+      "abstract": "Helps create assignments and explain solutions in a Telegram bot. Accelerates material consolidation and reduces teacher workload.",
+      "slot_id": "slot_05"
+    },
+    {
+      "id": "c92e0165-0232-458a-98a0-49e4cb12f718",
+      "title": "TensorTalks",
+      "speakers": "Бусько Н.А., Рычков П.А.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "12:00:00",
+      "end_time": "12:15:00",
+      "category": "EdTech, NLP",
+      "abstract": "A platform for preparing for ML interviews: interview simulation and AI analysis of answers. Helps both candidates and companies standardize hiring.",
+      "slot_id": "slot_06"
+    },
+    {
+      "id": "874407e0-4603-4aa6-b7fc-58c836ffec54",
+      "title": "Development of an Autonomous Trainer for AI Security Education",
+      "speakers": "Чернятов А.Е., Кириллов А.И., Фейгинова М.Д., Низамов Т.Д.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "13:00:00",
+      "end_time": "13:15:00",
+      "category": "EdTech, Agents, Security",
+      "abstract": "Low-code platform for teaching secure AI development: threat modeling, attacks, defense, testing. Reduces instructor workload and scales education.",
+      "slot_id": "slot_09"
+    },
+    {
+      "id": "ff60c13a-357d-449d-8a52-1f27e0ec1813",
+      "title": "ЖигулИИ Trainer: Automated Educational Assignment Verification Platform with DevOps/MLOps Practices Support",
+      "speakers": "Протасов Я.А., Дорофеев Д.А., Ерофеев Д.А., Попов В.А.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "13:15:00",
+      "end_time": "13:30:00",
+      "category": "EdTech, DevOps, MLOps",
+      "abstract": "Automated platform for verifying DevOps/MLOps student assignments with instant feedback. Reduces grading time by 50% and frees instructors for complex tasks.",
+      "slot_id": "slot_10"
+    },
+    {
+      "id": "29167913-afe4-4ec2-992e-0f9434c7769e",
+      "title": "Workshop on AI Character Development",
+      "speakers": "Славкин В.В, Балицкий С.Д.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "12:15:00",
+      "end_time": "12:30:00",
+      "category": "EdTech, NLP, Agents",
+      "abstract": "Educational intensive in Minecraft: participants create AI agents that interact and stream. Focus on confidence and practical results.",
+      "slot_id": "slot_07"
+    },
+    {
+      "id": "e5a8aa90-61c5-41da-aa28-e2d92e1420ea",
+      "title": "AI StudyPath Mentor",
+      "speakers": "Еникеев Т.Р.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "13:45:00",
+      "end_time": "14:00:00",
+      "category": "NLP, Agents, EdTech",
+      "abstract": "An AI assistant integrated into Telegram that guides students along their educational trajectory, personalizing recommendations for projects, theses, events, and reminding them about deadlines",
+      "slot_id": "slot_12"
+    },
+    {
+      "id": "281c51ee-0138-4774-bc10-5adf2c608d4d",
+      "title": "Building an Individual Development Trajectory for AITH",
+      "speakers": "Горбунов Н.С., Мынко С.А., Сидорова А.П.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "EdTech, Recsys, Analytics, NLP, CV",
+      "abstract": "Forms a personalized educational route for a student with recommendations at each stage. Helps the hub reduce churn and increase motivation.",
+      "slot_id": "slot_14"
+    },
+    {
+      "id": "0d1fd49b-c581-4fa0-bc98-3a804ee3a29a",
+      "title": "Candidate Generation Service Based on Vector Search",
+      "speakers": "Карсаков Г.В.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "10:30:00",
+      "end_time": "10:45:00",
+      "category": "Recsys, Analytics, Search",
+      "abstract": "Improves product recommendations and search to increase sales and customer loyalty. Evaluated through NDCG, MRR, and A/B tests.",
+      "slot_id": "slot_00"
+    },
+    {
+      "id": "2563f7c8-2f4a-49cd-aaa8-60aa2b094037",
+      "title": "HR-Assistant",
+      "speakers": "Осинцев М.М., Тенишев Н.С., Теняев А.И.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "10:45:00",
+      "end_time": "11:00:00",
+      "category": "NLP, HR, Matching, Ranking, LLM",
+      "abstract": "Automates candidate selection: matching, job description generation, evaluation. Adapted for Russian-language HR context.",
+      "slot_id": "slot_01"
+    },
+    {
+      "id": "70652630-9b32-4e71-b291-b32f900c1548",
+      "title": "HR-matcher",
+      "speakers": "Гурциев Р.З.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "11:00:00",
+      "end_time": "11:15:00",
+      "category": "NLP, HR, matching, ranking, embeddings",
+      "abstract": "Automates candidate selection through semantic matching of resumes and job postings. Reduces screening time to seconds and improves relevance.",
+      "slot_id": "slot_02"
+    },
+    {
+      "id": "3ec2c0d4-4c81-4506-b8f2-79ace542b0af",
+      "title": "Lacmus Search",
+      "speakers": "Позднякова М.П.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "11:15:00",
+      "end_time": "11:30:00",
+      "category": "NLP, Search, Retrieval, Ranking, Embeddings",
+      "abstract": "Intelligent search for experts within a consulting company by skills and experience. Combines semantic and parametric search for precise matching.",
+      "slot_id": "slot_03"
+    },
+    {
+      "id": "3fa44602-0f92-479c-b2fd-80dc4e7a9d96",
+      "title": "Career Coach",
+      "speakers": "Хайрутдинов Т.Р.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "11:30:00",
+      "end_time": "11:45:00",
+      "category": "EdTech, Career",
+      "abstract": "Prepares candidates for interviews through 5–10-minute microsessions and simulations. Focus on analytics, SQL, and product.",
+      "slot_id": "slot_04"
+    },
+    {
+      "id": "c46fff3a-c668-4c6c-82bd-1a0487e5694f",
+      "title": "AI Companion for Career Guidance",
+      "speakers": "Булдаков Н.В., Карпова А.А., Мухамедов Э.Д., Цыкунов А.С., Цыбин В.В.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "11:45:00",
+      "end_time": "12:00:00",
+      "category": "Autonomous Agents, EdTech, Recsys, NLP",
+      "abstract": "In a single session, helps a user choose a profession based on values, experience, and interests. Replaces dozens of tests and consultations.",
+      "slot_id": "slot_05"
+    },
+    {
+      "id": "adfb6c36-c6b8-46c5-b3a9-8ccb28f7b4a7",
+      "title": "HIRING",
+      "speakers": "Воробьев А.Д., Головачева А.П., Демидов Д.Р., Демьянов А.С., Головкин И.А., Воропай О.А.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "12:00:00",
+      "end_time": "12:15:00",
+      "category": "CV, NLP, ASR, TTS",
+      "abstract": "Analyzes video interviews: facial expressions, speech, soft skills — and provides a structured candidate assessment. Reduces subjectivity and hiring errors.",
+      "slot_id": "slot_06"
+    },
+    {
+      "id": "c259f8da-509c-4bc1-a762-89817337f96d",
+      "title": "Praxis-core / praxis-core",
+      "speakers": "Калинин А.С., Луняков А.А., Полетаев В.А., Чуфистов Г.А.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "12:15:00",
+      "end_time": "12:30:00",
+      "category": "Autonomous agents, NLP",
+      "abstract": "Automates collection and analysis of feedback using 360° methodology. Generates reports and recommendations using LLM.",
+      "slot_id": "slot_07"
+    },
+    {
+      "id": "ec007557-f1fc-4e45-8b44-d86157a93333",
+      "title": "Sales mentor AI",
+      "speakers": "Паршиков А.В",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "13:00:00",
+      "end_time": "13:15:00",
+      "category": "EdTech, AI, Sales, Coaching, Training",
+      "abstract": "An AI assistant for training and supporting sales managers that helps develop customer communication skills through call simulation using ASR and TTS.",
+      "slot_id": "slot_09"
+    },
+    {
+      "id": "545fbd33-f58d-4e08-bd13-24fa33f7c770",
+      "title": "DealRocket - B2B Client Search Service",
+      "speakers": "Сафронов А.А., Колташев Я.А.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "13:15:00",
+      "end_time": "13:30:00",
+      "category": "NLP",
+      "abstract": "Helps B2B companies find clients: the user describes their goal in free form, and the system automatically selects the necessary filters. Simplifies work with complex catalogs.",
+      "slot_id": "slot_10"
+    },
+    {
+      "id": "5caecd51-fe21-43f7-bb2e-7f63d03e47ee",
+      "title": "Generating AI Agents on JVM Frameworks",
+      "speakers": "Федотова Е.Р.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "13:30:00",
+      "end_time": "13:45:00",
+      "category": "Agents, JVM, LLM, Frameworks",
+      "abstract": "Development of an AI agent with emphasis on employee onboarding and adaptation processes in companies, first user experience with the framework.",
+      "slot_id": "slot_11"
+    },
+    {
+      "id": "9aae9757-874c-4dc9-99b1-b71efb0a1703",
+      "title": "Recommendation Doc2Doc Service for Product Images",
+      "speakers": "Аристархов З.Г., Доронин И.В., Аржа А.Н.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "13:45:00",
+      "end_time": "14:00:00",
+      "category": "Recsys, CV, NLP",
+      "abstract": "Finds visually and semantically similar product images by query. Useful for marketplaces and content platforms.",
+      "slot_id": "slot_12"
+    },
+    {
+      "id": "050700b3-0fa5-4be4-9f7c-e376064e0d32",
+      "title": "System for Assessing the Quality of Technical Support Operators' Work Based on Audio Recordings of Their Conversations with Customers",
+      "speakers": "Набиуллин И.П.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "ASR, Speech-to-text, QA",
+      "abstract": "The system automates the analysis of customer conversations, replacing partial and subjective manual quality control with objective AI-based assessment. The solution includes diarization, transcription, and text analysis using LLM, achieving 80% agreement with expert annotations and enabling scalability across all calls.",
+      "slot_id": "slot_14"
+    },
+    {
+      "id": "c545a653-4625-43c3-b939-d29b65d30f53",
+      "title": "Fixly",
+      "speakers": "Галиева Р.Р.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "14:15:00",
+      "end_time": "14:30:00",
+      "category": "Computer Vision, Agents",
+      "abstract": "AI diagnostics for technicians: determines malfunction from a photo and generates a parts list. Reduces ticket processing time by 90% and improves repair accuracy.",
+      "slot_id": "slot_15"
+    },
+    {
+      "id": "10f6a765-bd32-4d84-893f-54d06f2726a3",
+      "title": "CV Categorization of E-commerce Products",
+      "speakers": "Суслов М.А.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "Computer Vision, Classification, E-commerce",
+      "abstract": "Improves product categorization using VLM by analyzing images rather than text alone. Increases catalog accuracy and search relevance.",
+      "slot_id": "slot_17"
+    },
+    {
+      "id": "edbb8945-0fce-4cf0-87ab-f7b4980064ff",
+      "title": "Predisense",
+      "speakers": "Орлова О.В.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "15:00:00",
+      "end_time": "15:15:00",
+      "category": "Recsys, Predictive Analytics",
+      "abstract": "Provides sellers with ready-made recommendations: what to purchase, in what volume, and at what price. Saves up to 90% of time on analysis and increases profit.",
+      "slot_id": "slot_18"
+    },
+    {
+      "id": "f14aee7a-4f98-4c98-9c16-4802a65ea3dc",
+      "title": "X5 Projects",
+      "speakers": "Деникаев Э.Р.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "15:15:00",
+      "end_time": "15:30:00",
+      "category": "ASR, Speech synthesis, TTS, Voice",
+      "abstract": "Includes transcription/summarization of meetings and a platform with avatars for initial interviews. Automates routine HR and communication processes.",
+      "slot_id": "slot_19"
+    },
+    {
+      "id": "f5647b10-0c85-4452-8b00-bb8e3d17958b",
+      "title": "Expired Product Detector",
+      "speakers": "Михалевич М.А.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "15:30:00",
+      "end_time": "15:45:00",
+      "category": "Industrial ML, Time-series",
+      "abstract": "ML system for automatic detection of products with expiring or already expired shelf life on the shelves of X5 stores. The solution is designed to replace the inefficient current FIFO-based algorithm by taking into account real data on sales, supplies, and write-offs, in order to reduce product losses and decrease manual labor of employees.",
+      "slot_id": "slot_20"
+    },
+    {
+      "id": "3eac741e-be2e-4f1f-80b4-c6c5afce229b",
+      "title": "LexFlow",
+      "speakers": "Шевцов В.А",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "16:00:00",
+      "end_time": "16:15:00",
+      "category": "EdTech, NLP",
+      "abstract": "An interactive AI assistant for learning English that not only conducts dialogue but also provides personalized feedback on errors. The project is implemented on a React + FastAPI + local LLM (Ollama) stack with plans for cloud migration",
+      "slot_id": "slot_22"
+    },
+    {
+      "id": "d588a2ff-6729-4577-89a1-ed874e046fb4",
+      "title": "WideResearcher",
+      "speakers": "Аспаев Н.А",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "16:15:00",
+      "end_time": "16:30:00",
+      "category": "NLP, Search",
+      "abstract": "A deep search tool with query evolution visualization and segmented answers. Helps researchers structure knowledge and track sources.",
+      "slot_id": "slot_23"
+    },
+    {
+      "id": "326e74cf-60c7-40dc-9b5c-462d258d04f0",
+      "title": "Jane - AI Assistant for Educators",
+      "speakers": "Станкевич С.В.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "16:30:00",
+      "end_time": "16:45:00",
+      "category": "NLP, EdTech",
+      "abstract": "A specialized AI assistant for students and teachers of urbanism. Based on the works of Jane Jacobs and internal course materials.",
+      "slot_id": "slot_24"
+    },
+    {
+      "id": "ed9cd898-bac9-48e5-a636-ec4e765e0f44",
+      "title": "SAYIT",
+      "speakers": "Чыонг Х.Д., Иргит А.А., Юдин К.А.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "16:45:00",
+      "end_time": "17:00:00",
+      "category": "NLP, Agents, ASR, TTS",
+      "abstract": "A voice trainer for practicing conversational English with instant error correction. Works 24/7 and replaces expensive lessons with native speakers.",
+      "slot_id": "slot_25"
+    },
+    {
+      "id": "a16fc3f0-c12f-4bac-92d1-65a7b83dab7a",
+      "title": "AI Assistant for Moodle LMS",
+      "speakers": "Кирильцев Д.А., Трофимов А.Ю.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "17:00:00",
+      "end_time": "17:15:00",
+      "category": "EdTech, NLP, CV",
+      "abstract": "Automatically checks student assignments and provides preliminary feedback. Frees teachers from routine tasks and accelerates learning.",
+      "slot_id": "slot_26"
+    },
+    {
+      "id": "1db2fc77-3e64-4473-a31a-38e6f9ce1504",
+      "title": "RAGL",
+      "speakers": "Головченко В.Е.",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "NLP, RAG",
+      "abstract": "A visual tool for rapid assembly and comparison of RAG pipelines. Saves time on experiments for researchers and companies.",
+      "slot_id": "slot_27"
+    },
+    {
+      "id": "a6a1b096-9f09-49af-90fa-6c8b0f1f6170",
+      "title": "VLMHyperBench",
+      "speakers": "Ширяев А.Д.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "10:30:00",
+      "end_time": "10:45:00",
+      "category": "VLM, LLM, Benchmark",
+      "abstract": "A benchmark for comparing multimodal models by metrics, speed, and resource consumption. Supports containerization and work with industrial datasets.",
+      "slot_id": "slot_00"
+    },
+    {
+      "id": "aedd8838-e02f-4903-be31-3ee5be013c19",
+      "title": "AgentArea - a platform for building agent networks",
+      "speakers": "Горбунов Д.П.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "10:45:00",
+      "end_time": "11:00:00",
+      "category": "NLP, Agents, Autonomous agents",
+      "abstract": "A platform for building enterprise agent networks with automatic planning and sub-agents. Competes with Western analogues, but with a focus on the Russian market.",
+      "slot_id": "slot_01"
+    },
+    {
+      "id": "f1b1a344-63ac-4893-ad85-82eefa52cd32",
+      "title": "AI Agent for Automated User Infrastructure Management",
+      "speakers": "Устинов К.Е.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "11:00:00",
+      "end_time": "11:15:00",
+      "category": "Autonomous agents, NLP",
+      "abstract": "An AI assistant that enables cloud infrastructure management through natural language while strictly adhering to API schemas and constraints (schema-guided reasoning). The solution lowers the entry barrier, reduces errors, and accelerates task execution by transforming complex operations into simple dialogue commands.",
+      "slot_id": "slot_02"
+    },
+    {
+      "id": "e35ac9cc-a696-461a-aa1c-f390aa3858ee",
+      "title": "Small-talk Agent",
+      "speakers": "Еншов В.В.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "11:15:00",
+      "end_time": "11:30:00",
+      "category": "Autonomous agents, Dialogue",
+      "abstract": "An AI assistant for bank client managers that generates relevant topics for informal conversation and suggests reasons for meetings (such as events or occasions). This helps strengthen relationships with key clients and improves the quality of interactions.",
+      "slot_id": "slot_03"
+    },
+    {
+      "id": "a3978633-4391-4ca0-8d31-16a3ec41349a",
+      "title": "Avrora Assistant",
+      "speakers": "Резитдинов А.Р.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "11:30:00",
+      "end_time": "11:45:00",
+      "category": "Autonomous agents, NLP",
+      "abstract": "A unified entry point for searching information across corporate systems and documents. Simplifies employee workflows and reduces cognitive load.",
+      "slot_id": "slot_04"
+    },
+    {
+      "id": "c8e5f64d-3263-413d-966b-4be2fbefb4ab",
+      "title": "LLM Agents Uncertainty",
+      "speakers": "Егоров Е.А",
+      "hall": 8,
+      "date": "2026-01-22",
+      "start_time": "13:50:00",
+      "end_time": "14:05:00",
+      "category": "Agents, Uncertainty, NLP",
+      "abstract": "Evaluates how confident an agent is in its answer to filter unreliable results. Allows directing questionable tasks to experts.",
+      "slot_id": "slot_13"
+    },
+    {
+      "id": "3b7af676-fac2-4596-94bc-6b831f41cddd",
+      "title": "Agent-Based Annotation Analytics System",
+      "speakers": "Лукоянова В.А.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "12:00:00",
+      "end_time": "12:15:00",
+      "category": "Autonomous agents, Analytics, Labeling",
+      "abstract": "Automates management of a team of annotation managers: distributes tasks, takes into account competencies and deadlines. Improves annotation quality and speed.",
+      "slot_id": "slot_06"
+    },
+    {
+      "id": "4f8c4b4c-98af-44a6-a12b-a8046b09c953",
+      "title": "Automation of Network Schedule Formation",
+      "speakers": "Есаулова Н.А., Казанцев Д.А.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "12:15:00",
+      "end_time": "12:30:00",
+      "category": "Industrial ML, Agents, Scheduling, Planning",
+      "abstract": "Transforms project documentation into automatically updated network diagrams of work. Reduces downtime and errors in coordinating construction processes.",
+      "slot_id": "slot_07"
+    },
+    {
+      "id": "fbaab27c-d788-49c5-8e29-52d71368f28d",
+      "title": "Turbo Sorter: AI Security",
+      "speakers": "Кажёкин Д.А., Кремнева П.П., Стог В.Г.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "13:00:00",
+      "end_time": "13:15:00",
+      "category": "NLP, Security, AI",
+      "abstract": "Helps analysts quickly find information on MITRE ATT&CK tactics. Works locally and does not transmit data to the cloud.",
+      "slot_id": "slot_09"
+    },
+    {
+      "id": "9cd71658-e286-48f5-a678-0e0eea263bc3",
+      "title": "MCP server for llamator",
+      "speakers": "Неронов Р.М., Иванов Н.А.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "13:15:00",
+      "end_time": "13:30:00",
+      "category": "LLM, Security, RedTeaming",
+      "abstract": "A framework for automated security testing of LLM systems for vulnerabilities such as jailbreak and data leakage. Complies with OWASP classes and allows running attacks in controlled conditions.",
+      "slot_id": "slot_10"
+    },
+    {
+      "id": "25e8051c-a599-431b-bab2-d228faf890ef",
+      "title": "AI Security Lab Benchmark",
+      "speakers": "Грищенко В.О., Кочнев Г.Е.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "13:30:00",
+      "end_time": "13:45:00",
+      "category": "Autonomous agents, NLP, Security, Benchmark",
+      "abstract": "Development of a new security benchmark for agentic systems.",
+      "slot_id": "slot_11"
+    },
+    {
+      "id": "92a63b65-f258-4b77-a0e9-6e4b65f56721",
+      "title": "BAD - User Activity Analysis Module",
+      "speakers": "Смирнов Т.О.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "13:45:00",
+      "end_time": "14:00:00",
+      "category": "MLSec, LLM",
+      "abstract": "Detects anomalies in user behavior: hacker activity or violation of corporate regulations. Particularly relevant for protection against cyberattacks in Russia.",
+      "slot_id": "slot_12"
+    },
+    {
+      "id": "d54a4413-94b7-42c1-884f-a5d2ba99d382",
+      "title": "Monitoring Vulnerabilities in Agent Systems",
+      "speakers": "Калиманова А.Т.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "Autonomous agents, NLP, Security, Monitoring",
+      "abstract": "Research project on assessing the security of LLM-agents using the Tau2 benchmark, including analysis of resilience to attacks, guardrails performance, and testing across various language models.",
+      "slot_id": "slot_14"
+    },
+    {
+      "id": "a360dada-d649-4465-8926-d40ac8a2d899",
+      "title": "RAG verification",
+      "speakers": "Коновалов М.А., Мацаков Б.В.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "14:15:00",
+      "end_time": "14:30:00",
+      "category": "NLP, RAG, Verification, Evaluation, LLM",
+      "abstract": "Verifies whether the generated answer corresponds to the retrieved context to reduce hallucinations. Particularly important for critical business processes.",
+      "slot_id": "slot_15"
+    },
+    {
+      "id": "2277050e-a474-4ed1-97f7-5bf2f91d83a0",
+      "title": "Assistant for LMS Moodle",
+      "speakers": "Гуй Цици, Кирильцев Д.А.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "14:30:00",
+      "end_time": "14:45:00",
+      "category": "NLP, EdTech, Agents",
+      "abstract": "Automatically checks student work and provides preliminary feedback. Frees teachers from routine tasks and accelerates learning.",
+      "slot_id": "slot_16"
+    },
+    {
+      "id": "04ad743f-9228-436e-b5dd-291447df3a01",
+      "title": "Improving LLM Benchmarking System",
+      "speakers": "Дягин Э.А",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "NLP, LLM, Benchmarking, Evaluation, Metrics",
+      "abstract": "A project on implementing and optimizing a local evaluation system for large language models (LLM-as-a-Judge), which replaces expensive external APIs and improves evaluation accuracy.",
+      "slot_id": "slot_17"
+    },
+    {
+      "id": "2e7dfcbc-b5f2-40c8-bd17-af801afe2c9d",
+      "title": "RAG System for Support Automation",
+      "speakers": "Басов М.И.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "15:00:00",
+      "end_time": "15:15:00",
+      "category": "NLP, RAG, Support, Automation",
+      "abstract": "An AI solution that helps employees quickly find accurate answers in corporate documentation (Confluence, PDF, etc.) through a chat interface, reducing the load on experts and accelerating request resolution. The system uses trainable generation, a custom reranker, and advanced text processing, enabling adaptation to different companies and domains without full architecture redesign.",
+      "slot_id": "slot_18"
+    },
+    {
+      "id": "7a435d86-7eae-4dfd-8a72-48ccadf256e0",
+      "title": "Geo-embeddings",
+      "speakers": "Киселев Г.А",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "15:15:00",
+      "end_time": "15:30:00",
+      "category": "GeoML, Recsys, Embeddings, Location, Ranking",
+      "abstract": "Creates a universal vector representation of locations for fast solving of geo-tasks. Saves time and resources when developing models for new scenarios.",
+      "slot_id": "slot_19"
+    },
+    {
+      "id": "91f5db9c-c0df-41f0-9a1a-5b5ec2920c88",
+      "title": "Geoanalytics Service on Open Data",
+      "speakers": "Максимова П.Ю., Сенина А.С.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "15:30:00",
+      "end_time": "15:45:00",
+      "category": "Geospatial, OpenData, ML, Analytics, Mapping",
+      "abstract": "Evaluates the attractiveness of locations for new business points taking into account multiple factors. Visualizes recommendations as heat maps.",
+      "slot_id": "slot_20"
+    },
+    {
+      "id": "7518aa69-652d-4daf-8c90-5d5e7bd455ab",
+      "title": "Know the City",
+      "speakers": "Акпаньонниде В.С., Гайдук Е.Д., Смольянов Н.А.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "16:00:00",
+      "end_time": "16:15:00",
+      "category": "CV, NLP, ML, Industrial ML",
+      "abstract": "Based on a photo of a building in Saint Petersburg, it provides its history and architectural features. Uses one-shot detection and multimodal LLM.",
+      "slot_id": "slot_22"
+    },
+    {
+      "id": "2f936e74-c7e5-4af6-a4b3-384094d18d01",
+      "title": "GO:AIway",
+      "speakers": "Дианаев А.Р., Потапов К.Д., Семчёнок В.Д.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "16:15:00",
+      "end_time": "16:30:00",
+      "category": "Industrial ML, MLOps, Production",
+      "abstract": "Creates an adaptive route through the city taking into account user interests and real-time conditions. Includes contextual audio guides and dynamic rerouting.",
+      "slot_id": "slot_23"
+    },
+    {
+      "id": "980d3bb6-9af4-4b7a-806d-a953dc35af32",
+      "title": "Valde",
+      "speakers": "Яковлев В.Л.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "16:30:00",
+      "end_time": "16:45:00",
+      "category": "Recsys, Predictive, NLP",
+      "abstract": "Personalized event recommendation based on user interests. Increases engagement and satisfaction from participation.",
+      "slot_id": "slot_24"
+    },
+    {
+      "id": "1f984736-fd6b-40cb-b9cb-aff53eb83d98",
+      "title": "Structured Information Search Service",
+      "speakers": "Гумеров Б.Р.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "10:45:00",
+      "end_time": "11:00:00",
+      "category": "NLP, Search, StructuredData",
+      "abstract": "A system that enables efficient data search in pre-organized (structured) sources, such as knowledge bases, catalogs, or technical documentation",
+      "slot_id": "slot_01"
+    },
+    {
+      "id": "450c74b3-0088-4783-bbaa-f90354fc4fa5",
+      "title": "Intelligent Search for GminiSoft",
+      "speakers": "Лапин А., Малбашич Д.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "11:00:00",
+      "end_time": "11:15:00",
+      "category": "OCR, ML, Industrial ML, Search",
+      "abstract": "A system based on RAG and hybrid search that enables quick answers to be found in heterogeneous documentation (PDF, DOCX, images) on real estate and construction, including scanned materials via OCR. The solution reduces information search time from hours to seconds and decreases expert workload through accurate and context-aware search.",
+      "slot_id": "slot_02"
+    },
+    {
+      "id": "a6590de6-9c4f-472a-87d1-dac0488bd09d",
+      "title": "Customer Segmentation and Product Recommendations",
+      "speakers": "Сорвин Е.Д",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "11:15:00",
+      "end_time": "11:30:00",
+      "category": "Recsys, Analytics",
+      "abstract": "The project is aimed at customer segmentation and personalized recommendation of banking products based on transactional data.",
+      "slot_id": "slot_03"
+    },
+    {
+      "id": "0a79fb72-3321-484d-8f06-73a3ac9ca9b7",
+      "title": "Data Preparation and Research for GigaChat",
+      "speakers": "Захарова В.А.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "11:30:00",
+      "end_time": "11:45:00",
+      "category": "LLM, Data",
+      "abstract": "Fine-tunes a multimodal model on Sber's internal data. Improves the quality of document and image processing in Russian-language context.",
+      "slot_id": "slot_04"
+    },
+    {
+      "id": "cc979ea1-ec0d-4cc9-a323-8d820e0b610a",
+      "title": "Migration of VK Dating Recommendation System to Microservices Architecture and Growth in Mutual Matches",
+      "speakers": "Прохоров С.И.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "11:45:00",
+      "end_time": "12:00:00",
+      "category": "Recsys, Backend, Microservices",
+      "abstract": "The project aims to migrate VKontakte's dating recommendation system to a microservices architecture, enabling on-demand recommendation recalculation in hundreds of milliseconds instead of scheduled batches — this increases system responsiveness and the number of mutual matches. The new infrastructure also simplifies and accelerates development, making it more predictable and flexible.",
+      "slot_id": "slot_05"
+    },
+    {
+      "id": "cef4e7b2-e11b-4441-962b-36b6eea80a8f",
+      "title": "AI - Researcher",
+      "speakers": "Артемьев Н.Д., Иванова В.В.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "12:00:00",
+      "end_time": "12:15:00",
+      "category": "Autonomous agents, AI",
+      "abstract": "A multi-agent system for accelerating scientific research: generates hypotheses, writes code, tests, and formats papers. Replaces routine researcher tasks and accelerates the R&D cycle.",
+      "slot_id": "slot_06"
+    },
+    {
+      "id": "f20333be-d6cc-4359-b0ef-16735e8e125a",
+      "title": "Quick Insight",
+      "speakers": "Муранов Д.А",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "12:15:00",
+      "end_time": "12:30:00",
+      "category": "Autonomous agents, NLP",
+      "abstract": "Analyzes Telegram posts and identifies key topics and news angles in real time. Saves hours of manual monitoring for media and business.",
+      "slot_id": "slot_07"
+    },
+    {
+      "id": "8b0c3d8c-d5cf-4827-b2a6-34fd005a451e",
+      "title": "NeuroStreamer NetTyan",
+      "speakers": "Бондарчук А.И., Жук М.Д., Иваненков А.С.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "13:00:00",
+      "end_time": "13:15:00",
+      "category": "Autonomous agents, NLP",
+      "abstract": "An autonomous AI streamer that conducts 24/7 broadcasts, moderates chat, and interacts with the audience. Can be used in entertainment, education, and marketing.",
+      "slot_id": "slot_09"
+    },
+    {
+      "id": "4be243cf-4d39-4c52-8739-a3d0439d95a8",
+      "title": "Mindescape 3D Project",
+      "speakers": "Михайлов В.В.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "13:15:00",
+      "end_time": "13:30:00",
+      "category": "Agents, 3D",
+      "abstract": "A game with AI agents in Minecraft where characters interact and stream. Combines gameplay and AI for a new user experience.",
+      "slot_id": "slot_10"
+    },
+    {
+      "id": "2359e77a-8a24-4b0e-9b01-7b24b2f77099",
+      "title": "Data Synthesis Pipeline in 3D Environment for Fine-tuning a Neural Image Editor",
+      "speakers": "Федоров Г.А",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "13:30:00",
+      "end_time": "13:45:00",
+      "category": "Computer Vision, 3D, Synthetic Data, Rendering, Image Editing, Fine-tuning",
+      "abstract": "An automated process for generating synthetic 3D data to train the Malvina model (a neural image editor for GigaChat) to perform complex spatial transformations on images. The project fills the gap in the absence of ready-made pipelines for this task and enables scalable improvement of editing quality.",
+      "slot_id": "slot_11"
+    },
+    {
+      "id": "b41a4b00-4d1b-45cd-8869-dd7d5e3e3f7f",
+      "title": "GenDraft3D",
+      "speakers": "Орлова А.Н",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "13:45:00",
+      "end_time": "14:00:00",
+      "category": "Computer Vision, 3D",
+      "abstract": "A plugin for Unreal Engine that generates 3D assets from text descriptions in real time. It helps indie developers quickly prototype without modeling skills.",
+      "slot_id": "slot_12"
+    },
+    {
+      "id": "4f3ef429-5a0b-4db6-bf13-487ef09b4fce",
+      "title": "Static Avatars",
+      "speakers": "Романенко Я.А",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "Computer Vision, Avatars",
+      "abstract": "Creates photorealistic 3D avatars for film, games, and advertising. Quality depends on compensation for micro-movements.",
+      "slot_id": "slot_14"
+    },
+    {
+      "id": "a81c6c15-9d53-469a-aeb9-5520fe034157",
+      "title": "AI Media Producer",
+      "speakers": "Айрапетов Т.Э., Мугайских С.В., Чупеев А.Д.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "14:15:00",
+      "end_time": "14:30:00",
+      "category": "Autonomous agents, NLP, Media",
+      "abstract": "Automatically refines and controls the quality of generated multimedia content. Accelerates the creative process through prompt analysis and improvement.",
+      "slot_id": "slot_15"
+    },
+    {
+      "id": "7552ede6-b2bd-4513-95ef-73d153d69ebe",
+      "title": "Computer Vision Autolabeling",
+      "speakers": "Ефименко А.Д",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "14:30:00",
+      "end_time": "14:45:00",
+      "category": "Computer Vision, Autolabeling, Dataset, Annotation, Active Learning",
+      "abstract": "A tool for automatic or semi-automatic image annotation designed to reduce dependence on expensive manual labeling. The project uses VLM models to accelerate the process and provides for development towards supporting specialized tasks and integration of additional models.",
+      "slot_id": "slot_16"
+    },
+    {
+      "id": "c1b19ce1-869d-4866-8614-19d1f7200a4c",
+      "title": "MLization of Game Mechanics",
+      "speakers": "Лившиц Л.П., Щукин Н.Ю.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "ML, A/B testing, Gamification",
+      "abstract": "Personalizes in-game rewards and predicts player churn to increase LTV. Uses classical ML models with subsequent transition to RL/contextual bandits.",
+      "slot_id": "slot_17"
+    },
+    {
+      "id": "0d6e20c2-79a5-4b25-a8c8-2eadec83a92a",
+      "title": "AI Singularity",
+      "speakers": "Пономарев А.С.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "16:00:00",
+      "end_time": "16:15:00",
+      "category": "NLP, LLM, Singularity, Alignment, Safety",
+      "abstract": "Helps users store and analyze medical history. Warns about risks of chronic diseases.",
+      "slot_id": "slot_22"
+    },
+    {
+      "id": "658bc934-0fde-4cba-9ade-75a70154a371",
+      "title": "MRI",
+      "speakers": "Миллер А.И., Аптуков М.И.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "16:15:00",
+      "end_time": "16:30:00",
+      "category": "Computer Vision, Medical Imaging, ML",
+      "abstract": "The project accelerates MRI image reconstruction, reducing scan time and increasing clinic throughput. The solution works with DICOM data and does not require access to raw k-space data.",
+      "slot_id": "slot_23"
+    },
+    {
+      "id": "570e4fc2-0074-46c2-b0e4-32c974af38c4",
+      "title": "SkinCare AI",
+      "speakers": "Кондауров В.В",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "16:30:00",
+      "end_time": "16:45:00",
+      "category": "CV, Recsys, Analytics",
+      "abstract": "Analyzes skin photos and recommends skincare cosmetics based on skin type and problems (acne, wrinkles, etc.). Makes dermatology more accessible.",
+      "slot_id": "slot_24"
+    },
+    {
+      "id": "7f87d0b4-e543-4add-8c69-8459860dd4e8",
+      "title": "Application of LLM for Business Process Automation at PAO Norilsk Nickel",
+      "speakers": "Ильин Г., Поляков Е., Редько Д., Сухова Е.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "10:30:00",
+      "end_time": "10:45:00",
+      "category": "Industrial ML, RAG, NLP, Agents",
+      "abstract": "Automates routine document processing, reducing human errors and time costs. Integrates into existing business processes.",
+      "slot_id": "slot_00"
+    },
+    {
+      "id": "48082fd4-f932-4111-a29b-14370b2b4199",
+      "title": "Record Linkage: ML System for Catalog Matching",
+      "speakers": "Меньшиков И.В.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "10:45:00",
+      "end_time": "11:00:00",
+      "category": "Industrial ML, NLP, Matching",
+      "abstract": "The system automates matching of items between a company's internal catalog (200k records) and supplier catalogs (800k records) using machine learning. The solution replaces manual work, improves matching accuracy, and accelerates procurement processes.",
+      "slot_id": "slot_01"
+    },
+    {
+      "id": "885d248d-26c3-45ad-8ff3-f895eb024279",
+      "title": "Contour AI Analytics",
+      "speakers": "Аверченко М.А., Тихановский Д.А.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "11:00:00",
+      "end_time": "11:15:00",
+      "category": "Industrial ML, NLP, Analytics, MLOps",
+      "abstract": "Enables business users to obtain SQL and data through chat without knowledge of the database schema. Uses context-aware RAG and vector search over table descriptions.",
+      "slot_id": "slot_02"
+    },
+    {
+      "id": "e06952f6-197f-467a-9f1a-1ec332b9fb73",
+      "title": "NLP Tasks at Megafon",
+      "speakers": "Чернышев А.А",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "11:15:00",
+      "end_time": "11:30:00",
+      "category": "NLP",
+      "abstract": "Improves the quality of virtual operators in Megafon and Yota call centers. Increases customer satisfaction and reduces processing time.",
+      "slot_id": "slot_03"
+    },
+    {
+      "id": "b0d6f3cd-957f-434e-93e3-7b5efa1183b9",
+      "title": "ScribeAI",
+      "speakers": "Харьковской Р.Р.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "11:30:00",
+      "end_time": "11:45:00",
+      "category": "CV, NLP, ASR",
+      "abstract": "Automatically creates concise and structured reports from business meetings. Replaces third-party solutions within the company.",
+      "slot_id": "slot_04"
+    },
+    {
+      "id": "ca246177-54ac-4b0f-9312-c876caba7039",
+      "title": "Vector Model Runtime Inference Platform",
+      "speakers": "Люльчак П.И.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "11:45:00",
+      "end_time": "12:00:00",
+      "category": "Recsys, ML, Inference, Platform",
+      "abstract": "Enables fast and reproducible A/B testing for ML models. Reduces time to deploy models to production and simplifies experiments.",
+      "slot_id": "slot_05"
+    },
+    {
+      "id": "56277917-1459-4f42-a38f-5e287fc5167c",
+      "title": "Procopius",
+      "speakers": "Половников Н.В., Попов В.Н., Руденко И.А., Черняков Н.Н.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "12:00:00",
+      "end_time": "12:15:00",
+      "category": "CV, NLP, Agents",
+      "abstract": "A Telegram bot for visual inspection of parts in production. An engineer takes a photo — the bot delivers a verdict 'pass/reject' with explanation.",
+      "slot_id": "slot_06"
+    },
+    {
+      "id": "b262b67e-2fc4-45ac-9a22-978c72187ec8",
+      "title": "AgroLab",
+      "speakers": "Григорьев И.М.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "12:15:00",
+      "end_time": "12:30:00",
+      "category": "Computer Vision, ML, Industrial ML",
+      "abstract": "Mobile application for farmers: identifies plant diseases from photos. Helps preserve crops, especially for beginner farmers.",
+      "slot_id": "slot_07"
+    },
+    {
+      "id": "3b36180e-950e-4789-9fd2-bf1382e2129d",
+      "title": "NeonPay",
+      "speakers": "Матюшков А.Н., Кононенко Я.Д.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "13:00:00",
+      "end_time": "13:15:00",
+      "category": "Fintech, ML, Payments, Fraud",
+      "abstract": "An application that would allow all cryptocurrency owners to pay in physical stores without pre-exchanging assets into rubles.",
+      "slot_id": "slot_09"
+    },
+    {
+      "id": "707dbb20-04ae-4aca-b280-d21c4f295f48",
+      "title": "VoxBud - Personal Offline AI Financial Assistant",
+      "speakers": "Банников А.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "13:15:00",
+      "end_time": "13:30:00",
+      "category": "NLP, ML, Fintech, Offline, Assistant",
+      "abstract": "Local AI assistant for personal budget management without internet. Analyzes transactions and provides personalized recommendations.",
+      "slot_id": "slot_10"
+    },
+    {
+      "id": "e57150a6-7a84-43fa-8fff-5a2c8c03ecd1",
+      "title": "Adaptive Assessment Engine: a system for generating, validating, and dynamically assessing knowledge",
+      "speakers": "Чангалиди А.И.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "13:30:00",
+      "end_time": "13:45:00",
+      "category": "EdTech, ML, NLP, Assessment",
+      "abstract": "The system adaptively tests students' knowledge by building a tree of questions up to the boundary of understanding. The solution is resistant to cheating even when using LLM.",
+      "slot_id": "slot_11"
+    },
+    {
+      "id": "33846c37-d338-4417-9050-69b88cedf8b3",
+      "title": "Fine-tuning VLM for KIE task on banking documents",
+      "speakers": "Иванов М.А.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "13:45:00",
+      "end_time": "14:00:00",
+      "category": "Fintech, ML, CV, VLM, KIE",
+      "abstract": "The system adaptively tests students' knowledge by building a tree of questions up to the boundary of understanding. The solution is resistant to cheating even with the use of LLM.",
+      "slot_id": "slot_12"
+    },
+    {
+      "id": "3021dcf4-32f0-4420-8afa-5efe0f3c3e63",
+      "title": "Personalized Deposit Pricing",
+      "speakers": "Тимофеев В.Д",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "ML, Fintech, Pricing, Deposits",
+      "abstract": "Forms personalized deposit terms based on customer behavior and profile. Increases customer loyalty and bank financial results.",
+      "slot_id": "slot_14"
+    },
+    {
+      "id": "66f86ae5-4a77-49ff-b3ca-8e8048aaf26b",
+      "title": "Retail Modeling Development at Gazprombank",
+      "speakers": "Романов Е.В.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "14:15:00",
+      "end_time": "14:30:00",
+      "category": "Fintech, ML, Retail, Modeling, MLOps",
+      "abstract": "A project on creating and implementing ML models for personalizing interactions with retail customers: churn prediction, next best offer (NBO) recommendation, reactivation, uplift marketing, and loyalty management. The solution improves marketing efficiency, reduces costs, and scales across the bank's entire customer base.",
+      "slot_id": "slot_15"
+    },
+    {
+      "id": "75921f09-c87b-40a9-934f-b195038867a3",
+      "title": "Digital Accounting",
+      "speakers": "Данилаева С.Д.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "Fintech, ML, Accounting, Automation, Compliance",
+      "abstract": "Automates processing of financial documents without a text layer. Reduces processing time from 15 minutes to 1.",
+      "slot_id": "slot_17"
+    },
+    {
+      "id": "1bdade8d-7b7e-485f-aa69-7ed45b44e430",
+      "title": "AI Customs Declarant",
+      "speakers": "Лукин С.О.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "15:00:00",
+      "end_time": "15:15:00",
+      "category": "AI, NLP, RegTech, Compliance",
+      "abstract": "Automates the completion of customs declarations based on document scans. Reduces processing time and minimizes human errors.",
+      "slot_id": "slot_18"
+    },
+    {
+      "id": "a07b35b8-cec0-49b0-849c-53a4c9d80a12",
+      "title": "Multimodal Risk Assessment System for Financial Organizations (SupTech Risk Radar)",
+      "speakers": "Мурзаев Н.И.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "15:15:00",
+      "end_time": "15:30:00",
+      "category": "Fintech, Risk, Time-series, Analytics",
+      "abstract": "An AI system that analyzes heterogeneous data (texts, financial reports, news, regulatory documents) for early risk detection in banks and other financial institutions.",
+      "slot_id": "slot_19"
+    },
+    {
+      "id": "a34c37b7-384d-4850-b8b9-e3412da0e4cf",
+      "title": "Gradient",
+      "speakers": "Полежаев Ф.М.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "15:30:00",
+      "end_time": "15:45:00",
+      "category": "Time-series, Reinforcement Learning, Science, Industrial ML",
+      "abstract": "A project for optimal liquidity provision on decentralized finance (DeFi) markets using L4-level data from trading participants and accounting for DEX-specific characteristics. The solution aims to improve efficiency in a still weakly competitive and inefficient DeFi environment, but is limited by current market capacity and requires execution speed optimization.",
+      "slot_id": "slot_20"
+    },
+    {
+      "id": "977e1847-974e-4e2b-ba8b-0ed8adc334be",
+      "title": "GranTutor: LLM-based Expert Calibration System",
+      "speakers": "Варапаев Э.Р., Четвергов А.С., Шарафетдинов Р.С.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "16:00:00",
+      "end_time": "16:15:00",
+      "category": "LLM, NLP, Recsys",
+      "abstract": "Automates the evaluation of grant applications: analyzes the quality of expert comments, identifies red flags, and calibrates their work. Increases transparency and efficiency of fund distribution.",
+      "slot_id": "slot_22"
+    },
+    {
+      "id": "97e82b03-c843-4fd6-a9f6-4d4f6a0bca0b",
+      "title": "Refinement of a Multi-Agent LLM System for Working with Industrial Data",
+      "speakers": "Дипнер С.П",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "16:15:00",
+      "end_time": "16:30:00",
+      "category": "Industrial ML, Time series",
+      "abstract": "Predicts equipment failures based on time series. Helps transition from scheduled maintenance to condition-based maintenance.",
+      "slot_id": "slot_23"
+    },
+    {
+      "id": "e0905bed-0b2d-4165-8ad3-e84c8d02704e",
+      "title": "AI Assistant for Farmers",
+      "speakers": "Розанов К.А.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "16:30:00",
+      "end_time": "16:45:00",
+      "category": "RAG, Agents, MCP",
+      "abstract": "Aggregates data (weather, satellite, market) and provides recommendations on work schedules, crop selection, and risks. Reduces costs and increases decision transparency.",
+      "slot_id": "slot_24"
+    },
+    {
+      "id": "2fd899ee-452d-42d3-9021-7cdea9bdd036",
+      "title": "AI Navigation Through a Construction Site",
+      "speakers": "Пшеничников А.С",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "16:45:00",
+      "end_time": "17:00:00",
+      "category": "Autonomous agents, Computer Vision",
+      "abstract": "Builds a route through a site based on 360° video and compares it with the plan. Automatically detects changes and violations.",
+      "slot_id": "slot_25"
+    },
+    {
+      "id": "ab6bdb70-8bbe-4968-a120-b5f2ea6b6c9c",
+      "title": "Autonomous LLM System of Verifiable Knowledge",
+      "speakers": "Боев С.С., Матвиенко Д.В., Сабиров С.Т.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "16:45:00",
+      "end_time": "17:00:00",
+      "category": "Autonomous agents, NLP, RAG, Knowledge Management",
+      "abstract": "A locally deployed chatbot for internal technical documentation that answers queries with source citations, ensuring security, transparency, and NDA compliance. The system automatically synchronizes the vector database with repository updates and can evolve in the future into an agent platform for performing operations based on instructions.",
+      "slot_id": "slot_25"
+    },
+    {
+      "id": "0b776672-daaa-45f2-89da-b4c4aedfa1f6",
+      "title": "Productive Social",
+      "speakers": "Миамбо Ж.Р.",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "Fintech, ML, Personalization, Privacy, Security",
+      "abstract": "The talk is dedicated to applying machine learning in fintech to create a \"productive\" social layer around financial products. We will examine what user behavior and transaction data can be safely used to personalize recommendations, savings goals, and budget management scenarios. We will discuss models that help increase engagement without manipulation: from segmentation and ranking to churn prediction and detection of fraudulent patterns in social mechanics. We will separately address privacy, compliance, and interpretability issues so that ML solutions can be deployed in a real bank or fintech application. At the end—practical effectiveness metrics and typical mistakes when launching such features in production.",
+      "slot_id": "slot_27"
+    },
+    {
+      "id": "7102c089-6b72-4eaa-9f51-a2e4e9dd6504",
+      "title": "HandMarket",
+      "speakers": "Макаров И.Ю.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "17:00:00",
+      "end_time": "17:15:00",
+      "category": "Recsys, NLP",
+      "abstract": "A B2B platform for handmade confectionery producers that combines order automation, client base expansion, and legal support for entering the formal market, making it unique against the absence of direct competitors.",
+      "slot_id": "slot_26"
+    },
+    {
+      "id": "ecc09a02-0089-433c-9b9b-2b95c9547e3c",
+      "title": "Search Assistant for Pharmaceutical Retail",
+      "speakers": "Пчельникова Е.С.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "14:15:00",
+      "end_time": "14:30:00",
+      "category": "Autonomous agents, Search, Fintech",
+      "abstract": "The project develops an LLM-assistant for accurate drug search in pharmaceutical retail, accounting for symptoms, active ingredients, and imprecise queries — already deployed in production and aimed at increasing conversion and reducing consultant workload.",
+      "slot_id": "slot_35"
+    },
+    {
+      "id": "424459a1-26d0-41d1-ad62-c047fedc8b40",
+      "title": "Biogotchi",
+      "speakers": "Батраков С.В.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "14:30:00",
+      "end_time": "14:45:00",
+      "category": "MedTech",
+      "abstract": "A digital personal avatar that models the impact of lifestyle on human aging and health, aimed at motivating users toward proactive diagnostics and improved quality of life. The project was launched as an interactive test on the Genotek website and is being developed into a full-fledged platform with integration of data from wearable devices and laboratory tests.",
+      "slot_id": "slot_36"
+    },
+    {
+      "id": "a658c594-4481-46a0-8cba-00d05e6d10d5",
+      "title": "Automatic Self-Review of Student Projects",
+      "speakers": "Дойников А.В",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "LLM, EdTech",
+      "abstract": "The project uses LLM for automatic review of student code projects to reduce verification costs, comparing the quality of AI assessment with human review under strict cost constraints (~100–200 rubles per request).",
+      "slot_id": "slot_37"
+    },
+    {
+      "id": "96b29bb7-d08d-41a9-a649-0f1f42fe3748",
+      "title": "Automated Grading of Unified State Exam Part 2 Tasks Using LLM",
+      "speakers": "Лопатин М.А.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "15:00:00",
+      "end_time": "15:15:00",
+      "category": "NLP, EdTech",
+      "abstract": "The project uses large language models (LLM) to automatically grade extended answers from part 2 of the Unified State Exam, providing fast and objective assessment in accordance with FIPI criteria.",
+      "slot_id": "slot_38"
+    },
+    {
+      "id": "66fb487a-054e-4e14-bd65-857e9c420af2",
+      "title": "Address Matching",
+      "speakers": "Вегера Д.А.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "16:00:00",
+      "end_time": "16:15:00",
+      "category": "NLP, ML",
+      "abstract": "The project automates address matching and correction in banking systems, ensuring their correct storage and reducing errors arising from manual entry.",
+      "slot_id": "slot_42"
+    },
+    {
+      "id": "d008032d-371d-4b66-94b5-a43a582d07c7",
+      "title": "Galka",
+      "speakers": "Безуглова Е.Д.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "NLP",
+      "abstract": "Generates content plans and social media posts based on competitor analysis and trend tracking. Replaces an entire marketing department for small businesses.",
+      "slot_id": "slot_47"
+    },
+    {
+      "id": "9562d347-e362-4bd5-ba27-c859f5feca30",
+      "title": "Intelligent Commercial Proposal Generator",
+      "speakers": "Новиков Т.В.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "15:30:00",
+      "end_time": "15:45:00",
+      "category": "NLP, ML, OCR",
+      "abstract": "The project develops an intelligent commercial proposal generator based on LLM that automatically processes incoming requests in any format (including scans and PDFs), extracts key parameters using OCR and AI, and generates a ready-made proposal in Excel/PDF — completely without manager involvement. The solution aims at full automation of the routine process of preparing commercial proposals in a B2B environment.",
+      "slot_id": "slot_40"
+    },
+    {
+      "id": "aa4bd07a-fa26-49b8-ab90-2624b3579812",
+      "title": "Voice Trainer for Support Operators",
+      "speakers": "Дувакин К.Б., Койфман Д.Э., Решетняк А.А.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "15:45:00",
+      "end_time": "16:00:00",
+      "category": "NLP, ASR, ML",
+      "abstract": "The project presents a voice trainer for support operators that uses open-source STT, LLM, and TTS to create realistic dialogues with \"bot-clients\" of different personalities—without relying on third-party APIs. The solution accelerates training, reduces costs, and improves customer retention, scaling easily to other professions and scenarios.",
+      "slot_id": "slot_41"
+    },
+    {
+      "id": "70bc1e49-17b3-4dab-8a36-84c0ea0b393d",
+      "title": "Desa Identity",
+      "speakers": "Моисеенков В.Ю.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "IAM, Security, Identity, Access",
+      "abstract": "An IAM solution for small and medium-sized businesses, developed with consideration for Russian market requirements and focused on automating account management without storing personal data, with the ability to deploy both on-premise and in SaaS. The project addresses growing demand for protection against phishing and social engineering, offering an alternative to expensive international systems.",
+      "slot_id": "slot_34"
+    },
+    {
+      "id": "2338f2e9-b5a5-41c0-8ee4-30c57ae3221f",
+      "title": "Intelligent Automation of ETL and Visualization",
+      "speakers": "Заводов А.В.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "15:15:00",
+      "end_time": "15:30:00",
+      "category": "NLP, Agents, ETL, Visualization, Automation",
+      "abstract": "Uses multi-agent LLM systems for automatic creation and validation of ETL pipelines. Reduces manual labor and errors.",
+      "slot_id": "slot_39"
+    },
+    {
+      "id": "6899f31f-32cf-45dd-bb50-fabe0fc43394",
+      "title": "Recommendation System for JUG Talks",
+      "speakers": "Юдина Ю.А., Струков А.П., Пивнев И.А.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "14:30:00",
+      "end_time": "14:45:00",
+      "category": "NLP, RecSys, Embeddings",
+      "abstract": "Personalizes talk selection at IT conferences through an onboarding bot and reranking. Increases NPS and ensures even room occupancy.",
+      "slot_id": "slot_36"
+    },
+    {
+      "id": "fd00c8cb-4bc6-44cc-aec8-440e3dcaf205",
+      "title": "Intelligent Search Service for Construction Documentation",
+      "speakers": "Лаптев А.В., Малбашич Д.Г.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "OCR, LLM, Search, Industrial ML",
+      "abstract": "The project develops an intelligent search service for construction and legal documentation (including PDF, DOCX and scans) for LLC Gemini Soft, combining RAG, hybrid search, OCR and voice input into a single MVP. The solution reduces information search time from hours to seconds, improving operational efficiency and is ready for scaling through microservices architecture.",
+      "slot_id": "slot_37"
+    },
+    {
+      "id": "50b98ab2-0c7b-4dd0-861f-10f11f480fbd",
+      "title": "Memorix",
+      "speakers": "Павлов И.В.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "15:00:00",
+      "end_time": "15:15:00",
+      "category": "NLP, EdTech",
+      "abstract": "A platform for automatic creation of online courses: from author materials to LMS, tests, and personalization. Saves experts' time and accelerates knowledge monetization.",
+      "slot_id": "slot_38"
+    },
+    {
+      "id": "b14d42fa-db81-41e2-960a-c931bbca7fe0",
+      "title": "Adapstory",
+      "speakers": "Ожаховская Т.И., Нигамадянов Ф.М., Бокарев С.М.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "15:15:00",
+      "end_time": "15:30:00",
+      "category": "EdTech, Adaptive Learning, Storytelling, Personalization, Analytics",
+      "abstract": "A constructor for personalized learning scenarios with delivery to messengers. An AI assistant adapts content to the student and increases course completion rates.",
+      "slot_id": "slot_39"
+    },
+    {
+      "id": "25bacf8c-8657-412a-9996-929be594c4c3",
+      "title": "Text2SQL Assistant for Analytics",
+      "speakers": "Куляскин М.О",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "16:00:00",
+      "end_time": "16:15:00",
+      "category": "NLP, Text2SQL, Analytics, SQL",
+      "abstract": "A platform for building enterprise agent networks with automatic planning and sub-agents. Competes with Western counterparts, but with a focus on the Russian market.",
+      "slot_id": "slot_42"
+    },
+    {
+      "id": "f36406ad-de2d-4f42-a8a5-4b83101eb3b7",
+      "title": "AgentArea",
+      "speakers": "Астапенко А.О",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "16:30:00",
+      "end_time": "16:45:00",
+      "category": "Autonomous agents",
+      "abstract": "A platform for building enterprise agent networks with automatic planning and sub-agents. Competes with Western analogues, but with a focus on the Russian market.",
+      "slot_id": "slot_44"
+    },
+    {
+      "id": "79394990-7bcc-4f7e-8e9a-f3aa34aaf46e",
+      "title": "MediaTracking",
+      "speakers": "Сенин А.М., Тепляков Н.А., Серов С.Ю.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "16:45:00",
+      "end_time": "17:00:00",
+      "category": "Backend, NLP, Monitoring, Analytics",
+      "abstract": "Automatically tracks media trends in Telegram and other sources in real time. Reduces the time to search for news hooks from hours to minutes.",
+      "slot_id": "slot_45"
+    },
+    {
+      "id": "c922dc06-c8a5-4c53-99db-f7921e4cd7e3",
+      "title": "Call Center Operator Assistant",
+      "speakers": "Курченко М.А., Федоров М.М.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "17:00:00",
+      "end_time": "17:15:00",
+      "category": "ASR, RAG, LLM",
+      "abstract": "Provides real-time prompts to the operator with answers based on regulations and scripts. Reduces call handling time.",
+      "slot_id": "slot_46"
+    },
+    {
+      "id": "a24de2ba-5e51-44fc-a517-ba2d8e792905",
+      "title": "MODERA FASHION",
+      "speakers": "Бодров Е.А., Оноре Г.С.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "CV, NLP, Agents, Fashion",
+      "abstract": "Virtual fitting room + AI stylist for reducing returns in online retail. Enables precise clothing selection based on body type and style, saving on logistics.",
+      "slot_id": "slot_47"
+    },
+    {
+      "id": "756ee48e-d5b1-45f9-95cd-00c0aad1a931",
+      "title": "AIDA (AI Dialog Assistant)",
+      "speakers": "Иванов А.А",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "17:30:00",
+      "end_time": "17:45:00",
+      "category": "NLP, Dialog, Assistant, LLM, Evaluation",
+      "abstract": "Automates processing of customer interviews: parsing, cross-analysis, hypothesis matrix. Reduces analysis time by 5x.",
+      "slot_id": "slot_48"
+    },
+    {
+      "id": "bdefc5d2-c922-4799-95c9-ecc412d667c0",
+      "title": "HiveTrace - LLM Application Monitoring System",
+      "speakers": "Тищенко А.А., Минко Б.С.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "14:15:00",
+      "end_time": "14:30:00",
+      "category": "Industrial ML, NLP, Agents",
+      "abstract": "A monitoring and protection platform for LLM applications: detection of PII leaks, attacks, and anomalies. Ensures security and regulatory compliance.",
+      "slot_id": "slot_35"
+    },
+    {
+      "id": "a02fc1ee-7e2f-4ead-81c0-0e91b37fea75",
+      "title": "LOOQS AI",
+      "speakers": "Хажиев Р.Р., Барабанщиков Л.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "18:30:00",
+      "end_time": "18:45:00",
+      "category": "CV, NLP, Multimodal, Search",
+      "abstract": "A generative AI stylist that selects personalized outfits based on photos or text requests, solving the problem of choice overload in e-commerce and increasing conversion through stylistic compatibility rather than simple search.",
+      "slot_id": "slot_51"
+    },
+    {
+      "id": "5f9a6e03-84be-42c4-989b-e99e74d8e0e9",
+      "title": "AI Sport Support",
+      "speakers": "Конева А.Р.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "18:45:00",
+      "end_time": "19:00:00",
+      "category": "Computer Vision",
+      "abstract": "Analyzes figure skaters' technique from video and provides assessment according to ISU rules. Makes training more accessible and objective.",
+      "slot_id": "slot_52"
+    },
+    {
+      "id": "38863e6f-a341-4e14-a5e2-87c3f5923091",
+      "title": "Development of a Model Complex for Forecasting Icing Phenomena",
+      "speakers": "Сажин Б.О.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "19:00:00",
+      "end_time": "19:15:00",
+      "category": "Industrial ML, Forecasting, Weather, Icing",
+      "abstract": "Predicts the risk of power line icing without sensors, using only meteorological data. Helps energy companies prevent accidents and downtime.",
+      "slot_id": "slot_53"
+    },
+    {
+      "id": "428750b4-1e3a-462f-a736-7559c955874d",
+      "title": "koteln(ai)a",
+      "speakers": "Шишкин П.Е.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "19:15:00",
+      "end_time": "19:30:00",
+      "category": "Time-series, Reinforcement Learning, Industrial ML",
+      "abstract": "The project is aimed at developing an ML solution for optimizing the operation of boiler units.",
+      "slot_id": "slot_54"
+    },
+    {
+      "id": "34ff6a22-6b9b-49de-ae23-133c4dd28108",
+      "title": "AI Assistant for Emergency Equipment Maintenance",
+      "speakers": "Горшкова Ю.А., Дубенский А.Ю., Рассинин М.В.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "19:30:00",
+      "end_time": "19:45:00",
+      "category": "NLP, Industrial ML",
+      "abstract": "Answers questions about equipment troubleshooting using a database of technical manuals. Reduces production downtime.",
+      "slot_id": "slot_55"
+    },
+    {
+      "id": "3328e55c-7b0f-478a-bba6-5611d43c94ad",
+      "title": "Retopoflow - AI-based retopology of 3D models",
+      "speakers": "Ширшов Д.Э.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "17:45:00",
+      "end_time": "18:00:00",
+      "category": "AI, Retopology, 3D, Autonomous agents",
+      "abstract": "Automates retopology of 3D models through orchestration of multimodal AI agents. Reduces artist labor costs by 10–30%.",
+      "slot_id": "slot_49"
+    },
+    {
+      "id": "617dd5b7-581a-48c9-bf48-783b3c1e710d",
+      "title": "Biogotchi x Genotek",
+      "speakers": "Смирнов И.С.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "LifeScience, ML, Genomics, Biotech, Personalization",
+      "abstract": "A user's digital \"biological age\" presented as an avatar motivates health monitoring and increases engagement with Genotek services. Gamification is combined with risk prediction based on biomarkers.",
+      "slot_id": "slot_34"
+    },
+    {
+      "id": "18744af1-d7bd-4508-ad1a-2e2f3afb96cc",
+      "title": "Country Ratings",
+      "speakers": "Шалашов А.А.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "Fintech, ML, Risk",
+      "abstract": "Builds an interpretable model of country credit risk, independent from international agencies. Uses a cascade of linear models and advanced feature engineering.",
+      "slot_id": "slot_47"
+    },
+    {
+      "id": "002dc769-f3f1-4df0-b0e5-fc07ae6955c7",
+      "title": "GigaSchool Project",
+      "speakers": "Легранд И.А",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "16:15:00",
+      "end_time": "16:30:00",
+      "category": "NLP, Education, Personalization, Search, Classification",
+      "abstract": "Automates diagnosis and student profiling in the educational process. Currently at MVP stage.",
+      "slot_id": "slot_43"
+    },
+    {
+      "id": "12a08201-2b11-48ea-8b4b-5864341f5ab5",
+      "title": "Manuspect Briefing Platform",
+      "speakers": "Зайченко Д.Д., Захаров Д.А., Закиров Т.А., Сухов А.А.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "14:30:00",
+      "end_time": "14:45:00",
+      "category": "NLP, Agents",
+      "abstract": "Analyzes sales calls, identifies best practices, and provides personalized recommendations to managers. Increases conversion and accelerates onboarding.",
+      "slot_id": "slot_36"
+    },
+    {
+      "id": "80385980-31c7-4de8-8287-826ddaa357e3",
+      "title": "Manuspect",
+      "speakers": "Евтушенко В.Н., Кирдяшкин М.А., Обласов С.В., Сухов А.А., Сахневич К.Р.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "14:15:00",
+      "end_time": "14:30:00",
+      "category": "NLP, Agents, ASR",
+      "abstract": "Analyzes negotiations and operational processes, identifying best practices and growth opportunities. Provides concrete recommendations with effect forecasts (for example, +15% conversion increase).",
+      "slot_id": "slot_35"
+    },
+    {
+      "id": "62c702f3-09f1-440e-902c-c8d7b6634692",
+      "title": "SampleAI",
+      "speakers": "Дорошкевич А.Н.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "AI, music, separation, transcription",
+      "abstract": "Development of a prototype Sample service for separating music into instruments.",
+      "slot_id": "slot_34"
+    },
+    {
+      "id": "b8828735-ec4c-49fd-aa31-eb5e99bc7c3d",
+      "title": "GoalMate",
+      "speakers": "Нилова Ю.В., Бегушева Э.У.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "NLP, Agents",
+      "abstract": "An AI coach that helps formulate goals based on personal values rather than external pressure. Combats procrastination and burnout through meaningful planning.",
+      "slot_id": "slot_37"
+    },
+    {
+      "id": "3584829f-0225-4b76-ab26-a6737536f516",
+      "title": "AutoCV",
+      "speakers": "Макаров М.В",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "16:00:00",
+      "end_time": "16:15:00",
+      "category": "Computer Vision",
+      "abstract": "A road object detection system that enables real-time detection of various object classes: car make, license plate, driver, body type, model, car color. Requirements - NVIDIA Jetson",
+      "slot_id": "slot_42"
+    },
+    {
+      "id": "cb773ca5-a95f-4c4c-8f76-1c944436e7d0",
+      "title": "Kontur AI Analyst",
+      "speakers": "Захаров Н.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "17:45:00",
+      "end_time": "18:00:00",
+      "category": "NLP, RAG",
+      "abstract": "Enables business users to obtain SQL and data through chat without knowledge of the database schema. Uses context-aware RAG and vector search over table descriptions.",
+      "slot_id": "slot_49"
+    },
+    {
+      "id": "35c09bfd-216c-4104-859b-0d650f891548",
+      "title": "Thread",
+      "speakers": "Гапеева А.В., Фирсанов Г.А.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "15:00:00",
+      "end_time": "15:15:00",
+      "category": "NLP",
+      "abstract": "Extracts tasks, responsible parties, and deadlines from work chats (Telegram, Slack). Prevents information loss and automates task tracking.",
+      "slot_id": "slot_38"
+    },
+    {
+      "id": "070ac77d-8d93-4ccf-ab4f-7f6ebb873578",
+      "title": "EIDOS",
+      "speakers": "Масленникова Т.М.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "15:15:00",
+      "end_time": "15:30:00",
+      "category": "Agents, Autonomous agents",
+      "abstract": "A development platform created by developers for developers that enables building mobile and web applications 3 times faster and 40–60% cheaper through no-code layout, repository visualization, and an AI-based agent system.",
+      "slot_id": "slot_39"
+    },
+    {
+      "id": "db9e14cc-b26c-4a79-a17f-34e1326997ed",
+      "title": "PsyGhost",
+      "speakers": "Григорьева Д.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "15:00:00",
+      "end_time": "15:15:00",
+      "category": "NLP, Reinforcement Learning",
+      "abstract": "An AI assistant for Generation Z that conducts cognitive-behavioral and couples therapy without human involvement. Solves the problem of insufficient time with a psychologist and reduces barriers to seeking help.",
+      "slot_id": "slot_38"
+    },
+    {
+      "id": "07ea01a6-da59-46c1-8149-65143176f040",
+      "title": "HART",
+      "speakers": "Кушнир А.А",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "NLP, Agents, Autonomous agents",
+      "abstract": "A digital proactive health service: creates a personalized examination plan and sends reminders about actions. Combines data, context, motivation, and medical recommendations.",
+      "slot_id": "slot_34"
+    },
+    {
+      "id": "2e815a53-b458-4745-91fc-447852262a7c",
+      "title": "Predisense - AI Trend Analyst for Wildberries",
+      "speakers": "Поляков Э.Д.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "NLP, Agents, Forecasting, Ecommerce, Analytics",
+      "abstract": "Provides sellers with ready-made recommendations: what to purchase, in what volume, and at what price. Saves up to 90% of time on analysis and increases profit.",
+      "slot_id": "slot_47"
+    },
+    {
+      "id": "0f11dcd1-6f68-4810-b82c-55ffc9a3db43",
+      "title": "ReqAssist",
+      "speakers": "Бутомов А.С.",
+      "hall": 2,
+      "date": "2026-01-23",
+      "start_time": "16:15:00",
+      "end_time": "16:30:00",
+      "category": "NLP, Agents",
+      "abstract": "A solution for automating the creation and validation of functional requirements based on GigaChat, reducing analyst time by 3–5 times and integrable into Confluence, Jira, and other enterprise systems.",
+      "slot_id": "slot_43"
+    },
+    {
+      "id": "4b704bb9-7703-4cf3-bd41-292eea55a5b7",
+      "title": "SocraticMath",
+      "speakers": "Савелко Д.А.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "16:30:00",
+      "end_time": "16:45:00",
+      "category": "Autonomous agents, Tutoring, Math, LLM",
+      "abstract": "Teaches mathematics through the Socratic method: asks leading questions rather than providing ready-made answers. Helps identify where mistakes occur.",
+      "slot_id": "slot_44"
+    },
+    {
+      "id": "613385f7-eff2-434d-af0c-c5a22af56501",
+      "title": "TOPIK Master",
+      "speakers": "Бутаков М.П.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "16:45:00",
+      "end_time": "17:00:00",
+      "category": "EdTech",
+      "abstract": "An application for preparing for the TOPIK exam (Test of Proficiency in Korean), required for studying, working, and legalization in South Korea, against the backdrop of growing demand from foreigners and weak competition in the educational solutions market.",
+      "slot_id": "slot_45"
+    },
+    {
+      "id": "b12f83ea-42d4-42e7-9967-e4a59ea81324",
+      "title": "SYNTERA",
+      "speakers": "Адамов М.С.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "17:30:00",
+      "end_time": "17:45:00",
+      "category": "Autonomous agents",
+      "abstract": "The SYNTERA project develops an agentic AI system for analyzing regulatory acts, HR trends, and strategic documents",
+      "slot_id": "slot_48"
+    },
+    {
+      "id": "34a00afd-aff8-4344-8fdd-39b7625faf22",
+      "title": "AIDI",
+      "speakers": "Аланова Ш.А., Волосников К.Д., Босина А.В.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "NLP, Agents",
+      "abstract": "The AIDI project creates a multi-tenant dialect-aware AI avatar for companies in the MENA region, combining RAG over internal documents, support for local Arabic dialects, and speech/video synthesis — all in a unified SaaS platform for automating support and sales.",
+      "slot_id": "slot_37"
+    },
+    {
+      "id": "31998789-7b6b-4538-994e-26b39e851174",
+      "title": "GenomeAI",
+      "speakers": "Вишняков Д.И., Цой Н., Ворсин Е.Д., Жиров А.В.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "14:30:00",
+      "end_time": "14:45:00",
+      "category": "BioML, Recsys, NLP, Agents",
+      "abstract": "No-code platform for running genomic analyses (NGS) without programming. Enables biologists and physicians to obtain reports \"from FASTQ to VCF\".",
+      "slot_id": "slot_36"
+    },
+    {
+      "id": "3580b702-e657-477a-94b5-50ef0b5ca646",
+      "title": "Developing an Intelligent Assistant for the Information Retrieval Course",
+      "speakers": "Смаков Д.Д",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "13:45:00",
+      "end_time": "14:00:00",
+      "category": "Recsys, Predictive Analytics, EdTech",
+      "abstract": "In this talk, we will discuss the creation of an intelligent assistant for the Information Retrieval course that helps students understand course materials, find answers, and receive personalized hints for assignments. We will examine how a knowledge base and recommendation signals are formed from course content and interaction history. We will show which models and features are used for predictive analytics: forecasting topic complexity, error probability, and the risk of students dropping out of the course. We will discuss recommendation scenarios—from selecting next lectures and practical exercises to delivering relevant examples and reminders. We will separately address quality assessment: offline metrics, A/B experiments, and control of hallucinations and incorrect advice. We will conclude with practical insights on how to integrate the assistant into the educational process and scale the solution to other courses.",
+      "slot_id": "slot_12"
+    },
+    {
+      "id": "aeb503db-277d-449d-80c1-38afb19e36f7",
+      "title": "Personalized catalog ranking for the \"Mnogo Lososeya\" food delivery mobile application",
+      "speakers": "Гулько М.И, Гумаров А.А",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "Personalization, RecSys, Mobile",
+      "abstract": "In this talk, we will share how we built personalized catalog ranking in the \"Mnogo Lososeya\" food delivery mobile application to help users find suitable dishes faster and place orders more frequently. We will discuss which behavioral and contextual signals we used, how we engineered features and trained the ranking model while accounting for real production constraints. We will demonstrate how we organized online experiments and evaluated the effect: conversion, average order value, time to add to cart, and retention. We will separately discuss the engineering aspects: service architecture, integration with the mobile client, caching, and latency requirements. We will address cold start issues, quality degradation, and protection against \"filter bubbles\" to keep the catalog diverse and useful. Finally, we will share practical insights and a checklist for implementing catalog personalization without compromising product stability.",
+      "slot_id": "slot_17"
+    },
+    {
+      "id": "03220496-cbaf-4a8f-9a86-8bd88852175d",
+      "title": "NastavnikAI — Personalized Adaptive Learning Platform",
+      "speakers": "Смекалова А.А",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "17:45:00",
+      "end_time": "18:00:00",
+      "category": "NLP, EdTech",
+      "abstract": "In this talk, we will present NastavnikAI — a platform that adapts learning to each student's goals, level, and pace. We will demonstrate how NLP enables the system to analyze student responses and texts, identify knowledge gaps, and build individual learning trajectories: from content selection to exercise generation and hint provision. We will discuss the solution architecture, key models and data, as well as methods for evaluating progress and recommendation quality. We will separately address reliability concerns: how to reduce hallucinations, ensure content verifiability, and protect personal data. We will conclude with practical implementation case studies in educational products and metrics that confirm increased engagement and learning outcomes.",
+      "slot_id": "slot_29"
+    },
+    {
+      "id": "3ff0046d-3368-46ce-bf45-23618d7dd9b0",
+      "title": "Edu AI Hub",
+      "speakers": "Жигачёв Е.А",
+      "hall": 2,
+      "date": "2026-01-22",
+      "start_time": "18:00:00",
+      "end_time": "18:15:00",
+      "category": "NLP, Autonomous agents, EdTech",
+      "abstract": "Edu AI Hub is a platform for implementing AI in educational products and processes, combining NLP modules and autonomous agents. In this talk, we will explore how agents can take on task chains: from analyzing educational materials and generating assignments to checking answers and personalizing learning trajectories. We will present a typical architecture: agent orchestration, tools (search, knowledge bases, LMS), security boundaries, and quality assessment. We will discuss practical scenarios — tutor assistant, automatic note-taking, dialogue simulators, and teacher support. We will also address how to measure the usefulness of NLP in education and reduce the risks of hallucinations and data leaks. Finally, we will outline how to start a pilot and which metrics will help prove the effect.",
+      "slot_id": "slot_30"
+    },
+    {
+      "id": "d086abc9-a511-4ea7-8611-6cb042c035aa",
+      "title": "Agent System for Code Generation",
+      "speakers": "Внуков И.А",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "12:00:00",
+      "end_time": "12:15:00",
+      "category": "LLM, Agents, Security",
+      "abstract": "In this talk, we will explore how to build an agent system based on LLM that generates code not 'in a single request', but through a chain of specialized roles: requirements analysis, design, implementation, testing, and review. We will show which orchestration and memory mechanisms help agents maintain context, reuse solutions, and reduce the number of regressions. A separate focus is security: how to embed vulnerability checks, secret leaks, and unsafe dependencies into the pipeline so that code generation complies with AppSec practices. We will discuss typical attacks on agent systems (prompt injection, data exfiltration, tool abuse) and defense methods: sandboxing, access policies, tool validation, and artifact control. We will analyze quality and reliability metrics — from compilability and test coverage to security gates and result reproducibility. As a result, you will get a practical scheme for how to implement agent-based code generation in an engineering process without losing manageability and trust in the result.",
+      "slot_id": "slot_06"
+    },
+    {
+      "id": "e6609c3c-ad2a-4865-8e39-068fc66e9f56",
+      "title": "Automating Vulnerability Triage with LLM",
+      "speakers": "Кабанов Ф.А",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "15:30:00",
+      "end_time": "15:45:00",
+      "category": "LLM, Security, MLOps",
+      "abstract": "Vulnerability triage often turns into manual processing of an alert stream, where it's easy to get lost in duplicates, false positives, and incomplete descriptions. In this talk, we'll explore how to use large language models for automatic classification of findings, normalization of scanner data, and context enrichment: affected components, exploitation conditions, remediation priority, and recommended actions. We'll discuss building a pipeline: input data preparation, prompting/fine-tuning, response validation, and integration with issue trackers and CI/CD. We'll separately address quality control and risks: hallucinations, sensitive data leaks, reproducibility, and compliance requirements. We'll demonstrate metrics for measuring benefits (reduction in triage time, prioritization accuracy, noise reduction) and approaches to safe implementation in the AppSec process.",
+      "slot_id": "slot_20"
+    },
+    {
+      "id": "6c9cbf86-5d58-4197-99af-5f5e67751801",
+      "title": "DataHub AI-Gateway",
+      "speakers": "Царева Е.Р",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "15:45:00",
+      "end_time": "16:00:00",
+      "category": "NLP",
+      "abstract": "In this talk, we will explore how to build an AI-gateway for DataHub, which becomes a single entry point to NLP models and services within a company. We will discuss typical scenarios: request routing between providers and models, prompt and version management, and standardization of contracts for consumer teams. We will show how to solve practical production tasks: authentication and quotas, logging and tracing, caching, retries and quality degradation during failures. We will separately discuss security and compliance for text data: PII masking, retention policies and leak control. We will conclude with a set of metrics and approaches to evaluate answer quality in order to manage the cost and stability of NLP functions at scale.",
+      "slot_id": "slot_21"
+    },
+    {
+      "id": "d3fa414c-4008-4148-a4ad-879c75ae8e0e",
+      "title": "NLP in Applied Products: From Idea to Implementation",
+      "speakers": "Сабирова М.М",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "17:00:00",
+      "end_time": "17:15:00",
+      "category": "NLP",
+      "abstract": "In this talk, we will explore how natural language processing (NLP) technologies transform from research prototypes into useful features in real products. We will discuss typical tasks — text classification, entity extraction, semantic search, and summarization — and how to choose the right model given constraints on quality, speed, and cost. We will cover data preparation, annotation, metrics, and ways to avoid data leakage and bias in datasets. We will separately address deployment practices: pipelines, quality monitoring, A/B tests, and handling model degradation over time. We will also examine risks and security requirements: personal data, toxicity, and interpretability. By the end, you will have a clear checklist to help you plan and launch an NLP feature from problem definition to production support.",
+      "slot_id": "slot_26"
+    },
+    {
+      "id": "5e6634d4-8ab1-4c82-8db8-812657583a63",
+      "title": "Automating Customer Support with LLM",
+      "speakers": "Стрижаков Д.И",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "17:30:00",
+      "end_time": "17:45:00",
+      "category": "NLP, LLM, RAG, Customer Support Automation",
+      "abstract": "In this talk, we will explore how large language models can automate key stages of customer support: from initial ticket classification to response generation and routing to the appropriate team. We will discuss how to extract structured data from user messages using NLP and parsing to populate tickets, identify intent, and gather context without manual work. We will examine a typical solution architecture: RAG over a knowledge base, integrations with CRM/HelpDesk systems, and quality control loops. We will separately address risks—hallucinations, data leaks, toxic responses—and practices to mitigate them through rules, validation, and human-in-the-loop. We will present metrics for evaluating the impact of automation: response time, self-service rate, CSAT, and cost per ticket. By the end, you will have a set of approaches to implement LLM in customer support safely and measurably.",
+      "slot_id": "slot_28"
+    },
+    {
+      "id": "62e4b60a-11c3-4107-a858-ef59a87e51f9",
+      "title": "Local NLP in Mobile Applications: From Prototype to Production",
+      "speakers": "Богодист В.",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "17:45:00",
+      "end_time": "18:00:00",
+      "category": "NLP",
+      "abstract": "In this talk, we will explore how to embed NLP capabilities into a mobile application so they work fast, securely, and without constant cloud calls. We will discuss typical scenarios: smart search, text classification and moderation, entity extraction, summarization, and user suggestions. We will compare approaches — from classical models and embeddings to compact LLMs — and discuss how to choose an architecture within device constraints. We will separately address quality issues: datasets, metrics, A/B experiments, and monitoring model degradation after release. We will show how to organize a model update pipeline and ensure user data privacy. As a result, listeners will have a practical roadmap for implementing NLP features in a product with clear trade-offs in speed, memory, and accuracy.",
+      "slot_id": "slot_29"
+    },
+    {
+      "id": "09eae996-e9a0-4e33-bbee-07a23521457b",
+      "title": "LLM Assistant for SQL Data Analysis",
+      "speakers": "Матусков Н.И, Стародумова Е.Р",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "18:00:00",
+      "end_time": "18:15:00",
+      "category": "NLP, LLM, SQL, Analytics",
+      "abstract": "In this talk, we will explore how to build an LLM assistant that helps analysts and developers work with data through SQL: from formulating a question in natural language to generating and explaining queries. We will discuss the solution architecture: connecting to DWH/databases, schema context, retrieval over metadata and query examples, as well as validation and secure execution. We will talk about typical model errors (field hallucinations, incorrect joins, data leaks) and practices that improve accuracy: test sets, dialect constraints, SQL linting, and guardrails. We will show how to organize an iterative cycle of \"generate → verify → fix\" and how to provide transparent explanations of results to build user trust. We will also address access control, sensitive data masking, and auditing of assistant actions. As a result, you will receive a set of approaches and a checklist that allow you to implement an LLM assistant in analytics without compromising quality and security.",
+      "slot_id": "slot_30"
+    },
+    {
+      "id": "4f92c1df-cdb7-4b45-978a-0e7055d87f0f",
+      "title": "Development and Investigation of Tensor Parallelism Methods for Combined Computation of Linear Layer and Loss Function in Distributed LLM Training",
+      "speakers": "Акимов Р.К",
+      "hall": 3,
+      "date": "2026-01-22",
+      "start_time": "18:15:00",
+      "end_time": "18:30:00",
+      "category": "NLP, MLOps",
+      "abstract": "The talk examines tensor parallelism methods that enable combining the computation of the final linear layer and loss function during distributed training of large language models. We will discuss why standard matrix partitioning and separate loss calculation lead to unnecessary communications, increased latency, and inefficient memory usage on a cluster. We will present variants of 'fusion' approaches that reduce the number of all-reduce/all-gather operations and improve scalability with large vocabularies and batches. We will analyze how such schemes affect numerical stability, accuracy, and compatibility with mixed precision. We will discuss practical implementation details in the training pipeline: weight sharding, logits distribution, softmax/cross-entropy computation, and mask processing. Finally, we will compare approaches on typical NLP tasks and identify in which training modes combining the linear layer and loss provides the greatest speedup and cost benefits.",
+      "slot_id": "slot_31"
+    },
+    {
+      "id": "1cb6dfa3-6a9a-4991-8237-bb3ca6fda427",
+      "title": "Generator of Solution Schemes for Mathematical Problems",
+      "speakers": "Носилкин Н.",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "10:45:00",
+      "end_time": "11:00:00",
+      "category": "Computer Vision, OCR",
+      "abstract": "The talk presents a tool that automatically builds visual solution schemes for mathematical problems — from initial data to the final answer. The foundation is based on computer vision methods: the system recognizes the problem from an image or scan, identifies key entities (formulas, quantities, relationships) and converts them into a structured representation. Next, the generator forms a step-by-step solution plan and a visual 'map' of transformations, helping to understand the logic rather than simply obtain the result. We will discuss the architecture of the pipeline, typical recognition errors and methods for improving robustness on real data (noise, handwritten text, non-standard formatting). We will show examples of application in education and homework verification, as well as the limitations of the approach and directions for development.",
+      "slot_id": "slot_01"
+    },
+    {
+      "id": "cdd8369d-47c2-4195-9112-34556f1522b7",
+      "title": "Manga Colorization",
+      "speakers": "Казымов О.А",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "15:15:00",
+      "end_time": "15:30:00",
+      "category": "Recsys, Predictive Analytics, Computer Vision",
+      "abstract": "In this talk, we will examine the task of automatic manga colorization as a special case of predictive analytics for visual content. We will discuss how to predict color palettes and color distribution based on panel context, line art, and halftone fills while preserving the author's style and scene integrity. We will analyze what data and annotations are needed, how to handle ambiguity in 'correct' color choices, and how to evaluate result quality beyond metrics—through user preferences. We will show how recommendation approaches help select colorization styles, palettes, and references for specific readers or titles. We will also address production concerns: accelerating the pipeline for artists, artifact control, and integration into layout tools. By the end, you will have a practical understanding of how to transform colorization from manual craft into a scalable ML service.",
+      "slot_id": "slot_19"
+    },
+    {
+      "id": "25c79403-88c9-4d2e-8db6-3e0ed2e9f55b",
+      "title": "Personal diet assistant",
+      "speakers": "Шпинева П.С, Самородов Д.О",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "17:00:00",
+      "end_time": "17:15:00",
+      "category": "Health, Personalization, Analytics",
+      "abstract": "The talk is dedicated to creating a personal diet assistant that helps users plan nutrition and maintain health goals. We will examine what data should be collected (preferences, restrictions, allergies, activity level) and how to form dietary and portion recommendations based on this data. We will discuss scenarios: weekly menu selection, calorie and macronutrient tracking, reminders, shopping lists, and plan adaptation when routines change. We will separately address data quality and responsibility issues: how to avoid harmful advice and when to refer users to a doctor. We will show how to measure product value through retention metrics, plan adherence, and user well-being. As a result, you will receive a clear architecture and a set of practices for launching such an assistant in a real application.",
+      "slot_id": "slot_26"
+    },
+    {
+      "id": "345b46c8-8ad7-4f3a-b6e4-9baa92074877",
+      "title": "Digital Genealogist",
+      "speakers": "Беркутов Д.Е, Ри Аркадий",
+      "hall": 4,
+      "date": "2026-01-22",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "Reinforcement Learning",
+      "abstract": "The talk examines the idea of a 'digital genealogist'—a system that helps automatically collect, link, and refine data about family relationships from disparate sources. The key focus is on applying reinforcement learning for interactive construction of a genealogical graph: the agent selects which hypotheses to verify, which documents to request, and which connections to confirm under conditions of incomplete and noisy data. We will discuss how to formulate state, actions, and reward so that the system learns to minimize the number of errors and verification costs while improving tree accuracy. We will examine approaches to resolving ambiguities (homonyms, variant spellings, missing dates) and handling conflicting evidence. We will show how to evaluate result quality and how to organize a 'proposal—verification—correction' cycle with user participation. The result will be a practical plan for creating an assistant that becomes more accurate and useful over time on real genealogical tasks.",
+      "slot_id": "slot_27"
+    },
+    {
+      "id": "d9e57827-1a08-49c7-9020-22d546b8bb0b",
+      "title": "Improving UAV Swarm Interaction Efficiency through Machine Learning Algorithms",
+      "speakers": "Кудрявцев А.А",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "Computer Vision, ML",
+      "abstract": "The talk examines how machine learning methods can enhance the efficiency of swarm interaction among unmanned aerial vehicles when performing collaborative tasks. We will discuss what data and sensors (primarily video streams) are used for environmental perception and recognition of objects, obstacles, and neighboring drones. We will explore computer vision approaches for robust localization, situation assessment, and collision avoidance in conditions of limited communication and dynamic environments. We will analyze how models help distribute roles and trajectories within the swarm, balancing the autonomy of individual UAVs and collective goals. Special attention will be given to practical constraints: onboard computation, latency, data quality, and model transferability from simulation to real flight. Finally, we will present typical metrics and scenarios used to evaluate the benefits of ML in swarm coordination.",
+      "slot_id": "slot_27"
+    },
+    {
+      "id": "2288d692-1c78-4e28-b5dd-2be8d46da5c9",
+      "title": "License Plate Detector (finding the main vehicle license plate number)",
+      "speakers": "Горохова А.С",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "17:45:00",
+      "end_time": "18:00:00",
+      "category": "Industrial ML, Computer Vision, MLOps",
+      "abstract": "In this talk, we will explore how to build an industrial ML service for detecting vehicle license plates and selecting the 'main' plate in a frame under real-world conditions. We will discuss data collection and annotation, typical sources of noise (shooting angles, dirt, glare, partial occlusions) and production quality requirements. We will present the pipeline: object detection, post-processing, and ranking rules/models that enable stable identification of the primary plate among multiple candidates. We will also address inference optimization, edge/server deployment, quality monitoring, and data drift handling. Finally, we will share practical recommendations for implementation, metrics, and testing to ensure a reliable solution in industrial operation.",
+      "slot_id": "slot_29"
+    },
+    {
+      "id": "a8675bd6-9a7d-416a-b76b-5079742b2372",
+      "title": "Customer Segmentation and Product Recommendation",
+      "speakers": "Студеникин Н.А",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "18:00:00",
+      "end_time": "18:15:00",
+      "category": "Industrial ML, RecSys, Personalization",
+      "abstract": "In this talk, we will explore how to build a customer segmentation system and personalized product recommendation system in an industrial environment that delivers measurable business impact. We will discuss which data to use (transactions, behavior, profile), how to prepare features and choose an approach: clustering, embeddings, RFM/behavioral segments, and hybrid schemes. We will show how to connect segments with recommendation models (collaborative filtering, content-based, ranking) and organize training taking into account cold start and sparsity. We will separately discuss quality assessment: offline metrics, A/B tests, bias control, and segment interpretability for marketing and sales. We will address production concerns: pipelines, drift monitoring, model updates, and latency requirements. As a result, you will receive a practical implementation plan for segmentation and recommendations from prototype to a stable service.",
+      "slot_id": "slot_30"
+    },
+    {
+      "id": "dadaf6ee-4e9d-4ac4-8ff8-d4e6143a30d0",
+      "title": "Automatic Advertising Banner Generation System",
+      "speakers": "Выродов М.В",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "18:15:00",
+      "end_time": "18:30:00",
+      "category": "Industrial ML, Computer Vision, NLP",
+      "abstract": "In this talk, we will discuss an industrial system that automatically generates advertising banners based on input data about the product, audience, and brand constraints. We will break down the pipeline architecture: data preparation, generative model, post-processing, and a quality validation and guideline compliance module. We will show how training and fine-tuning on real creatives are organized, and how tasks of text control, composition, and forbidden content detection are solved. We will discuss metrics and A/B experiments that link generation quality to business metrics, and how monitoring of degradations in production is set up. We will separately address questions of inference speed, cost, and scaling for large campaign volumes. Finally, we will share typical implementation mistakes and practices that helped bring the system to stable production operation.",
+      "slot_id": "slot_31"
+    },
+    {
+      "id": "c68402b0-8754-4f9a-b20c-e07529e07e76",
+      "title": "AI Navigation 360",
+      "speakers": "Жукова А.В",
+      "hall": 5,
+      "date": "2026-01-22",
+      "start_time": "18:30:00",
+      "end_time": "18:45:00",
+      "category": "ML, Fintech, Recsys, Personalization",
+      "abstract": "In this talk, we will discuss the \"AI Navigation 360\" system — an approach to intelligent navigation through financial products and user scenarios in a fintech application. We will show how ML models combine signals from transactions, behavior, and context to suggest the next step in real time: from service selection to completion and support. We will discuss the pipeline architecture: data collection and cleaning, feature store, recommendation ranking, and an online learning loop with quality control. We will separately examine fintech requirements — interpretability, bias mitigation, security, regulatory compliance, and personal data protection. We will present metrics and A/B approaches that help measure the value of navigation not only in conversion but also in reducing user frustration and support burden. We will conclude with practical implementation case studies and typical mistakes that turn \"smart suggestions\" into noise.",
+      "slot_id": "slot_32"
+    },
+    {
+      "id": "807de48e-effe-42a6-837f-e9c56f86730e",
+      "title": "Developing a Binary Classification Model for Customer Fund Retention in Banking",
+      "speakers": "Петракова М.А",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "10:45:00",
+      "end_time": "11:00:00",
+      "category": "NLP, ML, Fintech",
+      "abstract": "In this talk, we will examine building a binary classification model that predicts the probability of customer fund outflow and helps the bank offer timely retention measures. We will discuss which data and features are most informative: transactional activity, behavioral patterns, product profile, and signals from text sources (support requests, comments, surveys). We will show how to combine classical tabular models with NLP components and how to organize training accounting for class imbalance and data drift. We will discuss metrics and business-oriented quality assessment: from ROC-AUC and PR-AUC to uplift and expected retention impact. We will separately address interpretability (SHAP/feature importance) and compliance requirements to ensure model decisions can be explained to business and risk teams. We will conclude with practical recommendations for implementation: monitoring, retraining, A/B testing, and controlling impact on customer experience.",
+      "slot_id": "slot_01"
+    },
+    {
+      "id": "ccfbefd4-f913-46d2-816c-0d08d3c1d978",
+      "title": "Automated ML Pipeline for Extracting Insights from Client Manager Comments",
+      "speakers": "Агапитов Д.В",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "11:00:00",
+      "end_time": "11:15:00",
+      "category": "ML, Fintech, NLP, MLOps",
+      "abstract": "In this talk, we will discuss how to build an automated ML pipeline that extracts insights from text comments written by client managers in fintech processes. We will cover the full cycle: data collection and cleaning, anonymization, labeling and quality control, training models for classification and topic analysis, as well as summarization of key signals. We will show how to transform unstructured notes into measurable metrics: reasons for rejections, churn triggers, frequent customer pain points, and product growth opportunities. We will separately discuss the MLOps part — drift monitoring, retraining, interpretability, and safe delivery of results to analytics warehouses and CRM systems. We will share practices for working with noisy \"field\" text, where context, abbreviations, and domain-specific vocabulary are important. As a result, you will get a solution template that accelerates feedback from the front-end to the product team and reduces manual effort spent on analysis.",
+      "slot_id": "slot_02"
+    },
+    {
+      "id": "0a2f9248-f54a-4929-be5c-7d6edbf1ff56",
+      "title": "Automated Collection and Analysis System for Corporate Events and Russian Bond Market Data Using ML for Risk Assessment",
+      "speakers": "Верещагин И.А",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "11:15:00",
+      "end_time": "11:30:00",
+      "category": "ML, Fintech",
+      "abstract": "The talk presents a system that automatically collects and normalizes data on the Russian bond market and corporate events of issuers from heterogeneous sources. We will show how a pipeline is built from cleaning and deduplication of news, disclosures, and market quotes to forming a unified issuer and bond profile. We will discuss the application of machine learning methods to identify risk signals: deterioration of financial condition, increased probability of default, covenant events, and liquidity anomalies. We will examine approaches to feature engineering, work with time series and text data, as well as model calibration for Russian data specifics. We will separately address data quality, interpretability, drift monitoring, and validation on historical stress periods. We will conclude with practical use cases of the results in risk management and investment processes: scoring, alerts, and ranking of bonds by risk level.",
+      "slot_id": "slot_03"
+    },
+    {
+      "id": "1d74866d-a62b-4669-88b2-d16f3887fbdb",
+      "title": "Application of Neural Network Models for Credit Risk Assessment",
+      "speakers": "Иванова А.А",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "11:30:00",
+      "end_time": "11:45:00",
+      "category": "ML, Fintech",
+      "abstract": "The talk examines how neural network models are applied to credit risk assessment in fintech products and how they differ from classical scoring approaches. We will discuss typical data sources, feature engineering, and architecture selection for default prediction, probability of delinquency, and credit limit tasks. We will explore how to measure model quality and translate metrics into business impact while maintaining robustness to data shifts. Special attention will be given to interpretability and regulatory requirements: how to explain model decisions and control for bias and discrimination. We will discuss production deployment: monitoring, drift, overfitting, and A/B testing on real application streams. Finally, we will provide practical recommendations for building a reliable ML pipeline for credit scoring.",
+      "slot_id": "slot_04"
+    },
+    {
+      "id": "2e1b7077-ea19-4fee-bcd1-d872f53b4011",
+      "title": "Benchmark of DeepFake Detection Methods for Combating Fraud",
+      "speakers": "Гильфанов Р.А, Золотухин Д.И",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "11:45:00",
+      "end_time": "12:00:00",
+      "category": "NLP, Security, ASR, Computer Vision",
+      "abstract": "In this talk, we will examine how modern DeepFake technologies are exploited by fraudsters and why classical anti-fraud approaches are becoming ineffective. We will present a benchmark of voice and video forgery detection methods oriented toward real-world scenarios: bank impersonation calls, identity spoofing in video calls, and synthetic messages. We will discuss datasets, quality metrics, and model robustness against adaptive attacks, where attackers adapt to detectors. We will compare approaches based on NLP/ASR features, multimodal models, and lightweight solutions for online verification in production. We will also address false positives, privacy concerns, and integration into anti-fraud pipelines. Finally, we will formulate practical recommendations: which methods to choose for different channels and constraints on latency and cost.",
+      "slot_id": "slot_05"
+    },
+    {
+      "id": "a15a38c2-ba33-4771-b14f-3806e9df779b",
+      "title": "News Deduplication",
+      "speakers": "Грачев К.Ю",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "12:00:00",
+      "end_time": "12:15:00",
+      "category": "ML, Fintech",
+      "abstract": "In this talk, we will examine the task of news deduplication in fintech products, where the same news event arrives from different sources and in different formulations. We will discuss how to formalize the concepts of 'sameness' and 'similarity' of news items and which quality metrics matter for business: precision, recall, speed, and robustness to noise. We will review ML approaches to finding duplicates: embeddings, semantic comparison, clustering, and hybrid schemes with rules. We will cover pipeline construction—from text normalization and entity extraction to online matching and cluster updates in a stream. We will separately address production challenges: topic drift, multilingualism, spam fighting, and explainability of decisions. Finally, we will show how deduplication impacts user experience and reduces information noise without losing important news.",
+      "slot_id": "slot_06"
+    },
+    {
+      "id": "44287ecc-0982-4fac-8f0b-00db4785af94",
+      "title": "Intelligent LLM-based Agent for Assessing Intervention Effects and Generating Causal Interpretations",
+      "speakers": "Корнелюк А.В",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "12:15:00",
+      "end_time": "12:30:00",
+      "category": "Recsys, Predictive Analytics, Fintech, LLM, Agents, Causal Inference",
+      "abstract": "In this talk, we will explore how to build an intelligent LLM-based agent that helps evaluate the effects of product and risk interventions in fintech and translates model results into understandable causal explanations. We will discuss the connection between predictive analytics and causal inference: what data and assumptions are needed, how to account for biases, selection, and counterfactuals, and where correlation ends. We will show how the agent formulates hypotheses, selects an appropriate evaluation method (A/B, uplift, matching, IV, etc.), runs calculations, and assembles a unified narrative for business stakeholders. We will separately address quality control: validation of conclusions, robustness to drift, hallucination checks, and traceability of reasoning through links to metrics and artifacts. We will cover practical use cases from recommendation and scoring scenarios: changes to rules, limits, communications, and their impact on conversion, risk, and LTV. As a result, you will receive an architecture template and a set of practices that enable faster decision-making on interventions and explain their effects without loss of rigor.",
+      "slot_id": "slot_07"
+    },
+    {
+      "id": "e511834f-1803-46c8-a4d0-3a76e294d591",
+      "title": "Enterprise Artifact Search with RAG Integration",
+      "speakers": "Гаранин Д.А",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "12:30:00",
+      "end_time": "12:45:00",
+      "category": "ML, MARL, Multi-agent systems, RAG, Search",
+      "abstract": "In this talk, we will explore how to build corporate search across heterogeneous company artifacts (documents, tickets, code, knowledge bases) using Retrieval-Augmented Generation (RAG). We will discuss pipeline architecture: data collection and normalization, chunking, embeddings, vector storage and ranking, as well as how to connect sources through integrations and maintain index freshness. We will show where classical RAG starts to break down — access rights, duplicates, noise, outdated versions — and what practices help improve answer accuracy and reproducibility. We will separately examine a multi-agent approach: source-specialist agents, an orchestrator agent and a critic, which jointly plan queries, select tools, and verify facts. We will touch on MARL ideas for learning source selection strategies and action sequences based on quality signals (clicks, user ratings, relevance metrics). Finally, we will discuss metrics, offline/online evaluation, and typical implementation scenarios for such search in products and internal processes.",
+      "slot_id": "slot_08"
+    },
+    {
+      "id": "bb025247-6099-4338-a258-7728876f20f5",
+      "title": "OvercookedLM",
+      "speakers": "Юрин Е.С",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "13:15:00",
+      "end_time": "13:30:00",
+      "category": "LLM",
+      "abstract": "In the OvercookedLM talk, we will examine how to use large language models in product development so that they accelerate teams rather than turn processes into chaos. We will discuss typical 'overcooked' scenarios: excessive prompts, unstable responses, rising costs and support complexity. We will show practical patterns for integrating LLM into applications and backends: RAG, tools/functions, context control and security policies. We will discuss quality evaluation (evals), observability and A/B approaches that help maintain predictability. We will separately address data privacy, compliance and protection against prompt injection. As a result, you will get a checklist on how to 'prepare' LLM features to a state where they can be reliably used in production.",
+      "slot_id": "slot_10"
+    },
+    {
+      "id": "731b44d4-eb2d-401b-8519-acd93024c685",
+      "title": "Optimizing the Process of Assigning Executors to Orders in a Company",
+      "speakers": "Михайлов В.И",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "13:30:00",
+      "end_time": "13:45:00",
+      "category": "Computer Vision, Industrial ML",
+      "abstract": "In this talk, we will discuss how to optimize the process of assigning an executor to an order in an industrial company using machine learning. We will examine what data about orders, employee workload, skills, and constraints can be used to build a recommendation model and enable automatic distribution. We will show how computer vision can complement context — for example, by confirming the type of work, the state of an object, or the correctness of incoming materials from photos/videos, reducing the share of manual verification. We will discuss quality metrics (SLA, assignment time, reassignment rate, downtime) and approaches to A/B testing in a real process. We will separately address implementation issues: integration with ERP/CRM, explainability of decisions, error handling, and safe manual modes. As a result, listeners will receive a practical framework for transitioning from chaotic assignment to a managed, measurable, and scalable process.",
+      "slot_id": "slot_11"
+    },
+    {
+      "id": "f22cea8c-e0d7-4107-97fd-3642bb8dc1ce",
+      "title": "Development of a Software-Hardware Complex Prototype for Automatic Detection, Identification, and Flight to a Designated Object Onboard a UAV",
+      "speakers": "Задорожный А.С",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "13:45:00",
+      "end_time": "14:00:00",
+      "category": "Computer Vision, NLP, Autonomous agents",
+      "abstract": "The talk presents a prototype of a software-hardware complex for an unmanned aerial vehicle capable of autonomously detecting, recognizing, and tracking a designated object with subsequent approach to the convergence point. We will review the architecture of the onboard loop: video stream processing on edge computing, a computer vision module for detection/identification, and a flight control loop closed on perception results. We will show how autonomous agents are used for decision-making in a dynamic environment: target selection, trajectory planning, reaction to interference and track loss. We will separately discuss the role of an NLP interface for task assignment by the operator in natural language and transformation of the command into a formalized mission. We will share practical constraints: latency, power consumption, model robustness to lighting and weather conditions, as well as safety requirements. Finally—prototype test results and development directions toward a production solution.",
+      "slot_id": "slot_12"
+    },
+    {
+      "id": "23c1c3e3-1e6f-4a9a-ad2d-0ac23930f74c",
+      "title": "MAS Retrieval for Automating Business Document Processing",
+      "speakers": "Неверов З.А",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "14:00:00",
+      "end_time": "14:15:00",
+      "category": "Recsys, Predictive Analytics, Agents, RAG",
+      "abstract": "In this talk, we will discuss how to apply the MAS Retrieval approach (multi-agent + retrieval) to automate the complete document processing cycle in corporate workflows. We will examine the solution architecture: knowledge extraction from disparate sources, retrieval of relevant fragments, agent orchestration, and formation of final actions — from classification and routing to field population and response preparation. We will show how recommendation and predictive logic is built on document data: hints for executors, deadline and risk forecasting, anomaly detection, and identification of typical errors. We will discuss quality and metrics (precision/recall, latency, share of manual corrections), as well as practices for reducing hallucinations and ensuring solution traceability. We will separately address security, access control, and compliance requirements. Finally, we will present implementation case studies and recommendations for phased production rollout.",
+      "slot_id": "slot_14"
+    },
+    {
+      "id": "4bae40a2-4f91-43f2-bd18-973a6b45cee2",
+      "title": "SMMR Research for Pulse Social Network with Temporal Component",
+      "speakers": "Денисов Н.А.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "14:15:00",
+      "end_time": "14:30:00",
+      "category": "RecSys, Personalization, Analytics",
+      "abstract": "In this talk, we will discuss the research and implementation of the SMMR approach for the recommendation system of the Pulse social network, with explicit consideration of temporal dynamics of user interests and content lifecycle. We will examine how adding a temporal component affects feed ranking quality, recommendation diversity, and adaptation speed to trends. We will show which features and models help distinguish attention spikes from stable preferences and how to combat signal decay. We will discuss the setup of offline and online experiments, metrics (precision, novelty, retention), and typical pitfalls when evaluating on temporal slices. We will separately address cold start issues and the balance between fresh content and personalization. Finally, we will formulate practical conclusions and recommendations for applying SMMR in production for dynamic feeds.",
+      "slot_id": "slot_15"
+    },
+    {
+      "id": "4e213d22-5a94-4821-9810-39510f6da735",
+      "title": "Customer Choice Models",
+      "speakers": "Балаба С., Шарифуллин М., Скобей И.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "14:30:00",
+      "end_time": "14:45:00",
+      "category": "NLP, Autonomous agents, Reinforcement Learning",
+      "abstract": "In this talk, we will explore how to build Customer Choice Models that predict which product, tariff, or scenario a user will choose in a specific context. We will discuss how to extract signals from textual data using NLP: reviews, support tickets, and product descriptions, and how to transform them into features for preference models. We will cover reinforcement learning approaches for optimizing recommendations and ranking, when it is important to account for long-term value rather than just immediate clicks. We will show how autonomous agents can automate the cycle of \"hypothesis → experiment → policy update\", selecting user interaction strategies and business constraints. We will also address interpretability, bias, and proper setup of online experiments to ensure the model does not degrade user experience and metrics. As a result, you will gain a practical understanding of how to combine textual signals, RL, and agent systems into a unified decision-making architecture for personalization.",
+      "slot_id": "slot_16"
+    },
+    {
+      "id": "c46e0586-10d3-4167-8096-b1cd7b1959bc",
+      "title": "Developing LLM-Agents for T-Tech Support",
+      "speakers": "Хохулин А.В.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "14:45:00",
+      "end_time": "15:00:00",
+      "category": "LLM, Agents, Autonomous agents, Time Series, MLOps, Security",
+      "abstract": "In this talk, we will share how we design and implement LLM-agents to support T-Tech internal teams: from task definition and architecture selection to production deployment. We will examine how agents work with corporate knowledge, tickets, and logs, and where their capabilities are enhanced by time series analysis — for anomaly detection, load forecasting, and early incident warning. We will discuss the data pipeline, quality assessment of responses and support efficiency metrics, as well as how to reduce hallucinations and ensure reproducibility. We will separately address security concerns: access control, agent action auditing, and sensitive data protection. We will demonstrate typical scenarios — from automatic ticket triage to generating problem resolution recommendations — and discuss what limitations are important to consider when scaling.",
+      "slot_id": "slot_17"
+    },
+    {
+      "id": "f073185d-2a21-4960-87f6-3c328e12c7f1",
+      "title": "Solution for Determining Product Seasonality",
+      "speakers": "Пастушенко А.Г.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "15:00:00",
+      "end_time": "15:15:00",
+      "category": "NLP",
+      "abstract": "The talk presents a solution for automatic determination of product seasonality based on textual data. We will show how to use NLP to extract seasonal demand signals from product names, descriptions, and user queries, even when historical sales data is insufficient or noisy. We will break down the pipeline: data preparation, feature/embedding construction, model training, and calibration of seasonal labels by periods. We will separately discuss handling rare products, assortment changes, and knowledge transfer between categories. We will demonstrate how to evaluate quality (offline metrics and business impact) and integrate predictions into procurement planning, promotions, and recommendations processes. At the end — practical conclusions and typical mistakes when implementing seasonality in production.",
+      "slot_id": "slot_18"
+    },
+    {
+      "id": "7dcc8f7b-7885-45a3-9d7f-48a1b2cb265e",
+      "title": "Developing a Recommendation System Component for a Recruitment Service",
+      "speakers": "Степановский М.П.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "15:15:00",
+      "end_time": "15:30:00",
+      "category": "Computer Vision, RecSys, Fintech",
+      "abstract": "In this talk, we will examine the development of a recommendation system component for a recruitment service that helps more accurately match vacancies and candidates. We will show how to use Computer Vision to extract features from visual data (for example, photos, document scans, or portfolio materials) and combine them with textual and structured signals. We will discuss building a pipeline: data collection and labeling, model training, quality validation and bias control affecting the fairness of recommendations. We will analyze how to organize ranking and explainability of results so that recruiters understand the reasons for matches. We will separately address privacy and secure processing of personal data when working with images. At the end, we will share practical insights on how to embed the component into production and measure its effect on conversion and vacancy closure time.",
+      "slot_id": "slot_19"
+    },
+    {
+      "id": "3567ede2-0246-4104-8778-88fa8e28cff4",
+      "title": "Research on Building an Auto-Moderation Model for Ozon Marketplace",
+      "speakers": "Здоронок Е.М.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "15:30:00",
+      "end_time": "15:45:00",
+      "category": "ML, Content Moderation, Classification",
+      "abstract": "In this talk, we will discuss research on creating an ML model for auto-moderation of content on the Ozon marketplace. We will cover what types of violations need to be detected (texts, images, product attributes) and how to formulate the task: classification, ranking, or a hybrid pipeline. We will discuss data collection and labeling, handling noise and class imbalance, as well as metrics that truly reflect moderation quality in production. We will show how the loop is built from offline experiments to online checks, including thresholds, escalation rules for manual moderation, and error control. We will also address interpretability, robustness against circumvention, and model degradation monitoring. As a result, you will gain practical insights into how to turn an auto-moderation prototype into a reliable service that reduces the load on moderators and increases platform safety.",
+      "slot_id": "slot_20"
+    },
+    {
+      "id": "1ee830b3-358f-443b-83db-49f2590bcbc0",
+      "title": "Incorporating Internal Data into a Scoring Model on a Friend Graph",
+      "speakers": "Спирин И.А.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "15:45:00",
+      "end_time": "16:00:00",
+      "category": "NLP, ASR, Graph Neural Networks, ML",
+      "abstract": "In this talk, we will explore how to enrich a scoring model built on a social connection graph with internal company data to improve the accuracy and robustness of decisions. We will discuss what types of signals can be extracted from unstructured sources and how to transform them into features for graph vertices and edges. We will separately examine the application of NLP and speech recognition: how to obtain text from audio, normalize it, and safely aggregate it into behavioral and thematic features. We will discuss strategies for embedding these features into graph models (for example, through embeddings and message passing) and methods for combating noise, biases, and target leakage. We will show how to organize validation on temporal slices and evaluate the contribution of new internal signals to scoring quality. We will conclude with practical recommendations on privacy, interpretability, and deployment of such a model in production.",
+      "slot_id": "slot_21"
+    },
+    {
+      "id": "823ab482-0c51-4e8f-b2d0-ed6fd344572d",
+      "title": "Developing an AI Assistant for the Sales Department",
+      "speakers": "Хилькович Н., Соколов П., Костюк Е.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "16:15:00",
+      "end_time": "16:30:00",
+      "category": "Computer Vision, ASR, TTS",
+      "abstract": "In this talk, we will discuss how to design and implement an AI assistant that helps sales managers during calls and meetings: listens to dialogue, captures key facts, and suggests next steps. We will cover the ASR stack for accurate speech transcription, the NLP layer for intent and entity extraction, as well as TTS for real-time voicing of suggestions and responses. We will show where computer vision is appropriate in sales: document and business card recognition, analysis of screen demonstrations, or form-filling control. We will discuss quality requirements (WER, latency, noise robustness), customer data security, and integration methods with CRM and telephony systems. We will separately address domain-specific training, handling objections, and measuring impact through conversion rates, lead processing speed, and reduction of routine work. As a result, you will receive a practical architecture and a set of solutions that allow you to bring the assistant from prototype to production deployment.",
+      "slot_id": "slot_23"
+    },
+    {
+      "id": "3281ff45-9205-46f0-9545-55822b710f53",
+      "title": "Virtual Assistant",
+      "speakers": "Валуева А.В.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "16:30:00",
+      "end_time": "16:45:00",
+      "category": "ASR, Speech-to-text, STT",
+      "abstract": "In this talk, we will explore how a virtual assistant based on speech recognition works: from audio capture and preprocessing to speech-to-text conversion and command processing. We will discuss ASR/STT engine selection, quality requirements (WER), latency and noise robustness, as well as trade-offs between cloud and on-device recognition. We will present a typical pipeline: speech detection, streaming transcription, text normalization, and intent extraction for triggering actions in the application. We will also address privacy concerns, audio data storage, and offline operation. Finally, we will provide practical recommendations for integration, testing, and monitoring recognition quality in production.",
+      "slot_id": "slot_24"
+    },
+    {
+      "id": "b557f62f-906a-4a69-af72-aedcf0b5a590",
+      "title": "Speech Technologies at X5",
+      "speakers": "Марфутенко П.А.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "16:45:00",
+      "end_time": "17:00:00",
+      "category": "ASR, Speech Recognition, STT, Speech Synthesis, TTS",
+      "abstract": "In this talk, we will discuss how X5 uses speech technologies to improve customer and operational experience: from speech recognition to synthesis. We will review typical scenarios — voice input and search, call center automation, transcription and dialogue analysis, as well as voicing hints and statuses. We will discuss how the ASR/TTS pipeline is organized in production: data collection and annotation, model selection, quality metrics (WER/MOS), handling noise, accents and domain-specific vocabulary. We will show how latency and stability are ensured in real time, as well as how to integrate solutions into mobile and server products. We will separately address security and privacy of voice data and approaches to quality monitoring after release. Finally, we will share practical insights and directions for developing speech services in the X5 ecosystem.",
+      "slot_id": "slot_25"
+    },
+    {
+      "id": "08f8a369-d0fd-4cee-838e-565e49547a41",
+      "title": "Improving Diarization Quality with End-to-End Models",
+      "speakers": "Аржа А.Н.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "17:00:00",
+      "end_time": "17:15:00",
+      "category": "ASR, Speech Recognition",
+      "abstract": "Diarization is a key stage in audio processing that determines the quality of transcriptions, analytics, and subsequent speech processing. In this talk, we will examine why classical pipelines \"segmentation + embeddings + clustering\" often produce errors on overlapping speech, noise, and short utterances, and how end-to-end approaches help reduce them. We will discuss architectural ideas of modern E2E diarization models, training methods on \"who speaks when\" annotations, and integration with ASR to obtain more stable speaker labels in transcripts. We will show which metrics and evaluation protocols to use for fair comparison, and which data/augmentations have the strongest impact on results. We will also address practical questions: computational requirements, latency in online mode, and typical failure points in production. As a result, you will receive a set of recommendations on how to select and implement E2E diarization in a real speech-to-text service.",
+      "slot_id": "slot_26"
+    },
+    {
+      "id": "a4e0f3b0-224a-43de-b5f1-5fa461dc61b6",
+      "title": "High-Load Speech Transcription System",
+      "speakers": "Леонтьев Р.Д.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "ASR",
+      "abstract": "In this talk, we will explore how to design and deploy a high-load automatic speech recognition (ASR) system capable of processing large streams of audio in real-time and batch modes. We will discuss ASR model selection and integration, transcription quality requirements, and methods for measuring accuracy on production data. We will present a typical architecture: audio ingestion, queues and sharding, inference services, post-processing (punctuation, diarization, normalization), and result delivery. We will separately address scaling across CPU/GPU, latency optimization, caching, and compute cost management. We will cover reliability: graceful degradation, retries, idempotency, monitoring and alerting, as well as handling poor-quality audio and traffic spikes. Finally, we will provide practical recommendations for operations, testing, and secure audio data processing.",
+      "slot_id": "slot_27"
+    },
+    {
+      "id": "79c201b3-616d-429b-b680-e97039343746",
+      "title": "Developing an End-to-End Pipeline for Speech Synthesis Research",
+      "speakers": "Лалетин А.И.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "17:30:00",
+      "end_time": "17:45:00",
+      "category": "RecSys, Predictive Analytics, Reinforcement Learning",
+      "abstract": "In this talk, we will discuss how to build an end-to-end pipeline for research experiments in speech synthesis — from data preparation and model training to automatic quality assessment and delivery of results to production. We will explore how to organize reproducibility: versioning of datasets, configurations, artifacts, and metrics, as well as fast iterations when changing architectures and features. We will show where approaches from recommender systems and predictive analytics are applicable in such a pipeline: voice personalization, user adaptation, and prediction of generation quality and errors. We will separately discuss the use of reinforcement learning to optimize subjective criteria (naturalness, intelligibility, style) and alignment with human preferences. We will address practical questions: metric selection, construction of offline/online experiments, and degradation control. As a result, you will receive a set of architectural and organizational solutions that accelerate research and make its results transferable to production.",
+      "slot_id": "slot_28"
+    },
+    {
+      "id": "d6a68412-32d0-4366-b2ee-f7e83773177b",
+      "title": "Reinforcement Learning for Recommendation System Optimization Using Non-Differentiable Ranking Metrics",
+      "speakers": "Халтурин А., Сайфуллин В., Чернов А.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "17:45:00",
+      "end_time": "18:00:00",
+      "category": "RL, Recsys",
+      "abstract": "In recommendation systems, business objectives are often expressed through non-differentiable ranking metrics — NDCG, MAP, MRR, and others — which causes standard gradient-based training to optimize only proxy losses and lose connection with actual quality. In this talk, we will examine how to formulate the ranking task as a reinforcement learning problem: what to consider as state, action, and reward, and how to correctly set the reward for the target metric. We will discuss policy gradient and actor-critic approaches for training ranking policies, as well as methods for reducing variance and stabilizing learning with sparse rewards. We will also address practical issues: offline learning from logs, dealing with bias from the data collection policy, and safe online updates through A/B testing. Using examples, we will show when RL actually delivers improvements on target metrics and what trade-offs arise in latency, interpretability, and degradation risks.",
+      "slot_id": "slot_29"
+    },
+    {
+      "id": "55299c77-7427-4156-a14c-373eaaa72de0",
+      "title": "RL Environment for Training Agent Capabilities of Modern LLMs",
+      "speakers": "Балцат К.И.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "18:00:00",
+      "end_time": "18:15:00",
+      "category": "Autonomous agents, LLM, Agents, RL",
+      "abstract": "The talk presents an RL environment designed for training and evaluating agent capabilities of modern large language models. We will discuss which agent skills can be formalized as tasks: goal setting, planning, tool use, memory management, and safe action execution in an environment. We will show how scenarios and metrics are structured to measure progress not only by answer quality, but also by success of multi-step trajectories and robustness to errors. We will discuss how to organize reinforcement learning and feedback to reduce hallucinations in actions and increase the reliability of autonomous behavior. We will separately address reproducibility, simulation of external systems, and constraints important to consider when transferring results to real applications. As a result, you will gain practical understanding of how to build benches for agent-based LLM training and which experiments provide the greatest gains.",
+      "slot_id": "slot_30"
+    },
+    {
+      "id": "2569fb05-f558-494e-a2fa-af2991f572ae",
+      "title": "GigaStudio",
+      "speakers": "Тельнов Ф.Н.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "18:15:00",
+      "end_time": "18:30:00",
+      "category": "LLM",
+      "abstract": "In this talk, we will examine GigaStudio as a practical environment for working with LLMs: from prototyping to deployment in production scenarios. We will discuss how to collect and test prompts, manage context and response quality, as well as reduce costs and latency. We will review typical pipelines: RAG on internal data, tools (tools/function calling), agents and chain orchestration. We will separately address security: data leaks, prompt injection and access control to knowledge sources. We will show how to measure quality (evaluations, A/B testing, automatic metrics) and build an iteration process within a team. As a result, you will gain a set of approaches that allow you to launch LLM functions in real applications faster and more reliably.",
+      "slot_id": "slot_31"
+    },
+    {
+      "id": "bfa734a7-c046-43bd-b8f7-b0d6aaebf7ba",
+      "title": "Exploring the Use of Generative Models for Assessing the Condition of Various Objects at Wildberries Pickup Points",
+      "speakers": "Никитина А.А.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "18:30:00",
+      "end_time": "18:45:00",
+      "category": "Computer Vision, GenAI",
+      "abstract": "In this talk, we will examine how generative models can be applied to automated assessment of object conditions at Wildberries order pickup points. We will discuss the problem statement and data sources: photographs and video streams, typical damage and deviation scenarios, as well as requirements for processing quality and speed. We will show how to combine computer vision and GenAI for defect description, condition classification, and generation of clear reports for operational teams. We will explore approaches to model training and fine-tuning, work with annotations, and strategies for combating noise and domain shifts between pickup points. We will separately address validation, interpretability, and hallucination reduction in decision-making. Finally, we will compare results with classical CV pipelines and discuss where the generative approach delivers maximum impact in production.",
+      "slot_id": "slot_32"
+    },
+    {
+      "id": "63de3fc2-21bd-4c3c-8b04-7835aad36d9a",
+      "title": "Development of a Service for Log Processing and Analysis Based on Artificial Intelligence",
+      "speakers": "Бадриев А.Р.",
+      "hall": 6,
+      "date": "2026-01-22",
+      "start_time": "19:15:00",
+      "end_time": "19:30:00",
+      "category": "MLOps, Analytics, NLP",
+      "abstract": "In this talk, we will discuss the creation of a service that automatically collects, normalizes, and analyzes application logs using artificial intelligence models. We will examine how to extract events, parameters, and context from unstructured messages to accelerate incident root cause analysis and reduce alert noise. We will demonstrate approaches to clustering similar errors, anomaly detection, and building concise problem summaries for engineers. We will discuss the pipeline architecture: from ingestion and storage to training/inference and integrations with monitoring systems. We will separately address data quality, privacy, and secure handling of sensitive logs. Finally, we will share practical results, efficiency metrics, and the service development roadmap.",
+      "slot_id": "slot_33"
+    },
+    {
+      "id": "66c3a57a-fb4d-4ec9-b385-9475ca8de935",
+      "title": "Generative Service for Designers",
+      "speakers": "Папенко В.",
+      "hall": 1,
+      "date": "2026-01-22",
+      "start_time": "16:45:00",
+      "end_time": "17:00:00",
+      "category": "Computer Vision, GenAI",
+      "abstract": "In this talk, we will discuss the creation of a generative service that helps designers quickly obtain variants of visual solutions and prototypes. We will examine how the combination of GenAI and computer vision enables understanding of source references, brand guidelines, and task context, and then generating consistent layouts and assets. We will discuss the pipeline: data preparation, model selection and fine-tuning, quality control, and protection against \"hallucinations\" in production. We will show how prompts and editing tools are structured so that the designer remains an author rather than an observer. We will separately discuss integration into familiar design processes and metrics by which we measured work acceleration and result stability. We will conclude with practical insights: where the service provides maximum effect and where generation still falls short of manual work.",
+      "slot_id": "slot_25"
+    },
+    {
+      "id": "6fc731fb-9175-42a5-b562-eb1b72738af8",
+      "title": "Paw to Paw.",
+      "speakers": "Ильясов Т.К., Остапчук А.В.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "17:00:00",
+      "end_time": "17:15:00",
+      "category": "NLP, Recsys",
+      "abstract": "\"Paw to Paw\" is a social network that helps people find pets from shelters that best match their lifestyle and expectations. In this talk, we will explore how to combine questionnaire data, behavioral signals, and textual descriptions of animals into a unified matching model. We will show how NLP is used to normalize and extract semantic features from stories, medical notes, and volunteer comments to improve search and filtering quality. We will discuss the recommendation system: cold start, balance between \"similar\" and \"new\", as well as accounting for constraints (allergies, children, other pets, living conditions). We will separately address fairness and safety issues: how not to \"hide\" difficult animals and how to avoid toxic scenarios in the social part of the product. We will conclude with quality metrics and practical insights on how recommendations and language models can realistically increase the chances of successful pet adoption.",
+      "slot_id": "slot_46"
+    },
+    {
+      "id": "45232dbd-b6f7-4326-bdbf-8227e467062b",
+      "title": "Developing an MVP Prototype of an Intelligent AI Companion Toy for Children Aged 3–12",
+      "speakers": "Овчинникова Ю.В., Татьяненко А.Д.",
+      "hall": 1,
+      "date": "2026-01-23",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "Recsys, Predictive Analytics",
+      "abstract": "In this talk, we will discuss the development of an MVP for an intelligent AI companion toy for children aged 3–12: from hypotheses and use case scenarios to the first working prototype. We will examine how to personalize dialogues, games, and educational tasks based on age, interests, and developmental dynamics using recommendation approaches and predictive analytics. We will show what data can be collected safely and with minimal sufficiency, how to build profiles and segments without overcomplicating the model, and how to evaluate recommendation quality under low-traffic conditions. We will discuss the pipeline architecture: events, features, models, online solutions, and feedback from children and parents. We will separately address reliability, content control, and prevention of unwanted recommendations. We will conclude with a list of metrics and readiness criteria for the MVP to move to pilot.",
+      "slot_id": "slot_47"
+    },
+    {
+      "id": "31f67935-f59b-4cfa-8df4-eb556fc1e0ee",
+      "title": "Product Ranking and Candidate Generation in a Marketplace",
+      "speakers": "Онбаев Б.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "16:15:00",
+      "end_time": "16:30:00",
+      "category": "Search, Recsys, NLP, Computer Vision",
+      "abstract": "In this talk, we will examine how two key stages of marketplace search work: candidate generation and final product ranking. We will discuss what signals are used to understand queries and product cards, and how to combine textual and visual features to improve relevance. We will cover models for fast candidate selection (dual-tower embeddings, ANN search) and heavier ranking models that account for user context and business constraints. We will separately address cold start problems, long-tail inventory, and dealing with noise in click and purchase data. We will show approaches to offline/online quality evaluation, A/B testing, and degradation monitoring. By the end, you will have a practical understanding of how to build a scalable search pipeline that is simultaneously accurate, fast, and resilient to catalog changes.",
+      "slot_id": "slot_43"
+    },
+    {
+      "id": "13123e3d-db06-46c8-b093-b004b6eb07e9",
+      "title": "Designing a System Using Machine Learning Methods to Enhance Human Productivity",
+      "speakers": "Ворков Н.Р.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "NLP, Autonomous agents",
+      "abstract": "In this talk, we will examine the design of a system that increases personal and team productivity through machine learning methods. We will show how a combination of NLP and autonomous agents can transform scattered tasks, emails, and notes into a structured action plan: from intent extraction and prioritization to automatic delegation and execution tracking. We will discuss the architecture: context collection, agent orchestration, memory and security rules, as well as integrations with calendar, task trackers, and corporate knowledge bases. We will separately consider quality—utility metrics, reduction of \"hallucinations\", explainability of recommendations, and user feedback loops. We will address privacy and data access issues to ensure the system helps without violating company boundaries and policies. Finally, we will demonstrate typical scenarios and practical steps to begin implementing such an assistant.",
+      "slot_id": "slot_47"
+    },
+    {
+      "id": "33fb81b0-411d-40e6-8bc1-d75ba4b406b8",
+      "title": "ReqAssist",
+      "speakers": "Бутомов А.С.",
+      "hall": 3,
+      "date": "2026-01-23",
+      "start_time": "17:45:00",
+      "end_time": "18:00:00",
+      "category": "Autonomous agents",
+      "abstract": "ReqAssist is a tool that helps formulate and refine requirements using autonomous agents. In this talk, we will explore how agents gather context from stakeholders, identify gaps and contradictions, and then propose variants of user stories, acceptance criteria, and scenarios. We will discuss how to organize a question–answer–verification cycle so that the agent does not hallucinate and remains grounded in sources. We will present architectural patterns: agent role separation, memory, task planning, and quality control. We will separately address integration into familiar workflows—issue trackers, documentation, and CI—and metrics by which you can measure the benefit. Finally, we will discuss typical risks (security, access, accountability) and practices that enable safe adoption of ReqAssist in a team.",
+      "slot_id": "slot_49"
+    },
+    {
+      "id": "9072663b-c74d-4ebd-8ba6-d5e13eabc9c3",
+      "title": "MediAI — AI Mediator for Couples",
+      "speakers": "Москаленко Я.А.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "15:30:00",
+      "end_time": "15:45:00",
+      "category": "LLM, Assistants",
+      "abstract": "MediAI is an LLM-based assistant that helps couples conduct difficult conversations more calmly and productively. In this talk, we will explore how the \"mediator\" works: it asks clarifying questions, records each party's positions, highlights needs, and helps formulate agreements without mutual accusations. We will discuss use cases — from everyday conflicts to discussions about finances and boundaries — and how the assistant maintains a neutral tone and dialogue structure. We will also address security: conversation privacy, data minimization, and safeguards to avoid substituting therapy and providing dangerous advice. We will show how to design prompts and context so that the LLM does not \"take sides\" and correctly handles emotions. Finally, we will discuss quality metrics and testing approaches to ensure that MediAI truly reduces tension and increases the chances of reaching agreement.",
+      "slot_id": "slot_40"
+    },
+    {
+      "id": "528ca6bc-3852-483f-b482-5f7f9a398342",
+      "title": "CV-helper",
+      "speakers": "Захаров Д.А.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "16:30:00",
+      "end_time": "16:45:00",
+      "category": "NLP, Autonomous agents",
+      "abstract": "CV-helper is an NLP-based tool that helps quickly improve resumes and cover letters for specific job openings. The solution is built on autonomous agents that analyze CV text, extract requirements from job descriptions, and suggest targeted edits: achievement formulations, structure, key skills, and metrics. The system identifies gaps and mismatches, suggests which projects and results should be highlighted, and helps remove filler and clichés. A separate agent handles readability checks and consistent style, while another adapts content for different roles and levels (junior/middle/senior). The talk covers agent architecture, text processing pipeline, before/after examples, as well as limitations and risks of automation when working with personal data.",
+      "slot_id": "slot_44"
+    },
+    {
+      "id": "38ba560b-70d5-4e7b-8ae2-e70fc32d0a0a",
+      "title": "Kuvio",
+      "speakers": "Волков А.М.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "16:45:00",
+      "end_time": "17:00:00",
+      "category": "ML, Fintech",
+      "abstract": "In this talk, we will discuss the Kuvio project — the application of machine learning in fintech to improve solution quality and user experience. We will examine which business tasks ML solves: scoring, fraud detection, customer behavior prediction, and offer personalization. We will discuss data: sources, cleaning, handling leaks and biases, and how to build a reliable training and validation pipeline. We will pay special attention to model interpretability and regulatory requirements so that solutions can be explained and defended. We will show how to organize quality monitoring in production, respond to drift, and safely update models. We will conclude with practical insights on what actually delivers value in fintech and which mistakes most often eliminate the benefits of ML.",
+      "slot_id": "slot_45"
+    },
+    {
+      "id": "ae8902f8-3b57-43fd-86d7-724a5d8e8731",
+      "title": "Development of a Q&A System for Answering Questions on Risk Modeling Based on Central Bank Documentation",
+      "speakers": "Незамутдинов А.Р.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "17:15:00",
+      "end_time": "17:30:00",
+      "category": "NLP, Autonomous agents",
+      "abstract": "In this talk, we will discuss the creation of a Q&A system that answers questions on risk modeling based on regulatory and methodological documentation from the Central Bank. We will examine how to organize a pipeline for extracting and updating sources so that answers remain verifiable and tied to specific document sections. We will show how NLP components and retrieval approaches help find relevant fragments, resolve term ambiguities, and maintain context for complex queries. We will separately discuss the role of autonomous agents: task decomposition into steps, clarifying questions to the user, completeness verification, and self-control of answer quality. We will address compliance issues: citation, traceability, limitations on \"hallucinations,\" and safe generation modes. Finally, we will share practical quality metrics and typical errors that arise when working with regulatory texts.",
+      "slot_id": "slot_47"
+    },
+    {
+      "id": "7d694758-3051-451e-a5f6-8c56acb63dac",
+      "title": "Self-service AI-powered analytics",
+      "speakers": "Волков С.А.",
+      "hall": 4,
+      "date": "2026-01-23",
+      "start_time": "18:00:00",
+      "end_time": "18:15:00",
+      "category": "Analytics, NLP, LLM",
+      "abstract": "The talk focuses on building self-service analytics where business users get answers to their questions without involving analysts and engineers. We will explore how AI helps translate natural language queries into metrics, segments, and reports, while lowering the barrier to entry for working with data. We will discuss quality aspects: result validation, explainability, access control, and preventing \"hallucinations\" at the data and semantic layer levels. We will present a typical solution architecture — from data sources and data marts to chat interfaces and usage monitoring. We will discuss which scenarios deliver maximum impact (ad-hoc questions, insight discovery, automation of regular reporting) and where limitations remain. Finally, we will provide practical recommendations for implementation and metrics to evaluate the success of the self-service approach.",
+      "slot_id": "slot_50"
+    }
+  ]
+}
