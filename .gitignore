@@ -32,3 +32,11 @@ experiments/results/summary_refactor_modern_check.*
 experiments/results/summary_demoday_n100*
 experiments/results/results_llm_sa_async_smoke.*
 experiments/results/summary_llm_sa_async_smoke.*
+
+# Транзиентные артефакты V-прогона LLM-симулятора
+# *.partial.jsonl — streaming-буфер для resume (не нужен после успешного финала)
+# *_smoke.* — sanity-чек на 1 LHS перед полным V (не воспроизводится в финале)
+experiments/results/**/*.partial.jsonl
+experiments/results/**/*_smoke.json
+experiments/results/**/*_smoke.csv
+experiments/results/**/*_smoke.md
