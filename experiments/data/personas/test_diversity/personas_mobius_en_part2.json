@@ -1,0 +1,452 @@
+[
+  {
+    "id": "p_mobius_51",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Swift Concurrency", "Actors", "Sendable"],
+    "preferred_topics": ["Under the Hood", "Architecture"],
+    "background": "Eight years in iOS, the last four on the payments team of a marketplace with about 40M MAU. Spent the autumn migrating a sprawling closure-based service layer to actors and isolated state, with Sendable diagnostics turned all the way up. Currently chasing data races that survive only on iOS 17 release builds. Looking forward to the talk on substituting dependencies without leaving traces — the same multi-repo pain landed on his desk last quarter — and the SwiftUI Scroll and Text session because the chat module still throws frame drops on long threads."
+  },
+  {
+    "id": "p_mobius_52",
+    "role": "Android Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Compose", "Paging 3", "Room"],
+    "preferred_topics": ["Architecture", "Product Quality"],
+    "background": "Five years in Android at a 280-person classifieds product. Owns the listing feed where Paging 3 sits on top of Room and a long-tail of cached images. Spent the last sprint fixing a memory leak triggered by Compose recomposition during scroll. Comes to Mobius for the talk about a consistent cache between offline and online, since the listings have to render on the metro without a network, and for the AntiSOLID session because the codebase has accumulated a lot of dogmatic boilerplate."
+  },
+  {
+    "id": "p_mobius_53",
+    "role": "Mobile Security Engineer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["Frida", "Reverse Engineering", "OWASP MASVS"],
+    "preferred_topics": ["Product Quality", "Under the Hood"],
+    "background": "Eleven years in security, the last five focused on mobile. At a payment processor with hundreds of millions of transactions a year, runs the mobile pentest program and reviews protections in the iOS and Android SDKs that partner banks embed. Daily work involves Frida hooks, mitmproxy, and arguing with developers about the right hardening trade-offs. Comes specifically for the talk about attack scenarios through a hacker's eyes — the speaker reuses tools from his own toolkit — and the Runtime Resource Overlay session, which he wants to evaluate as an additional defense layer."
+  },
+  {
+    "id": "p_mobius_54",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Compose", "GraphQL", "Apollo Kotlin"],
+    "preferred_topics": ["Architecture", "Infrastructure"],
+    "background": "Seven years in Android, on a 220-person travel marketplace that talks to a federated GraphQL backend. Recently rebuilt the search results screen to use Apollo Kotlin with normalized cache, replacing a hand-rolled REST pipeline. Constantly trades messages with the BFF team about field deprecation. Came for the BFF and BDUI talks — both speak directly to the boundary between client and server contracts he negotiates every week — and for the session on visualizing business logic, which sounds like a tool his onboarding could really use."
+  },
+  {
+    "id": "p_mobius_55",
+    "role": "iOS Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Combine", "MVVM", "AVAudioEngine"],
+    "preferred_topics": ["Under the Hood", "Architecture"],
+    "background": "Four years in iOS, at a 170-person mental health service that ships a meditation app and a therapy booking flow. Maintains a Combine-heavy MVVM stack and recently dug into AVAudioEngine to fix a long-standing bug where the breathing animation desyncs from the audio loop on iPhone SE. Comes to Mobius for the SwiftUI Scroll and Text talk because text-heavy journaling screens are next on the roadmap, and for AntiSOLID because the codebase has grown into a small forest of single-method protocols."
+  },
+  {
+    "id": "p_mobius_56",
+    "role": "Mobile Game Developer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": ["Unity", "Lua", "C++ Performance"],
+    "preferred_topics": ["Trends", "Under the Hood"],
+    "background": "Nine years building mid-core mobile games, currently at a 35-person studio shipping a match-three with seasonal events. The team writes core logic in C++ with a Lua layer for designers, and ships into both iOS and Android. Has spent the last release stretch debugging frame time spikes during particle bursts. Comes for the talk on gamification inside a fintech app — interested to see what people from outside game dev hit when they cross the border — and the local LLMs on phone session, because the next event prototype wants a chat companion that does not phone home."
+  },
+  {
+    "id": "p_mobius_57",
+    "role": "Android Lead",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Modularization", "Convention Plugins", "Gradle"],
+    "preferred_topics": ["Under the Hood", "Architecture"],
+    "background": "Fourteen years in Android, lead of a twelve-person platform team at a large telecom that ships three customer-facing apps from a shared monorepo. Last year cut Gradle configuration time from ninety seconds to twelve by collapsing buildSrc into convention plugins. Currently rolling out a new feature module template so product teams stop reinventing DI scopes. Comes specifically for the Kotlin Embedded Compiler Plugin talk — that exact tooling angle is on his backlog — and the templating in the IDE session to bring back ideas for the next platform offsite."
+  },
+  {
+    "id": "p_mobius_58",
+    "role": "Flutter Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Riverpod", "Dart FFI", "Impeller"],
+    "preferred_topics": ["Under the Hood", "Product Quality"],
+    "background": "Six years in Flutter after switching from Android Java, at a 190-person logistics company that runs a driver app and a dispatcher tablet app from one codebase. Has been migrating from Skia to Impeller and untangling a long chain of Riverpod providers that were originally written for Provider. Constantly battles dropped frames during route polyline updates. Comes for the CustomPainter under the hood talk to compare techniques for the live ETA map, and for the file upload talk since drivers regularly upload large photo evidence over patchy LTE."
+  },
+  {
+    "id": "p_mobius_59",
+    "role": "iOS Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["SPM", "Build Tools", "XCFrameworks"],
+    "preferred_topics": ["Infrastructure", "Architecture"],
+    "background": "Twelve years in iOS, tech lead of a nine-person team at a 240-person B2B SaaS shipping a sales-floor app for retail chains. Finished the move from Carthage to pure SPM over the summer and now keeps a private registry of XCFrameworks for shared modules across three apps. Argues weekly with build times on M1 versus M3 CI runners. Comes for the SwiftLint at scale talk because he is rolling exactly that pattern out next quarter, and the substituting dependencies session for the equivalent SPM tricks he hopes to steal."
+  },
+  {
+    "id": "p_mobius_60",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Bluetooth Low Energy", "Foreground Services", "Battery"],
+    "preferred_topics": ["Under the Hood", "Product Quality"],
+    "background": "Eight years in Android, in a 140-person company that ships a fitness app paired with a chest-strap heart-rate monitor. Spends most of his time deep in the BLE stack and Doze-mode workarounds, with a recurring need to reconnect mid-session without spiking the battery. Wrote a custom GATT layer because the vendor SDK was leaking handles. Comes for the talk on smart device acceleration to compare end-to-end metrics methodology, and the Crash Reporting 101 session — sleep-mode crashes are the hardest to attribute and group."
+  },
+  {
+    "id": "p_mobius_61",
+    "role": "Mobile Engineering Manager",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["Career Frameworks", "Engineering Standards", "Onboarding"],
+    "preferred_topics": ["General", "Trends"],
+    "background": "Fifteen years in the industry, the last seven managing mobile teams. Currently runs a forty-person mobile org at a ride-hailing service, three squads on iOS and three on Android, with a separate platform group. Spent the autumn rewriting the career ladder for senior and staff levels and pushing hiring loops to match. Comes to Mobius for the State of Mobile Dev session — the TechRadar slice feeds directly into the next strategy doc — and the talk on whether interview questions are actually useful in production, because the team is currently rebalancing the technical screen."
+  },
+  {
+    "id": "p_mobius_62",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Core Data", "CloudKit", "Migration"],
+    "preferred_topics": ["Architecture", "Under the Hood"],
+    "background": "Seven years in iOS, at a 110-person productivity app for personal notes and tasks. Owns the sync layer built on Core Data with CloudKit mirroring, currently migrating a denormalized schema that has been growing organically for three years. The next migration touches users with ten thousand entities and cannot drop data on the floor. Comes for the consistent cache between offline and online talk because his sync conflicts have been multiplying lately, and the AntiSOLID session because Core Data tends to mock dogmatic protocol design out of the box."
+  },
+  {
+    "id": "p_mobius_63",
+    "role": "Android Middle Developer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["Compose", "MVI", "Kotlin Flow"],
+    "preferred_topics": ["Architecture", "UX/UI in Mobile Development"],
+    "background": "Three years in Android, at a 16-person startup that ships a remote-team async standup app. Writes everything in Compose with an MVI state machine pattern that grew out of a series of weekend refactors. Has been wrestling with screenshot tests that flake when system fonts change. Comes for the live picture in cross-platform BDUI talk because animated reactions are next on the roadmap, and the design system tools session — the team currently maintains its tokens in a Notion table, which is rapidly turning into technical debt."
+  },
+  {
+    "id": "p_mobius_64",
+    "role": "Mobile DevRel",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["SDK API Design", "Sample Apps", "Developer Education"],
+    "preferred_topics": ["Trends", "General"],
+    "background": "Ten years in mobile, the last three as a senior developer advocate for a maps and navigation SDK used inside hundreds of third-party apps. Maintains a gallery of sample apps in Swift, Kotlin, and Flutter, and runs office hours twice a week. Spent the autumn rewriting the getting-started flow because beginner integrators kept getting lost in API key configuration. Comes for the open source contribution talk to refresh ideas for her own community PR drive, and for the State of Mobile Dev to ground next year's content roadmap in real adoption signals."
+  },
+  {
+    "id": "p_mobius_65",
+    "role": "iOS Junior Developer",
+    "experience": "junior",
+    "company_size": "midsize",
+    "interests": ["SwiftUI", "Async/Await", "Xcode Previews"],
+    "preferred_topics": ["General", "Architecture"],
+    "background": "Eleven months in iOS at a 200-person e-commerce subsidiary of a large retailer, hired straight out of a year-long mentorship program. Builds product detail screens in SwiftUI with async/await wrappers around the legacy networking layer. Recently wrote her first generic view modifier and has been bragging about it on the standup call. Comes to Mobius to get a feel for the broader industry, to listen to the SwiftUI Scroll and Text talk because that exact widget is on her current ticket, and to scout topics for her next learning quarter."
+  },
+  {
+    "id": "p_mobius_66",
+    "role": "Android Junior Developer",
+    "experience": "junior",
+    "company_size": "large",
+    "interests": ["Kotlin", "Compose", "Coroutines"],
+    "preferred_topics": ["General", "Infrastructure"],
+    "background": "Nine months in Android at a 50M-MAU news aggregator, hired straight after a year of self-study and small side projects. Currently writes Compose screens for the saved articles section and is slowly learning the conventions of the team's coroutine usage. Just finished her first independent feature, an offline reading indicator. Comes to Mobius to listen to introductory talks on architecture, to get a sense of which patterns survive contact with real production, and to scout topics that should land on her personal study list for the next quarter."
+  },
+  {
+    "id": "p_mobius_67",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["StoreKit 2", "Subscriptions", "Receipt Validation"],
+    "preferred_topics": ["Trends", "Infrastructure"],
+    "background": "Eight years in iOS, at a streaming media holding with three iOS apps that share a subscriptions library. Migrated the main app from StoreKit 1 to StoreKit 2 last spring and uncovered three different family-sharing edge cases that the legacy code had been quietly mishandling. Now writes integration tests against StoreKit Test. Comes for the Crash Reporting 101 talk because subscription state crashes are notoriously hard to attribute, and the indie hacker path session for inspiration on paywall experiments worth bringing back to the main app."
+  },
+  {
+    "id": "p_mobius_68",
+    "role": "Mobile QA Automation Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Appium", "Kaspresso", "Allure"],
+    "preferred_topics": ["Product Quality", "Infrastructure"],
+    "background": "Five years in QA, four on mobile. At a 200-person insurtech she runs Appium against a farm of forty real devices and keeps a parallel Kaspresso suite for Android specifics. Spent the autumn untangling flaky tests caused by a new Compose-based date picker. Comes for the kotlinx.fuzz talk because fuzz coverage is a gap she has been pushing the team to address, and the Substituting dependencies talk to evaluate how it could speed up testing pre-merge feature branches without polluting the main artifacts."
+  },
+  {
+    "id": "p_mobius_69",
+    "role": "Android Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Compose", "Performance", "Macrobenchmark"],
+    "preferred_topics": ["Under the Hood", "Product Quality"],
+    "background": "Eleven years in Android, tech lead of a six-person team at a 160-person e-grocery service. Standardized macrobenchmark coverage across the critical user journeys this year and uncovered that the cart screen was paying a hidden recomposition tax. Currently writing a baseline profile generator that runs nightly in CI. Comes for the talk on video feed techniques because the recipe carousel borrows the same patterns, and the AntiSOLID session because his team has been arguing whether their interface segregation is over-applied."
+  },
+  {
+    "id": "p_mobius_70",
+    "role": "iOS Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["SwiftUI", "Charts", "Data Visualization"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Under the Hood"],
+    "background": "Four years in iOS, at a 130-person personal-finance app that visualizes spending across a dozen categories. Owns the charts module built on Swift Charts with custom gesture handlers for time-range scrubbing. Recently shipped a version that supports right-to-left layouts and discovered Swift Charts has its own opinions about that. Comes for the SwiftUI Scroll and Text session because the transaction list still doesn't behave during fast scroll, and the live picture in cross-platform BDUI talk to understand how animation contracts get negotiated cross-platform."
+  },
+  {
+    "id": "p_mobius_71",
+    "role": "Kotlin Multiplatform Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["KMP", "SQLDelight", "Ktor Client"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Three years in Kotlin, the last eighteen months on a KMP project at a 240-person hospitality service. Maintains the shared module that holds the booking workflow and offline pricing logic. Recently moved persistence from Realm to SQLDelight after hitting platform-specific issues on iOS. Comes for the Kotlin to Swift export talk because the iOS team has been complaining about the generated headers, and the round table on KMP at X5 to gather other people's playbooks for the next big migration phase."
+  },
+  {
+    "id": "p_mobius_72",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Compose", "Animation", "MotionLayout"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Under the Hood"],
+    "background": "Seven years in Android, at a 180-person sports streaming service. Owns the live game screen with a top-of-screen score widget that animates across position changes and score updates without losing the user's scroll position. Currently rewriting a tangle of MotionLayout transitions in Compose animation APIs. Comes for the talk on live picture in BDUI to pick up cross-platform ideas, and the video feed techniques session because match clips need to behave when the user scrolls through a long feed of highlights."
+  },
+  {
+    "id": "p_mobius_73",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["ARKit", "RealityKit", "Metal"],
+    "preferred_topics": ["Under the Hood", "Trends"],
+    "background": "Nine years in iOS, the last three on the AR team of a furniture retailer's mobile app. Builds room scanning with ARKit and renders virtual products through RealityKit with custom Metal shaders for lighting. Spent the autumn improving occlusion accuracy on low-light scenes. Comes for the face filters under the hood talk because the Vision and shader pipeline overlaps heavily with his work, and the local LLMs on phone session — the team is considering an on-device assistant that helps with measurements without sending camera frames anywhere."
+  },
+  {
+    "id": "p_mobius_74",
+    "role": "Android Middle Developer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": ["Compose", "Performance", "Strict Mode"],
+    "preferred_topics": ["Under the Hood", "Architecture"],
+    "background": "Five years in Android at a large search and ad-tech company, on the mobile search box team. Lives inside Systrace and StrictMode, has been chasing a UI-thread stall caused by an offhand call to SharedPreferences during cold start. Recently shipped a refactor that cut TTI on Pixel 6 by 180 milliseconds. Comes for the video feed techniques talk because the answer panels increasingly mix short videos, and the AntiSOLID session because the team has spent the autumn arguing about whether their use case interfaces are over-abstracted."
+  },
+  {
+    "id": "p_mobius_75",
+    "role": "Mobile Product Manager",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["Mobile Onboarding", "A/B Testing", "Activation Metrics"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Trends"],
+    "background": "Five years in product, three on mobile. Currently owns onboarding and activation at a 200-person language-learning app with eight million monthly learners. Last quarter ran a tournament of seven onboarding variants and discovered that a slower paywall with one extra screen actually increased D7 retention. Comes to Mobius for the design system tools talk because the team wants to centralize onboarding components across iOS and Android, and the indie hacker path session for paywall experiments she can borrow without sounding too cynical to engineers."
+  },
+  {
+    "id": "p_mobius_76",
+    "role": "iOS Lead",
+    "experience": "lead/principal",
+    "company_size": "midsize",
+    "interests": ["Composable Architecture", "TCA", "Code Generation"],
+    "preferred_topics": ["Architecture", "Trends"],
+    "background": "Eleven years in iOS, lead of an eight-person team at a 230-person trading app. Adopted The Composable Architecture two years ago and has since written a couple of code generators to cut down the reducer boilerplate. Spent the autumn debating whether to push the next phase toward Observable instead. Comes for the wave architecture talk because TCA's mental model lines up suspiciously well with state-machine framing, and the Kotlin to Swift export session because his BFF colleagues keep dropping hints about shared client logic."
+  },
+  {
+    "id": "p_mobius_77",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Compose", "Form Inputs", "Validation"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Architecture"],
+    "background": "Seven years in Android, at a 170-person digital insurance product. Owns the multi-step claim filing flow with eighteen forms, file uploads, and conditional branching. Spent the autumn rebuilding the validation layer to be testable in isolation from the UI. Comes for the SwiftUI Scroll and Text talk to see how iOS colleagues handle their analogous problem, and for the BDUI cost session because the product team has been asking whether forms should be server-driven."
+  },
+  {
+    "id": "p_mobius_78",
+    "role": "Mobile UX Designer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Motion Design", "Design Tokens", "Figma Variables"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Trends"],
+    "background": "Nine years in design, seven on mobile. At a marketplace with eighty mobile engineers, owns the motion system and the relationship with the engineering platform team. Recently shipped a transition library that uses Figma Variables for timing tokens, generated to iOS and Android consumable form. Comes for the live picture in BDUI talk because cross-platform animation contracts are a sore point, and the design system tools session — there is a strong chance she will pick up tactical ideas to bring back to the engineering platform team."
+  },
+  {
+    "id": "p_mobius_79",
+    "role": "Backend for Mobile Engineer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["gRPC", "Protobuf", "API Versioning"],
+    "preferred_topics": ["Infrastructure", "Architecture"],
+    "background": "Five years in backend, the last three on the mobile-facing API at a 200-person ride-sharing app. Maintains a gRPC service that streams ride state to driver and rider apps, and has been driving a deprecation cycle for an old REST endpoint that still serves ten percent of installs. Comes for the BFF and BDUI talk because the team is debating whether to introduce a thin BFF in front of the gRPC services, and the file upload session — the proof-of-ride photo flow has been spawning support tickets every release."
+  },
+  {
+    "id": "p_mobius_80",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "smallish-startup",
+    "interests": ["SwiftUI", "Subscriptions", "ASO"],
+    "preferred_topics": ["Product Quality", "Trends"],
+    "background": "Eight years in iOS, the last two as the second engineer at a four-person startup shipping a habit-tracking app for parents and kids. Owns the entire client and half the App Store presence, runs paywall experiments through RevenueCat, and has been quietly profitable for fourteen months. Recently shipped a Family Sharing rollout that grew DAU by thirty percent. Comes for the indie hacker path talk because the speaker is one of the few people he can trade real numbers with, and the Privacy-First AI on iOS session because parents keep asking for an offline assistant feature."
+  },
+  {
+    "id": "p_mobius_81",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Aurora OS", "Compose Multiplatform", "QtBindings"],
+    "preferred_topics": ["Trends", "Architecture"],
+    "background": "Eight years in Android, the last year on a Compose Multiplatform pilot at a 130-person company building a corporate communication tool targeting Aurora OS for the government segment. Spent the autumn wrestling with QtBindings and the differences between Compose on JVM and Compose on Aurora's native renderer. Comes for the KMP for Aurora OS talk because it is the closest thing to documentation that exists publicly, and the Flutter CLI for Aurora OS session to compare the maturity of the two cross-platform ecosystems for the same target."
+  },
+  {
+    "id": "p_mobius_82",
+    "role": "Mobile Performance Engineer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Perfetto", "Instruments", "Cold Start"],
+    "preferred_topics": ["Under the Hood", "General"],
+    "background": "Ten years in mobile, the last four on a performance platform team at a marketplace. Builds the in-house tooling that captures Perfetto and Instruments traces from real-device sessions and surfaces regressions to feature teams. Recently caught a cold start regression that turned out to be a JSON parser allocating in a tight loop during deserialization. Comes for the smart device acceleration talk because the metrics methodology lines up with his work, and the State of Mobile Dev session because performance tooling rarely gets a seat at the TechRadar table and he wants to see what is rising."
+  },
+  {
+    "id": "p_mobius_83",
+    "role": "iOS Middle Developer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["SwiftUI", "CoreLocation", "Geofencing"],
+    "preferred_topics": ["Product Quality", "Under the Hood"],
+    "background": "Four years in iOS, at a 22-person startup building a location-aware reminders app. Has been chasing edge cases where geofence callbacks fire late on iOS 17 background launches, especially when Low Power Mode is on. Wrote a custom test harness that simulates location events deterministically. Comes for the consistent cache between offline and online talk because reminder data has to survive offline-to-online transitions cleanly, and the indie hacker path session — the founder has been pushing him to publish a personal app on the side."
+  },
+  {
+    "id": "p_mobius_84",
+    "role": "Android Junior Developer",
+    "experience": "junior",
+    "company_size": "smallish-startup",
+    "interests": ["Kotlin", "Compose", "Material 3"],
+    "preferred_topics": ["General", "UX/UI in Mobile Development"],
+    "background": "Seven months in Android at a 14-person startup building a community marketplace for plant swaps. Just shipped his first independent feature, a saved-search list with notifications, and right after that ran into his first set of accessibility complaints. Still confused by Compose recomposition rules and has a notebook full of questions for the conference. Comes to Mobius for the design system tools talk because the team has nothing resembling a design system yet, and the will-you-need-this-after-interview session to figure out which study topics actually pay off in real projects."
+  },
+  {
+    "id": "p_mobius_85",
+    "role": "Healthtech Mobile Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["HealthKit", "Apple Watch", "Continuous Glucose Monitoring"],
+    "preferred_topics": ["Biohacking", "Under the Hood"],
+    "background": "Eight years in iOS, the last three at a 160-person diabetes care company shipping a companion app for continuous glucose monitors. Owns the integration between sensor BLE streams, HealthKit writes, and the Apple Watch complication. Recently survived an FDA submission cycle without missing a deadline. Comes specifically for the biohacking talk because the company blog needs critical content on hype versus real signal, and the Live Caller ID talk because the privacy primitives mentioned in the abstract are surprisingly relevant to health data handling."
+  },
+  {
+    "id": "p_mobius_86",
+    "role": "Android Lead",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["Hiring", "Performance Calibration", "Engineering Culture"],
+    "preferred_topics": ["General", "Trends"],
+    "background": "Thirteen years in Android, lead of an eighteen-person org at a bank with two consumer apps and an SME app. Spent the autumn restructuring promotion calibration after feedback that the previous round felt opaque. Currently writing a hiring rubric that explicitly separates code style from problem solving. Comes for the templating in the IDE talk because he is championing exactly that practice with reluctant teams, and the State of Mobile Dev session because the TechRadar slice is a useful data point in next year's tech direction memo."
+  },
+  {
+    "id": "p_mobius_87",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["WebRTC", "Audio", "VoIP"],
+    "preferred_topics": ["Under the Hood", "Product Quality"],
+    "background": "Seven years in iOS, on a 180-person team shipping a telemedicine app with video consultations. Owns the WebRTC layer and the in-call audio routing through AVAudioSession. Recently solved a long-standing crackling bug that turned out to be caused by AirPods firmware versions interacting badly with a sample-rate switch. Comes for the Live Caller ID talk because the protocol stack and CallKit material overlap heavily with his work, and the Crash Reporting 101 session because audio session crashes have been the hardest category to attribute properly."
+  },
+  {
+    "id": "p_mobius_88",
+    "role": "DevOps for Mobile",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["GitHub Actions", "Mac Stadium", "Code Signing"],
+    "preferred_topics": ["Infrastructure", "Under the Hood"],
+    "background": "Five years in DevOps, the last two specifically on mobile pipelines at a 200-person SaaS that ships eight iOS and Android apps from a shared monorepo. Maintains a fleet of self-hosted Mac runners and a custom code-signing service that wraps fastlane match. Spent the autumn migrating signing for a new app to Apple's recent automatic provisioning flow. Comes for the substituting dependencies talk because the workflow could save him weeks of PR cycle time, and the Crash Reporting 101 session because his pipeline currently dumps DSYMs in three different places."
+  },
+  {
+    "id": "p_mobius_89",
+    "role": "Mobile ML Engineer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["ONNX Runtime", "Whisper", "Edge Inference"],
+    "preferred_topics": ["Trends", "Under the Hood"],
+    "background": "Three years in ML on mobile, at a 28-person startup building a voice journaling app. Runs a quantized Whisper-tiny on device for transcription and is currently evaluating a 7B parameter LLM for summary generation that runs locally on recent iPhones. Spent the autumn benchmarking ONNX Runtime against Core ML and MLX. Comes for the local LLMs on phone talk because the speaker covers exactly her stack, and the Privacy-First AI on iOS session because the on-device privacy story is one of the main selling points to early adopters."
+  },
+  {
+    "id": "p_mobius_90",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "midsize",
+    "interests": ["Combine", "WidgetKit", "App Intents"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Under the Hood"],
+    "background": "Seven years in iOS, at a 150-person to-do and calendar app. Owns the WidgetKit surface and the App Intents integration with Shortcuts and Siri. Last release added an interactive widget that lets users complete tasks without opening the app, which required a painful round of timeline-budget tuning. Comes for the widget development on Android talk to compare cross-platform pitfalls, and the SwiftUI Scroll and Text session because the agenda widget content is text-heavy and still doesn't size nicely on iPad."
+  },
+  {
+    "id": "p_mobius_91",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Compose", "Accessibility", "TalkBack"],
+    "preferred_topics": ["UX/UI in Mobile Development", "Product Quality"],
+    "background": "Eight years in Android, the last three on the accessibility platform team at a bank. Audits Compose accessibility semantics across product squads, maintains a TalkBack regression suite that runs on every release branch. Spent the autumn building a tool that flags missing content descriptions during static analysis. Comes for the design system tools talk because the team needs better accessibility tooling at the design layer, and the BDUI cost session because the server-driven UI engine is the main bottleneck for accessibility coverage right now."
+  },
+  {
+    "id": "p_mobius_92",
+    "role": "Mobile Architect",
+    "experience": "lead/principal",
+    "company_size": "enterprise",
+    "interests": ["Modular Architecture", "Dependency Injection", "Feature Toggles"],
+    "preferred_topics": ["Architecture", "Infrastructure"],
+    "background": "Sixteen years in mobile, mobile architect at a large oil and gas major that ships an internal field-operations app and a public consumer app from related codebases. Recently published an internal RFC on splitting the shared core into independently versioned modules with explicit contracts. Spent the autumn arguing with three senior engineers about whether to ban runtime DI in favor of compile-time wiring. Comes for the wave architecture talk because the framing speaks to the same trade-offs his RFC tries to address, and the monolith breakup at Yandex Smena session as a war-story comparison."
+  },
+  {
+    "id": "p_mobius_93",
+    "role": "iOS Middle Developer",
+    "experience": "middle",
+    "company_size": "midsize",
+    "interests": ["SwiftUI", "Push Notifications", "Deep Links"],
+    "preferred_topics": ["Product Quality", "Infrastructure"],
+    "background": "Four years in iOS, at a 200-person online education service. Owns the push and deep link plumbing, has been chasing a sneaky bug where universal links from search results sometimes drop the user on the wrong screen if the app is cold-launched. Spent the autumn rewriting the deep link router to be testable in isolation. Comes for the Crash Reporting 101 talk because deep link crashes are a recurring category, and the open source contribution session because she has been eyeing a small fix to a popular deep linking library for her first PR."
+  },
+  {
+    "id": "p_mobius_94",
+    "role": "iOS Junior Developer",
+    "experience": "junior",
+    "company_size": "smallish-startup",
+    "interests": ["SwiftUI", "Combine", "Xcode"],
+    "preferred_topics": ["General", "Under the Hood"],
+    "background": "Six months in iOS at a 20-person startup that ships a receipt-scanning app for freelancers, joined right after finishing a part-time iOS course. Writes simple SwiftUI screens for the settings and history sections while the senior developer handles the camera pipeline. Still gets confused by Combine subscription lifetimes and keeps a notebook with diagrams. Comes to Mobius to gather an orientation map of the industry, listen to the will-you-need-this-after-interview talk, and pick a couple of advanced topics worth studying over the next half-year."
+  },
+  {
+    "id": "p_mobius_95",
+    "role": "iOS Tech Lead",
+    "experience": "lead/principal",
+    "company_size": "large",
+    "interests": ["Modularization", "Tuist", "Build Time"],
+    "preferred_topics": ["Infrastructure", "Architecture"],
+    "background": "Thirteen years in iOS, tech lead of a fifteen-person team at a media holding shipping three iOS apps from a Tuist-managed monorepo. Spent the autumn pulling apart a god-module that all three apps were transitively pulling into release builds, cutting binary size by sixty megabytes. Comes for the SwiftLint at scale talk because the same hierarchy approach is exactly what his linter config needs, and the substituting dependencies session because the equivalent on the SPM side is high on his backlog."
+  },
+  {
+    "id": "p_mobius_96",
+    "role": "Android Senior Developer",
+    "experience": "senior",
+    "company_size": "enterprise",
+    "interests": ["Compose", "WebView", "Hybrid"],
+    "preferred_topics": ["Product Quality", "Under the Hood"],
+    "background": "Nine years in Android, the last four at a large insurance holding with a hybrid Android app where a third of the screens are still WebView-based. Spent the autumn hardening the WebView bridge after a pentest flagged a JavaScriptInterface that exposed too much. Currently driving a gradual migration of the highest-value WebView screens to Compose. Comes for the attack scenarios through a hacker's eyes talk because the speaker covers WebView vectors his team has been arguing about, and the RRO resource protection session as a complementary defense angle worth evaluating."
+  },
+  {
+    "id": "p_mobius_97",
+    "role": "Cross-platform Developer",
+    "experience": "middle",
+    "company_size": "smallish-startup",
+    "interests": ["KMP", "Compose Multiplatform", "Ktor"],
+    "preferred_topics": ["Trends", "Architecture"],
+    "background": "Three years in Kotlin Multiplatform, at a 30-person startup building a peer-to-peer language tutoring marketplace. The shared module covers booking, payments, and chat state, with native UI on iOS and Compose Multiplatform on Android. Currently evaluating whether to swap the iOS UI to CMP next year. Comes for the round table on KMP at X5 to gather production playbooks beyond his own startup scale, and the Java-Swift interop talk because the iOS team has been complaining about the generated Kotlin headers for two months running."
+  },
+  {
+    "id": "p_mobius_98",
+    "role": "iOS Senior Developer",
+    "experience": "senior",
+    "company_size": "large",
+    "interests": ["Swift", "Algorithms", "Search Ranking"],
+    "preferred_topics": ["Under the Hood", "Architecture"],
+    "background": "Nine years in iOS, on the search team of a large e-commerce platform. Implements client-side ranking heuristics that personalize results before the server response arrives, with a strict latency budget. Spent the autumn migrating a long-standing trie implementation to a more memory-efficient structure because the autocomplete cache had been crashing on devices with low free RAM. Comes for the when-structs-aren't-your-bro talk because it speaks directly to his binary-size and memory tradeoffs, and the video feed techniques session because the search results carousel borrows the same scrolling patterns."
+  },
+  {
+    "id": "p_mobius_99",
+    "role": "Android Middle Developer",
+    "experience": "middle",
+    "company_size": "large",
+    "interests": ["Compose", "Localization", "Pluralization"],
+    "preferred_topics": ["UX/UI in Mobile Development", "General"],
+    "background": "Four years in Android, on a localization-platform team at a global travel app supporting twenty-three languages. Owns the Compose-side i18n pipeline and a custom tooling layer that catches plural-form mistakes before merge. Recently shipped right-to-left support for Arabic and Hebrew, which exposed a long tail of layout bugs in third-party components. Comes for the SwiftUI Scroll and Text talk because text rendering quirks rhyme across platforms, and the design system tools session because the localization team and the design team have been arguing over token ownership."
+  },
+  {
+    "id": "p_mobius_100",
+    "role": "iOS CTO",
+    "experience": "lead/principal",
+    "company_size": "smallish-startup",
+    "interests": ["Founder Engineering", "Subscriptions", "ASO"],
+    "preferred_topics": ["Trends", "General"],
+    "background": "Technical co-founder of a seven-person startup shipping a meditation and focus app that has crossed half a million downloads. Writes iOS code three days a week, deals with subscription tax accounting on the fourth, and runs investor updates on the fifth. Spent the autumn shipping an Apple Watch companion that pushed retention up noticeably. Comes for the State of Mobile Dev talk because the TechRadar data feeds into next year's hiring plan, and the local LLMs on phone session because an offline assistant feature could be the wedge that differentiates the next major release."
+  }
+]
